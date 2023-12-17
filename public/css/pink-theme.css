@@ -4772,6 +4772,9 @@ span.sm-info {
 .logo-white,
 .logo-black {
   display: block;
+  height: 70px;
+  display: flex;
+  align-items: center;
 }
 
 .navbar-light .logo-black,

@@ -26,6 +26,7 @@ export default function Header({
             <span className="smllogo">
               <img src="/images/logo-pink.png" alt="mobile-logo" />
             </span>
+
             <a
               id="wsnavtoggle"
               className="wsanimated-arrow"
@@ -39,7 +40,7 @@ export default function Header({
             <div className="wsmainwp clearfix">
               {/* HEADER BLACK LOGO */}
               <div className="desktoplogo">
-                <Link href="#hero-1" className="logo-black">
+                <Link href="/" className="logo-black">
                   <img
                     className="light-theme-img"
                     src="/images/logo-pink.png"

@@ -6,6 +6,8 @@ import Breadcrumb from "./Breadcrumb";
 
 import Footer from "./footer/Footer";
 import Header from "./header/Header";
+import PageHead from "./PageHead";
+const WOW = require("wowjs");
 
 export default function Layout({ breadcrumbTitle, children, headerCls }: any) {
   const [scroll, setScroll] = useState(false);
@@ -19,8 +21,6 @@ export default function Layout({ breadcrumbTitle, children, headerCls }: any) {
   };
 
   useEffect(() => {
-    const WOW = require("wowjs");
-
     // Use type assertion to let TypeScript know that 'wow' exists on the window object
     (window as any).wow = new WOW.WOW({
       live: false,
@@ -30,18 +30,18 @@ export default function Layout({ breadcrumbTitle, children, headerCls }: any) {
 
     document.addEventListener("scroll", () => {
       const scrollCheck = window.scrollY > 100;
-      if (scrollCheck !== scroll) {
-        setScroll(scrollCheck);
-      }
+      setScroll(scrollCheck);
     });
   }, []);
   return (
     <>
+      <PageHead headTitle={""} />
+
       <div id="page" className="page font--jakarta">
         <Header
-          scroll={true}
-          isMobileMenu={false}
-          handleMobileMenu={false}
+          scroll={scroll}
+          isMobileMenu={isMobileMenu}
+          handleMobileMenu={handleMobileMenu}
           headerCls={headerCls}
         />
 

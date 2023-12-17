@@ -1,6 +1,7 @@
+/* eslint-disable @next/next/no-page-custom-font */
 import type { Metadata } from "next";
 import "./globals.css";
-import { inter, rubik } from "./font";
+import { inter, rubik, Jakarta } from "./font";
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -13,15 +14,27 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={inter.className}>
+    <html lang="en">
       <head>
         <link
           rel="shortcut icon"
           href="/images/favicon.ico"
           type="image/x-icon"
         />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap"
+          rel="stylesheet"
+        />
+        <link
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+          rel="stylesheet"
+        />
       </head>
-      <body className={rubik.className}>{children}</body>
+      <body>{children}</body>
     </html>
   );
 }
