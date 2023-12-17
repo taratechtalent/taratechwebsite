@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
 export default function Team() {
@@ -515,8 +516,9 @@ export default function Team() {
                         </h2>
                         {/* Text */}
                         <p className="p-lg">
-                          We're constantly looking for talented people to join
-                          our team. Don't hesitate to get in touch with us
+                          {`We're`} constantly looking for talented people to
+                          join our team. {`Don't`} hesitate to get in touch with
+                          us
                         </p>
                         {/* Button */}
                         <Link
@@ -658,7 +660,7 @@ export default function Team() {
                       <div className="banner-4-txt text-center">
                         {/* Title */}
                         <h2 className="s-46 w-700">
-                          We can't wait to meet you
+                          We {`can't`} wait to meet you
                         </h2>
                         {/* Button */}
                         <Link

@@ -24,7 +24,7 @@ export default function Banner() {
                       href="/signup-1"
                       className="btn r-04 btn--theme hover--tra-white"
                     >
-                      Get srarted - it's free
+                      Get srarted - {`it's`} free
                     </Link>
                     {/* Button Text */}
                     <p className="p-sm btn-txt ico-15">

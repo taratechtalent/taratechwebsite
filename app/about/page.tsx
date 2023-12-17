@@ -279,13 +279,13 @@ export default function About() {
                     <h2 className="s-50 w-700">Henry Adams</h2>
                     {/* Text */}
                     <p className="p-lg">
-                      "Sodales tempor sapien diam purus ipsum quaerat and volute
+                      Sodales tempor sapien diam purus ipsum quaerat and volute
                       fusce a congue laoreet turpis neque diam auctor turpis
                       vitae dolor magna luctus placerat neque ipsum fusce cursus
                       ligula cursus purus vitae purus and ipsum suscipit. Nemo
                       ipsam cubilia donec turpis undo egestas ipsum a purus
                       sapien ultrice aliquam lacus and quaerat an ipsum augue
-                      turpis sapien cursus congue augue"
+                      turpis sapien cursus congue augue
                     </p>
                   </div>
                 </div>{" "}

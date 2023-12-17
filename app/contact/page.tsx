@@ -19,7 +19,7 @@ export default function Contact() {
                 <div className="col-md-10 col-lg-9">
                   <div className="section-title text-center mb-80">
                     {/* Title */}
-                    <h2 className="s-52 w-700">Questions? Let's Talk</h2>
+                    <h2 className="s-52 w-700">Questions? {`Let's`} Talk</h2>
                     {/* Text */}
                     <p className="p-lg">
                       Want to learn more about Martex, get a quote, or speak

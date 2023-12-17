@@ -30,7 +30,7 @@ export default function Term() {
                   </h4>
                   {/* Text */}
                   <p>
-                    Donec sodales nibh vel (the <span>"Terms"</span>) aliquet
+                    Donec sodales nibh vel (the <span>Terms</span>) aliquet
                     tristique purus justo suscipit mauris tempus sed laoreet
                     nulla ante purus. Donec dolor and magna undo suscipit magna
                     at tortor laoreet dignissim, undo porttitor massa quisque

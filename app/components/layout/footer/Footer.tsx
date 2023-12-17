@@ -67,7 +67,7 @@ export default function Footer() {
                   </li>
                   <li>
                     <p>
-                      <Link href="/download">What's New</Link>
+                      <Link href="/download">{`What's`} New</Link>
                     </p>
                   </li>
                   <li>

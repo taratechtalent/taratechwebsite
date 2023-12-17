@@ -468,13 +468,13 @@ export default function Career() {
                     <h2 className="s-48 w-700">Henry Adams</h2>
                     {/* Text */}
                     <p className="p-lg mb-0">
-                      "Sodales tempor sapien diam purus ipsum quaerat and volute
+                      Sodales tempor sapien diam purus ipsum quaerat and volute
                       fusce a congue laoreet turpis neque diam auctor turpis
                       vitae dolor magna luctus placerat neque ipsum fusce cursus
                       ligula cursus purus vitae purus and ipsum suscipit. Nemo
                       ipsam cubilia donec turpis undo egestas ipsum a purus
                       sapien ultrice aliquam lacus and quaerat an ipsum augue
-                      turpis sapien cursus congue augue"
+                      turpis sapien cursus congue augue
                     </p>
                   </div>
                 </div>{" "}
@@ -611,8 +611,9 @@ export default function Career() {
                         </h2>
                         {/* Text */}
                         <p className="p-lg">
-                          We're constantly looking for talented people to join
-                          our team. Don't hesitate to get in touch with us
+                          {`We're`} constantly looking for talented people to
+                          join our team.{` Don't`} hesitate to get in touch with
+                          us
                         </p>
                         {/* Button */}
                         <Link
