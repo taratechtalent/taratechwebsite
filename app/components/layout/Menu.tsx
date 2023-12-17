@@ -59,8 +59,8 @@ export default function Menu() {
           </Link>
         </li>
         <li className="nl-simple">
-          <Link href="#features-6" className="h-link">
-            Features
+          <Link href="/help" className="h-link">
+            Help
           </Link>
         </li>
         {/* MEGAMENU */}
