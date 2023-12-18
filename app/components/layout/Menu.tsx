@@ -7,11 +7,11 @@ export default function Menu() {
         {/* DROPDOWN SUB MENU */}
         <li>
           <Link href="/" className="h-link">
-            About <span className="wsarrow" />
+            Tara Talent <span className="wsarrow" />
           </Link>
           <ul className="sub-menu">
             <li>
-              <Link href="#lnk-1">Why Martex?</Link>
+              <Link href="#lnk-1">Why Us</Link>
             </li>
             <li>
               <Link href="#lnk-2">Integrations</Link>
@@ -29,13 +29,8 @@ export default function Menu() {
         </li>
 
         <li className="nl-simple">
-          <Link href="/team" className="h-link">
-            Team
-          </Link>
-        </li>
-        <li className="nl-simple">
           <Link href="/project" className="h-link">
-            Project
+            Services
           </Link>
         </li>
         <li className="nl-simple">
@@ -43,34 +38,32 @@ export default function Menu() {
             Career
           </Link>
         </li>
-        <li className="nl-simple">
-          <Link href="/about" className="h-link">
-            About
+        <li>
+          <Link href="#" className="h-link">
+            About us <span className="wsarrow" />
           </Link>
+          <ul className="sub-menu">
+            <li>
+              <Link href="/about">About us</Link>
+            </li>
+            <li>
+              <Link href="/team">Leadership team</Link>
+            </li>
+            <li>
+              <Link href="#">Top 5% telent</Link>
+            </li>
+          </ul>
         </li>
-        <li className="nl-simple">
-          <Link href="/contact" className="h-link">
-            Contact
-          </Link>
-        </li>
-        <li className="nl-simple">
-          <Link href="/term" className="h-link">
-            Term
-          </Link>
-        </li>
-        <li className="nl-simple">
-          <Link href="/help" className="h-link">
-            Help
-          </Link>
-        </li>
-        {/* MEGAMENU */}
+        {/* SIGN IN LINK */}
 
-        {/* END MEGAMENU */}
-        {/* SIMPLE NAVIGATION LINK */}
-        {/* SIMPLE NAVIGATION LINK */}
-        <li className="nl-simple">
-          <Link href="/faq" className="h-link">
-            FAQs
+        {/* SIGN UP BUTTON */}
+        <li className="nl-simple ">
+          <Link
+            href="/signup-2"
+            className="btn r-04 btn--theme hover--tra-white last-link ml-20"
+            style={{ marginLeft: "60px" }}
+          >
+            Book a Call
           </Link>
         </li>
       </ul>

@@ -36,7 +36,7 @@ export default function Team() {
                         <div className="hover-overlay">
                           <img
                             className="img-fluid"
-                            src="/images/team-1.jpg"
+                            src="/images/team/amin.png"
                             alt="team-member-foto"
                           />
                           <div className="item-overlay" />
@@ -46,7 +46,7 @@ export default function Team() {
                       <div className="team-member-data">
                         {/* Data */}
                         <h6 className="s-20 color--black w-700">
-                          Jonathan Barnes
+                          Amin Derakhshan
                         </h6>
                         <p className="color--grey">Founder and CEO</p>
                         {/* Social Links */}
@@ -68,13 +68,13 @@ export default function Team() {
                   {/* END TEAM MEMBER #1 */}
                   {/* TEAM MEMBER #2 */}
                   <div className="col">
-                    <div id="tm-2-2" className="team-member mb-60 wow fadeInUp">
+                    <div id="tm-2-3" className="team-member mb-60 wow fadeInUp">
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
                           <img
                             className="img-fluid"
-                            src="/images/team-2.jpg"
+                            src="/images/team/naser.png"
                             alt="team-member-foto"
                           />
                           <div className="item-overlay" />
@@ -84,9 +84,9 @@ export default function Team() {
                       <div className="team-member-data">
                         {/* Data */}
                         <h6 className="s-20 color--black w-700">
-                          Jaime Fletcher
+                          Naser Derakhshan
                         </h6>
-                        <p className="color--grey">Senior Software Developer</p>
+                        <p className="color--grey">Founder and CEO</p>
                         {/* Social Links */}
                         <ul className="tm-social ico-20 clearfix">
                           <li>
@@ -105,40 +105,6 @@ export default function Team() {
                   </div>{" "}
                   {/* END TEAM MEMBER #2 */}
                   {/* TEAM MEMBER #3 */}
-                  <div className="col">
-                    <div id="tm-2-3" className="team-member mb-60 wow fadeInUp">
-                      {/* Team Member Photo */}
-                      <div className="team-member-photo r-14">
-                        <div className="hover-overlay">
-                          <img
-                            className="img-fluid"
-                            src="/images/team-3.jpg"
-                            alt="team-member-foto"
-                          />
-                          <div className="item-overlay" />
-                        </div>
-                      </div>
-                      {/* Team Member Data */}
-                      <div className="team-member-data">
-                        {/* Data */}
-                        <h6 className="s-20 color--black w-700">Les Bakker</h6>
-                        <p className="color--grey">Software Engineer</p>
-                        {/* Social Links */}
-                        <ul className="tm-social ico-20 clearfix">
-                          <li>
-                            <Link href="#">
-                              <span className="flaticon-facebook" />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="#">
-                              <span className="flaticon-twitter" />
-                            </Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>{" "}
                   {/* END TEAM MEMBER #3 */}
                   {/* TEAM MEMBER #4 */}
                   <div className="col">
@@ -148,7 +114,7 @@ export default function Team() {
                         <div className="hover-overlay">
                           <img
                             className="img-fluid"
-                            src="/images/team-4.jpg"
+                            src="/images/team/hassani.png"
                             alt="team-member-foto"
                           />
                           <div className="item-overlay" />
@@ -158,9 +124,9 @@ export default function Team() {
                       <div className="team-member-data">
                         {/* Data */}
                         <h6 className="s-20 color--black w-700">
-                          Alyssa Garrison
+                          Fatemeh Hassani
                         </h6>
-                        <p className="color--grey">Web Development</p>
+                        <p className="color--grey">Head of Talent Operations</p>
                         {/* Social Links */}
                         <ul className="tm-social ico-20 clearfix">
                           <li>
@@ -186,7 +152,7 @@ export default function Team() {
                         <div className="hover-overlay">
                           <img
                             className="img-fluid"
-                            src="/images/team-5.jpg"
+                            src="/images/team/ahmadian.png"
                             alt="team-member-foto"
                           />
                           <div className="item-overlay" />
@@ -196,9 +162,9 @@ export default function Team() {
                       <div className="team-member-data">
                         {/* Data */}
                         <h6 className="s-20 color--black w-700">
-                          Charlotte Johnson
+                          Seyed Mohamed Ahmadian
                         </h6>
-                        <p className="color--grey">Content Manager</p>
+                        <p className="color--grey">CTO</p>
                         {/* Social Links */}
                         <ul className="tm-social ico-20 clearfix">
                           <li>
@@ -214,17 +180,15 @@ export default function Team() {
                         </ul>
                       </div>
                     </div>
-                  </div>{" "}
-                  {/* END TEAM MEMBER #5 */}
-                  {/* TEAM MEMBER #6 */}
+                  </div>
                   <div className="col">
-                    <div id="tm-2-6" className="team-member mb-60 wow fadeInUp">
+                    <div id="tm-2-5" className="team-member mb-60 wow fadeInUp">
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
                         <div className="hover-overlay">
                           <img
                             className="img-fluid"
-                            src="/images/team-6.jpg"
+                            src="/images/team/farajian.png"
                             alt="team-member-foto"
                           />
                           <div className="item-overlay" />
@@ -234,9 +198,11 @@ export default function Team() {
                       <div className="team-member-data">
                         {/* Data */}
                         <h6 className="s-20 color--black w-700">
-                          Olivia Steiner
+                          Mina Farajian
                         </h6>
-                        <p className="color--grey">Customers Manager</p>
+                        <p className="color--grey">
+                          Director of Talent Acquisition
+                        </p>
                         {/* Social Links */}
                         <ul className="tm-social ico-20 clearfix">
                           <li>
@@ -246,251 +212,13 @@ export default function Team() {
                           </li>
                           <li>
                             <Link href="#">
-                              <span className="flaticon-twitter" />
+                              <span className="flaticon-dribbble" />
                             </Link>
                           </li>
                         </ul>
                       </div>
                     </div>
-                  </div>{" "}
-                  {/* END TEAM MEMBER #6 */}
-                  {/* TEAM MEMBER #7 */}
-                  <div className="col">
-                    <div id="tm-2-7" className="team-member mb-60 wow fadeInUp">
-                      {/* Team Member Photo */}
-                      <div className="team-member-photo r-14">
-                        <div className="hover-overlay">
-                          <img
-                            className="img-fluid"
-                            src="/images/team-7.jpg"
-                            alt="team-member-foto"
-                          />
-                          <div className="item-overlay" />
-                        </div>
-                      </div>
-                      {/* Team Member Data */}
-                      <div className="team-member-data">
-                        {/* Data */}
-                        <h6 className="s-20 color--black w-700">
-                          Charles Fairless
-                        </h6>
-                        <p className="color--grey">Customers Manager</p>
-                        {/* Social Links */}
-                        <ul className="tm-social ico-20 clearfix">
-                          <li>
-                            <Link href="#">
-                              <span className="flaticon-facebook" />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="#">
-                              <span className="flaticon-twitter" />
-                            </Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>{" "}
-                  {/* END TEAM MEMBER #7 */}
-                  {/* TEAM MEMBER #8 */}
-                  <div className="col">
-                    <div id="tm-2-8" className="team-member mb-60 wow fadeInUp">
-                      {/* Team Member Photo */}
-                      <div className="team-member-photo r-14">
-                        <div className="hover-overlay">
-                          <img
-                            className="img-fluid"
-                            src="/images/team-8.jpg"
-                            alt="team-member-foto"
-                          />
-                          <div className="item-overlay" />
-                        </div>
-                      </div>
-                      {/* Team Member Data */}
-                      <div className="team-member-data">
-                        {/* Data */}
-                        <h6 className="s-20 color--black w-700">
-                          Nancy Taylor
-                        </h6>
-                        <p className="color--grey">Head of Marketing</p>
-                        {/* Social Links */}
-                        <ul className="tm-social ico-20 clearfix">
-                          <li>
-                            <Link href="#">
-                              <span className="flaticon-facebook" />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="#">
-                              <span className="flaticon-linkedin-logo" />
-                            </Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>{" "}
-                  {/* END TEAM MEMBER #8 */}
-                  {/* TEAM MEMBER #9 */}
-                  <div className="col">
-                    <div id="tm-2-9" className="team-member mb-60 wow fadeInUp">
-                      {/* Team Member Photo */}
-                      <div className="team-member-photo r-14">
-                        <div className="hover-overlay">
-                          <img
-                            className="img-fluid"
-                            src="/images/team-9.jpg"
-                            alt="team-member-foto"
-                          />
-                          <div className="item-overlay" />
-                        </div>
-                      </div>
-                      {/* Team Member Data */}
-                      <div className="team-member-data">
-                        {/* Data */}
-                        <h6 className="s-20 color--black w-700">
-                          Robert Walder
-                        </h6>
-                        <p className="color--grey">Product Manager</p>
-                        {/* Social Links */}
-                        <ul className="tm-social ico-20 clearfix">
-                          <li>
-                            <Link href="#">
-                              <span className="flaticon-facebook" />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="#">
-                              <span className="flaticon-twitter" />
-                            </Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>{" "}
-                  {/* END TEAM MEMBER #9 */}
-                  {/* TEAM MEMBER #10 */}
-                  <div className="col">
-                    <div
-                      id="tm-2-10"
-                      className="team-member mb-60 wow fadeInUp"
-                    >
-                      {/* Team Member Photo */}
-                      <div className="team-member-photo r-14">
-                        <div className="hover-overlay">
-                          <img
-                            className="img-fluid"
-                            src="/images/team-10.jpg"
-                            alt="team-member-foto"
-                          />
-                          <div className="item-overlay" />
-                        </div>
-                      </div>
-                      {/* Team Member Data */}
-                      <div className="team-member-data">
-                        {/* Data */}
-                        <h6 className="s-20 color--black w-700">
-                          Michael Green
-                        </h6>
-                        <p className="color--grey">Marketing Manager</p>
-                        {/* Social Links */}
-                        <ul className="tm-social ico-20 clearfix">
-                          <li>
-                            <Link href="#">
-                              <span className="flaticon-facebook" />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="#">
-                              <span className="flaticon-linkedin-logo" />
-                            </Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>{" "}
-                  {/* END TEAM MEMBER #10 */}
-                  {/* TEAM MEMBER #11 */}
-                  <div className="col">
-                    <div
-                      id="tm-2-11"
-                      className="team-member mb-60 wow fadeInUp"
-                    >
-                      {/* Team Member Photo */}
-                      <div className="team-member-photo r-14">
-                        <div className="hover-overlay">
-                          <img
-                            className="img-fluid"
-                            src="/images/team-11.jpg"
-                            alt="team-member-foto"
-                          />
-                          <div className="item-overlay" />
-                        </div>
-                      </div>
-                      {/* Team Member Data */}
-                      <div className="team-member-data">
-                        {/* Data */}
-                        <h6 className="s-20 color--black w-700">
-                          Nadine Adams
-                        </h6>
-                        <p className="color--grey">Marketing Copywriter</p>
-                        {/* Social Links */}
-                        <ul className="tm-social ico-20 clearfix">
-                          <li>
-                            <Link href="#">
-                              <span className="flaticon-facebook" />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="#">
-                              <span className="flaticon-pinterest-logo" />
-                            </Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>{" "}
-                  {/* END TEAM MEMBER #11 */}
-                  {/* TEAM MEMBER #12 */}
-                  <div className="col">
-                    <div
-                      id="tm-2-12"
-                      className="team-member mb-60 wow fadeInUp"
-                    >
-                      {/* Team Member Photo */}
-                      <div className="team-member-photo r-14">
-                        <div className="hover-overlay">
-                          <img
-                            className="img-fluid"
-                            src="/images/team-12.jpg"
-                            alt="team-member-foto"
-                          />
-                          <div className="item-overlay" />
-                        </div>
-                      </div>
-                      {/* Team Member Data */}
-                      <div className="team-member-data">
-                        {/* Data */}
-                        <h6 className="s-20 color--black w-700">
-                          Andrew Barker
-                        </h6>
-                        <p className="color--grey">Product Support Manager</p>
-                        {/* Social Links */}
-                        <ul className="tm-social ico-20 clearfix">
-                          <li>
-                            <Link href="#">
-                              <span className="flaticon-facebook" />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="#">
-                              <span className="flaticon-linkedin-logo" />
-                            </Link>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>{" "}
-                  {/* END TEAM MEMBER #12 */}
+                  </div>
                 </div>{" "}
                 {/* End row */}
               </div>{" "}

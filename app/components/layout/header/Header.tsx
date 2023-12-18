@@ -43,7 +43,7 @@ export default function Header({
                 <Link href="/" className="logo-black">
                   <img
                     className="light-theme-img"
-                    src="/images/logo-pink.png"
+                    src="/images/taralogo.png"
                     alt="logo"
                   />
                   <img

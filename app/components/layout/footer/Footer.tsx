@@ -52,39 +52,6 @@ export default function Footer() {
                 </ul>
               </div>
             </div>{" "}
-            {/* END FOOTER LINKS */}
-            {/* FOOTER LINKS */}
-            <div className="col-sm-4 col-lg-2">
-              <div className="footer-links fl-2">
-                {/* Title */}
-                <h6 className="s-17 w-700">Product</h6>
-                {/* Links */}
-                <ul className="foo-links clearfix">
-                  <li>
-                    <p>
-                      <Link href="/features">Integration</Link>
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      <Link href="/download">{`What's`} New</Link>
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      <Link href="/pricing-1">Pricing</Link>
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      <Link href="/help-center">Help Center</Link>
-                    </p>
-                  </li>
-                </ul>
-              </div>
-            </div>{" "}
-            {/* END FOOTER LINKS */}
-            {/* FOOTER LINKS */}
             <div className="col-sm-4 col-lg-3 col-xl-2">
               <div className="footer-links fl-3">
                 {/* Title */}
@@ -101,48 +68,34 @@ export default function Footer() {
                       <Link href="/privacy">Privacy Policy</Link>
                     </p>
                   </li>
+                </ul>
+              </div>
+            </div>{" "}
+            <div className="col-sm-4 col-lg-2">
+              <div className="footer-links fl-2">
+                {/* Title */}
+                <h6 className="s-17 w-700">Contact</h6>
+                {/* Links */}
+                <ul className="foo-links clearfix">
                   <li>
                     <p>
-                      <Link href="/cookies">Cookie Policy</Link>
+                      <Link href="/contact">Contact us</Link>
+                    </p>
+                  </li>{" "}
+                  <li>
+                    <p>
+                      <Link href="/team">Team</Link>
                     </p>
                   </li>
                   <li>
                     <p>
-                      <Link href="#">Site Map</Link>
+                      <Link href="/faq">FAQ</Link>
                     </p>
                   </li>
                 </ul>
               </div>
-            </div>{" "}
-            {/* END FOOTER LINKS */}
-            {/* FOOTER NEWSLETTER FORM */}
-            <div className="col-sm-10 col-md-8 col-lg-4 col-xl-3">
-              <div className="footer-form">
-                {/* Title */}
-                <h6 className="s-17 w-700">Follow the Best</h6>
-                {/* Newsletter Form Input */}
-                <form className="newsletter-form">
-                  <div className="input-group r-06">
-                    <input
-                      type="email"
-                      className="form-control"
-                      placeholder="Email Address"
-                      required
-                      id="s-email"
-                    />
-                    <span className="input-group-btn ico-15">
-                      <button type="submit" className="btn color--theme">
-                        <span className="flaticon-right-arrow-1" />
-                      </button>
-                    </span>
-                  </div>
-                  {/* Newsletter Form Notification */}
-                  <label htmlFor="s-email" className="form-notification" />
-                </form>
-              </div>
-            </div>{" "}
-            {/* END FOOTER NEWSLETTER FORM */}
-          </div>{" "}
+            </div>
+          </div>
           {/* END FOOTER CONTENT */}
           <hr /> {/* FOOTER DIVIDER LINE */}
           {/* BOTTOM FOOTER */}
