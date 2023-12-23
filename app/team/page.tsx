@@ -275,7 +275,7 @@ export default function Team() {
                         </p>
                         {/* Button */}
                         <Link
-                          href="#careers-1"
+                          href="/book"
                           className="btn r-04 btn--theme hover--tra-white"
                         >
                           Team up for success

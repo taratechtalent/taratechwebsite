@@ -60,7 +60,7 @@ export default function Menu() {
         {/* SIGN UP BUTTON */}
         <li className="nl-simple ">
           <Link
-            href="/signup-2"
+            href="/book"
             className="btn r-04 btn--theme hover--tra-white last-link ml-20"
             style={{ marginLeft: "60px" }}
           >
