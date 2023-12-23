@@ -111,6 +111,40 @@ export default function Team() {
                         <div className="hover-overlay">
                           <img
                             className="img-fluid"
+                            src="/images/team/zeinab.hassani.png"
+                            alt="team-member-foto"
+                          />
+                          <div className="item-overlay" />
+                        </div>
+                      </div>
+                      {/* Team Member Data */}
+                      <div className="team-member-data">
+                        {/* Data */}
+                        <h6 className="s-20 color--black w-700">
+                          Zeinab Hassani
+                        </h6>
+                        <p className="color--grey">Operation Consultant</p>
+                        {/* Social Links */}
+                        <ul className="tm-social ico-20 clearfix">
+                          <li>
+                            <Link
+                              href="https://www.linkedin.com/in/zeinab-hassani-422b678a/"
+                              target="_blank"
+                            >
+                              <span className="flaticon-linkedin-logo" />
+                            </Link>
+                          </li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>{" "}
+                  <div className="col">
+                    <div id="tm-2-4" className="team-member mb-60 wow fadeInUp">
+                      {/* Team Member Photo */}
+                      <div className="team-member-photo r-14">
+                        <div className="hover-overlay">
+                          <img
+                            className="img-fluid"
                             src="/images/team/hassani.png"
                             alt="team-member-foto"
                           />
