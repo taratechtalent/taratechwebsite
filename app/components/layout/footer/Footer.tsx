@@ -12,7 +12,7 @@ export default function Footer() {
               <div className="footer-info">
                 <img
                   className="footer-logo"
-                  src="/images/logo-pink.png"
+                  src="/images/taralogo.png"
                   alt="footer-logo"
                 />
                 <img

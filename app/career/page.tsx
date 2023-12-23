@@ -616,12 +616,14 @@ export default function Career() {
                           us
                         </p>
                         {/* Button */}
-                        <Link
-                          href="mailto:yourdomain@mail.com"
-                          className="btn r-04 btn--theme hover--tra-white"
-                        >
-                          yourdomain@mail.com
-                        </Link>
+                        <div className="w-28 text-center">
+                          <Link
+                            href="mailto:yourdomain@mail.com"
+                            className="btn r-04 btn--theme hover--tra-white w-28"
+                          >
+                            yourdomain@mail.com
+                          </Link>
+                        </div>
                       </div>
                     </div>{" "}
                     {/* END BANNER-12 TEXT */}

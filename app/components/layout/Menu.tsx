@@ -53,6 +53,9 @@ export default function Menu() {
             <li>
               <Link href="#">Top 5% telent</Link>
             </li>
+            <li>
+              <Link href="/contact">Contact Us</Link>
+            </li>
           </ul>
         </li>
         {/* SIGN IN LINK */}

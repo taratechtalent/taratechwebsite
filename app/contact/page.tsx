@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
 export default function Contact() {
@@ -9,6 +10,43 @@ export default function Contact() {
         headerCls="navbar-dark inner-page-header"
       >
         <div>
+          <section className="pt-100 ws-wrapper content-section">
+            <div className="container">
+              <div className="bc-1-wrapper bg--02 bg--fixed r-16">
+                <div className="section-overlay">
+                  <div className="row d-flex align-items-center">
+                    {/* TEXT BLOCK */}
+                    <div className="col-md-6 order-last order-md-2">
+                      <div className="txt-block left-column wow fadeInRight">
+                        {/* Section ID */}
+                        <span className="section-id">Contact us</span>
+                        {/* Title */}
+                        <h2 className="s-46 w-700">
+                          How can we support your needs?
+                        </h2>
+                        {/* Text */}
+                      </div>
+                    </div>{" "}
+                    {/* END TEXT BLOCK */}
+                    {/* IMAGE BLOCK */}
+                    <div className="col-md-6 order-first order-md-2">
+                      <div className="img-block right-column wow fadeInLeft">
+                        <img
+                          className="img-fluid"
+                          src="/images/a2-1.jpg"
+                          alt="content-image"
+                        />
+                      </div>
+                    </div>
+                  </div>{" "}
+                  {/* End row */}
+                </div>{" "}
+                {/* End section overlay */}
+              </div>{" "}
+              {/* End content wrapper */}
+            </div>{" "}
+            {/* End container */}
+          </section>{" "}
           <section
             id="contacts-1"
             className="pb-50 inner-page-hero contacts-section division"
@@ -128,52 +166,99 @@ export default function Contact() {
           {/* NEWSLETTER-1
 			============================================= */}
           <section id="newsletter-1" className="newsletter-section">
-            <div className="newsletter-overlay">
+            <div className="newsletter-overlay bg--02">
               <div className="container">
-                <div className="row d-flex align-items-center row-cols-1 row-cols-lg-2">
+                <div className="row d-flex align-items-center">
                   {/* NEWSLETTER TEXT */}
-                  <div className="col">
-                    <div className="newsletter-txt">
-                      <h4 className="s-34 w-700">
-                        Stay up to date with our news, ideas and updates
-                      </h4>
+                  <div className="col-md-10">
+                    <h4 className="s-34 w-700">
+                      Accelerate your roadmap with a global partner.
+                    </h4>
+                    <div className="w-56 text-center mt-8">
+                      <Link
+                        href="/book"
+                        className="btn  btn--theme hover--tra-white  w-28"
+                      >
+                        Book a Discovery call
+                      </Link>{" "}
                     </div>
                   </div>
-                  {/* NEWSLETTER FORM */}
-                  <div className="col">
-                    <form className="newsletter-form">
-                      <div className="input-group">
-                        <input
-                          type="email"
-                          autoComplete="off"
-                          className="form-control"
-                          placeholder="Your email address"
-                          required
-                          id="s-email"
-                        />
-                        <span className="input-group-btn">
-                          <button
-                            type="submit"
-                            className="btn btn--theme hover--theme"
-                          >
-                            Subscribe Now
-                          </button>
-                        </span>
-                      </div>
-                      {/* Newsletter Form Notification */}
-                      <label htmlFor="s-email" className="form-notification" />
-                    </form>
-                  </div>{" "}
-                  {/* END NEWSLETTER FORM */}
                 </div>{" "}
-                {/* End row */}
               </div>{" "}
-              {/* End container */}
             </div>{" "}
-            {/* End newsletter-overlay */}
           </section>{" "}
-          {/* END NEWSLETTER-1 */}
-          {/* DIVIDER LINE */}
+          <hr className="divider" />
+          <section className="pt-100 ct-02 content-section division mb-40">
+            <div className="container">
+              {/* SECTION CONTENT (ROW) */}
+              <div className="row d-flex align-items-center">
+                {/* IMAGE BLOCK */}
+                <div className="col-md-6">
+                  <div className="txt-block right-column wow fadeInLeft">
+                    {/* Section ID */}
+                    <span className="section-id">
+                      Our Offices Around the World
+                    </span>
+                  </div>
+                  <div className="img-block left-column wow fadeInRight">
+                    <img
+                      className="img-fluid  rounded-md"
+                      src="/images/stanbul.png"
+                      alt="content-image"
+                    />
+                  </div>
+                </div>
+                {/* TEXT BLOCK */}
+                <div className="col-md-6">
+                  <div className="txt-block right-column wow fadeInLeft">
+                    {/* Section ID */}
+
+                    {/* Title */}
+                    <h2 className="s-40 w-700 ">Turkey</h2>
+                    <span className="s-20 w-700">Stanbul</span>
+                    {/* Text */}
+                    <p>
+                      No.61.2, Sultan Selim Mahallesi Eski Buyukdere Caddesi
+                      Istanbul
+                    </p>
+                    {/* Text */}
+                  </div>
+                </div>{" "}
+                {/* END TEXT BLOCK */}
+              </div>{" "}
+              <div className="row d-flex align-items-center mt-20">
+                {/* IMAGE BLOCK */}
+                <div className="col-md-6">
+                  <div className="img-block left-column wow fadeInRight">
+                    <img
+                      className="img-fluid rounded-md"
+                      src="/images/italy.png"
+                      alt="content-image"
+                    />
+                  </div>
+                </div>
+                {/* TEXT BLOCK */}
+                <div className="col-md-6">
+                  <div className="txt-block right-column wow fadeInLeft">
+                    {/* Section ID */}
+
+                    {/* Title */}
+                    <h2 className="s-40 w-700 ">Itlaly</h2>
+                    <span className="s-20 w-700">Sirtori, Lombardy</span>
+                    {/* Text */}
+                    <p>
+                      No.42.3, Vittorio Veneto Quartiere Antica Strada Romana,
+                      Sirtori, Lombardy
+                    </p>
+                    {/* Text */}
+                  </div>
+                </div>{" "}
+                {/* END TEXT BLOCK */}
+              </div>{" "}
+              {/* END SECTION CONTENT (ROW) */}
+            </div>{" "}
+            {/* End container */}
+          </section>{" "}
           <hr className="divider" />
         </div>
       </Layout>
