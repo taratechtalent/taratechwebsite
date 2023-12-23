@@ -32,7 +32,7 @@ export default function Contact() {
                     <div className="col-md-6 order-first order-md-2">
                       <div className="img-block right-column wow fadeInLeft">
                         <img
-                          className="img-fluid"
+                          className="img-fluid   rounded-lg"
                           src="/images/a2-1.jpg"
                           alt="content-image"
                         />
@@ -60,7 +60,7 @@ export default function Contact() {
                     <h2 className="s-52 w-700">Questions? {`Let's`} Talk</h2>
                     {/* Text */}
                     <p className="p-lg">
-                      Want to learn more about Martex, get a quote, or speak
+                      Want to learn more about Taratalent, get a quote, or speak
                       with an expert? Let us know what you are looking for and
                       we’ll get back to you right away
                     </p>
@@ -119,8 +119,8 @@ export default function Contact() {
                           Explain your question in details:{" "}
                         </p>
                         <span>
-                          Your OS version, Martex version &amp; build, steps you
-                          did. Be VERY precise!
+                          Your OS version, Taratalent version &amp; build, steps
+                          you did. Be VERY precise!
                         </span>
                         <textarea
                           className="form-control message"
@@ -140,7 +140,7 @@ export default function Contact() {
                       </div>
                       <div className="contact-form-notice">
                         <p className="p-sm">
-                          We are committed to your privacy. Martex uses the
+                          We are committed to your privacy. Taratalent uses the
                           information you provide us to contact you about our
                           relevant content, products, and services. You may
                           unsubscribe from these communications at any time. For

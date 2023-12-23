@@ -29,9 +29,8 @@ export default function Menu() {
         </li>
 
         <li className="nl-simple">
-          <Link href="/team" className="h-link">
-            {/* <Link href="/project" className="h-link"> */}
-            Services - Team
+          <Link href="/project" className="h-link">
+            Services
           </Link>
         </li>
         <li className="nl-simple">
