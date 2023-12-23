@@ -19,8 +19,9 @@ export default function Team() {
               <div className="row justify-content-center">
                 <div className="col-md-10 col-lg-9">
                   <div className="section-title mb-80">
-                    <h2 className="s-52 w-700">
-                      All we do is dream and craft amazing products
+                    <h2 className="s-52 w-700">Meet Our Visionaries</h2>
+                    <h2 className="s-40 w-700 pt-10">
+                      The Driving Force Behind Our Success
                     </h2>
                   </div>
                 </div>
@@ -52,13 +53,11 @@ export default function Team() {
                         {/* Social Links */}
                         <ul className="tm-social ico-20 clearfix">
                           <li>
-                            <Link href="#">
-                              <span className="flaticon-facebook" />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="#">
-                              <span className="flaticon-twitter" />
+                            <Link
+                              href="https://www.linkedin.com/in/amin-derakhshan/"
+                              target="_blank"
+                            >
+                              <span className="flaticon-linkedin-logo" />
                             </Link>
                           </li>
                         </ul>
@@ -86,17 +85,15 @@ export default function Team() {
                         <h6 className="s-20 color--black w-700">
                           Naser Derakhshan
                         </h6>
-                        <p className="color--grey">Founder and CEO</p>
+                        <p className="color--grey">Devops Consultant</p>
                         {/* Social Links */}
                         <ul className="tm-social ico-20 clearfix">
                           <li>
-                            <Link href="#">
-                              <span className="flaticon-facebook" />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="#">
-                              <span className="flaticon-twitter" />
+                            <Link
+                              href="https://www.linkedin.com/in/naser-derakhshan-51951828/"
+                              target="_blank"
+                            >
+                              <span className="flaticon-linkedin-logo" />
                             </Link>
                           </li>
                         </ul>
@@ -130,13 +127,11 @@ export default function Team() {
                         {/* Social Links */}
                         <ul className="tm-social ico-20 clearfix">
                           <li>
-                            <Link href="#">
-                              <span className="flaticon-facebook" />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="#">
-                              <span className="flaticon-dribbble" />
+                            <Link
+                              href="https://www.linkedin.com/in/fhassani2005/"
+                              target="_blank"
+                            >
+                              <span className="flaticon-linkedin-logo" />
                             </Link>
                           </li>
                         </ul>
@@ -168,13 +163,11 @@ export default function Team() {
                         {/* Social Links */}
                         <ul className="tm-social ico-20 clearfix">
                           <li>
-                            <Link href="#">
-                              <span className="flaticon-facebook" />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="#">
-                              <span className="flaticon-dribbble" />
+                            <Link
+                              href="https://www.linkedin.com/in/ahmadianzadeh/"
+                              target="_blank"
+                            >
+                              <span className="flaticon-linkedin-logo" />
                             </Link>
                           </li>
                         </ul>
@@ -206,13 +199,11 @@ export default function Team() {
                         {/* Social Links */}
                         <ul className="tm-social ico-20 clearfix">
                           <li>
-                            <Link href="#">
-                              <span className="flaticon-facebook" />
-                            </Link>
-                          </li>
-                          <li>
-                            <Link href="#">
-                              <span className="flaticon-dribbble" />
+                            <Link
+                              href="https://www.linkedin.com/in/mina-farajian/"
+                              target="_blank"
+                            >
+                              <span className="flaticon-linkedin-logo" />
                             </Link>
                           </li>
                         </ul>
@@ -239,21 +230,21 @@ export default function Team() {
                     <div className="col-md-7">
                       <div className="banner-12-txt color--white">
                         {/* Title */}
-                        <h2 className="s-45 w-700">
-                          We are looking for talented individuals
+                        <h2 className="s-35 w-700">
+                          Join Us in Crafting a Partnership Where Success Knows
+                          No Bounds
                         </h2>
                         {/* Text */}
                         <p className="p-lg">
-                          {`We're`} constantly looking for talented people to
-                          join our team. {`Don't`} hesitate to get in touch with
-                          us
+                          Your unique perspective and talents are the missing
+                          pieces to our collective success story.
                         </p>
                         {/* Button */}
                         <Link
                           href="#careers-1"
                           className="btn r-04 btn--theme hover--tra-white"
                         >
-                          See open roles
+                          Team up for success
                         </Link>
                       </div>
                     </div>{" "}
@@ -280,122 +271,25 @@ export default function Team() {
           {/* END BANNER-12 */}
           {/* CAREERS-1
 			============================================= */}
-          <section id="careers-1" className="pt-100 pb-60 careers-section">
-            <div className="container">
-              {/* SECTION TITLE */}
-              <div className="row justify-content-center">
-                <div className="col-md-10 col-lg-9">
-                  <div className="section-title mb-70">
-                    {/* Title */}
-                    <h2 className="s-52 w-700">Open Roles at Martex</h2>
-                    {/* Text */}
-                    <p className="p-lg">
-                      We’re building a better way to work, fueled by
-                      transparency, trust, and technology that is a force for
-                      positive change for the hourly workforce
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/* OPEN ROLES */}
-              <div className="row row-cols-1 row-cols-md-2">
-                {/* OPEN ROLE #1 */}
-                <div className="col">
-                  <div className="role-box bg--white-300 r-10">
-                    <Link href="/career-role">
-                      <span>Sales</span>
-                      <h6 className="s-20 w-700">Senior Account Executive</h6>
-                      <p>New York, NY / Full time</p>
-                    </Link>
-                  </div>
-                </div>{" "}
-                {/* END OPEN ROLE #1 */}
-                {/* OPEN ROLE #2 */}
-                <div className="col">
-                  <div className="role-box bg--white-300 r-10">
-                    <Link href="/career-role">
-                      <span>Engineering</span>
-                      <h6 className="s-20 w-700">
-                        Software Engineer, Security
-                      </h6>
-                      <p>Vancouver, British Columbia, Canada / Remote</p>
-                    </Link>
-                  </div>
-                </div>{" "}
-                {/* END OPEN ROLE #2 */}
-                {/* OPEN ROLE #3 */}
-                <div className="col">
-                  <div className="role-box bg--white-300 r-10">
-                    <Link href="/career-role">
-                      <span>Engineering</span>
-                      <h6 className="s-20 w-700">Senior Backend Engineer</h6>
-                      <p>New York, NY / Full time</p>
-                    </Link>
-                  </div>
-                </div>{" "}
-                {/* END OPEN ROLE #3 */}
-                {/* OPEN ROLE #4 */}
-                <div className="col">
-                  <div className="role-box bg--white-300 r-10">
-                    <Link href="/career-role">
-                      <span>Engineering</span>
-                      <h6 className="s-20 w-700">Engineering Tech Lead</h6>
-                      <p>Vancouver, British Columbia, Canada / Remote</p>
-                    </Link>
-                  </div>
-                </div>{" "}
-                {/* END OPEN ROLE #4 */}
-                {/* OPEN ROLE #5 */}
-                <div className="col">
-                  <div className="role-box bg--white-300 r-10">
-                    <Link href="/career-role">
-                      <span>Sales</span>
-                      <h6 className="s-20 w-700">
-                        Mid-Market Account Executive
-                      </h6>
-                      <p>New York, NY / Full time</p>
-                    </Link>
-                  </div>
-                </div>{" "}
-                {/* END OPEN ROLE #5 */}
-                {/* OPEN ROLE #6 */}
-                <div className="col">
-                  <div className="role-box bg--white-300 r-10">
-                    <Link href="/career-role">
-                      <span>Marketing</span>
-                      <h6 className="s-20 w-700">Product Marketing Manager</h6>
-                      <p>Vancouver, British Columbia, Canada / Remote</p>
-                    </Link>
-                  </div>
-                </div>{" "}
-                {/* END OPEN ROLE #6 */}
-              </div>{" "}
-              {/* END OPEN ROLES */}
-            </div>{" "}
-            {/* End container */}
-          </section>{" "}
-          {/* END CAREERS-1 */}
-          {/* BANNER-4
-			============================================= */}
-          <section id="banner-4" className="banner-section">
+          <section id="banner-4" className="banner-section pt-48">
             <div className="banner-overlay pb-100">
               <div className="container">
                 {/* BANNER-4 WRAPPER */}
                 <div className="banner-4-wrapper">
                   <div className="row justify-content-center">
                     {/* BANNER-4 TEXT */}
-                    <div className="col-md-9">
+                    <div className="col-md-10">
                       <div className="banner-4-txt text-center">
                         {/* Title */}
-                        <h2 className="s-46 w-700">
-                          We {`can't`} wait to meet you
+                        <h2 className="s-45 w-700">
+                          Counting down to our meeting with you
                         </h2>
                         {/* Button */}
                         <Link
                           href="mailto:yourdomain@mail.com"
                           className="btn r-04 btn--theme hover--theme"
                         >
-                          hello@yourdomain.com
+                          support@tara-talent.com
                         </Link>
                       </div>
                     </div>
