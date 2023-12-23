@@ -30,7 +30,7 @@ import Banner from "./components/section/Banner";
 
 export default function Home() {
   return (
-    <Layout headerCls="navbar-dark light-hero-header">
+    <Layout headerCls="navbar light-hero-header">
       <Hero />
       <Brands />
       <hr className="divider" />
