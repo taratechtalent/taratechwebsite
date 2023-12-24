@@ -567,7 +567,7 @@ export default function About() {
                       <div className="banner-12-img text-center">
                         <img
                           className="img-fluid rounded-full"
-                          src="/images/join.png"
+                          src="/images/contactuswoman.png"
                           alt="banner-image"
                         />
                       </div>

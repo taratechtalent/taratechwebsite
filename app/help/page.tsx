@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import Layout from "../components/layout/Layout";
@@ -43,7 +44,7 @@ export default function Help() {
               <div className="row justify-content-center">
                 <div className="col-lg-11 col-xl-10">
                   <div className="inner-page-title">
-                    <h2 className="s-52 w-700">How Can We Help?</h2>
+                    <h2 className="s-52 w-700">Our Services</h2>
                   </div>
                 </div>
               </div>
@@ -64,7 +65,7 @@ export default function Help() {
                         <div className="tab-link-ico">
                           <span className="flaticon-mechanics" />
                         </div>
-                        <p>Getting Started</p>
+                        <p>Web App Development</p>
                       </li>
                       {/* TAB-2 LINK */}
                       <li
@@ -78,7 +79,7 @@ export default function Help() {
                         <div className="tab-link-ico">
                           <span className="flaticon-suit" />
                         </div>
-                        <p>My Account</p>
+                        <p>Mobile App Development</p>
                       </li>
                       {/* TAB-3 LINK */}
                       <li
@@ -92,7 +93,7 @@ export default function Help() {
                         <div className="tab-link-ico">
                           <span className="flaticon-price-label" />
                         </div>
-                        <p>Pricing Plans</p>
+                        <p>UI/UX Design</p>
                       </li>
                       {/* TAB-4 LINK */}
                       <li
@@ -106,7 +107,46 @@ export default function Help() {
                         <div className="tab-link-ico">
                           <span className="flaticon-screenplay" />
                         </div>
-                        <p>Other Questions</p>
+                        <p>Software testing & QA</p>
+                      </li>
+                      <li
+                        className={
+                          activeIndex === 5
+                            ? "tab-link ico-45 r-16 current"
+                            : "tab-link ico-45 r-16"
+                        }
+                        onClick={() => handleOnClick(5)}
+                      >
+                        <div className="tab-link-ico">
+                          <span className="flaticon-screenplay" />
+                        </div>
+                        <p>Digital Art</p>
+                      </li>
+                      <li
+                        className={
+                          activeIndex === 6
+                            ? "tab-link ico-45 r-16 current"
+                            : "tab-link ico-45 r-16"
+                        }
+                        onClick={() => handleOnClick(6)}
+                      >
+                        <div className="tab-link-ico">
+                          <span className="flaticon-screenplay" />
+                        </div>
+                        <p>AI/Machine Learning</p>
+                      </li>
+                      <li
+                        className={
+                          activeIndex === 7
+                            ? "tab-link ico-45 r-16 current"
+                            : "tab-link ico-45 r-16"
+                        }
+                        onClick={() => handleOnClick(7)}
+                      >
+                        <div className="tab-link-ico">
+                          <span className="flaticon-screenplay" />
+                        </div>
+                        <p>Devops</p>
                       </li>
                     </ul>
                   </div>
@@ -126,239 +166,69 @@ export default function Help() {
                           : "tab-content "
                       }
                     >
-                      <div className="accordion-wrapper">
-                        <ul className="accordion">
-                          {/* QUESTION #1 */}
-                          <li
-                            className={
-                              isActive.key == 1
-                                ? "accordion-item is-active"
-                                : "accordion-item"
-                            }
-                            onClick={() => handleToggle(1)}
-                          >
-                            {/* Question */}
-                            <div className="accordion-thumb">
-                              <h5 className="s-22 w-700">
-                                What is Martex and how does it work?
-                              </h5>
-                            </div>
-                            {/* Answer */}
-                            <div
-                              className="accordion-panel color--grey"
-                              style={{
-                                display: `${
-                                  isActive.key == 1 ? "block" : "none"
-                                }`,
-                              }}
-                            >
+                      <div className="fbox-wrapper text-center">
+                        <div className="row d-flex align-items-center">
+                          {/* FEATURE BOX #1 */}
+                          <div className="col-md-6">
+                            <div className="fbox-5 fb-1 bg--white-400 r-16 wow fadeInUp">
                               {/* Text */}
-                              <p>
-                                Sagittis congue augue egestas volutpat egestas
-                                magna suscipit egestas magna ipsum vitae purus
-                                congue efficitur and ipsum primis in cubilia
-                                laoreet augue egestas luctus donec and curabitur
-                                dapibus
-                              </p>
+                              <div className="fbox-txt order-last order-md-2">
+                                <h5 className="s-26 w-700">
+                                  Marketing Integrations
+                                </h5>
+                                <p>
+                                  Aliquam a augue suscipit luctus diam neque
+                                  purus ipsum neque and dolor primis libero
+                                </p>
+                              </div>
+                              {/* Image */}
+                              <div className="fbox-5-img order-first order-md-2">
+                                <img
+                                  className="img-fluid light-theme-img"
+                                  src="/images/f_06.png"
+                                  alt="feature-image"
+                                />
+                                <img
+                                  className="img-fluid dark-theme-img"
+                                  src="/images/f_06_dark.png"
+                                  alt="feature-image"
+                                />
+                              </div>
                             </div>
-                          </li>{" "}
-                          {/* END QUESTION #1 */}
-                          {/* QUESTION #2 */}
-                          <li
-                            className={
-                              isActive.key == 2
-                                ? "accordion-item is-active"
-                                : "accordion-item"
-                            }
-                            onClick={() => handleToggle(2)}
-                          >
-                            {/* Question */}
-                            <div className="accordion-thumb">
-                              <h5 className="s-22 w-700">
-                                {`What's`} inside the package?
-                              </h5>
-                            </div>
-                            {/* Answer */}
-                            <div
-                              className="accordion-panel color--grey"
-                              style={{
-                                display: `${
-                                  isActive.key == 2 ? "block" : "none"
-                                }`,
-                              }}
-                            >
+                          </div>{" "}
+                          {/* END FEATURE BOX #1 */}
+                          {/* FEATURE BOX #2 */}
+                          <div className="col-md-6">
+                            <div className="fbox-5 fb-2 bg--white-400 r-16 wow fadeInUp">
+                              {/* Image */}
+                              <div className="fbox-5-img">
+                                <img
+                                  className="img-fluid light-theme-img"
+                                  src="/images/f_04.png"
+                                  alt="feature-image"
+                                />
+                                <img
+                                  className="img-fluid dark-theme-img"
+                                  src="/images/f_04_dark.png"
+                                  alt="feature-image"
+                                />
+                              </div>
                               {/* Text */}
-                              <p>
-                                Sagittis congue augue egestas volutpat egestas
-                                magna suscipit egestas tempor magna undo ipsum
-                                vitae purus and efficitur ipsum primis in
-                                cubilia laoreet tempor gravida luctus neque
-                                purus ipsum neque
-                              </p>
-                              {/* Text */}
-                              <p>
-                                Sapien egestas, congue gestas posuere cubilia
-                                congue ipsum mauris lectus laoreet and gestas
-                                neque vitae auctor dolor luctus placerat a magna
-                                cursus congue magna mpedit ligula undo congue.
-                                Maecenas agravida augue porttitor nunc, quis
-                                vehicula magna luctus tempor. Quisque vel
-                                laoreet turpis. Viverra augue, a augue tempor,
-                                dictum tempor diam. Sed pulvinar a consectetur
-                                nibh, imperdiet varius viverra
-                              </p>
+                              <div className="fbox-txt">
+                                <h5 className="s-26 w-700">
+                                  Enhance Engagement
+                                </h5>
+                                <p>
+                                  Aliquam a augue suscipit luctus diam neque
+                                  purus ipsum neque and dolor primis libero
+                                </p>
+                              </div>
                             </div>
-                          </li>{" "}
-                          {/* END QUESTION #2 */}
-                          {/* QUESTION #3 */}
-                          <li
-                            className={
-                              isActive.key == 3
-                                ? "accordion-item is-active"
-                                : "accordion-item"
-                            }
-                            onClick={() => handleToggle(3)}
-                          >
-                            {/* Question */}
-                            <div className="accordion-thumb">
-                              <h5 className="s-22 w-700">General settings</h5>
-                            </div>
-                            {/* Answer */}
-                            <div
-                              className="accordion-panel color--grey"
-                              style={{
-                                display: `${
-                                  isActive.key == 3 ? "block" : "none"
-                                }`,
-                              }}
-                            >
-                              {/* Text */}
-                              <p>
-                                An augue cubilia laoreet magna suscipit egestas
-                                magna ipsum purus ipsum a primis an augue
-                                ultrice ligula egestas suscipit lectus gestas
-                                integer congue a lectus porta phasellus neque
-                                blandit tristique
-                              </p>
-                              {/* Text */}
-                              <p>
-                                Sagittis congue augue egestas volutpat egestas
-                                magna suscipit egestas and magna and vehicula
-                              </p>
-                              {/* Text */}
-                              <p>
-                                Sagittis congue augue egestas volutpat egestas
-                                magna suscipit lipsum egestas magna ipsum vitae
-                                a purus ipsum congue efficitur ipsum primis in
-                                cubilia laoreet augue egestas luctus donec and
-                                curabitur
-                              </p>
-                            </div>
-                          </li>{" "}
-                          {/* END QUESTION #3 */}
-                          {/* QUESTION #4 */}
-                          <li
-                            className={
-                              isActive.key == 4
-                                ? "accordion-item is-active"
-                                : "accordion-item"
-                            }
-                            onClick={() => handleToggle(4)}
-                          >
-                            {/* Question */}
-                            <div className="accordion-thumb">
-                              <h5 className="s-22 w-700">
-                                Which languages does Martex support?
-                              </h5>
-                            </div>
-                            {/* Answer */}
-                            <div
-                              className="accordion-panel color--grey"
-                              style={{
-                                display: `${
-                                  isActive.key == 4 ? "block" : "none"
-                                }`,
-                              }}
-                            >
-                              {/* Text */}
-                              <p>
-                                An augue cubilia laoreet and magna suscipit
-                                egestas magna ipsum purus ipsum primis undo
-                                augue ultrice ligula egestas suscipit lectus
-                                gestas integer congue a lectus porta tristique
-                                phasellus neque a blandit and tristique justo
-                                aliquam justo suscipit congue augue egestas
-                                volutpat egestas magna sem congue
-                              </p>
-                              {/* Text */}
-                              <p>
-                                An augue cubilia laoreet and magna suscipit
-                                egestas magna ipsum purus ipsum primis and augue
-                                efficitur ligula egestas suscipit lectus gestas
-                                integer congue a lectus porta phasellus neque
-                              </p>
-                            </div>
-                          </li>{" "}
-                          {/* END QUESTION #4 */}
-                          {/* QUESTION #5 */}
-                          <li
-                            className={
-                              isActive.key == 5
-                                ? "accordion-item acc-last-item is-active"
-                                : "accordion-item acc-last-item"
-                            }
-                            onClick={() => handleToggle(5)}
-                          >
-                            {/* Question */}
-                            <div className="accordion-thumb">
-                              <h5 className="s-22 w-700">
-                                Automate testing with API
-                              </h5>
-                            </div>
-                            {/* Answer */}
-                            <div
-                              className="accordion-panel color--grey"
-                              style={{
-                                display: `${
-                                  isActive.key == 5 ? "block" : "none"
-                                }`,
-                              }}
-                            >
-                              {/* Text */}
-                              <ul className="simple-list">
-                                <li className="list-item">
-                                  <p>
-                                    Curabitur ac dapibus libero quisque eu
-                                    congue tristique egestas phasellus blandit
-                                    tristique justo aliquam. Aliquam vitae
-                                    molestie quisque sapien justo, aliquet
-                                    aliquam molestie sed purus undo venenatis
-                                    tempor gravida eget lacinia. Augue aliquam a
-                                    suscipit tincidunt tincidunt massa
-                                  </p>
-                                </li>
-                                <li className="list-item">
-                                  <p>
-                                    Aliquam vitae molestie nunc. Quisque sapien
-                                    justo, aliquet non molestie sed purus,
-                                    venenatis
-                                  </p>
-                                </li>
-                                <li className="list-item">
-                                  <p>
-                                    Sagittis congue augue egestas volutpat
-                                    egestas magna suscipit egestas magna ipsum
-                                    vitae an efficitur purus undo ipsum primis
-                                    in cubilia laoreet augue egestas luctus
-                                    donec curabitur dapibus libero
-                                  </p>
-                                </li>
-                              </ul>
-                            </div>
-                          </li>{" "}
-                          {/* END QUESTION #5 */}
-                        </ul>
-                      </div>
+                          </div>{" "}
+                          {/* END FEATURE BOX #2 */}
+                        </div>{" "}
+                        {/* End row */}
+                      </div>{" "}
                     </div>{" "}
                     {/* END TAB-1 CONTENT */}
                     {/* TAB-2 CONTENT */}
@@ -1085,18 +955,18 @@ export default function Help() {
                   <div className="col-md-7 col-xl-5">
                     <div className="banner-9-txt">
                       {/* Title */}
-                      <h3 className="s-40 w-700">Still need help?</h3>
+                      <h3 className="s-40 w-700">Join our network</h3>
                       {/* Text */}
                       <p className="p-lg">
-                        {`Don't`} hesitate to contact us about any question you
-                        might be interested in
+                        Join Us in Crafting a Partnership Where Success Knows No
+                        Bounds
                       </p>
                       {/* Button */}
                       <Link
-                        href="/contacts"
+                        href="/book"
                         className="btn r-04 btn--theme hover--theme"
                       >
-                        Ask your question here
+                        Book a Consulant Call
                       </Link>
                     </div>
                   </div>
@@ -1104,8 +974,8 @@ export default function Help() {
                   <div className="col-md-5 col-xl-5">
                     <div className="banner-9-img text-end">
                       <img
-                        className="img-fluid"
-                        src="/images/help.png"
+                        className="img-fluid rounded-full"
+                        src="/images/contactus.png"
                         alt="banner-image"
                       />
                     </div>
