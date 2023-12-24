@@ -453,7 +453,6 @@ export default function Career() {
                         <div className="cbox-2-ico bg--theme color--white">
                           3
                         </div>
-                        <span className="cbox-2-line" />
                       </div>
                       {/* Text */}
                       <div className="cbox-2-txt">

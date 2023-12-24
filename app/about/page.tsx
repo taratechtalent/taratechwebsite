@@ -533,6 +533,55 @@ export default function About() {
           {/* END NEWSLETTER-1 */}
           {/* DIVIDER LINE */}
           <hr className="divider" />
+          <section id="banner-12" className="banner-section">
+            <div className="container">
+              {/* BANNER-12 WRAPPER */}
+              <div className="banner-12-wrapper bg--05 bg--fixed r-16">
+                <div className="banner-overlay">
+                  <div className="row d-flex align-items-center">
+                    {/* BANNER-12 TEXT */}
+                    <div className="col-md-7">
+                      <div className="banner-12-txt color--white">
+                        {/* Title */}
+                        <h2 className="s-35 w-700">
+                          Join us to create a partnership where success is
+                          limitless and possibilities are endless.
+                        </h2>
+                        {/* Text */}
+                        <p className="p-lg">
+                          Your unique talents and perspective are crucial to
+                          completing our collective success story
+                        </p>
+                        {/* Button */}
+                        <Link
+                          href="/book"
+                          className="btn r-04 btn--theme hover--tra-white"
+                        >
+                          Unite for mutual success.
+                        </Link>
+                      </div>
+                    </div>{" "}
+                    {/* END BANNER-12 TEXT */}
+                    {/* BANNER-12 IMAGE */}
+                    <div className="col-md-5">
+                      <div className="banner-12-img text-center">
+                        <img
+                          className="img-fluid rounded-full"
+                          src="/images/join.png"
+                          alt="banner-image"
+                        />
+                      </div>
+                    </div>
+                  </div>{" "}
+                  {/* End row */}
+                </div>{" "}
+                {/* End banner overlay */}
+              </div>{" "}
+              {/* END BANNER-12 WRAPPER */}
+            </div>{" "}
+            {/* End container */}
+          </section>{" "}
+          <hr className="divider" />
         </div>
       </Layout>
     </>
