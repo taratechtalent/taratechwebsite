@@ -287,8 +287,8 @@ export default function Team() {
                     <div className="col-md-5">
                       <div className="banner-12-img text-center">
                         <img
-                          className="img-fluid"
-                          src="/images/img-16.png"
+                          className="img-fluid rounded-full"
+                          src="/images/join.png"
                           alt="banner-image"
                         />
                       </div>

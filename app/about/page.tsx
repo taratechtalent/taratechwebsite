@@ -81,14 +81,16 @@ export default function About() {
                         </div>
                         {/* Text */}
                         <p>
-                          Nullam tempor pretium a gravida donec congue ipsum
-                          porta justo integer dolor odio auctor a neque suscipit
-                          an ipsum integer congue purus at pretium turpis
-                          egestas and volute laoreet quaerat
+                          Naser Derakhashan, founder of an HR company, commits
+                          to global client excellence with tailored strategies,
+                          integrity, and innovative solutions, ensuring
+                          efficient, personalized support and fostering lasting
+                          partnerships in the ever-evolving world of human
+                          resources.
                         </p>
                         {/* Author */}
                         <p className="a2-txt-author">
-                          Charlie Cheever <span>CEO &amp; CO-FOUNDER</span>
+                          Amin Derakhshan <span>CEO &amp; CO-FOUNDER</span>
                         </p>
                       </div>
                     </div>
@@ -124,28 +126,11 @@ export default function About() {
                     <h5 className="s-24 w-700 mb-20">Mission and impact</h5>
                     {/* Text */}
                     <p>
-                      Sodales tempor sapien quaerat ipsum undo congue laoreet
-                      turpis neque auctor turpis vitae dolor luctus placerat
-                      magna and ligula cursus purus vitae purus an ipsum
-                      suscipit
+                      To empower organizations by providing innovative and
+                      strategic human resource solutions that cultivate talent,
+                      enhance performance, and drive success, while upholding
+                      the highest standards of integrity and collaboration.
                     </p>
-                    {/* List */}
-                    <ul className="simple-list">
-                      <li className="list-item">
-                        <p>
-                          Tempor sapien quaerat an ipsum laoreet purus and
-                          sapien dolor an ultrice ipsum aliquam undo congue
-                          dolor cursus
-                        </p>
-                      </li>
-                      <li className="list-item">
-                        <p className="mb-0">
-                          Cursus purus suscipit vitae cubilia magnis volute
-                          egestas vitae sapien turpis ultrice auctor congue
-                          magna placerat
-                        </p>
-                      </li>
-                    </ul>
                   </div>
                 </div>{" "}
                 {/* END ABOUT-3 TEXT */}
@@ -153,23 +138,18 @@ export default function About() {
                 <div className="col-md-6">
                   <div id="a3-2" className="txt-block">
                     {/* Title */}
-                    <h5 className="s-24 w-700 mb-20">We deliver results</h5>
+                    <h5 className="s-24 w-700 mb-20">Vision</h5>
                     {/* Text */}
                     <p>
-                      Nemo ipsam egestas volute turpis egestas ipsum and purus
-                      sapien ultrice an aliquam quaerat ipsum augue turpis
-                      sapien cursus congue magna purus quaerat at ligula purus
-                      egestas magna cursus undo varius purus magnis sapien
-                      quaerat
+                      To be the leading global innovator in human resource
+                      management, shaping the future of work by fostering
+                      inclusive, dynamic, and high-performing organizations. We
+                      strive to set the standard for excellence, integrity, and
+                      creativity in HR solutions, becoming the trusted partner
+                      of choice for companies seeking to navigate and thrive in
+                      an ever-changing business landscape.
                     </p>
                     {/* Text */}
-                    <p className="mb-0">
-                      Egestas volute nemo ipsam turpis egestas ipsum and purus
-                      sapien ultrice an aliquam quaerat ipsum augue turpis
-                      sapien cursus congue magna purus quaerat at ligula purus
-                      egestas magna cursus undo varius purus quaerat sapien
-                      magnis
-                    </p>
                   </div>
                 </div>{" "}
                 {/* END ABOUT-3 TEXT */}
@@ -236,7 +216,7 @@ export default function About() {
                   <div className="img-block left-column wow fadeInRight">
                     <img
                       className="img-fluid"
-                      src="/images/img-07.png"
+                      src="/images/commitment.png"
                       alt="content-image"
                     />
                   </div>
@@ -635,7 +615,7 @@ export default function About() {
                 <div className="col-md-6 col-lg-7 order-first order-md-2">
                   <div className="img-block right-column wow fadeInLeft">
                     <img
-                      className="img-fluid"
+                      className="img-fluid rounded-lg"
                       src="/images/pazh.png"
                       alt="content-image"
                     />
