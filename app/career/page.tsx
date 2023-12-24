@@ -14,7 +14,7 @@ export default function Career() {
           <section className="page-hero-section">
             <div
               className="page-hero-section-overlay bg--scroll"
-              style={{ backgroundColor: "#e19a9a" }}
+              style={{ backgroundColor: "#654EB8" }}
             >
               <div className="container">
                 <div className="row d-flex align-items-center">
@@ -133,29 +133,9 @@ export default function Career() {
             <div className="container-fluid">
               <div className="row">
                 {/* IMAGES-1 */}
-                <div className="col-md-5">
-                  <div className="text-end">
-                    {/* IMAGE-1 */}
-                    <div className="about-2-img a-2-1 r-12">
-                      <img
-                        className="img-fluid"
-                        src="/images/process/vettingProcess1.png"
-                        alt="about-image"
-                      />
-                    </div>
-                    {/* IMAGE-2 */}
-                    <div className="about-2-img a-2-2 r-12">
-                      <img
-                        className="img-fluid"
-                        src="/images/a2-2.jpg"
-                        alt="about-image"
-                      />
-                    </div>
-                  </div>
-                </div>{" "}
-                {/* END IMAGES-1 */}
+                <div className="col-md-2"></div> {/* END IMAGES-1 */}
                 {/* IMAGES-2 */}
-                <div className="col-md-7">
+                <div className="col-md-9">
                   {/* IMAGE-3 */}
                   <div className="about-2-img a-2-3 r-12">
                     <img
@@ -166,7 +146,7 @@ export default function Career() {
                   </div>
                   <div className="row">
                     {/* TEXT */}
-                    <div className="col-md-7 col-lg-6">
+                    <div className="col-md-6 col-lg-6">
                       <div className="a2-txt bg--black-400 pattern-01 bg--fixed color--white r-12">
                         {/* Icon */}
                         <div className="a2-txt-quote ico-40 o-20">
@@ -187,7 +167,7 @@ export default function Career() {
                       </div>
                     </div>
                     {/* IMAGE-4 */}
-                    <div className="col-md-5 col-lg-6">
+                    <div className="col-md-6 col-lg-6">
                       <div className="about-2-img a-2-4 r-12">
                         <img
                           className="img-fluid"
@@ -218,11 +198,10 @@ export default function Career() {
                 <div className="col-md-10 col-lg-9">
                   <div className="section-title mb-70">
                     {/* Title */}
-                    <h2 className="s-50 w-700">What we offer</h2>
+                    <h2 className="s-50 w-700">Benefit amd Perks</h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
-                      Our advanced solution to make you software development
-                      perfect
+                      your benefits when work with us
                     </p>
                   </div>
                 </div>
@@ -246,14 +225,15 @@ export default function Career() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Web App Development</h6>
+                        <h6 className="s-22 w-700">
+                          Professional Growth and Development
+                        </h6>
                         <p>
-                          Web app development combines HTML, CSS, and JavaScript
-                          with backend languages to create interactive,
-                          responsive applications. Focused on user experience
-                          and scalability, it evolves with technological
-                          advancements, driving innovation in accessible,
-                          efficient global web solutions.
+                          Good companies often invest in training and
+                          development programs to help employees enhance their
+                          skills and advance in their careers. This might
+                          include access to workshops, courses, conferences, or
+                          mentoring programs.
                         </p>
                       </div>
                     </div>
@@ -273,13 +253,13 @@ export default function Career() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Software testing & QA</h6>
+                        <h6 className="s-22 w-700">Stability and Security</h6>
                         <p>
-                          Software testing and QA ensure that applications meet
-                          quality standards and function as intended, through
-                          systematic processes of verification, bug
-                          identification, and performance assessment to enhance
-                          product reliability.
+                          Reputable companies usually offer greater job security
+                          and stability. They have established market positions
+                          and are less likely to go through abrupt downsizing,
+                          providing employees with a sense of security and
+                          long-term employment prospects.
                         </p>
                       </div>
                     </div>
@@ -299,13 +279,15 @@ export default function Career() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Mobile App Development</h6>
+                        <h6 className="s-22 w-700">
+                          Competitive Compensation and Benefits
+                        </h6>
                         <p>
-                          Mobile app development involves creating software for
-                          smartphones and tablets, focusing on optimized design,
-                          functionality, and user experience across diverse
-                          platforms and devices for on-the-go accessibility and
-                          performance.
+                          Well-established firms often provide competitive
+                          salaries and comprehensive benefits packages,
+                          including health insurance, retirement plans, bonuses,
+                          and sometimes stock options or profit-sharing plans,
+                          attracting and retaining top talent.
                         </p>
                       </div>
                     </div>
@@ -325,12 +307,15 @@ export default function Career() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">UI/UX Design</h6>
+                        <h6 className="s-22 w-700">
+                          Positive Work Environment
+                        </h6>
                         <p>
-                          UI/UX design merges visual design with user experience
-                          to create intuitive and attractive interfaces,
-                          focusing on {`user's`} ease, engagement, and
-                          satisfaction with a {`product's`} look and feel.
+                          Good companies recognize the importance of a positive
+                          and inclusive work culture. They strive to create an
+                          environment where employees feel valued, respected,
+                          and engaged, leading to higher job satisfaction and
+                          productivity.
                         </p>
                       </div>
                     </div>
@@ -350,13 +335,17 @@ export default function Career() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Devops</h6>
+                        <h6 className="s-22 w-700">
+                          {" "}
+                          Enhanced Reputation and Resume Value
+                        </h6>
                         <p>
-                          DevOps integrates development and operations to
-                          improve collaboration, speed, and product quality,
-                          focusing on continuous integration, automated
-                          deployment, and quicker, more efficient delivery
-                          cycles in software development.
+                          Being associated with a respected and successful
+                          company can enhance an {`individual's`} professional
+                          reputation, making them more attractive to future
+                          employers. The experience and accomplishments gained
+                          at such a company can significantly boost {`one's`}{" "}
+                          resume and career prospects.
                         </p>
                       </div>
                     </div>
@@ -376,37 +365,13 @@ export default function Career() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Digital Art</h6>
+                        <h6 className="s-22 w-700">Networking Opportunities</h6>
                         <p>
-                          Digital art encompasses creating visual content using
-                          technology, ranging from illustrations to animations,
-                          utilizing software and devices to craft, manipulate,
-                          and produce innovative artistic expressions in a
-                          digital format.
-                        </p>
-                      </div>
-                    </div>
-                  </div>{" "}
-                  <div className="col">
-                    <div className="fbox-11 fb-6 wow fadeInUp mt-6">
-                      {/* Icon */}
-                      <div className="fbox-ico-wrap">
-                        <div className="fbox-ico ico-50">
-                          <div className="shape-ico">
-                            <img src="images/services/ai.png" />
-                          </div>
-                        </div>
-                      </div>{" "}
-                      {/* End Icon */}
-                      {/* Text */}
-                      <div className="fbox-txt">
-                        <h6 className="s-22 w-700">AI/Machine Learning</h6>
-                        <p>
-                          AI/Machine Learning involves algorithms and
-                          statistical models that enable computers to improve
-                          tasks with experience, focusing on prediction,
-                          automation, and decision-making in various fields from
-                          healthcare to finance.
+                          Working with a well-regarded company can expose
+                          employees to a network of professionals and experts in
+                          the field, offering opportunities for networking,
+                          collaboration, and even mentorship. This can be
+                          invaluable for career advancement and personal growth.
                         </p>
                       </div>
                     </div>
