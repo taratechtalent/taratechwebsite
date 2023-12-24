@@ -327,54 +327,57 @@ export default function Testemonial() {
           <hr className="divider" />
           {/* NEWSLETTER-1
     ============================================= */}
-          <section id="newsletter-1" className="newsletter-section">
-            <div className="newsletter-overlay">
-              <div className="container">
-                <div className="row d-flex align-items-center row-cols-1 row-cols-lg-2">
-                  {/* NEWSLETTER TEXT */}
-                  <div className="col">
-                    <div className="newsletter-txt">
-                      <h4 className="s-34 w-700">
-                        Stay up to date with our news, ideas and updates
-                      </h4>
-                    </div>
-                  </div>
-                  {/* NEWSLETTER FORM */}
-                  <div className="col">
-                    <form className="newsletter-form">
-                      <div className="input-group">
-                        <input
-                          type="email"
-                          autoComplete="off"
-                          className="form-control"
-                          placeholder="Your email address"
-                          required
-                          id="s-email"
-                        />
-                        <span className="input-group-btn">
-                          <button
-                            type="submit"
-                            className="btn btn--theme hover--theme"
-                          >
-                            Subscribe Now
-                          </button>
-                        </span>
-                      </div>
-                      {/* Newsletter Form Notification */}
-                      <label htmlFor="s-email" className="form-notification" />
-                    </form>
-                  </div>{" "}
-                  {/* END NEWSLETTER FORM */}
-                </div>{" "}
-                {/* End row */}
-              </div>{" "}
-              {/* End container */}
-            </div>{" "}
-            {/* End newsletter-overlay */}
-          </section>{" "}
           {/* END NEWSLETTER-1 */}
           {/* DIVIDER LINE */}
           <hr className="divider" />
+          <section id="banner-12" className="banner-section">
+            <div className="container">
+              {/* BANNER-12 WRAPPER */}
+              <div className="banner-12-wrapper bg--05 bg--fixed r-16">
+                <div className="banner-overlay">
+                  <div className="row d-flex align-items-center">
+                    {/* BANNER-12 TEXT */}
+                    <div className="col-md-7">
+                      <div className="banner-12-txt color--white">
+                        {/* Title */}
+                        <h2 className="s-35 w-700">
+                          Join Us in Crafting a Partnership Where Success Knows
+                          No Bounds
+                        </h2>
+                        {/* Text */}
+                        <p className="p-lg">
+                          Your unique perspective and talents are the missing
+                          pieces to our collective success story.
+                        </p>
+                        {/* Button */}
+                        <Link
+                          href="/book"
+                          className="btn r-04 btn--theme hover--tra-white"
+                        >
+                          Team up for success
+                        </Link>
+                      </div>
+                    </div>{" "}
+                    {/* END BANNER-12 TEXT */}
+                    {/* BANNER-12 IMAGE */}
+                    <div className="col-md-5">
+                      <div className="banner-12-img text-center">
+                        <img
+                          className="img-fluid rounded-full"
+                          src="/images/join.png"
+                          alt="banner-image"
+                        />
+                      </div>
+                    </div>
+                  </div>{" "}
+                  {/* End row */}
+                </div>{" "}
+                {/* End banner overlay */}
+              </div>{" "}
+              {/* END BANNER-12 WRAPPER */}
+            </div>{" "}
+            {/* End container */}
+          </section>{" "}
         </div>
       </Layout>
     </>
