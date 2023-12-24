@@ -166,69 +166,12 @@ export default function Help() {
                           : "tab-content "
                       }
                     >
-                      <div className="fbox-wrapper text-center">
-                        <div className="row d-flex align-items-center">
-                          {/* FEATURE BOX #1 */}
-                          <div className="col-md-6">
-                            <div className="fbox-5 fb-1 bg--white-400 r-16 wow fadeInUp">
-                              {/* Text */}
-                              <div className="fbox-txt order-last order-md-2">
-                                <h5 className="s-26 w-700">
-                                  Marketing Integrations
-                                </h5>
-                                <p>
-                                  Aliquam a augue suscipit luctus diam neque
-                                  purus ipsum neque and dolor primis libero
-                                </p>
-                              </div>
-                              {/* Image */}
-                              <div className="fbox-5-img order-first order-md-2">
-                                <img
-                                  className="img-fluid light-theme-img"
-                                  src="/images/f_06.png"
-                                  alt="feature-image"
-                                />
-                                <img
-                                  className="img-fluid dark-theme-img"
-                                  src="/images/f_06_dark.png"
-                                  alt="feature-image"
-                                />
-                              </div>
-                            </div>
-                          </div>{" "}
-                          {/* END FEATURE BOX #1 */}
-                          {/* FEATURE BOX #2 */}
-                          <div className="col-md-6">
-                            <div className="fbox-5 fb-2 bg--white-400 r-16 wow fadeInUp">
-                              {/* Image */}
-                              <div className="fbox-5-img">
-                                <img
-                                  className="img-fluid light-theme-img"
-                                  src="/images/f_04.png"
-                                  alt="feature-image"
-                                />
-                                <img
-                                  className="img-fluid dark-theme-img"
-                                  src="/images/f_04_dark.png"
-                                  alt="feature-image"
-                                />
-                              </div>
-                              {/* Text */}
-                              <div className="fbox-txt">
-                                <h5 className="s-26 w-700">
-                                  Enhance Engagement
-                                </h5>
-                                <p>
-                                  Aliquam a augue suscipit luctus diam neque
-                                  purus ipsum neque and dolor primis libero
-                                </p>
-                              </div>
-                            </div>
-                          </div>{" "}
-                          {/* END FEATURE BOX #2 */}
-                        </div>{" "}
-                        {/* End row */}
-                      </div>{" "}
+                      <Section
+                        title={"Web App Development"}
+                        desc={
+                          "Web app development combines HTML, CSS, and JavaScript with backend languages to create interactive, responsive applications. Focused on user experience and scalability, it evolves with technological advancements, driving innovation in accessible, efficient global web solutions."
+                        }
+                      />
                     </div>{" "}
                     {/* END TAB-1 CONTENT */}
                     {/* TAB-2 CONTENT */}
@@ -240,226 +183,12 @@ export default function Help() {
                           : "tab-content "
                       }
                     >
-                      <div className="accordion-wrapper">
-                        <ul className="accordion">
-                          {/* QUESTION #1 */}
-                          <li
-                            className={
-                              isActive.key == 6
-                                ? "accordion-item is-active"
-                                : "accordion-item"
-                            }
-                            onClick={() => handleToggle(6)}
-                          >
-                            {/* Question */}
-                            <div className="accordion-thumb">
-                              <h5 className="s-22 w-700">
-                                Sign up and manage your account
-                              </h5>
-                            </div>
-                            {/* Answer */}
-                            <div
-                              className="accordion-panel color--grey"
-                              style={{
-                                display: `${
-                                  isActive.key == 6 ? "block" : "none"
-                                }`,
-                              }}
-                            >
-                              {/* Text */}
-                              <ol className="digit-list">
-                                <li className="list-item">
-                                  <p>
-                                    Curabitur ac dapibus libero eu congue
-                                    tristique neque
-                                  </p>
-                                </li>
-                                <li className="list-item">
-                                  <p>
-                                    Sagittis congue augue egestas volutpat
-                                    egestas
-                                  </p>
-                                </li>
-                                <li className="list-item">
-                                  <p>An aliquam justo suscipit congue augue</p>
-                                </li>
-                                <li className="list-item">
-                                  <p>Gestas integer congue a lectus porta</p>
-                                </li>
-                              </ol>
-                            </div>
-                          </li>{" "}
-                          {/* END QUESTION #1 */}
-                          {/* QUESTION #2 */}
-                          <li
-                            className={
-                              isActive.key == 7
-                                ? "accordion-item is-active"
-                                : "accordion-item"
-                            }
-                            onClick={() => handleToggle(7)}
-                          >
-                            {/* Question */}
-                            <div className="accordion-thumb">
-                              <h5 className="s-22 w-700">
-                                Manage account settings
-                              </h5>
-                            </div>
-                            {/* Answer */}
-                            <div
-                              className="accordion-panel color--grey"
-                              style={{
-                                display: `${
-                                  isActive.key == 7 ? "block" : "none"
-                                }`,
-                              }}
-                            >
-                              {/* Text */}
-                              <p>
-                                Sapien egestas, congue gestas posuere cubilia
-                                congue ipsum mauris lectus laoreet gestas neque
-                                and vitae undo auctor dolor luctus placerat a
-                                magna cursus congue magna mpedit ligula congue
-                                maecenas gravida augue porttitor nunc, quis
-                                vehicula magna luctus tempor. Quisque vel
-                                laoreet turpis. Viverra augue, a augue tempor,
-                                dictum tempor diam. Sed pulvinar a consectetur
-                                nibh, imperdiet varius viverra
-                              </p>
-                            </div>
-                          </li>{" "}
-                          {/* END QUESTION #2 */}
-                          {/* QUESTION #3 */}
-                          <li
-                            className={
-                              isActive.key == 8
-                                ? "accordion-item is-active"
-                                : "accordion-item"
-                            }
-                            onClick={() => handleToggle(8)}
-                          >
-                            {/* Question */}
-                            <div className="accordion-thumb">
-                              <h5 className="s-22 w-700">
-                                Change language or location settings
-                              </h5>
-                            </div>
-                            {/* Answer */}
-                            <div
-                              className="accordion-panel color--grey"
-                              style={{
-                                display: `${
-                                  isActive.key == 8 ? "block" : "none"
-                                }`,
-                              }}
-                            >
-                              {/* Text */}
-                              <p>
-                                Sapien egestas, congue gestas posuere cubilia
-                                congue ipsum mauris lectus laoreet gestas neque
-                                and vitae undo auctor dolor luctus placerat a
-                                magna cursus congue magna mpedit ligula congue
-                                maecenas gravida augue porttitor nunc, quis
-                                vehicula magna luctus tempor. Quisque vel
-                                laoreet turpis. Viverra augue, a augue tempor,
-                                dictum tempor diam. Sed pulvinar a consectetur
-                                nibh, imperdiet varius viverra
-                              </p>
-                            </div>
-                          </li>{" "}
-                          {/* END QUESTION #3 */}
-                          {/* QUESTION #4 */}
-                          <li
-                            className={
-                              isActive.key == 9
-                                ? "accordion-item is-active"
-                                : "accordion-item"
-                            }
-                            onClick={() => handleToggle(9)}
-                          >
-                            {/* Question */}
-                            <div className="accordion-thumb">
-                              <h5 className="s-22 w-700">
-                                Troubleshoot account issues
-                              </h5>
-                            </div>
-                            {/* Answer */}
-                            <div
-                              className="accordion-panel color--grey"
-                              style={{
-                                display: `${
-                                  isActive.key == 9 ? "block" : "none"
-                                }`,
-                              }}
-                            >
-                              {/* Text */}
-                              <p>
-                                An augue cubilia laoreet and magna suscipit
-                                egestas magna ipsum purus ipsum primis an augue
-                                ultrice ligula egestas suscipit lectus gestas
-                                integer congue a lectus porta tristique
-                                phasellus neque a blandit and tristique justo
-                                aliquam justo suscipit congue augue egestas
-                                volutpat egestas magna sem congue
-                              </p>
-                              {/* Text */}
-                              <p>
-                                An augue cubilia laoreet and magna suscipit
-                                egestas magna ipsum purus ipsum primis and augue
-                                efficitur ligula egestas suscipit lectus gestas
-                                integer congue a lectus porta phasellus neque
-                              </p>
-                            </div>
-                          </li>{" "}
-                          {/* END QUESTION #4 */}
-                          {/* QUESTION #5 */}
-                          <li
-                            className={
-                              isActive.key == 10
-                                ? "accordion-item acc-last-item is-active"
-                                : "accordion-item acc-last-item"
-                            }
-                            onClick={() => handleToggle(10)}
-                          >
-                            {/* Question */}
-                            <div className="accordion-thumb">
-                              <h5 className="s-22 w-700">
-                                Manage accessibility settings
-                              </h5>
-                            </div>
-                            {/* Answer */}
-                            <div
-                              className="accordion-panel color--grey"
-                              style={{
-                                display: `${
-                                  isActive.key == 10 ? "block" : "none"
-                                }`,
-                              }}
-                            >
-                              {/* Text */}
-                              <p>
-                                Sapien egestas, congue gestas posuere cubilia
-                                congue ipsum mauris lectus laoreet gestas neque
-                                and vitae undo auctor dolor luctus placerat a
-                                magna cursus congue magna mpedit ligula congue
-                                maecenas gravida augue porttitor nunc, quis
-                                vehicula magna luctus tempor. Quisque vel
-                                laoreet turpis. Viverra augue, a augue tempor,
-                                dictum tempor diam. Sed pulvinar a consectetur
-                                nibh, imperdiet varius viverra
-                              </p>
-                              {/* Text */}
-                              <p>
-                                Sagittis congue augue egestas volutpat egestas
-                                magna suscipit egestas and magna ipsum vitae
-                                purus and efficitur ipsum primis in cubilia
-                                laoreet tempor gravida
-                              </p>
-                            </div>
-                          </li>{" "}
-                          {/* END QUESTION #5 */}
-                        </ul>
-                      </div>
+                      <Section
+                        title={"Mobile App Development"}
+                        desc={
+                          "Mobile app development involves creating software for smartphones and tablets, focusing on optimized design, functionality, and user experience across diverse platforms and devices for on-the-go accessibility and performance."
+                        }
+                      />
                     </div>{" "}
                     {/* END TAB-2 CONTENT */}
                     {/* TAB-3 CONTENT */}
@@ -471,236 +200,12 @@ export default function Help() {
                           : "tab-content "
                       }
                     >
-                      <div className="accordion-wrapper">
-                        <ul className="accordion">
-                          {/* QUESTION #1 */}
-                          <li
-                            className={
-                              isActive.key == 11
-                                ? "accordion-item is-active"
-                                : "accordion-item"
-                            }
-                            onClick={() => handleToggle(11)}
-                          >
-                            {/* Question */}
-                            <div className="accordion-thumb">
-                              <h5 className="s-22 w-700">
-                                How much does Martex cost?
-                              </h5>
-                            </div>
-                            {/* Answer */}
-                            <div
-                              className="accordion-panel color--grey"
-                              style={{
-                                display: `${
-                                  isActive.key == 11 ? "block" : "none"
-                                }`,
-                              }}
-                            >
-                              {/* Text */}
-                              <p>
-                                An augue cubilia laoreet and magna suscipit
-                                egestas magna ipsum purus ipsum primis undo
-                                augue ultrice ligula egestas suscipit lectus
-                                gestas integer congue a lectus porta neque
-                                blandit tristique
-                              </p>
-                            </div>
-                          </li>{" "}
-                          {/* END QUESTION #1 */}
-                          {/* QUESTION #2 */}
-                          <li
-                            className={
-                              isActive.key == 12
-                                ? "accordion-item is-active"
-                                : "accordion-item"
-                            }
-                            onClick={() => handleToggle(12)}
-                          >
-                            {/* Question */}
-                            <div className="accordion-thumb">
-                              <h5 className="s-22 w-700">
-                                I {`didn't`} receive the license key after
-                                purchased
-                              </h5>
-                            </div>
-                            {/* Answer */}
-                            <div
-                              className="accordion-panel color--grey"
-                              style={{
-                                display: `${
-                                  isActive.key == 12 ? "block" : "none"
-                                }`,
-                              }}
-                            >
-                              {/* Text */}
-                              <ul className="simple-list">
-                                <li className="list-item">
-                                  <p>
-                                    Curabitur ac dapibus libero. Quisque eu
-                                    congue tristique neque. Phasellus blandit
-                                    tristique aliquam justo undo. Aliquam vitae
-                                    molestie nunc. Quisque sapien justo, aliquet
-                                    non molestie purus tempor
-                                  </p>
-                                </li>
-                                <li className="list-item">
-                                  <p>
-                                    Sagittis congue augue egestas volutpat
-                                    egestas magna suscipit egestas magna ipsum
-                                    vitae purus undo efficitur ipsum primis in
-                                    cubilia laoreet augue egestas luctus donec
-                                    curabitur dapibus libero
-                                  </p>
-                                </li>
-                              </ul>
-                            </div>
-                          </li>{" "}
-                          {/* END QUESTION #2 */}
-                          {/* QUESTION #3 */}
-                          <li
-                            className={
-                              isActive.key == 13
-                                ? "accordion-item is-active"
-                                : "accordion-item"
-                            }
-                            onClick={() => handleToggle(13)}
-                          >
-                            {/* Question */}
-                            <div className="accordion-thumb">
-                              <h5 className="s-22 w-700">
-                                Do you offer discounts for annual plans?
-                              </h5>
-                            </div>
-                            {/* Answer */}
-                            <div
-                              className="accordion-panel color--grey"
-                              style={{
-                                display: `${
-                                  isActive.key == 13 ? "block" : "none"
-                                }`,
-                              }}
-                            >
-                              {/* Text */}
-                              <ul className="simple-list">
-                                <li className="list-item">
-                                  <p>
-                                    Curabitur ac dapibus libero. Quisque eu
-                                    congue justo undo tristique neque phasellus
-                                    and blandit tristique aliquam. Aliquam vitae
-                                    molestie nunc. Quisque sapien justo, aliquet
-                                    non molestie purus tempor
-                                  </p>
-                                </li>
-                                <li className="list-item">
-                                  <p>
-                                    Sagittis congue augue egestas volutpat
-                                    egestas magna suscipit egestas magna ipsum
-                                    vitae purus undo efficitur ipsum primis in
-                                    cubilia laoreet augue egestas luctus donec
-                                    curabitur dapibus libero
-                                  </p>
-                                </li>
-                              </ul>
-                            </div>
-                          </li>{" "}
-                          {/* END QUESTION #3 */}
-                          {/* QUESTION #4 */}
-                          <li
-                            className={
-                              isActive.key == 14
-                                ? "accordion-item is-active"
-                                : "accordion-item"
-                            }
-                            onClick={() => handleToggle(14)}
-                          >
-                            {/* Question */}
-                            <div className="accordion-thumb">
-                              <h5 className="s-22 w-700">
-                                How safe is my data?
-                              </h5>
-                            </div>
-                            {/* Answer */}
-                            <div
-                              className="accordion-panel color--grey"
-                              style={{
-                                display: `${
-                                  isActive.key == 14 ? "block" : "none"
-                                }`,
-                              }}
-                            >
-                              {/* Text */}
-                              <p>
-                                An augue cubilia laoreet and magna suscipit
-                                egestas magna an ipsum purus ipsum primis an
-                                augue ultrice ligula egestas suscipit lectus
-                                gestas integer congue a lectus porta tristique
-                                phasellus neque a blandit undo tristique justo
-                                aliquam justo suscipit congue augue egestas
-                                volutpat egestas magna sem
-                              </p>
-                              {/* Text */}
-                              <p>
-                                An augue cubilia laoreet and magna suscipit
-                                egestas magna ipsum purus ipsum primis and augue
-                                efficitur ligula egestas suscipit lectus gestas
-                                integer congue a lectus porta phasellus neque
-                              </p>
-                            </div>
-                          </li>{" "}
-                          {/* END QUESTION #4 */}
-                          {/* QUESTION #5 */}
-                          <li
-                            className={
-                              isActive.key == 15
-                                ? "accordion-item acc-last-item is-active"
-                                : "accordion-item acc-last-item"
-                            }
-                            onClick={() => handleToggle(15)}
-                          >
-                            {/* Question */}
-                            <div className="accordion-thumb">
-                              <h5 className="s-22 w-700">
-                                How to request a refund?
-                              </h5>
-                            </div>
-                            {/* Answer */}
-                            <div
-                              className="accordion-panel color--grey"
-                              style={{
-                                display: `${
-                                  isActive.key == 15 ? "block" : "none"
-                                }`,
-                              }}
-                            >
-                              {/* Text */}
-                              <ul className="simple-list">
-                                <li className="list-item">
-                                  <p>
-                                    Curabitur ac dapibus libero. Quisque eu
-                                    congue tristique
-                                  </p>
-                                </li>
-                                <li className="list-item">
-                                  <p>
-                                    Congue tristique neque phasellus blandit
-                                    tristique justo undo aliquam. Aliquam vitae
-                                    molestie quisque sapien justo, aliquet non
-                                    molestie purus tempor
-                                  </p>
-                                </li>
-                                <li className="list-item">
-                                  <p>
-                                    Sagittis congue augue egestas volutpat
-                                    egestas magna suscipit egestas magna ipsum
-                                  </p>
-                                </li>
-                              </ul>
-                            </div>
-                          </li>{" "}
-                          {/* END QUESTION #5 */}
-                        </ul>
-                      </div>
+                      <Section
+                        title={"Software testing & QA"}
+                        desc={
+                          "Software testing and QA ensure that applications meet quality standards and function as intended, through systematic processes of verification, bug identification, and performance assessment to enhance product reliability."
+                        }
+                      />
                     </div>{" "}
                     {/* END TAB-3 CONTENT */}
                     {/* TAB-4 CONTENT */}
@@ -712,226 +217,59 @@ export default function Help() {
                           : "tab-content "
                       }
                     >
-                      <div className="accordion-wrapper">
-                        <ul className="accordion">
-                          {/* QUESTION #1 */}
-                          <li
-                            className={
-                              isActive.key == 16
-                                ? "accordion-item is-active"
-                                : "accordion-item"
-                            }
-                            onClick={() => handleToggle(16)}
-                          >
-                            {/* Question */}
-                            <div className="accordion-thumb">
-                              <h5 className="s-22 w-700">
-                                How do I get the error log?
-                              </h5>
-                            </div>
-                            {/* Answer */}
-                            <div
-                              className="accordion-panel color--grey"
-                              style={{
-                                display: `${
-                                  isActive.key == 16 ? "block" : "none"
-                                }`,
-                              }}
-                            >
-                              {/* Text */}
-                              <p>
-                                Sagittis congue augue egestas volutpat egestas
-                                magna suscipit egestas and magna ipsum vitae
-                              </p>
-                              {/* Text */}
-                              <p>
-                                Sagittis congue augue egestas volutpat egestas
-                                and magna suscipit an egestas magna ipsum vitae
-                                purus congue efficitur ipsum primis in cubilia
-                                laoreet augue egestas luctus donec and curabitur
-                                dapibus
-                              </p>
-                            </div>
-                          </li>{" "}
-                          {/* END QUESTION #1 */}
-                          {/* QUESTION #2 */}
-                          <li
-                            className={
-                              isActive.key == 17
-                                ? "accordion-item is-active"
-                                : "accordion-item"
-                            }
-                            onClick={() => handleToggle(17)}
-                          >
-                            {/* Question */}
-                            <div className="accordion-thumb">
-                              <h5 className="s-22 w-700">
-                                I forgot my folder password, what should I do?
-                              </h5>
-                            </div>
-                            {/* Answer */}
-                            <div
-                              className="accordion-panel color--grey"
-                              style={{
-                                display: `${
-                                  isActive.key == 17 ? "block" : "none"
-                                }`,
-                              }}
-                            >
-                              {/* Text */}
-                              <p>
-                                Sagittis congue augue egestas volutpat egestas
-                                magna suscipit egestas magna ipsum vitae purus
-                                congue efficitur ipsum primis in cubilia laoreet
-                                augue egestas luctus donec and curabitur dapibus
-                              </p>
-                              {/* Text */}
-                              <ol className="digit-list">
-                                <li className="list-item">
-                                  <p>Gestas integer congue a lectus porta</p>
-                                </li>
-                                <li className="list-item">
-                                  <p>An aliquam justo suscipit congue augue</p>
-                                </li>
-                                <li className="list-item">
-                                  <p>
-                                    Sagittis congue augue egestas volutpat
-                                    egestas
-                                  </p>
-                                </li>
-                              </ol>
-                            </div>
-                          </li>{" "}
-                          {/* END QUESTION #2 */}
-                          {/* QUESTION #3 */}
-                          <li
-                            className={
-                              isActive.key == 18
-                                ? "accordion-item is-active"
-                                : "accordion-item"
-                            }
-                            onClick={() => handleToggle(18)}
-                          >
-                            {/* Question */}
-                            <div className="accordion-thumb">
-                              <h5 className="s-22 w-700">
-                                Limitations of folder password protection
-                              </h5>
-                            </div>
-                            {/* Answer */}
-                            <div
-                              className="accordion-panel color--grey"
-                              style={{
-                                display: `${
-                                  isActive.key == 18 ? "block" : "none"
-                                }`,
-                              }}
-                            >
-                              {/* Text */}
-                              <p>
-                                Sapien egestas, congue gestas posuere cubilia
-                                congue ipsum mauris lectus laoreet gestas neque
-                                and vitae undo auctor dolor luctus placerat a
-                                magna cursus congue magna mpedit ligula congue
-                                maecenas gravida augue porttitor nunc, quis
-                                vehicula magna luctus tempor. Quisque vel
-                                laoreet turpis. Viverra augue, a augue tempor,
-                                dictum tempor diam. Sed pulvinar a consectetur
-                                nibh, imperdiet varius viverra
-                              </p>
-                            </div>
-                          </li>{" "}
-                          {/* END QUESTION #3 */}
-                          {/* QUESTION #4 */}
-                          <li
-                            className={
-                              isActive.key == 19
-                                ? "accordion-item is-active"
-                                : "accordion-item"
-                            }
-                            onClick={() => handleToggle(19)}
-                          >
-                            {/* Question */}
-                            <div className="accordion-thumb">
-                              <h5 className="s-22 w-700">
-                                Import existing library
-                              </h5>
-                            </div>
-                            {/* Answer */}
-                            <div
-                              className="accordion-panel color--grey"
-                              style={{
-                                display: `${
-                                  isActive.key == 19 ? "block" : "none"
-                                }`,
-                              }}
-                            >
-                              {/* Text */}
-                              <p>
-                                Sapien egestas, congue gestas posuere cubilia
-                                congue ipsum mauris lectus laoreet gestas neque
-                                and vitae undo auctor dolor luctus placerat a
-                                magna cursus congue magna mpedit ligula congue
-                                maecenas gravida augue porttitor nunc, quis
-                                vehicula magna luctus tempor. Quisque vel
-                                laoreet turpis. Viverra augue, a augue tempor,
-                                dictum tempor diam. Sed pulvinar a consectetur
-                                nibh, imperdiet varius viverra
-                              </p>
-                              {/* Text */}
-                              <p>
-                                Sagittis congue augue egestas volutpat egestas
-                                magna suscipit egestas and magna ipsum vitae
-                                purus and efficitur ipsum primis in cubilia
-                                laoreet tempor gravida
-                              </p>
-                            </div>
-                          </li>{" "}
-                          {/* END QUESTION #4 */}
-                          {/* QUESTION #5 */}
-                          <li
-                            className={
-                              isActive.key == 20
-                                ? "accordion-item acc-last-item is-active"
-                                : "accordion-item acc-last-item"
-                            }
-                            onClick={() => handleToggle(20)}
-                          >
-                            {/* Question */}
-                            <div className="accordion-thumb">
-                              <h5 className="s-22 w-700">
-                                I lost my license. Can you send it to me?
-                              </h5>
-                            </div>
-                            {/* Answer */}
-                            <div
-                              className="accordion-panel color--grey"
-                              style={{
-                                display: `${
-                                  isActive.key == 20 ? "block" : "none"
-                                }`,
-                              }}
-                            >
-                              {/* Text */}
-                              <p>
-                                An augue cubilia laoreet and magna suscipit
-                                egestas magna ipsum purus ipsum primis undo
-                                augue ultrice ligula egestas suscipit lectus
-                                gestas integer congue phasellus neque blandit
-                                tristique
-                              </p>
-                              {/* Text */}
-                              <p>
-                                Sagittis congue augue egestas volutpat egestas
-                                magna suscipit egestas and magna ipsum vitae
-                              </p>
-                            </div>
-                          </li>{" "}
-                          {/* END QUESTION #5 */}
-                        </ul>
-                      </div>
+                      <Section
+                        title={"UI/UX Design"}
+                        desc={
+                          "UI/UX design merges visual design with user experience to create intuitive and attractive interfaces, focusing on user's ease, engagement, and satisfaction with a product's look and feel."
+                        }
+                      />
                     </div>{" "}
                     {/* END TAB-4 CONTENT */}
+                    <div
+                      id="tab-5"
+                      className={
+                        activeIndex === 5
+                          ? "tab-content current"
+                          : "tab-content "
+                      }
+                    >
+                      <Section
+                        title={"Devops"}
+                        desc={
+                          "DevOps integrates development and operations to improve collaboration, speed, and product quality, focusing on continuous integration, automated deployment, and quicker, more efficient delivery cycles in software development."
+                        }
+                      />
+                    </div>{" "}
+                    <div
+                      id="tab-6"
+                      className={
+                        activeIndex === 6
+                          ? "tab-content current"
+                          : "tab-content "
+                      }
+                    >
+                      <Section
+                        title={"Digital Art"}
+                        desc={
+                          "Digital art encompasses creating visual content using technology, ranging from illustrations to animations, utilizing software and devices to craft, manipulate, and produce innovative artistic expressions in a digital format."
+                        }
+                      />
+                    </div>{" "}
+                    <div
+                      id="tab-7"
+                      className={
+                        activeIndex === 7
+                          ? "tab-content current"
+                          : "tab-content "
+                      }
+                    >
+                      <Section
+                        title={"AI/Machine Learning"}
+                        desc={
+                          "AI/Machine Learning involves algorithms and statistical models that enable computers to improve tasks with experience, focusing on prediction, automation, and decision-making in various fields from healthcare to finance."
+                        }
+                      />
+                    </div>{" "}
                   </div>
                 </div>{" "}
                 {/* End row */}
@@ -992,3 +330,79 @@ export default function Help() {
     </>
   );
 }
+
+const Section = ({ title, desc }: any) => {
+  return (
+    <section id="lnk-1" className="pt-10 ct-02 content-section division">
+      <div className="container">
+        {/* SECTION CONTENT (ROW) */}
+        <div className="row d-flex align-items-center">
+          {/* IMAGE BLOCK */}
+          <div className="col-md-6">
+            <div className="img-block left-column wow fadeInRight">
+              <img
+                className="img-fluid"
+                src="/images/services/mobilewebdevelop.png"
+                alt="content-image"
+              />
+            </div>
+          </div>
+          {/* TEXT BLOCK */}
+          <div className="col-md-6">
+            <div className="txt-block right-column wow fadeInLeft">
+              {/* Section ID */}
+              <span className="section-id"></span>
+              {/* Title */}
+              <h2 className="s-46 w-700">{title}</h2>
+              {/* Text */}
+              <p>{desc}</p>
+              {/* Small Title */}
+              <h5 className="s-24 w-700">Enhance your personality</h5>
+              {/* CONTENT BOX #1 */}
+              <div className="cbox-1 ico-15">
+                <div className="ico-wrap color--theme">
+                  <div className="cbox-1-ico">
+                    <span className="flaticon-check" />
+                  </div>
+                </div>
+                <div className="cbox-1-txt">
+                  <p>Magna dolor luctus at egestas sapien</p>
+                </div>
+              </div>
+              {/* CONTENT BOX #2 */}
+              <div className="cbox-1 ico-15">
+                <div className="ico-wrap color--theme">
+                  <div className="cbox-1-ico">
+                    <span className="flaticon-check" />
+                  </div>
+                </div>
+                <div className="cbox-1-txt">
+                  <p>
+                    Cursus purus suscipit vitae cubilia magnis volute egestas
+                    vitae sapien turpis ultrice auctor congue varius magnis
+                  </p>
+                </div>
+              </div>
+              {/* CONTENT BOX #3 */}
+              <div className="cbox-1 ico-15">
+                <div className="ico-wrap color--theme">
+                  <div className="cbox-1-ico">
+                    <span className="flaticon-check" />
+                  </div>
+                </div>
+                <div className="cbox-1-txt">
+                  <p className="mb-0">
+                    Volute turpis dolores and sagittis congue
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>{" "}
+          {/* END TEXT BLOCK */}
+        </div>{" "}
+        {/* END SECTION CONTENT (ROW) */}
+      </div>{" "}
+      {/* End container */}
+    </section>
+  );
+};
