@@ -56,7 +56,7 @@ export default function Header({
               {/* HEADER WHITE LOGO */}
               <div className="desktoplogo">
                 <Link href="#hero-1" className="logo-white">
-                  <img src="/images/logo-white.png" alt="logo" />
+                  <img src="/images/taralogo.png" alt="logo" />
                 </Link>
               </div>
               {/* MAIN MENU */}
