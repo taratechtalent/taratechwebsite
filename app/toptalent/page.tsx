@@ -1,11 +1,8 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
-import CounterUp from "../components/elements/CounterUp";
-
 import Layout from "../components/layout/Layout";
 import BrandSlider from "../components/slider/BrandSlider";
-import Link from "next/link";
-export default function About() {
+export default function TopTalent() {
   return (
     <>
       <Layout
@@ -26,12 +23,9 @@ export default function About() {
                 <div className="col-md-11 col-lg-10 col-xl-9">
                   <div className="about-2-title mb-60">
                     {/* Title */}
-                    <h2 className="s-52 w-700 mb-30">We Empower Excellence</h2>
+                    <h2 className="s-52 w-700 mb-30">TopTalent</h2>
                     {/* Text */}
-                    <p className="mb-0">
-                      Your Trusted Partner for Affordable, Senior-Driven
-                      Development Success
-                    </p>
+                    <p className="mb-0">TopTalent</p>
                   </div>
                 </div>
               </div>
@@ -475,6 +469,28 @@ export default function About() {
           <hr className="divider" />
           {/* BRANDS-1
 			============================================= */}
+          <div id="brands-1" className="py-80 brands-section">
+            <div className="container">
+              {/* BRANDS TITLE */}
+              <div className="row justify-content-center">
+                <div className="col-md-10 col-lg-9">
+                  <div className="brands-title mb-50">
+                    <h5 className="s-20">
+                      Most popular technologies supported by us
+                    </h5>
+                  </div>
+                </div>
+              </div>
+              {/* BRANDS CAROUSEL */}
+              <div className="row">
+                <div className="col text-center">
+                  <BrandSlider />
+                </div>
+              </div>{" "}
+              {/* END BRANDS CAROUSEL */}
+            </div>{" "}
+            {/* End container */}
+          </div>{" "}
           {/* END BRANDS-1 */}
           {/* DIVIDER LINE */}
           <hr className="divider" />

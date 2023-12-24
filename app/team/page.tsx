@@ -34,6 +34,10 @@ export default function Team() {
                     <div id="tm-2-1" className="team-member mb-60 wow fadeInUp">
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
+                      <Link
+                              href="https://www.linkedin.com/in/amin-derakhshan/"
+                              target="_blank"
+                            >
                         <div className="hover-overlay">
                           <img
                             className="img-fluid"
@@ -42,6 +46,7 @@ export default function Team() {
                           />
                           <div className="item-overlay" />
                         </div>
+                        </Link>
                       </div>
                       {/* Team Member Data */}
                       <div className="team-member-data">
@@ -70,14 +75,19 @@ export default function Team() {
                     <div id="tm-2-3" className="team-member mb-60 wow fadeInUp">
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
-                        <div className="hover-overlay">
-                          <img
-                            className="img-fluid"
-                            src="/images/team/naser.png"
-                            alt="team-member-foto"
-                          />
-                          <div className="item-overlay" />
-                        </div>
+                        <Link
+                          href="https://www.linkedin.com/in/naser-derakhshan-51951828/"
+                          target="_blank"
+                        >
+                          <div className="hover-overlay">
+                            <img
+                              className="img-fluid"
+                              src="/images/team/naser.png"
+                              alt="team-member-foto"
+                            />
+                            <div className="item-overlay" />
+                          </div>
+                        </Link>
                       </div>
                       {/* Team Member Data */}
                       <div className="team-member-data">
@@ -108,14 +118,19 @@ export default function Team() {
                     <div id="tm-2-4" className="team-member mb-60 wow fadeInUp">
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
-                        <div className="hover-overlay">
-                          <img
-                            className="img-fluid"
-                            src="/images/team/zeinab.hassani.png"
-                            alt="team-member-foto"
-                          />
-                          <div className="item-overlay" />
-                        </div>
+                        <Link
+                          href="https://www.linkedin.com/in/zeinab-hassani-422b678a/"
+                          target="_blank"
+                        >
+                          <div className="hover-overlay">
+                            <img
+                              className="img-fluid"
+                              src="/images/team/zeinab.hassani.png"
+                              alt="team-member-foto"
+                            />
+                            <div className="item-overlay" />
+                          </div>
+                        </Link>
                       </div>
                       {/* Team Member Data */}
                       <div className="team-member-data">
@@ -142,14 +157,19 @@ export default function Team() {
                     <div id="tm-2-4" className="team-member mb-60 wow fadeInUp">
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
-                        <div className="hover-overlay">
-                          <img
-                            className="img-fluid"
-                            src="/images/team/hassani.png"
-                            alt="team-member-foto"
-                          />
-                          <div className="item-overlay" />
-                        </div>
+                        <Link
+                          href="https://www.linkedin.com/in/fhassani2005/"
+                          target="_blank"
+                        >
+                          <div className="hover-overlay">
+                            <img
+                              className="img-fluid"
+                              src="/images/team/hassani.png"
+                              alt="team-member-foto"
+                            />
+                            <div className="item-overlay" />
+                          </div>
+                        </Link>
                       </div>
                       {/* Team Member Data */}
                       <div className="team-member-data">
@@ -178,14 +198,19 @@ export default function Team() {
                     <div id="tm-2-5" className="team-member mb-60 wow fadeInUp">
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
-                        <div className="hover-overlay">
-                          <img
-                            className="img-fluid"
-                            src="/images/team/ahmadian.png"
-                            alt="team-member-foto"
-                          />
-                          <div className="item-overlay" />
-                        </div>
+                        <Link
+                          href="https://www.linkedin.com/in/ahmadianzadeh/"
+                          target="_blank"
+                        >
+                          <div className="hover-overlay cursor-pointer ">
+                            <img
+                              className="img-fluid"
+                              src="/images/team/ahmadian.png"
+                              alt="team-member-foto"
+                            />
+                            <div className="item-overlay" />
+                          </div>
+                        </Link>
                       </div>
                       {/* Team Member Data */}
                       <div className="team-member-data">
@@ -212,14 +237,19 @@ export default function Team() {
                     <div id="tm-2-5" className="team-member mb-60 wow fadeInUp">
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
-                        <div className="hover-overlay">
-                          <img
-                            className="img-fluid"
-                            src="/images/team/farajian.png"
-                            alt="team-member-foto"
-                          />
-                          <div className="item-overlay" />
-                        </div>
+                        <Link
+                          href="https://www.linkedin.com/in/mina-farajian/"
+                          target="_blank"
+                        >
+                          <div className="hover-overlay">
+                            <img
+                              className="img-fluid"
+                              src="/images/team/farajian.png"
+                              alt="team-member-foto"
+                            />
+                            <div className="item-overlay" />
+                          </div>
+                        </Link>
                       </div>
                       {/* Team Member Data */}
                       <div className="team-member-data">

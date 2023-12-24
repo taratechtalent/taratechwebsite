@@ -31,41 +31,28 @@ export default function Footer() {
                 <ul className="foo-links clearfix">
                   <li>
                     <p>
+                      <Link href="/help">Help</Link>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <Link href="/team">Team</Link>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
                       <Link href="/about">About Us</Link>
                     </p>
                   </li>
                   <li>
                     <p>
-                      <Link href="/blog-listing">Our Blog</Link>
+                      <Link href="/service">Our services</Link>
                     </p>
                   </li>
-                  <li>
-                    <p>
-                      <Link href="/testimonials">Customers</Link>
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      <Link href="#">Community</Link>
-                    </p>
-                  </li>
-                </ul>
-              </div>
-            </div>{" "}
-            <div className="col-sm-4 col-lg-3 col-xl-2">
-              <div className="footer-links fl-3">
-                {/* Title */}
-                <h6 className="s-17 w-700">Legal</h6>
-                {/* Links */}
-                <ul className="foo-links clearfix">
+
                   <li>
                     <p>
                       <Link href="/terms">Terms of Use</Link>
-                    </p>
-                  </li>
-                  <li>
-                    <p>
-                      <Link href="/privacy">Privacy Policy</Link>
                     </p>
                   </li>
                 </ul>
@@ -79,17 +66,55 @@ export default function Footer() {
                 <ul className="foo-links clearfix">
                   <li>
                     <p>
-                      <Link href="/contact">Contact us</Link>
+                      <Link href="/faq">FAQ</Link>
                     </p>
                   </li>{" "}
                   <li>
                     <p>
-                      <Link href="/team">Team</Link>
+                      <Link href="/contact">Contact us</Link>
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-sm-4 col-lg-2">
+              <div className="footer-links fl-2">
+                {/* Title */}
+                <h6 className="s-17 w-700">Career</h6>
+                {/* Links */}
+                <ul className="foo-links clearfix">
+                  <li>
+                    <p>
+                      <Link href="/career">Career</Link>
                     </p>
                   </li>
                   <li>
                     <p>
-                      <Link href="/faq">FAQ</Link>
+                      <Link href="/testemonial">Testemonial</Link>
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div className="col-sm-4 col-lg-2">
+              <div className="footer-links fl-2">
+                {/* Title */}
+                <h6 className="s-17 w-700">Resource</h6>
+                {/* Links */}
+                <ul className="foo-links clearfix">
+                  <li>
+                    <p>
+                      <Link href="/blog">Blog</Link>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <Link href="/service">Services</Link>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
+                      <Link href="/technology">Technologies</Link>
                     </p>
                   </li>
                 </ul>
@@ -105,7 +130,7 @@ export default function Footer() {
               <div className="col">
                 <div className="footer-copyright">
                   <p className="p-sm">
-                    © 2023 Martex. <span>All Rights Reserved</span>
+                    © 2024 Taratech. <span>All Rights Reserved</span>
                   </p>
                 </div>
               </div>
@@ -113,11 +138,16 @@ export default function Footer() {
               <div className="col">
                 <ul className="bottom-footer-socials ico-20 text-end">
                   <li>
-                    <Link href="#">
-                      <span className="flaticon-facebook" />
+                    <Link href="https://www.linkedin.com/in/fhassani2005">
+                      <span className="flaticon-linkedin-logo" />
                     </Link>
                   </li>
                   <li>
+                    <Link href="mailto:support@tara-talent.com">
+                      <span className="flaticon-email" />
+                    </Link>
+                  </li>
+                  {/* <li>
                     <Link href="#">
                       <span className="flaticon-twitter" />
                     </Link>
@@ -131,7 +161,7 @@ export default function Footer() {
                     <Link href="#">
                       <span className="flaticon-youtube" />
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>{" "}

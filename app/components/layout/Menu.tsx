@@ -11,25 +11,25 @@ export default function Menu() {
           </Link>
           <ul className="sub-menu">
             <li>
-              <Link href="#lnk-1">Why Us</Link>
+              <Link href="/#lnk-1">Why Us</Link>
             </li>
             <li>
-              <Link href="#lnk-2">Integrations</Link>
+              <Link href="/#lnk-2">Integrations</Link>
             </li>
             <li>
-              <Link href="#lnk-3">How It Works</Link>
+              <Link href="/#lnk-3">How It Works</Link>
             </li>
             <li>
-              <Link href="#features-2">Best Solutions</Link>
+              <Link href="/#features-2">Best Solutions</Link>
             </li>
             <li>
-              <Link href="#reviews-1">Testimonials</Link>
+              <Link href="/#reviews-1">Testimonials</Link>
             </li>
           </ul>
         </li>
 
         <li className="nl-simple">
-          <Link href="/project" className="h-link">
+          <Link href="/service" className="h-link">
             Services
           </Link>
         </li>
@@ -50,7 +50,7 @@ export default function Menu() {
               <Link href="/team">Leadership team</Link>
             </li>
             <li>
-              <Link href="#">Top 5% telent</Link>
+              <Link href="/toptalent">Top 5% talent</Link>
             </li>
             <li>
               <Link href="/contact">Contact Us</Link>

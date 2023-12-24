@@ -40,7 +40,7 @@ export default function Home() {
                 <div className="inner-page-title">
                   <h2 className="s-52 w-700">Questions &amp; Answers</h2>
                   <p className="p-lg">
-                    Some common questions we get about Martex
+                    Some common questions we get about Taratech
                   </p>
                 </div>
                 {/* QUESTIONS ACCORDION */}
@@ -71,7 +71,7 @@ export default function Home() {
                           {/* Question */}
                           <div className="faqs-2-question">
                             <h5 className="s-22 w-700">
-                              <span>1.</span> What is Martex and how does it
+                              <span>1.</span> What is Taratech and how does it
                               work?
                             </h5>
                           </div>
@@ -121,7 +121,7 @@ export default function Home() {
                           {/* Question */}
                           <div className="faqs-2-question">
                             <h5 className="s-22 w-700">
-                              <span>3.</span> Which languages does Martex
+                              <span>3.</span> Which languages does Taratech
                               support?
                             </h5>
                           </div>
@@ -369,7 +369,7 @@ export default function Home() {
                           {/* Question */}
                           <div className="faqs-2-question">
                             <h5 className="s-22 w-700">
-                              <span>1.</span> How much does Martex cost?
+                              <span>1.</span> How much does Taratech cost?
                             </h5>
                           </div>
                           {/* Answer */}
@@ -451,7 +451,7 @@ export default function Home() {
                           {/* Question */}
                           <div className="faqs-2-question">
                             <h5 className="s-22 w-700">
-                              <span>4.</span> I {`can't`} activate Martex
+                              <span>4.</span> I {`can't`} activate Taratech
                             </h5>
                           </div>
                           {/* Answer */}
