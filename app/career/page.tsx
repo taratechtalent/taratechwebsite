@@ -470,26 +470,6 @@ export default function Career() {
                       </div>
                     </div>{" "}
                     {/* END CONTENT BOX #3 */}
-                    <div className="cbox-2 process-step">
-                      {/* Icon */}
-                      <div className="ico-wrap">
-                        <div className="cbox-2-ico bg--theme color--white">
-                          4
-                        </div>
-                      </div>
-                      {/* Text */}
-                      <div className="cbox-2-txt">
-                        <h5 className="s-22 w-700">
-                          Enjoy working for your new team
-                        </h5>
-                        <p className="mb-0">
-                          Enjoy working with your new team, where collaboration,
-                          innovation, and growth are part of every day, and your
-                          contributions make a real difference in our collective
-                          success
-                        </p>
-                      </div>
-                    </div>{" "}
                   </div>
                 </div>{" "}
                 {/* END TEXT BLOCK */}
