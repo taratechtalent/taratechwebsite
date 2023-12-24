@@ -1,6 +1,15 @@
 /* eslint-disable @next/next/no-page-custom-font */
 import type { Metadata } from "next";
 import "./globals.css";
+import "/public/css/demo.css";
+import "/public/css/bootstrap.min.css";
+import "/public/css/flaticon.css";
+import "/public/css/menu.css";
+import "/public/css/dropdown-effects/fade-down.css";
+import "/public/css/lunar.css";
+import "/public/css/animate.css";
+import "/public/css/pink-theme.css";
+import "/public/css/responsive.css";
 
 export const metadata: Metadata = {
   title: "Taratech talent",

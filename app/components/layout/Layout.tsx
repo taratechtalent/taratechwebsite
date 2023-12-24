@@ -38,7 +38,7 @@ export default function Layout({ breadcrumbTitle, children, headerCls }: any) {
     }
   }, []);
   return (
-    <>
+    <section>
       <PageHead headTitle={""} />
 
       <div id="page" className="page font--jakarta">
@@ -58,6 +58,6 @@ export default function Layout({ breadcrumbTitle, children, headerCls }: any) {
 
         <BackToTop />
       </div>
-    </>
+    </section>
   );
 }

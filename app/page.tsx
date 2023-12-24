@@ -1,14 +1,6 @@
 import Layout from "./components/layout/Layout";
 
-import "/public/css/demo.css";
-import "/public/css/bootstrap.min.css";
-import "/public/css/flaticon.css";
-import "/public/css/menu.css";
-import "/public/css/dropdown-effects/fade-down.css";
-import "/public/css/lunar.css";
-import "/public/css/animate.css";
-import "/public/css/pink-theme.css";
-import "/public/css/responsive.css";
+
 import Hero from "./components/section/Hero";
 import Brands from "./components/section/Brand";
 import Features from "./components/section/Features";
