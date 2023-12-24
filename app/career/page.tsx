@@ -1,3 +1,5 @@
+/* eslint-disable jsx-a11y/alt-text */
+/* eslint-disable @next/next/no-img-element */
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
 export default function Career() {
@@ -26,9 +28,12 @@ export default function Career() {
                       </h2>
                       {/* Text */}
                       <p className="p-lg w-400">
-                        Sodales tempor sapien quaerat ipsum congue undo laoreet
-                        turpis neque auctor turpis vitae dolor luctus placerat
-                        magna ipsun ligula purus cursus
+                        Discover your potential with us! Explore exciting
+                        opportunities, learn about our inclusive culture, and
+                        join a team where your contributions are valued and your
+                        growth is nurtured. Start your journey with us today and
+                        shape your future while transforming the world around
+                        you.
                       </p>
                     </div>
                   </div>{" "}
@@ -141,7 +146,7 @@ export default function Career() {
                     <div className="about-2-img a-2-1 r-12">
                       <img
                         className="img-fluid"
-                        src="/images/a2-1.jpg"
+                        src="/images/process/vettingProcess1.png"
                         alt="about-image"
                       />
                     </div>
@@ -176,14 +181,15 @@ export default function Career() {
                         </div>
                         {/* Text */}
                         <p>
-                          Nullam tempor pretium a gravida donec congue ipsum
-                          porta justo integer dolor odio auctor a neque suscipit
-                          an ipsum integer congue purus at pretium turpis
-                          egestas and volute laoreet quaerat
+                          Thank you for the incredible opportunity to grow,
+                          innovate, and contribute within such a supportive and
+                          dynamic environment. My journey here has not only
+                          shaped my career but also enriched my personal
+                          development.
                         </p>
                         {/* Author */}
                         <p className="a2-txt-author">
-                          Charlie Cheever <span>CEO &amp; CO-FOUNDER</span>
+                          Fatemeh Hassani <span>UI/UX Designer</span>
                         </p>
                       </div>
                     </div>
@@ -192,7 +198,7 @@ export default function Career() {
                       <div className="about-2-img a-2-4 r-12">
                         <img
                           className="img-fluid"
-                          src="/images/a2-4.jpg"
+                          src="/images/process/vettingProcess2.png"
                           alt="about-image"
                         />
                       </div>
@@ -219,10 +225,11 @@ export default function Career() {
                 <div className="col-md-10 col-lg-9">
                   <div className="section-title mb-70">
                     {/* Title */}
-                    <h2 className="s-52 w-700">Benefits and Perks</h2>
+                    <h2 className="s-50 w-700">What we offer</h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
-                      Ligula risus auctor tempus magna feugiat lacinia.
+                      Our advanced solution to make you software development
+                      perfect
                     </p>
                   </div>
                 </div>
@@ -238,29 +245,22 @@ export default function Career() {
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
                             {/* Vector Icon */}
-                            <span className="flaticon-virus-1 color--theme" />
                             {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                fill="#f4f9fc"
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
+                            <img src="images/services/web.png" />
                           </div>
                         </div>
                       </div>{" "}
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Healthcare</h6>
+                        <h6 className="s-22 w-700">Web App Development</h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          Web app development combines HTML, CSS, and JavaScript
+                          with backend languages to create interactive,
+                          responsive applications. Focused on user experience
+                          and scalability, it evolves with technological
+                          advancements, driving innovation in accessible,
+                          efficient global web solutions.
                         </p>
                       </div>
                     </div>
@@ -273,30 +273,20 @@ export default function Career() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            {/* Vector Icon */}
-                            <span className="flaticon-calendar color--theme" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                fill="#f4f9fc"
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
+                            <img src="images/services/qa.png" />
                           </div>
                         </div>
                       </div>{" "}
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Flexible Schedules</h6>
+                        <h6 className="s-22 w-700">Software testing & QA</h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          Software testing and QA ensure that applications meet
+                          quality standards and function as intended, through
+                          systematic processes of verification, bug
+                          identification, and performance assessment to enhance
+                          product reliability.
                         </p>
                       </div>
                     </div>
@@ -309,30 +299,20 @@ export default function Career() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            {/* Vector Icon */}
-                            <span className="flaticon-profits color--theme" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                fill="#f4f9fc"
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
+                            <img src="images/services/mobile.png" />
                           </div>
                         </div>
                       </div>{" "}
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">401k Matching</h6>
+                        <h6 className="s-22 w-700">Mobile App Development</h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          Mobile app development involves creating software for
+                          smartphones and tablets, focusing on optimized design,
+                          functionality, and user experience across diverse
+                          platforms and devices for on-the-go accessibility and
+                          performance.
                         </p>
                       </div>
                     </div>
@@ -345,30 +325,19 @@ export default function Career() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            {/* Vector Icon */}
-                            <span className="flaticon-visionary color--theme" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                fill="#f4f9fc"
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
+                            <img src="images/services/ui.png" />
                           </div>
                         </div>
                       </div>{" "}
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Hardware &amp; Software</h6>
+                        <h6 className="s-22 w-700">UI/UX Design</h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          UI/UX design merges visual design with user experience
+                          to create intuitive and attractive interfaces,
+                          focusing on {`user's`} ease, engagement, and
+                          satisfaction with a {`product's`} look and feel.
                         </p>
                       </div>
                     </div>
@@ -381,30 +350,20 @@ export default function Career() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            {/* Vector Icon */}
-                            <span className="flaticon-fast-food color--theme" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                fill="#f4f9fc"
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
+                            <img src="images/services/devops.png" />
                           </div>
                         </div>
                       </div>{" "}
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">In-office Lunch</h6>
+                        <h6 className="s-22 w-700">Devops</h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          DevOps integrates development and operations to
+                          improve collaboration, speed, and product quality,
+                          focusing on continuous integration, automated
+                          deployment, and quicker, more efficient delivery
+                          cycles in software development.
                         </p>
                       </div>
                     </div>
@@ -417,30 +376,44 @@ export default function Career() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            {/* Vector Icon */}
-                            <span className="flaticon-money-2 color--theme" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                fill="#f4f9fc"
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
+                            <img src="images/services/art.png" />
                           </div>
                         </div>
                       </div>{" "}
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Competitive Salary</h6>
+                        <h6 className="s-22 w-700">Digital Art</h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          Digital art encompasses creating visual content using
+                          technology, ranging from illustrations to animations,
+                          utilizing software and devices to craft, manipulate,
+                          and produce innovative artistic expressions in a
+                          digital format.
+                        </p>
+                      </div>
+                    </div>
+                  </div>{" "}
+                  <div className="col">
+                    <div className="fbox-11 fb-6 wow fadeInUp mt-6">
+                      {/* Icon */}
+                      <div className="fbox-ico-wrap">
+                        <div className="fbox-ico ico-50">
+                          <div className="shape-ico">
+                            <img src="images/services/ai.png" />
+                          </div>
+                        </div>
+                      </div>{" "}
+                      {/* End Icon */}
+                      {/* Text */}
+                      <div className="fbox-txt">
+                        <h6 className="s-22 w-700">AI/Machine Learning</h6>
+                        <p>
+                          AI/Machine Learning involves algorithms and
+                          statistical models that enable computers to improve
+                          tasks with experience, focusing on prediction,
+                          automation, and decision-making in various fields from
+                          healthcare to finance.
                         </p>
                       </div>
                     </div>
@@ -453,199 +426,122 @@ export default function Career() {
             </div>{" "}
             {/* End container */}
           </section>{" "}
-          {/* END FEATURES-11 */}
-          {/* TEXT CONTENT
-			============================================= */}
-          <section className="bg--white-400 py-100 ct-01 content-section division">
+          <section className="py-100 ct-02 content-section division">
             <div className="container">
+              {/* SECTION CONTENT (ROW) */}
               <div className="row d-flex align-items-center">
-                {/* TEXT BLOCK */}
-                <div className="col-md-6 order-last order-md-2">
-                  <div className="txt-block left-column wow fadeInRight">
-                    {/* Section ID */}
-                    <span className="section-id">Co-founder at Martex</span>
-                    {/* Title */}
-                    <h2 className="s-48 w-700">Henry Adams</h2>
-                    {/* Text */}
-                    <p className="p-lg mb-0">
-                      Sodales tempor sapien diam purus ipsum quaerat and volute
-                      fusce a congue laoreet turpis neque diam auctor turpis
-                      vitae dolor magna luctus placerat neque ipsum fusce cursus
-                      ligula cursus purus vitae purus and ipsum suscipit. Nemo
-                      ipsam cubilia donec turpis undo egestas ipsum a purus
-                      sapien ultrice aliquam lacus and quaerat an ipsum augue
-                      turpis sapien cursus congue augue
-                    </p>
-                  </div>
-                </div>{" "}
-                {/* END TEXT BLOCK */}
                 {/* IMAGE BLOCK */}
-                <div className="col-md-6 order-first order-md-2">
-                  <div className="img-block j-img video-preview right-column wow fadeInLeft">
-                    {/* Play Icon */}
-                    {/* Preview Image */}
+                <div className="col-md-6">
+                  <div className="img-block left-column wow fadeInRight">
                     <img
-                      className="img-fluid r-20"
-                      src="/images/img-17.jpg"
-                      alt="video-preview"
+                      className="img-fluid"
+                      src="/images/process/process.png"
+                      alt="content-image"
                     />
                   </div>
                 </div>
-              </div>{" "}
-              {/* End row */}
-            </div>{" "}
-            {/* End container */}
-          </section>{" "}
-          {/* END TEXT CONTENT */}
-          {/* CAREERS-1
-			============================================= */}
-          <section id="careers-1" className="pt-100 pb-60 careers-section">
-            <div className="container">
-              {/* SECTION TITLE */}
-              <div className="row justify-content-center">
-                <div className="col-md-10 col-lg-9">
-                  <div className="section-title mb-70">
-                    {/* Title */}
-                    <h2 className="s-52 w-700">Open Roles at Martex</h2>
-                    {/* Text */}
-                    <p className="p-lg">
-                      We’re building a better way to work, fueled by
-                      transparency, trust, and technology that is a force for
-                      positive change for the hourly workforce
-                    </p>
-                  </div>
-                </div>
-              </div>
-              {/* OPEN ROLES */}
-              <div className="row row-cols-1 row-cols-md-2">
-                {/* OPEN ROLE #1 */}
-                <div className="col">
-                  <div className="role-box bg--white-300 r-10">
-                    <Link href="/career-role">
-                      <span>Sales</span>
-                      <h6 className="s-20 w-700">Senior Account Executive</h6>
-                      <p>New York, NY / Full time</p>
-                    </Link>
-                  </div>
-                </div>{" "}
-                {/* END OPEN ROLE #1 */}
-                {/* OPEN ROLE #2 */}
-                <div className="col">
-                  <div className="role-box bg--white-300 r-10">
-                    <Link href="/career-role">
-                      <span>Engineering</span>
-                      <h6 className="s-20 w-700">
-                        Software Engineer, Security
-                      </h6>
-                      <p>Vancouver, British Columbia, Canada / Remote</p>
-                    </Link>
-                  </div>
-                </div>{" "}
-                {/* END OPEN ROLE #2 */}
-                {/* OPEN ROLE #3 */}
-                <div className="col">
-                  <div className="role-box bg--white-300 r-10">
-                    <Link href="/career-role">
-                      <span>Engineering</span>
-                      <h6 className="s-20 w-700">Senior Backend Engineer</h6>
-                      <p>New York, NY / Full time</p>
-                    </Link>
-                  </div>
-                </div>{" "}
-                {/* END OPEN ROLE #3 */}
-                {/* OPEN ROLE #4 */}
-                <div className="col">
-                  <div className="role-box bg--white-300 r-10">
-                    <Link href="/career-role">
-                      <span>Engineering</span>
-                      <h6 className="s-20 w-700">Engineering Tech Lead</h6>
-                      <p>Vancouver, British Columbia, Canada / Remote</p>
-                    </Link>
-                  </div>
-                </div>{" "}
-                {/* END OPEN ROLE #4 */}
-                {/* OPEN ROLE #5 */}
-                <div className="col">
-                  <div className="role-box bg--white-300 r-10">
-                    <Link href="/career-role">
-                      <span>Sales</span>
-                      <h6 className="s-20 w-700">
-                        Mid-Market Account Executive
-                      </h6>
-                      <p>New York, NY / Full time</p>
-                    </Link>
-                  </div>
-                </div>{" "}
-                {/* END OPEN ROLE #5 */}
-                {/* OPEN ROLE #6 */}
-                <div className="col">
-                  <div className="role-box bg--white-300 r-10">
-                    <Link href="/career-role">
-                      <span>Marketing</span>
-                      <h6 className="s-20 w-700">Product Marketing Manager</h6>
-                      <p>Vancouver, British Columbia, Canada / Remote</p>
-                    </Link>
-                  </div>
-                </div>{" "}
-                {/* END OPEN ROLE #6 */}
-              </div>{" "}
-              {/* END OPEN ROLES */}
-            </div>{" "}
-            {/* End container */}
-          </section>{" "}
-          {/* END CAREERS-1 */}
-          {/* BANNER-12
-			============================================= */}
-          <section id="banner-12" className="banner-section">
-            <div className="container">
-              {/* BANNER-12 WRAPPER */}
-              <div className="banner-12-wrapper bg--01 bg--scroll r-16">
-                <div className="banner-overlay">
-                  <div className="row d-flex align-items-center">
-                    {/* BANNER-12 TEXT */}
-                    <div className="col-md-7">
-                      <div className="banner-12-txt color--white">
-                        {/* Title */}
-                        <h2 className="s-45 w-700">
-                          We are looking for talented individuals
-                        </h2>
-                        {/* Text */}
-                        <p className="p-lg">
-                          {`We're`} constantly looking for talented people to
-                          join our team.{` Don't`} hesitate to get in touch with
-                          us
-                        </p>
-                        {/* Button */}
-                        <div className="w-28 text-center">
-                          <Link
-                            href="mailto:yourdomain@mail.com"
-                            className="btn r-04 btn--theme hover--tra-white w-28"
-                          >
-                            yourdomain@mail.com
-                          </Link>
+                {/* TEXT BLOCK */}
+                <div className="col-md-6">
+                  <div className="txt-block right-column wow fadeInLeft">
+                    {/* CONTENT BOX #1 */}
+                    <div className="cbox-2 process-step">
+                      {/* Icon */}
+                      <div className="ico-wrap">
+                        <div className="cbox-2-ico bg--theme color--white">
+                          1
                         </div>
+                        <span className="cbox-2-line" />
+                      </div>
+                      {/* Text */}
+                      <div className="cbox-2-txt">
+                        <h5 className="s-22 w-700">Registeration</h5>
+                        <p>
+                          Register now to take the next step in your career
+                          journey; complete the application form by uploading
+                          your CV and let us connect you with your future
+                          opportunities.
+                        </p>
                       </div>
                     </div>{" "}
-                    {/* END BANNER-12 TEXT */}
-                    {/* BANNER-12 IMAGE */}
-                    <div className="col-md-5">
-                      <div className="banner-12-img text-center">
-                        <img
-                          className="img-fluid"
-                          src="/images/img-16.png"
-                          alt="banner-image"
-                        />
+                    {/* END CONTENT BOX #1 */}
+                    {/* CONTENT BOX #2 */}
+                    <div className="cbox-2 process-step">
+                      {/* Icon */}
+                      <div className="ico-wrap">
+                        <div className="cbox-2-ico bg--theme color--white">
+                          2
+                        </div>
+                        <span className="cbox-2-line" />
                       </div>
-                    </div>
-                  </div>{" "}
-                  {/* End row */}
+                      {/* Text */}
+                      <div className="cbox-2-txt">
+                        <h5 className="s-22 w-700">Some Amazing Test skills</h5>
+                        <p>
+                          Enhance your career with our comprehensive testing
+                          suite, featuring an English language proficiency test,
+                          an HR assessment to understand your teamwork and
+                          leadership skills, a theoretical technical test to
+                          gauge your industry knowledge, and a practical
+                          technical test to demonstrate your real-world
+                          problem-solving abilities.
+                        </p>
+                      </div>
+                    </div>{" "}
+                    {/* END CONTENT BOX #2 */}
+                    {/* CONTENT BOX #3 */}
+                    <div className="cbox-2 process-step">
+                      {/* Icon */}
+                      <div className="ico-wrap">
+                        <div className="cbox-2-ico bg--theme color--white">
+                          3
+                        </div>
+                      </div>
+                      {/* Text */}
+                      <div className="cbox-2-txt">
+                        <h5 className="s-22 w-700">
+                          Finalize contract and start Trial Period
+                        </h5>
+                        <p className="mb-0">
+                          Finalize your contract with us and embark on a trial
+                          period, where {`you'll`} have the opportunity to
+                          showcase your skills, adapt to our culture, and ensure
+                          a mutual fit as we embark on this professional journey
+                          together.
+                        </p>
+                      </div>
+                    </div>{" "}
+                    {/* END CONTENT BOX #3 */}
+                    <div className="cbox-2 process-step">
+                      {/* Icon */}
+                      <div className="ico-wrap">
+                        <div className="cbox-2-ico bg--theme color--white">
+                          4
+                        </div>
+                      </div>
+                      {/* Text */}
+                      <div className="cbox-2-txt">
+                        <h5 className="s-22 w-700">
+                          Enjoy working for your new team
+                        </h5>
+                        <p className="mb-0">
+                          Enjoy working with your new team, where collaboration,
+                          innovation, and growth are part of every day, and your
+                          contributions make a real difference in our collective
+                          success
+                        </p>
+                      </div>
+                    </div>{" "}
+                  </div>
                 </div>{" "}
-                {/* End banner overlay */}
+                {/* END TEXT BLOCK */}
               </div>{" "}
-              {/* END BANNER-12 WRAPPER */}
+              {/* END SECTION CONTENT (ROW) */}
             </div>{" "}
             {/* End container */}
           </section>
+          {/* END FEATURES-11 */}
+          {/* TEXT CONTENT
+			============================================= */}
         </div>
       </Layout>
     </>

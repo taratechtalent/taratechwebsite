@@ -258,7 +258,7 @@ export default function About() {
               {/* END SECTION CONTENT (ROW) */}
             </div>{" "}
             {/* End container */}
-          </section>{" "}
+          </section>
           <section
             id="features-11"
             className="py-100 features-section division"
