@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
 import CounterUp from "../components/elements/CounterUp";
 
@@ -288,18 +289,8 @@ export default function About() {
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
                             {/* Vector Icon */}
-                            <span className="flaticon-graphics color--theme" />
                             {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                fill="#f4f9fc"
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
+                            <img src="images/services/web.png" />
                           </div>
                         </div>
                       </div>{" "}
@@ -326,19 +317,7 @@ export default function About() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            {/* Vector Icon */}
-                            <span className="flaticon-idea color--theme" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                fill="#f4f9fc"
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
+                            <img src="images/services/qa.png" />
                           </div>
                         </div>
                       </div>{" "}
@@ -364,19 +343,7 @@ export default function About() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            {/* Vector Icon */}
-                            <span className="flaticon-graphic color--theme" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                fill="#f4f9fc"
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
+                            <img src="images/services/mobile.png" />
                           </div>
                         </div>
                       </div>{" "}
@@ -402,19 +369,7 @@ export default function About() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            {/* Vector Icon */}
-                            <span className="flaticon-wireframe color--theme" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                fill="#f4f9fc"
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
+                            <img src="images/services/ui.png" />
                           </div>
                         </div>
                       </div>{" "}
@@ -439,19 +394,7 @@ export default function About() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            {/* Vector Icon */}
-                            <span className="flaticon-trophy color--theme" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                fill="#f4f9fc"
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
+                            <img src="images/services/devops.png" />
                           </div>
                         </div>
                       </div>{" "}
@@ -477,19 +420,7 @@ export default function About() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            {/* Vector Icon */}
-                            <span className="flaticon-search-engine-1 color--theme" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                fill="#f4f9fc"
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
+                            <img src="images/services/art.png" />
                           </div>
                         </div>
                       </div>{" "}
@@ -513,19 +444,7 @@ export default function About() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            {/* Vector Icon */}
-                            <span className="flaticon-search-engine-1 color--theme" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                fill="#f4f9fc"
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
+                            <img src="images/services/ai.png" />
                           </div>
                         </div>
                       </div>{" "}
