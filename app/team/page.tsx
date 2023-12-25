@@ -34,18 +34,18 @@ export default function Team() {
                     <div id="tm-2-1" className="team-member mb-60 wow fadeInUp">
                       {/* Team Member Photo */}
                       <div className="team-member-photo r-14">
-                      <Link
-                              href="https://www.linkedin.com/in/amin-derakhshan/"
-                              target="_blank"
-                            >
-                        <div className="hover-overlay">
-                          <img
-                            className="img-fluid"
-                            src="/images/team/amin.png"
-                            alt="team-member-foto"
-                          />
-                          <div className="item-overlay" />
-                        </div>
+                        <Link
+                          href="https://www.linkedin.com/in/amin-derakhshan/"
+                          target="_blank"
+                        >
+                          <div className="hover-overlay">
+                            <img
+                              className="img-fluid"
+                              src="/images/team/amin.png"
+                              alt="team-member-foto"
+                            />
+                            <div className="item-overlay" />
+                          </div>
                         </Link>
                       </div>
                       {/* Team Member Data */}
@@ -318,7 +318,7 @@ export default function Team() {
                       <div className="banner-12-img text-center">
                         <img
                           className="img-fluid rounded-full"
-                          src="/images/join.png"
+                          src="/images/contactuswoman.png"
                           alt="banner-image"
                         />
                       </div>
