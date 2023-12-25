@@ -4,7 +4,7 @@
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
 import { useState } from "react";
-export default function Help() {
+export default function Service() {
   const [activeIndex, setActiveIndex] = useState(1);
   const handleOnClick = (index: any) => {
     setActiveIndex(index);
