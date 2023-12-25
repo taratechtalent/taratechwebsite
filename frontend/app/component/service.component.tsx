@@ -38,7 +38,7 @@ const ServiceComponent = ({
                     <img src="images/services/web.png" />
                   </div>
                 </div>
-              </div>{" "}
+              </div>
               {/* End Icon */}
               {/* Text */}
               <div className="fbox-txt">
@@ -60,7 +60,7 @@ const ServiceComponent = ({
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>
           {/* END FEATURE BOX #1 */}
           {/* FEATURE BOX #2 */}
           <div className="col">
@@ -72,7 +72,7 @@ const ServiceComponent = ({
                     <img src="images/services/qa.png" />
                   </div>
                 </div>
-              </div>{" "}
+              </div>
               {/* End Icon */}
               {/* Text */}
               <div className="fbox-txt">
@@ -93,7 +93,8 @@ const ServiceComponent = ({
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>
+          <hr className="!mb-10 divider" />
           {/* END FEATURE BOX #2 */}
           {/* FEATURE BOX #3 */}
           <div className="col">
@@ -105,7 +106,7 @@ const ServiceComponent = ({
                     <img src="images/services/mobile.png" />
                   </div>
                 </div>
-              </div>{" "}
+              </div>
               {/* End Icon */}
               {/* Text */}
               <div className="fbox-txt">
@@ -126,7 +127,7 @@ const ServiceComponent = ({
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>
           {/* END FEATURE BOX #3 */}
           {/* FEATURE BOX #4 */}
           <div className="col">
@@ -138,15 +139,15 @@ const ServiceComponent = ({
                     <img src="images/services/ui.png" />
                   </div>
                 </div>
-              </div>{" "}
+              </div>
               {/* End Icon */}
               {/* Text */}
               <div className="fbox-txt">
                 <h6 className="s-22 w-700">UI/UX Design</h6>
                 <p>
                   UI/UX design merges visual design with user experience to
-                  create intuitive and attractive interfaces, focusing on{" "}
-                  {`user's`} ease, engagement, and satisfaction with a{" "}
+                  create intuitive and attractive interfaces, focusing on
+                  {`user's`} ease, engagement, and satisfaction with a
                   {`product's`} look and feel.
                 </p>
                 <div className="pt-8 text-right">
@@ -159,7 +160,10 @@ const ServiceComponent = ({
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>
+
+          <hr className="!mb-10 divider" />
+
           {/* END FEATURE BOX #4 */}
           {/* FEATURE BOX #5 */}
           <div className="col">
@@ -171,7 +175,7 @@ const ServiceComponent = ({
                     <img src="images/services/devops.png" />
                   </div>
                 </div>
-              </div>{" "}
+              </div>
               {/* End Icon */}
               {/* Text */}
               <div className="fbox-txt">
@@ -192,11 +196,11 @@ const ServiceComponent = ({
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>
           {/* END FEATURE BOX #5 */}
           {/* FEATURE BOX #6 */}
           <div className="col">
-            <div className="fbox-11 fb-6 wow fadeInUp">
+            <div className="fbox-11 fb-4 wow fadeInUp">
               {/* Icon */}
               <div className="fbox-ico-wrap">
                 <div className="fbox-ico ico-50">
@@ -204,7 +208,7 @@ const ServiceComponent = ({
                     <img src="images/services/art.png" />
                   </div>
                 </div>
-              </div>{" "}
+              </div>
               {/* End Icon */}
               {/* Text */}
               <div className="fbox-txt">
@@ -225,9 +229,11 @@ const ServiceComponent = ({
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>
+          <hr className="!mb-10 divider" />
+
           <div className="col">
-            <div className="fbox-11 fb-6 wow fadeInUp mt-6">
+            <div className="fbox-11 fb-4 wow fadeInUp">
               {/* Icon */}
               <div className="fbox-ico-wrap">
                 <div className="fbox-ico ico-50">
@@ -235,7 +241,7 @@ const ServiceComponent = ({
                     <img src="images/services/ai.png" />
                   </div>
                 </div>
-              </div>{" "}
+              </div>
               {/* End Icon */}
               {/* Text */}
               <div className="fbox-txt">
@@ -256,13 +262,13 @@ const ServiceComponent = ({
                 </div>
               </div>
             </div>
-          </div>{" "}
+          </div>
           {/* END FEATURE BOX #6 */}
-        </div>{" "}
+        </div>
         {/* End row */}
-      </div>{" "}
+      </div>
       {/* END FEATURES-11 WRAPPER */}
-    </div>{" "}
+    </div>
     {/* End container */}
   </section>
 );

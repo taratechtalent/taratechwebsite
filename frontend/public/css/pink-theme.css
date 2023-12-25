@@ -6370,6 +6370,7 @@ span.sm-info {
 }
 
 .fbox-wrapper p {
+  min-height: 222px;
   margin-bottom: 0;
 }
 
@@ -13461,7 +13462,7 @@ body.theme--dark {
 .btn--theme {
   color: #fff !important;
   border-color: #f74780 !important;
-  background-color: #f74780 !important;
+  background-color: #f74780b8 !important;
 }
 
 .hover--theme:hover,
