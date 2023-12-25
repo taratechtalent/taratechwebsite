@@ -584,7 +584,7 @@ export default function TopTalent() {
                       <div className="banner-12-img text-center">
                         <img
                           className="img-fluid rounded-full"
-                          src="/images/join.png"
+                          src="/images/contact/join-girl-1.png"
                           alt="banner-image"
                         />
                       </div>

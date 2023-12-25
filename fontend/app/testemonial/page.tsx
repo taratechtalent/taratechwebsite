@@ -364,7 +364,7 @@ export default function Testemonial() {
                       <div className="banner-12-img text-center">
                         <img
                           className="img-fluid rounded-full"
-                          src="/images/join.png"
+                          src="/images/contact/join.png"
                           alt="banner-image"
                         />
                       </div>

@@ -318,7 +318,7 @@ export default function Team() {
                       <div className="banner-12-img text-center">
                         <img
                           className="img-fluid rounded-full"
-                          src="/images/contactuswoman.png"
+                          src="/images/contact/contactuswoman.png"
                           alt="banner-image"
                         />
                       </div>

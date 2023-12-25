@@ -290,7 +290,7 @@ export default function Help() {
               <div className="banner-7-wrapper">
                 <div className="row justify-content-center d-flex align-items-center">
                   {/* BANNER-9 TEXT */}
-                  <div className="col-md-7 col-xl-5">
+                  <div className="col-md-7 col-xl-8">
                     <div className="banner-9-txt">
                       {/* Title */}
                       <h3 className="s-40 w-700">Join our network</h3>
@@ -309,11 +309,11 @@ export default function Help() {
                     </div>
                   </div>
                   {/* BANNER-9 IMAGE */}
-                  <div className="col-md-5 col-xl-5">
+                  <div className="col-md-5 col-xl-4">
                     <div className="banner-9-img text-end">
                       <img
                         className="img-fluid rounded-full"
-                        src="/images/contactus.png"
+                        src="/images/contact/join-man-1.png"
                         alt="banner-image"
                       />
                     </div>
