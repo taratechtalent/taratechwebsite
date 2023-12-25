@@ -1,10 +1,8 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
-import ServiceComponent from "../component/service.component";
-import CounterUp from "../components/elements/CounterUp";
 
+import ServiceComponent from "../component/service.component";
 import Layout from "../components/layout/Layout";
-import BrandSlider from "../components/slider/BrandSlider";
 import Link from "next/link";
 export default function About() {
   return (

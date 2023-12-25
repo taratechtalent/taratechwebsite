@@ -7,8 +7,8 @@ const ServiceComponent = ({
   title = "What we offer",
   desc = "Our advanced solution to make you software development perfect",
 }: {
-  title: string;
-  desc: string;
+  title?: string;
+  desc?: string;
 }) => (
   <section id="features-11" className="py-100 features-section division mt-32">
     <div className="container">
