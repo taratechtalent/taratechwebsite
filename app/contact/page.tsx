@@ -72,25 +72,6 @@ export default function Contact() {
                 <div className="col-md-11 col-lg-10 col-xl-8">
                   <div className="form-holder">
                     <form name="contactform" className="row contact-form">
-                      {/* Form Select */}
-                      <div className="col-md-12 input-subject">
-                        <p className="p-lg">This question is about: </p>
-                        <span>
-                          Choose a topic, so we know who to send your request
-                          to:{" "}
-                        </span>
-                        <select
-                          className="form-select subject"
-                          aria-label="Default select example"
-                        >
-                          <option>This question is about...</option>
-                          <option>Registering/Authorising</option>
-                          <option>Using Application</option>
-                          <option>Troubleshooting</option>
-                          <option>Backup/Restore</option>
-                          <option>Other</option>
-                        </select>
-                      </div>
                       {/* Contact Form Input */}
                       <div className="col-md-12">
                         <p className="p-lg">Your Name: </p>
@@ -115,18 +96,13 @@ export default function Contact() {
                         />
                       </div>
                       <div className="col-md-12">
-                        <p className="p-lg">
-                          Explain your question in details:{" "}
-                        </p>
-                        <span>
-                          Your OS version, Taratalent version &amp; build, steps
-                          you did. Be VERY precise!
-                        </span>
+                        <p className="p-lg">Explain your request:</p>
+
                         <textarea
                           className="form-control message"
                           name="message"
                           rows={6}
-                          placeholder="I have a problem with..."
+                          placeholder="I wonder ..."
                         />
                       </div>
                       {/* Contact Form Button */}
@@ -138,16 +114,7 @@ export default function Contact() {
                           Submit Request
                         </button>
                       </div>
-                      <div className="contact-form-notice">
-                        <p className="p-sm">
-                          We are committed to your privacy. Taratalent uses the
-                          information you provide us to contact you about our
-                          relevant content, products, and services. You may
-                          unsubscribe from these communications at any time. For
-                          more information, check out our{" "}
-                          <Link href="/privacy">Privacy Policy</Link>.
-                        </p>
-                      </div>
+
                       {/* Contact Form Message */}
                       <div className="col-lg-12 contact-form-msg">
                         <span className="loading" />
@@ -170,7 +137,7 @@ export default function Contact() {
               <div className="container">
                 <div className="row d-flex align-items-center">
                   {/* NEWSLETTER TEXT */}
-                  <div className="col-md-10">
+                  <div className="col-md-8">
                     <h4 className="s-34 w-700">
                       Accelerate your roadmap with a global partner.
                     </h4>
@@ -181,6 +148,15 @@ export default function Contact() {
                       >
                         Book a Discovery call
                       </Link>{" "}
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="banner-12-img text-center">
+                      <img
+                        className="img-fluid rounded-full h-1/4"
+                        src="/images/contactuswoman.png"
+                        alt="banner-image"
+                      />
                     </div>
                   </div>
                 </div>{" "}
