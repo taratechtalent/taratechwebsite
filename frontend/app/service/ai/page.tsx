@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import ServiceContactComponent from "@/app/component/service.contact.component";
 import Layout from "@/app/components/layout/Layout";
 import Link from "next/link";
 
@@ -328,9 +329,7 @@ export default function WebDevelopment() {
           </div>{" "}
           {/* End container */}
         </section>{" "}
-        {/* END SINGLE PROJECT-1 */}
-        {/* BANNER-6
-============================================= */}
+        <ServiceContactComponent />
       </div>
     </Layout>
   );
