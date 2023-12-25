@@ -9811,6 +9811,27 @@ span.release-date span {
   transition: all 400ms ease-in-out;
 }
 
+.sevice-box {
+  color: color;
+  display: inline-block;
+  min-width: 350px;
+  max-width: 350px;
+  background-color: transparent;
+  border: 2px solid #ddd;
+  cursor: pointer;
+  padding: 30px 15px;
+  margin: 10px 6px;
+  -webkit-transition: all 400ms ease-in-out;
+  -moz-transition: all 400ms ease-in-out;
+  -o-transition: all 400ms ease-in-out;
+  -ms-transition: all 400ms ease-in-out;
+  transition: all 400ms ease-in-out;
+  font-size: 1.05rem;
+  line-height: 1;
+  font-weight: 500;
+  border-radius: 16px;
+}
+
 .faqs-section .tabs-1 li span {
   color: #c3c4c5;
 }

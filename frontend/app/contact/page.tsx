@@ -154,7 +154,7 @@ export default function Contact() {
                     <div className="banner-12-img text-center">
                       <img
                         className="img-fluid rounded-full h-1/4"
-                        src="/images/contact/contactuswoman.png"
+                        src="/images/contact/join-girl-2.png"
                         alt="banner-image"
                       />
                     </div>
