@@ -34,7 +34,7 @@ export default function About() {
                   </div>
                 </div>
               </div>
-            </div>{" "}
+            </div>
             {/* END ABOUT-2 TITLE */}
             {/* ABOUT-2 IMAGES */}
             <div className="container-fluid">
@@ -59,7 +59,7 @@ export default function About() {
                       />
                     </div>
                   </div>
-                </div>{" "}
+                </div>
                 {/* END IMAGES-1 */}
                 {/* IMAGES-2 */}
                 <div className="col-md-7">
@@ -104,15 +104,15 @@ export default function About() {
                         />
                       </div>
                     </div>
-                  </div>{" "}
+                  </div>
                   {/* End row */}
-                </div>{" "}
+                </div>
                 {/* END IMAGES-2 */}
-              </div>{" "}
+              </div>
               {/* End row */}
-            </div>{" "}
+            </div>
             {/* END ABOUT-2 IMAGES */}
-          </section>{" "}
+          </section>
           {/* END ABOUT-2 */}
           {/* ABOUT-3
 			============================================= */}
@@ -132,7 +132,7 @@ export default function About() {
                       the highest standards of integrity and collaboration.
                     </p>
                   </div>
-                </div>{" "}
+                </div>
                 {/* END ABOUT-3 TEXT */}
                 {/* ABOUT-3 TEXT */}
                 <div className="col-md-6">
@@ -151,13 +151,13 @@ export default function About() {
                     </p>
                     {/* Text */}
                   </div>
-                </div>{" "}
+                </div>
                 {/* END ABOUT-3 TEXT */}
-              </div>{" "}
+              </div>
               {/* End row */}
-            </div>{" "}
+            </div>
             {/* End container */}
-          </div>{" "}
+          </div>
           {/* END ABOUT-3 */}
           {/* STATISTIC-5
 			============================================= */}
@@ -185,7 +185,7 @@ export default function About() {
                       turpis sapien cursus congue augue
                     </p>
                   </div>
-                </div>{" "}
+                </div>
                 {/* END TEXT BLOCK */}
                 {/* IMAGE BLOCK */}
                 <div className="col-md-6 order-first order-md-2">
@@ -199,11 +199,11 @@ export default function About() {
                     />
                   </div>
                 </div>
-              </div>{" "}
+              </div>
               {/* End row */}
-            </div>{" "}
+            </div>
             {/* End container */}
-          </section>{" "}
+          </section>
           {/* END TEXT CONTENT */}
           {/* FEATURES-11
 			============================================= */}
@@ -251,17 +251,199 @@ export default function About() {
                       understood, and confident in the results we deliver.
                     </p>
                   </div>
+                </div>
+                {/* END TEXT BLOCK */}
+              </div>
+              {/* END SECTION CONTENT (ROW) */}
+            </div>
+            {/* End container */}
+          </section>
+
+          <section
+            id="features-12"
+            className="shape--bg shape--white-400 pt-100 features-section division"
+          >
+            <div className="container">
+              <div className="row d-flex align-items-center">
+                {/* TEXT BLOCK */}
+                <div className="col-md-5">
+                  <div className="txt-block left-column wow fadeInRight">
+                    {/* Section ID */}
+                    <span className="section-id">One-Stop Solution</span>
+                    {/* Title */}
+                    <h2 className="s-46 w-700">
+                      Smart solutions, real-time results
+                    </h2>
+                    {/* Text */}
+                    <p>
+                      TaraTech is a dynamic company specializing in a wide array
+                      of services, including cutting-edge AI solutions,
+                      professional web development, and innovative mobile
+                      application design, dedicated to delivering transformative
+                      digital experiences for businesses worldwide
+                    </p>
+                    {/* List */}
+                    <ul className="simple-list">
+                      <li className="list-item">
+                        <p>
+                          Digital Innovation: <br />
+                          Cutting-edge AI solutions Mobile application design
+                        </p>
+                      </li>
+                      <li className="list-item">
+                        <p className="mb-0">
+                          Web Solutions:
+                          <br />
+                          Professional web development User experience
+                          optimization
+                        </p>
+                      </li>
+                    </ul>
+                  </div>
                 </div>{" "}
                 {/* END TEXT BLOCK */}
+                {/* FEATURES-12 WRAPPER */}
+                <div className="col-md-7">
+                  <div className="fbox-12-wrapper wow fadeInLeft">
+                    <div className="row">
+                      <div className="col-md-6">
+                        {/* FEATURE BOX #1 */}
+                        <div
+                          id="fb-12-1"
+                          className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
+                        >
+                          {/* Icon */}
+                          <div className="fbox-ico ico-50">
+                            <div className="shape-ico color--theme">
+                              {/* Vector Icon */}
+                              <span className="flaticon-layers-1" />
+                              {/* Shape */}
+                              <svg
+                                viewBox="0 0 200 200"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
+                                  transform="translate(100 100)"
+                                />
+                              </svg>
+                            </div>
+                          </div>{" "}
+                          {/* End Icon */}
+                          {/* Text */}
+                          <div className="fbox-txt">
+                            <h5 className="s-20 w-700">Web and Mobile </h5>
+                            <p>Web and Mobile application development</p>
+                          </div>
+                        </div>
+                        {/* FEATURE BOX #2 */}
+                        <div
+                          id="fb-12-2"
+                          className="fbox-12 bg--white-100 block-shadow r-12"
+                        >
+                          {/* Icon */}
+                          <div className="fbox-ico ico-50">
+                            <div className="shape-ico color--theme">
+                              {/* Vector Icon */}
+                              <span className="flaticon-click-1" />
+                              {/* Shape */}
+                              <svg
+                                viewBox="0 0 200 200"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
+                                  transform="translate(100 100)"
+                                />
+                              </svg>
+                            </div>
+                          </div>{" "}
+                          {/* End Icon */}
+                          {/* Text */}
+                          <div className="fbox-txt">
+                            <h5 className="s-20 w-700">Devops</h5>
+                            <p>Continus integration with CICD</p>
+                          </div>
+                        </div>
+                      </div>
+                      <div className="col-md-6">
+                        {/* FEATURE BOX #3 */}
+                        <div
+                          id="fb-12-3"
+                          className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
+                        >
+                          {/* Icon */}
+                          <div className="fbox-ico ico-50">
+                            <div className="shape-ico color--theme">
+                              {/* Vector Icon */}
+                              <span className="flaticon-prioritize" />
+                              {/* Shape */}
+                              <svg
+                                viewBox="0 0 200 200"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
+                                  transform="translate(100 100)"
+                                />
+                              </svg>
+                            </div>
+                          </div>{" "}
+                          {/* End Icon */}
+                          {/* Text */}
+                          <div className="fbox-txt">
+                            <h5 className="s-20 w-700">
+                              Artificial intelligence
+                            </h5>
+                            <p>
+                              Artificial intelligence services and technologies
+                            </p>
+                          </div>
+                        </div>
+                        {/* FEATURE BOX #4 */}
+                        <div
+                          id="fb-12-4"
+                          className="fbox-12 bg--white-100 block-shadow r-12"
+                        >
+                          {/* Icon */}
+                          <div className="fbox-ico ico-50">
+                            <div className="shape-ico color--theme">
+                              {/* Vector Icon */}
+                              <span className="flaticon-analytics" />
+                              {/* Shape */}
+                              <svg
+                                viewBox="0 0 200 200"
+                                xmlns="http://www.w3.org/2000/svg"
+                              >
+                                <path
+                                  d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
+                                  transform="translate(100 100)"
+                                />
+                              </svg>
+                            </div>
+                          </div>{" "}
+                          {/* End Icon */}
+                          {/* Text */}
+                          <div className="fbox-txt">
+                            <h5 className="s-20 w-700">UI/UX and Design</h5>
+                            <p>Everything abut UI/UX and design tools</p>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>{" "}
+                  {/* End row */}
+                </div>{" "}
+                {/* END FEATURES-12 WRAPPER */}
               </div>{" "}
-              {/* END SECTION CONTENT (ROW) */}
+              {/* End row */}
             </div>{" "}
             {/* End container */}
           </section>
-          <ServiceComponent />
+
           {/* END FEATURES-11 */}
           {/* DIVIDER LINE */}
-          <hr className="divider" />
+          <hr className="divider !mt-20" />
           {/* BRANDS-1
 			============================================= */}
           {/* END BRANDS-1 */}
@@ -295,7 +477,7 @@ export default function About() {
                       </li>
                     </ul>
                   </div>
-                </div>{" "}
+                </div>
                 {/* END TEXT BLOCK */}
                 {/* IMAGE BLOCK */}
                 <div className="col-md-6 col-lg-7 order-first order-md-2">
@@ -307,11 +489,11 @@ export default function About() {
                     />
                   </div>
                 </div>
-              </div>{" "}
+              </div>
               {/* End row */}
-            </div>{" "}
+            </div>
             {/* End container */}
-          </section>{" "}
+          </section>
           {/* END TEXT CONTENT */}
           {/* BLOG-1
 			============================================= */}
@@ -349,7 +531,7 @@ export default function About() {
                           Unite for mutual success.
                         </Link>
                       </div>
-                    </div>{" "}
+                    </div>
                     {/* END BANNER-12 TEXT */}
                     {/* BANNER-12 IMAGE */}
                     <div className="col-md-5">
@@ -361,15 +543,15 @@ export default function About() {
                         />
                       </div>
                     </div>
-                  </div>{" "}
+                  </div>
                   {/* End row */}
-                </div>{" "}
+                </div>
                 {/* End banner overlay */}
-              </div>{" "}
+              </div>
               {/* END BANNER-12 WRAPPER */}
-            </div>{" "}
+            </div>
             {/* End container */}
-          </section>{" "}
+          </section>
           <hr className="divider" />
         </div>
       </Layout>
