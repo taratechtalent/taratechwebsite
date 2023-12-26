@@ -3,7 +3,7 @@ import ServiceContactComponent from "@/app/component/service.contact.component";
 import Layout from "@/app/components/layout/Layout";
 import Link from "next/link";
 
-export default function WebDevelopment() {
+export default function WebDevelopmentService() {
   return (
     <Layout
       headerStyle={1}
