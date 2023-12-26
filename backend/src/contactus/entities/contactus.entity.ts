@@ -1,23 +1,26 @@
 import {
-  Entity,
-  PrimaryGeneratedColumn,
   Column,
   CreateDateColumn,
+  Entity,
+  PrimaryGeneratedColumn,
   UpdateDateColumn,
 } from 'typeorm';
 
-@Entity({ name: 'talent' })
-export class TalentEntity {
+@Entity({ name: 'contact_us' })
+export class ContactusEntity {
   @PrimaryGeneratedColumn('uuid')
   uuid: string;
 
-  @Column({ type: 'numeric' })
-  name: number;
+  @Column()
+  name: string;
 
-  @Column({ type: 'varchar' })
+  @Column()
   email: string;
 
-  @Column({ type: 'varchar' })
+  @Column()
+  description: string;
+
+  @Column()
   status: string;
 
   @CreateDateColumn({ type: 'timestamptz', default: () => 'CURRENT_TIMESTAMP' })
