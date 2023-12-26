@@ -40,6 +40,7 @@ export default function Help() {
           <ServiceComponent
             title={"Our unique solutions"}
             desc="Best solutions for your bussiness with amazing talent"
+            image="/images/services/allservices.webp"
           />
         </div>
         <div className="flex justify-center">
@@ -67,6 +68,7 @@ export default function Help() {
                   {/* Title */}
                   <h2 className="s-52 w-700">Our Unique solutions FAQ</h2>
                   {/* Text */}
+
                   <p className="s-21 color--grey">
                     Most important questions maybe help you better to work with
                     us

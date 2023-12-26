@@ -6,20 +6,32 @@ import Link from "next/link";
 const ServiceComponent = ({
   title = "What we offer",
   desc = "Our advanced solution to make you software development perfect",
+  image,
 }: {
   title?: string;
   desc?: string;
+  image?: string;
 }) => (
   <section id="features-11" className="py-100 features-section division mt-32">
     <div className="container">
       {/* SECTION TITLE */}
       <div className="row justify-content-center">
-        <div className="col-md-10 col-lg-9">
-          <div className="section-title mb-70">
+        <div className="col-md-10 col-lg-9 ">
+          <div className="section-title mb-70 ">
             {/* Title */}
             <h2 className="s-50 w-700">{title}</h2>
             {/* Text */}
+
             <p className="s-21 color--grey">{desc}</p>
+            {image && (
+              <div className="flex text-center justify-center">
+                <img
+                  src="/images/services/allservices.webp"
+                  alt="all service"
+                  className="mt-6 rounded-lg shadow-xl "
+                />
+              </div>
+            )}
           </div>
         </div>
       </div>
@@ -55,7 +67,7 @@ const ServiceComponent = ({
                     href="/service/web"
                     className="btn r-04 btn--theme hover--theme"
                   >
-                    Explore
+                    Explore Web development
                   </Link>
                 </div>
               </div>
@@ -88,7 +100,7 @@ const ServiceComponent = ({
                     href="/service/qa"
                     className="btn r-04 btn--theme hover--theme"
                   >
-                    Explore
+                    Explore QA
                   </Link>
                 </div>
               </div>
@@ -122,7 +134,7 @@ const ServiceComponent = ({
                     href="/service/mobile"
                     className="btn r-04 btn--theme hover--theme"
                   >
-                    Explore
+                    Explore Mobile development
                   </Link>
                 </div>
               </div>
@@ -155,7 +167,7 @@ const ServiceComponent = ({
                     href="/service/uiux"
                     className="btn r-04 btn--theme hover--theme"
                   >
-                    Explore
+                    Explore UI/UX
                   </Link>
                 </div>
               </div>
@@ -191,7 +203,7 @@ const ServiceComponent = ({
                     href="/service/devops"
                     className="btn r-04 btn--theme hover--theme"
                   >
-                    Explore
+                    Explore Devops
                   </Link>
                 </div>
               </div>
@@ -224,7 +236,7 @@ const ServiceComponent = ({
                     href="/service/art"
                     className="btn r-04 btn--theme hover--theme"
                   >
-                    Explore
+                    Explore Art
                   </Link>
                 </div>
               </div>
@@ -257,7 +269,7 @@ const ServiceComponent = ({
                     href="/service/ai"
                     className="btn r-04 btn--theme hover--theme"
                   >
-                    Explore
+                    Explore AI
                   </Link>
                 </div>
               </div>
