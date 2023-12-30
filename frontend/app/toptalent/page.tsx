@@ -83,7 +83,7 @@ export default function TopTalent() {
                     {/* END CONTENT BOX #2 */}
                   </li>{" "}
                   <li>
-                    <div className="cbox-2 process-step pt-8">
+                    <div className="cbox-2 process-step pt-9">
                       {/* Icon */}
                       <div className="ico-wrap">
                         <div className="cbox-2-ico bg--theme color--white">
@@ -99,7 +99,7 @@ export default function TopTalent() {
                     {/* END CONTENT BOX #2 */}
                   </li>
                   <li>
-                    <div className="cbox-2 process-step pt-8">
+                    <div className="cbox-2 process-step pt-9">
                       {/* Icon */}
                       <div className="ico-wrap">
                         <div className="cbox-2-ico bg--theme color--white">
@@ -115,7 +115,7 @@ export default function TopTalent() {
                     {/* END CONTENT BOX #2 */}
                   </li>
                   <li>
-                    <div className="cbox-2 process-step pt-8">
+                    <div className="cbox-2 process-step pt-9">
                       {/* Icon */}
                       <div className="ico-wrap">
                         <div className="cbox-2-ico bg--theme color--white">
@@ -131,7 +131,7 @@ export default function TopTalent() {
                     {/* END CONTENT BOX #2 */}
                   </li>
                   <li>
-                    <div className="cbox-2 process-step pt-8">
+                    <div className="cbox-2 process-step pt-9">
                       {/* Icon */}
                       <div className="ico-wrap">
                         <div className="cbox-2-ico bg--theme color--white">
@@ -164,7 +164,7 @@ export default function TopTalent() {
                 <div className="col-md-10 col-lg-9">
                   <div className="section-title mb-70">
                     {/* Title */}
-                    <h2 className="s-50 w-700">Benefit amd Perks</h2>
+                    <h2 className="s-50 w-700">Benefit and Perks</h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
                       your benefits when work with us
