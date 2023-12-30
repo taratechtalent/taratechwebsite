@@ -40,7 +40,7 @@ export default function Home() {
                 <div className="inner-page-title">
                   <h2 className="s-52 w-700">Questions &amp; Answers</h2>
                   <p className="p-lg">
-                    Some common questions we get about Taratech
+                    Some important question for our talents
                   </p>
                 </div>
                 {/* QUESTIONS ACCORDION */}
@@ -852,7 +852,7 @@ export default function Home() {
                   <div className="more-questions-txt bg--white-400 r-100">
                     <p className="p-lg">
                       Have any questions?{" "}
-                      <Link href="/contacts" className="color--theme">
+                      <Link href="/contact" className="color--theme">
                         Get in Touch
                       </Link>
                     </p>
