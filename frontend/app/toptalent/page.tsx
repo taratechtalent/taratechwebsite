@@ -65,88 +65,66 @@ export default function TopTalent() {
           <div className=" container mt-36 mb-24">
             <div className="row">
               <div className="col-md-6">
-                <ul className="s-54 pt-6">
-                  <li>
-                    <div className="cbox-2 process-step">
-                      {/* Icon */}
-                      <div className="ico-wrap">
-                        <div className="cbox-2-ico bg--theme color--white">
-                          1
-                        </div>
-                        <span className="cbox-2-line" />
-                      </div>
-                      {/* Text */}
-                      <div className="cbox-2-txt">
-                        <h5 className="s-36 w-700">English Test</h5>
-                      </div>
-                    </div>{" "}
-                    {/* END CONTENT BOX #2 */}
-                  </li>{" "}
-                  <li>
-                    <div className="cbox-2 process-step pt-9">
-                      {/* Icon */}
-                      <div className="ico-wrap">
-                        <div className="cbox-2-ico bg--theme color--white">
-                          2
-                        </div>
-                        <span className="cbox-2-line" />
-                      </div>
-                      {/* Text */}
-                      <div className="cbox-2-txt">
-                        <h5 className="s-36 w-700">HR Interview</h5>
-                      </div>
-                    </div>{" "}
-                    {/* END CONTENT BOX #2 */}
-                  </li>
-                  <li>
-                    <div className="cbox-2 process-step pt-9">
-                      {/* Icon */}
-                      <div className="ico-wrap">
-                        <div className="cbox-2-ico bg--theme color--white">
-                          3
-                        </div>
-                        <span className="cbox-2-line" />
-                      </div>
-                      {/* Text */}
-                      <div className="cbox-2-txt">
-                        <h5 className="s-36 w-700">Technical Interview</h5>
-                      </div>
-                    </div>{" "}
-                    {/* END CONTENT BOX #2 */}
-                  </li>
-                  <li>
-                    <div className="cbox-2 process-step pt-9">
-                      {/* Icon */}
-                      <div className="ico-wrap">
-                        <div className="cbox-2-ico bg--theme color--white">
-                          4
-                        </div>
-                        <span className="cbox-2-line" />
-                      </div>
-                      {/* Text */}
-                      <div className="cbox-2-txt">
-                        <h5 className="s-36 w-700">Online Challenge</h5>
-                      </div>
-                    </div>{" "}
-                    {/* END CONTENT BOX #2 */}
-                  </li>
-                  <li>
-                    <div className="cbox-2 process-step pt-9">
-                      {/* Icon */}
-                      <div className="ico-wrap">
-                        <div className="cbox-2-ico bg--theme color--white">
-                          5
-                        </div>
-                        <span className="cbox-2-line" />
-                      </div>
-                      {/* Text */}
-                      <div className="cbox-2-txt">
-                        <h5 className="s-36 w-700">Continued evaluation</h5>
-                      </div>
-                    </div>{" "}
-                    {/* END CONTENT BOX #2 */}
-                  </li>
-                </ul>
+                <div className="cbox-2 process-step">
+                  {/* Icon */}
+                  <div className="ico-wrap">
+                    <div className="cbox-2-ico bg--theme color--white">1</div>
+                    <span className="cbox-2-line" />
+                  </div>
+                  {/* Text */}
+                  <div className="cbox-2-txt">
+                    <h5 className="s-36 w-700">English Test</h5>
+                  </div>
+                </div>{" "}
+                {/* END CONTENT BOX #2 */}
+                <div className="cbox-2 process-step pt-3">
+                  {/* Icon */}
+                  <div className="ico-wrap">
+                    <div className="cbox-2-ico bg--theme color--white">2</div>
+                    <span className="cbox-2-line" />
+                  </div>
+                  {/* Text */}
+                  <div className="cbox-2-txt">
+                    <h5 className="s-36 w-700">HR Interview</h5>
+                  </div>
+                </div>{" "}
+                {/* END CONTENT BOX #2 */}
+                <div className="cbox-2 process-step pt-3">
+                  {/* Icon */}
+                  <div className="ico-wrap">
+                    <div className="cbox-2-ico bg--theme color--white">3</div>
+                    <span className="cbox-2-line" />
+                  </div>
+                  {/* Text */}
+                  <div className="cbox-2-txt">
+                    <h5 className="s-36 w-700">Technical Interview</h5>
+                  </div>
+                </div>{" "}
+                {/* END CONTENT BOX #2 */}
+                <div className="cbox-2 process-step">
+                  {/* Icon */}
+                  <div className="ico-wrap">
+                    <div className="cbox-2-ico bg--theme color--white">4</div>
+                    <span className="cbox-2-line" />
+                  </div>
+                  {/* Text */}
+                  <div className="cbox-2-txt">
+                    <h5 className="s-36 w-700">Online Challenge</h5>
+                  </div>
+                </div>{" "}
+                {/* END CONTENT BOX #2 */}
+                <div className="cbox-2 process-step pt-2">
+                  {/* Icon */}
+                  <div className="ico-wrap">
+                    <div className="cbox-2-ico bg--theme color--white">5</div>
+                    <span className="cbox-2-line" />
+                  </div>
+                  {/* Text */}
+                  <div className="cbox-2-txt">
+                    <h5 className="s-36 w-700">Continued evaluation</h5>
+                  </div>
+                </div>{" "}
+                {/* END CONTENT BOX #2 */}
               </div>
               <div className="col-md-6">
                 <img src="/images/howHireTalent.png" />
