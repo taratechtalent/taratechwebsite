@@ -65,7 +65,7 @@ export default function TopTalent() {
           <div className=" container mt-36 mb-24">
             <div className="row">
               <div className="col-md-6">
-                <div className="cbox-2 process-step">
+                <div className="cbox-2 process-step pt-4">
                   {/* Icon */}
                   <div className="ico-wrap">
                     <div className="cbox-2-ico bg--theme color--white">1</div>
@@ -77,7 +77,7 @@ export default function TopTalent() {
                   </div>
                 </div>{" "}
                 {/* END CONTENT BOX #2 */}
-                <div className="cbox-2 process-step pt-3">
+                <div className="cbox-2 process-step pt-2">
                   {/* Icon */}
                   <div className="ico-wrap">
                     <div className="cbox-2-ico bg--theme color--white">2</div>
@@ -89,7 +89,7 @@ export default function TopTalent() {
                   </div>
                 </div>{" "}
                 {/* END CONTENT BOX #2 */}
-                <div className="cbox-2 process-step pt-3">
+                <div className="cbox-2 process-step">
                   {/* Icon */}
                   <div className="ico-wrap">
                     <div className="cbox-2-ico bg--theme color--white">3</div>
@@ -113,7 +113,7 @@ export default function TopTalent() {
                   </div>
                 </div>{" "}
                 {/* END CONTENT BOX #2 */}
-                <div className="cbox-2 process-step pt-2">
+                <div className="cbox-2 process-step ">
                   {/* Icon */}
                   <div className="ico-wrap">
                     <div className="cbox-2-ico bg--theme color--white">5</div>
