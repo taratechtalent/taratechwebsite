@@ -154,105 +154,6 @@ export default function TopTalent() {
             </div>
           </div>
           {/* END ABOUT-3 */}
-          {/* STATISTIC-5
-			============================================= */}
-          {/* END STATISTIC-5 */}
-          {/* TEXT CONTENT
-			============================================= */}
-          <section className="bg--04 bg--fixed py-100 ct-01 content-section division">
-            <div className="container">
-              <div className="row d-flex align-items-center">
-                {/* TEXT BLOCK */}
-                <div className="col-md-6 order-last order-md-2">
-                  <div className="txt-block left-column wow fadeInRight">
-                    {/* Section ID */}
-                    <span className="section-id">Co-founder at Taratalent</span>
-                    {/* Title */}
-                    <h2 className="s-50 w-700">Admin Derakhshan</h2>
-                    {/* Text */}
-                    <p className="p-lg">
-                      Sodales tempor sapien diam purus ipsum quaerat and volute
-                      fusce a congue laoreet turpis neque diam auctor turpis
-                      vitae dolor magna luctus placerat neque ipsum fusce cursus
-                      ligula cursus purus vitae purus and ipsum suscipit. Nemo
-                      ipsam cubilia donec turpis undo egestas ipsum a purus
-                      sapien ultrice aliquam lacus and quaerat an ipsum augue
-                      turpis sapien cursus congue augue
-                    </p>
-                  </div>
-                </div>{" "}
-                {/* END TEXT BLOCK */}
-                {/* IMAGE BLOCK */}
-                <div className="col-md-6 order-first order-md-2">
-                  <div className="img-block j-img video-preview right-column wow fadeInLeft">
-                    {/* Play Icon */}
-                    {/* Preview Image */}
-                    <img
-                      className="img-fluid r-20"
-                      src="/images/team/amin.png"
-                      alt="video-preview"
-                    />
-                  </div>
-                </div>
-              </div>{" "}
-              {/* End row */}
-            </div>{" "}
-            {/* End container */}
-          </section>{" "}
-          {/* END TEXT CONTENT */}
-          {/* FEATURES-11
-			============================================= */}
-          <section className="pt-100 ct-02 content-section division">
-            <div className="container">
-              {/* SECTION CONTENT (ROW) */}
-              <div className="row d-flex align-items-center">
-                {/* IMAGE BLOCK */}
-                <div className="col-md-6">
-                  <div className="img-block left-column wow fadeInRight">
-                    <img
-                      className="img-fluid"
-                      src="/images/commitment.png"
-                      alt="content-image"
-                    />
-                  </div>
-                </div>
-                {/* TEXT BLOCK */}
-                <div className="col-md-6">
-                  <div className="txt-block right-column wow fadeInLeft">
-                    {/* Section ID */}
-                    <span className="section-id">Why Choose Us</span>
-                    {/* Title */}
-                    <h2 className="s-46 w-700">
-                      Our Commitment to Client Satisfaction
-                    </h2>
-                    {/* Text */}
-                    <p>
-                      When it comes to our commitment to client satisfaction,
-                      our approach is twofold: first, we focus on understanding
-                      the unique needs and goals of each client, ensuring that
-                      our services are tailored to meet their specific
-                      requirements. We believe in building strong relationships
-                      based on trust, transparency, and continuous
-                      communication, allowing us to adapt and evolve our
-                      services as our {`clients'needs`} change
-                    </p>
-                    {/* Text */}
-                    <p className="mb-0">
-                      Second, we commit to delivering the highest quality of
-                      service, utilizing our {`team's`} expertise, innovative
-                      solutions, and a rigorous attention to detail to exceed
-                      expectations. This commitment to excellence and
-                      adaptability ensures that our clients feel valued,
-                      understood, and confident in the results we deliver.
-                    </p>
-                  </div>
-                </div>{" "}
-                {/* END TEXT BLOCK */}
-              </div>{" "}
-              {/* END SECTION CONTENT (ROW) */}
-            </div>{" "}
-            {/* End container */}
-          </section>
           <section
             id="features-11"
             className="py-100 features-section division"
@@ -263,11 +164,10 @@ export default function TopTalent() {
                 <div className="col-md-10 col-lg-9">
                   <div className="section-title mb-70">
                     {/* Title */}
-                    <h2 className="s-50 w-700">What we offer</h2>
+                    <h2 className="s-50 w-700">Benefit amd Perks</h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
-                      Our advanced solution to make you software development
-                      perfect
+                      your benefits when work with us
                     </p>
                   </div>
                 </div>
@@ -291,14 +191,15 @@ export default function TopTalent() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Web App Development</h6>
+                        <h6 className="s-22 w-700">
+                          Professional Growth and Development
+                        </h6>
                         <p>
-                          Web app development combines HTML, CSS, and JavaScript
-                          with backend languages to create interactive,
-                          responsive applications. Focused on user experience
-                          and scalability, it evolves with technological
-                          advancements, driving innovation in accessible,
-                          efficient global web solutions.
+                          Good companies often invest in training and
+                          development programs to help employees enhance their
+                          skills and advance in their careers. This might
+                          include access to workshops, courses, conferences, or
+                          mentoring programs.
                         </p>
                       </div>
                     </div>
@@ -318,13 +219,13 @@ export default function TopTalent() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Software testing & QA</h6>
+                        <h6 className="s-22 w-700">Stability and Security</h6>
                         <p>
-                          Software testing and QA ensure that applications meet
-                          quality standards and function as intended, through
-                          systematic processes of verification, bug
-                          identification, and performance assessment to enhance
-                          product reliability.
+                          Reputable companies usually offer greater job security
+                          and stability. They have established market positions
+                          and are less likely to go through abrupt downsizing,
+                          providing employees with a sense of security and
+                          long-term employment prospects.
                         </p>
                       </div>
                     </div>
@@ -344,13 +245,15 @@ export default function TopTalent() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Mobile App Development</h6>
+                        <h6 className="s-22 w-700">
+                          Competitive Compensation and Benefits
+                        </h6>
                         <p>
-                          Mobile app development involves creating software for
-                          smartphones and tablets, focusing on optimized design,
-                          functionality, and user experience across diverse
-                          platforms and devices for on-the-go accessibility and
-                          performance.
+                          Well-established firms often provide competitive
+                          salaries and comprehensive benefits packages,
+                          including health insurance, retirement plans, bonuses,
+                          and sometimes stock options or profit-sharing plans,
+                          attracting and retaining top talent.
                         </p>
                       </div>
                     </div>
@@ -370,12 +273,15 @@ export default function TopTalent() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">UI/UX Design</h6>
+                        <h6 className="s-22 w-700">
+                          Positive Work Environment
+                        </h6>
                         <p>
-                          UI/UX design merges visual design with user experience
-                          to create intuitive and attractive interfaces,
-                          focusing on {`user's`} ease, engagement, and
-                          satisfaction with a {`product's`} look and feel.
+                          Good companies recognize the importance of a positive
+                          and inclusive work culture. They strive to create an
+                          environment where employees feel valued, respected,
+                          and engaged, leading to higher job satisfaction and
+                          productivity.
                         </p>
                       </div>
                     </div>
@@ -395,13 +301,17 @@ export default function TopTalent() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Devops</h6>
+                        <h6 className="s-22 w-700">
+                          {" "}
+                          Enhanced Reputation and Resume Value
+                        </h6>
                         <p>
-                          DevOps integrates development and operations to
-                          improve collaboration, speed, and product quality,
-                          focusing on continuous integration, automated
-                          deployment, and quicker, more efficient delivery
-                          cycles in software development.
+                          Being associated with a respected and successful
+                          company can enhance an {`individual's`} professional
+                          reputation, making them more attractive to future
+                          employers. The experience and accomplishments gained
+                          at such a company can significantly boost {`one's`}{" "}
+                          resume and career prospects.
                         </p>
                       </div>
                     </div>
@@ -421,37 +331,13 @@ export default function TopTalent() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Digital Art</h6>
+                        <h6 className="s-22 w-700">Networking Opportunities</h6>
                         <p>
-                          Digital art encompasses creating visual content using
-                          technology, ranging from illustrations to animations,
-                          utilizing software and devices to craft, manipulate,
-                          and produce innovative artistic expressions in a
-                          digital format.
-                        </p>
-                      </div>
-                    </div>
-                  </div>{" "}
-                  <div className="col">
-                    <div className="fbox-11 fb-6 wow fadeInUp mt-6">
-                      {/* Icon */}
-                      <div className="fbox-ico-wrap">
-                        <div className="fbox-ico ico-50">
-                          <div className="shape-ico">
-                            <img src="images/services/ai.png" />
-                          </div>
-                        </div>
-                      </div>{" "}
-                      {/* End Icon */}
-                      {/* Text */}
-                      <div className="fbox-txt">
-                        <h6 className="s-22 w-700">AI/Machine Learning</h6>
-                        <p>
-                          AI/Machine Learning involves algorithms and
-                          statistical models that enable computers to improve
-                          tasks with experience, focusing on prediction,
-                          automation, and decision-making in various fields from
-                          healthcare to finance.
+                          Working with a well-regarded company can expose
+                          employees to a network of professionals and experts in
+                          the field, offering opportunities for networking,
+                          collaboration, and even mentorship. This can be
+                          invaluable for career advancement and personal growth.
                         </p>
                       </div>
                     </div>
@@ -463,79 +349,295 @@ export default function TopTalent() {
               {/* END FEATURES-11 WRAPPER */}
             </div>{" "}
             {/* End container */}
-          </section>{" "}
-          {/* END FEATURES-11 */}
-          {/* DIVIDER LINE */}
-          <hr className="divider" />
-          {/* BRANDS-1
-			============================================= */}
-          <div id="brands-1" className="py-80 brands-section">
+          </section>
+          <section id="features-2" className="pt-100 features-section division">
             <div className="container">
-              {/* BRANDS TITLE */}
+              {/* SECTION TITLE */}
               <div className="row justify-content-center">
                 <div className="col-md-10 col-lg-9">
-                  <div className="brands-title mb-50">
-                    <h5 className="s-20">
-                      Most popular technologies supported by us
-                    </h5>
+                  <div className="section-title mb-80">
+                    {/* Title */}
+                    <h2 className="s-50 w-700">Key traits</h2>
+                    {/* Text */}
+                    <p className="s-21 color--grey">
+                      Talent Attributes We Value
+                    </p>
                   </div>
                 </div>
               </div>
-              {/* BRANDS CAROUSEL */}
-              <div className="row">
-                <div className="col text-center">
-                  <BrandSlider />
-                </div>
+              {/* FEATURES-2 WRAPPER */}
+              <div className="fbox-wrapper text-center">
+                <div className="row row-cols-1 row-cols-md-3">
+                  {/* FEATURE BOX #1 */}
+                  <div className="col-md-3">
+                    <div className="fbox-2 fb-1 wow fadeInUp">
+                      {/* Image */}
+                      <div className="fbox-img gr--whitesmoke h-175">
+                        <img
+                          className="img-fluid light-theme-img"
+                          src="/images/topn/advanced.png"
+                          alt="feature-image"
+                        />
+                        <img
+                          className="img-fluid dark-theme-img"
+                          src="/images/topn/DALL·E 2023-12-27 12.25 1.png"
+                          alt="feature-image"
+                        />
+                      </div>
+                      {/* Text */}
+                      <div className="fbox-txt">
+                        <h6 className="s-22 w-700">
+                          Advanced Technical Proficiency
+                        </h6>
+                        <p>
+                          Luctus egestas augue undo ultrice aliquam in lacus
+                          congue dapibus
+                        </p>
+                      </div>
+                    </div>
+                  </div>{" "}
+                  <div className="col-md-3">
+                    <div className="fbox-2 fb-1 wow fadeInUp">
+                      {/* Image */}
+                      <div className="fbox-img gr--whitesmoke h-175">
+                        <img
+                          className="img-fluid light-theme-img"
+                          src="/images/topn/analytic.png"
+                          alt="feature-image"
+                        />
+                        <img
+                          className="img-fluid dark-theme-img"
+                          src="/images/f_01_dark.png"
+                          alt="feature-image"
+                        />
+                      </div>
+                      {/* Text */}
+                      <div className="fbox-txt">
+                        <h6 className="s-22 w-700">Analytical Thinking</h6>
+                        <p>
+                          Tempor laoreet augue undo ultrice aliquam in lacusq
+                          luctus feugiat
+                        </p>
+                      </div>
+                    </div>
+                  </div>{" "}
+                  {/* END FEATURE BOX #1 */}
+                  {/* FEATURE BOX #2 */}
+                  <div className="col-md-3">
+                    <div className="fbox-2 fb-2 wow fadeInUp">
+                      {/* Image */}
+                      <div className="fbox-img gr--whitesmoke h-175">
+                        <img
+                          className="img-fluid light-theme-img"
+                          src="/images/topn/commitment.png"
+                          alt="feature-image"
+                        />
+                        <img
+                          className="img-fluid dark-theme-img"
+                          src="/images/f_05_dark.png"
+                          alt="feature-image"
+                        />
+                      </div>
+                      {/* Text */}
+                      <div className="fbox-txt">
+                        <h6 className="s-22 w-700">Commitment to Excellence</h6>
+                        <p>
+                          Egestas luctus augue undo ultrice aliquam in lacus
+                          feugiat cursus
+                        </p>
+                      </div>
+                    </div>
+                  </div>{" "}
+                  {/* END FEATURE BOX #2 */}
+                  {/* FEATURE BOX #3 */}
+                  <div className="col-md-3">
+                    <div className="fbox-2 fb-3 wow fadeInUp">
+                      {/* Image */}
+                      <div className="fbox-img gr--whitesmoke h-175">
+                        <img
+                          className="img-fluid light-theme-img"
+                          src="/images/topn/communication.png"
+                          alt="feature-image"
+                        />
+                        <img
+                          className="img-fluid dark-theme-img"
+                          src="/images/f_02_dark.png"
+                          alt="feature-image"
+                        />
+                      </div>
+                      {/* Text */}
+                      <div className="fbox-txt">
+                        <h6 className="s-22 w-700">Open Communication</h6>
+                        <p>
+                          Egestas luctus augue undo ultrice aliquam in lacus
+                          feugiat cursus
+                        </p>
+                      </div>
+                    </div>
+                  </div>{" "}
+                  {/* END FEATURE BOX #3 */}
+                </div>{" "}
+                {/* End row */}
               </div>{" "}
-              {/* END BRANDS CAROUSEL */}
+              {/* END FEATURES-2 WRAPPER */}
             </div>{" "}
             {/* End container */}
-          </div>{" "}
-          {/* END BRANDS-1 */}
-          {/* DIVIDER LINE */}
-          <hr className="divider" />
-          <section className="bg--white-400 py-100 ct-03 content-section division">
+          </section>
+          <section
+            id="integrations-1"
+            className="pt-100 integrations-section mt-80"
+          >
             <div className="container">
-              <div className="row d-flex align-items-center">
-                {/* TEXT BLOCK */}
-                <div className="col-md-6 col-lg-5 order-last order-md-2">
-                  <div className="txt-block left-column wow fadeInRight">
-                    {/* Section ID */}
+              {/* SECTION TITLE */}
+              <div className="row justify-content-center">
+                <div className="col-md-10 col-lg-9">
+                  <div className="section-title mb-70">
                     {/* Title */}
-                    <h2 className="s-46 w-700">Our Office & Infrastructure</h2>
-                    {/* List */}
-                    <ul className="simple-list">
-                      <li className="list-item">
-                        <p>
-                          Paj Tower is a multifunctional complex in Mashhad,
-                          offering luxury residential, commercial, and retail
-                          spaces with a focus on modern design and efficiency.
-                        </p>
-                      </li>
-                      <li className="list-item">
-                        <p className="mb-0">
-                          It significantly contributes to {`Mashhad's`} urban
-                          landscape and economy, symbolizing the {`city's`}
-                          modernization and appeal as a commercial and cultural
-                          destination.
-                        </p>
-                      </li>
-                    </ul>
-                  </div>
-                </div>{" "}
-                {/* END TEXT BLOCK */}
-                {/* IMAGE BLOCK */}
-                <div className="col-md-6 col-lg-7 order-first order-md-2">
-                  <div className="img-block right-column wow fadeInLeft">
-                    <img
-                      className="img-fluid rounded-lg"
-                      src="/images/pazh.png"
-                      alt="content-image"
-                    />
+                    <h2 className="s-52 w-700">
+                      {" "}
+                      The <span style={{ color: "#F74780" }}>top 5%</span>{" "}
+                      fields of work{" "}
+                    </h2>
+                    {/* Text */}
+                    <p className="s-21 color--grey">
+                      Most popular programming languages and framework for
+                      development
+                    </p>
                   </div>
                 </div>
+              </div>
+              {/* INTEGRATIONS-1 WRAPPER */}
+              <div className="integrations-1-wrapper">
+                <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 rows-2">
+                  <div className="col">
+                    <Link
+                      href="#"
+                      className="in_tool it-1 r-12 mb-30 wow fadeInUp"
+                    >
+                      {/* Icon */}
+                      <div className="in_tool-logo-wrap">
+                        <div className="in_tool-logo ico-60">
+                          <img src="/images/topn/div.in_tool-logo-wrap.png" />
+                        </div>
+                      </div>
+                      {/* Text */}
+                      <div className="in_tool-txt">
+                        <h6 className="s-20 w-700 pt-2">Web App Development</h6>
+                      </div>
+                    </Link>
+                  </div>{" "}
+                  <div className="col">
+                    <Link
+                      href="#"
+                      className="in_tool it-1 r-12 mb-30 wow fadeInUp"
+                    >
+                      {/* Icon */}
+                      <div className="in_tool-logo-wrap">
+                        <div className="in_tool-logo ico-60">
+                          <img src="/images/topn/div.in_tool-logo-wrap (1).png" />
+                        </div>
+                      </div>
+                      {/* Text */}
+                      <div className="in_tool-txt">
+                        <h6 className="s-20 w-700 pt-2">Devops</h6>
+                      </div>
+                    </Link>
+                  </div>{" "}
+                  <div className="col">
+                    <Link
+                      href="#"
+                      className="in_tool it-1 r-12 mb-30 wow fadeInUp"
+                    >
+                      {/* Icon */}
+                      <div className="in_tool-logo-wrap">
+                        <div className="in_tool-logo ico-60">
+                          <img src="/images/topn/icons8-software-testing-64 (1) 1.png" />
+                        </div>
+                      </div>
+                      {/* Text */}
+                      <div className="in_tool-txt">
+                        <h6 className="s-20 w-700 pt-2">
+                          Software testing & QA
+                        </h6>
+                      </div>
+                    </Link>
+                  </div>{" "}
+                  <div className="col">
+                    <Link
+                      href="#"
+                      className="in_tool it-1 r-12 mb-30 wow fadeInUp"
+                    >
+                      {/* Icon */}
+                      <div className="in_tool-logo-wrap">
+                        <div className="in_tool-logo ico-60">
+                          <img src="/images/topn/icons8-mobile-app-development-53 (1) 1.png" />
+                        </div>
+                      </div>
+                      {/* Text */}
+                      <div className="in_tool-txt">
+                        <h6 className="s-20 w-700 pt-2">
+                          Mobile App Development
+                        </h6>
+                      </div>
+                    </Link>
+                  </div>{" "}
+                  <div className="col">
+                    <Link
+                      href="#"
+                      className="in_tool it-1 r-12 mb-30 wow fadeInUp"
+                    >
+                      {/* Icon */}
+                      <div className="in_tool-logo-wrap">
+                        <div className="in_tool-logo ico-60">
+                          <img src="/images/topn/icons8-artificial-intelligence-64 1.png" />
+                        </div>
+                      </div>
+                      {/* Text */}
+                      <div className="in_tool-txt">
+                        <h6 className="s-20 w-700 pt-2">AI/Machine Learning</h6>
+                      </div>
+                    </Link>
+                  </div>{" "}
+                  <div className="col">
+                    <Link
+                      href="#"
+                      className="in_tool it-1 r-12 mb-30 wow fadeInUp"
+                    >
+                      {/* Icon */}
+                      <div className="in_tool-logo-wrap">
+                        <div className="in_tool-logo ico-60">
+                          <img src="/images/topn/icons8-ux-design-64 (1) 1.png" />
+                        </div>
+                      </div>
+                      {/* Text */}
+                      <div className="in_tool-txt">
+                        <h6 className="s-20 w-700 pt-2">UI/UX Design</h6>
+                      </div>
+                    </Link>
+                  </div>{" "}
+                </div>
+                <div className="row justify-content-center mb-80">
+                  {" "}
+                  <div className="col-md-4 text-center">
+                    <Link
+                      href="#"
+                      className="in_tool it-1 r-12 mb-30 wow fadeInUp"
+                    >
+                      {/* Icon */}
+                      <div className="in_tool-logo-wrap">
+                        <div className="in_tool-logo ico-60">
+                          <img src="/images/topn/div.in_tool-logo-wrap (2).png" />
+                        </div>
+                      </div>
+                      {/* Text */}
+                      <div className="in_tool-txt">
+                        <h6 className="s-20 w-700 pt-2">Digital Art</h6>
+                      </div>
+                    </Link>
+                  </div>{" "}
+                </div>
               </div>{" "}
-              {/* End row */}
+              {/* END INTEGRATIONS-1 WRAPPER */}
             </div>{" "}
             {/* End container */}
           </section>{" "}
