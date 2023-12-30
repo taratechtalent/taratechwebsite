@@ -13599,3 +13599,14 @@ body.theme--dark {
 html {
   scroll-behavior: smooth !important;
 }
+
+/* Initial state of the div */
+.shadow-box {
+  transition: box-shadow 0.3s ease-in-out; /* Smooth transition for the shadow effect */
+}
+
+/* When the div is hovered over */
+.shadow-box:hover {
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* x-offset, y-offset, blur-radius, color */
+  border-radius: 5px;
+}
