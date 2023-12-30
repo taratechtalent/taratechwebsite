@@ -14,146 +14,145 @@ export default function TopTalent() {
         <div>
           {/* ABOUT-2
 			============================================= */}
-          <section
-            id="about-2"
-            className="rel inner-page-hero about-section division"
-          >
-            {/* ABOUT-2 TITLE */}
+          <section className="pt-44 ct-02 content-section division">
             <div className="container">
-              <div className="row">
-                <div className="col-md-11 col-lg-10 col-xl-9">
-                  <div className="about-2-title mb-60">
-                    {/* Title */}
-                    <h2 className="s-52 w-700 mb-30">TopTalent</h2>
-                    {/* Text */}
-                    <p className="mb-0">TopTalent</p>
-                  </div>
-                </div>
-              </div>
-            </div>{" "}
-            {/* END ABOUT-2 TITLE */}
-            {/* ABOUT-2 IMAGES */}
-            <div className="container-fluid">
-              <div className="row">
-                {/* IMAGES-1 */}
-                <div className="col-md-5">
-                  <div className="text-end">
-                    {/* IMAGE-1 */}
-                    <div className="about-2-img a-2-1 r-12">
-                      <img
-                        className="img-fluid"
-                        src="/images/a2-1.jpg"
-                        alt="about-image"
-                      />
-                    </div>
-                    {/* IMAGE-2 */}
-                    <div className="about-2-img a-2-2 r-12">
-                      <img
-                        className="img-fluid"
-                        src="/images/a2-2.jpg"
-                        alt="about-image"
-                      />
-                    </div>
-                  </div>
-                </div>{" "}
-                {/* END IMAGES-1 */}
-                {/* IMAGES-2 */}
-                <div className="col-md-7">
-                  {/* IMAGE-3 */}
-                  <div className="about-2-img a-2-3 r-12">
+              {/* SECTION CONTENT (ROW) */}
+              <div className="row d-flex align-items-center">
+                {/* IMAGE BLOCK */}
+                <div className="col-md-6">
+                  <div className="img-block left-column wow fadeInRight">
                     <img
                       className="img-fluid"
-                      src="/images/a2-3.jpg"
-                      alt="about-image"
+                      src="/images/img-06.png"
+                      alt="content-image"
                     />
                   </div>
-                  <div className="row">
-                    {/* TEXT */}
-                    <div className="col-md-7 col-lg-6">
-                      <div className="a2-txt bg--black-400 pattern-01 bg--fixed color--white r-12">
-                        {/* Icon */}
-                        <div className="a2-txt-quote ico-40 o-20">
-                          <span className="flaticon-quote" />
-                        </div>
-                        {/* Text */}
-                        <p>
-                          Naser Derakhashan, founder of an HR company, commits
-                          to global client excellence with tailored strategies,
-                          integrity, and innovative solutions, ensuring
-                          efficient, personalized support and fostering lasting
-                          partnerships in the ever-evolving world of human
-                          resources.
-                        </p>
-                        {/* Author */}
-                        <p className="a2-txt-author">
-                          Amin Derakhshan <span>CEO &amp; CO-FOUNDER</span>
-                        </p>
-                      </div>
-                    </div>
-                    {/* IMAGE-4 */}
-                    <div className="col-md-5 col-lg-6">
-                      <div className="about-2-img a-2-4 r-12">
-                        <img
-                          className="img-fluid"
-                          src="/images/a2-4.jpg"
-                          alt="about-image"
-                        />
-                      </div>
-                    </div>
-                  </div>{" "}
-                  {/* End row */}
-                </div>{" "}
-                {/* END IMAGES-2 */}
-              </div>{" "}
-              {/* End row */}
-            </div>{" "}
-            {/* END ABOUT-2 IMAGES */}
-          </section>{" "}
-          {/* END ABOUT-2 */}
-          {/* ABOUT-3
-			============================================= */}
-          <div id="about-3" className="pt-100 about-section division">
-            <div className="container">
-              <div className="row">
-                {/* ABOUT-3 TEXT */}
+                </div>
+                {/* TEXT BLOCK */}
                 <div className="col-md-6">
-                  <div id="a3-1" className="txt-block">
+                  <div className="txt-block right-column wow fadeInLeft">
+                    {/* Section ID */}
+                    <span className="section-id">Top 5%</span>
                     {/* Title */}
-                    <h5 className="s-24 w-700 mb-20">Mission and impact</h5>
+                    <h2 className="s-50 w-700">
+                      How We hire the Top <b style={{ color: "#F74780" }}>5%</b>{" "}
+                      of Tech Experts
+                    </h2>
                     {/* Text */}
                     <p>
-                      To empower organizations by providing innovative and
-                      strategic human resource solutions that cultivate talent,
-                      enhance performance, and drive success, while upholding
-                      the highest standards of integrity and collaboration.
-                    </p>
-                  </div>
-                </div>{" "}
-                {/* END ABOUT-3 TEXT */}
-                {/* ABOUT-3 TEXT */}
-                <div className="col-md-6">
-                  <div id="a3-2" className="txt-block">
-                    {/* Title */}
-                    <h5 className="s-24 w-700 mb-20">Vision</h5>
-                    {/* Text */}
-                    <p>
-                      To be the leading global innovator in human resource
-                      management, shaping the future of work by fostering
-                      inclusive, dynamic, and high-performing organizations. We
-                      strive to set the standard for excellence, integrity, and
-                      creativity in HR solutions, becoming the trusted partner
-                      of choice for companies seeking to navigate and thrive in
-                      an ever-changing business landscape.
+                      Sodales tempor sapien quaerat ipsum undo congue laoreet
+                      turpis neque auctor turpis vitae dolor luctus placerat
+                      magna and ligula cursus purus vitae purus an ipsum
+                      suscipit
                     </p>
                     {/* Text */}
+                    <ul className="ml-10">
+                      <li>
+                        Sodales tempor sapien quaerat ipsum undo congue laoreet
+                        turpis neque auctor turpis vitae dolor luctus placerat
+                        magna and ligula cursus purus vitae purus an ipsum
+                        suscipit
+                      </li>
+                    </ul>
                   </div>
-                </div>{" "}
-                {/* END ABOUT-3 TEXT */}
-              </div>{" "}
-              {/* End row */}
-            </div>{" "}
+                </div>
+                {/* END TEXT BLOCK */}
+              </div>
+              {/* END SECTION CONTENT (ROW) */}
+            </div>
             {/* End container */}
-          </div>{" "}
+          </section>
+          <div className=" container mt-36 mb-24">
+            <div className="row">
+              <div className="col-md-6">
+                <ul className="s-54 pt-6">
+                  <li>
+                    <div className="cbox-2 process-step">
+                      {/* Icon */}
+                      <div className="ico-wrap">
+                        <div className="cbox-2-ico bg--theme color--white">
+                          1
+                        </div>
+                        <span className="cbox-2-line" />
+                      </div>
+                      {/* Text */}
+                      <div className="cbox-2-txt">
+                        <h5 className="s-36 w-700">English Test</h5>
+                      </div>
+                    </div>{" "}
+                    {/* END CONTENT BOX #2 */}
+                  </li>{" "}
+                  <li>
+                    <div className="cbox-2 process-step pt-8">
+                      {/* Icon */}
+                      <div className="ico-wrap">
+                        <div className="cbox-2-ico bg--theme color--white">
+                          2
+                        </div>
+                        <span className="cbox-2-line" />
+                      </div>
+                      {/* Text */}
+                      <div className="cbox-2-txt">
+                        <h5 className="s-36 w-700">HR Interview</h5>
+                      </div>
+                    </div>{" "}
+                    {/* END CONTENT BOX #2 */}
+                  </li>
+                  <li>
+                    <div className="cbox-2 process-step pt-8">
+                      {/* Icon */}
+                      <div className="ico-wrap">
+                        <div className="cbox-2-ico bg--theme color--white">
+                          3
+                        </div>
+                        <span className="cbox-2-line" />
+                      </div>
+                      {/* Text */}
+                      <div className="cbox-2-txt">
+                        <h5 className="s-36 w-700">Technical Interview</h5>
+                      </div>
+                    </div>{" "}
+                    {/* END CONTENT BOX #2 */}
+                  </li>
+                  <li>
+                    <div className="cbox-2 process-step pt-8">
+                      {/* Icon */}
+                      <div className="ico-wrap">
+                        <div className="cbox-2-ico bg--theme color--white">
+                          4
+                        </div>
+                        <span className="cbox-2-line" />
+                      </div>
+                      {/* Text */}
+                      <div className="cbox-2-txt">
+                        <h5 className="s-36 w-700">Online Challenge</h5>
+                      </div>
+                    </div>{" "}
+                    {/* END CONTENT BOX #2 */}
+                  </li>
+                  <li>
+                    <div className="cbox-2 process-step pt-8">
+                      {/* Icon */}
+                      <div className="ico-wrap">
+                        <div className="cbox-2-ico bg--theme color--white">
+                          5
+                        </div>
+                        <span className="cbox-2-line" />
+                      </div>
+                      {/* Text */}
+                      <div className="cbox-2-txt">
+                        <h5 className="s-36 w-700">Continued evaluation</h5>
+                      </div>
+                    </div>{" "}
+                    {/* END CONTENT BOX #2 */}
+                  </li>
+                </ul>
+              </div>
+              <div className="col-md-6">
+                <img src="/images/howHireTalent.png" />
+              </div>
+            </div>
+          </div>
           {/* END ABOUT-3 */}
           {/* STATISTIC-5
 			============================================= */}
