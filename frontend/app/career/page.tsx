@@ -417,63 +417,65 @@ export default function Career() {
             </div>{" "}
             {/* End container */}
           </section>
-          <div id="about-2" className="rel pt-100 about-section division">
-            {/* ABOUT-2 IMAGES */}
-            <div className="container-fluid">
-              <div className="row">
-                {/* IMAGES-1 */}
-                <div className="col-md-2"></div> {/* END IMAGES-1 */}
-                {/* IMAGES-2 */}
-                <div className="col-md-9">
-                  {/* IMAGE-3 */}
-                  <div className="about-2-img a-2-3 r-12">
-                    <img
-                      className="img-fluid"
-                      src="/images/a2-3.jpg"
-                      alt="about-image"
-                    />
-                  </div>
-                  <div className="row">
-                    {/* TEXT */}
-                    <div className="col-md-6 col-lg-6">
-                      <div className="a2-txt bg--black-400 pattern-01 bg--fixed color--white r-12">
-                        {/* Icon */}
-                        <div className="a2-txt-quote ico-40 o-20">
-                          <span className="flaticon-quote" />
+          <div className="container">
+            <div id="about-2" className="rel pt-100 about-section division">
+              {/* ABOUT-2 IMAGES */}
+              <div className="container-fluid">
+                <div className="row">
+                  {/* IMAGES-1 */}
+                  {/* IMAGES-2 */}
+                  <div className="col-md-12">
+                    {/* IMAGE-3 */}
+                    <div className="about-2-img a-2-3 r-12">
+                      <img
+                        className="img-fluid"
+                        style={{ width: "80%" }}
+                        src="/images/a2-3.jpg"
+                        alt="about-image"
+                      />
+                    </div>
+                    <div className="row">
+                      {/* TEXT */}
+                      <div className="col-md-6 col-lg-6">
+                        <div className="a2-txt bg--black-400 pattern-01 bg--fixed color--white r-12">
+                          {/* Icon */}
+                          <div className="a2-txt-quote ico-40 o-20">
+                            <span className="flaticon-quote" />
+                          </div>
+                          {/* Text */}
+                          <p>
+                            Thank you for the incredible opportunity to grow,
+                            innovate, and contribute within such a supportive
+                            and dynamic environment. My journey here has not
+                            only shaped my career but also enriched my personal
+                            development.
+                          </p>
+                          {/* Author */}
+                          <p className="a2-txt-author">
+                            Fatemeh Hassani <span>UI/UX Designer</span>
+                          </p>
                         </div>
-                        {/* Text */}
-                        <p>
-                          Thank you for the incredible opportunity to grow,
-                          innovate, and contribute within such a supportive and
-                          dynamic environment. My journey here has not only
-                          shaped my career but also enriched my personal
-                          development.
-                        </p>
-                        {/* Author */}
-                        <p className="a2-txt-author">
-                          Fatemeh Hassani <span>UI/UX Designer</span>
-                        </p>
                       </div>
-                    </div>
-                    {/* IMAGE-4 */}
-                    <div className="col-md-6 col-lg-6">
-                      <div className="about-2-img a-2-4 r-12">
-                        <img
-                          className="img-fluid"
-                          src="/images/process/vettingProcess2.png"
-                          alt="about-image"
-                        />
+                      {/* IMAGE-4 */}
+                      <div className="col-md-6 col-lg-6">
+                        <div className="about-2-img a-2-4 r-12">
+                          <img
+                            className="img-fluid"
+                            src="/images/a2-4.jpg"
+                            alt="about-image"
+                          />
+                        </div>
                       </div>
-                    </div>
+                    </div>{" "}
+                    {/* End row */}
                   </div>{" "}
-                  {/* End row */}
+                  {/* END IMAGES-2 */}
                 </div>{" "}
-                {/* END IMAGES-2 */}
+                {/* End row */}
               </div>{" "}
-              {/* End row */}
+              {/* END ABOUT-2 IMAGES */}
             </div>{" "}
-            {/* END ABOUT-2 IMAGES */}
-          </div>{" "}
+          </div>
           {/* END ABOUT-2 */}
           {/* FEATURES-11
 			============================================= */}
