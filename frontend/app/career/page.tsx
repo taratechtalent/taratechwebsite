@@ -128,66 +128,99 @@ export default function Career() {
           {/* END ABOUT-3 */}
           {/* ABOUT-2
 			============================================= */}
-          <div id="about-2" className="rel pt-100 about-section division">
-            {/* ABOUT-2 IMAGES */}
-            <div className="container-fluid">
-              <div className="row">
-                {/* IMAGES-1 */}
-                <div className="col-md-2"></div> {/* END IMAGES-1 */}
-                {/* IMAGES-2 */}
-                <div className="col-md-9">
-                  {/* IMAGE-3 */}
-                  <div className="about-2-img a-2-3 r-12">
+          <section className="py-100 ct-02 content-section division">
+            <div className="container">
+              {/* SECTION CONTENT (ROW) */}
+              <div className="row d-flex align-items-center">
+                {/* IMAGE BLOCK */}
+                <div className="col-md-6">
+                  <div className="txt-block right-column wow fadeInLeft">
+                    {/* CONTENT BOX #1 */}
+                    <div className="cbox-2 process-step">
+                      {/* Icon */}
+                      <div className="ico-wrap">
+                        <div className="cbox-2-ico bg--theme color--white">
+                          1
+                        </div>
+                        <span className="cbox-2-line" />
+                      </div>
+                      {/* Text */}
+                      <div className="cbox-2-txt">
+                        <h5 className="s-22 w-700">Registeration</h5>
+                        <p>
+                          Register now to take the next step in your career
+                          journey; complete the application form by uploading
+                          your CV and let us connect you with your future
+                          opportunities.
+                        </p>
+                      </div>
+                    </div>{" "}
+                    {/* END CONTENT BOX #1 */}
+                    {/* CONTENT BOX #2 */}
+                    <div className="cbox-2 process-step">
+                      {/* Icon */}
+                      <div className="ico-wrap">
+                        <div className="cbox-2-ico bg--theme color--white">
+                          2
+                        </div>
+                        <span className="cbox-2-line" />
+                      </div>
+                      {/* Text */}
+                      <div className="cbox-2-txt">
+                        <h5 className="s-22 w-700">Some Amazing Test skills</h5>
+                        <p>
+                          Enhance your career with our comprehensive testing
+                          suite, featuring an English language proficiency test,
+                          an HR assessment to understand your teamwork and
+                          leadership skills, a theoretical technical test to
+                          gauge your industry knowledge, and a practical
+                          technical test to demonstrate your real-world
+                          problem-solving abilities.
+                        </p>
+                      </div>
+                    </div>{" "}
+                    {/* END CONTENT BOX #2 */}
+                    {/* CONTENT BOX #3 */}
+                    <div className="cbox-2 process-step">
+                      {/* Icon */}
+                      <div className="ico-wrap">
+                        <div className="cbox-2-ico bg--theme color--white">
+                          3
+                        </div>
+                      </div>
+                      {/* Text */}
+                      <div className="cbox-2-txt">
+                        <h5 className="s-22 w-700">
+                          Finalize contract and start Trial Period
+                        </h5>
+                        <p className="mb-0">
+                          Finalize your contract with us and embark on a trial
+                          period, where {`you'll`} have the opportunity to
+                          showcase your skills, adapt to our culture, and ensure
+                          a mutual fit as we embark on this professional journey
+                          together.
+                        </p>
+                      </div>
+                    </div>{" "}
+                    {/* END CONTENT BOX #3 */}
+                  </div>
+                </div>{" "}
+                <div className="col-md-6">
+                  <div className="img-block left-column wow fadeInRight">
                     <img
                       className="img-fluid"
-                      src="/images/a2-3.jpg"
-                      alt="about-image"
+                      src="/images/process/process.png"
+                      alt="content-image"
                     />
                   </div>
-                  <div className="row">
-                    {/* TEXT */}
-                    <div className="col-md-6 col-lg-6">
-                      <div className="a2-txt bg--black-400 pattern-01 bg--fixed color--white r-12">
-                        {/* Icon */}
-                        <div className="a2-txt-quote ico-40 o-20">
-                          <span className="flaticon-quote" />
-                        </div>
-                        {/* Text */}
-                        <p>
-                          Thank you for the incredible opportunity to grow,
-                          innovate, and contribute within such a supportive and
-                          dynamic environment. My journey here has not only
-                          shaped my career but also enriched my personal
-                          development.
-                        </p>
-                        {/* Author */}
-                        <p className="a2-txt-author">
-                          Fatemeh Hassani <span>UI/UX Designer</span>
-                        </p>
-                      </div>
-                    </div>
-                    {/* IMAGE-4 */}
-                    <div className="col-md-6 col-lg-6">
-                      <div className="about-2-img a-2-4 r-12">
-                        <img
-                          className="img-fluid"
-                          src="/images/process/vettingProcess2.png"
-                          alt="about-image"
-                        />
-                      </div>
-                    </div>
-                  </div>{" "}
-                  {/* End row */}
-                </div>{" "}
-                {/* END IMAGES-2 */}
+                </div>
+                {/* TEXT BLOCK */}
+                {/* END TEXT BLOCK */}
               </div>{" "}
-              {/* End row */}
+              {/* END SECTION CONTENT (ROW) */}
             </div>{" "}
-            {/* END ABOUT-2 IMAGES */}
-          </div>{" "}
-          {/* END ABOUT-2 */}
-          {/* FEATURES-11
-			============================================= */}
+            {/* End container */}
+          </section>
           <section
             id="features-11"
             className="py-100 features-section division"
@@ -383,100 +416,67 @@ export default function Career() {
               {/* END FEATURES-11 WRAPPER */}
             </div>{" "}
             {/* End container */}
-          </section>{" "}
-          <section className="py-100 ct-02 content-section division">
-            <div className="container">
-              {/* SECTION CONTENT (ROW) */}
-              <div className="row d-flex align-items-center">
-                {/* IMAGE BLOCK */}
-                <div className="col-md-6">
-                  <div className="img-block left-column wow fadeInRight">
+          </section>
+          <div id="about-2" className="rel pt-100 about-section division">
+            {/* ABOUT-2 IMAGES */}
+            <div className="container-fluid">
+              <div className="row">
+                {/* IMAGES-1 */}
+                <div className="col-md-2"></div> {/* END IMAGES-1 */}
+                {/* IMAGES-2 */}
+                <div className="col-md-9">
+                  {/* IMAGE-3 */}
+                  <div className="about-2-img a-2-3 r-12">
                     <img
                       className="img-fluid"
-                      src="/images/process/process.png"
-                      alt="content-image"
+                      src="/images/a2-3.jpg"
+                      alt="about-image"
                     />
                   </div>
-                </div>
-                {/* TEXT BLOCK */}
-                <div className="col-md-6">
-                  <div className="txt-block right-column wow fadeInLeft">
-                    {/* CONTENT BOX #1 */}
-                    <div className="cbox-2 process-step">
-                      {/* Icon */}
-                      <div className="ico-wrap">
-                        <div className="cbox-2-ico bg--theme color--white">
-                          1
+                  <div className="row">
+                    {/* TEXT */}
+                    <div className="col-md-6 col-lg-6">
+                      <div className="a2-txt bg--black-400 pattern-01 bg--fixed color--white r-12">
+                        {/* Icon */}
+                        <div className="a2-txt-quote ico-40 o-20">
+                          <span className="flaticon-quote" />
                         </div>
-                        <span className="cbox-2-line" />
-                      </div>
-                      {/* Text */}
-                      <div className="cbox-2-txt">
-                        <h5 className="s-22 w-700">Registeration</h5>
+                        {/* Text */}
                         <p>
-                          Register now to take the next step in your career
-                          journey; complete the application form by uploading
-                          your CV and let us connect you with your future
-                          opportunities.
+                          Thank you for the incredible opportunity to grow,
+                          innovate, and contribute within such a supportive and
+                          dynamic environment. My journey here has not only
+                          shaped my career but also enriched my personal
+                          development.
+                        </p>
+                        {/* Author */}
+                        <p className="a2-txt-author">
+                          Fatemeh Hassani <span>UI/UX Designer</span>
                         </p>
                       </div>
-                    </div>{" "}
-                    {/* END CONTENT BOX #1 */}
-                    {/* CONTENT BOX #2 */}
-                    <div className="cbox-2 process-step">
-                      {/* Icon */}
-                      <div className="ico-wrap">
-                        <div className="cbox-2-ico bg--theme color--white">
-                          2
-                        </div>
-                        <span className="cbox-2-line" />
+                    </div>
+                    {/* IMAGE-4 */}
+                    <div className="col-md-6 col-lg-6">
+                      <div className="about-2-img a-2-4 r-12">
+                        <img
+                          className="img-fluid"
+                          src="/images/process/vettingProcess2.png"
+                          alt="about-image"
+                        />
                       </div>
-                      {/* Text */}
-                      <div className="cbox-2-txt">
-                        <h5 className="s-22 w-700">Some Amazing Test skills</h5>
-                        <p>
-                          Enhance your career with our comprehensive testing
-                          suite, featuring an English language proficiency test,
-                          an HR assessment to understand your teamwork and
-                          leadership skills, a theoretical technical test to
-                          gauge your industry knowledge, and a practical
-                          technical test to demonstrate your real-world
-                          problem-solving abilities.
-                        </p>
-                      </div>
-                    </div>{" "}
-                    {/* END CONTENT BOX #2 */}
-                    {/* CONTENT BOX #3 */}
-                    <div className="cbox-2 process-step">
-                      {/* Icon */}
-                      <div className="ico-wrap">
-                        <div className="cbox-2-ico bg--theme color--white">
-                          3
-                        </div>
-                      </div>
-                      {/* Text */}
-                      <div className="cbox-2-txt">
-                        <h5 className="s-22 w-700">
-                          Finalize contract and start Trial Period
-                        </h5>
-                        <p className="mb-0">
-                          Finalize your contract with us and embark on a trial
-                          period, where {`you'll`} have the opportunity to
-                          showcase your skills, adapt to our culture, and ensure
-                          a mutual fit as we embark on this professional journey
-                          together.
-                        </p>
-                      </div>
-                    </div>{" "}
-                    {/* END CONTENT BOX #3 */}
-                  </div>
+                    </div>
+                  </div>{" "}
+                  {/* End row */}
                 </div>{" "}
-                {/* END TEXT BLOCK */}
+                {/* END IMAGES-2 */}
               </div>{" "}
-              {/* END SECTION CONTENT (ROW) */}
+              {/* End row */}
             </div>{" "}
-            {/* End container */}
-          </section>
+            {/* END ABOUT-2 IMAGES */}
+          </div>{" "}
+          {/* END ABOUT-2 */}
+          {/* FEATURES-11
+			============================================= */}
           {/* END FEATURES-11 */}
           {/* TEXT CONTENT
 			============================================= */}
