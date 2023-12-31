@@ -12,26 +12,180 @@ export default function Home() {
   return (
     <Layout headerCls="navbar-dark light-hero-header">
       <Hero />
-      <hr className="divider" />
       <UniqueApproach />
       <hr className="divider" />
-
       <OurProcess />
       <hr className="divider" />
-
       <Features />
       <hr className="divider" />
-
-      <Services />
+      <Service2 />
+      {/* <Services /> */}
       <hr className="divider" />
-
       <Brands />
       <hr className="divider" />
-
       <ServiceContactComponent />
     </Layout>
   );
 }
+
+const Service2 = () => (
+  <section
+    id="features-12"
+    className="shape--bg shape--white-400 pt-100 features-section division mb-40"
+  >
+    <div className="container">
+      <div className="row d-flex align-items-center">
+        {/* TEXT BLOCK */}
+        <div className="col-md-5">
+          <div className="txt-block left-column wow fadeInRight">
+            {/* Section ID */}
+            <span className="section-id">Types of</span>
+            {/* Title */}
+            <h2 className="s-46 w-700">Web Applications</h2>
+            {/* Text */}
+            <p>
+              Static web apps are the simplest type, delivering the same content
+              to every user, while dynamic web apps interact with users for a
+              personalized experience. SPAs offer fluid user experiences by
+              reloading only parts of the page, and PWAs combine the best of web
+              and mobile apps.
+            </p>
+          </div>
+        </div>{" "}
+        {/* END TEXT BLOCK */}
+        {/* FEATURES-12 WRAPPER */}
+        <div className="col-md-7">
+          <div className="fbox-12-wrapper wow fadeInLeft">
+            <div className="row">
+              <div className="col-md-6">
+                {/* FEATURE BOX #1 */}
+                <div
+                  id="fb-12-1"
+                  className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
+                >
+                  {/* Icon */}
+                  <div className="fbox-ico ico-50">
+                    <div className="shape-ico color--theme">
+                      {/* Vector Icon */}
+                      <span className="flaticon-layers-1" />
+                      {/* Shape */}
+                      <svg
+                        viewBox="0 0 200 200"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
+                          transform="translate(100 100)"
+                        />
+                      </svg>
+                    </div>
+                  </div>{" "}
+                  {/* End Icon */}
+                  {/* Text */}
+                  <div className="fbox-txt">
+                    <h5 className="s-20 w-700">
+                      Single Page Applications (SPAs)
+                    </h5>
+                  </div>
+                </div>
+                {/* FEATURE BOX #2 */}
+                <div
+                  id="fb-12-2"
+                  className="fbox-12 bg--white-100 block-shadow r-12 !min-h-[150px]"
+                >
+                  {/* Icon */}
+                  <div className="fbox-ico ico-50">
+                    <div className="shape-ico color--theme">
+                      {/* Vector Icon */}
+                      <span className="flaticon-click-1" />
+                      {/* Shape */}
+                      <svg
+                        viewBox="0 0 200 200"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
+                          transform="translate(100 100)"
+                        />
+                      </svg>
+                    </div>
+                  </div>{" "}
+                  {/* End Icon */}
+                  {/* Text */}
+                  <div className="fbox-txt">
+                    <h5 className="s-20 w-700">Static application</h5>
+                  </div>
+                </div>
+              </div>
+              <div className="col-md-6">
+                {/* FEATURE BOX #3 */}
+                <div
+                  id="fb-12-3"
+                  className="fbox-12 bg--white-100 block-shadow r-12 mb-30 !min-h-[150px]"
+                >
+                  {/* Icon */}
+                  <div className="fbox-ico ico-50">
+                    <div className="shape-ico color--theme">
+                      {/* Vector Icon */}
+                      <span className="flaticon-prioritize" />
+                      {/* Shape */}
+                      <svg
+                        viewBox="0 0 200 200"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
+                          transform="translate(100 100)"
+                        />
+                      </svg>
+                    </div>
+                  </div>{" "}
+                  {/* End Icon */}
+                  {/* Text */}
+                  <div className="fbox-txt">
+                    <h5 className="s-20 w-700">Dynamic Application</h5>
+                  </div>
+                </div>
+                {/* FEATURE BOX #4 */}
+                <div
+                  id="fb-12-4"
+                  className="fbox-12 bg--white-100 block-shadow r-12"
+                >
+                  {/* Icon */}
+                  <div className="fbox-ico ico-50">
+                    <div className="shape-ico color--theme">
+                      {/* Vector Icon */}
+                      <span className="flaticon-analytics" />
+                      {/* Shape */}
+                      <svg
+                        viewBox="0 0 200 200"
+                        xmlns="http://www.w3.org/2000/svg"
+                      >
+                        <path
+                          d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
+                          transform="translate(100 100)"
+                        />
+                      </svg>
+                    </div>
+                  </div>{" "}
+                  {/* End Icon */}
+                  {/* Text */}
+                  <div className="fbox-txt">
+                    <h5 className="s-20 w-700">Progressive Web Apps (PWAs)</h5>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>{" "}
+          {/* End row */}
+        </div>{" "}
+        {/* END FEATURES-12 WRAPPER */}
+      </div>{" "}
+      {/* End row */}
+    </div>{" "}
+    {/* End container */}
+  </section>
+);
 
 const Services = () => {
   return (
@@ -326,7 +480,7 @@ const Services = () => {
 
 const UniqueApproach = () => {
   return (
-    <section className="pt-44 ct-02 content-section division">
+    <section className="pt-20 pb-20 ct-02 content-section division">
       <div className="container">
         {/* SECTION CONTENT (ROW) */}
         <div className="row d-flex align-items-center">
@@ -375,7 +529,7 @@ const UniqueApproach = () => {
 
 const OurProcess = () => {
   return (
-    <section className="pt-100 ct-04 content-section division">
+    <section className="pt-100  pb-20 ct-04 content-section division mb-40">
       <div className="container">
         {/* SECTION CONTENT (ROW) */}
         <div className="row d-flex align-items-center">
@@ -443,6 +597,7 @@ const OurProcess = () => {
                 {/* Icon */}
                 <div className="ico-wrap">
                   <div className="cbox-2-ico bg--theme color--white">3</div>
+                  <span className="cbox-2-line" />
                 </div>
                 {/* Text */}
                 <div className="cbox-2-txt">
@@ -456,12 +611,14 @@ const OurProcess = () => {
               </div>
               <div className="cbox-2 process-step">
                 {/* Icon */}
-                <div className="ico-wrap"></div>
+                <div className="ico-wrap">
+                  <span className="cbox-2-line" />
+                </div>
                 {/* Text */}
                 <div className="cbox-2-txt">
                   <Link
                     href="/book"
-                    className="btn r-04 btn--theme hover--tra-white last-link ml-20"
+                    className="btn r-04 btn--theme hover--theme last-link ml-20"
                     style={{ marginLeft: "60px" }}
                   >
                     Book a Call

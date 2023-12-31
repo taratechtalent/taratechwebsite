@@ -4,7 +4,7 @@ export default function Features() {
     <>
       <section
         id="features-2"
-        className="py-100 features-section division !pb-10"
+        className="py-100 features-section division !pb-1"
       >
         <div className="container">
           {/* SECTION TITLE */}

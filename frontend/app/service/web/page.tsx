@@ -376,6 +376,102 @@ export default function WebDevelopmentService() {
                                 </div>
                               </div>
                             </div>
+                            <div className="col-md-6">
+                              <div className="fbox-2 fb-2 wow fadeInUp">
+                                {/* Image */}
+                                <div className="fbox-img gr--whitesmoke h-175">
+                                  <img
+                                    className="img-fluid light-theme-img"
+                                    src="/images/services/Security Considerations.webp"
+                                    alt="feature-image"
+                                  />
+                                  <img
+                                    className="img-fluid dark-theme-img"
+                                    src="/images/f_05_dark.png"
+                                    alt="feature-image"
+                                  />
+                                </div>
+                                {/* Text */}
+                                <div className="fbox-txt">
+                                  <h6 className="s-22 w-700">
+                                    Testing and Quality Assurance
+                                  </h6>
+                                  <p className="text-left">
+                                    Testing ensures your web application
+                                    functions correctly and meets quality
+                                    standards. This includes unit testing
+                                    individual components, integration testing
+                                    combined parts, and system testing the
+                                    entire application. Effective QA identifies
+                                    bugs and issues before users encounter them.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>{" "}
+                            <div className="col-md-6">
+                              <div className="fbox-2 fb-2 wow fadeInUp">
+                                {/* Image */}
+                                <div className="fbox-img gr--whitesmoke h-175">
+                                  <img
+                                    className="img-fluid light-theme-img"
+                                    src="/images/services/Security Considerations.webp"
+                                    alt="feature-image"
+                                  />
+                                  <img
+                                    className="img-fluid dark-theme-img"
+                                    src="/images/f_05_dark.png"
+                                    alt="feature-image"
+                                  />
+                                </div>
+                                {/* Text */}
+                                <div className="fbox-txt">
+                                  <h6 className="s-22 w-700">
+                                    Deployment and Maintenance
+                                  </h6>
+                                  <p className="text-left">
+                                    Deployment involves transferring the web
+                                    application from a local environment to a
+                                    production server. Considerations include
+                                    choosing the right hosting, managing
+                                    databases, and configuring servers.
+                                    Post-launch, regular maintenance and updates
+                                    keep the app secure and functional.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>{" "}
+                            <div className="col-md-6">
+                              <div className="fbox-2 fb-2 wow fadeInUp">
+                                {/* Image */}
+                                <div className="fbox-img gr--whitesmoke h-175">
+                                  <img
+                                    className="img-fluid light-theme-img"
+                                    src="/images/services/Security Considerations.webp"
+                                    alt="feature-image"
+                                  />
+                                  <img
+                                    className="img-fluid dark-theme-img"
+                                    src="/images/f_05_dark.png"
+                                    alt="feature-image"
+                                  />
+                                </div>
+                                {/* Text */}
+                                <div className="fbox-txt">
+                                  <h6 className="s-22 w-700">
+                                    Emerging Trends and Future of Web
+                                    Application Development
+                                  </h6>
+                                  <p className="text-left">
+                                    The field of web development is continuously
+                                    evolving with trends like AI, machine
+                                    learning, and the Internet of Things (IoT)
+                                    shaping its future. Developers need to stay
+                                    informed about these trends to create
+                                    innovative and competitive applications.
+                                  </p>
+                                </div>
+                              </div>
+                            </div>
                             {/* END FEATURE BOX #2 */}
                             {/* FEATURE BOX #3 */}
                             {/* END FEATURE BOX #3 */}
@@ -387,99 +483,6 @@ export default function WebDevelopmentService() {
                       {/* End container */}
                     </section>
                     {/* Small Title */}
-                    <section className="pt-100 ct-04 content-section division mb-60">
-                      <div className="container">
-                        {/* SECTION CONTENT (ROW) */}
-                        <div className="row d-flex align-items-center">
-                          {/* TEXT BLOCK */}
-                          <div className="col-md-9 order-last order-md-2">
-                            <div className="txt-block left-column wow fadeInRight">
-                              {/* CONTENT BOX #1 */}
-                              <div className="cbox-2 process-step">
-                                {/* Icon */}
-                                <div className="ico-wrap">
-                                  <div className="cbox-2-ico bg--theme color--white">
-                                    **
-                                  </div>
-                                  <span className="cbox-2-line" />
-                                </div>
-                                {/* Text */}
-                                <div className="cbox-2-txt">
-                                  <h5 className="s-22 w-700">
-                                    Testing and Quality Assurance
-                                  </h5>
-                                  <p>
-                                    Testing ensures your web application
-                                    functions correctly and meets quality
-                                    standards. This includes unit testing
-                                    individual components, integration testing
-                                    combined parts, and system testing the
-                                    entire application. Effective QA identifies
-                                    bugs and issues before users encounter them.
-                                  </p>
-                                </div>
-                              </div>{" "}
-                              {/* END CONTENT BOX #1 */}
-                              {/* CONTENT BOX #2 */}
-                              <div className="cbox-2 process-step">
-                                {/* Icon */}
-                                <div className="ico-wrap">
-                                  <div className="cbox-2-ico bg--theme color--white">
-                                    **
-                                  </div>
-                                  <span className="cbox-2-line" />
-                                </div>
-                                {/* Text */}
-                                <div className="cbox-2-txt">
-                                  <h5 className="s-22 w-700">
-                                    Deployment and Maintenance
-                                  </h5>
-                                  <p>
-                                    Deployment involves transferring the web
-                                    application from a local environment to a
-                                    production server. Considerations include
-                                    choosing the right hosting, managing
-                                    databases, and configuring servers.
-                                    Post-launch, regular maintenance and updates
-                                    keep the app secure and functional.
-                                  </p>
-                                </div>
-                              </div>{" "}
-                              {/* END CONTENT BOX #2 */}
-                              {/* CONTENT BOX #3 */}
-                              <div className="cbox-2 process-step">
-                                {/* Icon */}
-                                <div className="ico-wrap">
-                                  <div className="cbox-2-ico bg--theme color--white">
-                                    **
-                                  </div>
-                                </div>
-                                {/* Text */}
-                                <div className="cbox-2-txt">
-                                  <h5 className="s-22 w-700">
-                                    Emerging Trends and Future of Web
-                                    Application Development
-                                  </h5>
-                                  <p className="mb-0">
-                                    The field of web development is continuously
-                                    evolving with trends like AI, machine
-                                    learning, and the Internet of Things (IoT)
-                                    shaping its future. Developers need to stay
-                                    informed about these trends to create
-                                    innovative and competitive applications.
-                                  </p>
-                                </div>
-                              </div>{" "}
-                              {/* END CONTENT BOX #3 */}
-                            </div>
-                          </div>{" "}
-                          {/* END TEXT BLOCK */}
-                          {/* IMAGE BLOCK */}
-                        </div>{" "}
-                        {/* END SECTION CONTENT (ROW) */}
-                      </div>{" "}
-                      {/* End container */}
-                    </section>
                   </div>{" "}
                   {/* END PROJECT TEXT */}
                   {/* MORE PROJECTS BUTTON */}
