@@ -18,8 +18,7 @@ export default function Home() {
       <hr className="divider" />
       <Features />
       <hr className="divider" />
-      <Service2 />
-      {/* <Services /> */}
+      <Services />
       <hr className="divider" />
       <Brands />
       <hr className="divider" />
@@ -191,7 +190,7 @@ const Services = () => {
   return (
     <section
       id="features-12"
-      className="shape--bg shape--white-400  features-section division pt-10"
+      className="shape--bg shape--white-400  features-section division pt-10 pb-20"
     >
       <div className="container">
         <div className="row d-flex align-items-center">
