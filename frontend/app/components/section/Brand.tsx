@@ -7,12 +7,10 @@ export default function Brands() {
           <div className="col-md-10 col-lg-9">
             <div className="section-title mb-70">
               {/* Title */}
-              <h2 className="s-50 w-700">
-                Most popular technologies we support
-              </h2>
+              <h2 className="s-50 w-700">Your tech stack is covered</h2>
               {/* Text */}
               <p className="s-21 color--grey">
-                Best and amazing stack the every one likes that
+                Our team is skilled in a wide array of programming languages
               </p>
             </div>
           </div>

@@ -33,9 +33,9 @@ export default function Hero() {
                   and ligula cursus purus ipsum
                 </p>
                 {/* HERO DIGITS */}
-                <div className="hero-digits">
+                <div className="hero-digits row">
                   {/* DIGIT BLOCK #1 */}
-                  <div id="hd-1-1" className="wow fadeInUp">
+                  <div id="hd-1-1" className="wow fadeInUp col-md-6 col-sm-12">
                     <div className="hero-digits-block">
                       {/* Digit */}
                       <div className="block-digit">
@@ -49,7 +49,7 @@ export default function Hero() {
                       </div>
                     </div>
                   </div>{" "}
-                  <div id="hd-1-1" className="wow fadeInUp">
+                  <div id="hd-1-1" className="wow fadeInUp col-md-6 col-sm-12">
                     <div className="hero-digits-block">
                       {/* Digit */}
                       <div className="block-digit">
@@ -63,7 +63,10 @@ export default function Hero() {
                       </div>
                     </div>
                   </div>{" "}
-                  <div id="hd-1-1" className="wow fadeInUp pt-6">
+                  <div
+                    id="hd-1-1"
+                    className="wow fadeInUp pt-6 col-md-6 col-sm-12"
+                  >
                     <div className="hero-digits-block">
                       {/* Digit */}
                       <div className="block-digit">
@@ -77,7 +80,10 @@ export default function Hero() {
                       </div>
                     </div>
                   </div>{" "}
-                  <div id="hd-1-1" className="wow fadeInUp pt-6">
+                  <div
+                    id="hd-1-1"
+                    className="wow fadeInUp pt-6 col-md-6 col-sm-12"
+                  >
                     <div className="hero-digits-block">
                       {/* Digit */}
                       <div className="block-digit">
