@@ -23,7 +23,6 @@ export default function Home() {
   return (
     <Layout headerCls="navbar-dark light-hero-header">
       <Hero />
-      <Brands />
       <hr className="divider" />
       <section
         id="features-12"
@@ -320,6 +319,8 @@ export default function Home() {
         </div>{" "}
         {/* End container */}
       </section>
+
+      <Brands />
 
       <Features />
       <hr className="divider" />
