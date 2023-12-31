@@ -231,7 +231,7 @@ export default function Career() {
                 <div className="col-md-10 col-lg-9">
                   <div className="section-title mb-70">
                     {/* Title */}
-                    <h2 className="s-50 w-700">Benefit and Perks</h2>
+                    <h2 className="s-50 w-700">Benefits and Perks</h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
                       your benefits when work with us
