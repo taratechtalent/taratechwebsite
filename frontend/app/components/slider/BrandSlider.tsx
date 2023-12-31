@@ -57,7 +57,7 @@ export default function BrandSlider() {
           <Link href="#">
             <img
               className="img-fluid light-theme-img rounded-lg"
-              src="/images/tech/nodejs.png"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
               alt="brand-logo"
             />
           </Link>
@@ -66,7 +66,7 @@ export default function BrandSlider() {
           <Link href="#">
             <img
               className="img-fluid light-theme-img rounded-lg"
-              src="/images/tech/android.png"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/android/android-original.svg"
               alt="brand-logo"
             />
           </Link>
@@ -75,7 +75,7 @@ export default function BrandSlider() {
           <Link href="#">
             <img
               className="img-fluid light-theme-img rounded-lg"
-              src="/images/tech/angular.png"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg"
               alt="brand-logo"
             />
           </Link>
@@ -84,7 +84,7 @@ export default function BrandSlider() {
           <Link href="#">
             <img
               className="img-fluid light-theme-img rounded-lg"
-              src="/images/tech/nestjs.png"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg"
               alt="brand-logo"
             />
           </Link>
@@ -93,7 +93,7 @@ export default function BrandSlider() {
           <Link href="#">
             <img
               className="img-fluid light-theme-img rounded-lg"
-              src="/images/tech/python.png"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
               alt="brand-logo"
             />
           </Link>
@@ -102,7 +102,7 @@ export default function BrandSlider() {
           <Link href="#">
             <img
               className="img-fluid light-theme-img rounded-lg"
-              src="/images/tech/react.png"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
               alt="brand-logo"
             />
           </Link>
@@ -111,7 +111,7 @@ export default function BrandSlider() {
           <Link href="#">
             <img
               className="img-fluid light-theme-img rounded-lg"
-              src="/images/tech/vuejs.png"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg"
               alt="brand-logo"
             />
           </Link>
@@ -120,7 +120,7 @@ export default function BrandSlider() {
           <Link href="#">
             <img
               className="img-fluid light-theme-img rounded-lg"
-              src="/images/tech/expressjs.png"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
               alt="brand-logo"
             />
           </Link>
@@ -129,7 +129,7 @@ export default function BrandSlider() {
           <Link href="#">
             <img
               className="img-fluid light-theme-img rounded-lg"
-              src="/images/tech/csharp.png"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/csharp/csharp-original.svg"
               alt="brand-logo"
             />
           </Link>

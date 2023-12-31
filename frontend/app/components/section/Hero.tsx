@@ -20,7 +20,11 @@ export default function Hero() {
               <div className="hero-2-txt wow fadeInLeft">
                 {/* Title */}
                 <h2 className="s-56 w-700 color--black">
-                  Realize your digital potential with Martex
+                  Affordable{" "}
+                  <span style={{ color: "rgb(247, 71, 128)" }}>
+                    Senior talents
+                  </span>{" "}
+                  for startups
                 </h2>
                 {/* Text */}
                 <p className="p-lg">
@@ -35,36 +39,60 @@ export default function Hero() {
                     <div className="hero-digits-block">
                       {/* Digit */}
                       <div className="block-digit">
-                        <h2 className="s-46 statistic-number color--black">
-                          2<span>x</span>
+                        <h2 className="s-20 statistic-number color--black">
+                          Easy contract
                         </h2>
                       </div>
                       {/* Text */}
                       <div className="block-txt">
-                        <p className="p-sm">
-                          Tempor sapien and quaerat placerat
-                        </p>
+                        <p className="p-sm"></p>
+                      </div>
+                    </div>
+                  </div>{" "}
+                  <div id="hd-1-1" className="wow fadeInUp">
+                    <div className="hero-digits-block">
+                      {/* Digit */}
+                      <div className="block-digit">
+                        <h2 className="s-20 statistic-number color--black">
+                          Flexibility
+                        </h2>
+                      </div>
+                      {/* Text */}
+                      <div className="block-txt">
+                        <p className="p-sm"></p>
+                      </div>
+                    </div>
+                  </div>{" "}
+                  <div id="hd-1-1" className="wow fadeInUp pt-6">
+                    <div className="hero-digits-block">
+                      {/* Digit */}
+                      <div className="block-digit">
+                        <h2 className="s-20 statistic-number color--black">
+                          Affordability
+                        </h2>
+                      </div>
+                      {/* Text */}
+                      <div className="block-txt">
+                        <p className="p-sm"></p>
+                      </div>
+                    </div>
+                  </div>{" "}
+                  <div id="hd-1-1" className="wow fadeInUp pt-6">
+                    <div className="hero-digits-block">
+                      {/* Digit */}
+                      <div className="block-digit">
+                        <h2 className="s-20 statistic-number color--black">
+                          Technical Support
+                        </h2>
+                      </div>
+                      {/* Text */}
+                      <div className="block-txt">
+                        <p className="p-sm"></p>
                       </div>
                     </div>
                   </div>{" "}
                   {/* END DIGIT BLOCK #1 */}
                   {/* DIGIT BLOCK #2 */}
-                  <div id="hd-1-2" className="wow fadeInUp">
-                    <div className="hero-digits-block">
-                      {/* Digit */}
-                      <div className="block-digit">
-                        <h2 className="s-46 statistic-number color--black">
-                          63<span>%</span>
-                        </h2>
-                      </div>
-                      {/* Text */}
-                      <div className="block-txt">
-                        <p className="p-sm">
-                          Ligula suscipit vitae and rutrum turpis
-                        </p>
-                      </div>
-                    </div>
-                  </div>{" "}
                   {/* END DIGIT BLOCK #2 */}
                 </div>{" "}
                 {/* END HERO DIGITS */}
