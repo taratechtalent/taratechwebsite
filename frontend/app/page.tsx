@@ -13,13 +13,13 @@ export default function Home() {
     <Layout headerCls="navbar-dark light-hero-header">
       <Hero />
       <Introduction />
+      <Services />
+      <hr className="divider" />
       <UniqueApproach />
       <hr className="divider" />
       <Features />
-      <hr className="divider" />
       <OurProcess />
       <hr className="divider" />
-      <Services />
       <hr className="divider" />
       <Brands />
       <hr className="divider" />
