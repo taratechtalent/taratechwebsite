@@ -12,6 +12,7 @@ export default function Home() {
   return (
     <Layout headerCls="navbar-dark light-hero-header">
       <Hero />
+      <Introduction />
       <UniqueApproach />
       <hr className="divider" />
       <OurProcess />
@@ -26,6 +27,50 @@ export default function Home() {
     </Layout>
   );
 }
+
+const Introduction = () => {
+  return (
+    <section className="bg--04 bg--fixed py-100 ct-01 content-section division">
+      <div className="container">
+        <div className="row d-flex align-items-center">
+          {/* TEXT BLOCK */}
+          <div className="col-md-6 order-last order-md-2">
+            <div className="txt-block left-column wow fadeInRight">
+              {/* Section ID */}
+              <span className="section-id">Co-founder at Taratalent</span>
+              {/* Title */}
+              <h2 className="s-50 w-700">Admin Derakhshan</h2>
+              {/* Text */}
+              <p className="p-lg">
+                Sodales tempor sapien diam purus ipsum quaerat and volute fusce
+                a congue laoreet turpis neque diam auctor turpis vitae dolor
+                magna luctus placerat neque ipsum fusce cursus ligula cursus
+                purus vitae purus and ipsum suscipit. Nemo ipsam cubilia donec
+                turpis undo egestas ipsum a purus sapien ultrice aliquam lacus
+                and quaerat an ipsum augue turpis sapien cursus congue augue
+              </p>
+            </div>
+          </div>
+          {/* END TEXT BLOCK */}
+          {/* IMAGE BLOCK */}
+          <div className="col-md-6 order-first order-md-2">
+            <div className="img-block j-img video-preview right-column wow fadeInLeft">
+              {/* Play Icon */}
+              {/* Preview Image */}
+              <img
+                className="img-fluid r-20"
+                src="/images/team/amin.png"
+                alt="video-preview"
+              />
+            </div>
+          </div>
+        </div>
+        {/* End row */}
+      </div>
+      {/* End container */}
+    </section>
+  );
+};
 
 const Service2 = () => (
   <section
@@ -484,6 +529,15 @@ const UniqueApproach = () => {
         {/* SECTION CONTENT (ROW) */}
         <div className="row d-flex align-items-center">
           <div className="col-md-6">
+            <div className="img-block left-column wow fadeInRight">
+              <img
+                className="img-fluid"
+                src="/images/img-06.png"
+                alt="content-image"
+              />
+            </div>
+          </div>
+          <div className="col-md-6">
             <div className="txt-block right-column wow fadeInLeft">
               {/* Section ID */}
               <span className="section-id">why us</span>
@@ -506,15 +560,7 @@ const UniqueApproach = () => {
             </div>
           </div>
           {/* IMAGE BLOCK */}
-          <div className="col-md-6">
-            <div className="img-block left-column wow fadeInRight">
-              <img
-                className="img-fluid"
-                src="/images/img-06.png"
-                alt="content-image"
-              />
-            </div>
-          </div>
+
           {/* TEXT BLOCK */}
 
           {/* END TEXT BLOCK */}
