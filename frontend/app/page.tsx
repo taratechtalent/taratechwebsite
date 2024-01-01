@@ -15,9 +15,9 @@ export default function Home() {
       <Introduction />
       <UniqueApproach />
       <hr className="divider" />
-      <OurProcess />
-      <hr className="divider" />
       <Features />
+      <hr className="divider" />
+      <OurProcess />
       <hr className="divider" />
       <Services />
       <hr className="divider" />
