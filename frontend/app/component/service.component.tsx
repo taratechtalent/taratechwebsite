@@ -37,7 +37,7 @@ const ServiceComponent = ({
       </div>
       {/* FEATURES-11 WRAPPER */}
       <div className="fbox-wrapper">
-        <div className="row row-cols-1 row-cols-md-2 rows-3">
+        <div className="row ">
           {/* FEATURE BOX #1 */}
           <div className="col  shadow-box">
             <div className="fbox-11 fb-1 wow fadeInUp">
@@ -69,7 +69,7 @@ const ServiceComponent = ({
           </div>
           {/* END FEATURE BOX #1 */}
           {/* FEATURE BOX #2 */}
-           <div className="col  shadow-box">
+          <div className="col shadow-box">
             <div className="fbox-11 fb-2 wow fadeInUp">
               {/* Icon */}
               <div className="fbox-ico-wrap">
@@ -94,10 +94,10 @@ const ServiceComponent = ({
               </div>
             </div>
           </div>
-          <hr className="!mb-10 divider" />
+          <hr className="!mb-10 divider !mt-10" />
           {/* END FEATURE BOX #2 */}
           {/* FEATURE BOX #3 */}
-           <div className="col  shadow-box">
+          <div className="col  shadow-box">
             <div className="fbox-11 fb-3 wow fadeInUp">
               {/* Icon */}
               <div className="fbox-ico-wrap">
@@ -124,7 +124,7 @@ const ServiceComponent = ({
           </div>
           {/* END FEATURE BOX #3 */}
           {/* FEATURE BOX #4 */}
-           <div className="col  shadow-box">
+          <div className="col  shadow-box">
             <div className="fbox-11 fb-4 wow fadeInUp">
               {/* Icon */}
               <div className="fbox-ico-wrap">
@@ -150,11 +150,11 @@ const ServiceComponent = ({
             </div>
           </div>
 
-          <hr className="!mb-10 divider" />
+          <hr className="!mb-10 divider !mt-10" />
 
           {/* END FEATURE BOX #4 */}
           {/* FEATURE BOX #5 */}
-           <div className="col  shadow-box">
+          <div className="col  shadow-box">
             <div className="fbox-11 fb-5 wow fadeInUp">
               {/* Icon */}
               <div className="fbox-ico-wrap">
@@ -181,7 +181,7 @@ const ServiceComponent = ({
           </div>
           {/* END FEATURE BOX #5 */}
           {/* FEATURE BOX #6 */}
-           <div className="col  shadow-box">
+          <div className="col  shadow-box">
             <div className="fbox-11 fb-4 wow fadeInUp">
               {/* Icon */}
               <div className="fbox-ico-wrap">
@@ -206,9 +206,9 @@ const ServiceComponent = ({
               </div>
             </div>
           </div>
-          <hr className="!mb-10 divider" />
+          <hr className="!mb-10 divider !mt-10" />
 
-           <div className="col  shadow-box">
+          <div className="col  shadow-box">
             <div className="fbox-11 fb-4 wow fadeInUp">
               {/* Icon */}
               <div className="fbox-ico-wrap">

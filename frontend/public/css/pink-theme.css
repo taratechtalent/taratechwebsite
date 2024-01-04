@@ -13602,11 +13602,20 @@ html {
 
 /* Initial state of the div */
 .shadow-box {
-  transition: box-shadow 0.3s ease-in-out; /* Smooth transition for the shadow effect */
+  border-radius: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 
 /* When the div is hovered over */
 .shadow-box:hover {
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5); /* x-offset, y-offset, blur-radius, color */
-  border-radius: 5px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.5); /* x-offset, y-offset, blur-radius, color */
+}
+
+.book-title {
+  color: "#353f4f";
+}
+
+.book-title:hover {
+  color: "black";
 }
