@@ -43,11 +43,8 @@ export default function Help() {
             image="/images/services/allservices.webp"
           />
         </div>
-        <div className="flex justify-center">
-          <div
-            className="w-1/2 text-center  p-3 m-4"
-            style={{ backgroundColor: "#ff000017", borderRadius: 15 }}
-          >
+        <div className="row p-4 m-4" style={{ backgroundColor: "#37939b" }}>
+          <div className="col-sm-12 text-center">
             <Link
               href="/book"
               className="btn r-04 btn--theme hover--theme mb-20  mt-20"
@@ -56,7 +53,6 @@ export default function Help() {
             </Link>
           </div>
         </div>
-
         <hr className="divider" />
 
         <section id="faqs-3" className="gr--whitesmoke pt-100 faqs-section">
@@ -197,7 +193,7 @@ export default function Help() {
           {/* End container */}
         </section>
 
-        <div className="row p-4 m-4" style={{ backgroundColor: "#ff000017" }}>
+        <div className="row p-4 m-4" style={{ backgroundColor: "#37939b" }}>
           <div className="col-sm-12 text-center">
             <Link
               href="/book"

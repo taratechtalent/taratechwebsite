@@ -2,109 +2,64 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
 
-import { useCallback, useEffect, useState } from "react";
+import { useCallback, useContext, useEffect, useState } from "react";
 import Layout from "../components/layout/Layout";
-{
-  /* <option value="web">
-Web App Development
-</option>
-<option value="mobile">
-Mobile App Development
-</option>
-<option value="devops">
-UI/UX Design
-</option>{" "}
-<option value="devops">
-Devops
-</option>{" "}
-<option value="devops">
-AI/Machine Learning
-</option>{" "}
-<option value="devops">
-Digital Art
-</option>{" "}
-<option value="qa">
-Software testing & QA
-</option> */
-}
-
-const services = [
-  {
-    name: "Web App Development",
-    value: "web",
-    levels: [
-      {
-        name: "Senior",
-        start: 70,
-        end: 82,
-      },
-      {
-        name: "Mid-Level",
-        start: 60,
-        end: 70,
-      },
-      {
-        name: "Junior",
-        start: 60,
-        end: 70,
-      },
-    ],
-  },
-  {
-    name: "Mobile App Development",
-    value: "mobile",
-    levels: [
-      {
-        name: "Senior",
-        start: 76,
-        end: 65,
-      },
-      {
-        name: "Mid-Level",
-        start: 60,
-        end: 65,
-      },
-      {
-        name: "Junior",
-        start: 55,
-        end: 60,
-      },
-    ],
-  },
-  {
-    name: "UI/UX Design",
-    value: "ui",
-    levels: [
-      {
-        name: "Senior",
-        start: 60,
-        end: 70,
-      },
-      {
-        name: "Mid-Level",
-        start: 55,
-        end: 60,
-      },
-      {
-        name: "Junior",
-        start: 48,
-        end: 55,
-      },
-    ],
-  },
-];
+import MyContext from "../context";
+import { SelectServiceItem, services } from "./SelectServiceItem";
 
 export default function Book() {
-  const [serviceItems, setServiceItems] = useState([
-    <SelectServiceItem key={1} />,
-  ]);
+  const { state, setState: setServiceItems } = useContext(MyContext);
+
+  const [finalPrice, setFinalPrice] = useState("0 K€/y");
+  const calculate = useCallback(() => {
+    let start = 0;
+    let end = 0;
+    let test = state.updateDate;
+    state.items?.map((item: any) => {
+      const level = services
+        .filter(
+          (service) => service.value == item.selectedInfo.selectedService
+        )[0]
+        .levels.filter(
+          (level) => level.name == item.selectedInfo.selectedLevel
+        )[0];
+
+      start += level.start || 0;
+      end += level.end || 0;
+    });
+    setFinalPrice(` ( ${start} - ${end} ) K€/yy `);
+  }, [state.items, state.updateDate]);
+
+  useEffect(() => {
+    calculate();
+  }, [calculate]);
+
+  // const manageServiceItem = (serviceIndex: any, selectedInfo: any) => {
+  //   const result = serviceItems.map((item: any) => {
+  //     if (item.id == serviceIndex) {
+  //       item.selectedInfo = selectedInfo;
+  //     }
+  //     return item;
+  //   });
+  //   setServiceItems(result);
+  // };
 
   const addServiceitem = () => {
     setServiceItems([
-      <SelectServiceItem key={serviceItems.length + 1} />,
-      ...serviceItems,
+      ...state.items,
+      {
+        id: state.items.length + 1,
+        selectedInfo: {},
+        component: (
+          <SelectServiceItem
+            key={state.items.length + 1}
+            index={state.items.length + 1}
+          />
+        ),
+      },
     ]);
   };
+
   const [activeIndex, setActiveIndex] = useState(1);
   const handleOnClick = (index: any) => {
     setActiveIndex(index);
@@ -178,7 +133,7 @@ export default function Book() {
               <div className="row mt-20">
                 {/* FEATURE BOX #1 */}
                 <div className="col-sm-12 col-md-1"></div>
-                <div className="col-sm-12 col-md-3 wow fadeInUp text-center justify-center flex">
+                <div className="col-sm-12 col-md-3 wow fadeInUp text-center justify-center flex ml-20">
                   <img src="/images/book/QA .png" />
                 </div>{" "}
                 <div className="col-sm-12 col-md-3 wow fadeInUp text-center justify-center flex">
@@ -333,6 +288,20 @@ export default function Book() {
                                           }
                                         />
                                       </div>{" "}
+                                      <div className="row">
+                                        <div className="col-sm-12">
+                                          {state.items?.map((item: any) => {
+                                            return (
+                                              <p key={item.id}>
+                                                {item.id} -{" "}
+                                                {JSON.stringify(
+                                                  item.selectedInfo
+                                                )}
+                                              </p>
+                                            );
+                                          })}
+                                        </div>
+                                      </div>
                                       {/* Form Input */}
                                       {/* Reset Password Link */}
                                       {/* Form Submit Button */}
@@ -374,14 +343,36 @@ export default function Book() {
                                       </h6>
                                     </div>
                                     <div className="col-sm-12">
-                                      {serviceItems.map((item) => item)}
+                                      {state.items?.map(
+                                        (item: any) => item.component
+                                      )}
                                     </div>
                                     <div className="col-sm-12">
                                       <button
                                         className="btn r-04 btn--theme hover--theme "
                                         onClick={addServiceitem}
                                       >
-                                        Add more talent
+                                        + Add more talent
+                                      </button>
+                                    </div>
+                                    <div className="col-sm-12">
+                                      <div className="separator-line">
+                                        Total price
+                                      </div>
+                                      <div className="row">
+                                        <div className="col-sm-8"></div>
+                                        <div className="col-sm-4 text-center">
+                                          {finalPrice}
+                                        </div>
+                                      </div>
+                                    </div>
+
+                                    <div className="col-sm-12 mt-60 flex justify-end">
+                                      <button
+                                        className="btn r-04 btn--theme hover--theme "
+                                        onClick={() => setActiveIndex(1)}
+                                      >
+                                        Submit this List
                                       </button>
                                     </div>
                                   </div>
@@ -409,89 +400,3 @@ export default function Book() {
     </>
   );
 }
-
-const SelectServiceItem = () => {
-  const [selectedService, setSelectedService] = useState("web");
-  const [selectedLevel, setSelectedLevel] = useState("Senior");
-  const [selectedCount, setSelectedCount] = useState(1);
-  const [totalPrice, setTotalPrice] = useState("");
-  const selectService = (service: any) => {
-    setSelectedService(service);
-  };
-  const selectLevel = (level: any) => {
-    setSelectedLevel(level);
-  };
-  const selectCount = (cnt: any) => {
-    try {
-      parseInt(cnt);
-      setSelectedCount(cnt);
-    } catch (error) {
-      setSelectedCount(1);
-    }
-  };
-
-  useEffect(() => {
-    const level = services
-      .filter((service) => service.value == selectedService)[0]
-      .levels.filter((level) => level.name == selectedLevel)[0];
-
-    const totalPrice = `${selectedCount * level.start} - ${
-      selectedCount * level.end
-    } k`;
-    setTotalPrice(totalPrice);
-  }, [selectedService, selectedLevel, selectedCount]);
-
-  return (
-    <div className="row m-4">
-      <div className="col-sm-4">
-        <select
-          name="example"
-          id="exampleDropdown"
-          className="form-control"
-          value={selectedService}
-          onChange={(e) => selectService(e.target.value)}
-        >
-          {services.map((item) => {
-            return (
-              <option value={item.value} key={item.name}>
-                {item.name}
-              </option>
-            );
-          })}
-        </select>
-      </div>
-      <div className="col-sm-3">
-        <select
-          name="example"
-          id="exampleDropdown"
-          className="form-control"
-          value={selectedLevel}
-          onChange={(e) => selectLevel(e.target.value)}
-        >
-          {services
-            .filter((service) => service.value == selectedService)[0]
-            .levels.map((item) => {
-              return (
-                <option value={item.name} key={item.name}>
-                  {item.name} : {`(${item.start}-${item.end}) k`}
-                </option>
-              );
-            })}
-        </select>
-      </div>
-      <div className="col-sm-1">
-        <input
-          type="text"
-          className="form-control text-center"
-          id="formGroupExampleInput"
-          placeholder=""
-          value={selectedCount}
-          onChange={(e) => selectCount(e.target.value)}
-        />
-      </div>
-      <div className="col-sm-3 flex items-center justify-center ">
-        <span className="s-16 w-700">{totalPrice}</span>
-      </div>
-    </div>
-  );
-};

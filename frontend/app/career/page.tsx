@@ -14,7 +14,7 @@ export default function Career() {
           <section className="page-hero-section">
             <div
               className="page-hero-section-overlay bg--scroll"
-              style={{ backgroundColor: "#654EB8" }}
+              style={{ backgroundColor: "rgb(20 113 123 / 72%)" }}
             >
               <div className="container">
                 <div className="row d-flex align-items-center">

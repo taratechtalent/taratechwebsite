@@ -146,7 +146,7 @@ export default function Contact() {
                         href="/book"
                         className="btn  btn--theme hover--tra-white  w-28"
                       >
-                        Book a Discovery call
+                        Book a Discovery Call
                       </Link>{" "}
                     </div>
                   </div>
