@@ -55,7 +55,7 @@ export default function Header({
               </div>
               {/* HEADER WHITE LOGO */}
               <div className="desktoplogo">
-                <Link href="#hero-1" className="logo-white">
+                <Link href="/" className="logo-white">
                   <img src="/images/taralogo.png" alt="logo" />
                 </Link>
               </div>
