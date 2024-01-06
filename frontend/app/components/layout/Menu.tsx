@@ -34,10 +34,16 @@ export default function Menu() {
           </Link>
         </li>
         <li className="nl-simple">
+          <Link href="/client" className="h-link">
+            Client
+          </Link>
+        </li>
+        <li className="nl-simple">
           <Link href="/career" className="h-link">
             Career
           </Link>
         </li>
+
         <li>
           <Link href="#" className="h-link">
             About us <span className="wsarrow" />
