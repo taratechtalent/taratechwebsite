@@ -69,7 +69,7 @@ export const services = [
 ];
 
 export const SelectServiceItem = ({ index }: any) => {
-  const { state, setState } = useContext(MyContext);
+  const { info: state, setInfo } = useContext(MyContext);
 
   const [selectedService, setSelectedService] = useState("web");
   const [selectedLevel, setSelectedLevel] = useState("Senior");
@@ -99,20 +99,21 @@ export const SelectServiceItem = ({ index }: any) => {
       selectedCount * level.end
     } k`;
     setTotalPrice(totalPrice);
-    const result = state.items.map((item: any) => {
-      if (item.id == index) {
+    const result = state.components.map((item: any) => {
+      if (item.index == index) {
         item.selectedInfo = { selectedService, selectedLevel, selectedCount };
       }
       return item;
     });
-    setState(result);
+
+    setInfo((state: any) => ({ ...state, info: { components: result } }));
   }, [
     selectedService,
     selectedLevel,
     selectedCount,
     index,
-    state.items,
-    setState,
+    state.components,
+    setInfo,
   ]);
 
   return (
@@ -153,9 +154,9 @@ export const SelectServiceItem = ({ index }: any) => {
             })}
         </select>
       </div>
-      <div className="col-sm-1">
+      <div className="col-sm-2">
         <input
-          type="text"
+          type="number"
           className="form-control text-center"
           id="formGroupExampleInput"
           placeholder=""

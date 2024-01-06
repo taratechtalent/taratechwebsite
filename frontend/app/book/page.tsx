@@ -1,21 +1,22 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable jsx-a11y/alt-text */
 "use client";
 /* eslint-disable @next/next/no-img-element */
 
-import { useCallback, useContext, useEffect, useState } from "react";
+import { useContext, useEffect, useState } from "react";
 import Layout from "../components/layout/Layout";
 import MyContext from "../context";
 import { SelectServiceItem, services } from "./SelectServiceItem";
 
 export default function Book() {
-  const { state, setState: setServiceItems } = useContext(MyContext);
-
+  const { info, setInfo } = useContext(MyContext);
   const [finalPrice, setFinalPrice] = useState("0 K€/y");
-  const calculate = useCallback(() => {
+  const [finalCount, setFinalCount] = useState(0);
+  const calculate = () => {
     let start = 0;
     let end = 0;
-    let test = state.updateDate;
-    state.items?.map((item: any) => {
+    let count = 0;
+    info?.components?.map((item: any) => {
       const level = services
         .filter(
           (service) => service.value == item.selectedInfo.selectedService
@@ -24,15 +25,13 @@ export default function Book() {
           (level) => level.name == item.selectedInfo.selectedLevel
         )[0];
 
-      start += level.start || 0;
-      end += level.end || 0;
+      start += level.start * item.selectedInfo.selectedCount || 0;
+      end += level.end * item.selectedInfo.selectedCount || 0;
+      count += parseInt(item.selectedInfo.selectedCount);
     });
-    setFinalPrice(` ( ${start} - ${end} ) K€/yy `);
-  }, [state.items, state.updateDate]);
-
-  useEffect(() => {
-    calculate();
-  }, [calculate]);
+    setFinalPrice(` ( ${start} - ${end} ) K€/y `);
+    setFinalCount(count);
+  };
 
   // const manageServiceItem = (serviceIndex: any, selectedInfo: any) => {
   //   const result = serviceItems.map((item: any) => {
@@ -45,19 +44,21 @@ export default function Book() {
   // };
 
   const addServiceitem = () => {
-    setServiceItems([
-      ...state.items,
-      {
-        id: state.items.length + 1,
-        selectedInfo: {},
-        component: (
-          <SelectServiceItem
-            key={state.items.length + 1}
-            index={state.items.length + 1}
-          />
-        ),
-      },
-    ]);
+    setInfo({
+      components: [
+        ...info.components,
+        {
+          index: info.components.length + 1,
+          selectedInfo: {},
+          component: (
+            <SelectServiceItem
+              key={info.components.length + 1}
+              index={info.components.length + 1}
+            />
+          ),
+        },
+      ],
+    });
   };
 
   const [activeIndex, setActiveIndex] = useState(1);
@@ -82,6 +83,16 @@ export default function Book() {
       });
     }
   };
+
+  const clearList = () => {
+    setInfo({
+      components: [],
+    });
+  };
+
+  useEffect(() => {
+    calculate();
+  }, [info, calculate]);
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -288,20 +299,69 @@ export default function Book() {
                                           }
                                         />
                                       </div>{" "}
-                                      <div className="row">
-                                        <div className="col-sm-12">
-                                          {state.items?.map((item: any) => {
-                                            return (
-                                              <p key={item.id}>
-                                                {item.id} -{" "}
-                                                {JSON.stringify(
-                                                  item.selectedInfo
-                                                )}
-                                              </p>
-                                            );
-                                          })}
+                                      {info?.components?.length > 0 && (
+                                        <div>
+                                          <div className="separator-line">
+                                            Selected Talent List
+                                          </div>
+                                          <div className="row">
+                                            <div className="col-sm-12">
+                                              <table className="table text-center">
+                                                <thead>
+                                                  <tr>
+                                                    <th
+                                                      style={{ width: "22%" }}
+                                                    >
+                                                      Service
+                                                    </th>
+                                                    <th
+                                                      style={{ width: "22%" }}
+                                                    >
+                                                      Level
+                                                    </th>
+                                                    <th
+                                                      style={{ width: "22%" }}
+                                                    >
+                                                      Count
+                                                    </th>
+                                                  </tr>
+                                                </thead>
+                                                <tbody>
+                                                  {info?.components?.map(
+                                                    (item: any) => {
+                                                      return (
+                                                        <tr key={item.id}>
+                                                          <th
+                                                            scope="row"
+                                                            className="color--black"
+                                                          >
+                                                            {
+                                                              item.selectedInfo
+                                                                .selectedService
+                                                            }
+                                                          </th>
+                                                          <td className="color--black">
+                                                            {
+                                                              item.selectedInfo
+                                                                .selectedLevel
+                                                            }
+                                                          </td>
+                                                          <td className="color--black">
+                                                            {
+                                                              item.selectedInfo
+                                                                .selectedCount
+                                                            }
+                                                          </td>
+                                                        </tr>
+                                                      );
+                                                    }
+                                                  )}
+                                                </tbody>
+                                              </table>
+                                            </div>
+                                          </div>
                                         </div>
-                                      </div>
+                                      )}
                                       {/* Form Input */}
                                       {/* Reset Password Link */}
                                       {/* Form Submit Button */}
@@ -343,33 +403,63 @@ export default function Book() {
                                       </h6>
                                     </div>
                                     <div className="col-sm-12">
-                                      {state.items?.map(
+                                      {info?.components?.map(
                                         (item: any) => item.component
                                       )}
                                     </div>
                                     <div className="col-sm-12">
                                       <button
-                                        className="btn r-04 btn--theme hover--theme "
+                                        className=" r-04 btn--theme hover--theme !text-xs pt-2 pb-2 !pr-6 !pl-6 "
                                         onClick={addServiceitem}
                                       >
-                                        + Add more talent
+                                        + Add{" "}
+                                        <b>
+                                          {info?.components?.length > 0
+                                            ? "next"
+                                            : "first"}
+                                        </b>{" "}
+                                        talent
                                       </button>
+                                    </div>
+                                    <div className="col-sm-12 text-right">
+                                      {info?.components?.length > 0 && (
+                                        <button
+                                          className="r-04 btn--theme hover--theme pt-2 pb-2 !pr-6 !pl-6"
+                                          onClick={() => calculate()}
+                                        >
+                                          calculate
+                                        </button>
+                                      )}
                                     </div>
                                     <div className="col-sm-12">
                                       <div className="separator-line">
                                         Total price
                                       </div>
                                       <div className="row">
-                                        <div className="col-sm-8"></div>
-                                        <div className="col-sm-4 text-center">
-                                          {finalPrice}
+                                        <div className="col-sm-7">
+                                          Estimate price for your selection
+                                        </div>
+                                        <div className="col-sm-2 flex align-middle">
+                                          Count : <b>{finalCount}</b>
+                                        </div>
+                                        <div className="col-sm-3 text-center flex">
+                                          Price: <b>{finalPrice}</b>
                                         </div>
                                       </div>
                                     </div>
-
-                                    <div className="col-sm-12 mt-60 flex justify-end">
+                                    <div className="col-sm-12 col-md-6 mt-60 flex justify-start ">
+                                      {info?.components?.length > 0 && (
+                                        <button
+                                          className="btn r-04 btn-danger pt-2 pb-2 !pr-6 !pl-6"
+                                          onClick={() => clearList()}
+                                        >
+                                          Clear this List
+                                        </button>
+                                      )}
+                                    </div>{" "}
+                                    <div className="col-sm-12 col-md-6 mt-60 flex justify-end">
                                       <button
-                                        className="btn r-04 btn--theme hover--theme "
+                                        className=" r-04 btn--theme hover--theme pt-2 pb-2 !pr-6 !pl-6"
                                         onClick={() => setActiveIndex(1)}
                                       >
                                         Submit this List

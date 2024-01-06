@@ -6,24 +6,14 @@ import { SelectServiceItem } from "./book/SelectServiceItem";
 
 // Step 2: Create a provider component
 const MyProvider = ({ children }: any) => {
-  const [state, setState] = useState<any>({
+  const [info, setInfo] = useState<any>({
     updateDate: new Date(),
-    items: [
-      {
-        id: 0,
-        selectedInfo: {
-          selectedService: "web",
-          selectedLevel: "Senior",
-          selectedCount: 1,
-        },
-        component: <SelectServiceItem key={0} />,
-      },
-    ],
+    components: [],
   });
 
   const contextValue: any = {
-    state,
-    setState,
+    info,
+    setInfo,
   };
 
   return (

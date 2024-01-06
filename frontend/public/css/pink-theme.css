@@ -13628,3 +13628,20 @@ html {
   /* -webkit-text-fill-color: transparent;
   background-clip: text; */
 }
+
+.btn-danger {
+  background: radial-gradient(
+    circle at center,
+    #e03d1e85,
+    #f00808a1
+  ) !important;
+}
+.btn-danger:hover {
+  color: #fff !important;
+  border-color: red !important;
+  background: radial-gradient(
+    circle at center,
+    #e03d1e85,
+    #f00808c7
+  ) !important;
+}
