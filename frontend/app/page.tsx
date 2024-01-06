@@ -543,7 +543,7 @@ const OurProcess = () => {
                 </div>
                 {/* Text */}
                 <div className="cbox-2-txt">
-                  <h5 className="s-22 w-700">Simple, Secure &amp; Intuitive</h5>
+                  <h5 className="s-22 w-700">Join exploration call</h5>
                   <p>
                     Ligula risus auctor tempus feugiat dolor lacinia nemo purus
                     in lipsum purus sapien quaerat a primis viverra tellus vitae
@@ -561,7 +561,9 @@ const OurProcess = () => {
                 </div>
                 {/* Text */}
                 <div className="cbox-2-txt">
-                  <h5 className="s-22 w-700">Weekly Email Reports</h5>
+                  <h5 className="s-22 w-700">
+                    Discuss solution and team structure
+                  </h5>
                   <p>
                     Ligula risus auctor tempus feugiat dolor lacinia nemo purus
                     in lipsum purus sapien quaerat a primis viverra tellus vitae
@@ -579,7 +581,9 @@ const OurProcess = () => {
                 </div>
                 {/* Text */}
                 <div className="cbox-2-txt">
-                  <h5 className="s-22 w-700">No Personal Data Collected</h5>
+                  <h5 className="s-22 w-700">
+                    Get started and track performance
+                  </h5>
                   <p className="mb-0">
                     Ligula risus auctor tempus feugiat dolor lacinia nemo purus
                     in lipsum purus sapien quaerat a primis viverra tellus vitae
