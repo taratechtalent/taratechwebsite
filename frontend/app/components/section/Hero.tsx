@@ -20,7 +20,7 @@ export default function Hero() {
               <div className="hero-2-txt wow fadeInLeft">
                 {/* Title */}
                 <h2 className="s-56 w-700 color--black">
-                  Affordable <span className="main-text">Senior talents</span>{" "}
+                  Affordable <span className="main-text">Senior Talents</span>{" "}
                   for startups
                 </h2>
                 {/* Text */}

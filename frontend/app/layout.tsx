@@ -14,7 +14,7 @@ import MyProvider from "./provider";
 
 export const metadata: Metadata = {
   title: "Taratech talent",
-  description: "Affordable senior talents",
+  description: "Affordable Senior Talents",
 };
 
 export default function RootLayout({
