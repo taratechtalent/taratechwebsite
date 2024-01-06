@@ -27,15 +27,9 @@ export default function Menu() {
             </li>
           </ul>
         </li>
-
         <li className="nl-simple">
           <Link href="/service" className="h-link">
             Services
-          </Link>
-        </li>
-        <li className="nl-simple">
-          <Link href="/client" className="h-link">
-            Client
           </Link>
         </li>
         <li className="nl-simple">
@@ -43,7 +37,6 @@ export default function Menu() {
             Career
           </Link>
         </li>
-
         <li>
           <Link href="#" className="h-link">
             About us <span className="wsarrow" />
@@ -64,7 +57,6 @@ export default function Menu() {
           </ul>
         </li>
         {/* SIGN IN LINK */}
-
         {/* SIGN UP BUTTON */}
         <li className="nl-simple ">
           <Link
@@ -73,6 +65,15 @@ export default function Menu() {
             style={{ marginLeft: "60px" }}
           >
             Book a Call
+          </Link>
+        </li>{" "}
+        <li className="nl-simple ">
+          <Link
+            href="/calculator"
+            className="btn r-04 btn--theme hover--tra-white last-link ml-20"
+            style={{ marginLeft: "60px" }}
+          >
+            Calculator
           </Link>
         </li>
       </ul>

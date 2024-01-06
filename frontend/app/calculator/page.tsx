@@ -1,122 +1,235 @@
+/* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable jsx-a11y/alt-text */
+"use client";
 /* eslint-disable @next/next/no-img-element */
 
+export const services = [
+  {
+    name: "Web App Development",
+    value: "web",
+    levels: [
+      {
+        name: "Senior",
+        start: 70,
+        end: 82,
+      },
+      {
+        name: "Mid-Level",
+        start: 60,
+        end: 70,
+      },
+      {
+        name: "Junior",
+        start: 60,
+        end: 70,
+      },
+    ],
+  },
+  {
+    name: "Mobile App Development",
+    value: "mobile",
+    levels: [
+      {
+        name: "Senior",
+        start: 76,
+        end: 65,
+      },
+      {
+        name: "Mid-Level",
+        start: 60,
+        end: 65,
+      },
+      {
+        name: "Junior",
+        start: 55,
+        end: 60,
+      },
+    ],
+  },
+  {
+    name: "UI/UX Design",
+    value: "ui",
+    levels: [
+      {
+        name: "Senior",
+        start: 60,
+        end: 70,
+      },
+      {
+        name: "Mid-Level",
+        start: 55,
+        end: 60,
+      },
+      {
+        name: "Junior",
+        start: 48,
+        end: 55,
+      },
+    ],
+  },
+];
+
+import { useState } from "react";
 import Layout from "../components/layout/Layout";
-import Link from "next/link";
-export default function Calculator() {
+
+export default function Book() {
+  const [finalPrice, setFinalPrice] = useState("0 K€/y");
+  const [finalCount, setFinalCount] = useState(0);
+  const [info, setInfo] = useState(0);
+  const calculate = () => {
+    let start = 0;
+    let end = 0;
+    let count = 0;
+    // info?.components?.map((item: any) => {
+    //   const level = services
+    //     .filter(
+    //       (service) => service.value == item.selectedInfo.selectedService
+    //     )[0]
+    //     .levels.filter(
+    //       (level) => level.name == item.selectedInfo.selectedLevel
+    //     )[0];
+
+    //   start += level.start * item.selectedInfo.selectedCount || 0;
+    //   end += level.end * item.selectedInfo.selectedCount || 0;
+    //   count += parseInt(item.selectedInfo.selectedCount);
+    // });
+    setFinalPrice(` ( ${start} - ${end} ) K€/y `);
+    setFinalCount(count);
+  };
+
+  const [activeIndex, setActiveIndex] = useState(1);
+  const handleOnClick = (index: any) => {
+    setActiveIndex(index);
+  };
+
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [phone, setPhone] = useState("");
   return (
     <>
       <Layout
-        headerStyle={1}
+        headerStyle0={1}
         footerStyle={3}
         headerCls="navbar-dark inner-page-header"
       >
-        <div>
-          {/* ABOUT-2
-			============================================= */}
-          <section
-            id="about-2"
-            className="rel inner-page-hero about-section division"
-          >
-            {/* ABOUT-2 TITLE */}
+        <div id="page" className="page font--jakarta ">
+          {/* LOGIN PAGE
+============================================= */}
+          <div id="login" className="bg--fixed login-1 login-section division">
             <div className="container">
               <div className="row">
-                <div className="col-md-11 col-lg-10 col-xl-9">
-                  <div className="about-2-title mb-60">
-                    {/* Title */}
-                    <h2 className="s-52 w-700 mb-30">Calculator</h2>
-                    {/* Text */}
-                    <p className="mb-0">
-                      Your Trusted Partner for Affordable, Senior-Driven
-                      Development Success
-                    </p>
-                  </div>
-                </div>
-              </div>
-            </div>
-            {/* END ABOUT-2 TITLE */}
-            {/* ABOUT-2 IMAGES */}
-            <div className="container-fluid">
-              <div className="row">
-                {/* IMAGES-1 */}
-                <div className="col-md-5">
-                  <div className="text-end">
-                    {/* IMAGE-1 */}
-                    <div className="about-2-img a-2-1 r-12">
-                      <img
-                        className="img-fluid"
-                        src="/images/a2-1.jpg"
-                        alt="about-image"
-                      />
-                    </div>
-                    {/* IMAGE-2 */}
-                    <div className="about-2-img a-2-2 r-12">
-                      <img
-                        className="img-fluid"
-                        src="/images/a2-2.jpg"
-                        alt="about-image"
-                      />
-                    </div>
-                  </div>
-                </div>
-                {/* END IMAGES-1 */}
-                {/* IMAGES-2 */}
-                <div className="col-md-7">
-                  {/* IMAGE-3 */}
-                  <div className="about-2-img a-2-3 r-12">
-                    <img
-                      className="img-fluid"
-                      src="/images/a2-3.jpg"
-                      alt="about-image"
-                    />
-                  </div>
-                  <div className="row">
-                    {/* TEXT */}
-                    <div className="col-md-7 col-lg-6">
-                      <div className="a2-txt bg--black-400 pattern-01 bg--fixed color--white r-12">
-                        {/* Icon */}
-                        <div className="a2-txt-quote ico-40 o-20">
-                          <span className="flaticon-quote" />
-                        </div>
-                        {/* Text */}
-                        <p>
-                          Naser Derakhashan, founder of an HR company, commits
-                          to global client excellence with tailored strategies,
-                          integrity, and innovative solutions, ensuring
-                          efficient, personalized support and fostering lasting
-                          partnerships in the ever-evolving world of human
-                          resources.
-                        </p>
-                        {/* Author */}
-                        <p className="a2-txt-author">
-                          Amin Derakhshan <span>CEO &amp; CO-FOUNDER</span>
-                        </p>
-                      </div>
-                    </div>
-                    {/* IMAGE-4 */}
-                    <div className="col-md-5 col-lg-6">
-                      <div className="about-2-img a-2-4 r-12">
-                        <img
-                          className="img-fluid"
-                          src="/images/a2-4.jpg"
-                          alt="about-image"
-                        />
-                      </div>
-                    </div>
-                  </div>
-                  {/* End row */}
-                </div>
-                {/* END IMAGES-2 */}
-              </div>
-              {/* End row */}
-            </div>
-            {/* END ABOUT-2 IMAGES */}
-          </section>
-          {/* END ABOUT-2 */}
+                <div className="col-sm-12">
+                  <section
+                    id="faqs-4"
+                    className="gr--whitesmoke inner-page-hero  faqs-section division"
+                  >
+                    <div className="container">
+                      {/* SECTION TITLE */}
+                      {/* TABS NAVIGATION */}
+                      <div className="row">
+                        <div className="col">
+                          <div className="tabs-nav tabs--theme clearfix">
+                            <ul className="tabs-1">
+                              {/* TAB-1 LINK */}
 
-          {/* END FEATURES-11 */}
-          {/* DIVIDER LINE */}
-          <hr className="divider !mt-20" />
+                              {/* TAB-2 LINK */}
+                              <li
+                                className={
+                                  activeIndex === 1
+                                    ? "tab-link ico-45 r-16 current"
+                                    : "tab-link ico-45 r-16"
+                                }
+                                onClick={() => handleOnClick(1)}
+                              >
+                                <div className="tab-link-ico">
+                                  <span className="flaticon-suit" />
+                                </div>
+                                <p>Try our Pricing calculator </p>
+                              </li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>{" "}
+                      {/* END TABS NAVIGATION */}
+                      {/* TABS CONTENT */}
+                      <div className="tabs-content">
+                        <div className="row justify-content-center">
+                          <div className="col-xl-10">
+                            {/* TAB-2 CONTENT */}
+                            <div
+                              id="tab-2"
+                              className={
+                                activeIndex === 1
+                                  ? "tab-content current"
+                                  : "tab-content "
+                              }
+                            >
+                              <div className="row ">
+                                <div className="col-sm-12">
+                                  <h5>
+                                    Choose the technical expertise you need
+                                  </h5>
+
+                                  <div className="row mt-40 ">
+                                    <div className="col-sm-12 mb-20">
+                                      <h6>
+                                        Select in which field you need a talent
+                                      </h6>
+                                    </div>
+                                    <div className="col-sm-12">
+                                      <div className="separator-line">
+                                        Total price
+                                      </div>
+                                      <div className="row">
+                                        <div className="col-sm-7">
+                                          Estimate price for your selection
+                                        </div>
+                                        <div className="col-sm-2 flex align-middle">
+                                          Count : <b>{finalCount}</b>
+                                        </div>
+                                        <div className="col-sm-3 text-center flex">
+                                          Price: <b>{finalPrice}</b>
+                                        </div>
+                                      </div>
+                                    </div>
+                                    <div className="col-sm-12 col-md-6 mt-60 flex justify-start ">
+                                      {info?.components?.length > 0 && (
+                                        <button
+                                          className="btn r-04 btn-danger pt-2 pb-2 !pr-6 !pl-6"
+                                          onClick={() => clearList()}
+                                        >
+                                          Clear this List
+                                        </button>
+                                      )}
+                                    </div>{" "}
+                                    <div className="col-sm-12 col-md-6 mt-60 flex justify-end">
+                                      <button
+                                        className=" r-04 btn--theme hover--theme pt-2 pb-2 !pr-6 !pl-6"
+                                        onClick={() => setActiveIndex(1)}
+                                      >
+                                        Submit this List
+                                      </button>
+                                    </div>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>{" "}
+                          </div>
+                        </div>{" "}
+                        {/* End row */}
+                      </div>{" "}
+                      {/* END TABS CONTENT */}
+                    </div>{" "}
+                    {/* End container */}
+                  </section>
+                </div>
+              </div>
+
+              {/* End row */}
+            </div>{" "}
+            {/* End container */}
+          </div>{" "}
+          {/* END LOGIN PAGE */}
         </div>
       </Layout>
     </>

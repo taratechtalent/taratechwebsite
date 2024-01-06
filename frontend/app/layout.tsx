@@ -10,7 +10,6 @@ import "/public/css/lunar.css";
 import "/public/css/animate.css";
 import "/public/css/pink-theme.css";
 import "/public/css/responsive.css";
-import MyProvider from "./provider";
 
 export const metadata: Metadata = {
   title: "Taratech talent",
@@ -48,9 +47,7 @@ export default function RootLayout({
           href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
         />
       </head>
-      <body>
-        <MyProvider>{children}</MyProvider>
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
