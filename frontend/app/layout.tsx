@@ -24,6 +24,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <meta name="robots" content="noindex, nofollow" />
         <link
           rel="shortcut icon"
           href="/images/favicon.ico"
