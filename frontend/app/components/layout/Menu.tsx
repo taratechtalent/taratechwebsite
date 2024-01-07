@@ -39,6 +39,25 @@ export default function Menu() {
         </li>
         <li>
           <Link href="#" className="h-link">
+            Industries <span className="wsarrow" />
+          </Link>
+          <ul className="sub-menu">
+            <li>
+              <Link href="/industries/health">Health</Link>
+            </li>
+            <li>
+              <Link href="/industries/technology">Technology</Link>
+            </li>
+            <li>
+              <Link href="/industries/communication">Communication</Link>
+            </li>
+            <li>
+              <Link href="/industries/marketing">Marketing</Link>
+            </li>{" "}
+          </ul>
+        </li>
+        <li>
+          <Link href="#" className="h-link">
             About us <span className="wsarrow" />
           </Link>
           <ul className="sub-menu">
@@ -71,7 +90,6 @@ export default function Menu() {
           <Link
             href="/calculator"
             className="btn r-04 btn--theme hover--tra-white last-link ml-20"
-            style={{ marginLeft: "60px" }}
           >
             Calculator
           </Link>
