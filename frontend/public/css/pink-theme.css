@@ -9816,8 +9816,8 @@ span.release-date span {
 
 .faqs-section .tabs-1 li {
   display: inline-block;
-  min-width: 350px;
-  max-width: 350px;
+  min-width: 240px;
+  max-width: 240px;
   background-color: transparent;
   border: 2px solid #ddd;
   cursor: pointer;

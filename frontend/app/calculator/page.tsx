@@ -6,61 +6,143 @@
 import { useState } from "react";
 import Layout from "../components/layout/Layout";
 
+enum ServiceEnum {
+  Web = "Web Development",
+  Mobile = "Mobile Development",
+  QA = "Software testing & QA",
+  AI = "AI/Machine Learning",
+  UX = "UI/UX Design",
+  Art = "Digital Art",
+  Devops = "Devops",
+}
+
+enum ServiceLeveEnum {
+  Junior = "Junior",
+  Mid = "Mid-Level",
+  Senior = "Senior",
+}
+
 export default function Book() {
   const [finalPrice, setFinalPrice] = useState("0 K€/y");
   const [finalCount, setFinalCount] = useState(0);
   const [info, setInfo] = useState(0);
   const [services, setService] = useState([
     {
-      name: "Web App Development",
+      name: ServiceEnum.Web,
       value: "web",
       selected: true,
       index: 0,
+      technologies: [
+        "React",
+        "Angular",
+        "Vue",
+        "C#",
+        "Python",
+        "Nodejs",
+        "Nestjs",
+        "Nextjs",
+        "AWS",
+        "Google Cloud",
+      ],
     },
     {
-      name: "Mobile App Development",
+      name: ServiceEnum.Mobile,
       value: "mobile",
       selected: false,
       index: 1,
+      technologies: ["IOS", "Android", "Kotlin", "swift", "Java"],
     },
     {
-      name: "UI/UX Design",
-      value: "ui",
-      selected: false,
-      index: 2,
-    },
-    {
-      name: "Digital Art",
-      value: "art",
-      selected: false,
-      index: 3,
-    },
-    {
-      name: "Software testing & QA",
+      name: ServiceEnum.QA,
       value: "qa",
       selected: false,
       index: 4,
+      technologies: [
+        "Unit Testing",
+        "Integration Testing",
+        "Acceptance Testing",
+        "Black Box Testing",
+        "White Box Testing",
+      ],
     },
     {
-      name: "Devops",
-      value: "devops",
-      selected: false,
-      index: 5,
-    },
-    {
-      name: "AI/Machine Learning",
+      name: ServiceEnum.AI,
       value: "ai",
       selected: false,
       index: 6,
+      technologies: [
+        "Narrow AI",
+        "Deep Learning",
+        "Neural Networks",
+        "General AI",
+        "Superintelligent AI",
+      ],
+    },
+    {
+      name: ServiceEnum.UX,
+      value: "ui",
+      selected: false,
+      index: 2,
+      technologies: ["Figma", "Adobe XD", "Adobe Illustrator", "Photoshop"],
+    },
+    {
+      name: ServiceEnum.Art,
+      value: "art",
+      selected: false,
+      index: 3,
+      technologies: [
+        "Blender",
+        "Adobe Creative Suite",
+        "2D and 3D Animation",
+        "Motion Graphics",
+        "Vector Graphics",
+        "2D and 3D Digital Painting",
+        "Digital Photography ",
+      ],
+    },
+
+    {
+      name: ServiceEnum.Devops,
+      value: "devops",
+      selected: false,
+      index: 5,
+      technologies: [
+        "CI/CD",
+        "Git",
+        "AWS",
+        "Bash/Shel scripting",
+        "VMware",
+        "NGinx",
+      ],
     },
   ]);
 
   const [levels, setLevels] = useState(["Junior", "Mid-level", "Senior"]);
+  const [periods, setPriods] = useState(["3 months", "6 months", "+1 year"]);
   const [selectedLevel, setSelectedLevel] = useState(["Junior"]);
+  const [selectedTechnologies, setSelectedTechnologies] = useState<string[]>(
+    []
+  );
+  const [selectedPeriod, setSelectedPeriod] = useState("+1 year");
 
-  const [activeIndex, setActiveIndex] = useState(1);
+  const [selectedService, setSelectedService] = useState("web");
   const selectService = (index: any) => {
-    setActiveIndex(index);
+    setSelectedService(index);
+    setSelectedTechnologies([]);
+  };
+
+  const selectPeriod = (index: any) => {
+    setSelectedPeriod(index);
+  };
+
+  const selectTechnologies = (tech: string) => {
+    let result = [...selectedTechnologies];
+    if (selectedTechnologies.includes(tech)) {
+      result = result.filter((item) => item != tech);
+    } else {
+      result.push(tech);
+    }
+    setSelectedTechnologies(result);
   };
 
   const selectLevel = (level: string) => {
@@ -73,9 +155,21 @@ export default function Book() {
     setSelectedLevel(result);
   };
 
-  const [name, setName] = useState("");
-  const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
+  const calculate = () => {
+    let startPrice = 0,
+      endPrice = 0;
+
+    // switch (selectedService) {
+    //   case ServiceEnum.Web:
+    //     switch (selectedLevel) {
+    //       case ServiceLeveEnum.Junior:
+    //         startPrice = 1000;
+    //         endPrice = 2000;
+    //         break;
+    //     }
+    // }
+  };
+
   return (
     <>
       <Layout
@@ -101,7 +195,10 @@ export default function Book() {
                       <div className="row">
                         <div className="col">
                           <div className="separator-line">
-                            Choose Service for Talent
+                            <span className="cbox-2-ico bg--theme color--white  mr-2">
+                              1
+                            </span>
+                            <b className="s-20 w-700">Service of Talent</b>
                           </div>
                           <div className="tabs-nav tabs--theme clearfix">
                             <ul className="tabs-1">
@@ -111,13 +208,13 @@ export default function Book() {
                               {services.map((item) => {
                                 return (
                                   <li
-                                    key={item.name}
+                                    key={item.value}
                                     className={
-                                      activeIndex === item.index
+                                      selectedService === item.value
                                         ? "tab-link ico-45 r-16 current"
                                         : "tab-link ico-45 r-16"
                                     }
-                                    onClick={() => selectService(item.index)}
+                                    onClick={() => selectService(item.value)}
                                   >
                                     <div className="tab-link-ico">
                                       <span className="flaticon-suit" />
@@ -130,7 +227,49 @@ export default function Book() {
                           </div>
                         </div>
                       </div>{" "}
-                      <div className="separator-line">Talent Level</div>
+                      <div className="separator-line">
+                        {" "}
+                        <span className="cbox-2-ico bg--theme color--white  mr-2">
+                          2
+                        </span>
+                        <b className="s-20 w-700">Technologies of Service</b>
+                      </div>
+                      <div className="tabs-nav tabs--theme clearfix">
+                        <ul className="tabs-1">
+                          {/* TAB-1 LINK */}
+
+                          {/* TAB-2 LINK */}
+                          {services
+                            .filter(
+                              (service) => service.value == selectedService
+                            )[0]
+                            ?.technologies?.map((item: any) => {
+                              return (
+                                <li
+                                  key={item}
+                                  className={
+                                    selectedTechnologies.includes(item)
+                                      ? "tab-link ico-45 r-16 current"
+                                      : "tab-link ico-45 r-16"
+                                  }
+                                  onClick={() => selectTechnologies(item)}
+                                >
+                                  <div className="tab-link-ico">
+                                    <span className="flaticon-suit" />
+                                  </div>
+                                  <p>{item} </p>
+                                </li>
+                              );
+                            })}
+                        </ul>
+                      </div>
+                      <div className="separator-line">
+                        {" "}
+                        <span className="cbox-2-ico bg--theme color--white  mr-2">
+                          3
+                        </span>
+                        <b className="s-20 w-700">Level of Talent </b>
+                      </div>
                       <div className="tabs-nav tabs--theme clearfix">
                         <ul className="tabs-1">
                           {/* TAB-1 LINK */}
@@ -155,6 +294,49 @@ export default function Book() {
                             );
                           })}
                         </ul>
+                      </div>
+                      <div className="separator-line">
+                        {" "}
+                        <span className="cbox-2-ico bg--theme color--white  mr-2">
+                          4
+                        </span>
+                        <b className="s-20 w-700">Contract Period</b>
+                      </div>
+                      <div className="tabs-nav tabs--theme clearfix">
+                        <ul className="tabs-1">
+                          {/* TAB-1 LINK */}
+
+                          {/* TAB-2 LINK */}
+                          {periods.map((item) => {
+                            return (
+                              <li
+                                key={item}
+                                className={
+                                  item == selectedPeriod
+                                    ? "tab-link ico-45 r-16 current"
+                                    : "tab-link ico-45 r-16"
+                                }
+                                onClick={() => selectPeriod(item)}
+                              >
+                                <div className="tab-link-ico">
+                                  <span className="flaticon-suit" />
+                                </div>
+                                <p>{item} </p>
+                              </li>
+                            );
+                          })}
+                        </ul>
+                      </div>
+                      <hr className="divider" />
+                      <div className="separator-line">
+                        <b className="s-20 w-700">Final Price</b>
+                      </div>
+                      <div className="row">
+                        <div className="col-sm-12 text-center">
+                          <h2 className="w-700">
+                            2500 <span className="s-20">K€/y</span>
+                          </h2>
+                        </div>
                       </div>
                     </div>{" "}
                     {/* End container */}
