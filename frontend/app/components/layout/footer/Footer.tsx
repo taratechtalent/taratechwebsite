@@ -88,11 +88,6 @@ export default function Footer() {
                       <Link href="/career">Career</Link>
                     </p>
                   </li>
-                  <li>
-                    <p>
-                      <Link href="/testemonial">Testemonial</Link>
-                    </p>
-                  </li>
                 </ul>
               </div>
             </div>
