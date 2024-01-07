@@ -255,7 +255,6 @@ export default function About() {
             </div>
             {/* End container */}
           </section>
-
           <section
             id="features-12"
             className="shape--bg shape--white-400 pt-100 features-section division"
@@ -393,7 +392,6 @@ export default function About() {
             </div>{" "}
             {/* End container */}
           </section>
-
           {/* END FEATURES-11 */}
           {/* DIVIDER LINE */}
           <hr className="divider !mt-20" />
@@ -401,6 +399,81 @@ export default function About() {
 			============================================= */}
           {/* END BRANDS-1 */}
           {/* DIVIDER LINE */}
+          <hr className="divider" />
+          <section id="banner-12" className="banner-section">
+            <div className="container">
+              <div className="row">
+                <div className="col-sm-12">
+                  <div className="row d-flex align-items-center">
+                    {/* IMAGE BLOCK */}
+                    <div className="col-md-12">
+                      <div className="txt-block flex right-column wow fadeInLeft">
+                        {/* CONTENT BOX #1 */}
+                        <div className="cbox-2 process-step col-md-4">
+                          {/* Icon */}
+                          <div className="ico-wrap">
+                            <div className="cbox-2-ico2 bg--theme color--white">
+                              2019
+                            </div>
+                            <span className="cbox-2-line" />
+                          </div>
+                          {/* Text */}
+                          <div className="cbox-2-txt">
+                            <h5 className="s-22 w-700">MiddleEast Market</h5>
+                            <p>
+                              Register now to take the next step in your career
+                              journey;
+                            </p>
+                          </div>
+                        </div>{" "}
+                        {/* END CONTENT BOX #1 */}
+                        {/* CONTENT BOX #2 */}
+                        <div className="cbox-2 process-step col-md-4">
+                          {/* Icon */}
+                          <div className="ico-wrap">
+                            <div className="cbox-2-ico2 bg--theme color--white">
+                              2021
+                            </div>
+                            <span className="cbox-2-line" />
+                          </div>
+                          {/* Text */}
+                          <div className="cbox-2-txt">
+                            <h5 className="s-22 w-700">Europe Market</h5>
+                            <p>
+                              Enhance your career with our comprehensive testing
+                              suite, featuring
+                            </p>
+                          </div>
+                        </div>{" "}
+                        {/* END CONTENT BOX #2 */}
+                        {/* CONTENT BOX #3 */}
+                        <div className="cbox-2 process-step col-md-4">
+                          {/* Icon */}
+                          <div className="ico-wrap">
+                            <div className="cbox-2-ico2 bg--theme color--white">
+                              2032
+                            </div>
+                            <span className="cbox-2-line" />
+                          </div>
+                          {/* Text */}
+                          <div className="cbox-2-txt">
+                            <h5 className="s-22 w-700">New Markets</h5>
+                            <p className="mb-0">
+                              Finalize your contract with us and embark on a
+                              trial period
+                            </p>
+                          </div>
+                        </div>{" "}
+                        {/* END CONTENT BOX #3 */}
+                      </div>
+                    </div>{" "}
+                    {/* END TEXT BLOCK */}
+                  </div>{" "}
+                </div>
+              </div>
+            </div>
+          </section>
+
           <hr className="divider" />
           <section className="bg--white-400 py-100 ct-03 content-section division">
             <div className="container">

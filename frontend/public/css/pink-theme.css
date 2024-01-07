@@ -6702,6 +6702,23 @@ h5.h5-title {
   transition: all 450ms ease-in-out;
 }
 
+.cbox-2-ico2 {
+  position: relative;
+  width: 4.5rem;
+  height: 2.625rem;
+  text-align: center;
+  border-radius: 100%;
+  font-size: 1.1875rem;
+  font-weight: 500;
+  line-height: 2.375rem;
+  border: 2px solid transparent;
+  -webkit-transition: all 450ms ease-in-out;
+  -moz-transition: all 450ms ease-in-out;
+  -o-transition: all 450ms ease-in-out;
+  -ms-transition: all 450ms ease-in-out;
+  transition: all 450ms ease-in-out;
+}
+
 .ct-03 .cbox-2-ico {
   position: relative;
   width: 2.35rem;
@@ -13465,6 +13482,18 @@ body.theme--dark {
   background: radial-gradient(circle at center, #37939b, #04626d) !important;
 }
 
+.btn--theme2 {
+  color: black !important;
+  border-color: #04626d !important;
+  background: radial-gradient(circle at center, white, #37939b) !important;
+}
+
+.btn--theme2:hover {
+  color: red !important;
+  border-color: #04626d !important;
+  background: radial-gradient(circle at center, white, #37939b) !important;
+}
+
 .hover--theme:hover,
 .white-scroll .scroll .hover--theme:hover,
 .black-scroll .scroll .hover--theme:hover {
@@ -13644,4 +13673,20 @@ html {
     #e03d1e85,
     #f00808c7
   ) !important;
+}
+
+.service-item {
+  background: radial-gradient(circle at center, white, #04626d) !important;
+  color: black !important;
+  border-radius: 15px;
+  font-weight: 500;
+  border: 1px solid #277881 !important;
+}
+
+.service-item-selected {
+  background: radial-gradient(circle at center, white, #2e909bb5) !important;
+  border-radius: 15px;
+  font-weight: 500;
+  border: 3px solid #277881 !important;
+  color: black !important;
 }
