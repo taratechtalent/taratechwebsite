@@ -68,7 +68,7 @@ export default function Menu() {
               <Link href="/team">Leadership team</Link>
             </li>
             <li>
-              <Link href="/toptalent">Top 5% talent</Link>
+              <Link href="/toptalent">Top 1% talent</Link>
             </li>
             <li>
               <Link href="/contact">Contact Us</Link>

@@ -32,10 +32,10 @@ export default function TopTalent() {
                 <div className="col-md-6">
                   <div className="txt-block right-column wow fadeInLeft">
                     {/* Section ID */}
-                    <span className="section-id">Top 5%</span>
+                    <span className="section-id">Top 1%</span>
                     {/* Title */}
                     <h2 className="s-50 w-700">
-                      How We hire the Top <b style={{ color: "#04626d" }}>5%</b>{" "}
+                      How We hire the Top <b style={{ color: "#04626d" }}>1%</b>{" "}
                       of Tech Experts
                     </h2>
                     {/* Text */}
@@ -473,7 +473,7 @@ export default function TopTalent() {
                     {/* Title */}
                     <h2 className="s-52 w-700">
                       {" "}
-                      The <span style={{ color: "#04626d" }}>top 5%</span>{" "}
+                      The <span style={{ color: "#04626d" }}>top 1%</span>{" "}
                       fields of work{" "}
                     </h2>
                     {/* Text */}
