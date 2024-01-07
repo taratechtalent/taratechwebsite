@@ -95,7 +95,7 @@ export default function Team() {
                         <h6 className="s-20 color--black w-700">
                           Naser Derakhshan
                         </h6>
-                        <p className="color--grey">Devops Consultant</p>
+                        <p className="color--grey">Member of the borard</p>
                         {/* Social Links */}
                         <ul className="tm-social ico-20 clearfix">
                           <li>

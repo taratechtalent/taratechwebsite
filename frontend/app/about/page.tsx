@@ -15,10 +15,7 @@ export default function About() {
         <div>
           {/* ABOUT-2
 			============================================= */}
-          <section
-            id="about-2"
-            className="rel inner-page-hero about-section division"
-          >
+          <section id="about-2" className="rel  about-section division !pt-40">
             {/* ABOUT-2 TITLE */}
             <div className="container">
               <div className="row">

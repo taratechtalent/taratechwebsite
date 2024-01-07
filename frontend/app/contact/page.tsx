@@ -26,7 +26,7 @@ export default function Contact() {
                         </h2>
                         {/* Text */}
                       </div>
-                    </div>{" "}
+                    </div>
                     {/* END TEXT BLOCK */}
                     {/* IMAGE BLOCK */}
                     <div className="col-md-6 order-first order-md-2">
@@ -38,15 +38,15 @@ export default function Contact() {
                         />
                       </div>
                     </div>
-                  </div>{" "}
+                  </div>
                   {/* End row */}
-                </div>{" "}
+                </div>
                 {/* End section overlay */}
-              </div>{" "}
+              </div>
               {/* End content wrapper */}
-            </div>{" "}
+            </div>
             {/* End container */}
-          </section>{" "}
+          </section>
           <section
             id="contacts-1"
             className="pb-50 inner-page-hero contacts-section division"
@@ -122,11 +122,11 @@ export default function Contact() {
                     </form>
                   </div>
                 </div>
-              </div>{" "}
+              </div>
               {/* END CONTACT FORM */}
-            </div>{" "}
+            </div>
             {/* End container */}
-          </section>{" "}
+          </section>
           {/* END CONTACTS-1 */}
           {/* DIVIDER LINE */}
           <hr className="divider" />
@@ -147,7 +147,7 @@ export default function Contact() {
                         className="btn  btn--theme hover--tra-white  w-28"
                       >
                         Book a Discovery Call
-                      </Link>{" "}
+                      </Link>
                     </div>
                   </div>
                   <div className="col-md-4">
@@ -159,10 +159,10 @@ export default function Contact() {
                       />
                     </div>
                   </div>
-                </div>{" "}
-              </div>{" "}
-            </div>{" "}
-          </section>{" "}
+                </div>
+              </div>
+            </div>
+          </section>
           <hr className="divider" />
           <section className="pt-100 ct-02 content-section division mb-40">
             <div className="container">
@@ -190,8 +190,8 @@ export default function Contact() {
                     {/* Section ID */}
 
                     {/* Title */}
-                    <h2 className="s-40 w-700 ">Turkey</h2>
-                    <span className="s-20 w-700">Stanbul</span>
+                    <h2 className="s-34 w-700 ">Headquarter office</h2>
+                    <span className="s-20 w-700">Stanbul, Turkey</span>
                     {/* Text */}
                     <p>
                       No.61.2, Sultan Selim Mahallesi Eski Buyukdere Caddesi
@@ -199,9 +199,9 @@ export default function Contact() {
                     </p>
                     {/* Text */}
                   </div>
-                </div>{" "}
+                </div>
                 {/* END TEXT BLOCK */}
-              </div>{" "}
+              </div>
               <div className="row d-flex align-items-center mt-20">
                 {/* IMAGE BLOCK */}
                 <div className="col-md-6">
@@ -219,8 +219,10 @@ export default function Contact() {
                     {/* Section ID */}
 
                     {/* Title */}
-                    <h2 className="s-40 w-700 ">Itlaly</h2>
-                    <span className="s-20 w-700">Sirtori, Lombardy</span>
+                    <h2 className="s-34 w-700 ">Financial section</h2>
+                    <span className="s-20 w-700">
+                      Sirtori, Lombardy , Itlaly
+                    </span>
                     {/* Text */}
                     <p>
                       No.42.3, Vittorio Veneto Quartiere Antica Strada Romana,
@@ -228,13 +230,42 @@ export default function Contact() {
                     </p>
                     {/* Text */}
                   </div>
-                </div>{" "}
+                </div>
+
                 {/* END TEXT BLOCK */}
-              </div>{" "}
+              </div>
+
+              <div className="row d-flex align-items-center mt-20">
+                {/* IMAGE BLOCK */}
+                <div className="col-md-6">
+                  <div className="img-block left-column wow fadeInRight">
+                    <img
+                      className="img-fluid rounded-md"
+                      src="/images/dubai.jpg"
+                      alt="content-image"
+                    />
+                  </div>
+                </div>
+                {/* TEXT BLOCK */}
+                <div className="col-md-6">
+                  <div className="txt-block right-column wow fadeInLeft">
+                    {/* Section ID */}
+
+                    {/* Title */}
+                    <h2 className="s-34 w-700 ">Main branch</h2>
+                    <span className="s-20 w-700">Dubai, UAE</span>
+                    {/* Text */}
+                    <p>No. 23, Al Safa Street, Al {`Bada'a`}, Dubai, UAE.</p>
+                    {/* Text */}
+                  </div>
+                </div>
+
+                {/* END TEXT BLOCK */}
+              </div>
               {/* END SECTION CONTENT (ROW) */}
-            </div>{" "}
+            </div>
             {/* End container */}
-          </section>{" "}
+          </section>
           <hr className="divider" />
         </div>
       </Layout>

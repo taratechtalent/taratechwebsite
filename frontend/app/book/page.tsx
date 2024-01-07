@@ -120,13 +120,28 @@ export default function Book() {
                                       </div>{" "}
                                       <div className="col-md-12">
                                         <p className="p-sm input-header">
-                                          Phone
+                                          Company Name:
                                         </p>
                                         <input
                                           className="form-control text"
-                                          type="phone"
-                                          name="phone"
-                                          placeholder="A phone number to can call you"
+                                          type="text"
+                                          name="text"
+                                          placeholder=""
+                                          value={phone}
+                                          onChange={(e) =>
+                                            setPhone(e.target.value)
+                                          }
+                                        />
+                                      </div>
+                                      <div className="col-md-12">
+                                        <p className="p-sm input-header">
+                                          Position:
+                                        </p>
+                                        <input
+                                          className="form-control text"
+                                          type="text"
+                                          name="text"
+                                          placeholder=""
                                           value={phone}
                                           onChange={(e) =>
                                             setPhone(e.target.value)
