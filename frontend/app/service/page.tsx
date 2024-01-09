@@ -38,8 +38,8 @@ export default function Help() {
       >
         <div>
           <ServiceComponent
-            title={"Our unique solutions"}
-            desc="Best solutions for your bussiness with amazing talent"
+            title={"Exclusive, Cutting-Edge Services"}
+            desc="Unique, advanced solutions crafted by experts for your specific needs."
             image="/images/services/allservices.webp"
           />
         </div>
