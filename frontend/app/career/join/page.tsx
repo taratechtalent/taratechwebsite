@@ -3,6 +3,7 @@
 import { useState } from "react";
 import Layout from "../../components/layout/Layout";
 import Link from "next/link";
+import Resume from "./resume";
 export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -155,28 +156,8 @@ export default function Contact() {
                       </div>
                       <div className="col-md-12">
                         <p className="p-lg">Your Resume: </p>
-                        <span></span>
-                        <div className="file-upload-wrapper">
-                          <input
-                            type="file"
-                            id="file-upload"
-                            className="file-upload-input"
-                          />
-                          <label
-                            for="file-upload"
-                            className="file-upload-label"
-                          >
-                            Please select your resume for upload
-                          </label>
-                        </div>
-                        {/* <input
-                          type="file"
-                          name="email"
-                          className="form-control email"
-                          placeholder="Email Address*"
-                          value={email}
-                          onChange={(e) => setEmail(e.target.value)}
-                        /> */}
+
+                        <Resume />
                       </div>
                       <div className="col-md-12">
                         <p className="p-lg">Tell us more if you want</p>
@@ -206,7 +187,7 @@ export default function Contact() {
                                 <span className="sr-only"></span>
                               </div>
                             )}
-                            Submit Request
+                            Register In our Talent Network
                           </div>
                         </button>
                       </div>
