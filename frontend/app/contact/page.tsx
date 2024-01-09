@@ -9,6 +9,7 @@ export default function Contact() {
   const [description, setMessage] = useState("");
   const [showAlert, setShowAlert] = useState(false);
   const [showError, setShowError] = useState(false);
+  const [loading, setLoading] = useState(false);
   const [errorMessage, setErrorMessage] = useState(false);
   const sendRequest = () => {
     setShowAlert(false);
@@ -19,6 +20,7 @@ export default function Contact() {
       email,
       description,
     };
+    setLoading(true);
 
     fetch(`${process.env.NEXT_PUBLIC_API_URL}contactus`, {
       method: "post",
@@ -41,6 +43,9 @@ export default function Contact() {
         setShowError(true);
         debugger;
         setErrorMessage(error.message);
+      })
+      .finally(() => {
+        setLoading(false);
       });
   };
   return (
@@ -156,10 +161,20 @@ export default function Contact() {
                       <div className="col-md-12 mt-15 form-btn text-right">
                         <button
                           type="button"
-                          className="btn btn--theme hover--theme submit"
+                          className="btn btn--theme hover--theme submit "
                           onClick={sendRequest}
                         >
-                          Submit Request
+                          <div className="flex items-center">
+                            {loading && (
+                              <div
+                                className="spinner-grow spinner-grow-sm !mr-6"
+                                role="status"
+                              >
+                                <span className="sr-only"></span>
+                              </div>
+                            )}
+                            Submit Request
+                          </div>
                         </button>
                       </div>
                       {showAlert && (
