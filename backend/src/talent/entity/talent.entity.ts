@@ -18,6 +18,12 @@ export class TalentEntity {
   email: string;
 
   @Column({ type: 'varchar' })
+  linkedIn: string;
+
+  @Column({ type: 'varchar' })
+  description: string;
+
+  @Column({ type: 'varchar' })
   status: string;
 
   @CreateDateColumn({ type: 'timestamptz', default: () => 'CURRENT_TIMESTAMP' })

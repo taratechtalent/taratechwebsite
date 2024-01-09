@@ -8,6 +8,7 @@ export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [linkedIn, setLinkedIn] = useState("");
+  const [resumeFile, setResumeFile] = useState(null);
   const [description, setMessage] = useState("");
   const [showAlert, setShowAlert] = useState(false);
   const [showError, setShowError] = useState(false);
@@ -21,10 +22,11 @@ export default function Contact() {
       name,
       email,
       description,
+      linkedIn,
     };
     setLoading(true);
 
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}contactus`, {
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}talent`, {
       method: "post",
       headers: {
         "Content-Type": "application/json",
@@ -40,6 +42,7 @@ export default function Contact() {
         setEmail("");
         setName("");
         setMessage("");
+        setLinkedIn("");
       })
       .catch((error) => {
         setShowError(true);
@@ -80,7 +83,7 @@ export default function Contact() {
                       <div className="img-block right-column wow fadeInLeft">
                         <img
                           className="img-fluid   rounded-lg"
-                          src="/images/a2-1.jpg"
+                          src="/images/talentJoin.png"
                           alt="content-image"
                         />
                       </div>
@@ -157,7 +160,10 @@ export default function Contact() {
                       <div className="col-md-12">
                         <p className="p-lg">Your Resume: </p>
 
-                        <Resume />
+                        <Resume
+                          resumeFile={resumeFile}
+                          setResumeFile={setResumeFile}
+                        />
                       </div>
                       <div className="col-md-12">
                         <p className="p-lg">Tell us more if you want</p>
@@ -199,7 +205,7 @@ export default function Contact() {
                             }  `}
                             role="alert"
                           >
-                            Thank you for your comments, we wil call you soon
+                            Registration Done! we will call you ASAP
                           </div>
                         </div>
                       )}

@@ -1,16 +1,9 @@
 "use client";
 import React, { useState } from "react";
 
-export default function Resume() {
-  const [fileName, setFileName] = useState("");
-
+export default function Resume({ resumeFile, setResumeFile }: any) {
   const handleFileChange = (event: any) => {
-    const file = event.target.files[0];
-    if (file) {
-      setFileName(file.name);
-    } else {
-      setFileName("");
-    }
+    setResumeFile(event.target.files[0]);
   };
 
   return (
@@ -22,7 +15,7 @@ export default function Resume() {
         onChange={handleFileChange}
       />
       <label htmlFor="file-upload" className="file-upload-label">
-        {fileName || "  Please select your resume for upload"}
+        {resumeFile?.name || "  Please select your resume for upload"}
       </label>
     </div>
   );
