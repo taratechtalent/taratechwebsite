@@ -1,7 +1,15 @@
 /* eslint-disable @next/next/no-img-element */
 import Link from "next/link";
 
-const ServiceContactComponent = () => (
+const ServiceContactComponent = ({
+  title = "Join Us in Crafting a Partnership Where Success Knows No Bounds",
+  desc = "Your unique perspective and talents are the missing pieces to our collective success story.",
+  btnLabel = "Team up for success",
+}: {
+  title?: string;
+  desc?: string;
+  btnLabel?: string;
+}) => (
   <section id="banner-12" className="banner-section">
     <div className="container">
       {/* BANNER-12 WRAPPER */}
@@ -12,21 +20,15 @@ const ServiceContactComponent = () => (
             <div className="col-md-7">
               <div className="banner-12-txt color--white">
                 {/* Title */}
-                <h2 className="s-35 w-700">
-                  Join Us in Crafting a Partnership Where Success Knows No
-                  Bounds
-                </h2>
+                <h2 className="s-35 w-700">{title}</h2>
                 {/* Text */}
-                <p className="p-lg">
-                  Your unique perspective and talents are the missing pieces to
-                  our collective success story.
-                </p>
+                <p className="p-lg">{desc}</p>
                 {/* Button */}
                 <Link
                   href="/book"
                   className="btn r-04 btn--theme hover--tra-white"
                 >
-                  Team up for success
+                  {btnLabel}
                 </Link>
               </div>
             </div>{" "}

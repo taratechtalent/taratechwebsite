@@ -284,7 +284,10 @@ export default function Help() {
           </div>{" "}
           {/* End container */}
         </section>
-        <ServiceContactComponent />
+        <ServiceContactComponent
+          title="Come Along and Let's Build a Team Where Achievements Are Limitless!"
+          desc="Your distinct skills and viewpoints are the essential elements we need to complete our shared journey of achievement."
+        />
       </Layout>
     </>
   );
