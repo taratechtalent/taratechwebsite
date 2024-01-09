@@ -31,11 +31,6 @@ export default function Footer() {
                 <ul className="foo-links clearfix">
                   <li>
                     <p>
-                      <Link href="/help">Help</Link>
-                    </p>
-                  </li>
-                  <li>
-                    <p>
                       <Link href="/team">Team</Link>
                     </p>
                   </li>

@@ -13690,3 +13690,18 @@ html {
   border: 3px solid #277881 !important;
   color: black !important;
 }
+
+
+.fadeDiv {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+  height: 100px;
+  margin-top: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fadeDiv.show {
+  opacity: 1;
+}

@@ -1,7 +1,48 @@
 /* eslint-disable @next/next/no-img-element */
+"use client";
+import { useState } from "react";
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
 export default function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [description, setMessage] = useState("");
+  const [showAlert, setShowAlert] = useState(false);
+  const [showError, setShowError] = useState(false);
+  const [errorMessage, setErrorMessage] = useState(false);
+  const sendRequest = () => {
+    setShowAlert(false);
+    setShowError(false);
+
+    const data = {
+      name,
+      email,
+      description,
+    };
+
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}contactus`, {
+      method: "post",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    })
+      .then((response) => {
+        debugger;
+        if (!response.ok) {
+          throw new Error("Sorry, we could not save your request");
+        }
+        setShowAlert(true);
+        setEmail("");
+        setName("");
+        setMessage("");
+      })
+      .catch((error) => {
+        setShowError(true);
+        debugger;
+        setErrorMessage(error.message);
+      });
+  };
   return (
     <>
       <Layout
@@ -81,6 +122,8 @@ export default function Contact() {
                           name="name"
                           className="form-control name"
                           placeholder="Your Name*"
+                          value={name}
+                          onChange={(e) => setName(e.target.value)}
                         />
                       </div>
                       <div className="col-md-12">
@@ -93,6 +136,8 @@ export default function Contact() {
                           name="email"
                           className="form-control email"
                           placeholder="Email Address*"
+                          value={email}
+                          onChange={(e) => setEmail(e.target.value)}
                         />
                       </div>
                       <div className="col-md-12">
@@ -103,22 +148,43 @@ export default function Contact() {
                           name="message"
                           rows={6}
                           placeholder="I wonder ..."
+                          value={description}
+                          onChange={(e) => setMessage(e.target.value)}
                         />
                       </div>
                       {/* Contact Form Button */}
                       <div className="col-md-12 mt-15 form-btn text-right">
                         <button
-                          type="submit"
+                          type="button"
                           className="btn btn--theme hover--theme submit"
+                          onClick={sendRequest}
                         >
                           Submit Request
                         </button>
                       </div>
+                      {showAlert && (
+                        <div className={`col-lg-12 contact-form-msg } `}>
+                          <div
+                            className={`alert alert-success text-center fadeDiv ${
+                              showAlert ? "show" : ""
+                            }  `}
+                            role="alert"
+                          >
+                            Thank you for your comments, we wil call you soon
+                          </div>
+                        </div>
+                      )}
 
-                      {/* Contact Form Message */}
-                      <div className="col-lg-12 contact-form-msg">
-                        <span className="loading" />
-                      </div>
+                      {showError && (
+                        <div className={`col-lg-12 contact-form-msg } `}>
+                          <div
+                            className={`alert alert-danger text-center`}
+                            role="alert"
+                          >
+                            {errorMessage}
+                          </div>
+                        </div>
+                      )}
                     </form>
                   </div>
                 </div>
