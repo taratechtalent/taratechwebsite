@@ -13,7 +13,7 @@ import "/public/css/responsive.css";
 
 export const metadata: Metadata = {
   title: "Taratech talent",
-  description: "Affordable Senior Talents",
+  description: "Affordable Senior Talents for startups",
 };
 
 export default function RootLayout({
