@@ -21,7 +21,7 @@ export default function Hero() {
                 {/* Title */}
                 <h2 className="s-56 w-700 color--black">
                   Affordable <span className="main-text">Senior Talents</span>{" "}
-                  
+                  for startups
                 </h2>
                 {/* Text */}
                 <p className="p-lg">

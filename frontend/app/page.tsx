@@ -244,15 +244,15 @@ const Services = () => {
           <div className="col-md-5">
             <div className="txt-block left-column wow fadeInRight">
               {/* Section ID */}
-              <span className="section-id">Amazing Solution</span>
+              <span className="section-id">Expert Solutions</span>
               {/* Title */}
               <h2 className="s-46 w-700">
-                Amazing Service with Amazing Talents
+                Excellence in Every Service: Your Gateway to Expert Talent
               </h2>
               {/* Text */}
               <p>
-                we offer amazing talent for various types of services that cover
-                most of your needs
+                Discover a world of premium services, expertly delivered by our
+                diverse and skilled professional team.
               </p>
               {/* List */}
               {/* <ul className="simple-list">
@@ -294,8 +294,8 @@ const Services = () => {
                     <div className="fbox-txt">
                       <h5 className="s-20 w-700">Web App Development</h5>
                       <p>
-                        Porta semper lacus and cursus feugiat at primis ultrice
-                        a ligula auctor
+                        Creating custom, user-friendly web apps to bring your
+                        innovative ideas to life.
                       </p>
                     </div>
                   </div>
@@ -315,8 +315,8 @@ const Services = () => {
                     <div className="fbox-txt">
                       <h5 className="s-20 w-700">Mobile App Development</h5>
                       <p>
-                        Porta semper lacus and cursus feugiat at primis ultrice
-                        a ligula auctor
+                        Crafting sleek, efficient mobile apps to connect and
+                        engage with users on-the-go
                       </p>
                     </div>
                   </div>
@@ -338,8 +338,8 @@ const Services = () => {
                     <div className="fbox-txt">
                       <h5 className="s-20 w-700">UI/UX Design</h5>
                       <p>
-                        Porta semper lacus and cursus feugiat at primis ultrice
-                        a ligula auctor
+                        Designing intuitive and visually stunning UI/UX to
+                        elevate your {`user's`} digital experience.
                       </p>
                     </div>
                   </div>
@@ -359,8 +359,8 @@ const Services = () => {
                     <div className="fbox-txt">
                       <h5 className="s-20 w-700">AI/Machine Learning</h5>
                       <p>
-                        Porta semper lacus and cursus feugiat at primis ultrice
-                        a ligula auctor
+                        Empowering innovation with cutting-edge AI and Machine
+                        Learning solutions tailored for you
                       </p>
                     </div>
                   </div>
@@ -391,8 +391,8 @@ const Services = () => {
               <div className="fbox-txt">
                 <h5 className="s-20 w-700">Devops</h5>
                 <p>
-                  Porta semper lacus and cursus feugiat at primis ultrice a
-                  ligula auctor
+                  Streamlining and optimizing your operations with robust,
+                  efficient DevOps services.
                 </p>
               </div>
             </div>
@@ -416,8 +416,8 @@ const Services = () => {
               <div className="fbox-txt">
                 <h5 className="s-20 w-700">Digital Arts</h5>
                 <p>
-                  Porta semper lacus and cursus feugiat at primis ultrice a
-                  ligula auctor
+                  Bringing creativity to life with unique, captivating digital
+                  arts and design
                 </p>
               </div>
             </div>
@@ -441,8 +441,8 @@ const Services = () => {
               <div className="fbox-txt">
                 <h5 className="s-20 w-700">Software testing & QA</h5>
                 <p>
-                  Porta semper lacus and cursus feugiat at primis ultrice a
-                  ligula auctor
+                  Ensuring excellence with thorough software testing and quality
+                  assurance for reliability.
                 </p>
               </div>
             </div>
