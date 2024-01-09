@@ -38,6 +38,12 @@ export default function Career() {
                         shape your future while transforming the world around
                         you.
                       </p>
+                      <Link
+                        href="/career/join"
+                        className="btn r-04 btn--theme hover--theme last-link ml-20"
+                      >
+                        Join to our Talent network
+                      </Link>
                     </div>
                   </div>{" "}
                   {/* END TEXT BLOCK */}
