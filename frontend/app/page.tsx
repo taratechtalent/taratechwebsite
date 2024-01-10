@@ -45,7 +45,7 @@ const Introduction = () => {
               <p className="p-lg">
                 The idea for TaraTalent company emerged from a clear market
                 reality: a significant demand for skilled tech professionals
-                alongside a need for cost-effective staffing solutions. We're
+                alongside a need for cost-effective staffing solutions. {`We're`}
                 here to bridge that gap, creating connections that empower
                 businesses with the right talent to drive innovation and growth
               </p>
@@ -487,10 +487,10 @@ const UniqueApproach = () => {
               {/* Text */}
               <ul className="ml-10">
                 <li>
-                  We're committed to continuous growth and support for our
+                  {`We're`} committed to continuous growth and support for our
                   talents, ensuring they meet your evolving technical demands.
                   With us, you gain not just a service provider, but a strategic
-                  partner dedicated to your company's growth, innovation, and
+                  partner dedicated to your {`company's`} growth, innovation, and
                   cost-effective staffing solutions.
                 </li>
               </ul>
@@ -566,7 +566,7 @@ const OurProcess = () => {
                   Develop Your Custom Plan
                   </h5>
                   <p>
-                  We work with you to formulate a specialized team structure that matches your project's goals, ensuring high efficiency and adaptability.
+                  We work with you to formulate a specialized team structure that matches your {`project's`} goals, ensuring high efficiency and adaptability.
                   </p>
                 </div>
               </div>{" "}
@@ -584,7 +584,7 @@ const OurProcess = () => {
                   Begin and Monitor with Clarity
                   </h5>
                   <p className="mb-0">
-                  Start your project under our guidance, with access to clear tracking systems that provide ongoing updates on your team's progress and achievements.
+                  Start your project under our guidance, with access to clear tracking systems that provide ongoing updates on your {`team's`} progress and achievements.
                   </p>
                 </div>
               </div>

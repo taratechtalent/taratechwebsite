@@ -72,9 +72,9 @@ export default function Features() {
                   <div className="fbox-txt">
                     <h6 className="s-22 w-700">Flexible Engagement</h6>
                     <p>
-                      Adapt to your project's changing needs with our flexible
+                      Adapt to your {`project's`} changing needs with our flexible
                       engagement model. Scale your team up or down effortlessly,
-                      with contract terms that prioritize your company's dynamic
+                      with contract terms that prioritize your {`company's`} dynamic
                       requirements.
                     </p>
                   </div>
@@ -103,7 +103,7 @@ export default function Features() {
                     <p>
                       Benefit from ongoing technical support and talent
                       development. Our commitment to continuous growth means the
-                      talent you hire today will evolve to meet tomorrow's
+                      talent you hire today will evolve to meet {`tomorrow's`}
                       challenges, adding lasting value to your projects.{" "}
                     </p>
                   </div>
