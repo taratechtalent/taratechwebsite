@@ -12,10 +12,10 @@ export default function Features() {
             <div className="col-md-10 col-lg-9">
               <div className="section-title mb-70">
                 {/* Title */}
-                <h2 className="s-50 w-700">Benefits of working with us</h2>
+                <h2 className="s-50 w-700">Partnership Benefits</h2>
                 {/* Text */}
                 <p className="s-21 color--grey">
-                  Ligula risus auctor tempus magna feugiat lacinia.
+                  Enhancing Your Business Journey with Tailored Solutions.
                 </p>
               </div>
             </div>
@@ -41,10 +41,70 @@ export default function Features() {
                   </div>
                   {/* Text */}
                   <div className="fbox-txt">
-                    <h6 className="s-22 w-700">Cross-Platform</h6>
+                    <h6 className="s-22 w-700">Cost-Effective Expertise</h6>
                     <p>
-                      Luctus egestas augue undo ultrice aliquam in lacus congue
-                      dapibus
+                      Access highly skilled tech professionals at rates that
+                      significantly reduce your staffing costs.Our strategic
+                      location advantage translates into affordable solutions
+                      without compromising on quality.
+                    </p>
+                  </div>
+                </div>
+              </div>{" "}
+              {/* END FEATURE BOX #1 */}
+              {/* FEATURE BOX #1 */}
+              <div className="col">
+                <div className="fbox-2 fb-1 wow fadeInUp">
+                  {/* Image */}
+                  <div className="fbox-img gr--whitesmoke h-175">
+                    <img
+                      className="img-fluid light-theme-img"
+                      src="/images/f_01.png"
+                      alt="feature-image"
+                    />
+                    <img
+                      className="img-fluid dark-theme-img"
+                      src="/images/f_01_dark.png"
+                      alt="feature-image"
+                    />
+                  </div>
+                  {/* Text */}
+                  <div className="fbox-txt">
+                    <h6 className="s-22 w-700">Flexible Engagement</h6>
+                    <p>
+                      Adapt to your project's changing needs with our flexible
+                      engagement model. Scale your team up or down effortlessly,
+                      with contract terms that prioritize your company's dynamic
+                      requirements.
+                    </p>
+                  </div>
+                </div>
+              </div>{" "}
+              {/* END FEATURE BOX #1 */}
+              {/* FEATURE BOX #1 */}
+              <div className="col">
+                <div className="fbox-2 fb-1 wow fadeInUp">
+                  {/* Image */}
+                  <div className="fbox-img gr--whitesmoke h-175">
+                    <img
+                      className="img-fluid light-theme-img"
+                      src="/images/f_01.png"
+                      alt="feature-image"
+                    />
+                    <img
+                      className="img-fluid dark-theme-img"
+                      src="/images/f_01_dark.png"
+                      alt="feature-image"
+                    />
+                  </div>
+                  {/* Text */}
+                  <div className="fbox-txt">
+                    <h6 className="s-22 w-700">Continuous Support</h6>
+                    <p>
+                      Benefit from ongoing technical support and talent
+                      development. Our commitment to continuous growth means the
+                      talent you hire today will evolve to meet tomorrow's
+                      challenges, adding lasting value to your projects.{" "}
                     </p>
                   </div>
                 </div>
@@ -68,10 +128,11 @@ export default function Features() {
                   </div>
                   {/* Text */}
                   <div className="fbox-txt">
-                    <h6 className="s-22 w-700">Effortless Integration</h6>
+                    <h6 className="s-22 w-700">Hassle-Free Collaboration</h6>
                     <p>
-                      Tempor laoreet augue undo ultrice aliquam in lacusq luctus
-                      feugiat
+                      Experience the ease of working with us, from streamlined
+                      hiring processes to efficient project management, ensuring
+                      a smooth, stress-free partnership.
                     </p>
                   </div>
                 </div>
@@ -95,10 +156,12 @@ export default function Features() {
                   </div>
                   {/* Text */}
                   <div className="fbox-txt">
-                    <h6 className="s-22 w-700">Engagement Analytics</h6>
+                    <h6 className="s-22 w-700">Seamless Integration</h6>
                     <p>
-                      Egestas luctus augue undo ultrice aliquam in lacus feugiat
-                      cursus
+                      Enjoy smooth collaboration with a remote workforce that
+                      aligns with your timezone. Our professionals are adept at
+                      integrating into diverse work environments, ensuring
+                      efficient and cohesive teamwork
                     </p>
                   </div>
                 </div>

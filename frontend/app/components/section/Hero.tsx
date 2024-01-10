@@ -25,9 +25,10 @@ export default function Hero() {
                 </h2>
                 {/* Text */}
                 <p className="p-lg">
-                  Tempor sapien sodales quaerat ipsum congue ipsum laoreet
-                  turpis neque auctor turpis a vitae dolor luctus placerat magna
-                  and ligula cursus purus ipsum
+                  elevates your business with experienced tech professionals who
+                  offer the perfect blend of quality and cost-efficiency.
+                  Partner with us to harness global expertise that fits your
+                  startup budget and fuels your growth
                 </p>
                 {/* HERO DIGITS */}
                 <div className="hero-digits row">

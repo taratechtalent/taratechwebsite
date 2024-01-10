@@ -43,12 +43,11 @@ const Introduction = () => {
               <h2 className="s-50 w-700">Amin Derakhshan</h2>
               {/* Text */}
               <p className="p-lg">
-                Sodales tempor sapien diam purus ipsum quaerat and volute fusce
-                a congue laoreet turpis neque diam auctor turpis vitae dolor
-                magna luctus placerat neque ipsum fusce cursus ligula cursus
-                purus vitae purus and ipsum suscipit. Nemo ipsam cubilia donec
-                turpis undo egestas ipsum a purus sapien ultrice aliquam lacus
-                and quaerat an ipsum augue turpis sapien cursus congue augue
+                The idea for TaraTalent company emerged from a clear market
+                reality: a significant demand for skilled tech professionals
+                alongside a need for cost-effective staffing solutions. We're
+                here to bridge that gap, creating connections that empower
+                businesses with the right talent to drive innovation and growth
               </p>
             </div>
           </div>
@@ -478,16 +477,21 @@ const UniqueApproach = () => {
               <h2 className="s-50 w-700">Our Unique Approach</h2>
               {/* Text */}
               <p>
-                Sodales tempor sapien quaerat ipsum undo congue laoreet turpis
-                neque auctor turpis vitae dolor luctus placerat magna and ligula
-                cursus purus vitae purus an ipsum suscipit
+                At TaraTalent , we specialize in connecting top-tier, affordable
+                tech talent cost-with businesses worldwide, particularly
+                startups. Our flexible engagement model, tailored for the
+                dynamic needs of modern companies, includes hassle-free contract
+                management and full alignment with your time zones, ensuring
+                seamless integration of remote workforce.
               </p>
               {/* Text */}
               <ul className="ml-10">
                 <li>
-                  Sodales tempor sapien quaerat ipsum undo congue laoreet turpis
-                  neque auctor turpis vitae dolor luctus placerat magna and
-                  ligula cursus purus vitae purus an ipsum suscipit
+                  We're committed to continuous growth and support for our
+                  talents, ensuring they meet your evolving technical demands.
+                  With us, you gain not just a service provider, but a strategic
+                  partner dedicated to your company's growth, innovation, and
+                  cost-effective staffing solutions.
                 </li>
               </ul>
             </div>
@@ -515,8 +519,8 @@ const OurProcess = () => {
           <div className="col-md-6 order-last  order-md-2">
             <div className="row">
               <div className="col-sm-12">
-                <h5 className="s-54 w-700">Our process:</h5>
-                <h5 className="s-36 w-700">simple, smooth, systematic</h5>
+                <h5 className="s-54 w-700">Our Method:</h5>
+                <h5 className="s-30 w-700">Precise,Proactive,Productive</h5>
               </div>
             </div>
             <div className="row">
@@ -543,12 +547,9 @@ const OurProcess = () => {
                 </div>
                 {/* Text */}
                 <div className="cbox-2-txt">
-                  <h5 className="s-22 w-700">Join exploration call</h5>
+                  <h5 className="s-22 w-700">Set Up a Strategic Meeting</h5>
                   <p>
-                    Ligula risus auctor tempus feugiat dolor lacinia nemo purus
-                    in lipsum purus sapien quaerat a primis viverra tellus vitae
-                    luctus dolor ipsum neque ligula quaerat
-                  </p>
+                  Engage in an in-depth consultation to outline your technical needs and plan the integration with our expert developers.                  </p>
                 </div>
               </div>{" "}
               {/* END CONTENT BOX #1 */}
@@ -562,12 +563,10 @@ const OurProcess = () => {
                 {/* Text */}
                 <div className="cbox-2-txt">
                   <h5 className="s-22 w-700">
-                    Discuss solution and team structure
+                  Develop Your Custom Plan
                   </h5>
                   <p>
-                    Ligula risus auctor tempus feugiat dolor lacinia nemo purus
-                    in lipsum purus sapien quaerat a primis viverra tellus vitae
-                    luctus dolor ipsum neque ligula quaerat
+                  We work with you to formulate a specialized team structure that matches your project's goals, ensuring high efficiency and adaptability.
                   </p>
                 </div>
               </div>{" "}
@@ -582,12 +581,10 @@ const OurProcess = () => {
                 {/* Text */}
                 <div className="cbox-2-txt">
                   <h5 className="s-22 w-700">
-                    Get started and track performance
+                  Begin and Monitor with Clarity
                   </h5>
                   <p className="mb-0">
-                    Ligula risus auctor tempus feugiat dolor lacinia nemo purus
-                    in lipsum purus sapien quaerat a primis viverra tellus vitae
-                    luctus dolor ipsum n eque ligula quaerat
+                  Start your project under our guidance, with access to clear tracking systems that provide ongoing updates on your team's progress and achievements.
                   </p>
                 </div>
               </div>
