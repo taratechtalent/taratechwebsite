@@ -35,7 +35,7 @@ export default function TopTalent() {
                     <span className="section-id">Top 1%</span>
                     {/* Title */}
                     <h2 className="s-50 w-700">
-                    Crafting Excellence: Our Strategy for  <b style={{ color: "#04626d" }}> Top 1%</b>{" "}
+                    Crafting Excellence: Our Journey in Selecting the <b style={{ color: "#37939b" }}> Top 1%</b>{" "}
                     Tech Talent
                     </h2>
                     {/* Text */}
@@ -453,7 +453,7 @@ export default function TopTalent() {
                     {/* Title */}
                     <h2 className="s-52 w-700">
                       {" "}
-                      Our <span style={{ color: "#04626d" }}>Top 1%</span>{" "}
+                      Our <span style={{ color: "#37939b" }}>Top 1%</span>{" "}
                       Talent in Action{" "}
                     </h2>
                     {/* Text */}
