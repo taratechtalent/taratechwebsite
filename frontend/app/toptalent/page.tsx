@@ -35,23 +35,17 @@ export default function TopTalent() {
                     <span className="section-id">Top 1%</span>
                     {/* Title */}
                     <h2 className="s-50 w-700">
-                      How We hire the Top <b style={{ color: "#04626d" }}>1%</b>{" "}
-                      of Tech Experts
+                    Crafting Excellence: Our Strategy for  <b style={{ color: "#04626d" }}> Top 1%</b>{" "}
+                    Tech Talent
                     </h2>
                     {/* Text */}
                     <p>
-                      Sodales tempor sapien quaerat ipsum undo congue laoreet
-                      turpis neque auctor turpis vitae dolor luctus placerat
-                      magna and ligula cursus purus vitae purus an ipsum
-                      suscipit
+                    At TaraTalent, we're committed to an unparalleled standard of excellence in every hire. Our Top 1% Talent Strategy is centered around a comprehensive and thorough selection process. We meticulously identify and collaborate with only the most skilled and passionate professionals from around the world.
                     </p>
                     {/* Text */}
                     <ul className="ml-10">
                       <li>
-                        Sodales tempor sapien quaerat ipsum undo congue laoreet
-                        turpis neque auctor turpis vitae dolor luctus placerat
-                        magna and ligula cursus purus vitae purus an ipsum
-                        suscipit
+                      This rigorous approach ensures that our team consists of domain experts who bring both expertise and enthusiasm to every project, aligning with our high standards of quality and innovation which perfectly matches the needs of startups.
                       </li>
                     </ul>
                   </div>
@@ -73,7 +67,10 @@ export default function TopTalent() {
                   </div>
                   {/* Text */}
                   <div className="cbox-2-txt">
-                    <h5 className="s-36 w-700">English Test</h5>
+                    <h5 className="s-30 w-700"> Language and Personality Evaluation</h5>
+                    <p>
+                    Assessing English proficiency and personality traits to ensure candidates are articulate, passionate, and fully committed.
+                    </p>
                   </div>
                 </div>{" "}
                 {/* END CONTENT BOX #2 */}
@@ -85,7 +82,10 @@ export default function TopTalent() {
                   </div>
                   {/* Text */}
                   <div className="cbox-2-txt">
-                    <h5 className="s-36 w-700">HR Interview</h5>
+                    <h5 className="s-30 w-700">Technical Expertise Assessment</h5>
+                    <p>
+                    Evaluating technical knowledge and problem-solving skills through various assessments to identify domain experts.
+                    </p>
                   </div>
                 </div>{" "}
                 {/* END CONTENT BOX #2 */}
@@ -97,7 +97,10 @@ export default function TopTalent() {
                   </div>
                   {/* Text */}
                   <div className="cbox-2-txt">
-                    <h5 className="s-36 w-700">Technical Interview</h5>
+                    <h5 className="s-30 w-700">Interactive Skills Validation</h5>
+                    <p>
+                    Conducting live interviews and exercises to gauge problem-solving capabilities, experience depth, communication skills, and creativity.
+                    </p>
                   </div>
                 </div>{" "}
                 {/* END CONTENT BOX #2 */}
@@ -109,7 +112,10 @@ export default function TopTalent() {
                   </div>
                   {/* Text */}
                   <div className="cbox-2-txt">
-                    <h5 className="s-36 w-700">Online Challenge</h5>
+                    <h5 className="s-30 w-700">Real-World Project Simulation</h5>
+                    <p>
+                    Assigning comprehensive test projects to evaluate candidates' competence, professionalism, and integrity in practical scenarios.
+                    </p>
                   </div>
                 </div>{" "}
                 {/* END CONTENT BOX #2 */}
@@ -121,7 +127,10 @@ export default function TopTalent() {
                   </div>
                   {/* Text */}
                   <div className="cbox-2-txt">
-                    <h5 className="s-36 w-700">Continued evaluation</h5>
+                    <h5 className="s-30 w-700">Ongoing Performance Review</h5>
+                    <p>
+                    Ensuring sustained excellence and quality in all engagements, maintaining high standards for both talent and client satisfaction.
+                    </p>
                   </div>
                 </div>{" "}
                 {/* END CONTENT BOX #2 */}
@@ -142,10 +151,10 @@ export default function TopTalent() {
                 <div className="col-md-10 col-lg-9">
                   <div className="section-title mb-70">
                     {/* Title */}
-                    <h2 className="s-50 w-700">Benefits and Perks</h2>
+                    <h2 className="s-50 w-700">Your Business Benefits</h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
-                      your benefits when work with us
+                    Harnessing the Power of the Top 1%: Why Partner with TaraTalent
                     </p>
                   </div>
                 </div>
@@ -170,14 +179,10 @@ export default function TopTalent() {
                       {/* Text */}
                       <div className="fbox-txt">
                         <h6 className="s-22 w-700">
-                          Professional Growth and Development
+                        Affordable Global Talent
                         </h6>
                         <p>
-                          Good companies often invest in training and
-                          development programs to help employees enhance their
-                          skills and advance in their careers. This might
-                          include access to workshops, courses, conferences, or
-                          mentoring programs.
+                        Offering skilled tech professionals at competitive rates, ideal for startups and budget-conscious companies.
                         </p>
                       </div>
                     </div>
@@ -197,13 +202,9 @@ export default function TopTalent() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Stability and Security</h6>
+                        <h6 className="s-22 w-700">Flexible Engagement Model</h6>
                         <p>
-                          Reputable companies usually offer greater job security
-                          and stability. They have established market positions
-                          and are less likely to go through abrupt downsizing,
-                          providing employees with a sense of security and
-                          long-term employment prospects.
+                        Providing adaptable contracts without long-term commitments, allowing CEOs to scale their workforce as needed, with no penalties for changes.
                         </p>
                       </div>
                     </div>
@@ -224,14 +225,10 @@ export default function TopTalent() {
                       {/* Text */}
                       <div className="fbox-txt">
                         <h6 className="s-22 w-700">
-                          Competitive Compensation and Benefits
+                        Experienced and Diverse Expertise
                         </h6>
                         <p>
-                          Well-established firms often provide competitive
-                          salaries and comprehensive benefits packages,
-                          including health insurance, retirement plans, bonuses,
-                          and sometimes stock options or profit-sharing plans,
-                          attracting and retaining top talent.
+                        Senior professionals averaging over 10 years of experience, covering a wide range of technologies and sectors, crucial for delivering expert solutions.
                         </p>
                       </div>
                     </div>
@@ -252,14 +249,10 @@ export default function TopTalent() {
                       {/* Text */}
                       <div className="fbox-txt">
                         <h6 className="s-22 w-700">
-                          Positive Work Environment
+                        Seamless Global Collaboration
                         </h6>
                         <p>
-                          Good companies recognize the importance of a positive
-                          and inclusive work culture. They strive to create an
-                          environment where employees feel valued, respected,
-                          and engaged, leading to higher job satisfaction and
-                          productivity.
+                        Ensuring timezone alignment for smooth remote collaborations, offering a fully remote operation that transcends geographical boundaries.
                         </p>
                       </div>
                     </div>
@@ -281,15 +274,10 @@ export default function TopTalent() {
                       <div className="fbox-txt">
                         <h6 className="s-22 w-700">
                           {" "}
-                          Enhanced Reputation and Resume Value
+                          Continuous Support and Growth
                         </h6>
                         <p>
-                          Being associated with a respected and successful
-                          company can enhance an {`individual's`} professional
-                          reputation, making them more attractive to future
-                          employers. The experience and accomplishments gained
-                          at such a company can significantly boost {`one's`}{" "}
-                          resume and career prospects.
+                        Ongoing technical and professional development for our talents, ensuring they stay ahead in their fields and add value to your projects.
                         </p>
                       </div>
                     </div>
@@ -309,13 +297,9 @@ export default function TopTalent() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Networking Opportunities</h6>
+                        <h6 className="s-22 w-700">Client-Centric Operations</h6>
                         <p>
-                          Working with a well-regarded company can expose
-                          employees to a network of professionals and experts in
-                          the field, offering opportunities for networking,
-                          collaboration, and even mentorship. This can be
-                          invaluable for career advancement and personal growth.
+                        A strong commitment to privacy, straightforward financial transactions, and a tailored approach to meet specific business requirements.
                         </p>
                       </div>
                     </div>
@@ -335,10 +319,10 @@ export default function TopTalent() {
                 <div className="col-md-10 col-lg-9">
                   <div className="section-title mb-80">
                     {/* Title */}
-                    <h2 className="s-50 w-700">Key traits</h2>
+                    <h2 className="s-50 w-700">Defining Excellence</h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
-                      Talent Attributes We Value
+                    The Exceptional Characteristics of Our Top 1%  Talent
                     </p>
                   </div>
                 </div>
@@ -368,8 +352,7 @@ export default function TopTalent() {
                           Advanced Technical Proficiency
                         </h6>
                         <p>
-                          Luctus egestas augue undo ultrice aliquam in lacus
-                          congue dapibus
+                        Masters of complex technical challenges, our talent delivers innovative and effective solutions.
                         </p>
                       </div>
                     </div>
@@ -393,8 +376,7 @@ export default function TopTalent() {
                       <div className="fbox-txt">
                         <h6 className="s-22 w-700">Analytical Thinking</h6>
                         <p>
-                          Tempor laoreet augue undo ultrice aliquam in lacusq
-                          luctus feugiat
+                        Our professionals excel in making data-driven, insightful decisions for every project.
                         </p>
                       </div>
                     </div>
@@ -420,8 +402,7 @@ export default function TopTalent() {
                       <div className="fbox-txt">
                         <h6 className="s-22 w-700">Commitment to Excellence</h6>
                         <p>
-                          Egestas luctus augue undo ultrice aliquam in lacus
-                          feugiat cursus
+                        Dedicated to the highest standards, our team strives for quality and excellence in all endeavors.
                         </p>
                       </div>
                     </div>
@@ -447,8 +428,7 @@ export default function TopTalent() {
                       <div className="fbox-txt">
                         <h6 className="s-22 w-700">Open Communication</h6>
                         <p>
-                          Egestas luctus augue undo ultrice aliquam in lacus
-                          feugiat cursus
+                        Prioritizing transparency, our talent ensures clear and effective communication in every collaboration.
                         </p>
                       </div>
                     </div>
@@ -473,13 +453,12 @@ export default function TopTalent() {
                     {/* Title */}
                     <h2 className="s-52 w-700">
                       {" "}
-                      The <span style={{ color: "#04626d" }}>top 1%</span>{" "}
-                      fields of work{" "}
+                      Our <span style={{ color: "#04626d" }}>Top 1%</span>{" "}
+                      Talent in Action{" "}
                     </h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
-                      Most popular programming languages and framework for
-                      development
+                    Leading Innovation in Varied Fields: A Showcase of Our Elite Talent
                     </p>
                   </div>
                 </div>
