@@ -35,17 +35,26 @@ export default function TopTalent() {
                     <span className="section-id">Top 1%</span>
                     {/* Title */}
                     <h2 className="s-50 w-700">
-                    Crafting Excellence: Our Journey in Selecting the <b style={{ color: "#37939b" }}> Top 1%</b>{" "}
-                    Tech Talent
+                      Crafting Excellence: Our Journey in Selecting the{" "}
+                      <b style={{ color: "#37939b" }}> Top 1%</b> Tech Talent
                     </h2>
                     {/* Text */}
                     <p>
-                    At TaraTalent, we're committed to an unparalleled standard of excellence in every hire. Our Top 1% Talent Strategy is centered around a comprehensive and thorough selection process. We meticulously identify and collaborate with only the most skilled and passionate professionals from around the world.
+                      At TaraTalent, {`we're`} committed to an unparalleled
+                      standard of excellence in every hire. Our Top 1% Talent
+                      Strategy is centered around a comprehensive and thorough
+                      selection process. We meticulously identify and
+                      collaborate with only the most skilled and passionate
+                      professionals from around the world.
                     </p>
                     {/* Text */}
                     <ul className="ml-10">
                       <li>
-                      This rigorous approach ensures that our team consists of domain experts who bring both expertise and enthusiasm to every project, aligning with our high standards of quality and innovation which perfectly matches the needs of startups.
+                        This rigorous approach ensures that our team consists of
+                        domain experts who bring both expertise and enthusiasm
+                        to every project, aligning with our high standards of
+                        quality and innovation which perfectly matches the needs
+                        of startups.
                       </li>
                     </ul>
                   </div>
@@ -67,9 +76,14 @@ export default function TopTalent() {
                   </div>
                   {/* Text */}
                   <div className="cbox-2-txt">
-                    <h5 className="s-30 w-700"> Language and Personality Evaluation</h5>
+                    <h5 className="s-30 w-700">
+                      {" "}
+                      Language and Personality Evaluation
+                    </h5>
                     <p>
-                    Assessing English proficiency and personality traits to ensure candidates are articulate, passionate, and fully committed.
+                      Assessing English proficiency and personality traits to
+                      ensure candidates are articulate, passionate, and fully
+                      committed.
                     </p>
                   </div>
                 </div>{" "}
@@ -82,9 +96,12 @@ export default function TopTalent() {
                   </div>
                   {/* Text */}
                   <div className="cbox-2-txt">
-                    <h5 className="s-30 w-700">Technical Expertise Assessment</h5>
+                    <h5 className="s-30 w-700">
+                      Technical Expertise Assessment
+                    </h5>
                     <p>
-                    Evaluating technical knowledge and problem-solving skills through various assessments to identify domain experts.
+                      Evaluating technical knowledge and problem-solving skills
+                      through various assessments to identify domain experts.
                     </p>
                   </div>
                 </div>{" "}
@@ -97,9 +114,13 @@ export default function TopTalent() {
                   </div>
                   {/* Text */}
                   <div className="cbox-2-txt">
-                    <h5 className="s-30 w-700">Interactive Skills Validation</h5>
+                    <h5 className="s-30 w-700">
+                      Interactive Skills Validation
+                    </h5>
                     <p>
-                    Conducting live interviews and exercises to gauge problem-solving capabilities, experience depth, communication skills, and creativity.
+                      Conducting live interviews and exercises to gauge
+                      problem-solving capabilities, experience depth,
+                      communication skills, and creativity.
                     </p>
                   </div>
                 </div>{" "}
@@ -112,9 +133,13 @@ export default function TopTalent() {
                   </div>
                   {/* Text */}
                   <div className="cbox-2-txt">
-                    <h5 className="s-30 w-700">Real-World Project Simulation</h5>
+                    <h5 className="s-30 w-700">
+                      Real-World Project Simulation
+                    </h5>
                     <p>
-                    Assigning comprehensive test projects to evaluate candidates' competence, professionalism, and integrity in practical scenarios.
+                      Assigning comprehensive test projects to evaluate
+                      {`candidates'`} competence, professionalism, and integrity
+                      in practical scenarios.
                     </p>
                   </div>
                 </div>{" "}
@@ -129,7 +154,9 @@ export default function TopTalent() {
                   <div className="cbox-2-txt">
                     <h5 className="s-30 w-700">Ongoing Performance Review</h5>
                     <p>
-                    Ensuring sustained excellence and quality in all engagements, maintaining high standards for both talent and client satisfaction.
+                      Ensuring sustained excellence and quality in all
+                      engagements, maintaining high standards for both talent
+                      and client satisfaction.
                     </p>
                   </div>
                 </div>{" "}
@@ -154,7 +181,8 @@ export default function TopTalent() {
                     <h2 className="s-50 w-700">Your Business Benefits</h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
-                    Harnessing the Power of the Top 1%: Why Partner with TaraTalent
+                      Harnessing the Power of the Top 1%: Why Partner with
+                      TaraTalent
                     </p>
                   </div>
                 </div>
@@ -178,11 +206,11 @@ export default function TopTalent() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">
-                        Affordable Global Talent
-                        </h6>
+                        <h6 className="s-22 w-700">Affordable Global Talent</h6>
                         <p>
-                        Offering skilled tech professionals at competitive rates, ideal for startups and budget-conscious companies.
+                          Offering skilled tech professionals at competitive
+                          rates, ideal for startups and budget-conscious
+                          companies.
                         </p>
                       </div>
                     </div>
@@ -202,9 +230,13 @@ export default function TopTalent() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Flexible Engagement Model</h6>
+                        <h6 className="s-22 w-700">
+                          Flexible Engagement Model
+                        </h6>
                         <p>
-                        Providing adaptable contracts without long-term commitments, allowing CEOs to scale their workforce as needed, with no penalties for changes.
+                          Providing adaptable contracts without long-term
+                          commitments, allowing CEOs to scale their workforce as
+                          needed, with no penalties for changes.
                         </p>
                       </div>
                     </div>
@@ -225,10 +257,12 @@ export default function TopTalent() {
                       {/* Text */}
                       <div className="fbox-txt">
                         <h6 className="s-22 w-700">
-                        Experienced and Diverse Expertise
+                          Experienced and Diverse Expertise
                         </h6>
                         <p>
-                        Senior professionals averaging over 10 years of experience, covering a wide range of technologies and sectors, crucial for delivering expert solutions.
+                          Senior professionals averaging over 10 years of
+                          experience, covering a wide range of technologies and
+                          sectors, crucial for delivering expert solutions.
                         </p>
                       </div>
                     </div>
@@ -249,10 +283,12 @@ export default function TopTalent() {
                       {/* Text */}
                       <div className="fbox-txt">
                         <h6 className="s-22 w-700">
-                        Seamless Global Collaboration
+                          Seamless Global Collaboration
                         </h6>
                         <p>
-                        Ensuring timezone alignment for smooth remote collaborations, offering a fully remote operation that transcends geographical boundaries.
+                          Ensuring timezone alignment for smooth remote
+                          collaborations, offering a fully remote operation that
+                          transcends geographical boundaries.
                         </p>
                       </div>
                     </div>
@@ -277,7 +313,9 @@ export default function TopTalent() {
                           Continuous Support and Growth
                         </h6>
                         <p>
-                        Ongoing technical and professional development for our talents, ensuring they stay ahead in their fields and add value to your projects.
+                          Ongoing technical and professional development for our
+                          talents, ensuring they stay ahead in their fields and
+                          add value to your projects.
                         </p>
                       </div>
                     </div>
@@ -297,9 +335,13 @@ export default function TopTalent() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Client-Centric Operations</h6>
+                        <h6 className="s-22 w-700">
+                          Client-Centric Operations
+                        </h6>
                         <p>
-                        A strong commitment to privacy, straightforward financial transactions, and a tailored approach to meet specific business requirements.
+                          A strong commitment to privacy, straightforward
+                          financial transactions, and a tailored approach to
+                          meet specific business requirements.
                         </p>
                       </div>
                     </div>
@@ -322,7 +364,7 @@ export default function TopTalent() {
                     <h2 className="s-50 w-700">Defining Excellence</h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
-                    The Exceptional Characteristics of Our Top 1%  Talent
+                      The Exceptional Characteristics of Our Top 1% Talent
                     </p>
                   </div>
                 </div>
@@ -352,7 +394,8 @@ export default function TopTalent() {
                           Advanced Technical Proficiency
                         </h6>
                         <p>
-                        Masters of complex technical challenges, our talent delivers innovative and effective solutions.
+                          Masters of complex technical challenges, our talent
+                          delivers innovative and effective solutions.
                         </p>
                       </div>
                     </div>
@@ -376,7 +419,8 @@ export default function TopTalent() {
                       <div className="fbox-txt">
                         <h6 className="s-22 w-700">Analytical Thinking</h6>
                         <p>
-                        Our professionals excel in making data-driven, insightful decisions for every project.
+                          Our professionals excel in making data-driven,
+                          insightful decisions for every project.
                         </p>
                       </div>
                     </div>
@@ -402,7 +446,8 @@ export default function TopTalent() {
                       <div className="fbox-txt">
                         <h6 className="s-22 w-700">Commitment to Excellence</h6>
                         <p>
-                        Dedicated to the highest standards, our team strives for quality and excellence in all endeavors.
+                          Dedicated to the highest standards, our team strives
+                          for quality and excellence in all endeavors.
                         </p>
                       </div>
                     </div>
@@ -428,7 +473,8 @@ export default function TopTalent() {
                       <div className="fbox-txt">
                         <h6 className="s-22 w-700">Open Communication</h6>
                         <p>
-                        Prioritizing transparency, our talent ensures clear and effective communication in every collaboration.
+                          Prioritizing transparency, our talent ensures clear
+                          and effective communication in every collaboration.
                         </p>
                       </div>
                     </div>
@@ -458,7 +504,8 @@ export default function TopTalent() {
                     </h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
-                    Leading Innovation in Varied Fields: A Showcase of Our Elite Talent
+                      Leading Innovation in Varied Fields: A Showcase of Our
+                      Elite Talent
                     </p>
                   </div>
                 </div>
