@@ -31,7 +31,7 @@ export default function Career() {
                       </h2>
                       {/* Text */}
                       <p className="p-lg w-400">
-                      Embark on a transformative journey with TaraTalent! Here, you'll find a world where your technical skills are valued, growth is nurtured. We connect extraordinary tech talents with global opportunities, fostering a culture of innovation and excellence. Make your mark in a team that's shaping the future of technology. Your path to professional greatness starts here.
+                      Begin a transformative journey with TaraTalent! Here, you'll find a world where your technical skills are valued, growth is nurtured. We connect extraordinary tech talents with global opportunities, fostering a culture of innovation and excellence. Make your mark in a team that's shaping the future of technology. Your path to professional greatness starts here.
                       </p>
                       <Link
                         href="/career/join"
@@ -217,10 +217,10 @@ export default function Career() {
                 <div className="col-md-10 col-lg-9">
                   <div className="section-title mb-70">
                     {/* Title */}
-                    <h2 className="s-50 w-700">Benefits and Perks</h2>
+                    <h2 className="s-50 w-700">Why TaraTalent?</h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
-                      your benefits when work with us
+                    Explore the compelling reasons to join our talent community and redefine your career journey.
                     </p>
                   </div>
                 </div>
@@ -766,7 +766,7 @@ export default function Career() {
                         <div className="banner-12-txt color--white">
                           {/* Title */}
                           <h2 className="s-35 w-700">
-                          Empower Your Startup with Our Talent: Expertise for Success
+                          Empower Your Startup with Our Talent: Expertise for Victory
                           </h2>
                           {/* Text */}
                           <p className="p-lg">
