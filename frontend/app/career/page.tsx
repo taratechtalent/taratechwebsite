@@ -288,7 +288,7 @@ export default function Career() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            <img src="images/services/qa.png" />
+                            <img src="images/services/icons8-salary-50.png" />
                           </div>
                         </div>
                       </div>{" "}
@@ -337,7 +337,7 @@ export default function Career() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            <img src="images/services/ui.png" />
+                            <img src="images/services/icons8-currency-settings-80.png" />
                           </div>
                         </div>
                       </div>{" "}
@@ -361,7 +361,7 @@ export default function Career() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            <img src="images/services/devops.png" />
+                            <img src="images/services/icons8-professional-growth-50.png" />
                           </div>
                         </div>
                       </div>{" "}
@@ -388,7 +388,7 @@ export default function Career() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            <img src="images/services/art.png" />
+                            <img src="images/services/icons8-global-network-99.png" />
                           </div>
                         </div>
                       </div>{" "}
