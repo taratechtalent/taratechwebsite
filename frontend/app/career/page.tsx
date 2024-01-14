@@ -262,7 +262,7 @@ export default function Career() {
                           <div className="shape-ico">
                             {/* Vector Icon */}
                             {/* Shape */}
-                            <img src="images/services/web.png" />
+                            <img src="images/services/workspace (2).svg" />
                           </div>
                         </div>
                       </div>{" "}
@@ -313,7 +313,7 @@ export default function Career() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            <img src="images/services/mobile.png" />
+                            <img src="images/services/icons8-remote-work-50 (1).png" />
                           </div>
                         </div>
                       </div>{" "}

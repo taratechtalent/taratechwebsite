@@ -57,7 +57,7 @@ export default function Home() {
                     >
                       {/* CATEGORY HEADER */}
                       <div className="accordion-thumb">
-                        <h4 className="s-28 w-700">Getting Started</h4>
+                        <h4 className="s-28 w-700">Talent Questions</h4>
                       </div>
                       {/* CATEGORY ANSWERS */}
                       <div
@@ -71,14 +71,17 @@ export default function Home() {
                           {/* Question */}
                           <div className="faqs-2-question">
                             <h5 className="s-22 w-700">
-                              <span>1.</span> What is {`TaraTalent's`} primary focus?
+                              <span>1.</span> What is {`TaraTalent's`} primary
+                              focus?
                             </h5>
                           </div>
                           {/* Answer */}
                           <div className="faqs-2-answer color--grey">
                             {/* Text */}
                             <p>
-                            TaraTalent specializes in connecting companies, especially startups, with highly skilled and affordable talent from the Middle East.
+                              TaraTalent specializes in connecting companies,
+                              especially startups, with highly skilled and
+                              affordable talent from the Middle East.
                             </p>
                           </div>
                         </div>{" "}
@@ -88,14 +91,17 @@ export default function Home() {
                           {/* Question */}
                           <div className="faqs-2-question">
                             <h5 className="s-22 w-700">
-                              <span>2.</span> How can TaraTalent offer cost-effective talent solutions?
+                              <span>2.</span> How can TaraTalent offer
+                              cost-effective talent solutions?
                             </h5>
                           </div>
                           {/* Answer */}
                           <div className="faqs-2-answer color--grey">
                             {/* Text */}
                             <p>
-                            We leverage our workforce in regions with a lower cost of living to provide competitive rates for top-tier talent.
+                              We leverage our workforce in regions with a lower
+                              cost of living to provide competitive rates for
+                              top-tier talent.
                             </p>
                           </div>
                         </div>{" "}
@@ -105,7 +111,8 @@ export default function Home() {
                           {/* Question */}
                           <div className="faqs-2-question">
                             <h5 className="s-22 w-700">
-                              <span>3.</span> What types of talent does TaraTalent offer?
+                              <span>3.</span> What types of talent does
+                              TaraTalent offer?
                             </h5>
                           </div>
                           {/* Answer */}
@@ -114,12 +121,19 @@ export default function Home() {
                             <ul className="simple-list">
                               <li className="list-item">
                                 <p>
-                                We offer a wide range of talent, including full-stack developers, UI/UX designers, and more, catering to various tech-related roles.
+                                  We offer a wide range of talent, including
+                                  full-stack developers, UI/UX designers, and
+                                  more, catering to various tech-related roles.
                                 </p>
                               </li>
                               <li className="list-item">
                                 <p>
-                               TaraTalent provides a diverse array of opportunities in the tech industry, covering various domains such as web app development, DevOps, software testing, mobile app development, AI/machine learning, UI/UX design, and digital art.
+                                  TaraTalent provides a diverse array of
+                                  opportunities in the tech industry, covering
+                                  various domains such as web app development,
+                                  DevOps, software testing, mobile app
+                                  development, AI/machine learning, UI/UX
+                                  design, and digital art.
                                 </p>
                               </li>
                             </ul>
@@ -138,7 +152,8 @@ export default function Home() {
                           <div className="faqs-2-answer color--grey">
                             {/* Text */}
                             <p>
-                            We follow a staff augmentation model, seamlessly integrating our talent with your existing teams.
+                              We follow a staff augmentation model, seamlessly
+                              integrating our talent with your existing teams.
                             </p>
                           </div>
                         </div>{" "}
@@ -158,7 +173,7 @@ export default function Home() {
                     >
                       {/* CATEGORY HEADER */}
                       <div className="accordion-thumb">
-                        <h4 className="s-28 w-700">Manage your account</h4>
+                        <h4 className="s-28 w-700">Client questions</h4>
                       </div>
                       {/* CATEGORY ANSWERS */}
                       <div
@@ -314,507 +329,6 @@ export default function Home() {
                       </div>{" "}
                       {/* END CATEGORY ANSWERS */}
                     </li>{" "}
-                    {/* END QUESTIONS CATEGORY #2 */}
-                    {/* QUESTIONS CATEGORY #3 */}
-                    <li
-                      className={
-                        isActive.key == 3
-                          ? "accordion-item is-active"
-                          : "accordion-item"
-                      }
-                      onClick={() => handleToggle(3)}
-                    >
-                      {/* CATEGORY HEADER */}
-                      <div className="accordion-thumb">
-                        <h4 className="s-28 w-700">Purchase and License</h4>
-                      </div>
-                      {/* CATEGORY ANSWERS */}
-                      <div
-                        className="accordion-panel"
-                        style={{
-                          display: `${isActive.key == 3 ? "block" : "none"}`,
-                        }}
-                      >
-                        {/* QUESTION #1 */}
-                        <div className="accordion-panel-item mb-35">
-                          {/* Question */}
-                          <div className="faqs-2-question">
-                            <h5 className="s-22 w-700">
-                              <span>1.</span> How much does Taratech cost?
-                            </h5>
-                          </div>
-                          {/* Answer */}
-                          <div className="faqs-2-answer color--grey">
-                            {/* Text */}
-                            <p>
-                              An augue cubilia laoreet and magna suscipit
-                              egestas magna ipsum purus ipsum primis and augue
-                              ultrice ligula egestas suscipit lectus gestas
-                              integer congue a lectus porta phasellus neque
-                              blandit tristique
-                            </p>
-                          </div>
-                        </div>{" "}
-                        {/* END QUESTION #1 */}
-                        {/* QUESTION #2 */}
-                        <div className="accordion-panel-item mb-35">
-                          {/* Question */}
-                          <div className="faqs-2-question">
-                            <h5 className="s-22 w-700">
-                              <span>2.</span> Do you offer discounts for annual
-                              plans?
-                            </h5>
-                          </div>
-                          {/* Answer */}
-                          <div className="faqs-2-answer color--grey">
-                            {/* Text */}
-                            <p>
-                              Sagittis congue augue egestas volutpat egestas
-                              magna suscipit egestas and magna ipsum vitae
-                            </p>
-                            {/* Text */}
-                            <p>
-                              Sagittis congue augue egestas volutpat egestas and
-                              magna suscipit egestas magna ipsum vitae purus
-                              congue efficitur ipsum primis in cubilia laoreet
-                              augue egestas luctus donec and curabitur dapibus
-                            </p>
-                          </div>
-                        </div>{" "}
-                        {/* END QUESTION #2 */}
-                        {/* QUESTION #3 */}
-                        <div className="accordion-panel-item">
-                          {/* Question */}
-                          <div className="faqs-2-question">
-                            <h5 className="s-22 w-700">
-                              <span>3.</span> I {`didn't`} receive the license
-                              key after purchased
-                            </h5>
-                          </div>
-                          {/* Answer */}
-                          <div className="faqs-2-answer color--grey">
-                            {/* Text */}
-                            <ul className="simple-list">
-                              <li className="list-item">
-                                <p>
-                                  Curabitur ac dapibus libero. Quisque eu congue
-                                  tristique neque phasellus blandit tristique
-                                  justo aliquam. Aliquam vitae undo molestie
-                                  nunc. Quisque sapien justo, aliquet non
-                                  molestie purus tempor
-                                </p>
-                              </li>
-                              <li className="list-item">
-                                <p>
-                                  Sagittis congue augue egestas volutpat egestas
-                                  magna suscipit egestas magna ipsum vitae purus
-                                  undo efficitur ipsum primis in cubilia laoreet
-                                  augue egestas luctus donec curabitur dapibus
-                                  libero
-                                </p>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>{" "}
-                        {/* END QUESTION #3 */}
-                        {/* QUESTION #4 */}
-                        <div className="accordion-panel-item">
-                          {/* Question */}
-                          <div className="faqs-2-question">
-                            <h5 className="s-22 w-700">
-                              <span>4.</span> I {`can't`} activate Taratech
-                            </h5>
-                          </div>
-                          {/* Answer */}
-                          <div className="faqs-2-answer color--grey">
-                            {/* Text */}
-                            <p>
-                              Sapien egestas, congue gestas posuere cubilia
-                              congue ipsum mauris lectus laoreet gestas neque
-                              pulvinar vitae auctor eros dolor luctus placerat a
-                              magna cursus congue magna nihil mpedit ligula
-                              congue. Maecenas gravida porttitor nunc, quis
-                              vehicula magna luctus tempor. Quisque vel laoreet
-                              turpis. Viverra augue augue eget, dictum tempor
-                              diam. Sed pulvinar a consectetur nibh, imperdiet
-                              varius viverra
-                            </p>
-                            {/* Text */}
-                            <p>
-                              Sagittis congue augue egestas volutpat egestas
-                              magna suscipit egestas and magna ipsum vitae purus
-                              and efficitur ipsum primis in cubilia laoreet
-                              tempor gravida
-                            </p>
-                          </div>
-                        </div>{" "}
-                        {/* END QUESTION #4 */}
-                        {/* QUESTION #5 */}
-                        <div className="accordion-panel-item">
-                          {/* Question */}
-                          <div className="faqs-2-question">
-                            <h5 className="s-22 w-700">
-                              <span>5.</span> How to request a refund?
-                            </h5>
-                          </div>
-                          {/* Answer */}
-                          <div className="faqs-2-answer color--grey">
-                            {/* Text */}
-                            <ul className="simple-list">
-                              <li className="list-item">
-                                <p>
-                                  Curabitur ac dapibus libero. Quisque eu congue
-                                  tristique
-                                </p>
-                              </li>
-                              <li className="list-item">
-                                <p>
-                                  Congue tristique neque phasellus blandit
-                                  tristique justo undo aliquam aliquam vitae
-                                  molestie quisque sapien justo, aliquet non
-                                  molestie purus tempor
-                                </p>
-                              </li>
-                              <li className="list-item">
-                                <p>
-                                  Sagittis congue augue egestas volutpat egestas
-                                  magna suscipit egestas magna ipsum
-                                </p>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>{" "}
-                        {/* END QUESTION #5 */}
-                      </div>{" "}
-                      {/* END CATEGORY ANSWERS */}
-                    </li>{" "}
-                    {/* END QUESTIONS CATEGORY #3 */}
-                    {/* QUESTIONS CATEGORY #4 */}
-                    <li
-                      className={
-                        isActive.key == 4
-                          ? "accordion-item is-active"
-                          : "accordion-item"
-                      }
-                      onClick={() => handleToggle(4)}
-                    >
-                      {/* CATEGORY HEADER */}
-                      <div className="accordion-thumb">
-                        <h4 className="s-28 w-700">
-                          Policy, Safety &amp; Copyright
-                        </h4>
-                      </div>
-                      {/* CATEGORY ANSWERS */}
-                      <div
-                        className="accordion-panel"
-                        style={{
-                          display: `${isActive.key == 4 ? "block" : "none"}`,
-                        }}
-                      >
-                        {/* QUESTION #1 */}
-                        <div className="accordion-panel-item mb-35">
-                          {/* Question */}
-                          <div className="faqs-2-question">
-                            <h5 className="s-22 w-700">
-                              <span>1.</span> Copyright and rights management
-                            </h5>
-                          </div>
-                          {/* Answer */}
-                          <div className="faqs-2-answer color--grey">
-                            {/* Text */}
-                            <p>
-                              Sapien egestas, congue gestas posuere cubilia
-                              congue ipsum mauris lectus laoreet gestas neque
-                              pulvinar vitae auctor eros dolor luctus placerat a
-                              magna cursus congue magna nihil mpedit ligula
-                              congue. Maecenas gravida porttitor nunc, quis
-                              vehicula magna luctus tempor. Quisque vel laoreet
-                              turpis. Viverra augue augue eget, dictum tempor
-                              diam. Sed pulvinar a consectetur nibh, imperdiet
-                              varius viverra
-                            </p>
-                          </div>
-                        </div>{" "}
-                        {/* END QUESTION #1 */}
-                        {/* QUESTION #2 */}
-                        <div className="accordion-panel-item mb-35">
-                          {/* Question */}
-                          <div className="faqs-2-question">
-                            <h5 className="s-22 w-700">
-                              <span>2.</span> Manage privacy settings
-                            </h5>
-                          </div>
-                          {/* Answer */}
-                          <div className="faqs-2-answer color--grey">
-                            {/* Text */}
-                            <p>
-                              Sagittis congue augue egestas volutpat egestas
-                              magna suscipit egestas magna ipsum vitae purus
-                              congue efficitur ipsum and primis undo cubilia a
-                              laoreet augue egestas luctus donec and curabitur
-                              dapibus
-                            </p>
-                            {/* Text */}
-                            <ol className="digit-list">
-                              <li className="list-item">
-                                <p>Gestas integer congue a lectus porta</p>
-                              </li>
-                              <li className="list-item">
-                                <p>An aliquam justo suscipit congue augue</p>
-                              </li>
-                              <li className="list-item">
-                                <p>
-                                  Sagittis congue augue egestas volutpat egestas
-                                </p>
-                              </li>
-                            </ol>
-                          </div>
-                        </div>{" "}
-                        {/* END QUESTION #2 */}
-                        {/* QUESTION #3 */}
-                        <div className="accordion-panel-item mb-35">
-                          {/* Question */}
-                          <div className="faqs-2-question">
-                            <h5 className="s-22 w-700">
-                              <span>3.</span> Change your subscription privacy
-                              settings
-                            </h5>
-                          </div>
-                          {/* Answer */}
-                          <div className="faqs-2-answer color--grey">
-                            {/* Text */}
-                            <p>
-                              Sapien egestas, congue gestas posuere cubilia
-                              congue ipsum mauris lectus laoreet and gestas
-                              neque vitae auctor eros dolor luctus placerat a
-                              magna cursus congue magna nihil mpedit ligula
-                              congue maecenas undo gravida porttitor nunc, quis
-                              vehicula magna luctus tempor. Quisque vel laoreet
-                              turpis augue
-                            </p>
-                            {/* Text */}
-                            <ul className="simple-list">
-                              <li className="list-item">
-                                <p>
-                                  Congue tristique neque phasellus blandit
-                                  tristique justo undo aliquam aliquam vitae
-                                  molestie quisque and sapien justo, aliquet non
-                                  molestie purus tempor
-                                </p>
-                              </li>
-                              <li className="list-item">
-                                <p>
-                                  Sagittis congue augue egestas volutpat egestas
-                                  magna suscipit egestas magna ipsum
-                                </p>
-                              </li>
-                            </ul>
-                          </div>
-                        </div>{" "}
-                        {/* END QUESTION #3 */}
-                        {/* QUESTION #4 */}
-                        <div className="accordion-panel-item">
-                          {/* Question */}
-                          <div className="faqs-2-question">
-                            <h5 className="s-22 w-700">
-                              <span>4.</span> Protecting your identity
-                            </h5>
-                          </div>
-                          {/* Answer */}
-                          <div className="faqs-2-answer color--grey">
-                            {/* Text */}
-                            <p>
-                              Sapien egestas, congue gestas posuere cubilia
-                              congue ipsum mauris lectus laoreet gestas neque
-                              pulvinar vitae auctor eros dolor luctus placerat a
-                              magna cursus congue magna nihil mpedit ligula
-                              congue. Maecenas gravida porttitor nunc, quis
-                              vehicula magna luctus tempor. Quisque vel laoreet
-                              turpis. Viverra augue augue eget, dictum tempor
-                              diam. Sed pulvinar a consectetur nibh, imperdiet
-                              varius viverra
-                            </p>
-                            {/* Text */}
-                            <p>
-                              Sagittis congue augue egestas volutpat egestas
-                              magna suscipit egestas and magna ipsum vitae purus
-                              and efficitur ipsum primis in cubilia laoreet
-                              tempor gravida
-                            </p>
-                          </div>
-                        </div>{" "}
-                        {/* END QUESTION #4 */}
-                      </div>{" "}
-                      {/* END CATEGORY ANSWERS */}
-                    </li>{" "}
-                    {/* END QUESTIONS CATEGORY #4 */}
-                    {/* QUESTIONS CATEGORY #5 */}
-                    <li
-                      className={
-                        isActive.key == 5
-                          ? "accordion-item acc-last-item is-active"
-                          : "accordion-item acc-last-item"
-                      }
-                      onClick={() => handleToggle(5)}
-                    >
-                      {/* CATEGORY HEADER */}
-                      <div className="accordion-thumb">
-                        <h4 className="s-28 w-700">Other Questions</h4>
-                      </div>
-                      {/* CATEGORY ANSWERS */}
-                      <div
-                        className="accordion-panel"
-                        style={{
-                          display: `${isActive.key == 5 ? "block" : "none"}`,
-                        }}
-                      >
-                        {/* QUESTION #1 */}
-                        <div className="accordion-panel-item mb-35">
-                          {/* Question */}
-                          <div className="faqs-2-question">
-                            <h5 className="s-22 w-700">
-                              <span>1.</span> How do I get the error log?
-                            </h5>
-                          </div>
-                          {/* Answer */}
-                          <div className="faqs-2-answer color--grey">
-                            {/* Text */}
-                            <p>
-                              Sagittis congue augue egestas volutpat egestas
-                              magna suscipit egestas and magna ipsum vitae
-                            </p>
-                            {/* Text */}
-                            <p>
-                              Sagittis congue augue egestas volutpat egestas and
-                              magna suscipit egestas and magna ipsum vitae purus
-                              congue efficitur ipsum primis in cubilia laoreet
-                              augue egestas luctus donec and curabitur dapibus
-                            </p>
-                          </div>
-                        </div>{" "}
-                        {/* END QUESTION #1 */}
-                        {/* QUESTION #2 */}
-                        <div className="accordion-panel-item mb-35">
-                          {/* Question */}
-                          <div className="faqs-2-question">
-                            <h5 className="s-22 w-700">
-                              <span>2.</span> I forgot my folder password, what
-                              should I do?
-                            </h5>
-                          </div>
-                          {/* Answer */}
-                          <div className="faqs-2-answer color--grey">
-                            {/* Text */}
-                            <p>
-                              Sagittis congue augue egestas volutpat egestas
-                              magna suscipit egestas magna ipsum vitae purus
-                              congue efficitur ipsum and primis in cubilia
-                              laoreet augue egestas luctus donec and curabitur
-                              dapibus
-                            </p>
-                            {/* Text */}
-                            <ol className="digit-list">
-                              <li className="list-item">
-                                <p>Gestas integer congue a lectus porta</p>
-                              </li>
-                              <li className="list-item">
-                                <p>An aliquam justo suscipit congue augue</p>
-                              </li>
-                              <li className="list-item">
-                                <p>
-                                  Sagittis congue augue egestas volutpat egestas
-                                </p>
-                              </li>
-                            </ol>
-                          </div>
-                        </div>{" "}
-                        {/* END QUESTION #2 */}
-                        {/* QUESTION #3 */}
-                        <div className="accordion-panel-item mb-35">
-                          {/* Question */}
-                          <div className="faqs-2-question">
-                            <h5 className="s-22 w-700">
-                              <span>3.</span> Limitations of folder password
-                              protection
-                            </h5>
-                          </div>
-                          {/* Answer */}
-                          <div className="faqs-2-answer color--grey">
-                            {/* Text */}
-                            <p>
-                              Sapien egestas, congue gestas posuere cubilia
-                              congue ipsum mauris lectus laoreet gestas neque
-                              pulvinar vitae auctor eros dolor luctus placerat a
-                              magna cursus congue magna nihil mpedit ligula
-                              congue. Maecenas gravida porttitor nunc, quis
-                              vehicula magna luctus tempor. Quisque vel laoreet
-                              turpis. Viverra augue augue eget, dictum tempor
-                              diam. Sed pulvinar a consectetur nibh, imperdiet
-                              varius viverra
-                            </p>
-                          </div>
-                        </div>{" "}
-                        {/* END QUESTION #3 */}
-                        {/* QUESTION #4 */}
-                        <div className="accordion-panel-item mb-35">
-                          {/* Question */}
-                          <div className="faqs-2-question">
-                            <h5 className="s-22 w-700">
-                              <span>4.</span> Import existing library
-                            </h5>
-                          </div>
-                          {/* Answer */}
-                          <div className="faqs-2-answer color--grey">
-                            {/* Text */}
-                            <p>
-                              Sapien egestas, congue gestas posuere cubilia
-                              congue an ipsum mauris lectus laoreet gestas neque
-                              vitae auctor eros dolor luctus placerat a magna
-                              cursus congue magna nihil mpedit ligula congue
-                              gravida tempor porttitor nunc, quis vehicula magna
-                              luctus tempor. Quisque vel laoreet turpis augue
-                            </p>
-                            {/* Text */}
-                            <p>
-                              Sagittis congue augue egestas volutpat egestas
-                              magna suscipit egestas and magna ipsum vitae purus
-                              and efficitur ipsum primis in cubilia laoreet
-                              tempor gravida
-                            </p>
-                          </div>
-                        </div>{" "}
-                        {/* END QUESTION #4 */}
-                        {/* QUESTION #5 */}
-                        <div className="accordion-panel-item">
-                          {/* Question */}
-                          <div className="faqs-2-question">
-                            <h5 className="s-22 w-700">
-                              <span>5.</span> I lost my license. Can you send it
-                              to me?
-                            </h5>
-                          </div>
-                          {/* Answer */}
-                          <div className="faqs-2-answer color--grey">
-                            {/* Text */}
-                            <p>
-                              An augue cubilia laoreet and magna suscipit
-                              egestas magna ipsum purus ipsum primis augue
-                              ultrice ligula egestas suscipit lectus gestas
-                              integer congue a lectus porta phasellus neque
-                              blandit tristique
-                            </p>
-                            {/* Text */}
-                            <p>
-                              Sagittis congue augue egestas volutpat egestas
-                              magna suscipit egestas and magna ipsum vitae
-                            </p>
-                          </div>
-                        </div>{" "}
-                        {/* END QUESTION #5 */}
-                      </div>{" "}
-                      {/* END CATEGORY ANSWERS */}
-                    </li>{" "}
-                    {/* END QUESTIONS CATEGORY #5 */}
                   </ul>
                 </div>{" "}
                 {/* END QUESTIONS ACCORDION */}
