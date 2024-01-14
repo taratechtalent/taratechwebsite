@@ -40,7 +40,7 @@ export default function Home() {
                 <div className="inner-page-title">
                   <h2 className="s-52 w-700">FAQs</h2>
                   <p className="p-lg">
-                  Answers to Common Inquiries for Clients and Talents
+                  Answers to Common Inquiries for our Valued Clients and  professional Talents
                   </p>
                 </div>
                 {/* QUESTIONS ACCORDION */}
@@ -57,7 +57,7 @@ export default function Home() {
                     >
                       {/* CATEGORY HEADER */}
                       <div className="accordion-thumb">
-                        <h4 className="s-28 w-700"> Our Valued Clients</h4>
+                        <h4 className="s-28 w-700"> Client Queries</h4>
                       </div>
                       {/* CATEGORY ANSWERS */}
                       <div
@@ -389,7 +389,7 @@ export default function Home() {
                     >
                       {/* CATEGORY HEADER */}
                       <div className="accordion-thumb">
-                        <h4 className="s-28 w-700">Our Talented Professionals</h4>
+                        <h4 className="s-28 w-700">Talent Queries</h4>
                       </div>
                       {/* CATEGORY ANSWERS */}
                       <div
