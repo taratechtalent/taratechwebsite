@@ -71,19 +71,14 @@ export default function Home() {
                           {/* Question */}
                           <div className="faqs-2-question">
                             <h5 className="s-22 w-700">
-                              <span>1.</span> What is Taratech and how does it
-                              work?
+                              <span>1.</span> What is {`TaraTalent's`} primary focus?
                             </h5>
                           </div>
                           {/* Answer */}
                           <div className="faqs-2-answer color--grey">
                             {/* Text */}
                             <p>
-                              Sagittis congue augue egestas volutpat egestas
-                              magna suscipit egestas magna ipsum vitae purus
-                              congue efficitur and ipsum primis in cubilia
-                              laoreet augue egestas luctus donec and curabitur
-                              dapibus
+                            TaraTalent specializes in connecting companies, especially startups, with highly skilled and affordable talent from the Middle East.
                             </p>
                           </div>
                         </div>{" "}
@@ -93,25 +88,14 @@ export default function Home() {
                           {/* Question */}
                           <div className="faqs-2-question">
                             <h5 className="s-22 w-700">
-                              <span>2.</span> {`What's `}inside the package?
+                              <span>2.</span> How can TaraTalent offer cost-effective talent solutions?
                             </h5>
                           </div>
                           {/* Answer */}
                           <div className="faqs-2-answer color--grey">
                             {/* Text */}
                             <p>
-                              Sagittis congue augue egestas volutpat egestas
-                              magna suscipit egestas and magna ipsum vitae purus
-                              and efficitur ipsum primis in cubilia laoreet
-                              tempor gravida congue laoreet turpis neque auctor
-                            </p>
-                            {/* Text */}
-                            <p>
-                              Sapien egestas, congue gestas posuere cubilia
-                              congue ipsum mauris undo lectus laoreet and gestas
-                              neque vitae auctor eros dolor luctus placerat a
-                              magna cursus congue magna impedit ligula congue
-                              maecenas
+                            We leverage our workforce in regions with a lower cost of living to provide competitive rates for top-tier talent.
                             </p>
                           </div>
                         </div>{" "}
@@ -121,8 +105,7 @@ export default function Home() {
                           {/* Question */}
                           <div className="faqs-2-question">
                             <h5 className="s-22 w-700">
-                              <span>3.</span> Which languages does Taratech
-                              support?
+                              <span>3.</span> What types of talent does TaraTalent offer?
                             </h5>
                           </div>
                           {/* Answer */}
@@ -131,20 +114,12 @@ export default function Home() {
                             <ul className="simple-list">
                               <li className="list-item">
                                 <p>
-                                  Curabitur ac dapibus libero quisque eu congue
-                                  tristique neque. Phasellus blandit tristique
-                                  justo aliquam quisque aliquam vitae and
-                                  molestie sapien nunc justo, aliquet non
-                                  molestie purus tempor
+                                We offer a wide range of talent, including full-stack developers, UI/UX designers, and more, catering to various tech-related roles.
                                 </p>
                               </li>
                               <li className="list-item">
                                 <p>
-                                  Sagittis congue augue egestas volutpat egestas
-                                  magna suscipit egestas magna ipsum undo purus
-                                  vitae efficitur ipsum primis in cubilia
-                                  laoreet augue donec egestas luctus curabitur
-                                  dapibus libero
+                               TaraTalent provides a diverse array of opportunities in the tech industry, covering various domains such as web app development, DevOps, software testing, mobile app development, AI/machine learning, UI/UX design, and digital art.
                                 </p>
                               </li>
                             </ul>
@@ -156,18 +131,14 @@ export default function Home() {
                           {/* Question */}
                           <div className="faqs-2-question">
                             <h5 className="s-22 w-700">
-                              <span>4.</span> Automate testing with API
+                              <span>4.</span> What engagement model do we offer?
                             </h5>
                           </div>
                           {/* Answer */}
                           <div className="faqs-2-answer color--grey">
                             {/* Text */}
                             <p>
-                              An augue cubilia laoreet and magna suscipit
-                              egestas magna ipsum purus ipsum primis and augue
-                              ultrice ligula egestas suscipit lectus gestas
-                              integer congue a lectus porta phasellus neque
-                              blandit tristique
+                            We follow a staff augmentation model, seamlessly integrating our talent with your existing teams.
                             </p>
                           </div>
                         </div>{" "}

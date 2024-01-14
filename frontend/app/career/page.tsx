@@ -31,7 +31,13 @@ export default function Career() {
                       </h2>
                       {/* Text */}
                       <p className="p-lg w-400">
-                      Begin a transformative journey with TaraTalent! Here, you'll find a world where your technical skills are valued, growth is nurtured. We connect extraordinary tech talents with global opportunities, fostering a culture of innovation and excellence. Make your mark in a team that's shaping the future of technology. Your path to professional greatness starts here.
+                        Begin a transformative journey with TaraTalent! Here,
+                        {`you'll`} find a world where your technical skills are
+                        valued, growth is nurtured. We connect extraordinary
+                        tech talents with global opportunities, fostering a
+                        culture of innovation and excellence. Make your mark in
+                        a team {`that's`} shaping the future of technology. Your
+                        path to professional greatness starts here.
                       </p>
                       <Link
                         href="/career/join"
@@ -80,11 +86,13 @@ export default function Career() {
                   <div id="a3-1" className="txt-block">
                     {/* Title */}
                     <h5 className="s-24 w-700 mb-20">
-                    Insurance and Local Currency Payments
+                      Insurance and Local Currency Payments
                     </h5>
                     {/* Text */}
                     <p>
-                    Offering hassle-free insurance coverage and salary payments in your local currency, without the need for cryptocurrency or IBAN accounts.
+                      Offering hassle-free insurance coverage and salary
+                      payments in your local currency, without the need for
+                      cryptocurrency or IBAN accounts.
                     </p>
                     {/* List */}
                   </div>
@@ -95,25 +103,28 @@ export default function Career() {
                   <div id="a3-2" className="txt-block">
                     {/* Title */}
                     <h5 className="s-24 w-700 mb-20">
-                    Optimal Working Environment
+                      Optimal Working Environment
                     </h5>
                     {/* Text */}
                     <p>
-                    Providing the ideal workspace equipped with high-speed internet for maximum efficiency  essential for seamless remote work.
+                      Providing the ideal workspace equipped with high-speed
+                      internet for maximum efficiency essential for seamless
+                      remote work.
                     </p>
                     {/* Text */}
-                    
                   </div>
                 </div>{" "}
                 <div className="col-md-4">
                   <div id="a3-2" className="txt-block">
                     {/* Title */}
                     <h5 className="s-24 w-700 mb-20">
-                    Competitive Salary Structure
+                      Competitive Salary Structure
                     </h5>
                     {/* Text */}
                     <p>
-                    Receive a salary that exceeds local standards by over 50%, ensuring a comfortable lifestyle with all your essential needs met.
+                      Receive a salary that exceeds local standards by over 50%,
+                      ensuring a comfortable lifestyle with all your essential
+                      needs met.
                     </p>
                     {/* Text */}
                   </div>
@@ -147,7 +158,10 @@ export default function Career() {
                       <div className="cbox-2-txt">
                         <h5 className="s-22 w-700">Application Submission</h5>
                         <p>
-                        Start your journey with TaraTalent by submitting your application. Simply upload your CV, and let us match you with the right opportunities to advance your career.
+                          Start your journey with TaraTalent by submitting your
+                          application. Simply upload your CV, and let us match
+                          you with the right opportunities to advance your
+                          career.
                         </p>
                       </div>
                     </div>{" "}
@@ -163,9 +177,15 @@ export default function Career() {
                       </div>
                       {/* Text */}
                       <div className="cbox-2-txt">
-                        <h5 className="s-22 w-700">Comprehensive Skill Assessment</h5>
+                        <h5 className="s-22 w-700">
+                          Comprehensive Skill Assessment
+                        </h5>
                         <p>
-                        Showcase your abilities through our multi-faceted assessment process. This includes an English proficiency test, HR evaluation for soft skills, and both theoretical and practical technical tests to demonstrate your expertise.
+                          Showcase your abilities through our multi-faceted
+                          assessment process. This includes an English
+                          proficiency test, HR evaluation for soft skills, and
+                          both theoretical and practical technical tests to
+                          demonstrate your expertise.
                         </p>
                       </div>
                     </div>{" "}
@@ -181,10 +201,14 @@ export default function Career() {
                       {/* Text */}
                       <div className="cbox-2-txt">
                         <h5 className="s-22 w-700">
-                        Contract Finalization & Trial Period
+                          Contract Finalization & Trial Period
                         </h5>
                         <p className="mb-0">
-                        Complete the contracting process and begin a trial period with us. This stage allows you to integrate into our culture, display your capabilities, and confirm our mutual fit for a successful professional collaboration.
+                          Complete the contracting process and begin a trial
+                          period with us. This stage allows you to integrate
+                          into our culture, display your capabilities, and
+                          confirm our mutual fit for a successful professional
+                          collaboration.
                         </p>
                       </div>
                     </div>{" "}
@@ -220,7 +244,8 @@ export default function Career() {
                     <h2 className="s-50 w-700">Why TaraTalent?</h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
-                    Explore the compelling reasons to join our talent community and redefine your career journey.
+                      Explore the compelling reasons to join our talent
+                      community and redefine your career journey.
                     </p>
                   </div>
                 </div>
@@ -245,10 +270,12 @@ export default function Career() {
                       {/* Text */}
                       <div className="fbox-txt">
                         <h6 className="s-22 w-700">
-                        Enhanced Workspace & Resources
+                          Enhanced Workspace & Resources
                         </h6>
                         <p>
-                        Offering advanced work infrastructure, high-speed internet, and the freedom to work from any comfortable setting.
+                          Offering advanced work infrastructure, high-speed
+                          internet, and the freedom to work from any comfortable
+                          setting.
                         </p>
                       </div>
                     </div>
@@ -268,9 +295,12 @@ export default function Career() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Competitive & Fair Compensation</h6>
+                        <h6 className="s-22 w-700">
+                          Competitive & Fair Compensation
+                        </h6>
                         <p>
-                        Providing salaries well above local standards, ensuring a rewarding and financially secure career.
+                          Providing salaries well above local standards,
+                          ensuring a rewarding and financially secure career.
                         </p>
                       </div>
                     </div>
@@ -290,11 +320,11 @@ export default function Career() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">
-                        Remote Work Flexibility
-                        </h6>
+                        <h6 className="s-22 w-700">Remote Work Flexibility</h6>
                         <p>
-                        Embrace the digital nomad lifestyle with the opportunity to work remotely, offering a perfect work-life balance.
+                          Embrace the digital nomad lifestyle with the
+                          opportunity to work remotely, offering a perfect
+                          work-life balance.
                         </p>
                       </div>
                     </div>
@@ -314,11 +344,11 @@ export default function Career() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">
-                        Local Financial Ease
-                        </h6>
+                        <h6 className="s-22 w-700">Local Financial Ease</h6>
                         <p>
-                        Streamlining insurance and salary payments in local currency, eliminating complexities and enhancing convenience.
+                          Streamlining insurance and salary payments in local
+                          currency, eliminating complexities and enhancing
+                          convenience.
                         </p>
                       </div>
                     </div>
@@ -343,7 +373,9 @@ export default function Career() {
                           Professional Growth & Learning
                         </h6>
                         <p>
-                        Continuous opportunities for professional development, including mentorship, training, and specialized courses.
+                          Continuous opportunities for professional development,
+                          including mentorship, training, and specialized
+                          courses.
                         </p>
                       </div>
                     </div>
@@ -363,9 +395,13 @@ export default function Career() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Diverse and Global Network</h6>
+                        <h6 className="s-22 w-700">
+                          Diverse and Global Network
+                        </h6>
                         <p>
-                        Be part of a global community of professionals, working on innovative projects across various industry sectors.
+                          Be part of a global community of professionals,
+                          working on innovative projects across various industry
+                          sectors.
                         </p>
                       </div>
                     </div>
@@ -405,7 +441,13 @@ export default function Career() {
                           </div>
                           {/* Text */}
                           <p>
-                          Joining TaraTalent company has been a transformative experience for me. The supportive and dynamic environment here has not only propelled my professional journey but has also profoundly enriched my personal growth. I'm deeply grateful for the remarkable journey I've had so far and excited for what the future holds.
+                            Joining TaraTalent company has been a transformative
+                            experience for me. The supportive and dynamic
+                            environment here has not only propelled my
+                            professional journey but has also profoundly
+                            enriched my personal growth. {`I'm`} deeply grateful for
+                            the remarkable journey {`I've`} had so far and excited
+                            for what the future holds.
                           </p>
                           {/* Author */}
                           <p className="a2-txt-author">
@@ -445,11 +487,12 @@ export default function Career() {
                     <div className="section-title mb-70">
                       {/* Title */}
                       <h2 className="s-52 w-700">
-                      Talent Spotlight: Real Stories, Real Impact
+                        Talent Spotlight: Real Stories, Real Impact
                       </h2>
                       {/* Text */}
                       <p className="s-21 color--grey">
-                      Dive into the personal stories of growth and success from our talent members, the heart of TaraTalent.
+                        Dive into the personal stories of growth and success
+                        from our talent members, the heart of TaraTalent.
                       </p>
                     </div>
                   </div>
@@ -766,11 +809,14 @@ export default function Career() {
                         <div className="banner-12-txt color--white">
                           {/* Title */}
                           <h2 className="s-35 w-700">
-                          Empower Your Startup with Our Talent: Expertise for Victory
+                            Empower Your Startup with Our Talent: Expertise for
+                            Victory
                           </h2>
                           {/* Text */}
                           <p className="p-lg">
-                          Discover how our skilled, affordable experts can be the catalyst for your business's growth and innovation.
+                            Discover how our skilled, affordable experts can be
+                            the catalyst for your {`business's`} growth and
+                            innovation.
                           </p>
                           {/* Button */}
                           <Link
