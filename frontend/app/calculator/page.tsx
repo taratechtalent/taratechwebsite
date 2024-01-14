@@ -216,9 +216,6 @@ export default function Book() {
                                     }
                                     onClick={() => selectService(item.value)}
                                   >
-                                    <div className="tab-link-ico">
-                                      <span className="flaticon-suit" />
-                                    </div>
                                     <p>{item.name} </p>
                                   </li>
                                 );
@@ -254,9 +251,6 @@ export default function Book() {
                                   }
                                   onClick={() => selectTechnologies(item)}
                                 >
-                                  <div className="tab-link-ico">
-                                    <span className="flaticon-suit" />
-                                  </div>
                                   <p>{item} </p>
                                 </li>
                               );
