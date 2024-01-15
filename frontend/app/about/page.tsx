@@ -78,12 +78,10 @@ export default function About() {
                         </div>
                         {/* Text */}
                         <p>
-                          Naser Derakhashan, founder of an HR company, commits
-                          to global client excellence with tailored strategies,
-                          integrity, and innovative solutions, ensuring
-                          efficient, personalized support and fostering lasting
-                          partnerships in the ever-evolving world of human
-                          resources.
+                          TaraTalent was founded with a vision to bridge the gap
+                          between the demand for top-tier tech talent and the
+                          need for cost-effective staffing solutions in the
+                          ever-evolving tech industry.
                         </p>
                         {/* Author */}
                         <p className="a2-txt-author">
@@ -120,13 +118,16 @@ export default function About() {
                 <div className="col-md-6">
                   <div id="a3-1" className="txt-block">
                     {/* Title */}
-                    <h5 className="s-24 w-700 mb-20">Mission and impact</h5>
+                    <h5 className="s-30 w-700 mb-20">Mission & impact</h5>
                     {/* Text */}
                     <p>
-                      To empower organizations by providing innovative and
-                      strategic human resource solutions that cultivate talent,
-                      enhance performance, and drive success, while upholding
-                      the highest standards of integrity and collaboration.
+                      {`TaraTalent's`} mission is to connect visionary CEOs and
+                      startups with the top 1% of tech talent. Through this
+                      connection, we empower organizations to drive innovation,
+                      enhance performance, and achieve success. Our commitment
+                      to affordability ensures that excellence is within reach,
+                      while upholding the highest standards of integrity and
+                      collaboration."
                     </p>
                   </div>
                 </div>
@@ -135,16 +136,17 @@ export default function About() {
                 <div className="col-md-6">
                   <div id="a3-2" className="txt-block">
                     {/* Title */}
-                    <h5 className="s-24 w-700 mb-20">Vision</h5>
+                    <h5 className="s-30 w-700 mb-20">Vision</h5>
                     {/* Text */}
                     <p>
-                      To be the leading global innovator in human resource
-                      management, shaping the future of work by fostering
-                      inclusive, dynamic, and high-performing organizations. We
-                      strive to set the standard for excellence, integrity, and
-                      creativity in HR solutions, becoming the trusted partner
-                      of choice for companies seeking to navigate and thrive in
-                      an ever-changing business landscape.
+                      To be the forefront pioneer in connecting exceptional tech
+                      talents with innovative startups and visionary
+                      entrepreneurs worldwide. We aspire to redefine the way
+                      companies access top-tier tech expertise, making it
+                      affordable and seamless, while cultivating a global
+                      community of thriving professionals and organizations.
+                      TaraTalent envisions a future where talent knows no
+                      boundaries, and opportunities are limitless.
                     </p>
                     {/* Text */}
                   </div>
@@ -168,18 +170,18 @@ export default function About() {
                 <div className="col-md-6 order-last order-md-2">
                   <div className="txt-block left-column wow fadeInRight">
                     {/* Section ID */}
-                    <span className="section-id">Co-founder at Taratalent</span>
+                    <span className="section-id">Meet Our Co-Founder</span>
                     {/* Title */}
                     <h2 className="s-50 w-700">Amin Derakhshan</h2>
                     {/* Text */}
                     <p className="p-lg">
-                      Sodales tempor sapien diam purus ipsum quaerat and volute
-                      fusce a congue laoreet turpis neque diam auctor turpis
-                      vitae dolor magna luctus placerat neque ipsum fusce cursus
-                      ligula cursus purus vitae purus and ipsum suscipit. Nemo
-                      ipsam cubilia donec turpis undo egestas ipsum a purus
-                      sapien ultrice aliquam lacus and quaerat an ipsum augue
-                      turpis sapien cursus congue augue
+                      {`TaraTalent's`} journey began with a deep understanding
+                      of the {`market's`} needs. Faced with a growing demand for
+                      skilled tech professionals and the necessity for
+                      cost-effective staffing solutions, we set out to bridge
+                      this gap. Our mission is to forge connections that empower
+                      businesses with the right talent to fuel innovation and
+                      drive growth.
                     </p>
                   </div>
                 </div>
@@ -229,23 +231,25 @@ export default function About() {
                     </h2>
                     {/* Text */}
                     <p>
-                      When it comes to our commitment to client satisfaction,
-                      our approach is twofold: first, we focus on understanding
-                      the unique needs and goals of each client, ensuring that
-                      our services are tailored to meet their specific
-                      requirements. We believe in building strong relationships
-                      based on trust, transparency, and continuous
-                      communication, allowing us to adapt and evolve our
-                      services as our {`clients'needs`} change
+                      Our commitment to client satisfaction is at our core. We
+                      begin by understanding your unique needs and goals,
+                      ensuring our consultancy introduces cost-effective talent
+                      tailored to your requirements. Trust, transparency, and
+                      continuous communication form the foundation of our client
+                      relationships, enabling us to adapt and excel as your
+                      needs change.
                     </p>
                     {/* Text */}
                     <p className="mb-0">
-                      Second, we commit to delivering the highest quality of
-                      service, utilizing our {`team's`} expertise, innovative
-                      solutions, and a rigorous attention to detail to exceed
-                      expectations. This commitment to excellence and
-                      adaptability ensures that our clients feel valued,
-                      understood, and confident in the results we deliver.
+                      We pledge to deliver high-quality consultancy, leveraging
+                      our {`team's`} expertise and innovative solutions in a
+                      staff augmentation model to exceed your expectations. This
+                      commitment to excellence and affordability ensures you
+                      feel valued, understood, and confident in the results we
+                      deliver. With TaraTalent, you gain more than a
+                      consultancy; you gain a strategic partner dedicated to
+                      your {`company's`} growth and innovation through
+                      affordable tech talent introductions.
                     </p>
                   </div>
                 </div>
@@ -483,22 +487,37 @@ export default function About() {
                   <div className="txt-block left-column wow fadeInRight">
                     {/* Section ID */}
                     {/* Title */}
-                    <h2 className="s-46 w-700">Our Office & Infrastructure</h2>
+                    <h2 className="s-46 w-700">Our Infrastructures</h2>
                     {/* List */}
                     <ul className="simple-list">
                       <li className="list-item">
+                        {/* Title */}
+                        <h5 className="s-24 w-700 mb-20">Optimal Work Environment</h5>
+                        {/* Text */}
                         <p>
-                          Paj Tower is a multifunctional complex in Mashhad,
-                          offering luxury residential, commercial, and retail
-                          spaces with a focus on modern design and efficiency.
+                          At TaraTalent, we recognize the significance of
+                          offering your dedicated talent the perfect work
+                          environment. We provide a variety of options carefully
+                          crafted to meet their unique requirements, ensuring
+                          they have an ideal setting to excel in their projects.
+                          Whether your talent prefers to work from the comfort
+                          of their own space, the dynamic atmosphere of a
+                          co-working location, or even our own offices, we have
+                          the infrastructure and facilities in place to support
+                          their work.
                         </p>
                       </li>
                       <li className="list-item">
+                        {/* Title */}
+                        <h5 className="s-24 w-700 mb-20">Enhancing Talent Productivity</h5>
+                        {/* Text */}
                         <p className="mb-0">
-                          It significantly contributes to {`Mashhad's`} urban
-                          landscape and economy, symbolizing the {`city's`}
-                          modernization and appeal as a commercial and cultural
-                          destination.
+                          Our commitment to delivering top-tier, cost-effective
+                          solutions extends to ensuring that your {`talent's`} work
+                          environment is not only productive but also
+                          comfortable and efficient. With TaraTalent, you
+                          empower your talent to achieve outstanding results,
+                          ultimately benefiting your {`organization's`} success.
                         </p>
                       </li>
                     </ul>
