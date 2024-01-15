@@ -19,6 +19,7 @@ export default function Book() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
+  const [description, setMessage] = useState("");
   return (
     <>
       <Layout
@@ -58,7 +59,7 @@ export default function Book() {
                                 <div className="tab-link-ico">
                                   <span className="flaticon-suit" />
                                 </div>
-                                <p>Book a call </p>
+                                <p>Schedule a Meeting </p>
                               </li>
                               {/* TAB-3 LINK */}
 
@@ -88,10 +89,9 @@ export default function Book() {
                                     <div className="col-md-12">
                                       <div className="register-form-title">
                                         <p className="p-md">
-                                          Thank you for reaching out. Please
-                                          provide your contact information so we
-                                          can arrange a meeting with our
-                                          specialist.
+                                          Thank you for reaching out.Please
+                                          share your contact details to set up a
+                                          meeting with our specialist.
                                         </p>
                                       </div>
                                     </div>
@@ -111,7 +111,7 @@ export default function Book() {
                                           className="form-control text"
                                           type="text"
                                           name="name"
-                                          placeholder="your fullname"
+                                          placeholder="Please provide your full name."
                                           value={name}
                                           onChange={(e) =>
                                             setName(e.target.value)
@@ -126,7 +126,7 @@ export default function Book() {
                                           className="form-control text"
                                           type="text"
                                           name="text"
-                                          placeholder=""
+                                          placeholder="Tell us the name of your company."
                                           value={phone}
                                           onChange={(e) =>
                                             setPhone(e.target.value)
@@ -141,7 +141,7 @@ export default function Book() {
                                           className="form-control text"
                                           type="text"
                                           name="text"
-                                          placeholder=""
+                                          placeholder="What's your role at the company? (e.g., CEO, CTO, Project Manager)"
                                           value={phone}
                                           onChange={(e) =>
                                             setPhone(e.target.value)
@@ -156,21 +156,33 @@ export default function Book() {
                                           className="form-control email"
                                           type="email"
                                           name="email"
-                                          placeholder="An email to can contact you"
+                                          placeholder="Please enter a valid email address where we can contact you."
                                           value={email}
                                           onChange={(e) =>
                                             setEmail(e.target.value)
                                           }
                                         />
                                       </div>{" "}
+                                       <div className="col-md-12">
+                                        <p className="p-sm input-header">How can we help? (Optional):</p>
+
+                                        <textarea
+                                          className="form-control message"
+                                          name="message"
+                                          rows={6}
+                                          placeholder="Let us know your preferences to tailor our meeting to your needs. "
+                                          value={description}
+                                          onChange={(e) => setMessage(e.target.value)}
+                                        />
+                                      </div>
                                       {/* Form Submit Button */}
                                       <div className="col-md-12 col-sm-12 text-center">
                                         <button
-                                          style={{ width: "30%" }}
+                                          style={{ width: "25%" }}
                                           type="submit"
                                           className="btn btn--theme hover--theme submit"
                                         >
-                                          Submit a request
+                                          Arrange a Call
                                         </button>
                                       </div>
                                     </form>{" "}
