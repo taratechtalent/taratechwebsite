@@ -127,7 +127,7 @@ export default function About() {
                       enhance performance, and achieve success. Our commitment
                       to affordability ensures that excellence is within reach,
                       while upholding the highest standards of integrity and
-                      collaboration."
+                      collaboration.
                     </p>
                   </div>
                 </div>
