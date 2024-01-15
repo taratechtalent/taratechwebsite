@@ -120,7 +120,7 @@ export default function Contact() {
 
                     <p className="p-lg">
                       We value your uniqueness and skills. By providing us with
-                      some information, you'll help us match you with the
+                      some information, {`you'll`} help us match you with the
                       perfect opportunities. Fill out the following details:
                     </p>
                   </div>
