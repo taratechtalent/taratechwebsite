@@ -71,10 +71,18 @@ export default function Contact() {
                       <div className="txt-block left-column wow fadeInRight">
                         {/* Section ID */}
                         {/* Title */}
-                        <h2 className="s-46 w-700">
-                          Join to our Talent network
+                        <h2 className="s-56 w-700">
+                          Join our Talent network
                         </h2>
                         {/* Text */}
+                        {/* Text */}
+                        <p className="p-lg w-400">
+                          Explore  our talent community to unlock a world of
+                          opportunities. By becoming a part of our talent
+                          network, {`you'll`} gain access to exclusive job openings,
+                          industry insights, and networking opportunities. Stay
+                          connected with us and take your career to new heights.
+                        </p>
                       </div>
                     </div>
                     {/* END TEXT BLOCK */}
@@ -107,12 +115,13 @@ export default function Contact() {
                 <div className="col-md-10 col-lg-9">
                   <div className="section-title text-center mb-80">
                     {/* Title */}
-                    <h2 className="s-52 w-700">Introduce your self</h2>
+                    <h2 className="s-52 w-700">Submit Your Application</h2>
                     {/* Text */}
 
                     <p className="p-lg">
-                      We will collect all information about you from your
-                      linkedin profile, so please keep it update
+                      We value your uniqueness and skills. By providing us with
+                      some information, you'll help us match you with the
+                      perfect opportunities. Fill out the following details:
                     </p>
                   </div>
                 </div>
@@ -129,7 +138,7 @@ export default function Contact() {
                           type="text"
                           name="name"
                           className="form-control name"
-                          placeholder="Your Name*"
+                          placeholder="Your full name as it appears on your official documents*"
                           value={name}
                           onChange={(e) => setName(e.target.value)}
                         />
@@ -152,7 +161,7 @@ export default function Contact() {
                           type="text"
                           name="email"
                           className="form-control email"
-                          placeholder="Email Address*"
+                          placeholder="The email address we can use to contact you*"
                           value={email}
                           onChange={(e) => setEmail(e.target.value)}
                         />
@@ -166,13 +175,13 @@ export default function Contact() {
                         />
                       </div>
                       <div className="col-md-12">
-                        <p className="p-lg">Tell us more if you want</p>
+                        <p className="p-lg">Tell us more (Optional):</p>
 
                         <textarea
                           className="form-control message"
                           name="message"
                           rows={6}
-                          placeholder="Every thing you think that make us know you better. "
+                          placeholder="Feel free to share anything you think will help us understand you better "
                           value={description}
                           onChange={(e) => setMessage(e.target.value)}
                         />
@@ -193,7 +202,7 @@ export default function Contact() {
                                 <span className="sr-only"></span>
                               </div>
                             )}
-                            Register In our Talent Network
+                            Become a Tara talent
                           </div>
                         </button>
                       </div>
