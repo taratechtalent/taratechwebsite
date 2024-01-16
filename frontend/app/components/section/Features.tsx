@@ -33,11 +33,7 @@ export default function Features() {
                       src="/images/f_01.png"
                       alt="feature-image"
                     />
-                    <img
-                      className="img-fluid dark-theme-img"
-                      src="/images/f_01_dark.png"
-                      alt="feature-image"
-                    />
+                    
                   </div>
                   {/* Text */}
                   <div className="fbox-txt">
@@ -61,11 +57,7 @@ export default function Features() {
                       src="/images/f_01.png"
                       alt="feature-image"
                     />
-                    <img
-                      className="img-fluid dark-theme-img"
-                      src="/images/f_01_dark.png"
-                      alt="feature-image"
-                    />
+                    
                   </div>
                   {/* Text */}
                   <div className="fbox-txt">
@@ -89,11 +81,7 @@ export default function Features() {
                       src="/images/f_01.png"
                       alt="feature-image"
                     />
-                    <img
-                      className="img-fluid dark-theme-img"
-                      src="/images/f_01_dark.png"
-                      alt="feature-image"
-                    />
+                    
                   </div>
                   {/* Text */}
                   <div className="fbox-txt">
@@ -118,11 +106,7 @@ export default function Features() {
                       src="/images/f_05.png"
                       alt="feature-image"
                     />
-                    <img
-                      className="img-fluid dark-theme-img"
-                      src="/images/f_05_dark.png"
-                      alt="feature-image"
-                    />
+                    
                   </div>
                   {/* Text */}
                   <div className="fbox-txt">
@@ -146,11 +130,7 @@ export default function Features() {
                       src="/images/f_02.png"
                       alt="feature-image"
                     />
-                    <img
-                      className="img-fluid dark-theme-img"
-                      src="/images/f_02_dark.png"
-                      alt="feature-image"
-                    />
+                    
                   </div>
                   {/* Text */}
                   <div className="fbox-txt">
@@ -176,11 +156,7 @@ export default function Features() {
                       src="/images/f_02.png"
                       alt="feature-image"
                     />
-                    <img
-                      className="img-fluid dark-theme-img"
-                      src="/images/f_02_dark.png"
-                      alt="feature-image"
-                    />
+                    
                   </div>
                   {/* Text */}
                   <div className="fbox-txt">
