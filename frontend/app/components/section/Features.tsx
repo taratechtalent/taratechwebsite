@@ -41,12 +41,42 @@ export default function Features() {
                   </div>
                   {/* Text */}
                   <div className="fbox-txt">
+                    <h6 className="s-22 w-700">Access to Elite Tech Talent</h6>
+                    <p>
+                      TaraTalent connects clients with the top 1% of tech
+                      talent, providing access to a pool of highly skilled
+                      professionals from the Middle East. This access to elite
+                      talent can significantly enhance the technical
+                      capabilities of your projects.
+                    </p>
+                  </div>
+                </div>
+              </div>{" "}
+              {/* END FEATURE BOX #1 */}
+              {/* FEATURE BOX #1 */}
+              <div className="col">
+                <div className="fbox-2 fb-1 wow fadeInUp">
+                  {/* Image */}
+                  <div className="fbox-img gr--whitesmoke h-175">
+                    <img
+                      className="img-fluid light-theme-img"
+                      src="/images/f_01.png"
+                      alt="feature-image"
+                    />
+                    <img
+                      className="img-fluid dark-theme-img"
+                      src="/images/f_01_dark.png"
+                      alt="feature-image"
+                    />
+                  </div>
+                  {/* Text */}
+                  <div className="fbox-txt">
                     <h6 className="s-22 w-700">Cost-Effective Expertise</h6>
                     <p>
-                      Access highly skilled tech professionals at rates that
-                      significantly reduce your staffing costs.Our strategic
-                      location advantage translates into affordable solutions
-                      without compromising on quality.
+                      Leveraging the lower cost of living in the Middle East,
+                      TaraTalent offers highly affordable rates for top-tier
+                      talent. This means clients can enjoy reduced staffing
+                      costs without compromising on the quality of work.
                     </p>
                   </div>
                 </div>
@@ -70,41 +100,12 @@ export default function Features() {
                   </div>
                   {/* Text */}
                   <div className="fbox-txt">
-                    <h6 className="s-22 w-700">Flexible Engagement</h6>
+                    <h6 className="s-22 w-700">Flexible Work Arrangements</h6>
                     <p>
-                      Adapt to your {`project's`} changing needs with our flexible
-                      engagement model. Scale your team up or down effortlessly,
-                      with contract terms that prioritize your {`company's`} dynamic
-                      requirements.
-                    </p>
-                  </div>
-                </div>
-              </div>{" "}
-              {/* END FEATURE BOX #1 */}
-              {/* FEATURE BOX #1 */}
-              <div className="col">
-                <div className="fbox-2 fb-1 wow fadeInUp">
-                  {/* Image */}
-                  <div className="fbox-img gr--whitesmoke h-175">
-                    <img
-                      className="img-fluid light-theme-img"
-                      src="/images/f_01.png"
-                      alt="feature-image"
-                    />
-                    <img
-                      className="img-fluid dark-theme-img"
-                      src="/images/f_01_dark.png"
-                      alt="feature-image"
-                    />
-                  </div>
-                  {/* Text */}
-                  <div className="fbox-txt">
-                    <h6 className="s-22 w-700">Continuous Support</h6>
-                    <p>
-                      Benefit from ongoing technical support and talent
-                      development. Our commitment to continuous growth means the
-                      talent you hire today will evolve to meet {`tomorrow's`}
-                      challenges, adding lasting value to your projects.{" "}
+                      Understanding the dynamic nature of business, TaraTalent
+                      offers flexible engagement models. Clients can scale their
+                      teams up or down as per project demands, ensuring optimal
+                      resource utilization.
                     </p>
                   </div>
                 </div>
@@ -128,11 +129,14 @@ export default function Features() {
                   </div>
                   {/* Text */}
                   <div className="fbox-txt">
-                    <h6 className="s-22 w-700">Hassle-Free Collaboration</h6>
+                    <h6 className="s-22 w-700">
+                      Timezone Aligned Collaboration
+                    </h6>
                     <p>
-                      Experience the ease of working with us, from streamlined
-                      hiring processes to efficient project management, ensuring
-                      a smooth, stress-free partnership.
+                      TaraTalent ensures that the talent provided is aligned
+                      with the {`client's`} timezone, facilitating seamless
+                      communication and collaboration, which is crucial for
+                      remote work setups.
                     </p>
                   </div>
                 </div>
@@ -156,12 +160,44 @@ export default function Features() {
                   </div>
                   {/* Text */}
                   <div className="fbox-txt">
-                    <h6 className="s-22 w-700">Seamless Integration</h6>
+                    <h6 className="s-22 w-700">
+                      Continuous Talent Development
+                    </h6>
                     <p>
-                      Enjoy smooth collaboration with a remote workforce that
-                      aligns with your timezone. Our professionals are adept at
-                      integrating into diverse work environments, ensuring
-                      efficient and cohesive teamwork
+                      TaraTalent is committed to the continuous growth and
+                      development of its professionals. This means the talent
+                      working with clients is always up-to-date with the latest
+                      technologies and industry practices, adding value to their
+                      projects.
+                    </p>
+                  </div>
+                </div>
+              </div>{" "}
+              {/* END FEATURE BOX #3 */}
+              {/* FEATURE BOX #3 */}
+              <div className="col">
+                <div className="fbox-2 fb-3 wow fadeInUp">
+                  {/* Image */}
+                  <div className="fbox-img gr--whitesmoke h-175">
+                    <img
+                      className="img-fluid light-theme-img"
+                      src="/images/f_02.png"
+                      alt="feature-image"
+                    />
+                    <img
+                      className="img-fluid dark-theme-img"
+                      src="/images/f_02_dark.png"
+                      alt="feature-image"
+                    />
+                  </div>
+                  {/* Text */}
+                  <div className="fbox-txt">
+                    <h6 className="s-22 w-700">Effortless Client Experience</h6>
+                    <p>
+                      From streamlined hiring processes to efficient contract
+                      management, TaraTalent ensures a smooth and stress-free
+                      experience for clients. This ease of engagement allows
+                      clients to focus more on their core business activities.
                     </p>
                   </div>
                 </div>
