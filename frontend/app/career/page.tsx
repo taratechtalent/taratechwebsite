@@ -337,7 +337,7 @@ export default function Career() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            <img src="images/services/icons8-currency-settings-80.png" />
+                            <img src="images/services/icons8-transaction-50.png" />
                           </div>
                         </div>
                       </div>{" "}

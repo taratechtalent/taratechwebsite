@@ -163,16 +163,20 @@ export default function Book() {
                                           }
                                         />
                                       </div>{" "}
-                                       <div className="col-md-12">
-                                        <p className="p-sm input-header">How can we help? (Optional):</p>
+                                      <div className="col-md-12">
+                                        <p className="p-sm input-header">
+                                          How can we help? (Optional):
+                                        </p>
 
                                         <textarea
-                                          className="form-control message"
+                                          className="form-control "
                                           name="message"
-                                          rows={6}
+                                          rows={5}
                                           placeholder="Let us know your preferences to tailor our meeting to your needs. "
                                           value={description}
-                                          onChange={(e) => setMessage(e.target.value)}
+                                          onChange={(e) =>
+                                            setMessage(e.target.value)
+                                          }
                                         />
                                       </div>
                                       {/* Form Submit Button */}
