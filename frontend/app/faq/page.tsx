@@ -40,7 +40,8 @@ export default function Home() {
                 <div className="inner-page-title">
                   <h2 className="s-52 w-700">FAQs</h2>
                   <p className="p-lg">
-                  Answers to Common Inquiries for our Valued Clients and  professional Talents
+                    Answers to Common Inquiries for our Valued Clients and
+                    professional Talents
                   </p>
                 </div>
                 {/* QUESTIONS ACCORDION */}
@@ -355,7 +356,71 @@ export default function Home() {
                           {/* Question */}
                           <div className="faqs-2-question">
                             <h5 className="s-22 w-700">
-                              <span>14.</span> How can I get started with
+                              <span>14.</span> What is {`TaraTalent's`} trial
+                              period policy for new talent placements?
+                            </h5>
+                          </div>
+                          {/* Answer */}
+                          <div className="faqs-2-answer color--grey">
+                            {/* Text */}
+                            <p>
+                              TaraTalent offers a one-month free trial period.
+                              If {`you're`} not satisfied with the talent within
+                              this period, you can cancel the contract without
+                              any financial obligation.
+                            </p>
+                          </div>
+                        </div>{" "}
+                        {/* END QUESTION #14 */}
+                        {/* QUESTION #15 */}
+                        <div className="accordion-panel-item">
+                          {/* Question */}
+                          <div className="faqs-2-question">
+                            <h5 className="s-22 w-700">
+                              <span>15.</span> How does TaraTalent handle
+                              contract cancellations?
+                            </h5>
+                          </div>
+                          {/* Answer */}
+                          <div className="faqs-2-answer color--grey">
+                            {/* Text */}
+                            <p>
+                              For all contract cancellations, TaraTalent
+                              requires a two-week notice period, applicable both
+                              during and after the trial period, to ensure a
+                              smooth transition without any additional
+                              penalties.
+                            </p>
+                          </div>
+                        </div>{" "}
+                        {/* END QUESTION #15 */}
+                        {/* QUESTION #16 */}
+                        <div className="accordion-panel-item">
+                          {/* Question */}
+                          <div className="faqs-2-question">
+                            <h5 className="s-22 w-700">
+                              <span>16.</span> Can we replace a talent if
+                              {`they're`} not a good fit?
+                            </h5>
+                          </div>
+                          {/* Answer */}
+                          <div className="faqs-2-answer color--grey">
+                            {/* Text */}
+                            <p>
+                              Yes, if the talent provided by TaraTalent does not
+                              meet your expectations, we offer the option to
+                              replace them with another qualified professional
+                              to ensure a perfect match for your project.
+                            </p>
+                          </div>
+                        </div>{" "}
+                        {/* END QUESTION #16 */}
+                        {/* QUESTION #17 */}
+                        <div className="accordion-panel-item">
+                          {/* Question */}
+                          <div className="faqs-2-question">
+                            <h5 className="s-22 w-700">
+                              <span>17.</span> How can I get started with
                               TaraTalent?
                             </h5>
                           </div>
@@ -373,7 +438,7 @@ export default function Home() {
                             </p>
                           </div>
                         </div>{" "}
-                        {/* END QUESTION #14 */}
+                        {/* END QUESTION #17 */}
                       </div>{" "}
                       {/* END CATEGORY ANSWERS */}
                     </li>{" "}
@@ -588,8 +653,8 @@ export default function Home() {
                               ensure your success while working remotely. These
                               include high-speed internet access, modern work
                               infrastructure, flexible workspaces, and
-                              continuous technical support. {`We're`} committed to
-                              creating an optimal work environment for you,
+                              continuous technical support. {`We're`} committed
+                              to creating an optimal work environment for you,
                               wherever you choose to work.
                             </p>
                           </div>
@@ -631,11 +696,11 @@ export default function Home() {
                             {/* Text */}
                             <p>
                               Absolutely! We offer the flexibility to work from
-                              anywhere, whether {`it's`} the comfort of your home, a
-                              cozy café, a scenic destination, or even one of
-                              our office spaces if you prefer a more traditional
-                              work environment. Embrace the digital nomad
-                              lifestyle and find your ideal work setting.
+                              anywhere, whether {`it's`} the comfort of your
+                              home, a cozy café, a scenic destination, or even
+                              one of our office spaces if you prefer a more
+                              traditional work environment. Embrace the digital
+                              nomad lifestyle and find your ideal work setting.
                             </p>
                           </div>
                         </div>{" "}
@@ -685,7 +750,6 @@ export default function Home() {
                         {/* END QUESTION #13 */}
                       </div>{" "}
                       {/* END CATEGORY ANSWERS */}
-
                     </li>{" "}
                   </ul>
                 </div>{" "}
