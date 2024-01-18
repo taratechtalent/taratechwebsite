@@ -13728,3 +13728,10 @@ html {
   color: #555;
   cursor: pointer;
 }
+
+.heromain {
+  background-image: url("https://bairesdev.mo.cloudinary.net/coresite/home/hero.png");
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}

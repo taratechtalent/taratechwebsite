@@ -6,24 +6,15 @@ import Typewriter from "typewriter-effect";
 export default function Hero() {
   return (
     <>
-      <section id="hero-2" className="bg--scroll hero-section">
+      <section id="hero-2" className="bg--scroll hero-section heromain">
         <div className="container">
           <div className="row d-flex align-items-center">
             {/* HERO IMAGE */}
-            <div className="col-md-6 order-last order-md-2">
-              <div className="hero-2-img wow fadeInRight">
-                <img
-                  className="img-fluid"
-                  src="/images/heromain.png"
-                  alt="hero-image"
-                />
-              </div>
-            </div>
             {/* HERO TEXT */}
             <div className="col-md-6 order-first order-md-2">
               <div className="hero-2-txt wow fadeInLeft">
                 {/* Title */}
-                <h2 className="s-56 w-700 color--black">
+                <h2 className="s-56 w-700 color--black mt-64">
                   Affordable <span className="main-text">Senior Talents</span>{" "}
                   for startups
                 </h2>
@@ -31,8 +22,6 @@ export default function Hero() {
                 <p className="p-lg">
                   elevates your business with experienced tech professionals who
                   offer the perfect blend of quality and cost-efficiency.
-                  Partner with us to harness global expertise that fits your
-                  startup budget and fuels your growth
                 </p>
                 {/* HERO DIGITS */}
                 <h2 className="s-25 w-700 color--black">
