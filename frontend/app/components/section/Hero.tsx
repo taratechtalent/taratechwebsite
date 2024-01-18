@@ -1,4 +1,8 @@
 /* eslint-disable @next/next/no-img-element */
+"use client";
+
+import { useEffect } from "react";
+import Typewriter from "typewriter-effect";
 export default function Hero() {
   return (
     <>
@@ -10,7 +14,7 @@ export default function Hero() {
               <div className="hero-2-img wow fadeInRight">
                 <img
                   className="img-fluid"
-                  src="/images/hero-2-img.png"
+                  src="/images/heromain.png"
                   alt="hero-image"
                 />
               </div>
@@ -31,74 +35,23 @@ export default function Hero() {
                   startup budget and fuels your growth
                 </p>
                 {/* HERO DIGITS */}
-                <div className="hero-digits row">
-                  {/* DIGIT BLOCK #1 */}
-                  <div id="hd-1-1" className="wow fadeInUp col-md-6 col-sm-12">
-                    <div className="hero-digits-block">
-                      {/* Digit */}
-                      <div className="block-digit">
-                        <h2 className="s-20 statistic-number color--black">
-                          Easy contract
-                        </h2>
-                      </div>
-                      {/* Text */}
-                      <div className="block-txt">
-                        <p className="p-sm"></p>
-                      </div>
-                    </div>
-                  </div>{" "}
-                  <div id="hd-1-1" className="wow fadeInUp col-md-6 col-sm-12">
-                    <div className="hero-digits-block">
-                      {/* Digit */}
-                      <div className="block-digit">
-                        <h2 className="s-20 statistic-number color--black">
-                          Flexibility
-                        </h2>
-                      </div>
-                      {/* Text */}
-                      <div className="block-txt">
-                        <p className="p-sm"></p>
-                      </div>
-                    </div>
-                  </div>{" "}
-                  <div
-                    id="hd-1-1"
-                    className="wow fadeInUp pt-6 col-md-6 col-sm-12"
-                  >
-                    <div className="hero-digits-block">
-                      {/* Digit */}
-                      <div className="block-digit">
-                        <h2 className="s-20 statistic-number color--black">
-                          Affordability
-                        </h2>
-                      </div>
-                      {/* Text */}
-                      <div className="block-txt">
-                        <p className="p-sm"></p>
-                      </div>
-                    </div>
-                  </div>{" "}
-                  <div
-                    id="hd-1-1"
-                    className="wow fadeInUp pt-6 col-md-6 col-sm-12"
-                  >
-                    <div className="hero-digits-block">
-                      {/* Digit */}
-                      <div className="block-digit">
-                        <h2 className="s-20 statistic-number color--black">
-                          Technical Support
-                        </h2>
-                      </div>
-                      {/* Text */}
-                      <div className="block-txt">
-                        <p className="p-sm"></p>
-                      </div>
-                    </div>
-                  </div>{" "}
-                  {/* END DIGIT BLOCK #1 */}
-                  {/* DIGIT BLOCK #2 */}
-                  {/* END DIGIT BLOCK #2 */}
-                </div>{" "}
+                <h2 className="s-25 w-700 color--black">
+                  Unlock <span className="main-text">Senior Talents</span>{" "}
+                  <span className="s-20 w-700 color--black ml-10 pd-10 mt-15">
+                    <Typewriter
+                      options={{
+                        strings: [
+                          "Web Development -> €70K/y",
+                          "Devops -> €60K/y",
+                          "UI/UX -> €120K/y",
+                        ],
+                        autoStart: true,
+                        loop: true,
+                        delay: 100,
+                      }}
+                    />
+                  </span>
+                </h2>
                 {/* END HERO DIGITS */}
               </div>
             </div>{" "}
