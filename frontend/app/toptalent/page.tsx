@@ -199,7 +199,7 @@ export default function TopTalent() {
                           <div className="shape-ico">
                             {/* Vector Icon */}
                             {/* Shape */}
-                            <img src="images/services/web.png" />
+                            <img src="images/services/affordable global talent.png" />
                           </div>
                         </div>
                       </div>{" "}
@@ -223,7 +223,7 @@ export default function TopTalent() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            <img src="images/services/qa.png" />
+                            <img src="images/services/smart contract.png" />
                           </div>
                         </div>
                       </div>{" "}
@@ -249,7 +249,7 @@ export default function TopTalent() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            <img src="images/services/mobile.png" />
+                            <img src="images/services/experties.png" />
                           </div>
                         </div>
                       </div>{" "}
@@ -275,7 +275,7 @@ export default function TopTalent() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            <img src="images/services/ui.png" />
+                            <img src="images/services/timezone alignment.png" />
                           </div>
                         </div>
                       </div>{" "}
@@ -301,7 +301,7 @@ export default function TopTalent() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            <img src="images/services/devops.png" />
+                            <img src="images/services/support & growth.png" />
                           </div>
                         </div>
                       </div>{" "}
@@ -328,7 +328,7 @@ export default function TopTalent() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            <img src="images/services/art.png" />
+                            <img src="images/services/client centric transactions.png" />
                           </div>
                         </div>
                       </div>{" "}

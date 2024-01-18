@@ -33,20 +33,39 @@ export default function Features() {
                       src="/images/f_01.png"
                       alt="feature-image"
                     />
+                    
+                  </div>
+                  {/* Text */}
+                  <div className="fbox-txt">
+                    <h6 className="s-22 w-700">Access to Elite Tech Talent</h6>
+                    <p>
+                      TaraTalent offers exclusive access to the top 1% of tech
+                      professionals in the Middle East, significantly boosting
+                      your {`project's`} technical prowess.
+                    </p>
+                  </div>
+                </div>
+              </div>{" "}
+              {/* END FEATURE BOX #1 */}
+              {/* FEATURE BOX #1 */}
+              <div className="col">
+                <div className="fbox-2 fb-1 wow fadeInUp">
+                  {/* Image */}
+                  <div className="fbox-img gr--whitesmoke h-175">
                     <img
-                      className="img-fluid dark-theme-img"
-                      src="/images/f_01_dark.png"
+                      className="img-fluid light-theme-img"
+                      src="/images/f_01.png"
                       alt="feature-image"
                     />
+                    
                   </div>
                   {/* Text */}
                   <div className="fbox-txt">
                     <h6 className="s-22 w-700">Cost-Effective Expertise</h6>
                     <p>
-                      Access highly skilled tech professionals at rates that
-                      significantly reduce your staffing costs.Our strategic
-                      location advantage translates into affordable solutions
-                      without compromising on quality.
+                      TaraTalent offers top-tier talent at highly affordable
+                      rates, reducing staffing costs without sacrificing
+                      quality.
                     </p>
                   </div>
                 </div>
@@ -62,49 +81,16 @@ export default function Features() {
                       src="/images/f_01.png"
                       alt="feature-image"
                     />
-                    <img
-                      className="img-fluid dark-theme-img"
-                      src="/images/f_01_dark.png"
-                      alt="feature-image"
-                    />
+                    
                   </div>
                   {/* Text */}
                   <div className="fbox-txt">
-                    <h6 className="s-22 w-700">Flexible Engagement</h6>
+                    <h6 className="s-22 w-700">Tailored Contracts</h6>
                     <p>
-                      Adapt to your {`project's`} changing needs with our flexible
-                      engagement model. Scale your team up or down effortlessly,
-                      with contract terms that prioritize your {`company's`} dynamic
-                      requirements.
-                    </p>
-                  </div>
-                </div>
-              </div>{" "}
-              {/* END FEATURE BOX #1 */}
-              {/* FEATURE BOX #1 */}
-              <div className="col">
-                <div className="fbox-2 fb-1 wow fadeInUp">
-                  {/* Image */}
-                  <div className="fbox-img gr--whitesmoke h-175">
-                    <img
-                      className="img-fluid light-theme-img"
-                      src="/images/f_01.png"
-                      alt="feature-image"
-                    />
-                    <img
-                      className="img-fluid dark-theme-img"
-                      src="/images/f_01_dark.png"
-                      alt="feature-image"
-                    />
-                  </div>
-                  {/* Text */}
-                  <div className="fbox-txt">
-                    <h6 className="s-22 w-700">Continuous Support</h6>
-                    <p>
-                      Benefit from ongoing technical support and talent
-                      development. Our commitment to continuous growth means the
-                      talent you hire today will evolve to meet {`tomorrow's`}
-                      challenges, adding lasting value to your projects.{" "}
+                      Craft contracts that align with your unique project
+                      requirements, thanks to {`TaraTalent's`} flexible engagement
+                      options. Scale your team as needed for optimal resource
+                      utilization
                     </p>
                   </div>
                 </div>
@@ -120,19 +106,15 @@ export default function Features() {
                       src="/images/f_05.png"
                       alt="feature-image"
                     />
-                    <img
-                      className="img-fluid dark-theme-img"
-                      src="/images/f_05_dark.png"
-                      alt="feature-image"
-                    />
+                    
                   </div>
                   {/* Text */}
                   <div className="fbox-txt">
-                    <h6 className="s-22 w-700">Hassle-Free Collaboration</h6>
+                    <h6 className="s-22 w-700">Seamless Timezone Match</h6>
                     <p>
-                      Experience the ease of working with us, from streamlined
-                      hiring processes to efficient project management, ensuring
-                      a smooth, stress-free partnership.
+                      TaraTalent aligns talent with your timezone for smooth
+                      remote collaboration, enhancing communication for remote
+                      work setups.
                     </p>
                   </div>
                 </div>
@@ -148,20 +130,41 @@ export default function Features() {
                       src="/images/f_02.png"
                       alt="feature-image"
                     />
-                    <img
-                      className="img-fluid dark-theme-img"
-                      src="/images/f_02_dark.png"
-                      alt="feature-image"
-                    />
+                    
                   </div>
                   {/* Text */}
                   <div className="fbox-txt">
-                    <h6 className="s-22 w-700">Seamless Integration</h6>
+                    <h6 className="s-22 w-700">
+                    Skill Advancement
+                    </h6>
                     <p>
-                      Enjoy smooth collaboration with a remote workforce that
-                      aligns with your timezone. Our professionals are adept at
-                      integrating into diverse work environments, ensuring
-                      efficient and cohesive teamwork
+                      Our professionals stay updated with the latest industry
+                      advancements, ensuring your projects benefit from their
+                      continuous growth.
+                    </p>
+                  </div>
+                </div>
+              </div>{" "}
+              {/* END FEATURE BOX #3 */}
+              {/* FEATURE BOX #3 */}
+              <div className="col">
+                <div className="fbox-2 fb-3 wow fadeInUp">
+                  {/* Image */}
+                  <div className="fbox-img gr--whitesmoke h-175">
+                    <img
+                      className="img-fluid light-theme-img"
+                      src="/images/f_02.png"
+                      alt="feature-image"
+                    />
+                    
+                  </div>
+                  {/* Text */}
+                  <div className="fbox-txt">
+                    <h6 className="s-22 w-700">Effortless Client Experience</h6>
+                    <p>
+                      TaraTalent handles administrative tasks, employment
+                      contracts, leaves, and compliance with local labor laws,
+                      allowing CEOs to focus worry-free on project success.
                     </p>
                   </div>
                 </div>

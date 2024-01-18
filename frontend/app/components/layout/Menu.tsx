@@ -5,27 +5,10 @@ export default function Menu() {
     <>
       <ul className="wsmenu-list nav-theme">
         {/* DROPDOWN SUB MENU */}
-        <li>
-          <Link href="/" className="h-link">
-            Tara Talent <span className="wsarrow" />
+        <li className="nl-simple">
+          <Link href="/toptalent" className="h-link">
+            Top 1%
           </Link>
-          <ul className="sub-menu">
-            <li>
-              <Link href="/#lnk-1">Why Us</Link>
-            </li>
-            <li>
-              <Link href="/#lnk-2">Integrations</Link>
-            </li>
-            <li>
-              <Link href="/#lnk-3">How It Works</Link>
-            </li>
-            <li>
-              <Link href="/#features-2">Best Solutions</Link>
-            </li>
-            <li>
-              <Link href="/#reviews-1">Testimonials</Link>
-            </li>
-          </ul>
         </li>
         <li className="nl-simple">
           <Link href="/service" className="h-link">
@@ -68,10 +51,7 @@ export default function Menu() {
               <Link href="/team">Leadership team</Link>
             </li>
             <li>
-              <Link href="/toptalent">Top 1% talent</Link>
-            </li>
-            <li>
-              <Link href="/contact">Contact Us</Link>
+              <Link href="/calculator">Calculator</Link>
             </li>
           </ul>
         </li>
@@ -88,10 +68,11 @@ export default function Menu() {
         </li>{" "}
         <li className="nl-simple ">
           <Link
-            href="/calculator"
-            className="btn r-04 btn--theme hover--tra-white last-link ml-20"
+            href="/career/join"
+            className="btn r-04  hover--tra-white last-link ml-20"
+            style={{ color: "black", border: "1px solid black" }}
           >
-            Calculator
+            Join us
           </Link>
         </li>
       </ul>

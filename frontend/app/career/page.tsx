@@ -27,22 +27,23 @@ export default function Career() {
                       </span>
                       {/* Title */}
                       <h2 className="s-56 w-700">
-                        We are looking for creative and fun individuals
+                        We are looking for Exceptional Talents
                       </h2>
                       {/* Text */}
                       <p className="p-lg w-400">
-                        Discover your potential with us! Explore exciting
-                        opportunities, learn about our inclusive culture, and
-                        join a team where your contributions are valued and your
-                        growth is nurtured. Start your journey with us today and
-                        shape your future while transforming the world around
-                        you.
+                        Begin a transformative journey with TaraTalent! Here,
+                        {`you'll`} find a world where your technical skills are
+                        valued, growth is nurtured. We connect extraordinary
+                        tech talents with global opportunities, fostering a
+                        culture of innovation and excellence. Make your mark in
+                        a team {`that's`} shaping the future of technology. Your
+                        path to professional greatness starts here.
                       </p>
                       <Link
                         href="/career/join"
                         className="btn r-04 btn--theme hover--theme last-link ml-20"
                       >
-                        Join to our Talent network
+                        Join our Talent network
                       </Link>
                     </div>
                   </div>{" "}
@@ -85,12 +86,13 @@ export default function Career() {
                   <div id="a3-1" className="txt-block">
                     {/* Title */}
                     <h5 className="s-24 w-700 mb-20">
-                      Insurance and payment By your currency
+                      Insurance and Local Currency Payments
                     </h5>
                     {/* Text */}
                     <p>
-                      Insurance and payment By your currency without need to any
-                      crypto currency or Iban account
+                      Offering hassle-free insurance coverage and salary
+                      payments in your local currency, without the need for
+                      cryptocurrency or IBAN accounts.
                     </p>
                     {/* List */}
                   </div>
@@ -101,26 +103,28 @@ export default function Career() {
                   <div id="a3-2" className="txt-block">
                     {/* Title */}
                     <h5 className="s-24 w-700 mb-20">
-                      Comfort place for working
+                      Optimal Working Environment
                     </h5>
                     {/* Text */}
                     <p>
-                      We offer the best place for work with full speed internet
+                      Providing the ideal workspace equipped with high-speed
+                      internet for maximum efficiency essential for seamless
+                      remote work.
                     </p>
                     {/* Text */}
-                    <p className="mb-0">Everything you need for working</p>
                   </div>
                 </div>{" "}
                 <div className="col-md-4">
                   <div id="a3-2" className="txt-block">
                     {/* Title */}
                     <h5 className="s-24 w-700 mb-20">
-                      Salary offer more than your country
+                      Competitive Salary Structure
                     </h5>
                     {/* Text */}
                     <p>
-                      More than 50% increse in your salary , Comfort life with
-                      everything you need
+                      Receive a salary that exceeds local standards by over 50%,
+                      ensuring a comfortable lifestyle with all your essential
+                      needs met.
                     </p>
                     {/* Text */}
                   </div>
@@ -152,12 +156,12 @@ export default function Career() {
                       </div>
                       {/* Text */}
                       <div className="cbox-2-txt">
-                        <h5 className="s-22 w-700">Registeration</h5>
+                        <h5 className="s-22 w-700">Application Submission</h5>
                         <p>
-                          Register now to take the next step in your career
-                          journey; complete the application form by uploading
-                          your CV and let us connect you with your future
-                          opportunities.
+                          Start your journey with TaraTalent by submitting your
+                          application. Simply upload your CV, and let us match
+                          you with the right opportunities to advance your
+                          career.
                         </p>
                       </div>
                     </div>{" "}
@@ -173,15 +177,15 @@ export default function Career() {
                       </div>
                       {/* Text */}
                       <div className="cbox-2-txt">
-                        <h5 className="s-22 w-700">Some Amazing Test skills</h5>
+                        <h5 className="s-22 w-700">
+                          Comprehensive Skill Assessment
+                        </h5>
                         <p>
-                          Enhance your career with our comprehensive testing
-                          suite, featuring an English language proficiency test,
-                          an HR assessment to understand your teamwork and
-                          leadership skills, a theoretical technical test to
-                          gauge your industry knowledge, and a practical
-                          technical test to demonstrate your real-world
-                          problem-solving abilities.
+                          Showcase your abilities through our multi-faceted
+                          assessment process. This includes an English
+                          proficiency test, HR evaluation for soft skills, and
+                          both theoretical and practical technical tests to
+                          demonstrate your expertise.
                         </p>
                       </div>
                     </div>{" "}
@@ -197,14 +201,14 @@ export default function Career() {
                       {/* Text */}
                       <div className="cbox-2-txt">
                         <h5 className="s-22 w-700">
-                          Finalize contract and start Trial Period
+                          Contract Finalization & Trial Period
                         </h5>
                         <p className="mb-0">
-                          Finalize your contract with us and embark on a trial
-                          period, where {`you'll`} have the opportunity to
-                          showcase your skills, adapt to our culture, and ensure
-                          a mutual fit as we embark on this professional journey
-                          together.
+                          Complete the contracting process and begin a trial
+                          period with us. This stage allows you to integrate
+                          into our culture, display your capabilities, and
+                          confirm our mutual fit for a successful professional
+                          collaboration.
                         </p>
                       </div>
                     </div>{" "}
@@ -237,10 +241,11 @@ export default function Career() {
                 <div className="col-md-10 col-lg-9">
                   <div className="section-title mb-70">
                     {/* Title */}
-                    <h2 className="s-50 w-700">Benefits and Perks</h2>
+                    <h2 className="s-50 w-700">Why TaraTalent?</h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
-                      your benefits when work with us
+                      Explore the compelling reasons to join our talent
+                      community and redefine your career journey.
                     </p>
                   </div>
                 </div>
@@ -257,7 +262,7 @@ export default function Career() {
                           <div className="shape-ico">
                             {/* Vector Icon */}
                             {/* Shape */}
-                            <img src="images/services/web.png" />
+                            <img src="images/services/workspace (2).svg" />
                           </div>
                         </div>
                       </div>{" "}
@@ -265,14 +270,12 @@ export default function Career() {
                       {/* Text */}
                       <div className="fbox-txt">
                         <h6 className="s-22 w-700">
-                          Professional Growth and Development
+                          Enhanced Workspace & Resources
                         </h6>
                         <p>
-                          Good companies often invest in training and
-                          development programs to help employees enhance their
-                          skills and advance in their careers. This might
-                          include access to workshops, courses, conferences, or
-                          mentoring programs.
+                          Offering advanced work infrastructure, high-speed
+                          internet, and the freedom to work from any comfortable
+                          setting.
                         </p>
                       </div>
                     </div>
@@ -285,20 +288,19 @@ export default function Career() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            <img src="images/services/qa.png" />
+                            <img src="images/services/icons8-salary-50.png" />
                           </div>
                         </div>
                       </div>{" "}
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Stability and Security</h6>
+                        <h6 className="s-22 w-700">
+                          Competitive & Fair Compensation
+                        </h6>
                         <p>
-                          Reputable companies usually offer greater job security
-                          and stability. They have established market positions
-                          and are less likely to go through abrupt downsizing,
-                          providing employees with a sense of security and
-                          long-term employment prospects.
+                          Providing salaries well above local standards,
+                          ensuring a rewarding and financially secure career.
                         </p>
                       </div>
                     </div>
@@ -311,22 +313,18 @@ export default function Career() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            <img src="images/services/mobile.png" />
+                            <img src="images/services/icons8-remote-work-50 (1).png" />
                           </div>
                         </div>
                       </div>{" "}
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">
-                          Competitive Compensation and Benefits
-                        </h6>
+                        <h6 className="s-22 w-700">Remote Work Flexibility</h6>
                         <p>
-                          Well-established firms often provide competitive
-                          salaries and comprehensive benefits packages,
-                          including health insurance, retirement plans, bonuses,
-                          and sometimes stock options or profit-sharing plans,
-                          attracting and retaining top talent.
+                          Embrace the digital nomad lifestyle with the
+                          opportunity to work remotely, offering a perfect
+                          work-life balance.
                         </p>
                       </div>
                     </div>
@@ -339,22 +337,18 @@ export default function Career() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            <img src="images/services/ui.png" />
+                            <img src="images/services/icons8-transaction-50.png" />
                           </div>
                         </div>
                       </div>{" "}
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">
-                          Positive Work Environment
-                        </h6>
+                        <h6 className="s-22 w-700">Local Financial Ease</h6>
                         <p>
-                          Good companies recognize the importance of a positive
-                          and inclusive work culture. They strive to create an
-                          environment where employees feel valued, respected,
-                          and engaged, leading to higher job satisfaction and
-                          productivity.
+                          Streamlining insurance and salary payments in local
+                          currency, eliminating complexities and enhancing
+                          convenience.
                         </p>
                       </div>
                     </div>
@@ -367,7 +361,7 @@ export default function Career() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            <img src="images/services/devops.png" />
+                            <img src="images/services/icons8-professional-growth-50.png" />
                           </div>
                         </div>
                       </div>{" "}
@@ -376,15 +370,12 @@ export default function Career() {
                       <div className="fbox-txt">
                         <h6 className="s-22 w-700">
                           {" "}
-                          Enhanced Reputation and Resume Value
+                          Professional Growth & Learning
                         </h6>
                         <p>
-                          Being associated with a respected and successful
-                          company can enhance an {`individual's`} professional
-                          reputation, making them more attractive to future
-                          employers. The experience and accomplishments gained
-                          at such a company can significantly boost {`one's`}{" "}
-                          resume and career prospects.
+                          Continuous opportunities for professional development,
+                          including mentorship, training, and specialized
+                          courses.
                         </p>
                       </div>
                     </div>
@@ -397,20 +388,20 @@ export default function Career() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico">
-                            <img src="images/services/art.png" />
+                            <img src="images/services/icons8-global-network-99.png" />
                           </div>
                         </div>
                       </div>{" "}
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Networking Opportunities</h6>
+                        <h6 className="s-22 w-700">
+                          Diverse and Global Network
+                        </h6>
                         <p>
-                          Working with a well-regarded company can expose
-                          employees to a network of professionals and experts in
-                          the field, offering opportunities for networking,
-                          collaboration, and even mentorship. This can be
-                          invaluable for career advancement and personal growth.
+                          Be part of a global community of professionals,
+                          working on innovative projects across various industry
+                          sectors.
                         </p>
                       </div>
                     </div>
@@ -450,11 +441,13 @@ export default function Career() {
                           </div>
                           {/* Text */}
                           <p>
-                            Thank you for the incredible opportunity to grow,
-                            innovate, and contribute within such a supportive
-                            and dynamic environment. My journey here has not
-                            only shaped my career but also enriched my personal
-                            development.
+                            Joining TaraTalent company has been a transformative
+                            experience for me. The supportive and dynamic
+                            environment here has not only propelled my
+                            professional journey but has also profoundly
+                            enriched my personal growth. {`I'm`} deeply grateful for
+                            the remarkable journey {`I've`} had so far and excited
+                            for what the future holds.
                           </p>
                           {/* Author */}
                           <p className="a2-txt-author">
@@ -494,11 +487,12 @@ export default function Career() {
                     <div className="section-title mb-70">
                       {/* Title */}
                       <h2 className="s-52 w-700">
-                        Here’s what our amazing clients are saying
+                        Talent Spotlight: Real Stories, Real Impact
                       </h2>
                       {/* Text */}
                       <p className="s-21 color--grey">
-                        Read what customers think about us
+                        Dive into the personal stories of growth and success
+                        from our talent members, the heart of TaraTalent.
                       </p>
                     </div>
                   </div>
@@ -815,13 +809,14 @@ export default function Career() {
                         <div className="banner-12-txt color--white">
                           {/* Title */}
                           <h2 className="s-35 w-700">
-                            Join Us in Crafting a Partnership Where Success
-                            Knows No Bounds
+                            Empower Your Startup with Our Talent: Expertise for
+                            Victory
                           </h2>
                           {/* Text */}
                           <p className="p-lg">
-                            Your unique perspective and talents are the missing
-                            pieces to our collective success story.
+                            Discover how our skilled, affordable experts can be
+                            the catalyst for your {`business's`} growth and
+                            innovation.
                           </p>
                           {/* Button */}
                           <Link
