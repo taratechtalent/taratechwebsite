@@ -445,9 +445,9 @@ export default function Career() {
                             experience for me. The supportive and dynamic
                             environment here has not only propelled my
                             professional journey but has also profoundly
-                            enriched my personal growth. {`I'm`} deeply grateful for
-                            the remarkable journey {`I've`} had so far and excited
-                            for what the future holds.
+                            enriched my personal growth. {`I'm`} deeply grateful
+                            for the remarkable journey {`I've`} had so far and
+                            excited for what the future holds.
                           </p>
                           {/* Author */}
                           <p className="a2-txt-author">
@@ -476,327 +476,165 @@ export default function Career() {
             </div>{" "}
           </div>
           <div>
-            <section
-              id="reviews-2"
-              className="gr--whitesmoke inner-page-hero reviews-section"
-            >
+            <hr className="divider" />
+            <section id="faqs-3" className="gr--whitesmoke pt-100 faqs-section">
               <div className="container">
                 {/* SECTION TITLE */}
                 <div className="row justify-content-center">
                   <div className="col-md-10 col-lg-9">
                     <div className="section-title mb-70">
                       {/* Title */}
-                      <h2 className="s-52 w-700">
-                        Talent Spotlight: Real Stories, Real Impact
-                      </h2>
+                      <h2 className="s-52 w-700">FAQs</h2>
                       {/* Text */}
+
                       <p className="s-21 color--grey">
-                        Dive into the personal stories of growth and success
-                        from our talent members, the heart of TaraTalent.
+                        Most important questions maybe help you better to work
+                        with us
                       </p>
                     </div>
                   </div>
                 </div>
-                {/* TESTIMONIALS-2 WRAPPER */}
-                <div className="reviews-2-wrapper rel">
-                  <div className="row align-items-center row-cols-1 row-cols-md-2">
-                    {/* TESTIMONIAL #1 */}
-                    <div className="col">
-                      <div
-                        id="rw-2-1"
-                        className="review-2 bg--white-100 block-shadow r-08"
-                      >
-                        {/* Quote Icon */}
-                        <div className="review-ico ico-65">
-                          <span className="flaticon-quote" />
-                        </div>
-                        {/* Text */}
-                        <div className="review-txt">
-                          {/* Text */}
-                          <p>
-                            Quaerat sodales sapien euismod blandit aliquet ipsum
-                            primis undo and cubilia laoreet augue and luctus
-                            magna dolor luctus egestas sapien vitae
+                {/* FAQs-3 QUESTIONS */}
+                <div className="faqs-3-questions">
+                  <div className="row">
+                    {/* QUESTIONS HOLDER */}
+                    <div className="col-lg-6">
+                      <div className="questions-holder">
+                        {/* QUESTION #1 */}
+                        <div className="question mb-35 wow fadeInUp">
+                          {/* Question */}
+                          <h5 className="s-22 w-700">
+                            <span>1.</span> Are there any upfront recruiting or
+                            contractual costs?
+                          </h5>
+                          {/* Answer */}
+                          <p className="color--grey">
+                            We require an initial deposit of $500 that will be
+                            applied as a credit to your first invoice once you
+                            make a hire. If you decide not to move forward, your
+                            deposit will be refunded completely.
                           </p>
-                          {/* Author */}
-                          <div className="author-data clearfix">
-                            {/* Avatar */}
-                            <div className="review-avatar">
-                              <img
-                                src="/images/review-author-1.jpg"
-                                alt="review-avatar"
-                              />
-                            </div>
-                            {/* Data */}
-                            <div className="review-author">
-                              <h6 className="s-18 w-700">Scott Boxer</h6>
-                              <p className="p-sm">@scott_boxer</p>
-                            </div>
-                          </div>{" "}
-                          {/* End Author */}
-                        </div>{" "}
-                        {/* End Text */}
+                        </div>
+                        {/* QUESTION #2 */}
+                        <div className="question mb-35 wow fadeInUp">
+                          {/* Question */}
+                          <h5 className="s-22 w-700">
+                            <span>2.</span> How is the trial period no-risk?
+                          </h5>
+                          {/* Answer */}
+                          <p className="color--grey">
+                            We make sure to start each engagement with a trial
+                            period of up to two weeks. This means that you have
+                            time to help ensure the engagement will be
+                            successful. If
+                            {`you’re`} completely satisfied with the results,{" "}
+                            {"we’ll"}
+                            bill you for the time and continue the engagement
+                            for as long as you’d like. If {"you’re"} not
+                            completely satisfied, you {"won’t"} be billed. From
+                            there, we can either part ways, or we can provide
+                            you with another expert who may be a better fit and
+                            with whom we will begin a second, no-risk trial.
+                          </p>
+                        </div>
+                        {/* QUESTION #3 */}
+                        <div className="question mb-35 wow fadeInUp">
+                          {/* Question */}
+                          <h5 className="s-22 w-700">
+                            <span>3.</span> What happens if {`I’m`} not
+                            satisfied with a Toptal expert?
+                          </h5>
+                          {/* Answer */}
+                          <ul className="simple-list color--grey">
+                            <li className="list-item">
+                              <p>
+                                We allow our clients to begin a trial period
+                                with up to three experts from our network per
+                                position. While we rigorously screen all
+                                applicants to ensure talent and intelligence, we
+                                understand that not every person will be a
+                                perfect fit for every company. For this reason,
+                                we allow our clients to work with multiple
+                                experts for each position before they decide on
+                                a candidate with whom they are confident and
+                                comfortable.
+                              </p>
+                            </li>
+                          </ul>
+                        </div>
                       </div>
                     </div>{" "}
-                    {/* END TESTIMONIAL #1 */}
-                    {/* TESTIMONIAL #2 */}
-                    <div className="col">
-                      <div
-                        id="rw-2-2"
-                        className="review-2 bg--white-100 block-shadow r-08"
-                      >
-                        {/* Quote Icon */}
-                        <div className="review-ico ico-65">
-                          <span className="flaticon-quote" />
-                        </div>
-                        {/* Text */}
-                        <div className="review-txt">
-                          {/* Text */}
-                          <p>
-                            At sagittis congue augue and magna ipsum vitae a
-                            purus ipsum primis diam a cubilia laoreet augue
-                            egestas luctus a donec vitae ultrice ligula magna
-                            suscipit lectus gestas augue into cubilia
+                    {/* END QUESTIONS HOLDER */}
+                    {/* QUESTIONS WRAPPER */}
+                    <div className="col-lg-6">
+                      <div className="questions-holder">
+                        {/* QUESTION #4 */}
+                        <div className="question mb-35 wow fadeInUp">
+                          {/* Question */}
+                          <h5 className="s-22 w-700">
+                            <span>4.</span> How does your screening process
+                            ensure quality candidates that meet our
+                            requirements?
+                          </h5>
+                          {/* Answer */}
+                          <p className="color--grey">
+                            We screen for communication skills, personality,
+                            domain-specific knowledge, and a high level of
+                            professionalism. Approximately 3% of applicants pass
+                            the screening process.
                           </p>
-                          {/* Author */}
-                          <div className="author-data clearfix">
-                            {/* Avatar */}
-                            <div className="review-avatar">
-                              <img
-                                src="/images/review-author-2.jpg"
-                                alt="review-avatar"
-                              />
-                            </div>
-                            {/* Data */}
-                            <div className="review-author">
-                              <h6 className="s-18 w-700">Joel Peterson</h6>
-                              <p className="p-sm">Internet Surfer</p>
-                            </div>
-                          </div>{" "}
-                          {/* End Author */}
-                        </div>{" "}
-                        {/* End Text */}
+                          {/* Answer */}
+                          <p className="color--grey">
+                            Our process includes a variety of ways to determine
+                            skill and proficiency, including portfolio reviews,
+                            technical coding challenges, user or market
+                            research, business cases, project management backlog
+                            grooming, formal assessments, as well as live
+                            problem-solving sessions as appropriate to the
+                            candidate and vertical.
+                          </p>
+                        </div>
+                        {/* QUESTION #5 */}
+                        <div className="question mb-35 wow fadeInUp">
+                          {/* Question */}
+                          <h5 className="s-22 w-700">
+                            <span>5.</span> Where are your experts located?
+                          </h5>
+                          {/* Answer */}
+                          <p className="color--grey">
+                            Currently, we have experts in over 100 countries,
+                            most being located in the Americas and Europe.
+                          </p>
+                        </div>
+                        {/* QUESTION #6 */}
+                        <div className="question mb-35 wow fadeInUp">
+                          {/* Question */}
+                          <h5 className="s-22 w-700">
+                            <span>6.</span> Are English skills ever an issue
+                            when working with a Toptal expert?
+                          </h5>
+                          {/* Answer */}
+                          <p className="color--grey">
+                            No. Each and every Toptal expert writes and speaks
+                            fluent English. In fact, before we invite candidates
+                            to tackle our rigorous domain-specific tests, we
+                            conduct lengthy interviews to ensure they have a
+                            high level of proficiency in English and have
+                            personalities well-suited to working with western
+                            technical teams.
+                          </p>
+                        </div>
                       </div>
                     </div>{" "}
-                    {/* END TESTIMONIAL #2 */}
-                    {/* TESTIMONIAL #3 */}
-                    <div className="col">
-                      <div
-                        id="rw-2-3"
-                        className="review-2 bg--white-100 block-shadow r-08"
-                      >
-                        {/* Quote Icon */}
-                        <div className="review-ico ico-65">
-                          <span className="flaticon-quote" />
-                        </div>
-                        {/* Text */}
-                        <div className="review-txt">
-                          {/* Text */}
-                          <p>
-                            An augue cubilia laoreet magna suscipit egestas and
-                            ipsum a lectus purus ipsum primis and augue ultrice
-                            ligula and egestas a suscipit lectus gestas undo
-                            auctor tempus feugiat impedit quaerat
-                          </p>
-                          {/* Author */}
-                          <div className="author-data clearfix">
-                            {/* Avatar */}
-                            <div className="review-avatar">
-                              <img
-                                src="/images/review-author-5.jpg"
-                                alt="review-avatar"
-                              />
-                            </div>
-                            {/* Data */}
-                            <div className="review-author">
-                              <h6 className="s-18 w-700">Jennifer Harper</h6>
-                              <p className="p-sm">App Developer</p>
-                            </div>
-                          </div>{" "}
-                          {/* End Author */}
-                        </div>{" "}
-                        {/* End Text */}
-                      </div>
-                    </div>{" "}
-                    {/* END TESTIMONIAL #3 */}
-                    {/* TESTIMONIAL #4 */}
-                    <div className="col">
-                      <div
-                        id="rw-2-4"
-                        className="review-2 bg--white-100 block-shadow r-08"
-                      >
-                        {/* Quote Icon */}
-                        <div className="review-ico ico-65">
-                          <span className="flaticon-quote" />
-                        </div>
-                        {/* Text */}
-                        <div className="review-txt">
-                          {/* Text */}
-                          <p>
-                            Augue at vitae purus tempus egestas volutpat augue
-                            undo cubilia laoreet magna suscipit luctus dolor
-                            blandit at purus tempus feugiat impedit
-                          </p>
-                          {/* Author */}
-                          <div className="author-data clearfix">
-                            {/* Avatar */}
-                            <div className="review-avatar">
-                              <img
-                                src="/images/review-author-8.jpg"
-                                alt="review-avatar"
-                              />
-                            </div>
-                            {/* Data */}
-                            <div className="review-author">
-                              <h6 className="s-18 w-700">Evelyn Martinez</h6>
-                              <p className="p-sm">WordPress Consultant</p>
-                            </div>
-                          </div>{" "}
-                          {/* End Author */}
-                        </div>{" "}
-                        {/* End Text */}
-                      </div>
-                    </div>{" "}
-                    {/* END TESTIMONIAL #4 */}
-                    {/* TESTIMONIAL #5 */}
-                    <div className="col">
-                      <div
-                        id="rw-2-5"
-                        className="review-2 bg--white-100 block-shadow r-08"
-                      >
-                        {/* Quote Icon */}
-                        <div className="review-ico ico-65">
-                          <span className="flaticon-quote" />
-                        </div>
-                        {/* Text */}
-                        <div className="review-txt">
-                          {/* Text */}
-                          <p>
-                            Quaerat sodales sapien euismod blandit aliquet ipsum
-                            primis undo and cubilia laoreet augue and luctus
-                            magna dolor luctus egestas sapien vitae
-                          </p>
-                          {/* Author */}
-                          <div className="author-data clearfix">
-                            {/* Avatar */}
-                            <div className="review-avatar">
-                              <img
-                                src="/images/review-author-6.jpg"
-                                alt="review-avatar"
-                              />
-                            </div>
-                            {/* Data */}
-                            <div className="review-author">
-                              <h6 className="s-18 w-700">Leslie D.</h6>
-                              <p className="p-sm">Web Developer</p>
-                            </div>
-                          </div>{" "}
-                          {/* End Author */}
-                        </div>{" "}
-                        {/* End Text */}
-                      </div>
-                    </div>{" "}
-                    {/* END TESTIMONIAL #5 */}
-                    {/* TESTIMONIAL #6 */}
-                    <div className="col">
-                      <div
-                        id="rw-2-6"
-                        className="review-2 bg--white-100 block-shadow r-08"
-                      >
-                        {/* Quote Icon */}
-                        <div className="review-ico ico-65">
-                          <span className="flaticon-quote" />
-                        </div>
-                        {/* Text */}
-                        <div className="review-txt">
-                          {/* Text */}
-                          <p>
-                            At sagittis congue augue and magna ipsum vitae a
-                            purus ipsum primis diam a cubilia laoreet augue
-                            egestas luctus a donec vitae ultrice ligula magna
-                            suscipit lectus gestas augue into cubilia
-                          </p>
-                          {/* Author */}
-                          <div className="author-data clearfix">
-                            {/* Avatar */}
-                            <div className="review-avatar">
-                              <img
-                                src="/images/review-author-3.jpg"
-                                alt="review-avatar"
-                              />
-                            </div>
-                            {/* Data */}
-                            <div className="review-author">
-                              <h6 className="s-18 w-700">Marisol19</h6>
-                              <p className="p-sm">@marisol19</p>
-                            </div>
-                          </div>{" "}
-                          {/* End Author */}
-                        </div>{" "}
-                        {/* End Text */}
-                      </div>
-                    </div>{" "}
-                    {/* END TESTIMONIAL #6 */}
+                    {/* END QUESTIONS HOLDER */}
                   </div>{" "}
                   {/* End row */}
                 </div>{" "}
-                {/* END TESTIMONIALS-2 WRAPPER */}
+                {/* END FAQs-3 QUESTIONS */}
+                {/* MORE QUESTIONS LINK */}
               </div>{" "}
               {/* End container */}
-            </section>{" "}
-            {/* END TESTIMONIALS-2 */}
-            {/* PAGE PAGINATION
-    ============================================= */}
-            <div className="py-100 page-pagination theme-pagination">
-              <div className="container">
-                <div className="row">
-                  <div className="col-md-12">
-                    <nav aria-label="Page navigation">
-                      <ul className="pagination ico-20 justify-content-center">
-                        <li className="page-item disabled">
-                          <Link className="page-link" href="#" tabIndex={-1}>
-                            <span className="flaticon-back" />
-                          </Link>
-                        </li>
-                        <li className="page-item active" aria-current="page">
-                          <Link className="page-link" href="#">
-                            1
-                          </Link>
-                        </li>
-                        <li className="page-item">
-                          <Link className="page-link" href="#">
-                            2
-                          </Link>
-                        </li>
-                        <li className="page-item">
-                          <Link className="page-link" href="#">
-                            3
-                          </Link>
-                        </li>
-                        <li className="page-item">
-                          <Link
-                            className="page-link"
-                            href="#"
-                            aria-label="Next"
-                          >
-                            <span className="flaticon-next" />
-                          </Link>
-                        </li>
-                      </ul>
-                    </nav>
-                  </div>
-                </div>{" "}
-                {/* End row */}
-              </div>{" "}
-              {/* End container */}
-            </div>{" "}
-            {/* END PAGE PAGINATION */}
-            {/* DIVIDER LINE */}
-            <hr className="divider" />
-            {/* NEWSLETTER-1
-    ============================================= */}
-            {/* END NEWSLETTER-1 */}
-            {/* DIVIDER LINE */}
+            </section>
             <hr className="divider" />
             <section id="banner-12" className="banner-section">
               <div className="container">
@@ -848,12 +686,6 @@ export default function Career() {
               {/* End container */}
             </section>{" "}
           </div>
-          {/* END ABOUT-2 */}
-          {/* FEATURES-11
-			============================================= */}
-          {/* END FEATURES-11 */}
-          {/* TEXT CONTENT
-			============================================= */}
         </div>
       </Layout>
     </>
