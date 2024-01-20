@@ -13730,7 +13730,7 @@ html {
 }
 
 .heromain {
-  background-image: url("/images/hero-2.jpg.png");
+  background-image: url("/images/mainHeroImage.png");
   background-size: cover;
   width: 100vw;
   height: 100vh;
