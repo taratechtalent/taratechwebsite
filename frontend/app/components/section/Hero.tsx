@@ -2,6 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
+import Link from "next/link";
 import { useEffect } from "react";
 import Typewriter from "typewriter-effect";
 export default function Hero() {
@@ -18,7 +19,7 @@ export default function Hero() {
                 <div className="row">
                   <div className="col-sm-12">
                     {" "}
-                    <h2 className="s-56 w-700 color--black mt-10">
+                    <h2 className="s-56 w-700 color--black">
                       Affordable{" "}
                       <span className="main-text">Senior Talents</span> for
                       startups
@@ -63,9 +64,11 @@ export default function Hero() {
                     className="col-sm-12 text-left flex items-center"
                     style={{ marginTop: "31px" }}
                   >
-                    <span className="btn btn--theme hover--theme submit">
-                      Arrange a Call
-                    </span>
+                    <Link href="/book">
+                      <span className="btn btn--theme hover--theme submit">
+                        Arrange a Call
+                      </span>
+                    </Link>
                     <img
                       src="images/play.png"
                       style={{
