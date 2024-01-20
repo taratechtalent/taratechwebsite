@@ -39,26 +39,26 @@ export default function Hero() {
                     className="col-sm-12 text-left"
                     style={{ marginTop: "18px" }}
                   >
-                    <h2 className="s-25 w-700 color--black">
+                    <span className="s-38 w-700 color--black">
                       Unlock <span className="main-text">Senior Talents</span>{" "}
-                      <span
-                        className="s-20 w-700 color--black"
-                        style={{ paddingTop: "40px !important" }}
-                      >
-                        <Typewriter
-                          options={{
-                            strings: [
-                              "Web Development -> €70K/y",
-                              "Devops -> €60K/y",
-                              "UI/UX -> €120K/y",
-                            ],
-                            autoStart: true,
-                            loop: true,
-                            delay: 100,
-                          }}
-                        />
-                      </span>
-                    </h2>
+                    </span>
+                    <div
+                      className="s-20 w-700 color--black"
+                      style={{ marginLeft: "150px" }}
+                    >
+                      <Typewriter
+                        options={{
+                          strings: [
+                            "Web Development -> €70K/y",
+                            "Devops -> €60K/y",
+                            "UI/UX -> €120K/y",
+                          ],
+                          autoStart: true,
+                          loop: true,
+                          delay: 100,
+                        }}
+                      />
+                    </div>
                   </div>
                   <div
                     className="col-sm-12 text-left flex items-center"
