@@ -21,32 +21,17 @@ export default function Home() {
                     <span className="section-id">Productivity Focused</span>
                     {/* Title */}
                     <h2 className="s-46 w-700">
-                      Achieve more with better workflows
+                      Sculpting Success in HealthTech Innovation
                     </h2>
                     {/* Text */}
                     <p>
-                      Sodales tempor sapien quaerat ipsum undo congue laoreet
-                      turpis neque auctor turpis vitae dolor luctus placerat
-                      magna and ligula cursus purus vitae purus an ipsum
-                      suscipit
+                      In today's healthcare and life sciences landscape,
+                      technological innovation is key to delivering better
+                      patient care, advancing medical research, and staying
+                      competitive. TaraTalent is your strategic partner in
+                      harnessing the power of technology for success in this
+                      dynamic industry.
                     </p>
-                    {/* List */}
-                    <ul className="simple-list">
-                      <li className="list-item">
-                        <p>
-                          Tempor sapien quaerat an ipsum laoreet purus and
-                          sapien dolor an ultrice ipsum aliquam undo congue
-                          dolor cursus
-                        </p>
-                      </li>
-                      <li className="list-item">
-                        <p className="mb-0">
-                          Cursus purus suscipit vitae cubilia magnis volute
-                          egestas vitae sapien turpis ultrice auctor congue
-                          placerat
-                        </p>
-                      </li>
-                    </ul>
                   </div>
                 </div>{" "}
                 {/* END TEXT BLOCK */}
@@ -68,6 +53,64 @@ export default function Home() {
           {/* END TEXT CONTENT */}
           {/* FEATURES-11
 			============================================= */}
+          <div id="about-3" className="pt-100 about-section division">
+            <div className="container">
+              <div className="row">
+                {/* ABOUT-3 TEXT */}
+                <div className="col-md-4">
+                  <div id="a3-1" className="txt-block">
+                    {/* Title */}
+                    <h5 className="s-24 w-700 mb-20">Our Expertise</h5>
+                    {/* Text */}
+                    <p>
+                      At TaraTalent, we understand the critical importance of
+                      having highly skilled technical professionals who are
+                      well-versed in the nuances of healthcare and life
+                      sciences. Our experts have a deep understanding of the
+                      industry's unique challenges and opportunities.
+                    </p>
+                    {/* List */}
+                  </div>
+                </div>{" "}
+                {/* END ABOUT-3 TEXT */}
+                {/* ABOUT-3 TEXT */}
+                <div className="col-md-4">
+                  <div id="a3-2" className="txt-block">
+                    {/* Title */}
+                    <h5 className="s-24 w-700 mb-20">
+                      Optimal Working Environment
+                    </h5>
+                    {/* Text */}
+                    <p>
+                      Providing the ideal workspace equipped with high-speed
+                      internet for maximum efficiency essential for seamless
+                      remote work.
+                    </p>
+                    {/* Text */}
+                  </div>
+                </div>{" "}
+                <div className="col-md-4">
+                  <div id="a3-2" className="txt-block">
+                    {/* Title */}
+                    <h5 className="s-24 w-700 mb-20">
+                      Competitive Salary Structure
+                    </h5>
+                    {/* Text */}
+                    <p>
+                      Receive a salary that exceeds local standards by over 50%,
+                      ensuring a comfortable lifestyle with all your essential
+                      needs met.
+                    </p>
+                    {/* Text */}
+                  </div>
+                </div>{" "}
+                {/* END ABOUT-3 TEXT */}
+              </div>{" "}
+              {/* End row */}
+            </div>{" "}
+            {/* End container */}
+          </div>{" "}
+          {/* END ABOUT-3 */}
           <section
             id="features-11"
             className="pt-100 features-section division"

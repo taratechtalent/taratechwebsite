@@ -26,7 +26,7 @@ export default function Menu() {
           </Link>
           <ul className="sub-menu">
             <li>
-              <Link href="/industries/health">Health</Link>
+              <Link href="/industries/health">Healthcare & Life Sciences</Link>
             </li>
             <li>
               <Link href="/industries/technology">Technology</Link>
