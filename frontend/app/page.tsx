@@ -151,7 +151,7 @@ function Features() {
                   <div className="fbox-img gr--whitesmoke h-175">
                     <img
                       className="img-fluid light-theme-img"
-                      src="/images/services/icons/signing-the-contract-svgrepo1.svg"
+                      src="/images/services/icons/signing-the-contract-svgrepo1.png"
                       alt="feature-image"
                     />
                   </div>
