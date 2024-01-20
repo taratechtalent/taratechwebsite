@@ -22,7 +22,7 @@ export default function About() {
                 <div className="col-md-11 col-lg-10 col-xl-9">
                   <div className="about-2-title mb-60">
                     {/* Title */}
-                    <h2 className="s-52 w-700 mb-30">We Empower Excellence</h2>
+                    <h2 className="s-52 w-700 mb-30">We Empower Excellence test test test</h2>
                     {/* Text */}
                     <p className="mb-0">
                       Your Trusted Partner for Affordable, Senior-Driven
