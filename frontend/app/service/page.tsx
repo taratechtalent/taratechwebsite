@@ -62,7 +62,7 @@ export default function Help() {
               <div className="col-md-10 col-lg-9">
                 <div className="section-title mb-70">
                   {/* Title */}
-                  <h2 className="s-52 w-700">Our Unique solutions FAQ</h2>
+                  <h2 className="s-52 w-700">FAQs</h2>
                   {/* Text */}
 
                   <p className="s-21 color--grey">
@@ -82,50 +82,58 @@ export default function Help() {
                     <div className="question mb-35 wow fadeInUp">
                       {/* Question */}
                       <h5 className="s-22 w-700">
-                        <span>1.</span> Getting started with Martex
+                        <span>1.</span> Are there any upfront recruiting or
+                        contractual costs?
                       </h5>
                       {/* Answer */}
                       <p className="color--grey">
-                        Etiam amet mauris suscipit in odio integer congue metus
-                        and vitae arcu mollis blandit ultrice ligula egestas
-                        magna suscipit lectus magna suscipit luctus blandit and
-                        laoreet
+                        We require an initial deposit of $500 that will be
+                        applied as a credit to your first invoice once you make
+                        a hire. If you decide not to move forward, your deposit
+                        will be refunded completely.
                       </p>
                     </div>
                     {/* QUESTION #2 */}
                     <div className="question mb-35 wow fadeInUp">
                       {/* Question */}
                       <h5 className="s-22 w-700">
-                        <span>2.</span> How do I choose a plan?
+                        <span>2.</span> How is the trial period no-risk?
                       </h5>
                       {/* Answer */}
                       <p className="color--grey">
-                        An enim nullam tempor sapien gravida donec ipsum and
-                        enim porta justo integer at velna vitae auctor integer
-                        congue undo magna laoreet augue pretium purus pretium
-                        ligula
+                        We make sure to start each engagement with a trial
+                        period of up to two weeks. This means that you have time
+                        to help ensure the engagement will be successful. If
+                        {`you’re`} completely satisfied with the results,{" "}
+                        {"we’ll"}
+                        bill you for the time and continue the engagement for as
+                        long as you’d like. If {"you’re"} not completely
+                        satisfied, you {"won’t"} be billed. From there, we can
+                        either part ways, or we can provide you with another
+                        expert who may be a better fit and with whom we will
+                        begin a second, no-risk trial.
                       </p>
                     </div>
                     {/* QUESTION #3 */}
                     <div className="question mb-35 wow fadeInUp">
                       {/* Question */}
                       <h5 className="s-22 w-700">
-                        <span>3.</span> Do I need a credit card to sign up?
+                        <span>3.</span> What happens if {`I’m`} not satisfied
+                        with a Toptal expert?
                       </h5>
                       {/* Answer */}
                       <ul className="simple-list color--grey">
                         <li className="list-item">
                           <p>
-                            Fringilla risus, luctus mauris orci auctor purus
-                            ligula euismod pretium purus pretium rutrum tempor
-                            sapien
-                          </p>
-                        </li>
-                        <li className="list-item">
-                          <p>
-                            Nemo ipsam egestas volute undo turpis purus lipsum
-                            primis aliquam sapien quaerat sodales pretium a
-                            purus
+                            We allow our clients to begin a trial period with up
+                            to three experts from our network per position.
+                            While we rigorously screen all applicants to ensure
+                            talent and intelligence, we understand that not
+                            every person will be a perfect fit for every
+                            company. For this reason, we allow our clients to
+                            work with multiple experts for each position before
+                            they decide on a candidate with whom they are
+                            confident and comfortable.
                           </p>
                         </li>
                       </ul>
@@ -140,45 +148,53 @@ export default function Help() {
                     <div className="question mb-35 wow fadeInUp">
                       {/* Question */}
                       <h5 className="s-22 w-700">
-                        <span>4.</span> Discounts for annual plans
+                        <span>4.</span> How does your screening process ensure
+                        quality candidates that meet our requirements?
                       </h5>
                       {/* Answer */}
                       <p className="color--grey">
-                        Quaerat sodales sapien euismod blandit purus a purus
-                        ipsum primis in cubilia laoreet augue luctus dolor
-                        luctus
+                        We screen for communication skills, personality,
+                        domain-specific knowledge, and a high level of
+                        professionalism. Approximately 3% of applicants pass the
+                        screening process.
                       </p>
                       {/* Answer */}
                       <p className="color--grey">
-                        An enim nullam tempor sapien gravida donec congue metus.
-                        Vitae arcu mollis blandit integer nemo volute velna
+                        Our process includes a variety of ways to determine
+                        skill and proficiency, including portfolio reviews,
+                        technical coding challenges, user or market research,
+                        business cases, project management backlog grooming,
+                        formal assessments, as well as live problem-solving
+                        sessions as appropriate to the candidate and vertical.
                       </p>
                     </div>
                     {/* QUESTION #5 */}
                     <div className="question mb-35 wow fadeInUp">
                       {/* Question */}
                       <h5 className="s-22 w-700">
-                        <span>5.</span> How to request a refund?
+                        <span>5.</span> Where are your experts located?
                       </h5>
                       {/* Answer */}
                       <p className="color--grey">
-                        Cubilia laoreet augue egestas and luctus donec curabite
-                        diam vitae dapibus libero and quisque gravida donec
-                        neque blandit justo aliquam molestie nunc sapien justo
+                        Currently, we have experts in over 100 countries, most
+                        being located in the Americas and Europe.
                       </p>
                     </div>
                     {/* QUESTION #6 */}
                     <div className="question mb-35 wow fadeInUp">
                       {/* Question */}
                       <h5 className="s-22 w-700">
-                        <span>6.</span> Can I cancel at anytime?
+                        <span>6.</span> Are English skills ever an issue when
+                        working with a Toptal expert?
                       </h5>
                       {/* Answer */}
                       <p className="color--grey">
-                        An enim nullam tempor sapien gravida donec ipsum and
-                        enim porta justo integer at velna vitae auctor integer
-                        congue undo magna laoreet augue pretium purus pretium
-                        ligula
+                        No. Each and every Toptal expert writes and speaks
+                        fluent English. In fact, before we invite candidates to
+                        tackle our rigorous domain-specific tests, we conduct
+                        lengthy interviews to ensure they have a high level of
+                        proficiency in English and have personalities
+                        well-suited to working with western technical teams.
                       </p>
                     </div>
                   </div>
