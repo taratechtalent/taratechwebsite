@@ -9,6 +9,12 @@ import Header from "./header/Header";
 import PageHead from "./PageHead";
 // const WOW = require("wowjs");
 
+declare global {
+  interface Window {
+    wow: any; // Use appropriate type instead of any if possible
+  }
+}
+
 export default function Layout({ breadcrumbTitle, children, headerCls }: any) {
   const [scroll, setScroll] = useState(false);
   // Moblile Menu
@@ -36,6 +42,21 @@ export default function Layout({ breadcrumbTitle, children, headerCls }: any) {
     if (typeof window !== undefined) {
       document.addEventListener("scroll", fn);
     }
+  }, []);
+
+  useEffect(() => {
+    const WOW = require("wowjs");
+    window.wow = new WOW.WOW({
+      live: false,
+    });
+    window.wow.init();
+
+    document.addEventListener("scroll", () => {
+      const scrollCheck = window.scrollY > 100;
+      if (scrollCheck !== scroll) {
+        setScroll(scrollCheck);
+      }
+    });
   }, []);
   return (
     <section>

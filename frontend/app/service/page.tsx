@@ -36,7 +36,7 @@ export default function ServicePage() {
 
         <Brands
           header={"We support most popular stack"}
-          desc={"Our team is skilled in a wide array of programming languages"}
+          desc={"Popular stack from each servic"}
         />
 
         <hr className="divider" />
