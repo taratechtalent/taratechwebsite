@@ -417,21 +417,99 @@ export default function About() {
                           {/* Icon */}
                           <div className="ico-wrap">
                             <div className="cbox-2-ico2 bg--theme color--white">
+                              2012
+                            </div>
+                            <span className="cbox-2-line" />
+                          </div>
+                          {/* Text */}
+                          <div className="cbox-2-txt">
+                            <h5 className="s-18 w-700">
+                              Company Establishment
+                            </h5>
+                            <p>
+                              TaraTalent was founded with a vision for designing
+                              and developing knowledge-based products by
+                              offering software services.
+                            </p>
+                          </div>
+                        </div>{" "}
+                        {/* END CONTENT BOX #1 */}
+                        {/* CONTENT BOX #2 */}
+                        <div className="cbox-2 process-step col-md-2">
+                          {/* Icon */}
+                          <div className="ico-wrap">
+                            <div className="cbox-2-ico2 bg--theme color--white">
+                              2015
+                            </div>
+                            <span className="cbox-2-line" />
+                          </div>
+                          {/* Text */}
+                          <div className="cbox-2-txt">
+                            <h5 className="s-18 w-700">
+                              First Knowledge-Based Product Launch
+                            </h5>
+                            <p>
+                              Revolutionizing the automation industry with
+                              intelligent systems.
+                            </p>
+                          </div>
+                        </div>{" "}
+                        {/* END CONTENT BOX #2 */}
+                        {/* CONTENT BOX #3 */}
+                        <div className="cbox-2 process-step col-md-2">
+                          {/* Icon */}
+                          <div className="ico-wrap">
+                            <div className="cbox-2-ico2 bg--theme color--white">
+                              2016
+                            </div>
+                            <span className="cbox-2-line" />
+                          </div>
+                          {/* Text */}
+                          <div className="cbox-2-txt">
+                            <h5 className="s-18 w-700">
+                              International Collaboration
+                            </h5>
+                            <p className="mb-0">
+                              Significant step in artificial intelligence and
+                              image processing in Turkey and America.
+                            </p>
+                          </div>
+                        </div>{" "}
+                        <div className="cbox-2 process-step col-md-2">
+                          {/* Icon */}
+                          <div className="ico-wrap">
+                            <div className="cbox-2-ico2 bg--theme color--white">
+                              2018
+                            </div>
+                            <span className="cbox-2-line" />
+                          </div>
+                          {/* Text */}
+                          <div className="cbox-2-txt">
+                            <h5 className="s-18 w-700">First Spin-Off</h5>
+                            <p className="mb-0">
+                              Entered the medical and laboratory equipment
+                              market with advanced technologies.
+                            </p>
+                          </div>
+                        </div>{" "}
+                        <div className="cbox-2 process-step col-md-2">
+                          {/* Icon */}
+                          <div className="ico-wrap">
+                            <div className="cbox-2-ico2 bg--theme color--white">
                               2019
                             </div>
                             <span className="cbox-2-line" />
                           </div>
                           {/* Text */}
                           <div className="cbox-2-txt">
-                            <h5 className="s-22 w-700">MiddleEast Market</h5>
-                            <p>
-                              Register now to take the next step in your career
-                              journey;
+                            <h5 className="s-18 w-700">Second Spin-Off</h5>
+                            <p className="mb-0">
+                              TaraTalent expanded its presence by establishing a
+                              second spin-off as a consultancy company in Turkey
+                              and Italy.
                             </p>
                           </div>
                         </div>{" "}
-                        {/* END CONTENT BOX #1 */}
-                        {/* CONTENT BOX #2 */}
                         <div className="cbox-2 process-step col-md-2">
                           {/* Icon */}
                           <div className="ico-wrap">
@@ -443,79 +521,10 @@ export default function About() {
                           {/* Text */}
                           <div className="cbox-2-txt">
                             <h5 className="s-22 w-700">Europe Market</h5>
-                            <p>
-                              Enhance your career with our comprehensive testing
-                              suite, featuring
-                            </p>
-                          </div>
-                        </div>{" "}
-                        {/* END CONTENT BOX #2 */}
-                        {/* CONTENT BOX #3 */}
-                        <div className="cbox-2 process-step col-md-2">
-                          {/* Icon */}
-                          <div className="ico-wrap">
-                            <div className="cbox-2-ico2 bg--theme color--white">
-                              2032
-                            </div>
-                            <span className="cbox-2-line" />
-                          </div>
-                          {/* Text */}
-                          <div className="cbox-2-txt">
-                            <h5 className="s-22 w-700">New Markets</h5>
                             <p className="mb-0">
-                              Finalize your contract with us and embark on a
-                              trial period
-                            </p>
-                          </div>
-                        </div>{" "}
-                        <div className="cbox-2 process-step col-md-2">
-                          {/* Icon */}
-                          <div className="ico-wrap">
-                            <div className="cbox-2-ico2 bg--theme color--white">
-                              2032
-                            </div>
-                            <span className="cbox-2-line" />
-                          </div>
-                          {/* Text */}
-                          <div className="cbox-2-txt">
-                            <h5 className="s-22 w-700">New Markets</h5>
-                            <p className="mb-0">
-                              Finalize your contract with us and embark on a
-                              trial period
-                            </p>
-                          </div>
-                        </div>{" "}
-                        <div className="cbox-2 process-step col-md-2">
-                          {/* Icon */}
-                          <div className="ico-wrap">
-                            <div className="cbox-2-ico2 bg--theme color--white">
-                              2032
-                            </div>
-                            <span className="cbox-2-line" />
-                          </div>
-                          {/* Text */}
-                          <div className="cbox-2-txt">
-                            <h5 className="s-22 w-700">New Markets</h5>
-                            <p className="mb-0">
-                              Finalize your contract with us and embark on a
-                              trial period
-                            </p>
-                          </div>
-                        </div>{" "}
-                        <div className="cbox-2 process-step col-md-2">
-                          {/* Icon */}
-                          <div className="ico-wrap">
-                            <div className="cbox-2-ico2 bg--theme color--white">
-                              2032
-                            </div>
-                            <span className="cbox-2-line" />
-                          </div>
-                          {/* Text */}
-                          <div className="cbox-2-txt">
-                            <h5 className="s-22 w-700">New Markets</h5>
-                            <p className="mb-0">
-                              Finalize your contract with us and embark on a
-                              trial period
+                              2021 was a year of significant growth as we
+                              secured multiple contracts with German and
+                              European companies.
                             </p>
                           </div>
                         </div>{" "}
@@ -538,7 +547,7 @@ export default function About() {
                   <div className="txt-block left-column wow fadeInRight">
                     {/* Section ID */}
                     {/* Title */}
-                    <h2 className="s-46 w-700">Our Infrastructures 1</h2>
+                    <h2 className="s-46 w-700">Our Infrastructures</h2>
                     {/* List */}
                     <ul className="simple-list">
                       <li className="list-item">
