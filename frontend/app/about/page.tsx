@@ -538,7 +538,7 @@ export default function About() {
                   <div className="txt-block left-column wow fadeInRight">
                     {/* Section ID */}
                     {/* Title */}
-                    <h2 className="s-46 w-700">Our Infrastructures</h2>
+                    <h2 className="s-46 w-700">Our Infrastructures 1</h2>
                     {/* List */}
                     <ul className="simple-list">
                       <li className="list-item">
