@@ -21,7 +21,10 @@ export default function StartPage() {
       <OurProcess />
       <hr className="divider" />
       <hr className="divider" />
-      <Brands />
+      <Brands
+        header={"Your tech stack is covered"}
+        desc={"Our team is skilled in a wide array of programming languages"}
+      />
       <hr className="divider" />
       <ServiceContactComponent />
     </Layout>
