@@ -36,7 +36,8 @@ export default function Book() {
                 <div className="col-sm-12">
                   <section
                     id="faqs-4"
-                    className="gr--whitesmoke inner-page-hero  faqs-section division"
+                    className="gr--whitesmoke faqs-section division"
+                    style={{ paddingTop: "100px !important" }}
                   >
                     <div className="container">
                       {/* SECTION TITLE */}
@@ -45,9 +46,6 @@ export default function Book() {
                         <div className="col">
                           <div className="tabs-nav tabs--theme clearfix">
                             <ul className="tabs-1">
-                              {/* TAB-1 LINK */}
-
-                              {/* TAB-2 LINK */}
                               <li
                                 className={
                                   activeIndex === 1
