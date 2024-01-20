@@ -405,7 +405,7 @@ export default function About() {
           {/* DIVIDER LINE */}
           <hr className="divider" />
           <section id="banner-12" className="banner-section">
-            <div className="container">
+            <div className="container-fluid">
               <div className="row">
                 <div className="col-sm-12">
                   <div className="row d-flex align-items-center">
@@ -413,7 +413,7 @@ export default function About() {
                     <div className="col-md-12">
                       <div className="txt-block flex right-column wow fadeInLeft">
                         {/* CONTENT BOX #1 */}
-                        <div className="cbox-2 process-step col-md-4">
+                        <div className="cbox-2 process-step col-md-2">
                           {/* Icon */}
                           <div className="ico-wrap">
                             <div className="cbox-2-ico2 bg--theme color--white">
@@ -432,7 +432,7 @@ export default function About() {
                         </div>{" "}
                         {/* END CONTENT BOX #1 */}
                         {/* CONTENT BOX #2 */}
-                        <div className="cbox-2 process-step col-md-4">
+                        <div className="cbox-2 process-step col-md-2">
                           {/* Icon */}
                           <div className="ico-wrap">
                             <div className="cbox-2-ico2 bg--theme color--white">
@@ -451,7 +451,58 @@ export default function About() {
                         </div>{" "}
                         {/* END CONTENT BOX #2 */}
                         {/* CONTENT BOX #3 */}
-                        <div className="cbox-2 process-step col-md-4">
+                        <div className="cbox-2 process-step col-md-2">
+                          {/* Icon */}
+                          <div className="ico-wrap">
+                            <div className="cbox-2-ico2 bg--theme color--white">
+                              2032
+                            </div>
+                            <span className="cbox-2-line" />
+                          </div>
+                          {/* Text */}
+                          <div className="cbox-2-txt">
+                            <h5 className="s-22 w-700">New Markets</h5>
+                            <p className="mb-0">
+                              Finalize your contract with us and embark on a
+                              trial period
+                            </p>
+                          </div>
+                        </div>{" "}
+                        <div className="cbox-2 process-step col-md-2">
+                          {/* Icon */}
+                          <div className="ico-wrap">
+                            <div className="cbox-2-ico2 bg--theme color--white">
+                              2032
+                            </div>
+                            <span className="cbox-2-line" />
+                          </div>
+                          {/* Text */}
+                          <div className="cbox-2-txt">
+                            <h5 className="s-22 w-700">New Markets</h5>
+                            <p className="mb-0">
+                              Finalize your contract with us and embark on a
+                              trial period
+                            </p>
+                          </div>
+                        </div>{" "}
+                        <div className="cbox-2 process-step col-md-2">
+                          {/* Icon */}
+                          <div className="ico-wrap">
+                            <div className="cbox-2-ico2 bg--theme color--white">
+                              2032
+                            </div>
+                            <span className="cbox-2-line" />
+                          </div>
+                          {/* Text */}
+                          <div className="cbox-2-txt">
+                            <h5 className="s-22 w-700">New Markets</h5>
+                            <p className="mb-0">
+                              Finalize your contract with us and embark on a
+                              trial period
+                            </p>
+                          </div>
+                        </div>{" "}
+                        <div className="cbox-2 process-step col-md-2">
                           {/* Icon */}
                           <div className="ico-wrap">
                             <div className="cbox-2-ico2 bg--theme color--white">
