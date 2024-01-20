@@ -492,7 +492,9 @@ export default function About() {
                     <ul className="simple-list">
                       <li className="list-item">
                         {/* Title */}
-                        <h5 className="s-24 w-700 mb-20">Optimal Work Environment</h5>
+                        <h5 className="s-24 w-700 mb-20">
+                          Optimal Work Environment
+                        </h5>
                         {/* Text */}
                         <p>
                           At TaraTalent, we recognize the significance of
@@ -509,12 +511,14 @@ export default function About() {
                       </li>
                       <li className="list-item">
                         {/* Title */}
-                        <h5 className="s-24 w-700 mb-20">Enhancing Talent Productivity</h5>
+                        <h5 className="s-24 w-700 mb-20">
+                          Enhancing Talent Productivity
+                        </h5>
                         {/* Text */}
                         <p className="mb-0">
                           Our commitment to delivering top-tier, cost-effective
-                          solutions extends to ensuring that your {`talent's`} work
-                          environment is not only productive but also
+                          solutions extends to ensuring that your {`talent's`}{" "}
+                          work environment is not only productive but also
                           comfortable and efficient. With TaraTalent, you
                           empower your talent to achieve outstanding results,
                           ultimately benefiting your {`organization's`} success.
