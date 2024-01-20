@@ -17,9 +17,9 @@ export default function Hero() {
               <div className="hero-2-txt wow fadeInLeft">
                 {/* Title */}
                 <div className="row">
-                  <div className="col-sm-12 " style={{ marginTop: "100px" }}>
+                  <div className="col-sm-12 ">
                     {" "}
-                    <h2 className="s-56 w-700 color--black">
+                    <h2 className="s-56 w-700 color--black herotext">
                       Affordable{" "}
                       <span className="main-text">Senior Talents</span> for
                       startups
