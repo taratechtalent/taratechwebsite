@@ -17,7 +17,7 @@ export default function Hero() {
               <div className="hero-2-txt wow fadeInLeft">
                 {/* Title */}
                 <div className="row">
-                  <div className="col-sm-12">
+                  <div className="col-sm-12 " style={{ marginTop: "100px" }}>
                     {" "}
                     <h2 className="s-56 w-700 color--black">
                       Affordable{" "}
@@ -39,12 +39,12 @@ export default function Hero() {
                     className="col-sm-12 text-left"
                     style={{ marginTop: "18px" }}
                   >
-                    <span className="s-38 w-700 color--black">
+                    <span className="s-24 w-700 color--black">
                       Unlock <span className="main-text">Senior Talents</span>{" "}
                     </span>
                     <div
-                      className="s-20 w-700 color--black"
-                      style={{ marginLeft: "150px" }}
+                      className="s-32 w-700 color--black"
+                      style={{ marginLeft: "100px" }}
                     >
                       <Typewriter
                         options={{
@@ -61,21 +61,19 @@ export default function Hero() {
                     </div>
                   </div>
                   <div
-                    className="col-sm-12 text-left flex items-center"
-                    style={{ marginTop: "31px" }}
+                    className="col-sm-12 text-right "
+                    style={{ marginTop: "61px" }}
                   >
-                    <Link href="/book">
-                      <span className="btn btn--theme hover--theme submit">
-                        Arrange a Call
-                      </span>
+                    <Link href="/book" className="btn btn--theme hover--theme">
+                      Arrange a Call
                     </Link>
-                    <img
+                    {/* <img
                       src="images/play.png"
                       style={{
                         height: "50px !important",
                         marginLeft: "40px",
                       }}
-                    />
+                    /> */}
                   </div>
                 </div>
 
