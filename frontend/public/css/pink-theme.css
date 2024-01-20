@@ -13730,7 +13730,7 @@ html {
 }
 
 .heromain {
-  background-image: url("https://bairesdev.mo.cloudinary.net/coresite/home/hero.png");
+  background-image: url("/images/hero-2.jpg.png");
   background-size: cover;
   width: 100vw;
   height: 100vh;
