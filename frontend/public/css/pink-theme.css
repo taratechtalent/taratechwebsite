@@ -13760,3 +13760,8 @@ html {
   border-radius: 15px;
   padding: 25px;
 }
+
+.shadow-type1 {
+  box-shadow: 0 4px 12px 0 rgb(110 126 130 / 33%);
+  border-radius: 15px;
+}

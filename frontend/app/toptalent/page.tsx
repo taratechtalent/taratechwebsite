@@ -378,13 +378,8 @@ export default function TopTalent() {
                       {/* Image */}
                       <div className="fbox-img gr--whitesmoke h-175">
                         <img
-                          className="img-fluid light-theme-img"
+                          className="img-fluid light-theme-img shadow-type1"
                           src="/images/topn/advanced.png"
-                          alt="feature-image"
-                        />
-                        <img
-                          className="img-fluid dark-theme-img"
-                          src="/images/topn/DALL·E 2023-12-27 12.25 1.png"
                           alt="feature-image"
                         />
                       </div>
@@ -405,13 +400,8 @@ export default function TopTalent() {
                       {/* Image */}
                       <div className="fbox-img gr--whitesmoke h-175">
                         <img
-                          className="img-fluid light-theme-img"
+                          className="img-fluid light-theme-img shadow-type1"
                           src="/images/topn/analytic.png"
-                          alt="feature-image"
-                        />
-                        <img
-                          className="img-fluid dark-theme-img"
-                          src="/images/f_01_dark.png"
                           alt="feature-image"
                         />
                       </div>
@@ -432,13 +422,8 @@ export default function TopTalent() {
                       {/* Image */}
                       <div className="fbox-img gr--whitesmoke h-175">
                         <img
-                          className="img-fluid light-theme-img"
+                          className="img-fluid light-theme-img shadow-type1"
                           src="/images/topn/commitment.png"
-                          alt="feature-image"
-                        />
-                        <img
-                          className="img-fluid dark-theme-img"
-                          src="/images/f_05_dark.png"
                           alt="feature-image"
                         />
                       </div>
@@ -459,13 +444,8 @@ export default function TopTalent() {
                       {/* Image */}
                       <div className="fbox-img gr--whitesmoke h-175">
                         <img
-                          className="img-fluid light-theme-img"
+                          className="img-fluid light-theme-img shadow-type1"
                           src="/images/topn/communication.png"
-                          alt="feature-image"
-                        />
-                        <img
-                          className="img-fluid dark-theme-img"
-                          src="/images/f_02_dark.png"
                           alt="feature-image"
                         />
                       </div>
