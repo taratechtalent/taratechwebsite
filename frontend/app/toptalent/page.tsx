@@ -67,7 +67,7 @@ export default function TopTalent() {
           </section>
           <div className=" container mt-36 mb-24">
             <div className="row">
-              <div className="col-md-6">
+              <div className="col-md-6 wow fadeInLeft">
                 <div className="cbox-2 process-step pt-4">
                   {/* Icon */}
                   <div className="ico-wrap">
@@ -162,7 +162,7 @@ export default function TopTalent() {
                 </div>{" "}
                 {/* END CONTENT BOX #2 */}
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 wow fadeInRight">
                 <img src="/images/howHireTalent.png" />
               </div>
             </div>

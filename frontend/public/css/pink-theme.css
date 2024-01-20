@@ -10683,7 +10683,7 @@ span.release-date span {
 .contact-form .form-select {
   height: 62px;
   background-color: #f5f6f8;
-  border: 1px solid transparent;
+  border: 1px solid #0e6b76 !important;
   box-shadow: 0 0 0 0;
   color: #3a4a56;
   font-size: 1rem;

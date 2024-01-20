@@ -30,7 +30,7 @@ export default function Book() {
         <div id="page" className="page font--jakarta ">
           {/* LOGIN PAGE
 ============================================= */}
-          <div id="login" className="bg--fixed login-1 login-section division">
+          <div id="login" className="bg--fixed contact-form division">
             <div className="container">
               <div className="row">
                 <div className="col-sm-12">
@@ -42,7 +42,7 @@ export default function Book() {
                     <div className="container">
                       {/* SECTION TITLE */}
                       {/* TABS NAVIGATION */}
-                      <div className="row">
+                      <div className="row wow fadeInLeft">
                         <div className="col">
                           <div className="tabs-nav tabs--theme clearfix">
                             <ul className="tabs-1">
@@ -80,116 +80,115 @@ export default function Book() {
                                   : "tab-content "
                               }
                             >
-                              <div className="row">
+                              <div className="row wow fadeInRight">
                                 <div className="col-md-12 col-lg-12 ">
-                                  <div className="register-page-form">
-                                    {/* TITLE */}
-                                    <div className="col-md-12">
-                                      <div className="register-form-title">
-                                        <p className="p-md">
-                                          Thank you for reaching out.Please
-                                          share your contact details to set up a
-                                          meeting with our specialist.
-                                        </p>
-                                      </div>
+                                  {/* TITLE */}
+                                  <div className="col-md-12">
+                                    <div className="register-form-title">
+                                      <p className="p-md">
+                                        Thank you for reaching out.
+                                      </p>
+                                      <p>
+                                        {" "}
+                                        Please share your contact details to set
+                                        up a meeting with our specialist
+                                      </p>
                                     </div>
-                                    {/* LOGIN FORM */}
-                                    <form
-                                      name="signinform"
-                                      className="row sign-in-form"
-                                    >
-                                      {/* Google Button */}
-                                      {/* Login Separator */}
-                                      {/* Form Input */}
-                                      <div className="col-md-12">
-                                        <p className="p-sm input-header">
-                                          Name
-                                        </p>
-                                        <input
-                                          className="form-control text"
-                                          type="text"
-                                          name="name"
-                                          placeholder="Please provide your full name."
-                                          value={name}
-                                          onChange={(e) =>
-                                            setName(e.target.value)
-                                          }
-                                        />
-                                      </div>{" "}
-                                      <div className="col-md-12">
-                                        <p className="p-sm input-header">
-                                          Company Name:
-                                        </p>
-                                        <input
-                                          className="form-control text"
-                                          type="text"
-                                          name="text"
-                                          placeholder="Tell us the name of your company."
-                                          value={phone}
-                                          onChange={(e) =>
-                                            setPhone(e.target.value)
-                                          }
-                                        />
-                                      </div>
-                                      <div className="col-md-12">
-                                        <p className="p-sm input-header">
-                                          Position:
-                                        </p>
-                                        <input
-                                          className="form-control text"
-                                          type="text"
-                                          name="text"
-                                          placeholder="What's your role at the company? (e.g., CEO, CTO, Project Manager)"
-                                          value={phone}
-                                          onChange={(e) =>
-                                            setPhone(e.target.value)
-                                          }
-                                        />
-                                      </div>
-                                      <div className="col-md-12">
-                                        <p className="p-sm input-header">
-                                          Email address
-                                        </p>
-                                        <input
-                                          className="form-control email"
-                                          type="email"
-                                          name="email"
-                                          placeholder="Please enter a valid email address where we can contact you."
-                                          value={email}
-                                          onChange={(e) =>
-                                            setEmail(e.target.value)
-                                          }
-                                        />
-                                      </div>{" "}
-                                      <div className="col-md-12">
-                                        <p className="p-sm input-header">
-                                          How can we help? (Optional):
-                                        </p>
-
-                                        <textarea
-                                          className="form-control "
-                                          name="message"
-                                          rows={5}
-                                          placeholder="Let us know your preferences to tailor our meeting to your needs. "
-                                          value={description}
-                                          onChange={(e) =>
-                                            setMessage(e.target.value)
-                                          }
-                                        />
-                                      </div>
-                                      {/* Form Submit Button */}
-                                      <div className="col-md-12 col-sm-12 text-center">
-                                        <button
-                                          style={{ width: "25%" }}
-                                          type="submit"
-                                          className="btn btn--theme hover--theme submit"
-                                        >
-                                          Arrange a Call
-                                        </button>
-                                      </div>
-                                    </form>{" "}
-                                    {/* END LOGIN FORM */}
                                   </div>
+                                  {/* LOGIN FORM */}
+                                  <form
+                                    name="contact-form"
+                                    className="row sign-in-form"
+                                  >
+                                    {/* Google Button */}
+                                    {/* Login Separator */}
+                                    {/* Form Input */}
+                                    <div className="col-md-12">
+                                      <p className="p-sm input-header">Name</p>
+                                      <input
+                                        className="form-control text"
+                                        type="text"
+                                        name="name"
+                                        placeholder="Please provide your full name."
+                                        value={name}
+                                        onChange={(e) =>
+                                          setName(e.target.value)
+                                        }
+                                      />
+                                    </div>{" "}
+                                    <div className="col-md-12">
+                                      <p className="p-sm input-header">
+                                        Company Name:
+                                      </p>
+                                      <input
+                                        className="form-control text"
+                                        type="text"
+                                        name="text"
+                                        placeholder="Tell us the name of your company."
+                                        value={phone}
+                                        onChange={(e) =>
+                                          setPhone(e.target.value)
+                                        }
+                                      />
+                                    </div>
+                                    <div className="col-md-12">
+                                      <p className="p-sm input-header">
+                                        Position:
+                                      </p>
+                                      <input
+                                        className="form-control text"
+                                        type="text"
+                                        name="text"
+                                        placeholder="What's your role at the company? (e.g., CEO, CTO, Project Manager)"
+                                        value={phone}
+                                        onChange={(e) =>
+                                          setPhone(e.target.value)
+                                        }
+                                      />
+                                    </div>
+                                    <div className="col-md-12">
+                                      <p className="p-sm input-header">
+                                        Email address
+                                      </p>
+                                      <input
+                                        className="form-control email"
+                                        type="email"
+                                        name="email"
+                                        placeholder="Please enter a valid email address where we can contact you."
+                                        value={email}
+                                        onChange={(e) =>
+                                          setEmail(e.target.value)
+                                        }
+                                      />
+                                    </div>{" "}
+                                    <div className="col-md-12">
+                                      <p className="p-sm input-header">
+                                        How can we help? (Optional):
+                                      </p>
+
+                                      <textarea
+                                        className="form-control message"
+                                        name="message"
+                                        rows={5}
+                                        placeholder="Let us know your preferences to tailor our meeting to your needs. "
+                                        value={description}
+                                        onChange={(e) =>
+                                          setMessage(e.target.value)
+                                        }
+                                      />
+                                    </div>
+                                    {/* Form Submit Button */}
+                                    <div className="col-md-12 col-sm-12 text-center">
+                                      <button
+                                        style={{ width: "25%" }}
+                                        type="submit"
+                                        className="btn btn--theme hover--theme submit"
+                                      >
+                                        Arrange a Call
+                                      </button>
+                                    </div>
+                                  </form>{" "}
+                                  {/* END LOGIN FORM */}
                                 </div>
                               </div>
                             </div>

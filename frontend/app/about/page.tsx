@@ -115,7 +115,7 @@ export default function About() {
             <div className="container">
               <div className="row">
                 {/* ABOUT-3 TEXT */}
-                <div className="col-md-6">
+                <div className="col-md-6 wow fadeInLeft">
                   <div id="a3-1" className="txt-block">
                     {/* Title */}
                     <h5 className="s-30 w-700 mb-20">Mission & impact</h5>
@@ -133,7 +133,7 @@ export default function About() {
                 </div>
                 {/* END ABOUT-3 TEXT */}
                 {/* ABOUT-3 TEXT */}
-                <div className="col-md-6">
+                <div className="col-md-6 wow fadeInRight">
                   <div id="a3-2" className="txt-block">
                     {/* Title */}
                     <h5 className="s-30 w-700 mb-20">Vision</h5>
