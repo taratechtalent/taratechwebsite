@@ -13739,3 +13739,24 @@ html {
 .herotext {
   padding-top: 55px;
 }
+
+.timeline-item {
+  display: inline-block;
+  width: 350px;
+}
+
+.timeline-content {
+  width: 2000px; /* Adjust this value as needed */
+}
+
+.timeline-container {
+  width: 100%;
+  overflow-x: auto;
+  white-space: nowrap; /* Prevents wrapping of content */
+}
+
+.shadow {
+  box-shadow: 0 4px 12px 0 rgb(110 126 130 / 33%);
+  border-radius: 15px;
+  padding: 25px;
+}
