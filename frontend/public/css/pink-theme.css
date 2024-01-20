@@ -13735,3 +13735,7 @@ html {
   width: 100vw;
   height: 100vh;
 }
+
+.herotext {
+  padding-top: 55px;
+}
