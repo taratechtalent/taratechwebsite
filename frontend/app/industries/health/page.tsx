@@ -77,14 +77,13 @@ export default function Home() {
                 <div className="col-md-4">
                   <div id="a3-2" className="txt-block">
                     {/* Title */}
-                    <h5 className="s-24 w-700 mb-20">
-                      Optimal Working Environment
-                    </h5>
+                    <h5 className="s-24 w-700 mb-20">Tailored Solutions</h5>
                     {/* Text */}
                     <p>
-                      Providing the ideal workspace equipped with high-speed
-                      internet for maximum efficiency essential for seamless
-                      remote work.
+                      We specialize in connecting healthcare and life sciences
+                      companies with top-tier tech talent. Unlike traditional
+                      outsourcing, we provide a direct link to exceptional
+                      professionals who can help you meet your project goals.
                     </p>
                     {/* Text */}
                   </div>
@@ -92,14 +91,14 @@ export default function Home() {
                 <div className="col-md-4">
                   <div id="a3-2" className="txt-block">
                     {/* Title */}
-                    <h5 className="s-24 w-700 mb-20">
-                      Competitive Salary Structure
-                    </h5>
+                    <h5 className="s-24 w-700 mb-20">Industry Impact</h5>
                     {/* Text */}
                     <p>
-                      Receive a salary that exceeds local standards by over 50%,
-                      ensuring a comfortable lifestyle with all your essential
-                      needs met.
+                      Our professionals have a proven track record of making
+                      significant contributions to healthcare IT, medical device
+                      development, clinical research data analytics, and more.
+                      We've played a vital role in advancing telemedicine,
+                      healthtech solutions, and patient care.
                     </p>
                     {/* Text */}
                   </div>
@@ -121,12 +120,11 @@ export default function Home() {
                 <div className="col-md-10 col-lg-9">
                   <div className="section-title mb-70">
                     {/* Title */}
-                    <h2 className="s-50 w-700">
-                      We make your business gain more revenue at a glance
-                    </h2>
+                    <h2 className="s-50 w-700">Healthcare Solutions</h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
-                      Ligula risus auctor tempus magna feugiat lacinia.
+                      Discover our diverse range of services that empower the
+                      healthcare industry.
                     </p>
                   </div>
                 </div>
@@ -159,11 +157,14 @@ export default function Home() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Market Research</h6>
+                        <h6 className="s-22 w-700">
+                          Custom Software Development
+                        </h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          From building electronic health record (EHR) systems
+                          to developing innovative healthcare applications, our
+                          experts create tailored software solutions to
+                          streamline processes and improve patient outcomes.
                         </p>
                       </div>
                     </div>
@@ -194,11 +195,10 @@ export default function Home() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">User Experience</h6>
+                        <h6 className="s-22 w-700">Data Analytics</h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          We leverage data-driven insights to enhance clinical
+                          decision-making, research, and operational efficiency.
                         </p>
                       </div>
                     </div>
@@ -229,11 +229,12 @@ export default function Home() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Digital Marketing</h6>
+                        <h6 className="s-22 w-700">Telemedicine Solutions</h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          Our team excels in developing telehealth platforms
+                          that bring medical services directly to patients,
+                          enabling remote consultations and improving access to
+                          care.
                         </p>
                       </div>
                     </div>
@@ -264,86 +265,20 @@ export default function Home() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Web Development</h6>
+                        <h6 className="s-22 w-700">
+                          Medical Device Development
+                        </h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          TaraTalent professionals have contributed to the
+                          design and development of cutting-edge medical
+                          devices, ensuring compliance with industry standards.
                         </p>
                       </div>
                     </div>
                   </div>{" "}
                   {/* END FEATURE BOX #4 */}
-                  {/* FEATURE BOX #5 */}
-                  <div className="col">
-                    <div className="fbox-11 fb-5 wow fadeInUp">
-                      {/* Icon */}
-                      <div className="fbox-ico-wrap">
-                        <div className="fbox-ico ico-50">
-                          <div className="shape-ico color--theme">
-                            {/* Vector Icon */}
-                            <span className="flaticon-trophy" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
-                          </div>
-                        </div>
-                      </div>{" "}
-                      {/* End Icon */}
-                      {/* Text */}
-                      <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Brand Design Identity</h6>
-                        <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
-                        </p>
-                      </div>
-                    </div>
-                  </div>{" "}
-                  {/* END FEATURE BOX #5 */}
-                  {/* FEATURE BOX #6 */}
-                  <div className="col">
-                    <div className="fbox-11 fb-6 wow fadeInUp">
-                      {/* Icon */}
-                      <div className="fbox-ico-wrap">
-                        <div className="fbox-ico ico-50">
-                          <div className="shape-ico color--theme">
-                            {/* Vector Icon */}
-                            <span className="flaticon-search-engine-1" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
-                          </div>
-                        </div>
-                      </div>{" "}
-                      {/* End Icon */}
-                      {/* Text */}
-                      <div className="fbox-txt">
-                        <h6 className="s-22 w-700">SEO &amp; SMM Services</h6>
-                        <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
-                        </p>
-                      </div>
-                    </div>
-                  </div>{" "}
-                  {/* END FEATURE BOX #6 */}
+                  
+                  
                 </div>{" "}
                 {/* End row */}
               </div>{" "}

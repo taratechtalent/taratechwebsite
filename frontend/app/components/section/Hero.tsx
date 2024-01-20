@@ -18,7 +18,7 @@ export default function Hero() {
                 <div className="row">
                   <div className="col-sm-12">
                     {" "}
-                    <h2 className="s-56 w-700 color--black mt-10">
+                    <h2 className="s-56 w-700 color--black">
                       Affordable{" "}
                       <span className="main-text">Senior Talents</span> for
                       startups
@@ -34,10 +34,7 @@ export default function Hero() {
                       growth
                     </p>
                   </div>{" "}
-                  <div
-                    className="col-sm-12 text-left"
-                    style={{ marginTop: "18px" }}
-                  >
+                  <div className="col-sm-12 text-left">
                     <h2 className="s-25 w-700 color--black">
                       Unlock <span className="main-text">Senior Talents</span>{" "}
                       <span
@@ -61,7 +58,7 @@ export default function Hero() {
                   </div>
                   <div
                     className="col-sm-12 text-left flex items-center"
-                    style={{ marginTop: "31px" }}
+                    style={{ marginTop: "11px" }}
                   >
                     <span className="btn btn--theme hover--theme submit">
                       Arrange a Call
