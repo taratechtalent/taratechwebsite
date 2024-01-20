@@ -25,7 +25,7 @@ export default function Home() {
                     </h2>
                     {/* Text */}
                     <p>
-                      In today's healthcare and life sciences landscape,
+                      In {`today's`} healthcare and life sciences landscape,
                       technological innovation is key to delivering better
                       patient care, advancing medical research, and staying
                       competitive. TaraTalent is your strategic partner in
@@ -67,7 +67,7 @@ export default function Home() {
                       having highly skilled technical professionals who are
                       well-versed in the nuances of healthcare and life
                       sciences. Our experts have a deep understanding of the
-                      industry's unique challenges and opportunities.
+                      {`industry's`} unique challenges and opportunities.
                     </p>
                     {/* List */}
                   </div>
@@ -97,7 +97,7 @@ export default function Home() {
                       Our professionals have a proven track record of making
                       significant contributions to healthcare IT, medical device
                       development, clinical research data analytics, and more.
-                      We've played a vital role in advancing telemedicine,
+                      {`We've`} played a vital role in advancing telemedicine,
                       healthtech solutions, and patient care.
                     </p>
                     {/* Text */}
@@ -277,8 +277,6 @@ export default function Home() {
                     </div>
                   </div>{" "}
                   {/* END FEATURE BOX #4 */}
-                  
-                  
                 </div>{" "}
                 {/* End row */}
               </div>{" "}
@@ -323,12 +321,13 @@ export default function Home() {
                       </div>
                       {/* Text */}
                       <div className="cbox-2-txt">
-                        <h5 className="s-22 w-700">Registeration</h5>
+                        <h5 className="s-22 w-700">
+                          Consult with Our Industry Experts
+                        </h5>
                         <p>
-                          Register now to take the next step in your career
-                          journey; complete the application form by uploading
-                          your CV and let us connect you with your future
-                          opportunities.
+                          Our team collaborates with you to understand your
+                          industry-specific goals, technical requirements, and
+                          team dynamics.
                         </p>
                       </div>
                     </div>{" "}
@@ -344,10 +343,12 @@ export default function Home() {
                       </div>
                       {/* Text */}
                       <div className="cbox-2-txt">
-                        <h5 className="s-22 w-700">Some Amazing Test skills</h5>
+                        <h5 className="s-22 w-700">
+                          Access Hand-Picked Talent
+                        </h5>
                         <p>
-                          Enhance your career with our comprehensive testing
-                          suite, featuring
+                          Connect with the ideal talent for your industry,
+                          typically within days.
                         </p>
                       </div>
                     </div>{" "}
@@ -364,12 +365,11 @@ export default function Home() {
                       {/* Text */}
                       <div className="cbox-2-txt">
                         <h5 className="s-22 w-700">
-                          Finalize contract and start Trial Period
+                          Trial Period, Risk-Free Hiring
                         </h5>
                         <p className="mb-0">
-                          Finalize your contract with us and embark on a trial
-                          period, where {`you'll`} have the opportunity to
-                          showcase your skills,
+                          Evaluate your new team member on a trial basis,
+                          ensuring a perfect match.
                         </p>
                       </div>
                     </div>{" "}
