@@ -24,7 +24,7 @@ export default function Hero() {
                   offer the perfect blend of quality and cost-efficiency.
                 </p>
                 {/* HERO DIGITS */}
-                <h2 className="s-25 w-700 color--black mt-24 ml-32 ">
+                <h2 className="s-25 w-700 color--black mt-16 ml-28 ">
                   Unlock <span className="main-text">Senior Talents</span>{" "}
                   <span
                     className="s-20 w-700 color--black ml-10"
