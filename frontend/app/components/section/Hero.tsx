@@ -14,7 +14,7 @@ export default function Hero() {
             <div className="col-md-6 order-first order-md-2">
               <div className="hero-2-txt wow fadeInLeft">
                 {/* Title */}
-                <h2 className="s-56 w-700 color--black mt-52">
+                <h2 className="s-56 w-700 color--black mt-20">
                   Affordable <span className="main-text">Senior Talents</span>{" "}
                   for startups
                 </h2>
