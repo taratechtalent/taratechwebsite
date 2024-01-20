@@ -208,7 +208,7 @@ const ServiceComponent = ({
           </div>
           <hr className="!mb-10 divider !mt-10" />
 
-          <div className="col  shadow-box">
+          <div className="col-sm-6 offset-sm-3  shadow-box">
             <div className="fbox-11 fb-4 wow fadeInUp">
               {/* Icon */}
               <div className="fbox-ico-wrap">

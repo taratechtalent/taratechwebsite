@@ -3,32 +3,11 @@
 
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
-import { useState } from "react";
+
 import ServiceComponent from "../component/service.component";
 import ServiceContactComponent from "../component/service.contact.component";
-export default function Help() {
-  const [activeIndex, setActiveIndex] = useState(1);
-  const handleOnClick = (index: any) => {
-    setActiveIndex(index);
-  };
-  const [isActive, setIsActive] = useState({
-    status: false,
-    key: 1,
-  });
-
-  const handleToggle = (key: any) => {
-    if (isActive.key === key) {
-      setIsActive({
-        status: false,
-        key,
-      });
-    } else {
-      setIsActive({
-        status: true,
-        key,
-      });
-    }
-  };
+import Brands from "../components/section/Brand";
+export default function ServicePage() {
   return (
     <>
       <Layout
@@ -55,21 +34,14 @@ export default function Help() {
         </div>
         <hr className="divider" />
 
-     
+        <Brands
+          header={"We support most popular stack"}
+          desc={"Our team is skilled in a wide array of programming languages"}
+        />
 
-        <div className="row p-4 m-4" style={{ backgroundColor: "#37939b" }}>
-          <div className="col-sm-12 text-center">
-            <Link
-              href="/book"
-              className="btn r-04 btn--theme hover--theme mb-20  mt-20"
-            >
-              Team up for success
-            </Link>
-          </div>
-        </div>
         <hr className="divider" />
 
-          <section className="py-100 ct-02 content-section division">
+        <section className="py-100 ct-02 content-section division">
           <div className="container">
             <div className="row">
               <div className="col text-center mb-32">
