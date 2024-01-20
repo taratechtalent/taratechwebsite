@@ -2,6 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
+import Link from "next/link";
 import { useEffect } from "react";
 import Typewriter from "typewriter-effect";
 export default function Hero() {
@@ -16,7 +17,7 @@ export default function Hero() {
               <div className="hero-2-txt wow fadeInLeft">
                 {/* Title */}
                 <div className="row">
-                  <div className="col-sm-12">
+                  <div className="col-sm-12 " style={{ marginTop: "100px" }}>
                     {" "}
                     <h2 className="s-56 w-700 color--black">
                       Affordable{" "}
@@ -34,42 +35,45 @@ export default function Hero() {
                       growth
                     </p>
                   </div>{" "}
-                  <div className="col-sm-12 text-left">
-                    <h2 className="s-25 w-700 color--black">
+                  <div
+                    className="col-sm-12 text-left"
+                    style={{ marginTop: "18px" }}
+                  >
+                    <span className="s-24 w-700 color--black">
                       Unlock <span className="main-text">Senior Talents</span>{" "}
-                      <span
-                        className="s-20 w-700 color--black"
-                        style={{ paddingTop: "40px !important" }}
-                      >
-                        <Typewriter
-                          options={{
-                            strings: [
-                              "Web Development -> €70K/y",
-                              "Devops -> €60K/y",
-                              "UI/UX -> €120K/y",
-                            ],
-                            autoStart: true,
-                            loop: true,
-                            delay: 100,
-                          }}
-                        />
-                      </span>
-                    </h2>
+                    </span>
+                    <div
+                      className="s-32 w-700 color--black"
+                      style={{ marginLeft: "100px" }}
+                    >
+                      <Typewriter
+                        options={{
+                          strings: [
+                            "Web Development -> €70K/y",
+                            "Devops -> €60K/y",
+                            "UI/UX -> €120K/y",
+                          ],
+                          autoStart: true,
+                          loop: true,
+                          delay: 100,
+                        }}
+                      />
+                    </div>
                   </div>
                   <div
-                    className="col-sm-12 text-left flex items-center"
-                    style={{ marginTop: "11px" }}
+                    className="col-sm-12 text-right "
+                    style={{ marginTop: "61px" }}
                   >
-                    <span className="btn btn--theme hover--theme submit">
+                    <Link href="/book" className="btn btn--theme hover--theme">
                       Arrange a Call
-                    </span>
-                    <img
+                    </Link>
+                    {/* <img
                       src="images/play.png"
                       style={{
                         height: "50px !important",
                         marginLeft: "40px",
                       }}
-                    />
+                    /> */}
                   </div>
                 </div>
 
