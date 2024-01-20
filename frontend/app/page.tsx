@@ -9,7 +9,7 @@ import Features from "./components/section/Features";
 import Link from "next/link";
 import ServiceContactComponent from "./component/service.contact.component";
 
-export default function Home() {
+export default function StartPage() {
   return (
     <Layout headerCls="navbar-dark light-hero-header">
       <Hero />
