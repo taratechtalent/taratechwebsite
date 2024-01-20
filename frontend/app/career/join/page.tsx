@@ -71,17 +71,16 @@ export default function Contact() {
                       <div className="txt-block left-column wow fadeInRight">
                         {/* Section ID */}
                         {/* Title */}
-                        <h2 className="s-56 w-700">
-                          Join our Talent network
-                        </h2>
+                        <h2 className="s-56 w-700">Join our Talent network</h2>
                         {/* Text */}
                         {/* Text */}
                         <p className="p-lg w-400">
-                          Explore  our talent community to unlock a world of
+                          Explore our talent community to unlock a world of
                           opportunities. By becoming a part of our talent
-                          network, {`you'll`} gain access to exclusive job openings,
-                          industry insights, and networking opportunities. Stay
-                          connected with us and take your career to new heights.
+                          network, {`you'll`} gain access to exclusive job
+                          openings, industry insights, and networking
+                          opportunities. Stay connected with us and take your
+                          career to new heights.
                         </p>
                       </div>
                     </div>
@@ -109,7 +108,7 @@ export default function Contact() {
             id="contacts-1"
             className="pb-50 inner-page-hero contacts-section division"
           >
-            <div className="container">
+            <div className="container wow fadeInLeft">
               {/* SECTION TITLE */}
               <div className="row justify-content-center">
                 <div className="col-md-10 col-lg-9">
