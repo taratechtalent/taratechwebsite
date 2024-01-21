@@ -68,6 +68,64 @@ export default function Home() {
           {/* END TEXT CONTENT */}
           {/* FEATURES-11
 			============================================= */}
+      
+          <div id="about-3" className="pt-100 about-section division">
+            <div className="container">
+              <div className="row">
+                {/* ABOUT-3 TEXT */}
+                <div className="col-md-4">
+                  <div id="a3-1" className="txt-block">
+                    {/* Title */}
+                    <h5 className="s-24 w-700 mb-20">Our Expertise</h5>
+                    {/* Text */}
+                    <p>
+                      At TaraTalent, we understand the critical importance of
+                      having highly skilled technical professionals who are
+                      well-versed in the nuances of healthcare and life
+                      sciences. Our experts have a deep understanding of the
+                      {`industry's`} unique challenges and opportunities.
+                    </p>
+                    {/* List */}
+                  </div>
+                </div>{" "}
+                {/* END ABOUT-3 TEXT */}
+                {/* ABOUT-3 TEXT */}
+                <div className="col-md-4">
+                  <div id="a3-2" className="txt-block">
+                    {/* Title */}
+                    <h5 className="s-24 w-700 mb-20">Tailored Solutions</h5>
+                    {/* Text */}
+                    <p>
+                      We specialize in connecting healthcare and life sciences
+                      companies with top-tier tech talent. Unlike traditional
+                      outsourcing, we provide a direct link to exceptional
+                      professionals who can help you meet your project goals.
+                    </p>
+                    {/* Text */}
+                  </div>
+                </div>{" "}
+                <div className="col-md-4">
+                  <div id="a3-2" className="txt-block">
+                    {/* Title */}
+                    <h5 className="s-24 w-700 mb-20">Industry Impact</h5>
+                    {/* Text */}
+                    <p>
+                      Our professionals have a proven track record of making
+                      significant contributions to healthcare IT, medical device
+                      development, clinical research data analytics, and more.
+                      {`We've`} played a vital role in advancing telemedicine,
+                      healthtech solutions, and patient care.
+                    </p>
+                    {/* Text */}
+                  </div>
+                </div>{" "}
+                {/* END ABOUT-3 TEXT */}
+              </div>{" "}
+              {/* End row */}
+            </div>{" "}
+            {/* End container */}
+          </div>{" "}
+          {/* END ABOUT-3 */}
           <section
             id="features-11"
             className="pt-100 features-section division"
