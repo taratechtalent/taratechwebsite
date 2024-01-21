@@ -7194,7 +7194,7 @@ h5.h5-title {
 .tabs-1 li {
   display: inline-block;
   margin: 0 20px;
-  color: #aaa;
+  color: black;
   font-size: 1.05rem;
   line-height: 1;
   font-weight: 500;
@@ -9821,8 +9821,8 @@ span.release-date span {
   background-color: transparent;
   border: 2px solid #ddd;
   cursor: pointer;
-  padding: 30px 15px;
-  margin: 10px 6px;
+  padding: 30px;
+  margin: 10px;
   -webkit-transition: all 400ms ease-in-out;
   -moz-transition: all 400ms ease-in-out;
   -o-transition: all 400ms ease-in-out;
@@ -9858,8 +9858,8 @@ span.release-date span {
 .faqs-section .tabs-1 li p {
   line-height: 1;
   font-weight: 400;
-  margin-top: 15px;
   margin-bottom: 0;
+  margin-top: 15px;
 }
 
 /*------------------------------------------*/
@@ -9875,7 +9875,8 @@ span.release-date span {
 
 .faqs-section .tabs-1 li.current p,
 .faqs-section .tabs-1 li.current span {
-  color: #fff;
+  color: #04626d;
+  font-size: 18px;
 }
 
 .faqs-section .tabs--blue .tabs-1 li.current,
@@ -13579,7 +13580,7 @@ body.theme--dark {
 .faqs-section .tabs--theme .tabs-1 li.current:hover {
   /* background-color: linear-gradient(to bottom, #37939b, #04626d); */
   /* background: linear-gradient(to bottom, #37939b, #04626d); */
-  background: radial-gradient(circle at center, #37939b, #04626d);
+  background: white;
   border-color: #04626d !important;
 }
 

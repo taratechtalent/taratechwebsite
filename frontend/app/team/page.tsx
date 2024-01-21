@@ -350,10 +350,10 @@ export default function Team() {
                         </h2>
                         {/* Button */}
                         <Link
-                          href="mailto:yourdomain@mail.com"
+                          href="/book"
                           className="btn r-04 btn--theme hover--theme"
                         >
-                          support@tara-talent.com
+                          {`Let's`} talk
                         </Link>
                       </div>
                     </div>
