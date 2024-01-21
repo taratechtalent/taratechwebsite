@@ -522,7 +522,7 @@ export default function About() {
                           <div className="cbox-2-txt">
                             <h5 className="s-22 w-700">Europe Market</h5>
                             <p className="mb-0">
-                              2021 was a year of significant growth as we
+                              2021 was a year of meaningful growth as we
                               secured multiple contracts with Germany and
                               European companies.
                             </p>
