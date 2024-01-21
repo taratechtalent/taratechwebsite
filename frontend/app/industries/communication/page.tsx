@@ -350,6 +350,7 @@ export default function Home() {
                     {/* END CONTENT BOX #1 */}
                     {/* CONTENT BOX #2 */}
                     <div className="cbox-2 process-step col-md-4">
+                      
                       {/* Icon */}
                       <div className="ico-wrap">
                         <div className="cbox-2-ico bg--theme color--white">
