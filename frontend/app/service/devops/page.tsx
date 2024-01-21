@@ -257,7 +257,7 @@ export default function DevopsService() {
                               description="There's a vast array of DevOps tools that cater to various aspects of the lifecycle, including Jenkins for CI/CD, Docker for containerization, Kubernetes for container orchestration, Ansible, Puppet, or Chef for automation, and many more."
                             />{" "}
                             <ServiceItemDetails
-                              title="Security in DevOps - DevSecOps"
+                              title="Security - DevSecOps"
                               description="Integrating security into the DevOps process (often referred to as DevSecOps) ensures that security is a shared responsibility and is accounted for from the start, rather than being an afterthought."
                             />{" "}
                           </div>{" "}
