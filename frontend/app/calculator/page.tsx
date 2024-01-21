@@ -9,8 +9,8 @@ import Layout from "../components/layout/Layout";
 enum ServiceEnum {
   Web = "Web Development",
   Mobile = "Mobile Development",
-  QA = "Software testing & QA",
-  AI = "AI/Machine Learning",
+  QA = "Software testing",
+  AI = "Machine Learning",
   UX = "UI/UX Design",
   Art = "Digital Art",
   Devops = "Devops",
@@ -182,7 +182,7 @@ export default function Book() {
 ============================================= */}
           <div
             id="login"
-            className="bg--fixed login-1 login-section division !mt-20"
+            className="bg--fixed login-1 login-section division !mt-6"
           >
             <div className="container">
               <div className="row">
@@ -193,143 +193,175 @@ export default function Book() {
                   >
                     <div className="container">
                       <div className="row">
-                        <div className="col">
+                        <div className="col-sm-9">
+                          <div className="row">
+                            <div className="col">
+                              <div className="separator-line">
+                                <span className="cbox-2-ico bg--theme color--white  mr-2">
+                                  1
+                                </span>
+                                <b className="s-20 w-700">Service of Talent</b>
+                              </div>
+                              <div className="tabs-nav tabs--theme clearfix">
+                                <ul className="tabs-1">
+                                  {/* TAB-1 LINK */}
+
+                                  {/* TAB-2 LINK */}
+                                  {services.map((item) => {
+                                    return (
+                                      <li
+                                        key={item.value}
+                                        className={
+                                          selectedService === item.value
+                                            ? "tab-link ico-45 r-16 current"
+                                            : "tab-link ico-45 r-16"
+                                        }
+                                        onClick={() =>
+                                          selectService(item.value)
+                                        }
+                                      >
+                                        <p>{item.name} </p>
+                                      </li>
+                                    );
+                                  })}
+                                </ul>
+                              </div>
+                            </div>
+                          </div>{" "}
                           <div className="separator-line">
+                            {" "}
                             <span className="cbox-2-ico bg--theme color--white  mr-2">
-                              1
+                              2
                             </span>
-                            <b className="s-20 w-700">Service of Talent</b>
+                            <b className="s-20 w-700">
+                              Technologies of Service
+                            </b>
                           </div>
                           <div className="tabs-nav tabs--theme clearfix">
                             <ul className="tabs-1">
                               {/* TAB-1 LINK */}
 
                               {/* TAB-2 LINK */}
-                              {services.map((item) => {
+                              {services
+                                .filter(
+                                  (service) => service.value == selectedService
+                                )[0]
+                                ?.technologies?.map((item: any) => {
+                                  return (
+                                    <li
+                                      key={item}
+                                      className={
+                                        selectedTechnologies.includes(item)
+                                          ? "tab-link ico-45 r-16 current"
+                                          : "tab-link ico-45 r-16"
+                                      }
+                                      onClick={() => selectTechnologies(item)}
+                                      style={{ margin: "10px", padding: "5px" }}
+                                    >
+                                      <p
+                                        style={{
+                                          padding: "5px !important",
+                                          margin: "0px !important",
+                                        }}
+                                      >
+                                        {item}
+                                      </p>
+                                    </li>
+                                  );
+                                })}
+                            </ul>
+                          </div>
+                          <div className="separator-line">
+                            {" "}
+                            <span className="cbox-2-ico bg--theme color--white  mr-2">
+                              3
+                            </span>
+                            <b className="s-20 w-700">Level of Talent </b>
+                          </div>
+                          <div className="tabs-nav tabs--theme clearfix">
+                            <ul className="tabs-1">
+                              {/* TAB-1 LINK */}
+
+                              {/* TAB-2 LINK */}
+                              {levels.map((item) => {
                                 return (
                                   <li
-                                    key={item.value}
+                                    key={item}
                                     className={
-                                      selectedService === item.value
+                                      selectedLevel.includes(item)
                                         ? "tab-link ico-45 r-16 current"
                                         : "tab-link ico-45 r-16"
                                     }
-                                    onClick={() => selectService(item.value)}
+                                    onClick={() => selectLevel(item)}
+                                    style={{ margin: "10px", padding: "5px" }}
                                   >
-                                    <p>{item.name} </p>
+                                    <p
+                                      style={{
+                                        padding: "5px !important",
+                                        margin: "0px !important",
+                                      }}
+                                    >
+                                      {item}
+                                    </p>
+                                  </li>
+                                );
+                              })}
+                            </ul>
+                          </div>
+                          <div className="separator-line">
+                            {" "}
+                            <span className="cbox-2-ico bg--theme color--white  mr-2">
+                              4
+                            </span>
+                            <b className="s-20 w-700">Contract Period</b>
+                          </div>
+                          <div className="tabs-nav tabs--theme clearfix">
+                            <ul className="tabs-1">
+                              {/* TAB-1 LINK */}
+
+                              {/* TAB-2 LINK */}
+                              {periods.map((item) => {
+                                return (
+                                  <li
+                                    key={item}
+                                    className={
+                                      item == selectedPeriod
+                                        ? "tab-link ico-45 r-16 current"
+                                        : "tab-link ico-45 r-16"
+                                    }
+                                    onClick={() => selectPeriod(item)}
+                                    style={{ margin: "10px", padding: "5px" }}
+                                  >
+                                    <p
+                                      style={{
+                                        padding: "5px !important",
+                                        margin: "0px !important",
+                                      }}
+                                    >
+                                      {item}
+                                    </p>
                                   </li>
                                 );
                               })}
                             </ul>
                           </div>
                         </div>
-                      </div>{" "}
-                      <div className="separator-line">
-                        {" "}
-                        <span className="cbox-2-ico bg--theme color--white  mr-2">
-                          2
-                        </span>
-                        <b className="s-20 w-700">Technologies of Service</b>
-                      </div>
-                      <div className="tabs-nav tabs--theme clearfix">
-                        <ul className="tabs-1">
-                          {/* TAB-1 LINK */}
-
-                          {/* TAB-2 LINK */}
-                          {services
-                            .filter(
-                              (service) => service.value == selectedService
-                            )[0]
-                            ?.technologies?.map((item: any) => {
-                              return (
-                                <li
-                                  key={item}
-                                  className={
-                                    selectedTechnologies.includes(item)
-                                      ? "tab-link ico-45 r-16 current"
-                                      : "tab-link ico-45 r-16"
-                                  }
-                                  onClick={() => selectTechnologies(item)}
-                                >
-                                  <p>{item} </p>
-                                </li>
-                              );
-                            })}
-                        </ul>
-                      </div>
-                      <div className="separator-line">
-                        {" "}
-                        <span className="cbox-2-ico bg--theme color--white  mr-2">
-                          3
-                        </span>
-                        <b className="s-20 w-700">Level of Talent </b>
-                      </div>
-                      <div className="tabs-nav tabs--theme clearfix">
-                        <ul className="tabs-1">
-                          {/* TAB-1 LINK */}
-
-                          {/* TAB-2 LINK */}
-                          {levels.map((item) => {
-                            return (
-                              <li
-                                key={item}
-                                className={
-                                  selectedLevel.includes(item)
-                                    ? "tab-link ico-45 r-16 current"
-                                    : "tab-link ico-45 r-16"
-                                }
-                                onClick={() => selectLevel(item)}
-                              >
-                                <div className="tab-link-ico">
-                                  <span className="flaticon-suit" />
+                        <div className="col-sm-3">
+                          <div style={{ marginTop: "200px" }}>
+                            <hr className="divider" />
+                            <div>
+                              <div className="separator-line !mb-1">
+                                <b className="s-20 w-700">Final Price</b>
+                              </div>
+                              <div className="row">
+                                <div className="col-sm-12 text-center">
+                                  <h2 className="w-700">
+                                    2500 <span className="s-20">K€/y</span>
+                                  </h2>
                                 </div>
-                                <p>{item} </p>
-                              </li>
-                            );
-                          })}
-                        </ul>
-                      </div>
-                      <div className="separator-line">
-                        {" "}
-                        <span className="cbox-2-ico bg--theme color--white  mr-2">
-                          4
-                        </span>
-                        <b className="s-20 w-700">Contract Period</b>
-                      </div>
-                      <div className="tabs-nav tabs--theme clearfix">
-                        <ul className="tabs-1">
-                          {/* TAB-1 LINK */}
-
-                          {/* TAB-2 LINK */}
-                          {periods.map((item) => {
-                            return (
-                              <li
-                                key={item}
-                                className={
-                                  item == selectedPeriod
-                                    ? "tab-link ico-45 r-16 current"
-                                    : "tab-link ico-45 r-16"
-                                }
-                                onClick={() => selectPeriod(item)}
-                              >
-                                <div className="tab-link-ico">
-                                  <span className="flaticon-suit" />
-                                </div>
-                                <p>{item} </p>
-                              </li>
-                            );
-                          })}
-                        </ul>
-                      </div>
-                      <hr className="divider" />
-                      <div className="separator-line">
-                        <b className="s-20 w-700">Final Price</b>
-                      </div>
-                      <div className="row">
-                        <div className="col-sm-12 text-center">
-                          <h2 className="w-700">
-                            2500 <span className="s-20">K€/y</span>
-                          </h2>
+                              </div>
+                            </div>
+                          </div>
                         </div>
                       </div>
                     </div>{" "}
