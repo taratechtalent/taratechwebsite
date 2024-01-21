@@ -101,9 +101,9 @@ export default function Home() {
                     {/* Text */}
                     <p>
                       Our professionals have made a significant impact on the
-                      media and entertainment landscape. {`They've`} contributed to
-                      content creation, digital marketing, video production, and
-                      more.
+                      media and entertainment landscape. {`They've`} contributed
+                      to content creation, digital marketing, video production,
+                      and more.
                     </p>
                     {/* Text */}
                   </div>
@@ -163,11 +163,15 @@ export default function Home() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Market Research</h6>
+                        <h6 className="s-22 w-700">
+                          Digital Marketing & Promotion
+                        </h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          Navigate the world of digital marketing and promotion,
+                          where TaraTalent collaborates with companies to reach
+                          and engage their audiences effectively. Learn about
+                          the marketers, social media strategists, and SEO
+                          experts who drive online visibility.
                         </p>
                       </div>
                     </div>
@@ -198,11 +202,13 @@ export default function Home() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">User Experience</h6>
+                        <h6 className="s-22 w-700">Broadcasting & Streaming</h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          Step into the realm of broadcasting and streaming,
+                          where TaraTalent supports companies in delivering live
+                          and on-demand content. Meet the broadcasters,
+                          streaming engineers, and tech-savvy professionals who
+                          ensure seamless content delivery.
                         </p>
                       </div>
                     </div>
@@ -233,11 +239,15 @@ export default function Home() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Digital Marketing</h6>
+                        <h6 className="s-22 w-700">
+                          Entertainment Technology & Innovation
+                        </h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          Get a glimpse of the latest entertainment technology
+                          and innovation trends, powered by {`TaraTalent's`} network
+                          of experts. Discover how we enable companies to
+                          harness cutting-edge tech, from AR/VR to interactive
+                          experiences.
                         </p>
                       </div>
                     </div>
@@ -268,86 +278,21 @@ export default function Home() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Web Development</h6>
+                        <h6 className="s-22 w-700">
+                          Content Creation & Production
+                        </h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          Delve into content creation and production, where
+                          TaraTalent partners with media and entertainment
+                          companies to produce captivating content across
+                          various platforms. Discover the creatives, writers,
+                          directors, and producers who make it happen.
                         </p>
                       </div>
                     </div>
                   </div>{" "}
                   {/* END FEATURE BOX #4 */}
-                  {/* FEATURE BOX #5 */}
-                  <div className="col">
-                    <div className="fbox-11 fb-5 wow fadeInUp">
-                      {/* Icon */}
-                      <div className="fbox-ico-wrap">
-                        <div className="fbox-ico ico-50">
-                          <div className="shape-ico color--theme">
-                            {/* Vector Icon */}
-                            <span className="flaticon-trophy" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
-                          </div>
-                        </div>
-                      </div>{" "}
-                      {/* End Icon */}
-                      {/* Text */}
-                      <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Brand Design Identity</h6>
-                        <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
-                        </p>
-                      </div>
-                    </div>
-                  </div>{" "}
-                  {/* END FEATURE BOX #5 */}
-                  {/* FEATURE BOX #6 */}
-                  <div className="col">
-                    <div className="fbox-11 fb-6 wow fadeInUp">
-                      {/* Icon */}
-                      <div className="fbox-ico-wrap">
-                        <div className="fbox-ico ico-50">
-                          <div className="shape-ico color--theme">
-                            {/* Vector Icon */}
-                            <span className="flaticon-search-engine-1" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
-                          </div>
-                        </div>
-                      </div>{" "}
-                      {/* End Icon */}
-                      {/* Text */}
-                      <div className="fbox-txt">
-                        <h6 className="s-22 w-700">SEO &amp; SMM Services</h6>
-                        <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
-                        </p>
-                      </div>
-                    </div>
-                  </div>{" "}
-                  {/* END FEATURE BOX #6 */}
+                  
                 </div>{" "}
                 {/* End row */}
               </div>{" "}
@@ -392,12 +337,13 @@ export default function Home() {
                       </div>
                       {/* Text */}
                       <div className="cbox-2-txt">
-                        <h5 className="s-22 w-700">Registeration</h5>
+                        <h5 className="s-22 w-700">
+                          Consult with Our Industry Experts
+                        </h5>
                         <p>
-                          Register now to take the next step in your career
-                          journey; complete the application form by uploading
-                          your CV and let us connect you with your future
-                          opportunities.
+                          Our team collaborates with you to understand your
+                          industry-specific goals, technical requirements, and
+                          team dynamics.
                         </p>
                       </div>
                     </div>{" "}
@@ -413,10 +359,12 @@ export default function Home() {
                       </div>
                       {/* Text */}
                       <div className="cbox-2-txt">
-                        <h5 className="s-22 w-700">Some Amazing Test skills</h5>
+                        <h5 className="s-22 w-700">
+                          Access Hand-Picked Talent
+                        </h5>
                         <p>
-                          Enhance your career with our comprehensive testing
-                          suite, featuring
+                          Connect with the ideal talent for your industry,
+                          typically within days.
                         </p>
                       </div>
                     </div>{" "}
@@ -433,12 +381,11 @@ export default function Home() {
                       {/* Text */}
                       <div className="cbox-2-txt">
                         <h5 className="s-22 w-700">
-                          Finalize contract and start Trial Period
+                          Trial Period, Risk-Free Hiring
                         </h5>
                         <p className="mb-0">
-                          Finalize your contract with us and embark on a trial
-                          period, where {`you'll`} have the opportunity to
-                          showcase your skills,
+                          Evaluate your new team member on a trial basis,
+                          ensuring a perfect match.
                         </p>
                       </div>
                     </div>{" "}
