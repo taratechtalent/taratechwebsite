@@ -2,6 +2,7 @@
 import ServiceContactComponent from "@/app/component/service.contact.component";
 import Layout from "@/app/components/layout/Layout";
 import Link from "next/link";
+import { ServiceItemDetails } from "../serviceItem.component";
 
 export default function AIService() {
   return (
@@ -56,20 +57,16 @@ export default function AIService() {
                           <div className="col-md-5">
                             <div className="txt-block left-column wow fadeInRight">
                               {/* Section ID */}
-                              <span className="section-id">Understanding </span>
+                              <span className="section-id">Impact on </span>
                               {/* Title */}
-                              <h2 className="s-46 w-700">
-                                Artificial Intelligence{" "}
-                              </h2>
+                              <h2 className="s-46 w-700">Industries</h2>
                               {/* Text */}
                               <p>
-                                Artificial Intelligence (AI) is the broader
-                                concept of machines being able to carry out
-                                tasks in a way that we would consider{" "}
-                                {`"smart."`}
-                                It involves technologies that enable computers
-                                to mimic human intelligence, using logic,
-                                decision trees, and algorithms.
+                                Artificial Intelligence (AI) has a wide-ranging
+                                impact across various industries,
+                                revolutionizing how businesses operate and
+                                innovate. Here are some key industries where AI
+                                is making a significant impact:
                               </p>
                             </div>
                           </div>{" "}
@@ -104,9 +101,7 @@ export default function AIService() {
                                     {/* End Icon */}
                                     {/* Text */}
                                     <div className="fbox-txt">
-                                      <h5 className="s-20 w-700">
-                                        Single Page Applications (SPAs)
-                                      </h5>
+                                      <h5 className="s-20 w-700">Healthcare</h5>
                                     </div>
                                   </div>
                                   {/* FEATURE BOX #2 */}
@@ -134,9 +129,7 @@ export default function AIService() {
                                     {/* End Icon */}
                                     {/* Text */}
                                     <div className="fbox-txt">
-                                      <h5 className="s-20 w-700">
-                                        Static application
-                                      </h5>
+                                      <h5 className="s-20 w-700">Finance</h5>
                                     </div>
                                   </div>
                                 </div>
@@ -167,7 +160,7 @@ export default function AIService() {
                                     {/* Text */}
                                     <div className="fbox-txt">
                                       <h5 className="s-20 w-700">
-                                        Dynamic Application
+                                        Entertainment
                                       </h5>
                                     </div>
                                   </div>
@@ -196,9 +189,7 @@ export default function AIService() {
                                     {/* End Icon */}
                                     {/* Text */}
                                     <div className="fbox-txt">
-                                      <h5 className="s-20 w-700">
-                                        Progressive Web Apps (PWAs)
-                                      </h5>
+                                      <h5 className="s-20 w-700">Education</h5>
                                     </div>
                                   </div>
                                 </div>
@@ -221,7 +212,7 @@ export default function AIService() {
                         <div className="hover-overlay">
                           <img
                             className="img-fluid"
-                            src="/images/services/10-Web-Development-Frameworks.webp"
+                            src="https://www.udacity.com/blog/wp-content/uploads/2021/03/AI-vs-Deep-Learning_Blog-scaled.jpeg"
                             alt="project-preview"
                           />
                           <div className="item-overlay" />
@@ -229,235 +220,32 @@ export default function AIService() {
                         {/* Project Link */}
                       </div>
                     </div>{" "}
-                    {/* END WIDE IMAGE */}
-                    {/* Small Title */}
-                    {/* END VIDEO PREVIEW */}
                     <section
-                      id="features-2"
-                      className="pt-100 features-section division"
+                      id="reviews-2"
+                      className="gr--whitesmoke inner-page-hero reviews-section"
                     >
-                      <div className="container">
+                      <div className="container wow fadeInRight">
                         {/* SECTION TITLE */}
-                        {/* FEATURES-2 WRAPPER */}
-                        <div className="fbox-wrapper text-center">
-                          <div className="row row-cols-1 row-cols-md-3">
-                            {/* FEATURE BOX #1 */}
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-1 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Design and User Experience.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Design and User Experience
-                                  </h6>
-                                  <p className="text-left">
-                                    An effective web application combines
-                                    aesthetics with functionality. Responsive
-                                    design ensures your app looks great on any
-                                    device, while adaptive design tailors to
-                                    specific devices or screen sizes.
-                                    Prioritizing accessibility makes your app
-                                    usable by as many people as possible,
-                                    including those with disabilities.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>{" "}
-                            {/* END FEATURE BOX #1 */}
-                            {/* FEATURE BOX #2 */}
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Development Process.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Development Process
-                                  </h6>
-                                  <p className="text-left">
-                                    Web development typically follows stages:
-                                    planning, design, development, testing, and
-                                    deployment. Agile methodologies focus on
-                                    iterative development and collaboration,
-                                    while Waterfall is a linear approach.
-                                    Choosing the right method depends on project
-                                    size, team dynamics, and other factors.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Testing and Quality Assurance.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Technologies and Frameworks
-                                  </h6>
-                                  <p className="text-left">
-                                    Building web applications requires a mix of
-                                    client-side and server-side technologies.
-                                    HTML, CSS, and JavaScript are foundational
-                                    for creating user interfaces, enhanced by
-                                    libraries like React or Angular. Server-side
-                                    languages such as Node.js, Python, or Ruby
-                                    on Rails manage the {`app's `}logic and
-                                    database interactions. The choice of
-                                    technology impacts the {`app's`}{" "}
-                                    performance, scalability, and
-                                    maintainability.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Security Considerations.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Security Considerations
-                                  </h6>
-                                  <p className="text-left">
-                                    Security is paramount in web development to
-                                    protect sensitive data and maintain user
-                                    trust. Developers must guard against SQL
-                                    injection, Cross-Site Scripting (XSS), and
-                                    other vulnerabilities. Implementing HTTPS,
-                                    regular security audits, and following best
-                                    practices helps mitigate risks.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            {/* END FEATURE BOX #2 */}
-                            {/* FEATURE BOX #3 */}
-                            {/* END FEATURE BOX #3 */}
+                        {/* TESTIMONIALS-2 WRAPPER */}
+                        <div className="reviews-2-wrapper rel">
+                          <div className="row align-items-center row-cols-1 row-cols-md-2">
+                            {/* TESTIMONIAL #1 */}
+                            <ServiceItemDetails
+                              title="Ethical Considerations"
+                              description="With great power comes great responsibility. AI systems can inadvertently perpetuate biases, infringe on privacy, or even displace jobs. The tech community is actively engaged in developing more ethical AI, focusing on fairness, accountability, and transparency."
+                            />
+                            <ServiceItemDetails
+                              title="The Future of AI"
+                              description="AI and ML are rapidly evolving fields. Future trends include the integration of AI with quantum computing, enhancing processing capabilities exponentially, and the use of AI in combating climate change through more efficient energy management."
+                            />
+                            <ServiceItemDetails
+                              title="The Core Concepts"
+                              description="AI is the broader concept of machines being able to carry out tasks in a way that we would consider “smart”. Machine Learning, a subset of AI, involves the development of algorithms that allow machines to learn and make decisions based on data. For instance, when Netflix recommends shows based on your viewing history, it's using ML algorithms to understand your preferences."
+                            />
                           </div>{" "}
                           {/* End row */}
                         </div>{" "}
-                        {/* END FEATURES-2 WRAPPER */}
-                      </div>{" "}
-                      {/* End container */}
-                    </section>
-                    {/* Small Title */}
-                    <section className="pt-100 ct-04 content-section division mb-60">
-                      <div className="container">
-                        {/* SECTION CONTENT (ROW) */}
-                        <div className="row d-flex align-items-center">
-                          {/* TEXT BLOCK */}
-                          <div className="col-md-9 order-last order-md-2">
-                            <div className="txt-block left-column wow fadeInRight">
-                              {/* CONTENT BOX #1 */}
-                              <div className="cbox-2 process-step">
-                                {/* Icon */}
-                                <div className="ico-wrap">
-                                  <div className="cbox-2-ico bg--theme color--white">
-                                    **
-                                  </div>
-                                  <span className="cbox-2-line" />
-                                </div>
-                                {/* Text */}
-                                <div className="cbox-2-txt">
-                                  <h5 className="s-22 w-700">
-                                    Testing and Quality Assurance
-                                  </h5>
-                                  <p>
-                                    Testing ensures your web application
-                                    functions correctly and meets quality
-                                    standards. This includes unit testing
-                                    individual components, integration testing
-                                    combined parts, and system testing the
-                                    entire application. Effective QA identifies
-                                    bugs and issues before users encounter them.
-                                  </p>
-                                </div>
-                              </div>{" "}
-                              {/* END CONTENT BOX #1 */}
-                              {/* CONTENT BOX #2 */}
-                              <div className="cbox-2 process-step">
-                                {/* Icon */}
-                                <div className="ico-wrap">
-                                  <div className="cbox-2-ico bg--theme color--white">
-                                    **
-                                  </div>
-                                  <span className="cbox-2-line" />
-                                </div>
-                                {/* Text */}
-                                <div className="cbox-2-txt">
-                                  <h5 className="s-22 w-700">
-                                    Deployment and Maintenance
-                                  </h5>
-                                  <p>
-                                    Deployment involves transferring the web
-                                    application from a local environment to a
-                                    production server. Considerations include
-                                    choosing the right hosting, managing
-                                    databases, and configuring servers.
-                                    Post-launch, regular maintenance and updates
-                                    keep the app secure and functional.
-                                  </p>
-                                </div>
-                              </div>{" "}
-                              {/* END CONTENT BOX #2 */}
-                              {/* CONTENT BOX #3 */}
-                              <div className="cbox-2 process-step">
-                                {/* Icon */}
-                                <div className="ico-wrap">
-                                  <div className="cbox-2-ico bg--theme color--white">
-                                    **
-                                  </div>
-                                </div>
-                                {/* Text */}
-                                <div className="cbox-2-txt">
-                                  <h5 className="s-22 w-700">
-                                    Emerging Trends and Future of Web
-                                    Application Development
-                                  </h5>
-                                  <p className="mb-0">
-                                    The field of web development is continuously
-                                    evolving with trends like AI, machine
-                                    learning, and the Internet of Things (IoT)
-                                    shaping its future. Developers need to stay
-                                    informed about these trends to create
-                                    innovative and competitive applications.
-                                  </p>
-                                </div>
-                              </div>{" "}
-                              {/* END CONTENT BOX #3 */}
-                            </div>
-                          </div>{" "}
-                          {/* END TEXT BLOCK */}
-                          {/* IMAGE BLOCK */}
-                        </div>{" "}
-                        {/* END SECTION CONTENT (ROW) */}
+                        {/* END TESTIMONIALS-2 WRAPPER */}
                       </div>{" "}
                       {/* End container */}
                     </section>

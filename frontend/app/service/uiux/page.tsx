@@ -1,6 +1,7 @@
 /* eslint-disable @next/next/no-img-element */
 import ServiceContactComponent from "@/app/component/service.contact.component";
 import Layout from "@/app/components/layout/Layout";
+import { ServiceItemDetails } from "../serviceItem.component";
 
 export default function UIUXService() {
   return (
@@ -210,7 +211,7 @@ export default function UIUXService() {
                         <div className="hover-overlay">
                           <img
                             className="img-fluid"
-                            src="/images/services/10-Web-Development-Frameworks.webp"
+                            src="https://segwitz.com/wp-content/uploads/5757453-scaled.jpg"
                             alt="project-preview"
                           />
                           <div className="item-overlay" />
@@ -222,125 +223,35 @@ export default function UIUXService() {
                     {/* Small Title */}
                     {/* END VIDEO PREVIEW */}
                     <section
-                      id="features-2"
-                      className="pt-100 features-section division"
+                      id="reviews-2"
+                      className="gr--whitesmoke inner-page-hero reviews-section"
                     >
-                      <div className="container">
+                      <div className="container wow fadeInRight">
                         {/* SECTION TITLE */}
-                        {/* FEATURES-2 WRAPPER */}
-                        <div className="fbox-wrapper text-center">
-                          <div className="row row-cols-1 row-cols-md-3">
-                            {/* FEATURE BOX #1 */}
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-1 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Design and User Experience.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Principles of Good UI/UX Design
-                                  </h6>
-                                  <p className="text-left">
-                                    A dive into the core principles that make a
-                                    design effective, including clarity,
-                                    simplicity, consistency, accessibility, and
-                                    feedback. Understanding these principles is
-                                    crucial for creating intuitive and enjoyable
-                                    user experiences.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>{" "}
-                            {/* END FEATURE BOX #1 */}
-                            {/* FEATURE BOX #2 */}
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Development Process.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Understanding User-Centered Design (UCD)
-                                  </h6>
-                                  <p className="text-left">
-                                    Exploring the UCD process, which involves
-                                    designing a product from the perspective of
-                                    how it will be understood and used by the
-                                    user. This section emphasizes the importance
-                                    of involving users throughout the design
-                                    process.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Testing and Quality Assurance.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Challenges in UI/UX Design
-                                  </h6>
-                                  <p className="text-left">
-                                    Discussing common challenges faced by UI/UX
-                                    designers, such as keeping up with changing
-                                    user preferences, designing for diverse user
-                                    groups, and integrating user feedback
-                                    effectively.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Security Considerations.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Trends and Future of UI/UX Design
-                                  </h6>
-                                  <p className="text-left">
-                                    Exploring current trends in UI/UX design
-                                    like voice UI, augmented reality, virtual
-                                    reality, and how these are shaping the
-                                    future of user interfaces and experiences.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            {/* END FEATURE BOX #2 */}
-                            {/* FEATURE BOX #3 */}
-                            {/* END FEATURE BOX #3 */}
+                        {/* TESTIMONIALS-2 WRAPPER */}
+                        <div className="reviews-2-wrapper rel">
+                          <div className="row align-items-center row-cols-1 row-cols-md-2">
+                            {/* TESTIMONIAL #1 */}
+                            <ServiceItemDetails
+                              title="Principles of Good UI/UX Design"
+                              description="A dive into the core principles that make a design effective, including clarity, simplicity, consistency, accessibility, and feedback. Understanding these principles is crucial for creating intuitive and enjoyable user experiences."
+                            />
+                            <ServiceItemDetails
+                              title="User-Centered Design (UCD)"
+                              description="Exploring the UCD process, which involves designing a product from the perspective of how it will be understood and used by the user. This section emphasizes the importance of involving users throughout the design process."
+                            />
+                            <ServiceItemDetails
+                              title="Challenges in UI/UX Design"
+                              description="Discussing common challenges faced by UI/UX designers, such as keeping up with changing user preferences, designing for diverse user groups, and integrating user feedback effectively."
+                            />{" "}
+                            <ServiceItemDetails
+                              title="Future of UI/UX Design"
+                              description="Exploring current trends in UI/UX design like voice UI, augmented reality, virtual reality, and how these are shaping the future of user interfaces and experiences."
+                            />{" "}
                           </div>{" "}
                           {/* End row */}
                         </div>{" "}
-                        {/* END FEATURES-2 WRAPPER */}
+                        {/* END TESTIMONIALS-2 WRAPPER */}
                       </div>{" "}
                       {/* End container */}
                     </section>

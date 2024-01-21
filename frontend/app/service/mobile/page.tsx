@@ -2,6 +2,7 @@
 import ServiceContactComponent from "@/app/component/service.contact.component";
 import Layout from "@/app/components/layout/Layout";
 import Link from "next/link";
+import { ServiceItemDetails } from "../serviceItem.component";
 
 export default function MobileDevelopmentService() {
   return (
@@ -189,11 +190,9 @@ export default function MobileDevelopmentService() {
                         {/* Project Preview */}
                         <div className="hover-overlay">
                           <img
-                            className="img-fluid"
-                            src="/images/services/10-Web-Development-Frameworks.webp"
+                            src="https://dashwire.com/wp-content/uploads/2022/04/the-complete-guide-to-mobile-app-development-2021.png"
                             alt="project-preview"
                           />
-                          <div className="item-overlay" />
                         </div>
                         {/* Project Link */}
                       </div>
@@ -202,128 +201,39 @@ export default function MobileDevelopmentService() {
                     {/* Small Title */}
                     {/* END VIDEO PREVIEW */}
                     <section
-                      id="features-2"
-                      className="pt-100 features-section division"
+                      id="reviews-2"
+                      className="gr--whitesmoke inner-page-hero reviews-section"
                     >
-                      <div className="container">
+                      <div className="container wow fadeInRight">
                         {/* SECTION TITLE */}
-                        {/* FEATURES-2 WRAPPER */}
-                        <div className="fbox-wrapper text-center">
-                          <div className="row row-cols-1 row-cols-md-3">
-                            {/* FEATURE BOX #1 */}
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-1 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Design and User Experience.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Testing Your Mobile App
-                                  </h6>
-                                  <p className="text-left">
-                                    Testing is crucial to ensure the {`app's`}
-                                    quality, performance, security, and
-                                    usability. This includes unit testing,
-                                    integration testing, performance testing,
-                                    and user acceptance testing.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            {/* END FEATURE BOX #1 */}
-                            {/* FEATURE BOX #2 */}
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Development Process.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Mobile App User Experience (UX)
-                                  </h6>
-                                  <p className="text-left">
-                                    An {`app's`} success heavily relies on its
-                                    user experience. Good UX ensures the app is
-                                    easy to use, meets user needs, and provides
-                                    a seamless journey from start to finish.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Testing and Quality Assurance.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Choosing the Right Technology Stack
-                                  </h6>
-                                  <p className="text-left">
-                                    The choice between native, web, and hybrid
-                                    technologies impacts the performance, user
-                                    experience, and maintenance of the app.
-                                    Popular tools and languages include Swift
-                                    and Kotlin for native iOS and Android apps,
-                                    respectively, and frameworks like React
-                                    Native or Flutter for hybrid apps.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Security Considerations.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Design Considerations for Mobile Apps
-                                  </h6>
-                                  <p className="text-left">
-                                    Focus on user-centric design principles,
-                                    considering factors like screen size,
-                                    graphics, and user navigation. {`It's`} also
-                                    important to make apps accessible and
-                                    inclusive to reach a wider audience.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            {/* END FEATURE BOX #2 */}
-                            {/* FEATURE BOX #3 */}
-                            {/* END FEATURE BOX #3 */}
-                          </div>
+                        {/* TESTIMONIALS-2 WRAPPER */}
+                        <div className="reviews-2-wrapper rel">
+                          <div className="row align-items-center row-cols-1 row-cols-md-2">
+                            {/* TESTIMONIAL #1 */}
+                            <ServiceItemDetails
+                              title="Testing Your Mobile App"
+                              description="Testing is crucial to ensure the app'squality, performance, security, and usability. This includes unit testing, integration testing, performance testing, and user acceptance testing."
+                            />
+                            <ServiceItemDetails
+                              title="User Experience (UX)"
+                              description="An app's success heavily relies on its user experience. Good UX ensures the app is easy to use, meets user needs, and provides a seamless journey from start to finish."
+                            />
+                            <ServiceItemDetails
+                              title="Choosing the Right Technology"
+                              description="The choice between native, web, and hybrid technologies impacts the performance, user experience, and maintenance of the app. Popular tools and languages include Swift and Kotlin for native iOS and Android apps, respectively, and frameworks like React Native or Flutter for hybrid apps."
+                            />{" "}
+                            <ServiceItemDetails
+                              title="Design Considerations"
+                              description="Focus on user-centric design principles, considering factors like screen size, graphics, and user navigation. It's also important to make apps accessible and inclusive to reach a wider audience."
+                            />{" "}
+                          </div>{" "}
                           {/* End row */}
-                        </div>
-                        {/* END FEATURES-2 WRAPPER */}
-                      </div>
+                        </div>{" "}
+                        {/* END TESTIMONIALS-2 WRAPPER */}
+                      </div>{" "}
                       {/* End container */}
                     </section>
+
                     {/* Small Title */}
                     <section className="pt-100 ct-04 content-section division mb-60">
                       <div className="container">
