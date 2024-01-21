@@ -661,59 +661,55 @@ export default function TopTalent() {
                       <div className="question mb-35 wow fadeInUp">
                         {/* Question */}
                         <h5 className="s-22 w-700">
-                          <span>1.</span> Are there any upfront recruiting or
-                          contractual costs?
+                          <span>1.</span> Are there any initial recruitment or
+                          contract fees?
                         </h5>
                         {/* Answer */}
                         <p className="color--grey">
-                          We require an initial deposit of $500 that will be
-                          applied as a credit to your first invoice once you
-                          make a hire. If you decide not to move forward, your
-                          deposit will be refunded completely.
+                          No, TaraTalent does not charge any upfront recruiting
+                          or contractual costs to our clients. We believe in
+                          providing a seamless and cost-effective talent
+                          acquisition process. You can engage with our top 1%
+                          talent without any financial obligation until you find
+                          the right fit for your project or team. Your
+                          satisfaction and success are our priorities.
                         </p>
                       </div>
                       {/* QUESTION #2 */}
                       <div className="question mb-35 wow fadeInUp">
                         {/* Question */}
                         <h5 className="s-22 w-700">
-                          <span>2.</span> How is the trial period no-risk?
+                          <span>2.</span> How is the trial period risk-free?
                         </h5>
                         {/* Answer */}
                         <p className="color--grey">
-                          We make sure to start each engagement with a trial
-                          period of up to two weeks. This means that you have
-                          time to help ensure the engagement will be successful.
-                          If
-                          {`you’re`} completely satisfied with the results,{" "}
-                          {"we’ll"}
-                          bill you for the time and continue the engagement for
-                          as long as you’d like. If {"you’re"} not completely
-                          satisfied, you {"won’t"} be billed. From there, we can
-                          either part ways, or we can provide you with another
-                          expert who may be a better fit and with whom we will
-                          begin a second, no-risk trial.
+                          At TaraTalent, we offer a no-risk trial period to our
+                          clients. During this trial period, you have the
+                          opportunity to work with the talent {`we've`} matched you
+                          with. You are not committed to any long-term contracts
+                          or financial obligations during this phase.
                         </p>
                       </div>
                       {/* QUESTION #3 */}
                       <div className="question mb-35 wow fadeInUp">
                         {/* Question */}
                         <h5 className="s-22 w-700">
-                          <span>3.</span> What happens if {`I’m`} not satisfied
-                          with a Toptal expert?
+                          <span>3.</span> What if{` I'm`} unsatisfied with a
+                          TaraTalent expert?
                         </h5>
                         {/* Answer */}
                         <ul className="simple-list color--grey">
                           <li className="list-item">
                             <p>
-                              We allow our clients to begin a trial period with
-                              up to three experts from our network per position.
-                              While we rigorously screen all applicants to
-                              ensure talent and intelligence, we understand that
-                              not every person will be a perfect fit for every
-                              company. For this reason, we allow our clients to
-                              work with multiple experts for each position
-                              before they decide on a candidate with whom they
-                              are confident and comfortable.
+                              If, for any reason, you are not fully satisfied
+                              with the {`talent's`} performance or believe they are
+                              not the right fit for your project, you can choose
+                              not to continue with their services, and you will
+                              not incur any charges. We believe in the quality
+                              of our talent and are confident that {`you'll`} find
+                              the right fit, but we offer this trial period to
+                              provide peace of mind and ensure you are
+                              completely satisfied with your choice.
                             </p>
                           </li>
                         </ul>
@@ -728,53 +724,50 @@ export default function TopTalent() {
                       <div className="question mb-35 wow fadeInUp">
                         {/* Question */}
                         <h5 className="s-22 w-700">
-                          <span>4.</span> How does your screening process ensure
-                          quality candidates that meet our requirements?
+                          <span>4.</span> How does TaraTalent ensure candidates meet our requirements?
                         </h5>
                         {/* Answer */}
                         <p className="color--grey">
-                          We screen for communication skills, personality,
-                          domain-specific knowledge, and a high level of
-                          professionalism. Approximately 3% of applicants pass
-                          the screening process.
-                        </p>
-                        {/* Answer */}
-                        <p className="color--grey">
-                          Our process includes a variety of ways to determine
-                          skill and proficiency, including portfolio reviews,
-                          technical coding challenges, user or market research,
-                          business cases, project management backlog grooming,
-                          formal assessments, as well as live problem-solving
-                          sessions as appropriate to the candidate and vertical.
+                          {`TaraTalent's`} rigorous screening process evaluates
+                          candidates for communication skills, domain expertise,
+                          and professionalism. Our multi-faceted approach
+                          includes portfolio reviews, technical assessments, and
+                          live problem-solving sessions. Only around 1% of
+                          applicants pass this selective process, guaranteeing
+                          top-tier talent aligned with your requirements.
                         </p>
                       </div>
                       {/* QUESTION #5 */}
                       <div className="question mb-35 wow fadeInUp">
                         {/* Question */}
                         <h5 className="s-22 w-700">
-                          <span>5.</span> Where are your experts located?
+                          <span>5.</span> Where are your talents based?
                         </h5>
                         {/* Answer */}
                         <p className="color--grey">
-                          Currently, we have experts in over 100 countries, most
-                          being located in the Americas and Europe.
+                          Our experts are primarily located in the Middle East,
+                          a region known for its highly skilled technical
+                          professionals. This strategic location allows us to
+                          offer cost-effective talent solutions while
+                          maintaining the quality and expertise required for
+                          tech-related roles.
                         </p>
                       </div>
                       {/* QUESTION #6 */}
                       <div className="question mb-35 wow fadeInUp">
                         {/* Question */}
                         <h5 className="s-22 w-700">
-                          <span>6.</span> Are English skills ever an issue when
-                          working with a Toptal expert?
+                          <span>6.</span> Are there any language barriers when
+                          working with {`TaraTalent's`} experts?
                         </h5>
                         {/* Answer */}
                         <p className="color--grey">
-                          No. Each and every Toptal expert writes and speaks
-                          fluent English. In fact, before we invite candidates
-                          to tackle our rigorous domain-specific tests, we
-                          conduct lengthy interviews to ensure they have a high
-                          level of proficiency in English and have personalities
-                          well-suited to working with western technical teams.
+                          No, language barriers are not an issue when working
+                          with {`TaraTalent's`} experts. We ensure that all our
+                          professionals have strong English language skills,
+                          both written and spoken, to facilitate effective
+                          communication and collaboration with clients
+                          worldwide.
                         </p>
                       </div>
                     </div>
