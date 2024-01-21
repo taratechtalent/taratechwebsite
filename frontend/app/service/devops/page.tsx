@@ -252,11 +252,6 @@ export default function DevopsService() {
                                     src="/images/services/Design and User Experience.webp"
                                     alt="feature-image"
                                   />
-                                  <img
-                                    className="img-fluid dark-theme-img"
-                                    src="/images/f_01_dark.png"
-                                    alt="feature-image"
-                                  />
                                 </div>
                                 {/* Text */}
                                 <div className="fbox-txt">
@@ -283,11 +278,6 @@ export default function DevopsService() {
                                 <div className="fbox-img gr--whitesmoke h-175">
                                   <img
                                     className="img-fluid light-theme-img"
-                                    src="/images/services/Development Process.webp"
-                                    alt="feature-image"
-                                  />
-                                  <img
-                                    className="img-fluid dark-theme-img"
                                     src="/images/services/Development Process.webp"
                                     alt="feature-image"
                                   />
@@ -318,11 +308,6 @@ export default function DevopsService() {
                                     src="/images/services/Testing and Quality Assurance.webp"
                                     alt="feature-image"
                                   />
-                                  <img
-                                    className="img-fluid dark-theme-img"
-                                    src="/images/f_05_dark.png"
-                                    alt="feature-image"
-                                  />
                                 </div>
                                 {/* Text */}
                                 <div className="fbox-txt">
@@ -347,11 +332,6 @@ export default function DevopsService() {
                                   <img
                                     className="img-fluid light-theme-img"
                                     src="/images/services/Security Considerations.webp"
-                                    alt="feature-image"
-                                  />
-                                  <img
-                                    className="img-fluid dark-theme-img"
-                                    src="/images/f_05_dark.png"
                                     alt="feature-image"
                                   />
                                 </div>

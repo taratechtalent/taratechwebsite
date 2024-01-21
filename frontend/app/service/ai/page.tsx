@@ -58,7 +58,9 @@ export default function AIService() {
                               {/* Section ID */}
                               <span className="section-id">Understanding </span>
                               {/* Title */}
-                              <h2 className="s-46 w-700">Artificial Intelligence </h2>
+                              <h2 className="s-46 w-700">
+                                Artificial Intelligence{" "}
+                              </h2>
                               {/* Text */}
                               <p>
                                 Artificial Intelligence (AI) is the broader
@@ -249,11 +251,6 @@ export default function AIService() {
                                     src="/images/services/Design and User Experience.webp"
                                     alt="feature-image"
                                   />
-                                  <img
-                                    className="img-fluid dark-theme-img"
-                                    src="/images/f_01_dark.png"
-                                    alt="feature-image"
-                                  />
                                 </div>
                                 {/* Text */}
                                 <div className="fbox-txt">
@@ -284,11 +281,6 @@ export default function AIService() {
                                     src="/images/services/Development Process.webp"
                                     alt="feature-image"
                                   />
-                                  <img
-                                    className="img-fluid dark-theme-img"
-                                    src="/images/services/Development Process.webp"
-                                    alt="feature-image"
-                                  />
                                 </div>
                                 {/* Text */}
                                 <div className="fbox-txt">
@@ -314,11 +306,6 @@ export default function AIService() {
                                   <img
                                     className="img-fluid light-theme-img"
                                     src="/images/services/Testing and Quality Assurance.webp"
-                                    alt="feature-image"
-                                  />
-                                  <img
-                                    className="img-fluid dark-theme-img"
-                                    src="/images/f_05_dark.png"
                                     alt="feature-image"
                                   />
                                 </div>
@@ -350,11 +337,6 @@ export default function AIService() {
                                   <img
                                     className="img-fluid light-theme-img"
                                     src="/images/services/Security Considerations.webp"
-                                    alt="feature-image"
-                                  />
-                                  <img
-                                    className="img-fluid dark-theme-img"
-                                    src="/images/f_05_dark.png"
                                     alt="feature-image"
                                   />
                                 </div>

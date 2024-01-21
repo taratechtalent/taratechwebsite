@@ -656,11 +656,6 @@ export default function Home() {
                           src="/images/f_01.png"
                           alt="feature-image"
                         />
-                        <img
-                          className="img-fluid dark-theme-img"
-                          src="/images/f_01_dark.png"
-                          alt="feature-image"
-                        />
                       </div>
                       {/* Text */}
                       <div className="fbox-txt">
@@ -683,11 +678,6 @@ export default function Home() {
                           src="/images/f_05.png"
                           alt="feature-image"
                         />
-                        <img
-                          className="img-fluid dark-theme-img"
-                          src="/images/f_05_dark.png"
-                          alt="feature-image"
-                        />
                       </div>
                       {/* Text */}
                       <div className="fbox-txt">
@@ -708,11 +698,6 @@ export default function Home() {
                         <img
                           className="img-fluid light-theme-img"
                           src="/images/f_02.png"
-                          alt="feature-image"
-                        />
-                        <img
-                          className="img-fluid dark-theme-img"
-                          src="/images/f_02_dark.png"
                           alt="feature-image"
                         />
                       </div>
@@ -1361,11 +1346,6 @@ export default function Home() {
                           src="/images/f_06.png"
                           alt="feature-image"
                         />
-                        <img
-                          className="img-fluid dark-theme-img"
-                          src="/images/f_06_dark.png"
-                          alt="feature-image"
-                        />
                       </div>
                     </div>
                   </div>{" "}
@@ -1378,11 +1358,6 @@ export default function Home() {
                         <img
                           className="img-fluid light-theme-img"
                           src="/images/f_04.png"
-                          alt="feature-image"
-                        />
-                        <img
-                          className="img-fluid dark-theme-img"
-                          src="/images/f_04_dark.png"
                           alt="feature-image"
                         />
                       </div>
