@@ -226,7 +226,7 @@ export default function UIUXService() {
                       id="reviews-2"
                       className="gr--whitesmoke inner-page-hero reviews-section"
                     >
-                      <div className="container">
+                      <div className="container wow fadeInRight">
                         {/* SECTION TITLE */}
                         {/* TESTIMONIALS-2 WRAPPER */}
                         <div className="reviews-2-wrapper rel">
