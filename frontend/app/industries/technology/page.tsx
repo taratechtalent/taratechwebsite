@@ -20,33 +20,19 @@ export default function Home() {
                     {/* Section ID */}
                     <span className="section-id">Productivity Focused</span>
                     {/* Title */}
-                    <h2 className="s-46 w-700">
-                      Achieve more with better workflows
-                    </h2>
+                    <h2 className="s-46 w-700">Transforming Tech Excellence</h2>
                     {/* Text */}
                     <p>
-                      Sodales tempor sapien quaerat ipsum undo congue laoreet
-                      turpis neque auctor turpis vitae dolor luctus placerat
-                      magna and ligula cursus purus vitae purus an ipsum
-                      suscipit
+                      At TaraTalent, we understand that technology drives the
+                      modern world. Our mission is to connect forward-thinking
+                      companies in the technology sector with the exceptional
+                      talent they need to innovate, create cutting-edge
+                      solutions, and stay ahead in this rapidly evolving
+                      industry.
                     </p>
-                    {/* List */}
-                    <ul className="simple-list">
-                      <li className="list-item">
-                        <p>
-                          Tempor sapien quaerat an ipsum laoreet purus and
-                          sapien dolor an ultrice ipsum aliquam undo congue
-                          dolor cursus
-                        </p>
-                      </li>
-                      <li className="list-item">
-                        <p className="mb-0">
-                          Cursus purus suscipit vitae cubilia magnis volute
-                          egestas vitae sapien turpis ultrice auctor congue
-                          placerat
-                        </p>
-                      </li>
-                    </ul>
+                    <Link href="/book" className="btn btn--theme hover--theme">
+                      Arrange a Call
+                    </Link>
                   </div>
                 </div>{" "}
                 {/* END TEXT BLOCK */}
@@ -68,7 +54,6 @@ export default function Home() {
           {/* END TEXT CONTENT */}
           {/* FEATURES-11
 			============================================= */}
-      
           <div id="about-3" className="pt-100 about-section division">
             <div className="container">
               <div className="row">
@@ -76,15 +61,14 @@ export default function Home() {
                 <div className="col-md-4">
                   <div id="a3-1" className="txt-block">
                     {/* Title */}
-                    <h5 className="s-24 w-700 mb-20">Our Expertise</h5>
+                    <h5 className="s-24 w-700 mb-20">Tech Insights</h5>
                     {/* Text */}
                     <p>
-                      At TaraTalent, we understand the critical importance of
-                      having highly skilled technical professionals who are
-                      well-versed in the nuances of healthcare and life
-                      sciences. Our experts have a deep understanding of the
-                      {`industry's`} unique challenges and opportunities.
+                      At TaraTalent, we understand the tech landscape. Our
+                      experts keep pace with industry trends, offering tailored
+                      talent for your tech needs.
                     </p>
+
                     {/* List */}
                   </div>
                 </div>{" "}
@@ -93,13 +77,12 @@ export default function Home() {
                 <div className="col-md-4">
                   <div id="a3-2" className="txt-block">
                     {/* Title */}
-                    <h5 className="s-24 w-700 mb-20">Tailored Solutions</h5>
+                    <h5 className="s-24 w-700 mb-20">Custom Solutions</h5>
                     {/* Text */}
                     <p>
-                      We specialize in connecting healthcare and life sciences
-                      companies with top-tier tech talent. Unlike traditional
-                      outsourcing, we provide a direct link to exceptional
-                      professionals who can help you meet your project goals.
+                      We connect tech-driven companies with skilled
+                      professionals. No outsourcing. Just direct access to the
+                      right experts across tech domains.
                     </p>
                     {/* Text */}
                   </div>
@@ -107,14 +90,12 @@ export default function Home() {
                 <div className="col-md-4">
                   <div id="a3-2" className="txt-block">
                     {/* Title */}
-                    <h5 className="s-24 w-700 mb-20">Industry Impact</h5>
+                    <h5 className="s-24 w-700 mb-20">Tech Impact</h5>
                     {/* Text */}
                     <p>
-                      Our professionals have a proven track record of making
-                      significant contributions to healthcare IT, medical device
-                      development, clinical research data analytics, and more.
-                      {`We've`} played a vital role in advancing telemedicine,
-                      healthtech solutions, and patient care.
+                      Our professionals drive tech innovation. From software
+                      development to AI, web dev, and cybersecurity, they
+                      elevate digital experiences and safeguard assets.
                     </p>
                     {/* Text */}
                   </div>
@@ -137,11 +118,14 @@ export default function Home() {
                   <div className="section-title mb-70">
                     {/* Title */}
                     <h2 className="s-50 w-700">
-                      We make your business gain more revenue at a glance
+                      Mastering the Technological Frontier
                     </h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
-                      Ligula risus auctor tempus magna feugiat lacinia.
+                      Discover {`TaraTalent's`} unparalleled expertise in the
+                      technology realm. Our carefully selected professionals are
+                      at the forefront of innovation, specializing in various
+                      key domains:
                     </p>
                   </div>
                 </div>
@@ -174,11 +158,11 @@ export default function Home() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Market Research</h6>
+                        <h6 className="s-22 w-700">Software Development</h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          Our hand-picked professionals excel in software
+                          development, crafting robust and scalable applications
+                          tailored to your needs.
                         </p>
                       </div>
                     </div>
@@ -209,11 +193,11 @@ export default function Home() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">User Experience</h6>
+                        <h6 className="s-22 w-700">AI & Machine Learning</h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          Harness the power of artificial intelligence and
+                          machine learning with our expert talent who bring
+                          intelligence to your products and services.
                         </p>
                       </div>
                     </div>
@@ -244,11 +228,11 @@ export default function Home() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Digital Marketing</h6>
+                        <h6 className="s-22 w-700">Web Development</h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          Elevate your online presence with our web development
+                          experts, creating user-friendly websites and web
+                          applications.
                         </p>
                       </div>
                     </div>
@@ -279,86 +263,16 @@ export default function Home() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Web Development</h6>
+                        <h6 className="s-22 w-700">Cybersecurity</h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          Protect your digital assets with our cybersecurity
+                          specialists who ensure your systems are safe from
+                          threats.
                         </p>
                       </div>
                     </div>
                   </div>{" "}
                   {/* END FEATURE BOX #4 */}
-                  {/* FEATURE BOX #5 */}
-                  <div className="col">
-                    <div className="fbox-11 fb-5 wow fadeInUp">
-                      {/* Icon */}
-                      <div className="fbox-ico-wrap">
-                        <div className="fbox-ico ico-50">
-                          <div className="shape-ico color--theme">
-                            {/* Vector Icon */}
-                            <span className="flaticon-trophy" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
-                          </div>
-                        </div>
-                      </div>{" "}
-                      {/* End Icon */}
-                      {/* Text */}
-                      <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Brand Design Identity</h6>
-                        <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
-                        </p>
-                      </div>
-                    </div>
-                  </div>{" "}
-                  {/* END FEATURE BOX #5 */}
-                  {/* FEATURE BOX #6 */}
-                  <div className="col">
-                    <div className="fbox-11 fb-6 wow fadeInUp">
-                      {/* Icon */}
-                      <div className="fbox-ico-wrap">
-                        <div className="fbox-ico ico-50">
-                          <div className="shape-ico color--theme">
-                            {/* Vector Icon */}
-                            <span className="flaticon-search-engine-1" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
-                          </div>
-                        </div>
-                      </div>{" "}
-                      {/* End Icon */}
-                      {/* Text */}
-                      <div className="fbox-txt">
-                        <h6 className="s-22 w-700">SEO &amp; SMM Services</h6>
-                        <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
-                        </p>
-                      </div>
-                    </div>
-                  </div>{" "}
-                  {/* END FEATURE BOX #6 */}
                 </div>{" "}
                 {/* End row */}
               </div>{" "}
@@ -403,12 +317,13 @@ export default function Home() {
                       </div>
                       {/* Text */}
                       <div className="cbox-2-txt">
-                        <h5 className="s-22 w-700">Registeration</h5>
+                        <h5 className="s-22 w-700">
+                          Consult with Our Industry Experts
+                        </h5>
                         <p>
-                          Register now to take the next step in your career
-                          journey; complete the application form by uploading
-                          your CV and let us connect you with your future
-                          opportunities.
+                          Our team collaborates with you to understand your
+                          industry-specific goals, technical requirements, and
+                          team dynamics.
                         </p>
                       </div>
                     </div>{" "}
@@ -424,10 +339,12 @@ export default function Home() {
                       </div>
                       {/* Text */}
                       <div className="cbox-2-txt">
-                        <h5 className="s-22 w-700">Some Amazing Test skills</h5>
+                        <h5 className="s-22 w-700">
+                          Access Hand-Picked Talent
+                        </h5>
                         <p>
-                          Enhance your career with our comprehensive testing
-                          suite, featuring
+                          Connect with the ideal talent for your industry,
+                          typically within days.
                         </p>
                       </div>
                     </div>{" "}
@@ -444,12 +361,11 @@ export default function Home() {
                       {/* Text */}
                       <div className="cbox-2-txt">
                         <h5 className="s-22 w-700">
-                          Finalize contract and start Trial Period
+                          Trial Period, Risk-Free Hiring
                         </h5>
                         <p className="mb-0">
-                          Finalize your contract with us and embark on a trial
-                          period, where {`you'll`} have the opportunity to
-                          showcase your skills,
+                          Evaluate your new team member on a trial basis,
+                          ensuring a perfect match.
                         </p>
                       </div>
                     </div>{" "}

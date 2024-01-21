@@ -32,7 +32,7 @@ export default function Menu() {
               <Link href="/industries/technology">Technology</Link>
             </li>
             <li>
-              <Link href="/industries/communication">Communication</Link>
+              <Link href="/industries/communication">Communication,Media & Entertainment</Link>
             </li>
             <li>
               <Link href="/industries/marketing">Financial services</Link>

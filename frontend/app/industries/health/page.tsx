@@ -32,6 +32,9 @@ export default function Home() {
                       harnessing the power of technology for success in this
                       dynamic industry.
                     </p>
+                    <Link href="/book" className="btn btn--theme hover--theme">
+                      Arrange a Call
+                    </Link>
                   </div>
                 </div>{" "}
                 {/* END TEXT BLOCK */}

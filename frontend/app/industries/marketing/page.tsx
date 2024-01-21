@@ -98,7 +98,7 @@ export default function Home() {
                       finance, retail, marketing, and consumer sectors. From
                       fintech innovation to e-commerce solutions, data-driven
                       marketing strategies, and enhancing the consumer
-                      experience, we've been at the forefront of industry
+                      experience, {`we've`} been at the forefront of industry
                       advancements.
                     </p>
                     {/* Text */}

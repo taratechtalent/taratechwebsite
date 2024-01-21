@@ -20,31 +20,23 @@ export default function Home() {
                     {/* Section ID */}
                     <span className="section-id">Productivity Focused</span>
                     {/* Title */}
-                    <h2 className="s-46 w-700">Communication</h2>
+                    <h2 className="s-46 w-700">
+                      Unleashing Creative Potential in Entertainment industry{" "}
+                    </h2>
                     {/* Text */}
                     <p>
-                      Sodales tempor sapien quaerat ipsum undo congue laoreet
-                      turpis neque auctor turpis vitae dolor luctus placerat
-                      magna and ligula cursus purus vitae purus an ipsum
-                      suscipit
+                      At TaraTalent, we recognize that the world of
+                      Communication, Media & Entertainment is a dynamic and
+                      ever-evolving landscape. Our mission is to connect
+                      visionary leaders in this industry with the exceptional
+                      talent needed to drive innovation, captivate audiences,
+                      and shape the future of media and entertainment. Discover
+                      how our professionals bring creativity and technical
+                      expertise to the forefront.
                     </p>
-                    {/* List */}
-                    <ul className="simple-list">
-                      <li className="list-item">
-                        <p>
-                          Tempor sapien quaerat an ipsum laoreet purus and
-                          sapien dolor an ultrice ipsum aliquam undo congue
-                          dolor cursus
-                        </p>
-                      </li>
-                      <li className="list-item">
-                        <p className="mb-0">
-                          Cursus purus suscipit vitae cubilia magnis volute
-                          egestas vitae sapien turpis ultrice auctor congue
-                          placerat
-                        </p>
-                      </li>
-                    </ul>
+                    <Link href="/book" className="btn btn--theme hover--theme">
+                      Arrange a Call
+                    </Link>
                   </div>
                 </div>{" "}
                 {/* END TEXT BLOCK */}
@@ -66,7 +58,6 @@ export default function Home() {
           {/* END TEXT CONTENT */}
           {/* FEATURES-11
 			============================================= */}
-      
           <div id="about-3" className="pt-100 about-section division">
             <div className="container">
               <div className="row">
@@ -74,14 +65,13 @@ export default function Home() {
                 <div className="col-md-4">
                   <div id="a3-1" className="txt-block">
                     {/* Title */}
-                    <h5 className="s-24 w-700 mb-20">Our Expertise</h5>
+                    <h5 className="s-24 w-700 mb-20">Media Mastery</h5>
                     {/* Text */}
                     <p>
-                      At TaraTalent, we understand the critical importance of
-                      having highly skilled technical professionals who are
-                      well-versed in the nuances of healthcare and life
-                      sciences. Our experts have a deep understanding of the
-                      {`industry's`} unique challenges and opportunities.
+                      TaraTalent understands the dynamic world of media,
+                      communication, and entertainment. Our experts stay updated
+                      with industry trends to provide tailored talent for your
+                      creative needs.
                     </p>
                     {/* List */}
                   </div>
@@ -91,13 +81,15 @@ export default function Home() {
                 <div className="col-md-4">
                   <div id="a3-2" className="txt-block">
                     {/* Title */}
-                    <h5 className="s-24 w-700 mb-20">Tailored Solutions</h5>
+                    <h5 className="s-24 w-700 mb-20">
+                      Custom Creative Solutions
+                    </h5>
                     {/* Text */}
                     <p>
-                      We specialize in connecting healthcare and life sciences
-                      companies with top-tier tech talent. Unlike traditional
-                      outsourcing, we provide a direct link to exceptional
-                      professionals who can help you meet your project goals.
+                      We specialize in connecting companies in this industry
+                      with highly skilled professionals. Our direct access to
+                      exceptional talent ensures your creative visions come to
+                      life.
                     </p>
                     {/* Text */}
                   </div>
@@ -105,14 +97,13 @@ export default function Home() {
                 <div className="col-md-4">
                   <div id="a3-2" className="txt-block">
                     {/* Title */}
-                    <h5 className="s-24 w-700 mb-20">Industry Impact</h5>
+                    <h5 className="s-24 w-700 mb-20">Innovative Impact</h5>
                     {/* Text */}
                     <p>
-                      Our professionals have a proven track record of making
-                      significant contributions to healthcare IT, medical device
-                      development, clinical research data analytics, and more.
-                      {`We've`} played a vital role in advancing telemedicine,
-                      healthtech solutions, and patient care.
+                      Our professionals have made a significant impact on the
+                      media and entertainment landscape. {`They've`} contributed to
+                      content creation, digital marketing, video production, and
+                      more.
                     </p>
                     {/* Text */}
                   </div>
