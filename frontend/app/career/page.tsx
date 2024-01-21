@@ -484,12 +484,13 @@ export default function Career() {
                   <div className="col-md-10 col-lg-9">
                     <div className="section-title mb-70">
                       {/* Title */}
-                      <h2 className="s-52 w-700">FAQs</h2>
+                      <h2 className="s-52 w-700">Top Talent FAQs</h2>
                       {/* Text */}
 
                       <p className="s-21 color--grey">
-                        Most important questions maybe help you better to work
-                        with us
+                        Explore Talent FAQs to find answers to
+                        common questions about joining our talent pool and
+                        leveraging exciting career opportunities.
                       </p>
                     </div>
                   </div>
@@ -504,60 +505,50 @@ export default function Career() {
                         <div className="question mb-35 wow fadeInUp">
                           {/* Question */}
                           <h5 className="s-22 w-700">
-                            <span>1.</span> Are there any upfront recruiting or
-                            contractual costs?
+                            <span>1.</span> What are the requirements for
+                            becoming a TaraTalent member?
                           </h5>
                           {/* Answer */}
                           <p className="color--grey">
-                            We require an initial deposit of $500 that will be
-                            applied as a credit to your first invoice once you
-                            make a hire. If you decide not to move forward, your
-                            deposit will be refunded completely.
+                            We highly value exceptional skills and professional
+                            experience. While requirements may differ depending
+                            on the role, we generally seek individuals with a
+                            strong track record in their field, extensive
+                            expertise, and a commitment to excellence.
                           </p>
                         </div>
                         {/* QUESTION #2 */}
                         <div className="question mb-35 wow fadeInUp">
                           {/* Question */}
                           <h5 className="s-22 w-700">
-                            <span>2.</span> How is the trial period no-risk?
+                            <span>2.</span> Could you explain the steps in the
+                            selection process?
                           </h5>
                           {/* Answer */}
                           <p className="color--grey">
-                            We make sure to start each engagement with a trial
-                            period of up to two weeks. This means that you have
-                            time to help ensure the engagement will be
-                            successful. If
-                            {`you’re`} completely satisfied with the results,{" "}
-                            {"we’ll"}
-                            bill you for the time and continue the engagement
-                            for as long as you’d like. If {"you’re"} not
-                            completely satisfied, you {"won’t"} be billed. From
-                            there, we can either part ways, or we can provide
-                            you with another expert who may be a better fit and
-                            with whom we will begin a second, no-risk trial.
+                            Our selection procedure is comprehensive yet
+                            equitable. It typically involves an assessment of
+                            English language proficiency, HR evaluations,
+                            technical examinations, and practical assignments to
+                            assess your abilities and suitability for
+                            opportunities.
                           </p>
                         </div>
                         {/* QUESTION #3 */}
                         <div className="question mb-35 wow fadeInUp">
                           {/* Question */}
                           <h5 className="s-22 w-700">
-                            <span>3.</span> What happens if {`I’m`} not
-                            satisfied with a Toptal expert?
+                            <span>3.</span> Is there any fee associated with
+                            joining TaraTalent as a talent?
                           </h5>
                           {/* Answer */}
                           <ul className="simple-list color--grey">
                             <li className="list-item">
                               <p>
-                                We allow our clients to begin a trial period
-                                with up to three experts from our network per
-                                position. While we rigorously screen all
-                                applicants to ensure talent and intelligence, we
-                                understand that not every person will be a
-                                perfect fit for every company. For this reason,
-                                we allow our clients to work with multiple
-                                experts for each position before they decide on
-                                a candidate with whom they are confident and
-                                comfortable.
+                                No, there are no charges for talent to join
+                                TaraTalent. Our platform is designed to connect
+                                talents with opportunities, and we do not impose
+                                any fees on talents.
                               </p>
                             </li>
                           </ul>
@@ -572,56 +563,46 @@ export default function Career() {
                         <div className="question mb-35 wow fadeInUp">
                           {/* Question */}
                           <h5 className="s-22 w-700">
-                            <span>4.</span> How does your screening process
-                            ensure quality candidates that meet our
-                            requirements?
+                            <span>4.</span> Is there potential for career
+                            advancement and professional development?
                           </h5>
                           {/* Answer */}
                           <p className="color--grey">
-                            We screen for communication skills, personality,
-                            domain-specific knowledge, and a high level of
-                            professionalism. Approximately 3% of applicants pass
-                            the screening process.
-                          </p>
-                          {/* Answer */}
-                          <p className="color--grey">
-                            Our process includes a variety of ways to determine
-                            skill and proficiency, including portfolio reviews,
-                            technical coding challenges, user or market
-                            research, business cases, project management backlog
-                            grooming, formal assessments, as well as live
-                            problem-solving sessions as appropriate to the
-                            candidate and vertical.
+                            Absolutely! We offer ongoing prospects for
+                            professional growth, including mentorship, training,
+                            and specialized courses to empower you in your
+                            career journey.
                           </p>
                         </div>
                         {/* QUESTION #5 */}
                         <div className="question mb-35 wow fadeInUp">
                           {/* Question */}
                           <h5 className="s-22 w-700">
-                            <span>5.</span> Where are your experts located?
+                            <span>5.</span> Am I able to select my preferred
+                            work location and schedule?
                           </h5>
                           {/* Answer */}
                           <p className="color--grey">
-                            Currently, we have experts in over 100 countries,
-                            most being located in the Americas and Europe.
+                            Yes, we provide remote work options, granting you
+                            the freedom to choose your work setting and
+                            timetable. We believe in offering the flexibility to
+                            strike a balance between work and personal life.
                           </p>
                         </div>
                         {/* QUESTION #6 */}
                         <div className="question mb-35 wow fadeInUp">
                           {/* Question */}
                           <h5 className="s-22 w-700">
-                            <span>6.</span> Are English skills ever an issue
-                            when working with a Toptal expert?
+                            <span>6.</span> Are there any administrative
+                            responsibilities like contracts and payments that I
+                            need to handle?
                           </h5>
                           {/* Answer */}
                           <p className="color--grey">
-                            No. Each and every Toptal expert writes and speaks
-                            fluent English. In fact, before we invite candidates
-                            to tackle our rigorous domain-specific tests, we
-                            conduct lengthy interviews to ensure they have a
-                            high level of proficiency in English and have
-                            personalities well-suited to working with western
-                            technical teams.
+                            No, we manage administrative tasks on your behalf.
+                            You can concentrate on your work while we handle
+                            contracts, payments, insurance, and compliance with
+                            local regulations.
                           </p>
                         </div>
                       </div>
