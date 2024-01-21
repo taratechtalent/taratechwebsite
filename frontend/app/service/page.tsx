@@ -65,12 +65,11 @@ export default function ServicePage() {
                     </div>
                     {/* Text */}
                     <div className="cbox-2-txt">
-                      <h5 className="s-22 w-700">Registeration</h5>
+                      <h5 className="s-22 w-700">Engage with TaraTalent</h5>
                       <p>
-                        Register now to take the next step in your career
-                        journey; complete the application form by uploading your
-                        CV and let us connect you with your future
-                        opportunities.
+                        Start your journey by engaging with TaraTalent. Connect
+                        with us to discuss your business objectives and talent
+                        needs.
                       </p>
                     </div>
                   </div>{" "}
@@ -84,10 +83,12 @@ export default function ServicePage() {
                     </div>
                     {/* Text */}
                     <div className="cbox-2-txt">
-                      <h5 className="s-22 w-700">Some Amazing Test skills</h5>
+                      <h5 className="s-22 w-700">Customize Your Solution</h5>
                       <p>
-                        Enhance your career with our comprehensive testing
-                        suite, featuring
+                        Tailor your solution by choosing from our comprehensive
+                        suite of services and talent options. {`We'll`} work with
+                        you to create a customized plan that aligns with your
+                        goals.
                       </p>
                     </div>
                   </div>{" "}
@@ -101,13 +102,13 @@ export default function ServicePage() {
                     </div>
                     {/* Text */}
                     <div className="cbox-2-txt">
-                      <h5 className="s-22 w-700">
-                        Finalize contract and start Trial Period
-                      </h5>
+                      <h5 className="s-22 w-700">Finalize Collaboration</h5>
                       <p className="mb-0">
-                        Finalize your contract with us and embark on a trial
-                        period, where {`you'll`} have the opportunity to
-                        showcase your skills,
+                        Finalize the collaboration and get started on achieving
+                        your business objectives. During the trial period,
+                       {` you'll`} have the opportunity to experience the expertise
+                        of our talented professionals and see your projects
+                        thrive.
                       </p>
                     </div>
                   </div>{" "}
