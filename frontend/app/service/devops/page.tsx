@@ -2,6 +2,7 @@
 import ServiceContactComponent from "@/app/component/service.contact.component";
 import Layout from "@/app/components/layout/Layout";
 import Link from "next/link";
+import { ServiceItemDetails } from "../serviceItem.component";
 
 export default function DevopsService() {
   return (
@@ -222,7 +223,7 @@ export default function DevopsService() {
                         <div className="hover-overlay">
                           <img
                             className="img-fluid"
-                            src="/images/services/10-Web-Development-Frameworks.webp"
+                            src="https://www.qentelli.com/sites/default/files/2021-04/devops-tool-part-2.jpg"
                             alt="project-preview"
                           />
                           <div className="item-overlay" />
@@ -234,129 +235,35 @@ export default function DevopsService() {
                     {/* Small Title */}
                     {/* END VIDEO PREVIEW */}
                     <section
-                      id="features-2"
-                      className="pt-100 features-section division"
+                      id="reviews-2"
+                      className="gr--whitesmoke inner-page-hero reviews-section"
                     >
                       <div className="container">
                         {/* SECTION TITLE */}
-                        {/* FEATURES-2 WRAPPER */}
-                        <div className="fbox-wrapper text-center">
-                          <div className="row row-cols-1 row-cols-md-3">
-                            {/* FEATURE BOX #1 */}
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-1 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Design and User Experience.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Benefits of DevOps
-                                  </h6>
-                                  <p className="text-left">
-                                    DevOps offers numerous benefits, including
-                                    faster deployment, fewer deployment
-                                    failures, shortened lead time between fixes,
-                                    and faster mean time to recovery. It fosters
-                                    a culture of collaboration, enhances
-                                    efficiencies, and generally results in
-                                    happier, more productive teams.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>{" "}
-                            {/* END FEATURE BOX #1 */}
-                            {/* FEATURE BOX #2 */}
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Development Process.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Implementing DevOps in Your Organization
-                                  </h6>
-                                  <p className="text-left">
-                                    Implementing DevOps is a cultural shift as
-                                    much as it is a technical one. It involves
-                                    adopting new tools, practices, and often a
-                                    change in mindset. Key steps include
-                                    embracing collaborative culture, integrating
-                                    development and operations teams, and
-                                    adopting the right set of automation tools.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Testing and Quality Assurance.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    DevOps Tools and Technologies
-                                  </h6>
-                                  <p className="text-left">
-                                    {`There's `} a vast array of DevOps tools
-                                    that cater to various aspects of the
-                                    lifecycle, including Jenkins for CI/CD,
-                                    Docker for containerization, Kubernetes for
-                                    container orchestration, Ansible, Puppet, or
-                                    Chef for automation, and many more.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Security Considerations.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Security in DevOps - DevSecOps
-                                  </h6>
-                                  <p className="text-left">
-                                    Integrating security into the DevOps process
-                                    (often referred to as DevSecOps) ensures
-                                    that security is a shared responsibility and
-                                    is accounted for from the start, rather than
-                                    being an afterthought.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            {/* END FEATURE BOX #2 */}
-                            {/* FEATURE BOX #3 */}
-                            {/* END FEATURE BOX #3 */}
+                        {/* TESTIMONIALS-2 WRAPPER */}
+                        <div className="reviews-2-wrapper rel">
+                          <div className="row align-items-center row-cols-1 row-cols-md-2">
+                            {/* TESTIMONIAL #1 */}
+                            <ServiceItemDetails
+                              title="Benefits of DevOps"
+                              description="DevOps offers numerous benefits, including faster deployment, fewer deployment failures, shortened lead time between fixes, and faster mean time to recovery. It fosters a culture of collaboration, enhances efficiencies, and generally results in happier, more productive teams."
+                            />
+                            <ServiceItemDetails
+                              title="Implementing DevOps"
+                              description="Implementing DevOps is a cultural shift as much as it is a technical one. It involves adopting new tools, practices, and often a change in mindset. Key steps include embracing collaborative culture, integrating development and operations teams, and adopting the right set of automation tools."
+                            />
+                            <ServiceItemDetails
+                              title="DevOps Tools and Technologies"
+                              description="There's a vast array of DevOps tools that cater to various aspects of the lifecycle, including Jenkins for CI/CD, Docker for containerization, Kubernetes for container orchestration, Ansible, Puppet, or Chef for automation, and many more."
+                            />{" "}
+                            <ServiceItemDetails
+                              title="Security in DevOps - DevSecOps"
+                              description="Integrating security into the DevOps process (often referred to as DevSecOps) ensures that security is a shared responsibility and is accounted for from the start, rather than being an afterthought."
+                            />{" "}
                           </div>{" "}
                           {/* End row */}
                         </div>{" "}
-                        {/* END FEATURES-2 WRAPPER */}
+                        {/* END TESTIMONIALS-2 WRAPPER */}
                       </div>{" "}
                       {/* End container */}
                     </section>
