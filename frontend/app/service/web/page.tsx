@@ -2,6 +2,7 @@
 import ServiceContactComponent from "@/app/component/service.contact.component";
 import Layout from "@/app/components/layout/Layout";
 import Link from "next/link";
+import { ServiceItemDetails } from "../serviceItem.component";
 
 export default function WebDevelopmentService() {
   return (
@@ -232,218 +233,43 @@ export default function WebDevelopmentService() {
                     {/* Small Title */}
                     {/* END VIDEO PREVIEW */}
                     <section
-                      id="features-2"
-                      className="pt-100 features-section division"
+                      id="reviews-2"
+                      className="gr--whitesmoke inner-page-hero reviews-section"
                     >
                       <div className="container">
                         {/* SECTION TITLE */}
-                        {/* FEATURES-2 WRAPPER */}
-                        <div className="fbox-wrapper text-center">
-                          <div className="row row-cols-1 row-cols-md-3">
-                            {/* FEATURE BOX #1 */}
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-1 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Design and User Experience.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Design and User Experience
-                                  </h6>
-                                  <p className="text-left">
-                                    An effective web application combines
-                                    aesthetics with functionality. Responsive
-                                    design ensures your app looks great on any
-                                    device, while adaptive design tailors to
-                                    specific devices or screen sizes.
-                                    Prioritizing accessibility makes your app
-                                    usable by as many people as possible,
-                                    including those with disabilities.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>{" "}
-                            {/* END FEATURE BOX #1 */}
-                            {/* FEATURE BOX #2 */}
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Development Process.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Development Process
-                                  </h6>
-                                  <p className="text-left">
-                                    Web development typically follows stages:
-                                    planning, design, development, testing, and
-                                    deployment. Agile methodologies focus on
-                                    iterative development and collaboration,
-                                    while Waterfall is a linear approach.
-                                    Choosing the right method depends on project
-                                    size, team dynamics, and other factors.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Testing and Quality Assurance.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Technologies and Frameworks
-                                  </h6>
-                                  <p className="text-left">
-                                    Building web applications requires a mix of
-                                    client-side and server-side technologies.
-                                    HTML, CSS, and JavaScript are foundational
-                                    for creating user interfaces, enhanced by
-                                    libraries like React or Angular. Server-side
-                                    languages such as Node.js, Python, or Ruby
-                                    on Rails manage the {`app's `}logic and
-                                    database interactions. The choice of
-                                    technology impacts the {`app's`}{" "}
-                                    performance, scalability, and
-                                    maintainability.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Security Considerations.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Security Considerations
-                                  </h6>
-                                  <p className="text-left">
-                                    Security is paramount in web development to
-                                    protect sensitive data and maintain user
-                                    trust. Developers must guard against SQL
-                                    injection, Cross-Site Scripting (XSS), and
-                                    other vulnerabilities. Implementing HTTPS,
-                                    regular security audits, and following best
-                                    practices helps mitigate risks.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Security Considerations.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Testing and Quality Assurance
-                                  </h6>
-                                  <p className="text-left">
-                                    Testing ensures your web application
-                                    functions correctly and meets quality
-                                    standards. This includes unit testing
-                                    individual components, integration testing
-                                    combined parts, and system testing the
-                                    entire application. Effective QA identifies
-                                    bugs and issues before users encounter them.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>{" "}
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Security Considerations.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Deployment and Maintenance
-                                  </h6>
-                                  <p className="text-left">
-                                    Deployment involves transferring the web
-                                    application from a local environment to a
-                                    production server. Considerations include
-                                    choosing the right hosting, managing
-                                    databases, and configuring servers.
-                                    Post-launch, regular maintenance and updates
-                                    keep the app secure and functional.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>{" "}
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Security Considerations.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Emerging Trends and Future of Web
-                                    Application Development
-                                  </h6>
-                                  <p className="text-left">
-                                    The field of web development is continuously
-                                    evolving with trends like AI, machine
-                                    learning, and the Internet of Things (IoT)
-                                    shaping its future. Developers need to stay
-                                    informed about these trends to create
-                                    innovative and competitive applications.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            {/* END FEATURE BOX #2 */}
-                            {/* FEATURE BOX #3 */}
-                            {/* END FEATURE BOX #3 */}
+                        {/* TESTIMONIALS-2 WRAPPER */}
+                        <div className="reviews-2-wrapper rel">
+                          <div className="row align-items-center row-cols-1 row-cols-md-2">
+                            {/* TESTIMONIAL #1 */}
+                            <ServiceItemDetails
+                              title="Design and User Experience"
+                              description="An effective web application combines aesthetics with functionality. Responsive design ensures your app looks great on any device, while adaptive design tailors to specific devices or screen sizes. Prioritizing accessibility makes your app usable by as many people as possible, including those with disabilities."
+                            />
+                            <ServiceItemDetails
+                              title="Development Process"
+                              description="Web development typically follows stages: planning, design, development, testing, and deployment. Agile methodologies focus on iterative development and collaboration, while Waterfall is a linear approach. Choosing the right method depends on project size, team dynamics, and other factors."
+                            />
+                            <ServiceItemDetails
+                              title="Technologies and Frameworks"
+                              description="Building web applications requires a mix of client-side and server-side technologies. HTML, CSS, and JavaScript are foundational for creating user interfaces, enhanced by libraries like React or Angular. Server-side languages such as Node.js, Python, or Ruby on Rails manage the app's logic and database interactions. The choice of technology impacts the app's performance, scalability, and maintainability."
+                            />{" "}
+                            <ServiceItemDetails
+                              title="Security Considerations"
+                              description="Security is paramount in web development to protect sensitive data and maintain user trust. Developers must guard against SQL injection, Cross-Site Scripting (XSS), and other vulnerabilities. Implementing HTTPS, regular security audits, and following best practices helps mitigate risks."
+                            />{" "}
+                            <ServiceItemDetails
+                              title="Testing and Quality Assurance"
+                              description="Testing ensures your web application functions correctly and meets quality standards. This includes unit testing individual components, integration testing combined parts, and system testing the entire application. Effective QA identifies bugs and issues before users encounter them."
+                            />{" "}
+                            <ServiceItemDetails
+                              title="Deployment and Maintenance"
+                              description="Deployment involves transferring the web application from a local environment to a production server. Considerations include choosing the right hosting, managing databases, and configuring servers. Post-launch, regular maintenance and updates keep the app secure and functional."
+                            />{" "}
                           </div>{" "}
                           {/* End row */}
                         </div>{" "}
-                        {/* END FEATURES-2 WRAPPER */}
+                        {/* END TESTIMONIALS-2 WRAPPER */}
                       </div>{" "}
                       {/* End container */}
                     </section>

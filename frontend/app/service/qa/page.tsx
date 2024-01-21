@@ -2,6 +2,7 @@
 import ServiceContactComponent from "@/app/component/service.contact.component";
 import Layout from "@/app/components/layout/Layout";
 import Link from "next/link";
+import { ServiceItemDetails } from "../serviceItem.component";
 
 export default function QAService() {
   return (
@@ -219,9 +220,9 @@ export default function QAService() {
                         {/* Project Preview */}
                         <div className="hover-overlay">
                           <img
-                            className="img-fluid"
-                            src="/images/services/10-Web-Development-Frameworks.webp"
+                            src="https://www.keenesystems.com/hs-fs/hubfs/software-testing.jpg?width=900&name=software-testing.jpg"
                             alt="project-preview"
+                            style={{ width: "100%" }}
                           />
                           <div className="item-overlay" />
                         </div>
@@ -232,219 +233,43 @@ export default function QAService() {
                     {/* Small Title */}
                     {/* END VIDEO PREVIEW */}
                     <section
-                      id="features-2"
-                      className="pt-100 features-section division"
+                      id="reviews-2"
+                      className="gr--whitesmoke inner-page-hero reviews-section"
                     >
                       <div className="container">
                         {/* SECTION TITLE */}
-                        {/* FEATURES-2 WRAPPER */}
-                        <div className="fbox-wrapper text-center">
-                          <div className="row row-cols-1 row-cols-md-3">
-                            {/* FEATURE BOX #1 */}
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-1 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Design and User Experience.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Test Planning and Design
-                                  </h6>
-                                  <p className="text-left">
-                                    Test planning involves defining the
-                                    objectives and approach to testing, while
-                                    test design is about creating test cases
-                                    that effectively cover expected outcomes and
-                                    edge cases, ensuring comprehensive testing
-                                    coverage.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>{" "}
-                            {/* END FEATURE BOX #1 */}
-                            {/* FEATURE BOX #2 */}
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Development Process.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Quality Assurance Processes
-                                  </h6>
-                                  <p className="text-left">
-                                    QA encompasses a broader aspect of ensuring
-                                    the software meets the desired quality and
-                                    standards throughout the development
-                                    lifecycle. It involves a proactive approach
-                                    with continuous monitoring and systematic
-                                    activities to improve the processes.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Testing and Quality Assurance.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Test Automation
-                                  </h6>
-                                  <p className="text-left">
-                                    Test automation involves using specialized
-                                    tools to execute tests and compare actual
-                                    outcomes against expected results. It
-                                    significantly enhances testing speed,
-                                    accuracy, and efficiency, especially in
-                                    large and complex projects.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            <div className="col-md-6">
-                              <div className="fbox-2 fb-2 wow fadeInUp">
-                                {/* Image */}
-                                <div className="fbox-img gr--whitesmoke h-175">
-                                  <img
-                                    className="img-fluid light-theme-img"
-                                    src="/images/services/Security Considerations.webp"
-                                    alt="feature-image"
-                                  />
-                                </div>
-                                {/* Text */}
-                                <div className="fbox-txt">
-                                  <h6 className="s-22 w-700">
-                                    Managing Testing Activities
-                                  </h6>
-                                  <p className="text-left">
-                                    Effective test management includes
-                                    organizing teams, managing resources,
-                                    scheduling activities, and handling test
-                                    environments and data. {`It's`} about
-                                    overseeing the testing process to ensure it
-                                    is efficient, systematic, and productive.
-                                  </p>
-                                </div>
-                              </div>
-                            </div>
-                            {/* END FEATURE BOX #2 */}
-                            {/* FEATURE BOX #3 */}
-                            {/* END FEATURE BOX #3 */}
+                        {/* TESTIMONIALS-2 WRAPPER */}
+                        <div className="reviews-2-wrapper rel">
+                          <div className="row align-items-center row-cols-1 row-cols-md-2">
+                            {/* TESTIMONIAL #1 */}
+                            <ServiceItemDetails
+                              title="Test Planning and Design"
+                              description="Test planning involves defining the objectives and approach to testing, while test design is about creating test cases that effectively cover expected outcomes and edge cases, ensuring comprehensive testing coverage"
+                            />
+                            <ServiceItemDetails
+                              title="Quality Assurance Processes"
+                              description="QA encompasses a broader aspect of ensuring the software meets the desired quality and standards throughout the development lifecycle. It involves a proactive approach with continuous monitoring and systematic activities to improve the processes."
+                            />
+                            <ServiceItemDetails
+                              title="Test Automation"
+                              description="Test automation involves using specialized tools to execute tests and compare actual outcomes against expected results. It significantly enhances testing speed, accuracy, and efficiency, especially in large and complex projects."
+                            />{" "}
+                            <ServiceItemDetails
+                              title="Managing Testing Activities"
+                              description="Effective test management includes organizing teams, managing resources, scheduling activities, and handling test environments and data. It's about overseeing the testing process to ensure it is efficient, systematic, and productive."
+                            />{" "}
+                            <ServiceItemDetails
+                              title="Challenges in Software Testing"
+                              description="Testing faces challenges like rapidly changing requirements, limited resources, and maintaining relevance with evolving technology. Addressing these requires strategic planning, adaptability, and continuous learning."
+                            />{" "}
+                            <ServiceItemDetails
+                              title="Emerging Trends"
+                              description="The field of software testing is continually evolving with trends like AI in testing, Continuous Integration/Continuous Deployment (CI/CD), and incorporating DevOps in QA processes, shaping the future of how we test software."
+                            />{" "}
                           </div>{" "}
                           {/* End row */}
                         </div>{" "}
-                        {/* END FEATURES-2 WRAPPER */}
-                      </div>{" "}
-                      {/* End container */}
-                    </section>
-                    {/* Small Title */}
-                    <section className="pt-100 ct-04 content-section division mb-60">
-                      <div className="container">
-                        {/* SECTION CONTENT (ROW) */}
-                        <div className="row d-flex align-items-center">
-                          {/* TEXT BLOCK */}
-                          <div className="col-md-9 order-last order-md-2">
-                            <div className="txt-block left-column wow fadeInRight">
-                              {/* CONTENT BOX #1 */}
-                              <div className="cbox-2 process-step">
-                                {/* Icon */}
-                                <div className="ico-wrap">
-                                  <div className="cbox-2-ico bg--theme color--white">
-                                    **
-                                  </div>
-                                  <span className="cbox-2-line" />
-                                </div>
-                                {/* Text */}
-                                <div className="cbox-2-txt">
-                                  <h5 className="s-22 w-700">
-                                    Challenges in Software Testing
-                                  </h5>
-                                  <p>
-                                    Testing faces challenges like rapidly
-                                    changing requirements, limited resources,
-                                    and maintaining relevance with evolving
-                                    technology. Addressing these requires
-                                    strategic planning, adaptability, and
-                                    continuous learning.
-                                  </p>
-                                </div>
-                              </div>{" "}
-                              {/* END CONTENT BOX #1 */}
-                              {/* CONTENT BOX #2 */}
-                              <div className="cbox-2 process-step">
-                                {/* Icon */}
-                                <div className="ico-wrap">
-                                  <div className="cbox-2-ico bg--theme color--white">
-                                    **
-                                  </div>
-                                  <span className="cbox-2-line" />
-                                </div>
-                                {/* Text */}
-                                <div className="cbox-2-txt">
-                                  <h5 className="s-22 w-700">
-                                    Emerging Trends and Technologies
-                                  </h5>
-                                  <p>
-                                    The field of software testing is continually
-                                    evolving with trends like AI in testing,
-                                    Continuous Integration/Continuous Deployment
-                                    (CI/CD), and incorporating DevOps in QA
-                                    processes, shaping the future of how we test
-                                    software.
-                                  </p>
-                                </div>
-                              </div>{" "}
-                              {/* END CONTENT BOX #2 */}
-                              {/* CONTENT BOX #3 */}
-                              <div className="cbox-2 process-step">
-                                {/* Icon */}
-                                <div className="ico-wrap">
-                                  <div className="cbox-2-ico bg--theme color--white">
-                                    **
-                                  </div>
-                                </div>
-                                {/* Text */}
-                                <div className="cbox-2-txt">
-                                  <h5 className="s-22 w-700">
-                                    Best Practices in Software Testing & QA
-                                  </h5>
-                                  <p className="mb-0">
-                                    Adopting best practices such as early
-                                    testing, prioritizing bug fixes, and
-                                    maintaining clear documentation leads to
-                                    effective and efficient testing processes,
-                                    ultimately resulting in higher quality
-                                    software.
-                                  </p>
-                                </div>
-                              </div>{" "}
-                              {/* END CONTENT BOX #3 */}
-                            </div>
-                          </div>{" "}
-                          {/* END TEXT BLOCK */}
-                          {/* IMAGE BLOCK */}
-                        </div>{" "}
-                        {/* END SECTION CONTENT (ROW) */}
+                        {/* END TESTIMONIALS-2 WRAPPER */}
                       </div>{" "}
                       {/* End container */}
                     </section>
