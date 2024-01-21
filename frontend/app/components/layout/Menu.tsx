@@ -35,7 +35,7 @@ export default function Menu() {
               <Link href="/industries/communication">Communication</Link>
             </li>
             <li>
-              <Link href="/industries/marketing">Marketing</Link>
+              <Link href="/industries/marketing">Financial services</Link>
             </li>{" "}
           </ul>
         </li>

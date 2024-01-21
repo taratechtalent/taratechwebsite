@@ -18,35 +18,19 @@ export default function Home() {
                 <div className="col-md-6 order-last order-md-2">
                   <div className="txt-block left-column wow fadeInRight">
                     {/* Section ID */}
-                    <span className="section-id">Productivity Focused</span>
+                    <span className="section-id">Driving Efficiency</span>
                     {/* Title */}
                     <h2 className="s-46 w-700">
-                      Achieve more with better workflows
+                      Empowering Finance through Tech Expertise
                     </h2>
                     {/* Text */}
                     <p>
-                      Sodales tempor sapien quaerat ipsum undo congue laoreet
-                      turpis neque auctor turpis vitae dolor luctus placerat
-                      magna and ligula cursus purus vitae purus an ipsum
-                      suscipit
+                      In the dynamic world of finance, retail, marketing, and
+                      consumer industries, TaraTalent empowers your growth
+                      journey with cutting-edge technology and expertise,
+                      seamlessly connecting top talent to your unique industry
+                      needs.
                     </p>
-                    {/* List */}
-                    <ul className="simple-list">
-                      <li className="list-item">
-                        <p>
-                          Tempor sapien quaerat an ipsum laoreet purus and
-                          sapien dolor an ultrice ipsum aliquam undo congue
-                          dolor cursus
-                        </p>
-                      </li>
-                      <li className="list-item">
-                        <p className="mb-0">
-                          Cursus purus suscipit vitae cubilia magnis volute
-                          egestas vitae sapien turpis ultrice auctor congue
-                          placerat
-                        </p>
-                      </li>
-                    </ul>
                   </div>
                 </div>{" "}
                 {/* END TEXT BLOCK */}
@@ -68,7 +52,6 @@ export default function Home() {
           {/* END TEXT CONTENT */}
           {/* FEATURES-11
 			============================================= */}
-      
           <div id="about-3" className="pt-100 about-section division">
             <div className="container">
               <div className="row">
@@ -79,11 +62,11 @@ export default function Home() {
                     <h5 className="s-24 w-700 mb-20">Our Expertise</h5>
                     {/* Text */}
                     <p>
-                      At TaraTalent, we understand the critical importance of
-                      having highly skilled technical professionals who are
-                      well-versed in the nuances of healthcare and life
-                      sciences. Our experts have a deep understanding of the
-                      {`industry's`} unique challenges and opportunities.
+                      At TaraTalent, we specialize in connecting companies in
+                      the finance, retail, marketing, and consumer sectors with
+                      top-tier tech talent. Our experts bring a wealth of
+                      industry-specific knowledge and technical proficiency to
+                      the table.
                     </p>
                     {/* List */}
                   </div>
@@ -96,10 +79,11 @@ export default function Home() {
                     <h5 className="s-24 w-700 mb-20">Tailored Solutions</h5>
                     {/* Text */}
                     <p>
-                      We specialize in connecting healthcare and life sciences
-                      companies with top-tier tech talent. Unlike traditional
-                      outsourcing, we provide a direct link to exceptional
-                      professionals who can help you meet your project goals.
+                      Unlike traditional outsourcing models, we provide direct
+                      access to exceptional professionals who understand the
+                      intricacies of these industries. We believe in a
+                      partnership approach that aligns with your unique needs
+                      and goals.
                     </p>
                     {/* Text */}
                   </div>
@@ -110,11 +94,12 @@ export default function Home() {
                     <h5 className="s-24 w-700 mb-20">Industry Impact</h5>
                     {/* Text */}
                     <p>
-                      Our professionals have a proven track record of making
-                      significant contributions to healthcare IT, medical device
-                      development, clinical research data analytics, and more.
-                      {`We've`} played a vital role in advancing telemedicine,
-                      healthtech solutions, and patient care.
+                      Our tech professionals have a significant impact on the
+                      finance, retail, marketing, and consumer sectors. From
+                      fintech innovation to e-commerce solutions, data-driven
+                      marketing strategies, and enhancing the consumer
+                      experience, we've been at the forefront of industry
+                      advancements.
                     </p>
                     {/* Text */}
                   </div>
@@ -141,7 +126,9 @@ export default function Home() {
                     </h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
-                      Ligula risus auctor tempus magna feugiat lacinia.
+                      Our expertise in the finance
+                      industry empowers your business to achieve remarkable
+                      revenue milestones effortlessly.
                     </p>
                   </div>
                 </div>
@@ -174,11 +161,13 @@ export default function Home() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Market Research</h6>
+                        <h6 className="s-22 w-700">
+                          Financial Technology (Fintech)
+                        </h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          We offer expertise in developing cutting-edge fintech
+                          solutions, ensuring security, compliance, and
+                          efficiency in financial services.
                         </p>
                       </div>
                     </div>
@@ -209,11 +198,12 @@ export default function Home() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">User Experience</h6>
+                        <h6 className="s-22 w-700">Retail Tech</h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          TaraTalent professionals have contributed to the
+                          development of e-commerce platforms, inventory
+                          management systems, and customer-centric retail
+                          technology.
                         </p>
                       </div>
                     </div>
@@ -244,11 +234,11 @@ export default function Home() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Digital Marketing</h6>
+                        <h6 className="s-22 w-700">Marketing Solutions</h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          Our team excels in data-driven marketing, helping
+                          businesses optimize their strategies, and enhance
+                          customer engagement.
                         </p>
                       </div>
                     </div>
@@ -279,86 +269,18 @@ export default function Home() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Web Development</h6>
+                        <h6 className="s-22 w-700">
+                          Consumer-Centric Innovations
+                        </h6>
                         <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
+                          We focus on improving the consumer experience through
+                          innovative solutions that cater to evolving
+                          preferences.
                         </p>
                       </div>
                     </div>
                   </div>{" "}
                   {/* END FEATURE BOX #4 */}
-                  {/* FEATURE BOX #5 */}
-                  <div className="col">
-                    <div className="fbox-11 fb-5 wow fadeInUp">
-                      {/* Icon */}
-                      <div className="fbox-ico-wrap">
-                        <div className="fbox-ico ico-50">
-                          <div className="shape-ico color--theme">
-                            {/* Vector Icon */}
-                            <span className="flaticon-trophy" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
-                          </div>
-                        </div>
-                      </div>{" "}
-                      {/* End Icon */}
-                      {/* Text */}
-                      <div className="fbox-txt">
-                        <h6 className="s-22 w-700">Brand Design Identity</h6>
-                        <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
-                        </p>
-                      </div>
-                    </div>
-                  </div>{" "}
-                  {/* END FEATURE BOX #5 */}
-                  {/* FEATURE BOX #6 */}
-                  <div className="col">
-                    <div className="fbox-11 fb-6 wow fadeInUp">
-                      {/* Icon */}
-                      <div className="fbox-ico-wrap">
-                        <div className="fbox-ico ico-50">
-                          <div className="shape-ico color--theme">
-                            {/* Vector Icon */}
-                            <span className="flaticon-search-engine-1" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
-                          </div>
-                        </div>
-                      </div>{" "}
-                      {/* End Icon */}
-                      {/* Text */}
-                      <div className="fbox-txt">
-                        <h6 className="s-22 w-700">SEO &amp; SMM Services</h6>
-                        <p>
-                          Porta semper lacus cursus feugiat primis ultrice
-                          ligula risus ociis auctor and tempus feugiat impedit
-                          felis cursus auctor augue mauris blandit ipsum
-                        </p>
-                      </div>
-                    </div>
-                  </div>{" "}
-                  {/* END FEATURE BOX #6 */}
                 </div>{" "}
                 {/* End row */}
               </div>{" "}
@@ -377,6 +299,7 @@ export default function Home() {
             </div>
           </div>
           <hr className="divider" />
+          
           <section className="py-100 ct-02 content-section division">
             <div className="container">
               <div className="row">
@@ -403,12 +326,13 @@ export default function Home() {
                       </div>
                       {/* Text */}
                       <div className="cbox-2-txt">
-                        <h5 className="s-22 w-700">Registeration</h5>
+                        <h5 className="s-22 w-700">
+                          Consult with Our Industry Experts
+                        </h5>
                         <p>
-                          Register now to take the next step in your career
-                          journey; complete the application form by uploading
-                          your CV and let us connect you with your future
-                          opportunities.
+                          Our team collaborates with you to understand your
+                          industry-specific goals, technical requirements, and
+                          team dynamics.
                         </p>
                       </div>
                     </div>{" "}
@@ -424,10 +348,12 @@ export default function Home() {
                       </div>
                       {/* Text */}
                       <div className="cbox-2-txt">
-                        <h5 className="s-22 w-700">Some Amazing Test skills</h5>
+                        <h5 className="s-22 w-700">
+                          Access Hand-Picked Talent
+                        </h5>
                         <p>
-                          Enhance your career with our comprehensive testing
-                          suite, featuring
+                          Connect with the ideal talent for your industry,
+                          typically within days.
                         </p>
                       </div>
                     </div>{" "}
@@ -444,12 +370,11 @@ export default function Home() {
                       {/* Text */}
                       <div className="cbox-2-txt">
                         <h5 className="s-22 w-700">
-                          Finalize contract and start Trial Period
+                          Trial Period, Risk-Free Hiring
                         </h5>
                         <p className="mb-0">
-                          Finalize your contract with us and embark on a trial
-                          period, where {`you'll`} have the opportunity to
-                          showcase your skills,
+                          Evaluate your new team member on a trial basis,
+                          ensuring a perfect match.
                         </p>
                       </div>
                     </div>{" "}
