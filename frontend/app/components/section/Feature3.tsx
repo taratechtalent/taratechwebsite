@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 export default function Features3() {
   return (
     <>
@@ -39,11 +40,6 @@ export default function Features3() {
                       src="/images/f_06.png"
                       alt="feature-image"
                     />
-                    <img
-                      className="img-fluid dark-theme-img"
-                      src="/images/f_06_dark.png"
-                      alt="feature-image"
-                    />
                   </div>
                 </div>
               </div>{" "}
@@ -56,11 +52,6 @@ export default function Features3() {
                     <img
                       className="img-fluid light-theme-img"
                       src="/images/f_04.png"
-                      alt="feature-image"
-                    />
-                    <img
-                      className="img-fluid dark-theme-img"
-                      src="/images/f_04_dark.png"
                       alt="feature-image"
                     />
                   </div>
