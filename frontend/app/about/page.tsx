@@ -523,7 +523,7 @@ export default function About() {
                             <h5 className="s-22 w-700">Europe Market</h5>
                             <p className="mb-0">
                               2021 was a year of significant growth as we
-                              secured multiple contracts with German and
+                              secured multiple contracts with Germany and
                               European companies.
                             </p>
                           </div>
