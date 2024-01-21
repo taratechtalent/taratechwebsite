@@ -61,7 +61,7 @@ export default function Home() {
               <div className="row">
                 {/* ABOUT-3 TEXT */}
                 <div className="col-md-4">
-                  <div id="a3-1" className="txt-block">
+                  <div id="a3-1" className="txt-block shadow">
                     {/* Title */}
                     <h5 className="s-24 w-700 mb-20">Our Expertise</h5>
                     {/* Text */}
@@ -78,7 +78,7 @@ export default function Home() {
                 {/* END ABOUT-3 TEXT */}
                 {/* ABOUT-3 TEXT */}
                 <div className="col-md-4">
-                  <div id="a3-2" className="txt-block">
+                  <div id="a3-2" className="txt-block shadow">
                     {/* Title */}
                     <h5 className="s-24 w-700 mb-20">Tailored Solutions</h5>
                     {/* Text */}
@@ -92,7 +92,7 @@ export default function Home() {
                   </div>
                 </div>{" "}
                 <div className="col-md-4">
-                  <div id="a3-2" className="txt-block">
+                  <div id="a3-2" className="txt-block shadow">
                     {/* Title */}
                     <h5 className="s-24 w-700 mb-20">Industry Impact</h5>
                     {/* Text */}
