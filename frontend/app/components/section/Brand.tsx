@@ -1,3 +1,4 @@
+import Link from "next/link";
 import BrandSlider from "../slider/BrandSlider";
 export default function Brands({ header, desc }: any) {
   return (
@@ -20,6 +21,16 @@ export default function Brands({ header, desc }: any) {
               <BrandSlider />
             </div>
           </div>{" "}
+          <div className="row pt-24">
+            <div className="col-sm-12 text-center">
+              <Link
+                href="/technology"
+                className="btn r-04 btn--theme hover--theme last-link ml-20"
+              >
+                View Most popular technologies
+              </Link>
+            </div>
+          </div>
           {/* END BRANDS CAROUSEL */}
         </div>{" "}
         {/* End container */}

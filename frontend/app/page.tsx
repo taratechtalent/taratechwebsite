@@ -429,22 +429,6 @@ const Services = () => {
                 Discover a world of premium services, expertly delivered by our
                 diverse and skilled professional team.
               </p>
-              {/* List */}
-              {/* <ul className="simple-list">
-              <li className="list-item">
-                <p>
-                  Tempor sapien quaerat undo ipsum laoreet diam purus sapien
-                  a dolor ociis ultrice ipsum aliquam congue a dolor cursus
-                  congue varius magnis
-                </p>
-              </li>
-              <li className="list-item">
-                <p className="mb-0">
-                  Cursus purus suscipit vitae cubilia magnis diam volute
-                  egestas sapien ultrice auctor
-                </p>
-              </li>
-            </ul> */}
             </div>
           </div>{" "}
           {/* END TEXT BLOCK */}
@@ -454,91 +438,99 @@ const Services = () => {
               <div className="row">
                 <div className="col-md-6">
                   {/* FEATURE BOX #1 */}
-                  <div
-                    id="fb-12-1"
-                    className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
-                  >
-                    {/* Icon */}
-                    <div className="fbox-ico ico-50">
-                      <div className="shape-ico color--theme">
-                        <img src="images/services/web.png" />
+                  <Link href="/service/web">
+                    <div
+                      id="fb-12-1"
+                      className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
+                    >
+                      {/* Icon */}
+                      <div className="fbox-ico ico-50">
+                        <div className="shape-ico color--theme">
+                          <img src="images/services/web.png" />
+                        </div>
+                      </div>{" "}
+                      {/* End Icon */}
+                      {/* Text */}
+                      <div className="fbox-txt">
+                        <h5 className="s-20 w-700">Web App Development</h5>
+                        <p>
+                          Creating custom, user-friendly web apps to bring your
+                          innovative ideas to life.
+                        </p>
                       </div>
-                    </div>{" "}
-                    {/* End Icon */}
-                    {/* Text */}
-                    <div className="fbox-txt">
-                      <h5 className="s-20 w-700">Web App Development</h5>
-                      <p>
-                        Creating custom, user-friendly web apps to bring your
-                        innovative ideas to life.
-                      </p>
                     </div>
-                  </div>
+                  </Link>
                   {/* FEATURE BOX #2 */}
-                  <div
-                    id="fb-12-2"
-                    className="fbox-12 bg--white-100 block-shadow r-12"
-                  >
-                    {/* Icon */}
-                    <div className="fbox-ico ico-50">
-                      <div className="shape-ico color--theme">
-                        <img src="images/services/mobile.png" />
+                  <Link href="/service/mobile">
+                    <div
+                      id="fb-12-2"
+                      className="fbox-12 bg--white-100 block-shadow r-12"
+                    >
+                      {/* Icon */}
+                      <div className="fbox-ico ico-50">
+                        <div className="shape-ico color--theme">
+                          <img src="images/services/mobile.png" />
+                        </div>
+                      </div>{" "}
+                      {/* End Icon */}
+                      {/* Text */}
+                      <div className="fbox-txt">
+                        <h5 className="s-20 w-700">Mobile App Development</h5>
+                        <p>
+                          Crafting sleek, efficient mobile apps to connect and
+                          engage with users on-the-go
+                        </p>
                       </div>
-                    </div>{" "}
-                    {/* End Icon */}
-                    {/* Text */}
-                    <div className="fbox-txt">
-                      <h5 className="s-20 w-700">Mobile App Development</h5>
-                      <p>
-                        Crafting sleek, efficient mobile apps to connect and
-                        engage with users on-the-go
-                      </p>
                     </div>
-                  </div>
+                  </Link>
                 </div>
                 <div className="col-md-6">
                   {/* FEATURE BOX #3 */}
-                  <div
-                    id="fb-12-3"
-                    className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
-                  >
-                    {/* Icon */}
-                    <div className="fbox-ico ico-50">
-                      <div className="shape-ico color--theme">
-                        <img src="images/services/ui.png" />
+                  <Link href="/service/uiux">
+                    <div
+                      id="fb-12-3"
+                      className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
+                    >
+                      {/* Icon */}
+                      <div className="fbox-ico ico-50">
+                        <div className="shape-ico color--theme">
+                          <img src="images/services/ui.png" />
+                        </div>
+                      </div>{" "}
+                      {/* End Icon */}
+                      {/* Text */}
+                      <div className="fbox-txt">
+                        <h5 className="s-20 w-700">UI/UX Design</h5>
+                        <p>
+                          Designing intuitive and visually stunning UI/UX to
+                          elevate your {`user's`} digital experience.
+                        </p>
                       </div>
-                    </div>{" "}
-                    {/* End Icon */}
-                    {/* Text */}
-                    <div className="fbox-txt">
-                      <h5 className="s-20 w-700">UI/UX Design</h5>
-                      <p>
-                        Designing intuitive and visually stunning UI/UX to
-                        elevate your {`user's`} digital experience.
-                      </p>
                     </div>
-                  </div>
+                  </Link>
                   {/* FEATURE BOX #4 */}
-                  <div
-                    id="fb-12-4"
-                    className="fbox-12 bg--white-100 block-shadow r-12"
-                  >
-                    {/* Icon */}
-                    <div className="fbox-ico ico-50">
-                      <div className="shape-ico color--theme">
-                        <img src="images/services/ai.png" />
+                  <Link href="/service/ai">
+                    <div
+                      id="fb-12-4"
+                      className="fbox-12 bg--white-100 block-shadow r-12"
+                    >
+                      {/* Icon */}
+                      <div className="fbox-ico ico-50">
+                        <div className="shape-ico color--theme">
+                          <img src="images/services/ai.png" />
+                        </div>
+                      </div>{" "}
+                      {/* End Icon */}
+                      {/* Text */}
+                      <div className="fbox-txt">
+                        <h5 className="s-20 w-700">AI/Machine Learning</h5>
+                        <p>
+                          Empowering innovation with cutting-edge AI and Machine
+                          Learning solutions tailored for you
+                        </p>
                       </div>
-                    </div>{" "}
-                    {/* End Icon */}
-                    {/* Text */}
-                    <div className="fbox-txt">
-                      <h5 className="s-20 w-700">AI/Machine Learning</h5>
-                      <p>
-                        Empowering innovation with cutting-edge AI and Machine
-                        Learning solutions tailored for you
-                      </p>
                     </div>
-                  </div>
+                  </Link>
                 </div>
               </div>
             </div>{" "}
@@ -551,76 +543,82 @@ const Services = () => {
             {/* FEATURE BOX #1 */}
 
             {/* FEATURE BOX #2 */}
-            <div
-              id="fb-12-2"
-              className="fbox-12 bg--white-100 block-shadow r-12"
-            >
-              {/* Icon */}
-              <div className="fbox-ico ico-50">
-                <div className="shape-ico color--theme">
-                  <img src="images/services/devops.png" />
+            <Link href="/service/devops">
+              <div
+                id="fb-12-2"
+                className="fbox-12 bg--white-100 block-shadow r-12"
+              >
+                {/* Icon */}
+                <div className="fbox-ico ico-50">
+                  <div className="shape-ico color--theme">
+                    <img src="images/services/devops.png" />
+                  </div>
+                </div>{" "}
+                {/* End Icon */}
+                {/* Text */}
+                <div className="fbox-txt">
+                  <h5 className="s-20 w-700">Devops</h5>
+                  <p>
+                    Streamlining and optimizing your operations with robust,
+                    efficient DevOps services.
+                  </p>
                 </div>
-              </div>{" "}
-              {/* End Icon */}
-              {/* Text */}
-              <div className="fbox-txt">
-                <h5 className="s-20 w-700">Devops</h5>
-                <p>
-                  Streamlining and optimizing your operations with robust,
-                  efficient DevOps services.
-                </p>
               </div>
-            </div>
+            </Link>
           </div>{" "}
           <div className="col-md-4">
             {/* FEATURE BOX #1 */}
 
             {/* FEATURE BOX #2 */}
-            <div
-              id="fb-12-2"
-              className="fbox-12 bg--white-100 block-shadow r-12"
-            >
-              {/* Icon */}
-              <div className="fbox-ico ico-50">
-                <div className="shape-ico color--theme">
-                  <img src="images/services/art.png" />
+            <Link href="/service/art">
+              <div
+                id="fb-12-2"
+                className="fbox-12 bg--white-100 block-shadow r-12"
+              >
+                {/* Icon */}
+                <div className="fbox-ico ico-50">
+                  <div className="shape-ico color--theme">
+                    <img src="images/services/art.png" />
+                  </div>
+                </div>{" "}
+                {/* End Icon */}
+                {/* Text */}
+                <div className="fbox-txt">
+                  <h5 className="s-20 w-700">Digital Arts</h5>
+                  <p>
+                    Bringing creativity to life with unique, captivating digital
+                    arts and design
+                  </p>
                 </div>
-              </div>{" "}
-              {/* End Icon */}
-              {/* Text */}
-              <div className="fbox-txt">
-                <h5 className="s-20 w-700">Digital Arts</h5>
-                <p>
-                  Bringing creativity to life with unique, captivating digital
-                  arts and design
-                </p>
               </div>
-            </div>
+            </Link>
           </div>{" "}
           <div className="col-md-4">
             {/* FEATURE BOX #1 */}
 
             {/* FEATURE BOX #2 */}
-            <div
-              id="fb-12-2"
-              className="fbox-12 bg--white-100 block-shadow r-12"
-            >
-              {/* Icon */}
-              <div className="fbox-ico ico-50">
-                <div className="shape-ico color--theme">
-                  <img src="images/services/qa.png" />
+            <Link href="/service/qa">
+              <div
+                id="fb-12-2"
+                className="fbox-12 bg--white-100 block-shadow r-12"
+              >
+                {/* Icon */}
+                <div className="fbox-ico ico-50">
+                  <div className="shape-ico color--theme">
+                    <img src="images/services/qa.png" />
+                  </div>
+                </div>{" "}
+                {/* End Icon */}
+                {/* Text */}
+                <div className="fbox-txt">
+                  <h5 className="s-20 w-700">Software testing & QA</h5>
+                  <p>
+                    Ensuring excellence with thorough software testing and
+                    quality assurance for reliability.
+                  </p>
                 </div>
-              </div>{" "}
-              {/* End Icon */}
-              {/* Text */}
-              <div className="fbox-txt">
-                <h5 className="s-20 w-700">Software testing & QA</h5>
-                <p>
-                  Ensuring excellence with thorough software testing and quality
-                  assurance for reliability.
-                </p>
               </div>
-            </div>
+            </Link>
           </div>
         </div>
         {/* End row */}
