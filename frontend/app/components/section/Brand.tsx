@@ -21,7 +21,7 @@ export default function Brands({ header, desc }: any) {
               <BrandSlider />
             </div>
           </div>{" "}
-          <div className="row mt-56">
+          <div className="row pt-24">
             <div className="col-sm-12 text-center">
               <Link
                 href="/technology"
