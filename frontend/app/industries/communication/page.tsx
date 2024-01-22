@@ -45,7 +45,7 @@ export default function Home() {
                   <div className="img-block right-column wow fadeInLeft">
                     <img
                       className="img-fluid"
-                      src="/images/img-06.png"
+                      src="https://media.licdn.com/dms/image/D4D12AQF2WFOlCzd8Ew/article-cover_image-shrink_720_1280/0/1686377052367?e=2147483647&v=beta&t=ovU1Z3-f0uFCLTE8WGDtRBDfvt5NmERHYHKnMgGBuXk"
                       alt="content-image"
                     />
                   </div>

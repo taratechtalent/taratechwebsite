@@ -43,7 +43,7 @@ export default function Home() {
                   <div className="img-block right-column wow fadeInLeft">
                     <img
                       className="img-fluid"
-                      src="/images/img-06.png"
+                      src="https://ugc.futurelearn.com/uploads/images/7c/81/header_7c81af9e-e2ff-49c9-9f32-319622544232.jpg"
                       alt="content-image"
                     />
                   </div>

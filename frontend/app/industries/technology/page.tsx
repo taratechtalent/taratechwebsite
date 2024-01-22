@@ -41,7 +41,7 @@ export default function Home() {
                   <div className="img-block right-column wow fadeInLeft">
                     <img
                       className="img-fluid"
-                      src="/images/img-06.png"
+                      src="https://investalberta.ca/wp-content/uploads/2023/09/Man-in-IT-scaled.webp"
                       alt="content-image"
                     />
                   </div>

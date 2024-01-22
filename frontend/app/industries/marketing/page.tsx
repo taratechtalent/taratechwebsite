@@ -39,7 +39,7 @@ export default function Home() {
                   <div className="img-block right-column wow fadeInLeft">
                     <img
                       className="img-fluid"
-                      src="/images/img-06.png"
+                      src="https://thumbs.dreamstime.com/b/business-consulting-meeting-working-brainstorming-new-project-finance-investment-concept-148096487.jpg"
                       alt="content-image"
                     />
                   </div>
