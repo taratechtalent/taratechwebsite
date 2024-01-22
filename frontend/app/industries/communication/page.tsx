@@ -45,7 +45,7 @@ export default function Home() {
                   <div className="img-block right-column wow fadeInLeft">
                     <img
                       className="img-fluid"
-                      src="/images/img-06.png"
+                      src="https://media.licdn.com/dms/image/D4D12AQF2WFOlCzd8Ew/article-cover_image-shrink_720_1280/0/1686377052367?e=2147483647&v=beta&t=ovU1Z3-f0uFCLTE8WGDtRBDfvt5NmERHYHKnMgGBuXk"
                       alt="content-image"
                     />
                   </div>
@@ -145,18 +145,7 @@ export default function Home() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico color--theme">
-                            {/* Vector Icon */}
-                            <span className="flaticon-graphics" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
+                          <img src="\images\png_icons\icons8-digital-marketing-68.png"></img> 
                           </div>
                         </div>
                       </div>{" "}
@@ -184,18 +173,7 @@ export default function Home() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico color--theme">
-                            {/* Vector Icon */}
-                            <span className="flaticon-idea" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
+                          <img src="\images\png_icons\icons8-broadcasting-64.png"></img>
                           </div>
                         </div>
                       </div>{" "}
@@ -221,18 +199,7 @@ export default function Home() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico color--theme">
-                            {/* Vector Icon */}
-                            <span className="flaticon-graphic" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
+                          <img src="\images\png_icons\icons8-virtual-reality-68.png"></img>
                           </div>
                         </div>
                       </div>{" "}
@@ -260,18 +227,7 @@ export default function Home() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico color--theme">
-                            {/* Vector Icon */}
-                            <span className="flaticon-wireframe" />
-                            {/* Shape */}
-                            <svg
-                              viewBox="0 0 200 200"
-                              xmlns="http://www.w3.org/2000/svg"
-                            >
-                              <path
-                                d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
-                                transform="translate(100 100)"
-                              />
-                            </svg>
+                          <img src="\images\png_icons\icons8-content-marketing-68 (1).png"></img>
                           </div>
                         </div>
                       </div>{" "}

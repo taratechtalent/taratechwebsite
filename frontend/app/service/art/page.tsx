@@ -233,6 +233,16 @@ export default function DigitalArtService() {
                       id="reviews-2"
                       className="gr--whitesmoke inner-page-hero reviews-section"
                     >
+                      <div className="row">
+                        <div className="col text-center mb-32">
+                          <h2 className="s-46 w-700">
+                          Digital Art Revolution
+                          </h2>
+                          <p className="s-21 color--grey mt-6">
+                          Exploring Boundaries, Tools, and Future Horizons
+                          </p>
+                        </div>
+                      </div>
                       <div className="container wow fadeInRight">
                         {/* SECTION TITLE */}
                         {/* TESTIMONIALS-2 WRAPPER */}

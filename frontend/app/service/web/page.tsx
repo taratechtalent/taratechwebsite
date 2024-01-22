@@ -236,6 +236,18 @@ export default function WebDevelopmentService() {
                       id="reviews-2"
                       className="gr--whitesmoke inner-page-hero reviews-section "
                     >
+                      <div className="row">
+                        <div className="col text-center mb-32">
+                          <h2 className="s-46 w-700">
+                            Comprehensive Web Solutions
+                          </h2>
+                          <p className="s-21 color--grey mt-6">
+                            Transform your digital presence with our end-to-end
+                            web services that ensure elegant design, seamless
+                            functionality, and fortified security.
+                          </p>
+                        </div>
+                      </div>
                       <div className="container wow fadeInRight">
                         {/* SECTION TITLE */}
                         {/* TESTIMONIALS-2 WRAPPER */}

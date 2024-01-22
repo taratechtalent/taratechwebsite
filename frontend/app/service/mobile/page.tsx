@@ -204,6 +204,31 @@ export default function MobileDevelopmentService() {
                       id="reviews-2"
                       className="gr--whitesmoke inner-page-hero reviews-section"
                     >
+                      <div className="row">
+                        <div className="col text-center mb-32">
+                          <h2 className="s-46 w-700">
+                          Efficient Collaboration Through DevOps
+                          </h2>
+                          <p className="s-21 color--grey mt-6">
+                            Crafting Flawless Software with Innovative Testing
+                            and Quality Assurance Methodologies
+                          </p>
+                        </div>
+                      </div>
+                      <div className="row">
+                        <div className="col text-center mb-32">
+                          <h2 className="s-46 w-700">
+                            Creating High-Performing Apps
+                          </h2>
+                          <p className="s-20 color--grey mt-6">
+                            Discover our mobile app development expertise, where
+                            we meticulously test, prioritize user experience,
+                            choose the right technology stack, and ensure
+                            user-centric design, guaranteeing top-notch mobile
+                            applications.
+                          </p>
+                        </div>
+                      </div>
                       <div className="container wow fadeInRight">
                         {/* SECTION TITLE */}
                         {/* TESTIMONIALS-2 WRAPPER */}

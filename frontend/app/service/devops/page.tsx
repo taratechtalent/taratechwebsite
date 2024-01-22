@@ -238,6 +238,17 @@ export default function DevopsService() {
                       id="reviews-2"
                       className="gr--whitesmoke inner-page-hero reviews-section"
                     >
+                      <div className="row">
+                        <div className="col text-center mb-32">
+                          <h2 className="s-46 w-700">
+                            Collaborative DevOps Excellence
+                          </h2>
+                          <p className="s-21 color--grey mt-6">
+                            Harnessing the Power of DevOps for Faster, Secure,
+                            and Collaborative Software Delivery
+                          </p>
+                        </div>
+                      </div>
                       <div className="container wow fadeInRight">
                         {/* SECTION TITLE */}
                         {/* TESTIMONIALS-2 WRAPPER */}

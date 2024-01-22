@@ -226,6 +226,18 @@ export default function UIUXService() {
                       id="reviews-2"
                       className="gr--whitesmoke inner-page-hero reviews-section"
                     >
+                      <div className="row">
+                        <div className="col text-center mb-32">
+                          <h2 className="s-46 w-700">
+                            Innovative UI/UX Design Services
+                          </h2>
+                          <p className="s-21 color--grey mt-6">
+                            Delivering elegant, user-centric UI/UX design
+                            solutions tailored for the future of digital
+                            interaction.
+                          </p>
+                        </div>
+                      </div>
                       <div className="container wow fadeInRight">
                         {/* SECTION TITLE */}
                         {/* TESTIMONIALS-2 WRAPPER */}
