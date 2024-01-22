@@ -72,7 +72,7 @@ export default function Menu() {
             className="btn r-04  hover--tra-white last-link ml-20"
             style={{ color: "black", border: "1px solid black" }}
           >
-            Join us
+            Apply as a Talent
           </Link>
         </li>
       </ul>
