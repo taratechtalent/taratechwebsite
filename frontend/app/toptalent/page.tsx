@@ -495,7 +495,7 @@ export default function TopTalent() {
                 <div className="row row-cols-1 row-cols-md-2 row-cols-lg-3 rows-2">
                   <div className="col">
                     <Link
-                      href="#"
+                      href="/service/web"
                       className="in_tool it-1 r-12 mb-30 wow fadeInUp"
                     >
                       {/* Icon */}
@@ -512,7 +512,7 @@ export default function TopTalent() {
                   </div>{" "}
                   <div className="col">
                     <Link
-                      href="#"
+                      href="/service/devops"
                       className="in_tool it-1 r-12 mb-30 wow fadeInUp"
                     >
                       {/* Icon */}
@@ -529,7 +529,7 @@ export default function TopTalent() {
                   </div>{" "}
                   <div className="col">
                     <Link
-                      href="#"
+                      href="/service/qa"
                       className="in_tool it-1 r-12 mb-30 wow fadeInUp"
                     >
                       {/* Icon */}
@@ -548,7 +548,7 @@ export default function TopTalent() {
                   </div>{" "}
                   <div className="col">
                     <Link
-                      href="#"
+                      href="/service/mobile"
                       className="in_tool it-1 r-12 mb-30 wow fadeInUp"
                     >
                       {/* Icon */}
@@ -567,7 +567,7 @@ export default function TopTalent() {
                   </div>{" "}
                   <div className="col">
                     <Link
-                      href="#"
+                      href="/service/ai"
                       className="in_tool it-1 r-12 mb-30 wow fadeInUp"
                     >
                       {/* Icon */}
@@ -584,7 +584,7 @@ export default function TopTalent() {
                   </div>{" "}
                   <div className="col">
                     <Link
-                      href="#"
+                      href="/service/uiux"
                       className="in_tool it-1 r-12 mb-30 wow fadeInUp"
                     >
                       {/* Icon */}
@@ -604,7 +604,7 @@ export default function TopTalent() {
                   {" "}
                   <div className="col-md-4 text-center">
                     <Link
-                      href="#"
+                      href="/service/art"
                       className="in_tool it-1 r-12 mb-30 wow fadeInUp"
                     >
                       {/* Icon */}
