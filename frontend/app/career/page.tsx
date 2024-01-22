@@ -79,6 +79,16 @@ export default function Career() {
           {/* ABOUT-3
 			============================================= */}
           <div id="about-3" className="pt-100 about-section division">
+            <div className="row justify-content-center">
+              <div className="col-md-10 col-lg-9">
+                <div className="section-title mb-70">
+                  {/* Title */}
+                  <h2 className="s-50 w-700">Apply process</h2>
+                  {/* Text */}
+                  <p className="s-21 color--grey">Describe apply process</p>
+                </div>
+              </div>
+            </div>
             <div className="container">
               <div className="row">
                 {/* ABOUT-3 TEXT */}
@@ -138,99 +148,118 @@ export default function Career() {
           {/* END ABOUT-3 */}
           {/* ABOUT-2
 			============================================= */}
-          <section className="py-100 ct-02 content-section division">
-            <div className="container">
-              {/* SECTION CONTENT (ROW) */}
-              <div className="row d-flex align-items-center">
-                {/* IMAGE BLOCK */}
-                <div className="col-md-6">
-                  <div className="txt-block right-column wow fadeInLeft">
-                    {/* CONTENT BOX #1 */}
-                    <div className="cbox-2 process-step">
-                      {/* Icon */}
-                      <div className="ico-wrap">
-                        <div className="cbox-2-ico bg--theme color--white">
-                          1
-                        </div>
-                        <span className="cbox-2-line" />
-                      </div>
-                      {/* Text */}
-                      <div className="cbox-2-txt">
-                        <h5 className="s-22 w-700">Application Submission</h5>
-                        <p>
-                          Start your journey with TaraTalent by submitting your
-                          application. Simply upload your CV, and let us match
-                          you with the right opportunities to advance your
-                          career.
-                        </p>
-                      </div>
-                    </div>{" "}
-                    {/* END CONTENT BOX #1 */}
-                    {/* CONTENT BOX #2 */}
-                    <div className="cbox-2 process-step">
-                      {/* Icon */}
-                      <div className="ico-wrap">
-                        <div className="cbox-2-ico bg--theme color--white">
-                          2
-                        </div>
-                        <span className="cbox-2-line" />
-                      </div>
-                      {/* Text */}
-                      <div className="cbox-2-txt">
-                        <h5 className="s-22 w-700">
-                          Comprehensive Skill Assessment
-                        </h5>
-                        <p>
-                          Showcase your abilities through our multi-faceted
-                          assessment process. This includes an English
-                          proficiency test, HR evaluation for soft skills, and
-                          both theoretical and practical technical tests to
-                          demonstrate your expertise.
-                        </p>
-                      </div>
-                    </div>{" "}
-                    {/* END CONTENT BOX #2 */}
-                    {/* CONTENT BOX #3 */}
-                    <div className="cbox-2 process-step">
-                      {/* Icon */}
-                      <div className="ico-wrap">
-                        <div className="cbox-2-ico bg--theme color--white">
-                          3
-                        </div>
-                      </div>
-                      {/* Text */}
-                      <div className="cbox-2-txt">
-                        <h5 className="s-22 w-700">
-                          Contract Finalization & Trial Period
-                        </h5>
-                        <p className="mb-0">
-                          Complete the contracting process and begin a trial
-                          period with us. This stage allows you to integrate
-                          into our culture, display your capabilities, and
-                          confirm our mutual fit for a successful professional
-                          collaboration.
-                        </p>
-                      </div>
-                    </div>{" "}
-                    {/* END CONTENT BOX #3 */}
+          <div className=" container mt-36 mb-24">
+            <div className="row justify-content-center">
+              <div className="col-md-10 col-lg-9">
+                <div className="section-title mb-70">
+                  {/* Title */}
+                  <h2 className="s-50 w-700">Apply process</h2>
+                  {/* Text */}
+                  <p className="s-21 color--grey">Describe apply process</p>
+                </div>
+              </div>
+            </div>
+            <div className="row">
+              <div className="col-md-6 wow fadeInLeft">
+                <div className="cbox-2 process-step pt-4">
+                  {/* Icon */}
+                  <div className="ico-wrap">
+                    <div className="cbox-2-ico bg--theme color--white">1</div>
+                    <span className="cbox-2-line" />
+                  </div>
+                  {/* Text */}
+                  <div className="cbox-2-txt">
+                    <h5 className="s-30 w-700">
+                      {" "}
+                      Language and Personality Evaluation
+                    </h5>
+                    <p>
+                      Assessing English proficiency and personality traits to
+                      ensure candidates are articulate, passionate, and fully
+                      committed.
+                    </p>
                   </div>
                 </div>{" "}
-                <div className="col-md-6">
-                  <div className="img-block left-column wow fadeInRight">
-                    <img
-                      className="img-fluid"
-                      src="/images/process/process.png"
-                      alt="content-image"
-                    />
+                {/* END CONTENT BOX #2 */}
+                <div className="cbox-2 process-step pt-2">
+                  {/* Icon */}
+                  <div className="ico-wrap">
+                    <div className="cbox-2-ico bg--theme color--white">2</div>
+                    <span className="cbox-2-line" />
                   </div>
-                </div>
-                {/* TEXT BLOCK */}
-                {/* END TEXT BLOCK */}
-              </div>{" "}
-              {/* END SECTION CONTENT (ROW) */}
-            </div>{" "}
-            {/* End container */}
-          </section>
+                  {/* Text */}
+                  <div className="cbox-2-txt">
+                    <h5 className="s-30 w-700">
+                      Technical Expertise Assessment
+                    </h5>
+                    <p>
+                      Evaluating technical knowledge and problem-solving skills
+                      through various assessments to identify domain experts.
+                    </p>
+                  </div>
+                </div>{" "}
+                {/* END CONTENT BOX #2 */}
+                <div className="cbox-2 process-step">
+                  {/* Icon */}
+                  <div className="ico-wrap">
+                    <div className="cbox-2-ico bg--theme color--white">3</div>
+                    <span className="cbox-2-line" />
+                  </div>
+                  {/* Text */}
+                  <div className="cbox-2-txt">
+                    <h5 className="s-30 w-700">
+                      Interactive Skills Validation
+                    </h5>
+                    <p>
+                      Conducting live interviews and exercises to gauge
+                      problem-solving capabilities, experience depth,
+                      communication skills, and creativity.
+                    </p>
+                  </div>
+                </div>{" "}
+                {/* END CONTENT BOX #2 */}
+                <div className="cbox-2 process-step">
+                  {/* Icon */}
+                  <div className="ico-wrap">
+                    <div className="cbox-2-ico bg--theme color--white">4</div>
+                    <span className="cbox-2-line" />
+                  </div>
+                  {/* Text */}
+                  <div className="cbox-2-txt">
+                    <h5 className="s-30 w-700">
+                      Real-World Project Simulation
+                    </h5>
+                    <p>
+                      Assigning comprehensive test projects to evaluate
+                      {`candidates'`} competence, professionalism, and integrity
+                      in practical scenarios.
+                    </p>
+                  </div>
+                </div>{" "}
+                {/* END CONTENT BOX #2 */}
+                <div className="cbox-2 process-step ">
+                  {/* Icon */}
+                  <div className="ico-wrap">
+                    <div className="cbox-2-ico bg--theme color--white">5</div>
+                    <span className="cbox-2-line" />
+                  </div>
+                  {/* Text */}
+                  <div className="cbox-2-txt">
+                    <h5 className="s-30 w-700">Ongoing Performance Review</h5>
+                    <p>
+                      Ensuring sustained excellence and quality in all
+                      engagements, maintaining high standards for both talent
+                      and client satisfaction.
+                    </p>
+                  </div>
+                </div>{" "}
+                {/* END CONTENT BOX #2 */}
+              </div>
+              <div className="col-md-6 wow fadeInRight">
+                <img src="/images/howHireTalent.png" />
+              </div>
+            </div>
+          </div>
           <section
             id="features-11"
             className="py-100 features-section division"
@@ -476,8 +505,111 @@ export default function Career() {
             </div>{" "}
           </div>
           <div>
+            <section className="py-100 ct-02 content-section division">
+              <div className="row justify-content-center">
+                <div className="col-md-10 col-lg-9">
+                  <div className="section-title mb-70">
+                    {/* Title */}
+                    <h2 className="s-50 w-700">Apply process</h2>
+                    {/* Text */}
+                    <p className="s-21 color--grey">Describe apply process</p>
+                  </div>
+                </div>
+              </div>
+              <div className="container">
+                {/* SECTION CONTENT (ROW) */}
+                <div className="row d-flex align-items-center">
+                  {/* IMAGE BLOCK */}
+                  <div className="col-md-6">
+                    <div className="txt-block right-column wow fadeInLeft">
+                      {/* CONTENT BOX #1 */}
+                      <div className="cbox-2 process-step">
+                        {/* Icon */}
+                        <div className="ico-wrap">
+                          <div className="cbox-2-ico bg--theme color--white">
+                            1
+                          </div>
+                          <span className="cbox-2-line" />
+                        </div>
+                        {/* Text */}
+                        <div className="cbox-2-txt">
+                          <h5 className="s-22 w-700">Application Submission</h5>
+                          <p>
+                            Start your journey with TaraTalent by submitting
+                            your application. Simply upload your CV, and let us
+                            match you with the right opportunities to advance
+                            your career.
+                          </p>
+                        </div>
+                      </div>{" "}
+                      {/* END CONTENT BOX #1 */}
+                      {/* CONTENT BOX #2 */}
+                      <div className="cbox-2 process-step">
+                        {/* Icon */}
+                        <div className="ico-wrap">
+                          <div className="cbox-2-ico bg--theme color--white">
+                            2
+                          </div>
+                          <span className="cbox-2-line" />
+                        </div>
+                        {/* Text */}
+                        <div className="cbox-2-txt">
+                          <h5 className="s-22 w-700">
+                            Comprehensive Skill Assessment
+                          </h5>
+                          <p>
+                            Showcase your abilities through our multi-faceted
+                            assessment process. This includes an English
+                            proficiency test, HR evaluation for soft skills, and
+                            both theoretical and practical technical tests to
+                            demonstrate your expertise.
+                          </p>
+                        </div>
+                      </div>{" "}
+                      {/* END CONTENT BOX #2 */}
+                      {/* CONTENT BOX #3 */}
+                      <div className="cbox-2 process-step">
+                        {/* Icon */}
+                        <div className="ico-wrap">
+                          <div className="cbox-2-ico bg--theme color--white">
+                            3
+                          </div>
+                        </div>
+                        {/* Text */}
+                        <div className="cbox-2-txt">
+                          <h5 className="s-22 w-700">
+                            Contract Finalization & Trial Period
+                          </h5>
+                          <p className="mb-0">
+                            Complete the contracting process and begin a trial
+                            period with us. This stage allows you to integrate
+                            into our culture, display your capabilities, and
+                            confirm our mutual fit for a successful professional
+                            collaboration.
+                          </p>
+                        </div>
+                      </div>{" "}
+                      {/* END CONTENT BOX #3 */}
+                    </div>
+                  </div>{" "}
+                  <div className="col-md-6">
+                    <div className="img-block left-column wow fadeInRight">
+                      <img
+                        className="img-fluid"
+                        src="/images/process/process.png"
+                        alt="content-image"
+                      />
+                    </div>
+                  </div>
+                  {/* TEXT BLOCK */}
+                  {/* END TEXT BLOCK */}
+                </div>{" "}
+                {/* END SECTION CONTENT (ROW) */}
+              </div>{" "}
+              {/* End container */}
+            </section>
             <hr className="divider" />
-            <section id="faqs-3" className="gr--whitesmoke pt-100 faqs-section">
+            <section id="faqs-3" className=" pt-100 faqs-section">
               <div className="container">
                 {/* SECTION TITLE */}
                 <div className="row justify-content-center">
@@ -488,9 +620,9 @@ export default function Career() {
                       {/* Text */}
 
                       <p className="s-21 color--grey">
-                        Explore Talent FAQs to find answers to
-                        common questions about joining our talent pool and
-                        leveraging exciting career opportunities.
+                        Explore Talent FAQs to find answers to common questions
+                        about joining our talent pool and leveraging exciting
+                        career opportunities.
                       </p>
                     </div>
                   </div>

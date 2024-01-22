@@ -126,11 +126,11 @@ export default function Home() {
                   <div className="section-title mb-70">
                     {/* Title */}
                     <h2 className="s-50 w-700">
-                      We make your business gain more revenue at a glance
+                    Media & Entertainment Solutions
                     </h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
-                      Ligula risus auctor tempus magna feugiat lacinia.
+                    Explore our wide array of services that empower the media and entertainment industry.
                     </p>
                   </div>
                 </div>

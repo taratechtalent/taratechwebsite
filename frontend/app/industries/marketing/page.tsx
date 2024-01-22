@@ -98,8 +98,7 @@ export default function Home() {
                       finance, retail, marketing, and consumer sectors. From
                       fintech innovation to e-commerce solutions, data-driven
                       marketing strategies, and enhancing the consumer
-                      experience, {`we've`} been at the forefront of industry
-                      advancements.
+                      experience.
                     </p>
                     {/* Text */}
                   </div>
@@ -122,7 +121,7 @@ export default function Home() {
                   <div className="section-title mb-70">
                     {/* Title */}
                     <h2 className="s-50 w-700">
-                      We make your business gain more revenue at a glance
+                    Driving Financial Excellence
                     </h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
