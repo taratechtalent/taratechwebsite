@@ -32,7 +32,7 @@ export default function Hero() {
                       who offer the perfect blend of quality and
                       cost-efficiency. Partner with us to harness global
                       expertise that fits your startup budget and fuels your
-                      growth
+                      growth.
                     </p>
                   </div>{" "}
                   <div
