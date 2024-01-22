@@ -65,7 +65,7 @@ export default function Hero() {
                     style={{ marginTop: "61px" }}
                   >
                     <Link href="/book" className="btn btn--theme hover--theme">
-                      Arrange a Call
+                      Book a Call
                     </Link>
                     {/* <img
                       src="images/play.png"
