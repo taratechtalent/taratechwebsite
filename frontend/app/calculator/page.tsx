@@ -119,7 +119,7 @@ export default function Book() {
 
   const [levels, setLevels] = useState(["Junior", "Mid-level", "Senior"]);
   const [periods, setPriods] = useState(["3 months", "6 months", "+1 year"]);
-  const [selectedLevel, setSelectedLevel] = useState(["Junior"]);
+  const [selectedLevel, setSelectedLevel] = useState("Junior");
   const [selectedTechnologies, setSelectedTechnologies] = useState<string[]>(
     []
   );
@@ -146,13 +146,13 @@ export default function Book() {
   };
 
   const selectLevel = (level: string) => {
-    let result = [...selectedLevel];
-    if (selectedLevel.includes(level)) {
-      result = result.filter((item) => item != level);
-    } else {
-      result.push(level);
-    }
-    setSelectedLevel(result);
+    // let result = [...selectedLevel];
+    // if (selectedLevel.includes(level)) {
+    //   result = result.filter((item) => item != level);
+    // } else {
+    //   result.push(level);
+    // }
+    setSelectedLevel(level);
   };
 
   const calculate = () => {
@@ -252,16 +252,19 @@ export default function Book() {
                                       key={item}
                                       className={
                                         selectedTechnologies.includes(item)
-                                          ? "tab-link ico-45 r-16 current"
-                                          : "tab-link ico-45 r-16"
+                                          ? "tab-link ico-45  r-16 current"
+                                          : "tab-link ico-45  r-16"
                                       }
                                       onClick={() => selectTechnologies(item)}
-                                      style={{ margin: "10px", padding: "5px" }}
+                                      style={{
+                                        margin: "10px !important",
+                                        padding: "5px !important",
+                                      }}
                                     >
                                       <p
                                         style={{
+                                          margin: "10px !important",
                                           padding: "5px !important",
-                                          margin: "0px !important",
                                         }}
                                       >
                                         {item}
@@ -293,7 +296,10 @@ export default function Book() {
                                         : "tab-link ico-45 r-16"
                                     }
                                     onClick={() => selectLevel(item)}
-                                    style={{ margin: "10px", padding: "5px" }}
+                                    style={{
+                                      margin: "10px !important",
+                                      padding: "5px !important",
+                                    }}
                                   >
                                     <p
                                       style={{
@@ -330,7 +336,10 @@ export default function Book() {
                                         : "tab-link ico-45 r-16"
                                     }
                                     onClick={() => selectPeriod(item)}
-                                    style={{ margin: "10px", padding: "5px" }}
+                                    style={{
+                                      margin: "10px !important",
+                                      padding: "5px !important",
+                                    }}
                                   >
                                     <p
                                       style={{
@@ -347,7 +356,14 @@ export default function Book() {
                           </div>
                         </div>
                         <div className="col-sm-3">
-                          <div style={{ marginTop: "200px" }}>
+                          <div
+                            style={{
+                              marginTop: "200px",
+                              border: "1px solid #37939b",
+                              padding: "45px",
+                              borderRadius: "15px",
+                            }}
+                          >
                             <hr className="divider" />
                             <div>
                               <div className="separator-line !mb-1">
@@ -356,7 +372,7 @@ export default function Book() {
                               <div className="row">
                                 <div className="col-sm-12 text-center">
                                   <h2 className="w-700">
-                                    2500 <span className="s-20">K€/y</span>
+                                    25 <span className="s-20">K€</span>
                                   </h2>
                                 </div>
                               </div>

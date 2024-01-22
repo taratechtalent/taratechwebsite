@@ -9859,7 +9859,6 @@ span.release-date span {
   line-height: 1;
   font-weight: 400;
   margin-bottom: 0;
-  margin-top: 15px;
 }
 
 /*------------------------------------------*/
@@ -13765,4 +13764,10 @@ html {
 .shadow-type1 {
   box-shadow: 0 4px 12px 0 rgb(110 126 130 / 33%);
   border-radius: 15px;
+}
+
+
+.tech-item{
+  margin: 10px !important;
+  padding: 5px !important;
 }

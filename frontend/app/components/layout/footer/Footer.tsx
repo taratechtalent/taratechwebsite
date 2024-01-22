@@ -92,11 +92,11 @@ export default function Footer() {
                 <h6 className="s-17 w-700">Resource</h6>
                 {/* Links */}
                 <ul className="foo-links clearfix">
-                  <li>
+                  {/* <li>
                     <p>
                       <Link href="/blog">Blog</Link>
                     </p>
-                  </li>
+                  </li> */}
                   <li>
                     <p>
                       <Link href="/service">Services</Link>
