@@ -231,7 +231,7 @@ export default function TopTalent() {
                       {/* Text */}
                       <div className="fbox-txt">
                         <h6 className="s-22 w-700">
-                          Flexible Engagement Model
+                          Flexible contracts
                         </h6>
                         <p>
                           Providing adaptable contracts without long-term
