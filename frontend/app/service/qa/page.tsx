@@ -236,6 +236,17 @@ export default function QAService() {
                       id="reviews-2"
                       className="gr--whitesmoke inner-page-hero reviews-section"
                     >
+                      <div className="row">
+                        <div className="col text-center mb-32">
+                          <h2 className="s-46 w-700">
+                            Assured Quality Performance
+                          </h2>
+                          <p className="s-21 color--grey mt-6">
+                            Crafting Flawless Software with Innovative Testing
+                            and Quality Assurance Methodologies
+                          </p>
+                        </div>
+                      </div>
                       <div className="container wow fadeInRight">
                         {/* SECTION TITLE */}
                         {/* TESTIMONIALS-2 WRAPPER */}
