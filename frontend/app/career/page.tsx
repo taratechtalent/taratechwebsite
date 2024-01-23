@@ -510,9 +510,9 @@ export default function Career() {
                 <div className="col-md-10 col-lg-9">
                   <div className="section-title mb-70">
                     {/* Title */}
-                    <h2 className="s-50 w-700">Apply process</h2>
+                    <h2 className="s-50 w-700"> Join TaraTalent</h2>
                     {/* Text */}
-                    <p className="s-21 color--grey">Describe apply process</p>
+                    <p className="s-21 color--grey">Your Path to Success</p>
                   </div>
                 </div>
               </div>
