@@ -152,7 +152,7 @@ export default function Book() {
   );
   const [selectedPeriod, setSelectedPeriod] = useState(12);
 
-  const [selectedService, setSelectedService] = useState("web");
+  const [selectedService, setSelectedService] = useState(ServiceEnum.Web);
   const selectService = (index: any) => {
     setSelectedService(index);
     setSelectedTechnologies([]);
@@ -187,7 +187,7 @@ export default function Book() {
       endPrice = 0;
 
     const calSelectedService = services.filter(
-      (item) => item.value == selectedService
+      (item) => item.name == selectedService
     )[0] as any;
 
     const step = Math.floor(
@@ -256,15 +256,13 @@ export default function Book() {
                                   {services.map((item) => {
                                     return (
                                       <li
-                                        key={item.value}
+                                        key={item.name}
                                         className={
-                                          selectedService === item.value
+                                          selectedService === item.name
                                             ? "tab-link ico-45 r-16 current"
                                             : "tab-link ico-45 r-16"
                                         }
-                                        onClick={() =>
-                                          selectService(item.value)
-                                        }
+                                        onClick={() => selectService(item.name)}
                                       >
                                         <p>{item.name} </p>
                                       </li>
@@ -290,7 +288,7 @@ export default function Book() {
                               {/* TAB-2 LINK */}
                               {services
                                 .filter(
-                                  (service) => service.value == selectedService
+                                  (service) => service.name == selectedService
                                 )[0]
                                 ?.technologies?.map((item: any) => {
                                   return (
@@ -405,29 +403,45 @@ export default function Book() {
                           <div
                             style={{
                               marginTop: "200px",
-                              border: "1px solid #37939b",
+                              border: "3px solid #37939b",
                               padding: "45px",
                               borderRadius: "15px",
                               position: "fixed",
+                              boxShadow: "0px 15px 20px 0px rgba(5, 5, 5, 0.2)",
                             }}
                           >
-                            <hr className="divider" />
-                            <div>
-                              <b
-                                className="s-20 w-700 "
-                                style={{ paddingLeft: "15px" }}
-                              >
-                                Final Price
-                              </b>
+                            <hr className="divider !mb-6" />
+                            <div className="text-center">
+                              <b className="s-20 w-700 ">Final Price</b>
                               <div className="row mt-10">
                                 <div className="col-sm-12 text-center">
                                   <h2 className="w-700">
                                     {finalPrice}
-                                    <span className="s-20">K€</span>
+                                    <span className="s-20"> K€</span>
                                   </h2>
                                 </div>
                               </div>
+                              <br />
+                              <b
+                                className="s-16 w-400 "
+                                style={{ paddingLeft: "15px" }}
+                              >
+                                <b style={{ color: "#37939b" }}>
+                                  {selectedLevel}
+                                </b>{" "}
+                                talent in <br />
+                                <b style={{ color: "#37939b" }}>
+                                  {selectedService}
+                                </b>{" "}
+                                <br /> for{" "}
+                                <b style={{ color: "#37939b" }}>
+                                  {selectedPeriod}
+                                </b>{" "}
+                                months
+                              </b>
+                              <br />
                             </div>
+                            <hr className="divider !mt-6" />
                           </div>
                         </div>
                       </div>
