@@ -61,7 +61,7 @@ export default function Hero() {
                           strings: items,
                           autoStart: true,
                           loop: true,
-                          delay: 200,
+                          delay: 100,
                         }}
                       />
                     </div>
