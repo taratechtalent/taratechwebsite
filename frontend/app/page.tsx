@@ -685,6 +685,7 @@ const UniqueApproach = () => {
 
 const OurProcess = () => {
   return (
+    
     <section className="pt-100  pb-20 ct-04 content-section division mb-40">
       
           {/* SECTION TITLE */}
@@ -695,7 +696,7 @@ const OurProcess = () => {
                 <h2 className="s-50 w-700"> How to Initiate a Partnership</h2>
                 {/* Text */}
                 <p className="s-21 color--grey">
-                Three Steps to Harnessing TaraTalent's Experts for Your Project
+                Three Steps to Harnessing {`TaraTalent's`} Experts for Your Project
                 </p>
               </div>
             </div>
