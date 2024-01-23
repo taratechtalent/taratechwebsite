@@ -711,11 +711,7 @@ const OurProcess = () => {
           {/* TEXT BLOCK */}
           <div className="col-md-6 order-last  order-md-2">
             <div className="row">
-              <div className="col-sm-12">
-                
-                <h5 className="s-54 w-700">Our Method:</h5>
-                <h5 className="s-30 w-700">Precise,Proactive,Productive</h5>
-              </div>
+            
             </div>
             <div className="row">
               <div className="col-sm-12">
@@ -723,7 +719,7 @@ const OurProcess = () => {
                 <div className="wow fadeInRight  pt-10">
                   <img
                     className="img-fluid"
-                    src="/images/mainPage/ourProcess.png"
+                    src="https://www.barraiser.com/wp-content/uploads/2022/06/benefits-of-recruitment-process-scaled-1.jpg"
                     alt="content-image"
                   />
                 </div>
