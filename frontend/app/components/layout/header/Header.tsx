@@ -43,7 +43,7 @@ export default function Header({
                 <Link href="/" className="logo-black">
                   <img
                     className="light-theme-img"
-                    src="/images/taralogo.png"
+                    src="/images/tara-logo-page.png"
                     alt="logo"
                   />
                   <img
@@ -56,7 +56,7 @@ export default function Header({
               {/* HEADER WHITE LOGO */}
               <div className="desktoplogo">
                 <Link href="/" className="logo-white">
-                  <img src="/images/taralogo.png" alt="logo" />
+                  <img src="/images/tara-logo-page.png" alt="logo" />
                 </Link>
               </div>
               {/* MAIN MENU */}
