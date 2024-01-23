@@ -5,6 +5,7 @@
 
 import { useEffect, useState } from "react";
 import Layout from "../components/layout/Layout";
+import Link from "next/link";
 
 enum ServiceEnum {
   Web = "Web Development",
@@ -481,7 +482,15 @@ export default function Book() {
                               </b>
                               <br />
                             </div>
-                            <hr className="divider !mt-6" />
+                            <hr className="divider !mt-6 !mb-3" />
+                            <div className="text-center">
+                              <b className="s-16 w-300 ">
+                                <Link href="/book">
+                                  <b className="w-500">{`let's`} talk</b>
+                                </Link>
+                              </b>
+                            </div>
+                            <hr className="divider !mt-3" />
                           </div>
                         </div>
                       </div>

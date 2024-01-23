@@ -32,7 +32,9 @@ export default function Menu() {
               <Link href="/industries/technology">Technology</Link>
             </li>
             <li>
-              <Link href="/industries/communication">Communication,Media & Entertainment</Link>
+              <Link href="/industries/communication">
+                Communication,Media & Entertainment
+              </Link>
             </li>
             <li>
               <Link href="/industries/marketing">Financial services</Link>
@@ -51,7 +53,7 @@ export default function Menu() {
               <Link href="/team">Leadership team</Link>
             </li>
             <li>
-              <Link href="/calculator">Calculator</Link>
+              <Link href="/calculator">Talent Value Calculator</Link>
             </li>
           </ul>
         </li>
@@ -69,7 +71,7 @@ export default function Menu() {
         <li className="nl-simple ">
           <Link
             href="/career/join"
-            className="btn r-04  hover--tra-white last-link ml-20"
+            className="btn r-04  hover--tra-red last-link ml-20"
             style={{ color: "black", border: "1px solid black" }}
           >
             Apply as a Talent

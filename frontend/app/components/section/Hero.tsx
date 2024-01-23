@@ -4,6 +4,7 @@
 
 import { services } from "@/app/calculator/page";
 import Link from "next/link";
+import { Tooltip } from "react-tooltip";
 import Typewriter from "typewriter-effect";
 
 const items = services.map(
@@ -45,26 +46,37 @@ export default function Hero() {
                       growth.
                     </p>
                   </div>{" "}
-                  <div
-                    className="col-sm-12 text-left"
-                    style={{ marginTop: "18px" }}
-                  >
-                    <span className="s-24 w-700 color--black">
-                      Unlock <span className="main-text">Senior </span>
-                    </span>
-                    <div
-                      className="s-26 w-700 color--black"
-                      style={{ marginLeft: "80px" }}
-                    >
-                      <Typewriter
-                        options={{
-                          strings: items,
-                          autoStart: true,
-                          loop: true,
-                          delay: 100,
-                        }}
-                      />
-                    </div>
+                  <div className="example-container">
+                    <Link href="/calculator">
+                      <div
+                        className="col-sm-12 text-left"
+                        style={{ marginTop: "18px" }}
+                      >
+                        <span className="s-24 w-700 color--black">
+                          Unlock <span className="main-text">Senior </span>
+                        </span>
+                        <div
+                          className="s-26 w-700 color--black"
+                          style={{ marginLeft: "80px" }}
+                          data-tooltip-id="my-tooltip-rounded"
+                          data-tooltip-content="Click to see the Talent Value calculator"
+                        >
+                          <Typewriter
+                            options={{
+                              strings: items,
+                              autoStart: true,
+                              loop: true,
+                              delay: 100,
+                            }}
+                          />
+                        </div>
+                      </div>
+                    </Link>
+
+                    <Tooltip
+                      id="my-tooltip-rounded"
+                      className="example-rounded"
+                    />
                   </div>
                   <div
                     className="col-sm-12 text-right "
