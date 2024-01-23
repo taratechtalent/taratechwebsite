@@ -57,7 +57,7 @@ export default function Hero() {
                         </span>
                         <div
                           className="s-26 w-700 color--black"
-                          style={{ marginLeft: "80px" }}
+                          style={{ marginLeft: "80px", height: "60px" }}
                           data-tooltip-id="my-tooltip-rounded"
                           data-tooltip-content="Click to see the Talent Value calculator"
                         >
