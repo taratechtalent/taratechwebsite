@@ -2,9 +2,19 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
+import { services } from "@/app/calculator/page";
 import Link from "next/link";
-import { useEffect } from "react";
 import Typewriter from "typewriter-effect";
+
+const items = services.map(
+  // (item) => item.name + ": €" + item.start + "k - €" + item.end + "k"
+  (item) =>
+    "<span class='item-style'>" +
+    item.dev +
+    "</span><br /> just for <span class='item-style2'> €" +
+    item.end +
+    "k </span>"
+);
 export default function Hero() {
   return (
     <>
@@ -40,22 +50,18 @@ export default function Hero() {
                     style={{ marginTop: "18px" }}
                   >
                     <span className="s-24 w-700 color--black">
-                      Unlock <span className="main-text">Senior Talents</span>{" "}
+                      Unlock <span className="main-text">Senior </span>
                     </span>
                     <div
-                      className="s-32 w-700 color--black"
-                      style={{ marginLeft: "100px" }}
+                      className="s-26 w-700 color--black"
+                      style={{ marginLeft: "80px" }}
                     >
                       <Typewriter
                         options={{
-                          strings: [
-                            "Web Development -> €70K/y",
-                            "Devops -> €60K/y",
-                            "UI/UX -> €120K/y",
-                          ],
+                          strings: items,
                           autoStart: true,
                           loop: true,
-                          delay: 100,
+                          delay: 200,
                         }}
                       />
                     </div>

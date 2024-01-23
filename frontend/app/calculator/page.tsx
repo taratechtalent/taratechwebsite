@@ -22,9 +22,10 @@ enum ServiceLeveEnum {
   Senior = "Senior",
 }
 
-const services = [
+export const services = [
   {
     name: ServiceEnum.Web,
+    dev: "Web Developer",
     value: "web",
     selected: true,
     index: 0,
@@ -45,6 +46,7 @@ const services = [
   },
   {
     name: ServiceEnum.Mobile,
+    dev: "Mobile Developer",
     value: "mobile",
     selected: false,
     index: 1,
@@ -54,6 +56,7 @@ const services = [
   },
   {
     name: ServiceEnum.QA,
+    dev: "QA Specialist",
     value: "qa",
     selected: false,
     index: 4,
@@ -69,6 +72,7 @@ const services = [
   },
   {
     name: ServiceEnum.AI,
+    dev: "AI Engineer",
     value: "ai",
     selected: false,
     index: 6,
@@ -84,6 +88,7 @@ const services = [
   },
   {
     name: ServiceEnum.UX,
+    dev: "UI Designer",
     value: "ui",
     selected: false,
     index: 2,
@@ -93,6 +98,7 @@ const services = [
   },
   {
     name: ServiceEnum.Art,
+    dev: "Art Designer",
     value: "art",
     selected: false,
     index: 3,
@@ -111,6 +117,7 @@ const services = [
 
   {
     name: ServiceEnum.Devops,
+    dev: "Devops Engineer",
     value: "devops",
     selected: false,
     index: 5,

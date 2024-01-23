@@ -13766,8 +13766,17 @@ html {
   border-radius: 15px;
 }
 
-
-.tech-item{
+.tech-item {
   margin: 10px !important;
   padding: 5px !important;
 }
+
+.item-style {
+  color: #37939b !important;
+  font-size: 35px !important;
+}
+
+.item-style2 {
+  color: #37939b !important;
+}
+
