@@ -3,7 +3,7 @@
 "use client";
 /* eslint-disable @next/next/no-img-element */
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Layout from "../components/layout/Layout";
 
 enum ServiceEnum {
@@ -22,110 +22,137 @@ enum ServiceLeveEnum {
   Senior = "Senior",
 }
 
-export default function Book() {
-  const [finalPrice, setFinalPrice] = useState("0 K€/y");
-  const [finalCount, setFinalCount] = useState(0);
-  const [info, setInfo] = useState(0);
-  const [services, setService] = useState([
-    {
-      name: ServiceEnum.Web,
-      value: "web",
-      selected: true,
-      index: 0,
-      technologies: [
-        "React",
-        "Angular",
-        "Vue",
-        "C#",
-        "Python",
-        "Nodejs",
-        "Nestjs",
-        "Nextjs",
-        "AWS",
-        "Google Cloud",
-      ],
-    },
-    {
-      name: ServiceEnum.Mobile,
-      value: "mobile",
-      selected: false,
-      index: 1,
-      technologies: ["IOS", "Android", "Kotlin", "swift", "Java"],
-    },
-    {
-      name: ServiceEnum.QA,
-      value: "qa",
-      selected: false,
-      index: 4,
-      technologies: [
-        "Unit Testing",
-        "Integration Testing",
-        "Acceptance Testing",
-        "Black Box Testing",
-        "White Box Testing",
-      ],
-    },
-    {
-      name: ServiceEnum.AI,
-      value: "ai",
-      selected: false,
-      index: 6,
-      technologies: [
-        "Narrow AI",
-        "Deep Learning",
-        "Neural Networks",
-        "General AI",
-        "Superintelligent AI",
-      ],
-    },
-    {
-      name: ServiceEnum.UX,
-      value: "ui",
-      selected: false,
-      index: 2,
-      technologies: ["Figma", "Adobe XD", "Adobe Illustrator", "Photoshop"],
-    },
-    {
-      name: ServiceEnum.Art,
-      value: "art",
-      selected: false,
-      index: 3,
-      technologies: [
-        "Blender",
-        "Adobe Creative Suite",
-        "2D and 3D Animation",
-        "Motion Graphics",
-        "Vector Graphics",
-        "2D and 3D Digital Painting",
-        "Digital Photography ",
-      ],
-    },
+const services = [
+  {
+    name: ServiceEnum.Web,
+    value: "web",
+    selected: true,
+    index: 0,
+    technologies: [
+      "React",
+      "Angular",
+      "Vue",
+      "C#",
+      "Python",
+      "Nodejs",
+      "Nestjs",
+      "Nextjs",
+      "AWS",
+      "Google Cloud",
+    ],
+    start: 53,
+    end: 82,
+  },
+  {
+    name: ServiceEnum.Mobile,
+    value: "mobile",
+    selected: false,
+    index: 1,
+    technologies: ["IOS", "Android", "Kotlin", "swift", "Java"],
+    start: 55,
+    end: 76,
+  },
+  {
+    name: ServiceEnum.QA,
+    value: "qa",
+    selected: false,
+    index: 4,
+    technologies: [
+      "Unit Testing",
+      "Integration Testing",
+      "Acceptance Testing",
+      "Black Box Testing",
+      "White Box Testing",
+    ],
+    start: 51,
+    end: 72,
+  },
+  {
+    name: ServiceEnum.AI,
+    value: "ai",
+    selected: false,
+    index: 6,
+    technologies: [
+      "Narrow AI",
+      "Deep Learning",
+      "Neural Networks",
+      "General AI",
+      "Superintelligent AI",
+    ],
+    start: 62,
+    end: 83,
+  },
+  {
+    name: ServiceEnum.UX,
+    value: "ui",
+    selected: false,
+    index: 2,
+    technologies: ["Figma", "Adobe XD", "Adobe Illustrator", "Photoshop"],
+    start: 48,
+    end: 70,
+  },
+  {
+    name: ServiceEnum.Art,
+    value: "art",
+    selected: false,
+    index: 3,
+    technologies: [
+      "Blender",
+      "Adobe Creative Suite",
+      "2D and 3D Animation",
+      "Motion Graphics",
+      "Vector Graphics",
+      "2D and 3D Digital Painting",
+      "Digital Photography ",
+    ],
+    start: 45,
+    end: 59,
+  },
 
+  {
+    name: ServiceEnum.Devops,
+    value: "devops",
+    selected: false,
+    index: 5,
+    technologies: [
+      "CI/CD",
+      "Git",
+      "AWS",
+      "Bash/Shel scripting",
+      "VMware",
+      "NGinx",
+    ],
+    start: 57,
+    end: 79,
+  },
+];
+
+export default function Book() {
+  const [finalPriceStart, setFinalPriceStart] = useState("");
+  const [finalPriceEnd, setFinalPriceEnd] = useState("");
+
+  const [levels, setLevels] = useState(["Junior", "Mid-Level", "Senior"]);
+  const [periods, setPriods] = useState([
     {
-      name: ServiceEnum.Devops,
-      value: "devops",
-      selected: false,
-      index: 5,
-      technologies: [
-        "CI/CD",
-        "Git",
-        "AWS",
-        "Bash/Shel scripting",
-        "VMware",
-        "NGinx",
-      ],
+      key: "3 months",
+      value: 3,
+    },
+    {
+      key: "6 months",
+      value: 6,
+    },
+    {
+      key: "1 year",
+      value: 12,
     },
   ]);
-
-  const [levels, setLevels] = useState(["Junior", "Mid-level", "Senior"]);
-  const [periods, setPriods] = useState(["3 months", "6 months", "+1 year"]);
   const [selectedLevel, setSelectedLevel] = useState("Junior");
   const [selectedTechnologies, setSelectedTechnologies] = useState<string[]>(
     []
   );
-  const [selectedPeriod, setSelectedPeriod] = useState("+1 year");
+  const [selectedPeriod, setSelectedPeriod] = useState(12);
 
-  const [selectedService, setSelectedService] = useState("web");
+  const [selectedService, setSelectedService] = useState(ServiceEnum.Web);
   const selectService = (index: any) => {
     setSelectedService(index);
     setSelectedTechnologies([]);
@@ -155,20 +182,38 @@ export default function Book() {
     setSelectedLevel(level);
   };
 
-  const calculate = () => {
+  useEffect(() => {
     let startPrice = 0,
       endPrice = 0;
 
-    // switch (selectedService) {
-    //   case ServiceEnum.Web:
-    //     switch (selectedLevel) {
-    //       case ServiceLeveEnum.Junior:
-    //         startPrice = 1000;
-    //         endPrice = 2000;
-    //         break;
-    //     }
-    // }
-  };
+    const calSelectedService = services.filter(
+      (item) => item.name == selectedService
+    )[0] as any;
+
+    const step = Math.floor(
+      (parseInt(calSelectedService.end) - parseInt(calSelectedService.start)) /
+        3
+    );
+    switch (selectedLevel) {
+      case ServiceLeveEnum.Junior:
+        startPrice = calSelectedService.start;
+        endPrice = calSelectedService.start + step;
+        break;
+      case ServiceLeveEnum.Mid:
+        startPrice = calSelectedService.start + step;
+        endPrice = calSelectedService.start + step + step;
+        break;
+      case ServiceLeveEnum.Senior:
+        startPrice = calSelectedService.start + step + step;
+        endPrice = calSelectedService.end;
+        break;
+    }
+    // K€
+    setFinalPriceStart(
+      Math.floor((startPrice / 12) * selectedPeriod).toString()
+    );
+    setFinalPriceEnd(Math.floor((endPrice / 12) * selectedPeriod).toString());
+  }, [selectedService, selectedLevel, selectedPeriod]);
 
   return (
     <>
@@ -210,15 +255,13 @@ export default function Book() {
                                   {services.map((item) => {
                                     return (
                                       <li
-                                        key={item.value}
+                                        key={item.name}
                                         className={
-                                          selectedService === item.value
+                                          selectedService === item.name
                                             ? "tab-link ico-45 r-16 current"
                                             : "tab-link ico-45 r-16"
                                         }
-                                        onClick={() =>
-                                          selectService(item.value)
-                                        }
+                                        onClick={() => selectService(item.name)}
                                       >
                                         <p>{item.name} </p>
                                       </li>
@@ -244,7 +287,7 @@ export default function Book() {
                               {/* TAB-2 LINK */}
                               {services
                                 .filter(
-                                  (service) => service.value == selectedService
+                                  (service) => service.name == selectedService
                                 )[0]
                                 ?.technologies?.map((item: any) => {
                                   return (
@@ -329,13 +372,13 @@ export default function Book() {
                               {periods.map((item) => {
                                 return (
                                   <li
-                                    key={item}
+                                    key={item.key}
                                     className={
-                                      item == selectedPeriod
+                                      item.value == selectedPeriod
                                         ? "tab-link ico-45 r-16 current"
                                         : "tab-link ico-45 r-16"
                                     }
-                                    onClick={() => selectPeriod(item)}
+                                    onClick={() => selectPeriod(item.value)}
                                     style={{
                                       margin: "10px !important",
                                       padding: "5px !important",
@@ -347,7 +390,7 @@ export default function Book() {
                                         margin: "0px !important",
                                       }}
                                     >
-                                      {item}
+                                      {item.key}
                                     </p>
                                   </li>
                                 );
@@ -359,24 +402,79 @@ export default function Book() {
                           <div
                             style={{
                               marginTop: "200px",
-                              border: "1px solid #37939b",
+                              border: "3px solid #37939b",
                               padding: "45px",
                               borderRadius: "15px",
+                              position: "fixed",
+                              boxShadow: "0px 15px 20px 0px rgba(5, 5, 5, 0.2)",
                             }}
                           >
-                            <hr className="divider" />
-                            <div>
-                              <div className="separator-line !mb-1">
-                                <b className="s-20 w-700">Final Price</b>
-                              </div>
-                              <div className="row">
+                            <hr className="divider !mb-6" />
+                            <div className="text-center">
+                              <b className="s-20 w-700 ">Final Price</b>
+                              <div className="row mt-10">
                                 <div className="col-sm-12 text-center">
                                   <h2 className="w-700">
-                                    25 <span className="s-20">K€</span>
+                                    <span
+                                      style={{
+                                        color: "#80808096",
+                                        fontSize: "30px",
+                                      }}
+                                    >
+                                      €
+                                    </span>
+                                    {finalPriceStart}
+                                    <span
+                                      style={{
+                                        color: "#80808096",
+                                        fontSize: "30px",
+                                      }}
+                                    >
+                                      K
+                                    </span>{" "}
+                                    -{" "}
+                                    <span
+                                      style={{
+                                        color: "#80808096",
+                                        fontSize: "30px",
+                                      }}
+                                    >
+                                      €
+                                    </span>
+                                    {finalPriceEnd}
+                                    <span
+                                      style={{
+                                        color: "#80808096",
+                                        fontSize: "30px",
+                                      }}
+                                    >
+                                      K
+                                    </span>
+                                    <span className="s-20"> </span>
                                   </h2>
                                 </div>
                               </div>
+                              <br />
+                              <b
+                                className="s-16 w-400 "
+                                style={{ paddingLeft: "15px" }}
+                              >
+                                <b style={{ color: "#37939b" }}>
+                                  {selectedLevel}
+                                </b>{" "}
+                                talent in <br />
+                                <b style={{ color: "#37939b" }}>
+                                  {selectedService}
+                                </b>{" "}
+                                <br /> for{" "}
+                                <b style={{ color: "#37939b" }}>
+                                  {selectedPeriod}
+                                </b>{" "}
+                                months
+                              </b>
+                              <br />
                             </div>
+                            <hr className="divider !mt-6" />
                           </div>
                         </div>
                       </div>
