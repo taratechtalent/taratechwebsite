@@ -2,7 +2,7 @@
 /* eslint-disable @next/next/no-img-element */
 "use client";
 
-import { services } from "@/app/calculator/page";
+import { services } from "@/app/calculator/util";
 import Link from "next/link";
 import { Tooltip } from "react-tooltip";
 import Typewriter from "typewriter-effect";
