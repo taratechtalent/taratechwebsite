@@ -69,7 +69,7 @@ export default function Home() {
                       At TaraTalent, we understand the critical importance of
                       having highly skilled technical professionals who are
                       well-versed in the nuances of healthcare and life
-                      sciences. Our experts have a deep understanding of the
+                      sciences. Our experts have a deep understanding of the{" "}
                       {`industry's`} unique challenges and opportunities.
                     </p>
                     {/* List */}
