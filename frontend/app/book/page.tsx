@@ -54,8 +54,9 @@ export default function Book() {
                                 }
                                 onClick={() => handleOnClick(1)}
                               >
-                                <div className="tab-link-ico">
-                                  <span className="flaticon-suit" />
+                                <div className="tab-link-ico text-center">
+                                  <img src="images/png_icons/meeting.png"></img>
+                                  
                                 </div>
                                 <p>Schedule a Meeting </p>
                               </li>
