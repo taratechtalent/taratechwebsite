@@ -486,7 +486,7 @@ const Services = () => {
                 </div>
                 <div className="col-md-6">
                   {/* FEATURE BOX #3 */}
-                  <Link href="/service/uiux">
+                  <Link href="/service/uiux">hod
                     <div
                       id="fb-12-3"
                       className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
@@ -686,13 +686,32 @@ const UniqueApproach = () => {
 const OurProcess = () => {
   return (
     <section className="pt-100  pb-20 ct-04 content-section division mb-40">
+      
+          {/* SECTION TITLE */}
+          <div className="row justify-content-center">
+            <div className="col-md-10 col-lg-9">
+              <div className="section-title mb-70">
+                {/* Title */}
+                <h2 className="s-50 w-700"> How to Initiate a Partnership</h2>
+                {/* Text */}
+                <p className="s-21 color--grey">
+                Three Steps to Harnessing TaraTalent's Experts for Your Project
+                </p>
+              </div>
+            </div>
+          </div>
+      
       <div className="container">
         {/* SECTION CONTENT (ROW) */}
+        
+        
         <div className="row d-flex align-items-center">
+          
           {/* TEXT BLOCK */}
           <div className="col-md-6 order-last  order-md-2">
             <div className="row">
               <div className="col-sm-12">
+                
                 <h5 className="s-54 w-700">Our Method:</h5>
                 <h5 className="s-30 w-700">Precise,Proactive,Productive</h5>
               </div>
