@@ -593,7 +593,7 @@ export default function About() {
                   <div className="img-block right-column wow fadeInLeft">
                     <img
                       className="img-fluid rounded-lg"
-                      src="/images/pazh.png"
+                      src="/images/offices/ax-4tai-sherkat-25.png"
                       alt="content-image"
                     />
                   </div>
