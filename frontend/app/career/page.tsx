@@ -83,9 +83,9 @@ export default function Career() {
               <div className="col-md-10 col-lg-9">
                 <div className="section-title mb-70">
                   {/* Title */}
-                  <h2 className="s-50 w-700">Apply process</h2>
+                  <h2 className="s-46 w-700">Unlock Global Opportunities</h2>
                   {/* Text */}
-                  <p className="s-21 color--grey">Describe apply process</p>
+                  <p className="s-21 color--grey">Explore the top three reasons to join our talent network</p>
                 </div>
               </div>
             </div>
@@ -153,9 +153,9 @@ export default function Career() {
               <div className="col-md-10 col-lg-9">
                 <div className="section-title mb-70">
                   {/* Title */}
-                  <h2 className="s-50 w-700">Apply process</h2>
+                  <h2 className="s-46 w-700">Talent Assessment Journey</h2>
                   {/* Text */}
-                  <p className="s-21 color--grey">Describe apply process</p>
+                  <p className="s-21 color--grey">Be Your Best Self,Unleash Your Expertise,Engage and Shine</p>
                 </div>
               </div>
             </div>

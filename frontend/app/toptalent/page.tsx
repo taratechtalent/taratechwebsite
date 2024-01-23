@@ -66,6 +66,25 @@ export default function TopTalent() {
             {/* End container */}
           </section>
           <div className=" container mt-36 mb-24">
+            <div className="row justify-content-center">
+              <div className="col-md-10 col-lg-9">
+                <div className="section-title mb-70">
+                  {/* Title */}
+                  <h2 className="s-52 w-700">
+                    {" "}
+                    Our <span style={{ color: "#37939b" }}>Top 1%</span>{" "}
+                    Screening{" "}
+                  </h2>
+
+                  {/* Text */}
+                  <p className="s-21 color--grey">
+                    Experience peace of mind knowing that we meticulously
+                    evaluate and select top-tier talent, so you have access to
+                    the best experts in the field.
+                  </p>
+                </div>
+              </div>
+            </div>
             <div className="row">
               <div className="col-md-6 wow fadeInLeft">
                 <div className="cbox-2 process-step pt-4">
@@ -230,9 +249,7 @@ export default function TopTalent() {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h6 className="s-22 w-700">
-                          Flexible contracts
-                        </h6>
+                        <h6 className="s-22 w-700">Flexible contracts</h6>
                         <p>
                           Providing adaptable contracts without long-term
                           commitments, allowing CEOs to scale their workforce as
@@ -685,9 +702,9 @@ export default function TopTalent() {
                         <p className="color--grey">
                           At TaraTalent, we offer a no-risk trial period to our
                           clients. During this trial period, you have the
-                          opportunity to work with the talent {`we've`} matched you
-                          with. You are not committed to any long-term contracts
-                          or financial obligations during this phase.
+                          opportunity to work with the talent {`we've`} matched
+                          you with. You are not committed to any long-term
+                          contracts or financial obligations during this phase.
                         </p>
                       </div>
                       {/* QUESTION #3 */}
@@ -702,14 +719,14 @@ export default function TopTalent() {
                           <li className="list-item">
                             <p>
                               If, for any reason, you are not fully satisfied
-                              with the {`talent's`} performance or believe they are
-                              not the right fit for your project, you can choose
-                              not to continue with their services, and you will
-                              not incur any charges. We believe in the quality
-                              of our talent and are confident that {`you'll`} find
-                              the right fit, but we offer this trial period to
-                              provide peace of mind and ensure you are
-                              completely satisfied with your choice.
+                              with the {`talent's`} performance or believe they
+                              are not the right fit for your project, you can
+                              choose not to continue with their services, and
+                              you will not incur any charges. We believe in the
+                              quality of our talent and are confident that{" "}
+                              {`you'll`} find the right fit, but we offer this
+                              trial period to provide peace of mind and ensure
+                              you are completely satisfied with your choice.
                             </p>
                           </li>
                         </ul>
@@ -724,7 +741,8 @@ export default function TopTalent() {
                       <div className="question mb-35 wow fadeInUp">
                         {/* Question */}
                         <h5 className="s-22 w-700">
-                          <span>4.</span> How does TaraTalent ensure candidates meet our requirements?
+                          <span>4.</span> How does TaraTalent ensure candidates
+                          meet our requirements?
                         </h5>
                         {/* Answer */}
                         <p className="color--grey">
