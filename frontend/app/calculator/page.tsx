@@ -23,7 +23,8 @@ enum ServiceLeveEnum {
 }
 
 export default function Book() {
-  const [finalPrice, setFinalPrice] = useState("");
+  const [finalPriceStart, setFinalPriceStart] = useState("");
+  const [finalPriceEnd, setFinalPriceEnd] = useState("");
   const [finalCount, setFinalCount] = useState(0);
   const [info, setInfo] = useState(0);
   const [services, setService] = useState([
@@ -208,12 +209,11 @@ export default function Book() {
         endPrice = calSelectedService.end;
         break;
     }
-
-    setFinalPrice(
-      Math.floor((startPrice / 12) * selectedPeriod) +
-        " - " +
-        Math.floor((endPrice / 12) * selectedPeriod)
+    // K€
+    setFinalPriceStart(
+      Math.floor((startPrice / 12) * selectedPeriod).toString()
     );
+    setFinalPriceEnd(Math.floor((endPrice / 12) * selectedPeriod).toString());
   }, [selectedService, selectedLevel, selectedPeriod]);
 
   return (
@@ -416,8 +416,42 @@ export default function Book() {
                               <div className="row mt-10">
                                 <div className="col-sm-12 text-center">
                                   <h2 className="w-700">
-                                    {finalPrice}
-                                    <span className="s-20"> K€</span>
+                                    <span
+                                      style={{
+                                        color: "#80808096",
+                                        fontSize: "30px",
+                                      }}
+                                    >
+                                      €
+                                    </span>
+                                    {finalPriceStart}
+                                    <span
+                                      style={{
+                                        color: "#80808096",
+                                        fontSize: "30px",
+                                      }}
+                                    >
+                                      K
+                                    </span>{" "}
+                                    -{" "}
+                                    <span
+                                      style={{
+                                        color: "#80808096",
+                                        fontSize: "30px",
+                                      }}
+                                    >
+                                      €
+                                    </span>
+                                    {finalPriceEnd}
+                                    <span
+                                      style={{
+                                        color: "#80808096",
+                                        fontSize: "30px",
+                                      }}
+                                    >
+                                      K
+                                    </span>
+                                    <span className="s-20"> </span>
                                   </h2>
                                 </div>
                               </div>
