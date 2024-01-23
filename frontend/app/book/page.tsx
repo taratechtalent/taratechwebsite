@@ -54,9 +54,21 @@ export default function Book() {
                                 }
                                 onClick={() => handleOnClick(1)}
                               >
-                                <div className="tab-link-ico text-center">
-                                  <img src="images/png_icons/meeting.png"></img>
-                                  
+                                <div
+                                  className="tab-link-ico text-center"
+                                  style={{
+                                    display: "flex",
+                                    justifyContent: "center",
+                                  }}
+                                >
+                                  <img
+                                    src="images/png_icons/meeting.png"
+                                    style={{
+                                      width: "60px",
+                                      height: "60px",
+                                      marginBottom: "15px",
+                                    }}
+                                  ></img>
                                 </div>
                                 <p>Schedule a Meeting </p>
                               </li>
