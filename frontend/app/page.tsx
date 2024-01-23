@@ -162,7 +162,7 @@ function Features() {
                       Craft contracts that align with your unique project
                       requirements, thanks to {`TaraTalent's`} flexible
                       engagement options. Scale your team as needed for optimal
-                      resource utilization
+                      resource utilization.
                     </p>
                   </div>
                 </div>

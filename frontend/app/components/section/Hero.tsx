@@ -22,7 +22,7 @@ export default function Hero() {
                     <h2 className="s-56 w-700 color--black herotext">
                       Affordable{" "}
                       <span className="main-text">Senior Talents</span> for
-                      startups
+                      Startups
                     </h2>
                   </div>{" "}
                   <div className="col-sm-12">
