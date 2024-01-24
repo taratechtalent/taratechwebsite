@@ -53,7 +53,7 @@ export default function Menu() {
               <Link href="/team">Leadership team</Link>
             </li>
             <li>
-              <Link href="/calculator">Talent Value Calculator</Link>
+              <Link href="/calculator">Talent Quote Generator</Link>
             </li>
           </ul>
         </li>
