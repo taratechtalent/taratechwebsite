@@ -116,11 +116,12 @@ export default function TopTalent() {
                   {/* Text */}
                   <div className="cbox-2-txt">
                     <h5 className="s-30 w-700">
-                      Technical Expertise Assessment
+                    Soft Skills Validation
                     </h5>
                     <p>
-                      Evaluating technical knowledge and problem-solving skills
-                      through various assessments to identify domain experts.
+                    Conducting live interviews and exercises to gauge
+                      problem-solving capabilities, experience depth,
+                      communication skills, and creativity.
                     </p>
                   </div>
                 </div>{" "}
@@ -134,12 +135,11 @@ export default function TopTalent() {
                   {/* Text */}
                   <div className="cbox-2-txt">
                     <h5 className="s-30 w-700">
-                      Interactive Skills Validation
+                    Technical Expertise Assessment
                     </h5>
                     <p>
-                      Conducting live interviews and exercises to gauge
-                      problem-solving capabilities, experience depth,
-                      communication skills, and creativity.
+                    Evaluating technical knowledge and problem-solving skills
+                      through various assessments to identify domain experts.
                     </p>
                   </div>
                 </div>{" "}
