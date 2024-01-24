@@ -3,6 +3,7 @@
 import Link from "next/link";
 import MobileMenu from "../MobileMenu";
 import Menu from "../Menu";
+
 export default function Header({
   scroll,
   isMobileMenu,
@@ -43,12 +44,7 @@ export default function Header({
                 <Link href="/" className="logo-black">
                   <img
                     className="light-theme-img"
-                    src="/images/tara-logo-page.png"
-                    alt="logo"
-                  />
-                  <img
-                    className="dark-theme-img"
-                    src="/images/logo-pink-white.png"
+                    src="/images/logo-T.png"
                     alt="logo"
                   />
                 </Link>
@@ -56,7 +52,7 @@ export default function Header({
               {/* HEADER WHITE LOGO */}
               <div className="desktoplogo">
                 <Link href="/" className="logo-white">
-                  <img src="/images/tara-logo-page.png" alt="logo" />
+                  <img src="/images/logo-T.png" alt="logo" />
                 </Link>
               </div>
               {/* MAIN MENU */}
