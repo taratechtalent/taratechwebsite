@@ -265,7 +265,10 @@ export default function Career() {
                 {/* END CONTENT BOX #2 */}
               </div>
               <div className="col-md-6 wow fadeInRight">
-                <img src="/images/howHireTalent.png" />
+                <img
+                  src="/images/howHireTalent.png"
+                  style={{ marginTop: "80px" }}
+                />
               </div>
             </div>
           </div>
