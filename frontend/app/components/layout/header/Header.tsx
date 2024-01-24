@@ -44,7 +44,7 @@ export default function Header({
                 <Link href="/" className="logo-black">
                   <img
                     className="light-theme-img"
-                    src="/images/logo-T.png"
+                    src="/images/logo/photo_2024-01-24_16-39-04.jpg"
                     alt="logo"
                   />
                 </Link>
@@ -52,7 +52,7 @@ export default function Header({
               {/* HEADER WHITE LOGO */}
               <div className="desktoplogo">
                 <Link href="/" className="logo-white">
-                  <img src="/images/logo-T.png" alt="logo" />
+                  <img src="/images/logo/photo_2024-01-24_16-39-04.jpg" alt="logo" />
                 </Link>
               </div>
               {/* MAIN MENU */}
