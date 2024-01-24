@@ -85,7 +85,9 @@ export default function Career() {
                   {/* Title */}
                   <h2 className="s-46 w-700">Unlock Global Opportunities</h2>
                   {/* Text */}
-                  <p className="s-21 color--grey">Explore the top three reasons to join our talent network</p>
+                  <p className="s-21 color--grey">
+                    Explore the top three reasons to join our talent network
+                  </p>
                 </div>
               </div>
             </div>
@@ -155,7 +157,9 @@ export default function Career() {
                   {/* Title */}
                   <h2 className="s-46 w-700">Talent Assessment Journey</h2>
                   {/* Text */}
-                  <p className="s-21 color--grey">Be Your Best Self,Unleash Your Expertise,Engage and Shine</p>
+                  <p className="s-21 color--grey">
+                    Be Your Best Self,Unleash Your Expertise,Engage and Shine
+                  </p>
                 </div>
               </div>
             </div>
@@ -598,6 +602,11 @@ export default function Career() {
                         className="img-fluid"
                         src="/images/process/process.png"
                         alt="content-image"
+                        style={{
+                          borderRadius: "15px",
+                          boxShadow:
+                            "rgba(110, 126, 129, 0.43) 0px 4px 12px 0px",
+                        }}
                       />
                     </div>
                   </div>

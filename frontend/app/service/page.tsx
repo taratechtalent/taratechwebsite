@@ -22,7 +22,7 @@ export default function ServicePage() {
             image="/images/services/allservices.webp"
           />
         </div>
-        <div className="row p-4 m-4" style={{ backgroundColor: "#37939b" }}>
+        {/* <div className="row p-4 m-4" style={{ backgroundColor: "#37939b" }}>
           <div className="col-sm-12 text-center">
             <Link
               href="/book"
@@ -31,7 +31,7 @@ export default function ServicePage() {
               Team up for success
             </Link>
           </div>
-        </div>
+        </div> */}
         <hr className="divider" />
 
         <Brands
@@ -86,9 +86,9 @@ export default function ServicePage() {
                       <h5 className="s-22 w-700">Customize Your Solution</h5>
                       <p>
                         Tailor your solution by choosing from our comprehensive
-                        suite of services and talent options. {`We'll`} work with
-                        you to create a customized plan that aligns with your
-                        goals.
+                        suite of services and talent options. {`We'll`} work
+                        with you to create a customized plan that aligns with
+                        your goals.
                       </p>
                     </div>
                   </div>{" "}
@@ -106,9 +106,9 @@ export default function ServicePage() {
                       <p className="mb-0">
                         Finalize the collaboration and get started on achieving
                         your business objectives. During the trial period,
-                       {` you'll`} have the opportunity to experience the expertise
-                        of our talented professionals and see your projects
-                        thrive.
+                        {` you'll`} have the opportunity to experience the
+                        expertise of our talented professionals and see your
+                        projects thrive.
                       </p>
                     </div>
                   </div>{" "}

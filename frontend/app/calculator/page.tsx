@@ -15,13 +15,13 @@ export default function Book() {
   const [levels, setLevels] = useState(["Junior", "Mid-Level", "Senior"]);
   const [periods, setPriods] = useState([
     {
-      key: "3 months",
-      value: 3,
+      key: "1 months",
+      value: 1,
     },
-    {
-      key: "6 months",
-      value: 6,
-    },
+    // {
+    //   key: "6 months",
+    //   value: 6,
+    // },
     {
       key: "1 year",
       value: 12,
@@ -277,6 +277,11 @@ export default function Book() {
                                 );
                               })}
                             </ul>
+                            {selectedPeriod == 1 && (
+                              <p className="text-left">
+                                Note: Minimum contract period is 3 months
+                              </p>
+                            )}
                           </div>
                         </div>
                         <div className="col-sm-3">
@@ -307,7 +312,7 @@ export default function Book() {
                                     {finalPriceStart}
                                     <span
                                       style={{
-                                        color: "#80808096",
+                                        color: "black",
                                         fontSize: "30px",
                                       }}
                                     >
@@ -325,11 +330,21 @@ export default function Book() {
                                     {finalPriceEnd}
                                     <span
                                       style={{
-                                        color: "#80808096",
+                                        color: "black",
                                         fontSize: "30px",
                                       }}
                                     >
                                       K
+                                    </span>
+                                    {"  "}
+                                    <span style={{ fontSize: "26px" }}>/</span>
+                                    <span
+                                      style={{
+                                        fontSize: "20px",
+                                        color: "black",
+                                      }}
+                                    >
+                                      {selectedPeriod == 12 ? "year" : "month"}
                                     </span>
                                     <span className="s-20"> </span>
                                   </h2>
@@ -347,11 +362,6 @@ export default function Book() {
                                 <b style={{ color: "#37939b" }}>
                                   {selectedService}
                                 </b>{" "}
-                                <br /> for{" "}
-                                <b style={{ color: "#37939b" }}>
-                                  {selectedPeriod}
-                                </b>{" "}
-                                months
                               </b>
                               <br />
                             </div>
