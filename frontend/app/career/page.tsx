@@ -774,21 +774,21 @@ export default function Career() {
                         <div className="banner-12-txt color--white">
                           {/* Title */}
                           <h2 className="s-35 w-700">
-                            Empower Your Startup with Our Talent: Expertise for
-                            Victory
+                            Join TaraTalent: Your Gateway to Exciting Career
+                            Opportunities
                           </h2>
                           {/* Text */}
                           <p className="p-lg">
-                            Discover how our skilled, affordable experts can be
-                            the catalyst for your {`business's`} growth and
-                            innovation.
+                            Explore career advancements and opportunities with
+                            TaraTalent, your partner in connecting talent with
+                            visionary companies.
                           </p>
                           {/* Button */}
                           <Link
                             href="/book"
                             className="btn r-04 btn--theme hover--tra-white"
                           >
-                            Team up for success
+                            Join Our Talent Pool
                           </Link>
                         </div>
                       </div>{" "}
