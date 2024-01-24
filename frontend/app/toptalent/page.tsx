@@ -23,7 +23,7 @@ export default function TopTalent() {
                   <div className="img-block left-column wow fadeInRight">
                     <img
                       className="img-fluid"
-                      src="/images/img-06.png"
+                      src="/images/hero-13-img.png"
                       alt="content-image"
                     />
                   </div>
@@ -32,7 +32,7 @@ export default function TopTalent() {
                 <div className="col-md-6">
                   <div className="txt-block right-column wow fadeInLeft">
                     {/* Section ID */}
-                    <span className="section-id">Top 1%</span>
+                     <b style={{ color: "#37939b" }}> Top 1%</b>
                     {/* Title */}
                     <h2 className="s-50 w-700">
                       Crafting Excellence: Our Journey in Selecting the{" "}
