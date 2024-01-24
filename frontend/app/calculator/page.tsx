@@ -70,11 +70,10 @@ export default function Book() {
     const calSelectedService = services.filter(
       (item) => item.name == selectedService
     )[0] as any;
-
-    const step = Math.floor(
+    debugger;
+    const step =
       (parseInt(calSelectedService.end) - parseInt(calSelectedService.start)) /
-        3
-    );
+      3;
     switch (selectedLevel) {
       case ServiceLeveEnum.Junior:
         startPrice = calSelectedService.start;
@@ -89,11 +88,16 @@ export default function Book() {
         endPrice = calSelectedService.end;
         break;
     }
+
+    let a: any = ((startPrice / 12) * selectedPeriod).toFixed(1).toString();
+    a = a.endsWith(".0") ? parseInt(a) : a;
+
+    let b: any = ((endPrice / 12) * selectedPeriod).toFixed(1).toString();
+    b = b.endsWith(".0") ? parseInt(b) : b;
+
     // K€
-    setFinalPriceStart(
-      Math.floor((startPrice / 12) * selectedPeriod).toString()
-    );
-    setFinalPriceEnd(Math.floor((endPrice / 12) * selectedPeriod).toString());
+    setFinalPriceStart(a);
+    setFinalPriceEnd(b);
   }, [selectedService, selectedLevel, selectedPeriod]);
 
   return (
