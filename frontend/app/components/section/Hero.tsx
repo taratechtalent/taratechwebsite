@@ -12,7 +12,7 @@ const items = services.map(
   (item) =>
     "<span class='item-style'>" +
     item.dev +
-    "</span><br /> just for <span class='item-style2'> €" +
+    "</span><br /> for just <span class='item-style2'> €" +
     item.end +
     "k </span>"
 );
