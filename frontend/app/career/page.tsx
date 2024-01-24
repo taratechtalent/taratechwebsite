@@ -480,7 +480,7 @@ export default function Career() {
                           </p>
                           {/* Author */}
                           <p className="a2-txt-author">
-                            Fatemeh Hassani <span>UI/UX Designer</span>
+                            Mohsen <span>Frontend Developer</span>
                           </p>
                         </div>
                       </div>
