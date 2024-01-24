@@ -73,7 +73,7 @@ export default function TopTalent() {
                   <h2 className="s-52 w-700">
                     {" "}
                     Our <span style={{ color: "#37939b" }}>Top 1%</span>{" "}
-                    Screening{" "}
+                    Screening Process{" "}
                   </h2>
 
                   {/* Text */}
