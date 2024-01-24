@@ -39,11 +39,6 @@ export default function Footer() {
                       <Link href="/about">About Us</Link>
                     </p>
                   </li>
-                  <li>
-                    <p>
-                      <Link href="/service">Our services</Link>
-                    </p>
-                  </li>
 
                   <li>
                     <p>
@@ -82,6 +77,11 @@ export default function Footer() {
                     <p>
                       <Link href="/career">Career</Link>
                     </p>
+                  </li>{" "}
+                  <li>
+                    <p>
+                      <Link href="/calculator"> Quote Generator</Link>
+                    </p>
                   </li>
                 </ul>
               </div>
@@ -104,6 +104,11 @@ export default function Footer() {
                   </li>
                   <li>
                     <p>
+                      <Link href="/industries/technology">Industries</Link>
+                    </p>
+                  </li>
+                  <li>
+                    <p>
                       <Link href="/technology">Technologies</Link>
                     </p>
                   </li>
@@ -120,7 +125,7 @@ export default function Footer() {
               <div className="col">
                 <div className="footer-copyright">
                   <p className="p-sm">
-                    © 2024 Taratech. <span>All Rights Reserved</span>
+                    © 2012 - 2024 Tara Talent. <span>All Rights Reserved</span>
                   </p>
                 </div>
               </div>

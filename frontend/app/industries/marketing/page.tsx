@@ -44,6 +44,10 @@ export default function Home() {
                       className="img-fluid"
                       src="https://thumbs.dreamstime.com/b/business-consulting-meeting-working-brainstorming-new-project-finance-investment-concept-148096487.jpg"
                       alt="content-image"
+                      style={{
+                        borderRadius: "15px",
+                        boxShadow: "0 4px 12px 0 hsla(192,8%,47%,.43)",
+                      }}
                     />
                   </div>
                 </div>
@@ -123,14 +127,12 @@ export default function Home() {
                 <div className="col-md-10 col-lg-9">
                   <div className="section-title mb-70">
                     {/* Title */}
-                    <h2 className="s-50 w-700">
-                    Driving Financial Excellence
-                    </h2>
+                    <h2 className="s-50 w-700">Driving Financial Excellence</h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
-                      Our expertise in the finance
-                      industry empowers your business to achieve remarkable
-                      revenue milestones effortlessly.
+                      Our expertise in the finance industry empowers your
+                      business to achieve remarkable revenue milestones
+                      effortlessly.
                     </p>
                   </div>
                 </div>
@@ -145,7 +147,7 @@ export default function Home() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico color--theme">
-                          <img src="\images\png_icons\icons8-fintech-48.png"></img> 
+                            <img src="\images\png_icons\icons8-fintech-48.png"></img>
                           </div>
                         </div>
                       </div>{" "}
@@ -171,7 +173,7 @@ export default function Home() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico color--theme">
-                          <img src="\images\png_icons\icons8-retail-50.png"></img>
+                            <img src="\images\png_icons\icons8-retail-50.png"></img>
                           </div>
                         </div>
                       </div>{" "}
@@ -196,7 +198,7 @@ export default function Home() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico color--theme">
-                          <img src="\images\png_icons\icons8-digital-marketing-68.png"></img>
+                            <img src="\images\png_icons\icons8-digital-marketing-68.png"></img>
                           </div>
                         </div>
                       </div>{" "}
@@ -220,7 +222,7 @@ export default function Home() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico color--theme">
-                          <img src="\images\png_icons\icons8-product-knowledge-50.png"></img>
+                            <img src="\images\png_icons\icons8-product-knowledge-50.png"></img>
                           </div>
                         </div>
                       </div>{" "}
@@ -257,7 +259,6 @@ export default function Home() {
             </div>
           </div>
           <hr className="divider" />
-          
           <section className="py-100 ct-02 content-section division">
             <div className="container">
               <div className="row">

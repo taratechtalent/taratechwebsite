@@ -45,6 +45,10 @@ export default function Home() {
                       className="img-fluid"
                       src="https://ugc.futurelearn.com/uploads/images/7c/81/header_7c81af9e-e2ff-49c9-9f32-319622544232.jpg"
                       alt="content-image"
+                      style={{
+                        borderRadius: "15px",
+                        boxShadow: "0 4px 12px 0 hsla(192,8%,47%,.43)",
+                      }}
                     />
                   </div>
                 </div>
@@ -142,7 +146,7 @@ export default function Home() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico color--theme">
-                          <img src="\images\png_icons\icons8-software-development-64.png"></img> 
+                            <img src="\images\png_icons\icons8-software-development-64.png"></img>
                           </div>
                         </div>
                       </div>{" "}
@@ -173,7 +177,6 @@ export default function Home() {
                             <img src="\images\png_icons\icons8-data-analytic-96.png"></img>
                             {/* <span className="flaticon-idea" /> */}
                             {/* Shape */}
-                            
                           </div>
                         </div>
                       </div>{" "}
@@ -196,7 +199,7 @@ export default function Home() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico color--theme">
-                          <img src="\images\png_icons\icons8-telemedicine-64.png"></img>
+                            <img src="\images\png_icons\icons8-telemedicine-64.png"></img>
                           </div>
                         </div>
                       </div>{" "}
@@ -221,7 +224,7 @@ export default function Home() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico color--theme">
-                          <img src="\images\png_icons\icons8-tonometer-64.png"></img>  
+                            <img src="\images\png_icons\icons8-tonometer-64.png"></img>
                           </div>
                         </div>
                       </div>{" "}

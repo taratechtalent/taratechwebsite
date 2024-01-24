@@ -47,6 +47,10 @@ export default function Home() {
                       className="img-fluid"
                       src="https://media.licdn.com/dms/image/D4D12AQF2WFOlCzd8Ew/article-cover_image-shrink_720_1280/0/1686377052367?e=2147483647&v=beta&t=ovU1Z3-f0uFCLTE8WGDtRBDfvt5NmERHYHKnMgGBuXk"
                       alt="content-image"
+                      style={{
+                        borderRadius: "15px",
+                        boxShadow: "0 4px 12px 0 hsla(192,8%,47%,.43)",
+                      }}
                     />
                   </div>
                 </div>
@@ -63,7 +67,7 @@ export default function Home() {
               <div className="row">
                 {/* ABOUT-3 TEXT */}
                 <div className="col-md-4">
-                  <div id="a3-1" className="txt-block shadow" >
+                  <div id="a3-1" className="txt-block shadow">
                     {/* Title */}
                     <h5 className="s-24 w-700 mb-20 ">Media Mastery</h5>
                     {/* Text */}
@@ -126,11 +130,12 @@ export default function Home() {
                   <div className="section-title mb-70">
                     {/* Title */}
                     <h2 className="s-50 w-700">
-                    Media & Entertainment Solutions
+                      Media & Entertainment Solutions
                     </h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
-                    Explore our wide array of services that empower the media and entertainment industry.
+                      Explore our wide array of services that empower the media
+                      and entertainment industry.
                     </p>
                   </div>
                 </div>
@@ -145,7 +150,7 @@ export default function Home() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico color--theme">
-                          <img src="\images\png_icons\icons8-digital-marketing-68.png"></img> 
+                            <img src="\images\png_icons\icons8-digital-marketing-68.png"></img>
                           </div>
                         </div>
                       </div>{" "}
@@ -173,7 +178,7 @@ export default function Home() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico color--theme">
-                          <img src="\images\png_icons\icons8-broadcasting-64.png"></img>
+                            <img src="\images\png_icons\icons8-broadcasting-64.png"></img>
                           </div>
                         </div>
                       </div>{" "}
@@ -199,7 +204,7 @@ export default function Home() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico color--theme">
-                          <img src="\images\png_icons\icons8-virtual-reality-68.png"></img>
+                            <img src="\images\png_icons\icons8-virtual-reality-68.png"></img>
                           </div>
                         </div>
                       </div>{" "}
@@ -211,10 +216,10 @@ export default function Home() {
                         </h6>
                         <p>
                           Get a glimpse of the latest entertainment technology
-                          and innovation trends, powered by {`TaraTalent's`} network
-                          of experts. Discover how we enable companies to
-                          harness cutting-edge tech, from AR/VR to interactive
-                          experiences.
+                          and innovation trends, powered by {`TaraTalent's`}{" "}
+                          network of experts. Discover how we enable companies
+                          to harness cutting-edge tech, from AR/VR to
+                          interactive experiences.
                         </p>
                       </div>
                     </div>
@@ -227,7 +232,7 @@ export default function Home() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico color--theme">
-                          <img src="\images\png_icons\icons8-content-marketing-68 (1).png"></img>
+                            <img src="\images\png_icons\icons8-content-marketing-68 (1).png"></img>
                           </div>
                         </div>
                       </div>{" "}
@@ -248,7 +253,6 @@ export default function Home() {
                     </div>
                   </div>{" "}
                   {/* END FEATURE BOX #4 */}
-                  
                 </div>{" "}
                 {/* End row */}
               </div>{" "}
@@ -306,7 +310,6 @@ export default function Home() {
                     {/* END CONTENT BOX #1 */}
                     {/* CONTENT BOX #2 */}
                     <div className="cbox-2 process-step col-md-4">
-                      
                       {/* Icon */}
                       <div className="ico-wrap">
                         <div className="cbox-2-ico bg--theme color--white">

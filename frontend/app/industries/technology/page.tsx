@@ -43,6 +43,10 @@ export default function Home() {
                       className="img-fluid"
                       src="https://investalberta.ca/wp-content/uploads/2023/09/Man-in-IT-scaled.webp"
                       alt="content-image"
+                      style={{
+                        borderRadius: "15px",
+                        boxShadow: "0 4px 12px 0 hsla(192,8%,47%,.43)",
+                      }}
                     />
                   </div>
                 </div>
@@ -140,7 +144,7 @@ export default function Home() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico color--theme">
-                          <img src="\images\png_icons\icons8-software-development-66.png"></img>
+                            <img src="\images\png_icons\icons8-software-development-66.png"></img>
                           </div>
                         </div>
                       </div>{" "}
@@ -164,7 +168,7 @@ export default function Home() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico color--theme">
-                          <img src="\images\png_icons\icons8-artificial-intelligence-50 (1).png"></img>
+                            <img src="\images\png_icons\icons8-artificial-intelligence-50 (1).png"></img>
                           </div>
                         </div>
                       </div>{" "}
@@ -188,7 +192,7 @@ export default function Home() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico color--theme">
-                          <img src="\images\png_icons\icons8-web-development-50 (2).png"></img>
+                            <img src="\images\png_icons\icons8-web-development-50 (2).png"></img>
                           </div>
                         </div>
                       </div>{" "}
@@ -212,7 +216,7 @@ export default function Home() {
                       <div className="fbox-ico-wrap">
                         <div className="fbox-ico ico-50">
                           <div className="shape-ico color--theme">
-                          <img src="\images\png_icons\icons8-cybersecurity-80.png"></img>
+                            <img src="\images\png_icons\icons8-cybersecurity-80.png"></img>
                           </div>
                         </div>
                       </div>{" "}

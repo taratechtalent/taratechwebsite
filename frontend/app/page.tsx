@@ -489,7 +489,6 @@ const Services = () => {
                 <div className="col-md-6">
                   {/* FEATURE BOX #3 */}
                   <Link href="/service/uiux">
-                  
                     <div
                       id="fb-12-3"
                       className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
@@ -713,7 +712,7 @@ const OurProcess = () => {
             <div className="row">
               <div className="col-sm-12">
                 {" "}
-                <div className="wow fadeInRight  pt-10">
+                <div className="wow fadeInRight">
                   <img
                     className="img-fluid"
                     src="https://www.barraiser.com/wp-content/uploads/2022/06/benefits-of-recruitment-process-scaled-1.jpg"
