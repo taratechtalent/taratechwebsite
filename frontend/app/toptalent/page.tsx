@@ -156,7 +156,7 @@ export default function TopTalent() {
                       Real-World Project Simulation
                     </h5>
                     <p>
-                      Assigning comprehensive test projects to evaluate
+                      Assigning comprehensive test projects to evaluate{" "}
                       {`candidates'`} competence, professionalism, and integrity
                       in practical scenarios.
                     </p>
