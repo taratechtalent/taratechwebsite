@@ -178,14 +178,14 @@ export default function Career() {
                       Language and Personality Evaluation
                     </h5>
                     <p>
-                      Assessing English proficiency and personality traits to
-                      ensure candidates are articulate, passionate, and fully
-                      committed.
+                      This assessment ensures that you are not only proficient
+                      in English but also possess the personality traits that
+                      make you articulate, passionate, and fully committed.
                     </p>
                   </div>
                 </div>{" "}
                 {/* END CONTENT BOX #2 */}
-                <div className="cbox-2 process-step pt-2">
+                <div className="cbox-2 process-step">
                   {/* Icon */}
                   <div className="ico-wrap">
                     <div className="cbox-2-ico bg--theme color--white">2</div>
@@ -193,17 +193,19 @@ export default function Career() {
                   </div>
                   {/* Text */}
                   <div className="cbox-2-txt">
-                    <h5 className="s-30 w-700">
-                      Technical Expertise Assessment
-                    </h5>
+                    <h5 className="s-30 w-700">Soft Skills Validation</h5>
                     <p>
-                      Evaluating technical knowledge and problem-solving skills
-                      through various assessments to identify domain experts.
+                      Our Soft Skills Validation step involves live interviews
+                      and exercises designed to assess your problem-solving
+                      capabilities, depth of experience, communication skills,
+                      and creativity. It's a crucial phase to demonstrate your
+                      well-rounded abilities.
                     </p>
                   </div>
                 </div>{" "}
                 {/* END CONTENT BOX #2 */}
-                <div className="cbox-2 process-step">
+                {/* END CONTENT BOX #2 */}
+                <div className="cbox-2 process-step pt-2">
                   {/* Icon */}
                   <div className="ico-wrap">
                     <div className="cbox-2-ico bg--theme color--white">3</div>
@@ -212,12 +214,13 @@ export default function Career() {
                   {/* Text */}
                   <div className="cbox-2-txt">
                     <h5 className="s-30 w-700">
-                      Interactive Skills Validation
+                      Technical Expertise Assessment
                     </h5>
                     <p>
-                      Conducting live interviews and exercises to gauge
-                      problem-solving capabilities, experience depth,
-                      communication skills, and creativity.
+                      Our Technical Expertise Assessment evaluates your
+                      knowledge and problem-solving skills through various
+                      assessments. It's the path to becoming a recognized domain
+                      expert.
                     </p>
                   </div>
                 </div>{" "}
@@ -234,9 +237,11 @@ export default function Career() {
                       Real-World Project Simulation
                     </h5>
                     <p>
-                      Assigning comprehensive test projects to evaluate
-                      {`candidates'`} competence, professionalism, and integrity
-                      in practical scenarios.
+                      Prepare for our Real-World Project Simulation, where
+                      you'll tackle comprehensive test projects. This step tests
+                      your competence, professionalism, and integrity in
+                      practical scenarios. Your ability to excel in real-world
+                      situations is key.
                     </p>
                   </div>
                 </div>{" "}
@@ -251,9 +256,9 @@ export default function Career() {
                   <div className="cbox-2-txt">
                     <h5 className="s-30 w-700">Ongoing Performance Review</h5>
                     <p>
-                      Ensuring sustained excellence and quality in all
-                      engagements, maintaining high standards for both talent
-                      and client satisfaction.
+                      Your journey with us {`doesn't`} end when you're hired. We
+                      continuously assess your performance to uphold high
+                      standards for both talent and client satisfaction.
                     </p>
                   </div>
                 </div>{" "}
