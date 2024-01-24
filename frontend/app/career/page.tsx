@@ -198,7 +198,7 @@ export default function Career() {
                       Our Soft Skills Validation step involves live interviews
                       and exercises designed to assess your problem-solving
                       capabilities, depth of experience, communication skills,
-                      and creativity. It's a crucial phase to demonstrate your
+                      and creativity. {`It's`} a crucial phase to demonstrate your
                       well-rounded abilities.
                     </p>
                   </div>
@@ -238,7 +238,7 @@ export default function Career() {
                     </h5>
                     <p>
                       Prepare for our Real-World Project Simulation, where
-                      you'll tackle comprehensive test projects. This step tests
+                      {`you'll`} tackle comprehensive test projects. This step tests
                       your competence, professionalism, and integrity in
                       practical scenarios. Your ability to excel in real-world
                       situations is key.
@@ -256,7 +256,7 @@ export default function Career() {
                   <div className="cbox-2-txt">
                     <h5 className="s-30 w-700">Ongoing Performance Review</h5>
                     <p>
-                      Your journey with us {`doesn't`} end when you're hired. We
+                      Your journey with us {`doesn't`} end when {`you're`} hired. We
                       continuously assess your performance to uphold high
                       standards for both talent and client satisfaction.
                     </p>
