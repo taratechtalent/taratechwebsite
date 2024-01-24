@@ -219,7 +219,7 @@ export default function Career() {
                     <p>
                       Our Technical Expertise Assessment evaluates your
                       knowledge and problem-solving skills through various
-                      assessments. It's the path to becoming a recognized domain
+                      assessments. {`It's`} the path to becoming a recognized domain
                       expert.
                     </p>
                   </div>
