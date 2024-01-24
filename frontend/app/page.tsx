@@ -489,7 +489,7 @@ const Services = () => {
                 <div className="col-md-6">
                   {/* FEATURE BOX #3 */}
                   <Link href="/service/uiux">
-                    hod
+                  
                     <div
                       id="fb-12-3"
                       className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
