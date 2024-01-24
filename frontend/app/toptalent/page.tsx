@@ -658,12 +658,11 @@ export default function TopTalent() {
                 <div className="col-md-10 col-lg-9">
                   <div className="section-title mb-70">
                     {/* Title */}
-                    <h2 className="s-52 w-700">FAQs</h2>
+                    <h2 className="s-52 w-700"> Client FAQs</h2>
                     {/* Text */}
 
                     <p className="s-21 color--grey">
-                      Most important questions maybe help you better to work
-                      with us
+                    Your Guide to Hassle-Free Talent Acquisition
                     </p>
                   </div>
                 </div>
