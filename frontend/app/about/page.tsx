@@ -308,6 +308,7 @@ export default function About() {
                     <div className="row">
                       <div className="col-md-6">
                         {/* FEATURE BOX #1 */}
+                        <Link href="/service">
                         <div
                           id="fb-12-1"
                           className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
@@ -320,12 +321,15 @@ export default function About() {
                           </div>{" "}
                           {/* End Icon */}
                           {/* Text */}
+                          
                           <div className="fbox-txt">
                             <h5 className="s-20 w-700">Web and Mobile </h5>
                             <p>Web and Mobile application development</p>
                           </div>
                         </div>
+                      </Link>
                         {/* FEATURE BOX #2 */}
+                        <Link href="/service">
                         <div
                           id="fb-12-2"
                           className="fbox-12 bg--white-100 block-shadow r-12"
@@ -343,9 +347,11 @@ export default function About() {
                             <p>Continus integration with CICD</p>
                           </div>
                         </div>
+                        </Link>
                       </div>
                       <div className="col-md-6">
                         {/* FEATURE BOX #3 */}
+                        <Link href="/service">
                         <div
                           id="fb-12-3"
                           className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
@@ -367,7 +373,9 @@ export default function About() {
                             </p>
                           </div>
                         </div>
+                        </Link>
                         {/* FEATURE BOX #4 */}
+                        <Link href="/service">
                         <div
                           id="fb-12-4"
                           className="fbox-12 bg--white-100 block-shadow r-12"
@@ -385,6 +393,7 @@ export default function About() {
                             <p>Everything abut UI/UX and design tools</p>
                           </div>
                         </div>
+                        </Link>
                       </div>
                     </div>
                   </div>{" "}
