@@ -33,8 +33,8 @@ export const services = [
       "AWS",
       "Google Cloud",
     ],
-    start: 53,
-    end: 82,
+    start: 23,
+    end: 50,
   },
   {
     name: ServiceEnum.Mobile,
@@ -43,8 +43,8 @@ export const services = [
     selected: false,
     index: 1,
     technologies: ["IOS", "Android", "Kotlin", "swift", "Java"],
-    start: 55,
-    end: 76,
+    start: 25,
+    end: 46,
   },
   {
     name: ServiceEnum.QA,
@@ -59,8 +59,8 @@ export const services = [
       "Black Box Testing",
       "White Box Testing",
     ],
-    start: 51,
-    end: 72,
+    start: 21,
+    end: 42,
   },
   {
     name: ServiceEnum.AI,
@@ -75,8 +75,8 @@ export const services = [
       "General AI",
       "Superintelligent AI",
     ],
-    start: 62,
-    end: 83,
+    start: 22,
+    end: 50,
   },
   {
     name: ServiceEnum.UX,
@@ -85,8 +85,8 @@ export const services = [
     selected: false,
     index: 2,
     technologies: ["Figma", "Adobe XD", "Adobe Illustrator", "Photoshop"],
-    start: 48,
-    end: 70,
+    start: 24,
+    end: 40,
   },
   {
     name: ServiceEnum.Art,
@@ -103,8 +103,8 @@ export const services = [
       "2D and 3D Digital Painting",
       "Digital Photography ",
     ],
-    start: 45,
-    end: 59,
+    start: 35,
+    end: 45,
   },
 
   {
@@ -121,7 +121,7 @@ export const services = [
       "VMware",
       "NGinx",
     ],
-    start: 57,
-    end: 79,
+    start: 27,
+    end: 49,
   },
 ];
