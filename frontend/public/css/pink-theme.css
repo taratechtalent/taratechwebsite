@@ -3762,7 +3762,7 @@ p.video-txt-sm {
 .desktoplogo img {
   width: auto;
   max-width: inherit;
-  max-height: 60px;
+  max-height: 80px;
 }
 
 .blog-header .desktoplogo img {
@@ -11889,10 +11889,10 @@ img.footer-logo-dark {
   border-radius: 10px;
 }
 
-#modal-3.modal .bg-img {
+/* #modal-3.modal .bg-img {
   background: url(../images/modal-request.jpg);
   background-position: left center;
-}
+} */
 
 #modal-2 .modal-body-content {
   padding: 35px 40px 15px;
