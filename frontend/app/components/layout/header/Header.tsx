@@ -49,6 +49,16 @@ export default function Header({
                   />
                 </Link>
               </div>
+
+              <div className="desktoplogo">
+                <Link href="/" className="logo-white">
+                  <img
+                    className="light-theme-img"
+                    src="/images/logo/header.png"
+                    alt="logo"
+                  />
+                </Link>
+              </div>
               {/* HEADER WHITE LOGO */}
           
               {/* MAIN MENU */}
