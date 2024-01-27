@@ -30,7 +30,7 @@ export default function Book() {
         <div id="page" className="page font--jakarta ">
           {/* LOGIN PAGE
 ============================================= */}
-          <div id="login" className="bg--fixed contact-form division mt-40">
+          <div id="login" className="bg--fixed contact-form division mt-40" style={{color:"black"}}>
             <div className="container">
               <div className="row">
                 <div className="col-sm-12">
