@@ -71,7 +71,7 @@ export default function Book() {
 
     // K€
 
-    setFinalYearlyPriceStart(startPrice.toString())
+    setFinalYearlyPriceStart(startPrice.toFixed(1).toString().endsWith(".0") ? parseInt(startPrice.toFixed(1)).toString() : startPrice.toFixed(1))
     setFinalYearlyPriceEnd(endPrice.toFixed(1).toString().endsWith(".0") ? parseInt(endPrice.toFixed(1)).toString() : endPrice.toFixed(1))
 
 
