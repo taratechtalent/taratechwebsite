@@ -654,7 +654,7 @@ const UniqueApproach = () => {
               {/* Text */}
               <p>
                 At TaraTalent , we specialize in connecting top-tier, affordable
-                tech talent cost-with businesses worldwide, particularly
+                tech talent with businesses worldwide, particularly
                 startups. Our flexible engagement model, tailored for the
                 dynamic needs of modern companies, includes hassle-free contract
                 management and full alignment with your time zones, ensuring
