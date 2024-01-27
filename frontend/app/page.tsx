@@ -12,8 +12,8 @@ export default function StartPage() {
   return (
     <Layout headerCls="navbar-dark light-hero-header">
       <Hero />
-      <Introduction />
       <Services />
+      <Introduction />
       <hr className="divider" />
       <UniqueApproach />
       <hr className="divider" />
@@ -39,6 +39,17 @@ const Introduction = () => {
       <div className="container">
         <div className="row d-flex align-items-center">
           {/* TEXT BLOCK */}
+          <div className="col-md-6 order-first order-md-2">
+            <div className="img-block j-img video-preview right-column wow fadeInLeft">
+              {/* Play Icon */}
+              {/* Preview Image */}
+              <img
+                className="img-fluid r-20"
+                src="/images/team/amin.png"
+                alt="video-preview"
+              />
+            </div>
+          </div>
           <div className="col-md-6 order-last order-md-2">
             <div className="txt-block left-column wow fadeInRight">
               {/* Section ID */}
@@ -57,17 +68,7 @@ const Introduction = () => {
           </div>
           {/* END TEXT BLOCK */}
           {/* IMAGE BLOCK */}
-          <div className="col-md-6 order-first order-md-2">
-            <div className="img-block j-img video-preview right-column wow fadeInLeft">
-              {/* Play Icon */}
-              {/* Preview Image */}
-              <img
-                className="img-fluid r-20"
-                src="/images/team/amin.png"
-                alt="video-preview"
-              />
-            </div>
-          </div>
+         
         </div>
         {/* End row */}
       </div>
