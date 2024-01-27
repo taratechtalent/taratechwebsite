@@ -272,7 +272,7 @@ export default function Contact() {
 
                     {/* Title */}
                     <h2 className="s-34 w-700 ">Headquarter office</h2>
-                    <span className="s-20 w-700">Stanbul, Turkey</span>
+                    <span className="s-20 w-700">IStanbul, Turkey</span>
                     {/* Text */}
                     <p>No.61.2, Sultan Selim Mahallesi, Eski Büyükdere Cd.</p>
                     {/* Text */}
@@ -299,7 +299,7 @@ export default function Contact() {
                     {/* Title */}
                     <h2 className="s-34 w-700 ">Financial section</h2>
                     <span className="s-20 w-700">
-                      Sirtori, Lombardy , Itlaly
+                      Sirtori, Lombardy , Italy
                     </span>
                     {/* Text */}
                     <p>
