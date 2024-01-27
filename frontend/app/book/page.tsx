@@ -6,8 +6,11 @@
 import { useEffect, useState } from "react";
 import Layout from "../components/layout/Layout";
 import { usePathname, useSearchParams } from 'next/navigation'
+import { redirect } from 'next/navigation'
 
+import { useRouter } from 'next/navigation';
 export default function Book() {
+
   const [activeIndex, setActiveIndex] = useState(1);
   const handleOnClick = (index: any) => {
     setActiveIndex(index);
@@ -30,6 +33,13 @@ export default function Book() {
   Talent Level: ${searchParams.get("level")}
   --------------------------------------------------
   `) : "");
+  const router = useRouter();
+
+  const arrangeCall = ()=>{
+  
+    // Redirect to 'www.google.com'
+    router.push('https://calendly.com/mohamedahmadian/30min');
+  }
 
   return (
     <>
@@ -204,8 +214,9 @@ export default function Book() {
                                     {/* Form Submit Button */}
                                     <div className="col-md-12 col-sm-12 text-center">
                                       <button
+                                      onClick={arrangeCall}
                                         style={{ width: "25%" }}
-                                        type="submit"
+                                        type="button"
                                         className="btn btn--theme hover--theme submit"
                                       >
                                         Arrange a Call
