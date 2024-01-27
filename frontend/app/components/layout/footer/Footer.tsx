@@ -12,14 +12,10 @@ export default function Footer() {
               <div className="footer-info">
                 <img
                   className="footer-logo"
-                  src="/images/taralogo.png"
+                  src="/images/logo/logo5-removebg-preview.png"
                   alt="footer-logo"
                 />
-                <img
-                  className="footer-logo-dark"
-                  src="/images/logo-pink-white.png"
-                  alt="footer-logo"
-                />
+               
               </div>
             </div>
             {/* FOOTER LINKS */}
