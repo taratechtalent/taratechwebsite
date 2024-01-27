@@ -39,10 +39,10 @@ export default function Hero() {
                   <div className="col-sm-12">
                     {" "}
                     <p className="p-lg">
-                      elevates your business with experienced tech professionals
+                      Elevates your business with experienced tech professionals
                       who offer the perfect blend of quality and
-                      cost-efficiency. Partner with us to harness global
-                      expertise that fits your startup budget and fuels your
+                      <b style={{padding:4}}>cost-efficiency</b>. Partner with us to harness   <b style={{padding:4}}> global
+                      expertise</b> that fits your startup     <b style={{padding:4}}> budget </b>and fuels your
                       growth.
                     </p>
                   </div>{" "}

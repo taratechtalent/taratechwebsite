@@ -48,9 +48,9 @@ const Introduction = () => {
               {/* Text */}
               <p className="p-lg">
                 The idea for TaraTalent company emerged from a clear market
-                reality: a significant demand for skilled tech professionals
-                alongside a need for cost-effective staffing solutions.{`We're`}{" "}
-                here to bridge that gap, creating connections that empower
+                reality: a  <b style={{padding:4}}>  significant demand </b> for skilled tech professionals
+                alongside a need for  <b style={{padding:4}}>cost-effective </b> staffing solutions.{`We're`}{" "}
+                here to  <b style={{padding:4}}>bridge that gap</b>, creating connections that empower
                 businesses with the right talent to drive innovation and growth.
               </p>
             </div>
@@ -424,7 +424,7 @@ const Services = () => {
               <span className="section-id">Expert Solutions</span>
               {/* Title */}
               <h2 className="s-46 w-700">
-                Excellence in Every Service: Your Gateway to Expert Talent
+                 Your Gateway to Expert Talent
               </h2>
               {/* Text */}
               <p>
@@ -455,36 +455,30 @@ const Services = () => {
                       {/* Text */}
                       <div className="fbox-txt">
                         <h5 className="s-20 w-700">Web App Development</h5>
-                        <p>
+                        {/* <p>
                           Creating custom, user-friendly web apps to bring your
                           innovative ideas to life.
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </Link>
                   {/* FEATURE BOX #2 */}
-                  <Link href="/service/mobile">
-                    <div
-                      id="fb-12-2"
-                      className="fbox-12 bg--white-100 block-shadow r-12"
-                    >
-                      {/* Icon */}
-                      <div className="fbox-ico ico-50">
-                        <div className="shape-ico color--theme">
-                          <img src="images/services/mobile.png" />
-                        </div>
-                      </div>{" "}
-                      {/* End Icon */}
-                      {/* Text */}
-                      <div className="fbox-txt">
-                        <h5 className="s-20 w-700">Mobile App Development</h5>
-                        <p>
-                          Crafting sleek, efficient mobile apps to connect and
-                          engage with users on-the-go
-                        </p>
-                      </div>
-                    </div>
-                  </Link>
+                  <Link href="/service/devops">
+              <div
+                id="fb-12-2"
+                className="fbox-12 bg--white-100 block-shadow r-12"
+              >
+                <div className="fbox-ico ico-50">
+                  <div className="shape-ico color--theme">
+                    <img src="images/services/devops.png" />
+                  </div>
+                </div>{" "}
+                <div className="fbox-txt">
+                  <h5 className="s-20 w-700">Devops</h5>
+                
+                </div>
+              </div>
+            </Link>
                 </div>
                 <div className="col-md-6">
                   {/* FEATURE BOX #3 */}
@@ -503,76 +497,15 @@ const Services = () => {
                       {/* Text */}
                       <div className="fbox-txt">
                         <h5 className="s-20 w-700">UI/UX Design</h5>
-                        <p>
+                        {/* <p>
                           Designing intuitive and visually stunning UI/UX to
                           elevate your {`user's`} digital experience.
-                        </p>
+                        </p> */}
                       </div>
                     </div>
                   </Link>
                   {/* FEATURE BOX #4 */}
-                  <Link href="/service/ai">
-                    <div
-                      id="fb-12-4"
-                      className="fbox-12 bg--white-100 block-shadow r-12"
-                    >
-                      {/* Icon */}
-                      <div className="fbox-ico ico-50">
-                        <div className="shape-ico color--theme">
-                          <img src="images/services/ai.png" />
-                        </div>
-                      </div>{" "}
-                      {/* End Icon */}
-                      {/* Text */}
-                      <div className="fbox-txt">
-                        <h5 className="s-20 w-700">AI/Machine Learning</h5>
-                        <p>
-                          Empowering innovation with cutting-edge AI and Machine
-                          Learning solutions tailored for you
-                        </p>
-                      </div>
-                    </div>
-                  </Link>
-                </div>
-              </div>
-            </div>{" "}
-            {/* End row */}
-          </div>{" "}
-          {/* END FEATURES-12 WRAPPER */}
-        </div>{" "}
-        <div className="row" style={{ marginTop: "30px" }}>
-          <div className="col-md-4">
-            {/* FEATURE BOX #1 */}
-
-            {/* FEATURE BOX #2 */}
-            <Link href="/service/devops">
-              <div
-                id="fb-12-2"
-                className="fbox-12 bg--white-100 block-shadow r-12"
-              >
-                {/* Icon */}
-                <div className="fbox-ico ico-50">
-                  <div className="shape-ico color--theme">
-                    <img src="images/services/devops.png" />
-                  </div>
-                </div>{" "}
-                {/* End Icon */}
-                {/* Text */}
-                <div className="fbox-txt">
-                  <h5 className="s-20 w-700">Devops</h5>
-                  <p>
-                    Streamlining and optimizing your operations with robust,
-                    efficient DevOps services.
-                  </p>
-                </div>
-              </div>
-            </Link>
-          </div>{" "}
-          <div className="col-md-4">
-            {/* FEATURE BOX #1 */}
-
-            {/* FEATURE BOX #2 */}
-            <Link href="/service/art">
+                  <Link href="/service/art">
               <div
                 id="fb-12-2"
                 className="fbox-12 bg--white-100 block-shadow r-12"
@@ -587,13 +520,79 @@ const Services = () => {
                 {/* Text */}
                 <div className="fbox-txt">
                   <h5 className="s-20 w-700">Digital Arts</h5>
-                  <p>
+                  {/* <p>
                     Bringing creativity to life with unique, captivating digital
                     arts and design
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </Link>
+                
+                </div>
+              </div>
+            </div>{" "}
+            {/* End row */}
+          </div>{" "}
+          {/* END FEATURES-12 WRAPPER */}
+        </div>{" "}
+        <div className="row" style={{ marginTop: "30px" }}>
+          <div className="col-md-4">
+            {/* FEATURE BOX #1 */}
+
+            {/* FEATURE BOX #2 */}
+          
+
+                {/* Icon */}
+                <Link href="/service/mobile">
+                    <div
+                      id="fb-12-2"
+                      className="fbox-12 bg--white-100 block-shadow r-12"
+                    >
+                      {/* Icon */}
+                      <div className="fbox-ico ico-50">
+                        <div className="shape-ico color--theme">
+                          <img src="images/services/mobile.png" />
+                        </div>
+                      </div>{" "}
+                      {/* End Icon */}
+                      {/* Text */}
+                      <div className="fbox-txt">
+                        <h5 className="s-20 w-700">Mobile App Development</h5>
+                        {/* <p>
+                          Crafting sleek, efficient mobile apps to connect and
+                          engage with users on-the-go
+                        </p> */}
+                      </div>
+                    </div>
+                  </Link>
+
+          </div>{" "}
+          <div className="col-md-4">
+            {/* FEATURE BOX #1 */}
+            <Link href="/service/ai">
+                    <div
+                      id="fb-12-4"
+                      className="fbox-12 bg--white-100 block-shadow r-12"
+                    >
+                      {/* Icon */}
+                      <div className="fbox-ico ico-50">
+                        <div className="shape-ico color--theme">
+                          <img src="images/services/ai.png" />
+                        </div>
+                      </div>{" "}
+                      {/* End Icon */}
+                      {/* Text */}
+                      <div className="fbox-txt">
+                        <h5 className="s-20 w-700">AI/Machine Learning</h5>
+                        {/* <p>
+                          Empowering innovation with cutting-edge AI and Machine
+                          Learning solutions tailored for you
+                        </p> */}
+                      </div>
+                    </div>
+                  </Link>
+            {/* FEATURE BOX #2 */}
+         
           </div>{" "}
           <div className="col-md-4">
             {/* FEATURE BOX #1 */}
@@ -614,10 +613,10 @@ const Services = () => {
                 {/* Text */}
                 <div className="fbox-txt">
                   <h5 className="s-20 w-700">Software testing & QA</h5>
-                  <p>
+                  {/* <p>
                     Ensuring excellence with thorough software testing and
                     quality assurance for reliability.
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </Link>
@@ -653,21 +652,26 @@ const UniqueApproach = () => {
               <h2 className="s-50 w-700">Our Unique Approach</h2>
               {/* Text */}
               <p>
-                At TaraTalent , we specialize in connecting top-tier, affordable
-                tech talent with businesses worldwide, particularly
-                startups. Our flexible engagement model, tailored for the
-                dynamic needs of modern companies, includes hassle-free contract
-                management and full alignment with your time zones, ensuring
-                seamless integration of remote workforce.
+                At TaraTalent , we specialize in connecting top-tier,
+                
+                <b style={{padding:4}}>
+                 affordable
+                tech talent</b> with businesses worldwide, particularly
+                startups. Our  <b style={{padding:4}}> flexible   engagement model</b>, tailored for the
+                dynamic needs of modern companies, includes <b style={{padding:4}}> hassle-free contract</b>
+                management and   <b style={{padding:4}}>  full alignment with your time zones </b>, ensuring
+                seamless integration of <b style={{padding:4}}> remote workforce.</b>
               </p>
               {/* Text */}
               <ul className="ml-10">
                 <li>
                   {`We're`} committed to continuous growth and support for our
                   talents, ensuring they meet your evolving technical demands.
-                  With us, you gain not just a service provider, but a strategic
-                  partner dedicated to your {`company's`} growth, innovation,
-                  and cost-effective staffing solutions.
+                  With us, you gain not just a service provider, but a 
+                  <b style={{padding:4}}>
+                  strategic
+                  partner </b>dedicated to your {`company's`} growth, innovation,
+                  and    <b style={{padding:4}}>cost-effective staffing solutions.</b> 
                 </li>
               </ul>
             </div>
