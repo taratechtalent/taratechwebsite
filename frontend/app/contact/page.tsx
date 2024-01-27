@@ -108,7 +108,7 @@ export default function Contact() {
                     <p className="p-lg">
                       Want to learn more about Taratalent, get a quote, or speak
                       with an expert? Let us know what you are looking for and
-                      we’ll get back to you right away
+                      we’ll get back to you right away.
                     </p>
                   </div>
                 </div>
