@@ -76,7 +76,7 @@ export default function Footer() {
                   </li>{" "}
                   <li>
                     <p>
-                      <Link href="/calculator"> Quote Generator</Link>
+                      <Link href="/calculator"> Get a quote</Link>
                     </p>
                   </li>
                 </ul>
