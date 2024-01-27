@@ -367,7 +367,7 @@ export default function Book() {
                             <hr className="divider !mt-6 !mb-3" />
                             <div className="text-center">
                               <b className="s-16 w-300 ">
-                                <Link href="/book">
+                                <Link href={`/book?level=${selectedLevel}&service=${selectedService}`}>
                                   <b className="w-500 s-32">{`let's`} talk</b>
                                 </Link>
                               </b>

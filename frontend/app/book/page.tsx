@@ -1,10 +1,11 @@
+"use client";
 /* eslint-disable react-hooks/exhaustive-deps */
 /* eslint-disable jsx-a11y/alt-text */
-"use client";
 /* eslint-disable @next/next/no-img-element */
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Layout from "../components/layout/Layout";
+import { usePathname, useSearchParams } from 'next/navigation'
 
 export default function Book() {
   const [activeIndex, setActiveIndex] = useState(1);
@@ -15,11 +16,21 @@ export default function Book() {
     status: false,
     key: 1,
   });
+  const searchParams = useSearchParams()
+  
+
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [description, setMessage] = useState("");
+  const [description, setMessage] = useState(searchParams.get("service")?  (`
+    
+  -------------------Brief of request----------------
+  Service: ${searchParams.get("service")}
+  Talent Level: ${searchParams.get("level")}
+  --------------------------------------------------
+  `) : "");
+
   return (
     <>
       <Layout
@@ -176,7 +187,7 @@ export default function Book() {
                                     </div>{" "}
                                     <div className="col-md-12">
                                       <p className="p-sm input-header">
-                                      Feel free to share any thoughts or points you'd like to address ahead of our meeting.(Optional):
+                                      Feel free to share any thoughts or points {`you'd`} like to address ahead of our meeting.(Optional):
                                       </p>
 
                                       <textarea
