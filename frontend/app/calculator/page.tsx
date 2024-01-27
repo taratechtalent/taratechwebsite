@@ -9,24 +9,15 @@ import Link from "next/link";
 import { ServiceEnum, ServiceLeveEnum, services } from "./util";
 
 export default function Book() {
-  const [finalPriceStart, setFinalPriceStart] = useState("");
-  const [finalPriceEnd, setFinalPriceEnd] = useState("");
+  const [finalYearlyPriceStart, setFinalYearlyPriceStart] = useState("");
+  const [finalYearlyPriceEnd, setFinalYearlyPriceEnd] = useState("");
+  
+
+  const [finalMonthlyPriceStart, setFinalMonthlyPriceStart] = useState("");
+  const [finalMonthlyPriceEnd, setFinalMonthlyPriceEnd] = useState("");
+  
 
   const [levels, setLevels] = useState(["Junior", "Mid-Level", "Senior"]);
-  const [periods, setPriods] = useState([
-    {
-      key: "1 months",
-      value: 1,
-    },
-    // {
-    //   key: "6 months",
-    //   value: 6,
-    // },
-    {
-      key: "1 year",
-      value: 12,
-    },
-  ]);
   const [selectedLevel, setSelectedLevel] = useState("Junior");
   const [selectedTechnologies, setSelectedTechnologies] = useState<string[]>(
     []
@@ -39,9 +30,7 @@ export default function Book() {
     setSelectedTechnologies([]);
   };
 
-  const selectPeriod = (index: any) => {
-    setSelectedPeriod(index);
-  };
+
 
   const selectTechnologies = (tech: string) => {
     let result = [...selectedTechnologies];
@@ -53,15 +42,6 @@ export default function Book() {
     setSelectedTechnologies(result);
   };
 
-  const selectLevel = (level: string) => {
-    // let result = [...selectedLevel];
-    // if (selectedLevel.includes(level)) {
-    //   result = result.filter((item) => item != level);
-    // } else {
-    //   result.push(level);
-    // }
-    setSelectedLevel(level);
-  };
 
   useEffect(() => {
     let startPrice = 0,
@@ -88,15 +68,25 @@ export default function Book() {
         break;
     }
 
-    let a: any = ((startPrice / 12) * selectedPeriod).toFixed(1).toString();
-    a = a.endsWith(".0") ? parseInt(a) : a;
-
-    let b: any = ((endPrice / 12) * selectedPeriod).toFixed(1).toString();
-    b = b.endsWith(".0") ? parseInt(b) : b;
 
     // K€
-    setFinalPriceStart(a);
-    setFinalPriceEnd(b);
+
+    setFinalYearlyPriceStart(startPrice.toString())
+    setFinalYearlyPriceEnd(endPrice.toFixed(1).toString().endsWith(".0") ? parseInt(endPrice.toFixed(1)).toString() : endPrice.toFixed(1))
+
+
+
+    let start: any = ((startPrice / 12)).toFixed(1).toString();
+    start = start.endsWith(".0") ? parseInt(start) : start;
+
+    let end: any = ((endPrice / 12)).toFixed(1).toString();
+    end = end.endsWith(".0") ? parseInt(end) : end;
+
+    setFinalMonthlyPriceStart(start.toString())
+    setFinalMonthlyPriceEnd(end.toString())
+
+    
+ 
   }, [selectedService, selectedLevel, selectedPeriod]);
 
   return (
@@ -222,7 +212,7 @@ export default function Book() {
                                         ? "tab-link ico-45 r-16 current"
                                         : "tab-link ico-45 r-16"
                                     }
-                                    onClick={() => selectLevel(item)}
+                                    onClick={() => setSelectedLevel(item)}
                                     style={{
                                       margin: "10px !important",
                                       padding: "5px !important",
@@ -241,51 +231,7 @@ export default function Book() {
                               })}
                             </ul>
                           </div>
-                          <div className="separator-line">
-                            {" "}
-                            <span className="cbox-2-ico bg--theme color--white  mr-2">
-                              4
-                            </span>
-                            <b className="s-20 w-700">Contract Period</b>
-                          </div>
-                          <div className="tabs-nav tabs--theme clearfix">
-                            <ul className="tabs-1">
-                              {/* TAB-1 LINK */}
-
-                              {/* TAB-2 LINK */}
-                              {periods.map((item) => {
-                                return (
-                                  <li
-                                    key={item.key}
-                                    className={
-                                      item.value == selectedPeriod
-                                        ? "tab-link ico-45 r-16 current"
-                                        : "tab-link ico-45 r-16"
-                                    }
-                                    onClick={() => selectPeriod(item.value)}
-                                    style={{
-                                      margin: "10px !important",
-                                      padding: "5px !important",
-                                    }}
-                                  >
-                                    <p
-                                      style={{
-                                        padding: "5px !important",
-                                        margin: "0px !important",
-                                      }}
-                                    >
-                                      {item.key}
-                                    </p>
-                                  </li>
-                                );
-                              })}
-                            </ul>
-                            {selectedPeriod == 1 && (
-                              <p className="text-left">
-                                Note: Minimum contract period is 3 months
-                              </p>
-                            )}
-                          </div>
+                         
                         </div>
                         <div className="col-sm-3">
                           <div
@@ -300,7 +246,7 @@ export default function Book() {
                           >
                             <hr className="divider !mb-6" />
                             <div className="text-center">
-                              <b className="s-20 w-700 ">Final Price</b>
+                              <b className="s-20 w-700 ">Estimated Price</b>
                               <div className="row mt-10">
                                 <div className="col-sm-12 text-center">
                                   <h2 className="w-700">
@@ -312,7 +258,7 @@ export default function Book() {
                                     >
                                       €
                                     </span>
-                                    {finalPriceStart}
+                                    {finalYearlyPriceStart}
                                     <span
                                       style={{
                                         color: "black",
@@ -330,7 +276,7 @@ export default function Book() {
                                     >
                                       €
                                     </span>
-                                    {finalPriceEnd}
+                                    {finalYearlyPriceEnd}
                                     <span
                                       style={{
                                         color: "black",
@@ -347,7 +293,56 @@ export default function Book() {
                                         color: "black",
                                       }}
                                     >
-                                      {selectedPeriod == 12 ? "year" : "month"}
+                                      year
+                                    </span>
+                                    <span className="s-20"> </span>
+                                  </h2>
+
+                                  <h2 className="w-700 pt-2 s-24 text-center">
+                                    <span
+                                      style={{
+                                        color: "#80808096",
+                                        fontSize: "20px",
+                                      }}
+                                    >
+                                      €
+                                    </span>
+                                    {finalMonthlyPriceStart}
+                                    <span
+                                      style={{
+                                        color: "black",
+                                        fontSize: "20px",
+                                      }}
+                                    >
+                                      K
+                                    </span>{" "}
+                                    -{" "}
+                                    <span
+                                      style={{
+                                        color: "#80808096",
+                                        fontSize: "20px",
+                                      }}
+                                    >
+                                      €
+                                    </span>
+                                    {finalMonthlyPriceEnd}
+                                    <span
+                                      style={{
+                                        color: "black",
+                                        fontSize: "20px",
+                                      }}
+                                    >
+                                      K
+                                    </span>
+                                    {"  "}
+                                    <span style={{ fontSize: "26px" }}>/</span>
+                                    <span
+                                      style={{
+                                        fontSize: "20px",
+                                        color: "black",
+                                      }}
+                                    >
+                                      month
                                     </span>
                                     <span className="s-20"> </span>
                                   </h2>
@@ -372,7 +367,7 @@ export default function Book() {
                             <div className="text-center">
                               <b className="s-16 w-300 ">
                                 <Link href="/book">
-                                  <b className="w-500">{`let's`} talk</b>
+                                  <b className="w-500 s-32">{`let's`} talk</b>
                                 </Link>
                               </b>
                             </div>

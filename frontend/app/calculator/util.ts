@@ -7,7 +7,7 @@ export enum ServiceLeveEnum {
 export enum ServiceEnum {
   Web = "Web Development",
   Mobile = "Mobile Development",
-  QA = "Software testing",
+  QA = "Quality Assurance",
   AI = "Machine Learning",
   UX = "UI/UX Design",
   Art = "Digital Art",
