@@ -237,6 +237,7 @@ export default function Book() {
                           <div
                             style={{
                               marginTop: "200px",
+                              width:"420px",
                               border: "3px solid #37939b",
                               padding: "45px",
                               borderRadius: "15px",
