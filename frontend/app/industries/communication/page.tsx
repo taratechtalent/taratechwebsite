@@ -18,7 +18,7 @@ export default function Home() {
                 <div className="col-md-6 order-last order-md-2">
                   <div className="txt-block left-column wow fadeInRight">
                     {/* Section ID */}
-                    <span className="section-id">Productivity Focused</span>
+                    <span className="section-id">Results driven</span>
                     {/* Title */}
                     <h2 className="s-46 w-700">
                       Unleashing Creative Potential in Entertainment industry{" "}
