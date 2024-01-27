@@ -237,7 +237,7 @@ export default function Career() {
                       Real-World Project Simulation
                     </h5>
                     <p>
-                      Prepare for our Real-World Project Simulation, where
+                      Prepare for our Real-World Project Simulation, where{" "}
                       {`you'll`} tackle comprehensive test projects. This step tests
                       your competence, professionalism, and integrity in
                       practical scenarios. Your ability to excel in real-world
