@@ -44,17 +44,13 @@ export default function Header({
                 <Link href="/" className="logo-black">
                   <img
                     className="light-theme-img"
-                    src="/images/logo/logo5-removebg-preview.png"
+                    src="/images/logo/header.png"
                     alt="logo"
                   />
                 </Link>
               </div>
               {/* HEADER WHITE LOGO */}
-              <div className="desktoplogo">
-                <Link href="/" className="logo-white">
-                  <img src="/images/logo/logo5-removebg-preview.png" alt="logo" />
-                </Link>
-              </div>
+          
               {/* MAIN MENU */}
               <nav
                 className="wsmenu clearfix"

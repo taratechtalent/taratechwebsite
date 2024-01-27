@@ -9,10 +9,10 @@ export default function Footer() {
           <div className="row">
             {/* FOOTER LOGO */}
             <div className="col-xl-3">
-              <div className="footer-info">
+              <div className="footer-info flex">
                 <img
                   className="footer-logo"
-                  src="/images/logo/logo5-removebg-preview.png"
+                  src="/images/logo/footer.png"
                   alt="footer-logo"
                 />
                
