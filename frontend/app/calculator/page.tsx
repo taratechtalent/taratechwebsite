@@ -70,7 +70,6 @@ export default function Book() {
     const calSelectedService = services.filter(
       (item) => item.name == selectedService
     )[0] as any;
-    debugger;
     const step =
       (parseInt(calSelectedService.end) - parseInt(calSelectedService.start)) /
       3;

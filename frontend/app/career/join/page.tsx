@@ -34,7 +34,6 @@ export default function Contact() {
       body: JSON.stringify(data),
     })
       .then((response) => {
-        debugger;
         if (!response.ok) {
           throw new Error("Sorry, we could not save your request");
         }
@@ -46,7 +45,6 @@ export default function Contact() {
       })
       .catch((error) => {
         setShowError(true);
-        debugger;
         setErrorMessage(error.message);
       })
       .finally(() => {

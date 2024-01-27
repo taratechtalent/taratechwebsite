@@ -52,22 +52,28 @@ export default function Menu() {
             <li>
               <Link href="/team">Leadership team</Link>
             </li>
-            <li>
-              <Link href="/calculator">Talent Quote Generator</Link>
-            </li>
           </ul>
         </li>
         {/* SIGN IN LINK */}
         {/* SIGN UP BUTTON */}
         <li className="nl-simple ">
           <Link
+            href="/calculator"
+            className="btn r-04  hover--tra-red last-link ml-20"
+            style={{ color: "black", border: "1px solid black", marginLeft:"60px" }}
+
+          >
+            Estimate price
+          </Link>
+        </li>
+        <li className="nl-simple ">
+          <Link
             href="/book"
-            className="btn r-04 btn--theme hover--tra-white last-link ml-20"
-            style={{ marginLeft: "60px" }}
+            className="btn r-04 btn--theme hover--tra-white last-link ml-2"
           >
             Book a Call
           </Link>
-        </li>{" "}
+        </li>
         <li className="nl-simple ">
           <Link
             href="/career/join"
