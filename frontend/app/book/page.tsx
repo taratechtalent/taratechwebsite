@@ -167,7 +167,7 @@ export default function Book() {
                                         className="form-control email"
                                         type="email"
                                         name="email"
-                                        placeholder="Please enter a valid email address where we can contact you."
+                                        placeholder="Please enter an email address where we can contact you."
                                         value={email}
                                         onChange={(e) =>
                                           setEmail(e.target.value)
@@ -176,7 +176,7 @@ export default function Book() {
                                     </div>{" "}
                                     <div className="col-md-12">
                                       <p className="p-sm input-header">
-                                        How can we help? (Optional):
+                                      Feel free to share any thoughts or points you'd like to address ahead of our meeting.(Optional):
                                       </p>
 
                                       <textarea
