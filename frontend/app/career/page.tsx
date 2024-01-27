@@ -788,7 +788,7 @@ export default function Career() {
                           </p>
                           {/* Button */}
                           <Link
-                            href="/book"
+                            href="/career/join"
                             className="btn r-04 btn--theme hover--tra-white"
                           >
                             Join Our Talent Pool
