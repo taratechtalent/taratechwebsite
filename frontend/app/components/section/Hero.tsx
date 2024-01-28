@@ -7,6 +7,8 @@ import Link from "next/link";
 import { Tooltip } from "react-tooltip";
 import Typewriter from "typewriter-effect";
 
+import { Splide, SplideSlide } from "@splidejs/react-splide";
+
 const items = services.map(
   // (item) => item.name + ": €" + item.start + "k - €" + item.end + "k"
   (item) =>
@@ -19,37 +21,93 @@ const items = services.map(
 export default function Hero() {
   return (
     <>
-       <section id="hero-2" className="bg--scroll hero-section">
-                <div className="container">
-                    <div className="row d-flex align-items-center">
-                        {/* HERO IMAGE */}
-                        <div className="col-md-6 order-last order-md-2">
-                            <div className="hero-2-img wow fadeInRight">
-                                <img className="img-fluid" src="/images/hero-2-img.png" alt="hero-image" />
-                            </div>
-                        </div>
-                        {/* HERO TEXT */}
-                        <div className="col-md-6 order-first order-md-2">
-                            <div className="hero-2-txt wow fadeInLeft">
-                                {/* Title */}
-                                <h2 className="s-56 w-700 color--black">   Affordable Remote {" "}
+      <section id="hero-2" className="bg--scroll hero-section">
+        <div className="container">
+          <Splide
+            aria-label="My Favorite Images"
+            options={{
+              type: "loop",
+              interval: 4000,
+              autoplay: true,
+              rewind: true,
+            }}
+          >
+            <SplideSlide>
+              <div className="row d-flex align-items-center">
+                {/* HERO IMAGE */}
+                <div className="col-md-6 order-last order-md-2">
+                  <div className="hero-2-img">
+                    <img
+                      className="img-fluid"
+                      src="/images/hero-2-img.png"
+                      alt="hero-image"
+                    />
+                  </div>
+                </div>
+                {/* HERO TEXT */}
+                <div className="col-md-6 order-first order-md-2">
+                  <div className="hero-2-txt wow fadeInLeft">
+                    {/* Title */}
+                    <h2 className="s-56 w-700 color--black">
+                      {" "}
+                      Affordable Remote{" "}
                       <span className="main-text">Senior Talents</span> for
-                      Startups</h2>
-                                {/* Text */}
-                                <p className="p-lg">
+                      Startups
+                    </h2>
+                    {/* Text */}
+                    <p className="p-lg">
                       Elevates your business with experienced tech professionals
                       who offer the perfect blend of quality and
-                      <b style={{padding:4}}>cost-efficiency</b>. Partner with us to harness   <b style={{padding:4}}> global
-                      expertise</b> that fits your startup     <b style={{padding:4}}> budget </b>and fuels your
-                      growth.
+                      <b style={{ padding: 4 }}>cost-efficiency</b>. Partner
+                      with us to harness{" "}
+                      <b style={{ padding: 4 }}> global expertise</b> that fits
+                      your startup <b style={{ padding: 4 }}> budget </b>and
+                      fuels your growth.
                     </p>
-                              
-                            </div>
-                        </div>	{/* END HERO TEXT */}
-                    </div>    {/* End row */}
-                </div>	   {/* End container */}
-            </section>
-  
+                    <p className="text-right">
+                      <Link
+                        href="/book"
+                        className="btn r-04 btn--theme hover--theme last-link ml-20"
+                      >
+                        Schedule a Call
+                      </Link>
+                    </p>
+                  </div>
+                </div>{" "}
+                {/* END HERO TEXT */}
+              </div>{" "}
+              {/* End row */}
+            </SplideSlide>
+            <SplideSlide>
+              <div className="row d-flex align-items-center">
+                {/* HERO IMAGE */}
+                {/* HERO TEXT */}
+                <div className="col-md-6 order-first order-md-2">
+                  <div className="hero-2-txt wow fadeInLeft pl-20">
+                    {/* Title */}
+                    <h2 className="s-56 w-700 color--black">
+                      Calculation inforamtion will be here
+                    </h2>
+                    {/* Text */}
+                    <p className="p-lg">All information will be here</p>
+                  </div>
+                </div>{" "}
+                <div className="col-md-6 order-last order-md-2">
+                  <div className="hero-2-img">
+                    <img
+                      className="img-fluid"
+                      src="/images/hero-2-img.png"
+                      alt="hero-image"
+                    />
+                  </div>
+                </div>
+                {/* END HERO TEXT */}
+              </div>{" "}
+              {/* End row */}
+            </SplideSlide>
+          </Splide>
+        </div>
+      </section>
     </>
   );
 }

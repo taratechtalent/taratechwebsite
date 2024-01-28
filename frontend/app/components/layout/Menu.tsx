@@ -60,8 +60,11 @@ export default function Menu() {
           <Link
             href="/calculator"
             className="btn r-04  hover--tra-red last-link ml-20"
-            style={{ color: "black", border: "1px solid black", marginLeft:"60px" }}
-
+            style={{
+              color: "black",
+              border: "1px solid black",
+              marginLeft: "60px",
+            }}
           >
             Estimate price
           </Link>
@@ -78,7 +81,7 @@ export default function Menu() {
           <Link
             href="/career/join"
             className="btn r-04  hover--tra-red last-link ml-20"
-            style={{ color: "black", border: "1px solid black" }}
+            style={{ color: "black", border: "0" }}
           >
             Apply as a Talent
           </Link>
