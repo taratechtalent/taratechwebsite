@@ -5,12 +5,11 @@
 
 import { useEffect, useState } from "react";
 import Layout from "../components/layout/Layout";
-import { usePathname, useSearchParams } from 'next/navigation'
-import { redirect } from 'next/navigation'
+import { usePathname, useSearchParams } from "next/navigation";
+import { redirect } from "next/navigation";
 
-import { useRouter } from 'next/navigation';
+import { useRouter } from "next/navigation";
 export default function Book() {
-
   const [activeIndex, setActiveIndex] = useState(1);
   const handleOnClick = (index: any) => {
     setActiveIndex(index);
@@ -19,27 +18,30 @@ export default function Book() {
     status: false,
     key: 1,
   });
-  const searchParams = useSearchParams()
-  
-
+  const searchParams = useSearchParams();
 
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [phone, setPhone] = useState("");
-  const [description, setMessage] = useState(searchParams.get("service")?  (`
-    
-  -------------------Brief of request----------------
-  Service: ${searchParams.get("service")}
-  Talent Level: ${searchParams.get("level")}
-  --------------------------------------------------
-  `) : "");
+  const [description, setMessage] = useState(
+    searchParams.get("service")
+      ? `Regarding the results on the Quote page, you have selected a talent in ${searchParams.get(
+          "service"
+        )} service with a ${searchParams.get("level")} level.
+        If you have any additional information to include, please feel free to share it here.
+
+   
+
+
+  `
+      : ""
+  );
   const router = useRouter();
 
-  const arrangeCall = ()=>{
-  
+  const arrangeCall = () => {
     // Redirect to 'www.google.com'
-    router.push('https://calendly.com/mohamedahmadian/30min');
-  }
+    router.push("https://calendly.com/mohamedahmadian/30min");
+  };
 
   return (
     <>
@@ -51,7 +53,11 @@ export default function Book() {
         <div id="page" className="page font--jakarta ">
           {/* LOGIN PAGE
 ============================================= */}
-          <div id="login" className="bg--fixed contact-form division mt-40" style={{color:"black"}}>
+          <div
+            id="login"
+            className="bg--fixed contact-form division mt-40"
+            style={{ color: "black" }}
+          >
             <div className="container">
               <div className="row">
                 <div className="col-sm-12">
@@ -197,7 +203,9 @@ export default function Book() {
                                     </div>{" "}
                                     <div className="col-md-12">
                                       <p className="p-sm input-header">
-                                      Feel free to share any thoughts or points {`you'd`} like to address ahead of our meeting.(Optional):
+                                        Feel free to share any thoughts or
+                                        points {`you'd`} like to address ahead
+                                        of our meeting.(Optional):
                                       </p>
 
                                       <textarea
@@ -214,7 +222,7 @@ export default function Book() {
                                     {/* Form Submit Button */}
                                     <div className="col-md-12 col-sm-12 text-center">
                                       <button
-                                      onClick={arrangeCall}
+                                        onClick={arrangeCall}
                                         style={{ width: "25%" }}
                                         type="button"
                                         className="btn btn--theme hover--theme submit"
