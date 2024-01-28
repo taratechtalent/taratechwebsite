@@ -1,7 +1,10 @@
 /* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable @next/next/no-img-element */
+"use client";
 import Layout from "../components/layout/Layout";
 import Link from "next/link";
+import Typewriter from "typewriter-effect";
+
 export default function Career() {
   return (
     <>
@@ -27,7 +30,21 @@ export default function Career() {
                       </span>
                       {/* Title */}
                       <h2 className="s-56 w-700">
-                        We are looking for Exceptional Talents
+                        We are looking for
+                        <h2 className="s-48 w-700">
+                          <Typewriter
+                            options={{
+                              strings: [
+                                "Exceptional Talents",
+                                "Notable Individuals",
+                                "Extraordinary Persons",
+                              ],
+                              autoStart: true,
+                              loop: true,
+                              delay: 100,
+                            }}
+                          />
+                        </h2>
                       </h2>
                       {/* Text */}
                       <p className="p-lg w-400">
@@ -198,8 +215,8 @@ export default function Career() {
                       Our Soft Skills Validation step involves live interviews
                       and exercises designed to assess your problem-solving
                       capabilities, depth of experience, communication skills,
-                      and creativity. {`It's`} a crucial phase to demonstrate your
-                      well-rounded abilities.
+                      and creativity. {`It's`} a crucial phase to demonstrate
+                      your well-rounded abilities.
                     </p>
                   </div>
                 </div>{" "}
@@ -219,8 +236,8 @@ export default function Career() {
                     <p>
                       Our Technical Expertise Assessment evaluates your
                       knowledge and problem-solving skills through various
-                      assessments. {`It's`} the path to becoming a recognized domain
-                      expert.
+                      assessments. {`It's`} the path to becoming a recognized
+                      domain expert.
                     </p>
                   </div>
                 </div>{" "}
@@ -238,8 +255,8 @@ export default function Career() {
                     </h5>
                     <p>
                       Prepare for our Real-World Project Simulation, where{" "}
-                      {`you'll`} tackle comprehensive test projects. This step tests
-                      your competence, professionalism, and integrity in
+                      {`you'll`} tackle comprehensive test projects. This step
+                      tests your competence, professionalism, and integrity in
                       practical scenarios. Your ability to excel in real-world
                       situations is key.
                     </p>
@@ -256,9 +273,9 @@ export default function Career() {
                   <div className="cbox-2-txt">
                     <h5 className="s-30 w-700">Ongoing Performance Review</h5>
                     <p>
-                      Your journey with us {`doesn't`} end when {`you're`} hired. We
-                      continuously assess your performance to uphold high
-                      standards for both talent and client satisfaction.
+                      Your journey with us {`doesn't`} end when {`you're`}{" "}
+                      hired. We continuously assess your performance to uphold
+                      high standards for both talent and client satisfaction.
                     </p>
                   </div>
                 </div>{" "}

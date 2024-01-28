@@ -167,6 +167,20 @@ export default function About() {
             <div className="container">
               <div className="row d-flex align-items-center">
                 {/* TEXT BLOCK */}
+
+                {/* END TEXT BLOCK */}
+                {/* IMAGE BLOCK */}
+                <div className="col-md-6 order-first order-md-2">
+                  <div className="img-block j-img video-preview right-column wow fadeInLeft">
+                    {/* Play Icon */}
+                    {/* Preview Image */}
+                    <img
+                      className="img-fluid r-20"
+                      src="/images/team/amin.png"
+                      alt="video-preview"
+                    />
+                  </div>
+                </div>
                 <div className="col-md-6 order-last order-md-2">
                   <div className="txt-block left-column wow fadeInRight">
                     {/* Section ID */}
@@ -185,19 +199,6 @@ export default function About() {
                     </p>
                   </div>
                 </div>
-                {/* END TEXT BLOCK */}
-                {/* IMAGE BLOCK */}
-                <div className="col-md-6 order-first order-md-2">
-                  <div className="img-block j-img video-preview right-column wow fadeInLeft">
-                    {/* Play Icon */}
-                    {/* Preview Image */}
-                    <img
-                      className="img-fluid r-20"
-                      src="/images/team/amin.png"
-                      alt="video-preview"
-                    />
-                  </div>
-                </div>
               </div>
               {/* End row */}
             </div>
@@ -211,16 +212,6 @@ export default function About() {
               {/* SECTION CONTENT (ROW) */}
               <div className="row d-flex align-items-center">
                 {/* IMAGE BLOCK */}
-                <div className="col-md-6">
-                  <div className="img-block left-column wow fadeInRight">
-                    <img
-                      className="img-fluid"
-                      src="/images/commitment.png"
-                      alt="content-image"
-                    />
-                  </div>
-                </div>
-                {/* TEXT BLOCK */}
                 <div className="col-md-6">
                   <div className="txt-block right-column wow fadeInLeft">
                     {/* Section ID */}
@@ -253,6 +244,17 @@ export default function About() {
                     </p>
                   </div>
                 </div>
+                <div className="col-md-6">
+                  <div className="img-block left-column wow fadeInRight">
+                    <img
+                      className="img-fluid"
+                      src="/images/commitment.png"
+                      alt="content-image"
+                    />
+                  </div>
+                </div>
+                {/* TEXT BLOCK */}
+
                 {/* END TEXT BLOCK */}
               </div>
               {/* END SECTION CONTENT (ROW) */}
@@ -309,90 +311,90 @@ export default function About() {
                       <div className="col-md-6">
                         {/* FEATURE BOX #1 */}
                         <Link href="/service">
-                        <div
-                          id="fb-12-1"
-                          className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
-                        >
-                          {/* Icon */}
-                          <div className="fbox-ico ico-50">
-                            <div className="shape-ico color--theme">
-                              <img src="images/services/web.png" />
+                          <div
+                            id="fb-12-1"
+                            className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
+                          >
+                            {/* Icon */}
+                            <div className="fbox-ico ico-50">
+                              <div className="shape-ico color--theme">
+                                <img src="images/services/web.png" />
+                              </div>
+                            </div>{" "}
+                            {/* End Icon */}
+                            {/* Text */}
+                            <div className="fbox-txt">
+                              <h5 className="s-20 w-700">Web and Mobile </h5>
+                              <p>Web and Mobile application development</p>
                             </div>
-                          </div>{" "}
-                          {/* End Icon */}
-                          {/* Text */}
-                          
-                          <div className="fbox-txt">
-                            <h5 className="s-20 w-700">Web and Mobile </h5>
-                            <p>Web and Mobile application development</p>
                           </div>
-                        </div>
-                      </Link>
+                        </Link>
                         {/* FEATURE BOX #2 */}
                         <Link href="/service">
-                        <div
-                          id="fb-12-2"
-                          className="fbox-12 bg--white-100 block-shadow r-12"
-                        >
-                          {/* Icon */}
-                          <div className="fbox-ico ico-50">
-                            <div className="shape-ico color--theme">
-                              <img src="images/services/devops.png" />
+                          <div
+                            id="fb-12-2"
+                            className="fbox-12 bg--white-100 block-shadow r-12"
+                          >
+                            {/* Icon */}
+                            <div className="fbox-ico ico-50">
+                              <div className="shape-ico color--theme">
+                                <img src="images/services/devops.png" />
+                              </div>
+                            </div>{" "}
+                            {/* End Icon */}
+                            {/* Text */}
+                            <div className="fbox-txt">
+                              <h5 className="s-20 w-700">Devops</h5>
+                              <p>Continus integration with CICD</p>
                             </div>
-                          </div>{" "}
-                          {/* End Icon */}
-                          {/* Text */}
-                          <div className="fbox-txt">
-                            <h5 className="s-20 w-700">Devops</h5>
-                            <p>Continus integration with CICD</p>
                           </div>
-                        </div>
                         </Link>
                       </div>
                       <div className="col-md-6">
                         {/* FEATURE BOX #3 */}
                         <Link href="/service">
-                        <div
-                          id="fb-12-3"
-                          className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
-                        >
-                          {/* Icon */}
-                          <div className="fbox-ico ico-50">
-                            <div className="shape-ico color--theme">
-                              <img src="images/services/ai.png" />
+                          <div
+                            id="fb-12-3"
+                            className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
+                          >
+                            {/* Icon */}
+                            <div className="fbox-ico ico-50">
+                              <div className="shape-ico color--theme">
+                                <img src="images/services/ai.png" />
+                              </div>
+                            </div>{" "}
+                            {/* End Icon */}
+                            {/* Text */}
+                            <div className="fbox-txt">
+                              <h5 className="s-20 w-700">
+                                Artificial intelligence
+                              </h5>
+                              <p>
+                                Artificial intelligence services and
+                                technologies
+                              </p>
                             </div>
-                          </div>{" "}
-                          {/* End Icon */}
-                          {/* Text */}
-                          <div className="fbox-txt">
-                            <h5 className="s-20 w-700">
-                              Artificial intelligence
-                            </h5>
-                            <p>
-                              Artificial intelligence services and technologies
-                            </p>
                           </div>
-                        </div>
                         </Link>
                         {/* FEATURE BOX #4 */}
                         <Link href="/service">
-                        <div
-                          id="fb-12-4"
-                          className="fbox-12 bg--white-100 block-shadow r-12"
-                        >
-                          {/* Icon */}
-                          <div className="fbox-ico ico-50">
-                            <div className="shape-ico color--theme">
-                              <img src="images/services/ui.png" />
+                          <div
+                            id="fb-12-4"
+                            className="fbox-12 bg--white-100 block-shadow r-12"
+                          >
+                            {/* Icon */}
+                            <div className="fbox-ico ico-50">
+                              <div className="shape-ico color--theme">
+                                <img src="images/services/ui.png" />
+                              </div>
+                            </div>{" "}
+                            {/* End Icon */}
+                            {/* Text */}
+                            <div className="fbox-txt">
+                              <h5 className="s-20 w-700">UI/UX and Design</h5>
+                              <p>Everything abut UI/UX and design tools</p>
                             </div>
-                          </div>{" "}
-                          {/* End Icon */}
-                          {/* Text */}
-                          <div className="fbox-txt">
-                            <h5 className="s-20 w-700">UI/UX and Design</h5>
-                            <p>Everything abut UI/UX and design tools</p>
                           </div>
-                        </div>
                         </Link>
                       </div>
                     </div>
@@ -531,9 +533,9 @@ export default function About() {
                           <div className="cbox-2-txt">
                             <h5 className="s-22 w-700">Europe Market</h5>
                             <p className="mb-0">
-                              2021 was a year of meaningful growth as we
-                              secured multiple contracts with Germany and
-                              European companies.
+                              2021 was a year of meaningful growth as we secured
+                              multiple contracts with Germany and European
+                              companies.
                             </p>
                           </div>
                         </div>{" "}

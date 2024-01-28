@@ -4,8 +4,6 @@
 
 import { services } from "@/app/calculator/util";
 import Link from "next/link";
-import { Tooltip } from "react-tooltip";
-import Typewriter from "typewriter-effect";
 
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 
@@ -36,7 +34,7 @@ export default function Hero() {
               <div className="row d-flex align-items-center">
                 {/* HERO IMAGE */}
                 <div className="col-md-6 order-last order-md-2">
-                  <div className="hero-2-img">
+                  <div className="hero-2-img  wow fadeInRight">
                     <img
                       className="img-fluid"
                       src="/images/hero-2-img.png"
@@ -93,7 +91,7 @@ export default function Hero() {
                   </div>
                 </div>{" "}
                 <div className="col-md-6 order-last order-md-2">
-                  <div className="hero-2-img">
+                  <div className="hero-2-img  wow fadeInRight">
                     <img
                       className="img-fluid"
                       src="/images/hero-2-img.png"
