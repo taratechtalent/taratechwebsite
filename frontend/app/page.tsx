@@ -39,6 +39,18 @@ const Introduction = () => {
       <div className="container">
         <div className="row d-flex align-items-center">
           {/* TEXT BLOCK */}
+      
+          <div className="col-md-6 order-first order-md-2">
+            <div className="img-block j-img video-preview right-column wow fadeInLeft">
+              {/* Play Icon */}
+              {/* Preview Image */}
+              <img
+                className="img-fluid r-20"
+                src="/images/team/amin.png"
+                alt="video-preview"
+              />
+            </div>
+          </div>
           <div className="col-md-6 order-last order-md-2">
             <div className="txt-block left-column wow fadeInRight">
               {/* Section ID */}
@@ -53,17 +65,6 @@ const Introduction = () => {
                 here to  <b style={{padding:4}}>bridge that gap</b>, creating connections that empower
                 businesses with the right talent to drive innovation and growth.
               </p>
-            </div>
-          </div>
-          <div className="col-md-6 order-first order-md-2">
-            <div className="img-block j-img video-preview right-column wow fadeInLeft">
-              {/* Play Icon */}
-              {/* Preview Image */}
-              <img
-                className="img-fluid r-20"
-                src="/images/team/amin.png"
-                alt="video-preview"
-              />
             </div>
           </div>
        
@@ -637,15 +638,7 @@ const UniqueApproach = () => {
       <div className="container">
         {/* SECTION CONTENT (ROW) */}
         <div className="row d-flex align-items-center">
-          <div className="col-md-6">
-            <div className="img-block left-column wow fadeInRight">
-              <img
-                className="img-fluid"
-                src="/images/img-06.png"
-                alt="content-image"
-              />
-            </div>
-          </div>
+      
           <div className="col-md-6">
             <div className="txt-block right-column wow fadeInLeft">
               {/* Section ID */}
@@ -676,6 +669,15 @@ const UniqueApproach = () => {
                   and    <b style={{padding:4}}>cost-effective staffing solutions.</b> 
                 </li>
               </ul>
+            </div>
+          </div>
+          <div className="col-md-6">
+            <div className="img-block left-column wow fadeInRight">
+              <img
+                className="img-fluid"
+                src="/images/img-06.png"
+                alt="content-image"
+              />
             </div>
           </div>
           {/* IMAGE BLOCK */}
