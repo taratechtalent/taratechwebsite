@@ -3762,7 +3762,7 @@ p.video-txt-sm {
 .desktoplogo img {
   width: auto;
   max-width: inherit;
-  max-height: 39px;
+  max-height: 35px;
 }
 
 .blog-header .desktoplogo img {
@@ -4966,9 +4966,6 @@ span.sm-info {
 /*------------------------------------------*/
 /*  HERO-1
 /*------------------------------------------*/
-
-
-
 
 /*------------------------------------------*/
 /*  HERO-2
