@@ -98,7 +98,7 @@ export default function Hero() {
                       top-tier tech talent with confidence.
                     </p>
                     <Link
-                        href="/book"
+                        href="/calculator"
                         className="btn r-04 btn--theme hover--theme last-link ml-20"
                       >
                         Estimate a price
