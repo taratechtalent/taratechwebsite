@@ -83,18 +83,33 @@ export default function Hero() {
                 <div className="col-md-6 order-first order-md-2">
                   <div className="hero-2-txt wow fadeInLeft pl-20">
                     {/* Title */}
+
+                    {/* Title */}
                     <h2 className="s-56 w-700 color--black">
-                      Calculation inforamtion will be here
+                    Smart {" "}<span className="main-text">Hiring</span>  {" "} Smarter <span className="main-text">Budgeting</span> 
                     </h2>
-                    {/* Text */}
-                    <p className="p-lg">All information will be here</p>
+                 
+                    <p className="p-lg">
+                     
+                      TaraTalent offers a transparent,<b style={{ padding: 4 }}>tailor-made pricing</b>  structure that
+                      fits snugly into your budget, without compromising on
+                      expertise. Discover the perfect balance between <b style={{ padding: 4 }}>quality</b> 
+                      and <b style={{ padding: 4 }}>affordability</b> , and forecast your investment in
+                      top-tier tech talent with confidence.
+                    </p>
+                    <Link
+                        href="/calculator"
+                        className="btn r-04 btn--theme hover--theme last-link ml-20"
+                      >
+                        Estimate a price
+                      </Link>
                   </div>
                 </div>{" "}
                 <div className="col-md-6 order-last order-md-2">
                   <div className="hero-2-img  wow fadeInRight">
                     <img
                       className="img-fluid"
-                      src="/images/hero-2-img.png"
+                      src="/images/img-11.png"
                       alt="hero-image"
                     />
                   </div>
