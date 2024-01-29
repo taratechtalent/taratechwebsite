@@ -32,7 +32,7 @@ export default function TopTalent() {
                 <div className="col-md-6">
                   <div className="txt-block right-column wow fadeInLeft">
                     {/* Section ID */}
-                     <b style={{ color: "#37939b" }}> Top 1%</b>
+                    <b style={{ color: "#37939b" }}> Top 1%</b>
                     {/* Title */}
                     <h2 className="s-50 w-700">
                       Crafting Excellence: Our Journey in Selecting the{" "}
@@ -68,7 +68,7 @@ export default function TopTalent() {
           <div className=" container mt-36 mb-24">
             <div className="row justify-content-center">
               <div className="col-md-10 col-lg-9">
-                <div className="section-title mb-70">
+                <div className="section-title mb-70 wow fadeInUp">
                   {/* Title */}
                   <h2 className="s-52 w-700">
                     {" "}
@@ -115,11 +115,9 @@ export default function TopTalent() {
                   </div>
                   {/* Text */}
                   <div className="cbox-2-txt">
-                    <h5 className="s-30 w-700">
-                    Soft Skills Validation
-                    </h5>
+                    <h5 className="s-30 w-700">Soft Skills Validation</h5>
                     <p>
-                    Conducting live interviews and exercises to gauge
+                      Conducting live interviews and exercises to gauge
                       problem-solving capabilities, experience depth,
                       communication skills, and creativity.
                     </p>
@@ -135,10 +133,10 @@ export default function TopTalent() {
                   {/* Text */}
                   <div className="cbox-2-txt">
                     <h5 className="s-30 w-700">
-                    Technical Expertise Assessment
+                      Technical Expertise Assessment
                     </h5>
                     <p>
-                    Evaluating technical knowledge and problem-solving skills
+                      Evaluating technical knowledge and problem-solving skills
                       through various assessments to identify domain experts.
                     </p>
                   </div>
@@ -662,7 +660,7 @@ export default function TopTalent() {
                     {/* Text */}
 
                     <p className="s-21 color--grey">
-                    Your Guide to Hassle-Free Talent Acquisition
+                      Your Guide to Hassle-Free Talent Acquisition
                     </p>
                   </div>
                 </div>
