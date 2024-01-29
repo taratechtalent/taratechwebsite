@@ -109,7 +109,7 @@ export default function Hero() {
                   <div className="hero-2-img  wow fadeInRight">
                     <img
                       className="img-fluid"
-                      src="/images/hero-2-img.png"
+                      src="/images/img-11.png"
                       alt="hero-image"
                     />
                   </div>
