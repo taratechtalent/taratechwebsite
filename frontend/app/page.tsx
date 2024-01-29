@@ -566,7 +566,7 @@ const Services = () => {
               </div>
             </Link>
           </div>{" "}
-          <div className="col-md-4 wow bounceInUp">
+          <div className="col-md-4 wow fadeInUp">
             {/* FEATURE BOX #1 */}
             <Link href="/service/ai">
               <div
