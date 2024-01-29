@@ -4967,15 +4967,8 @@ span.sm-info {
 /*  HERO-1
 /*------------------------------------------*/
 
-#hero-1 {
-  background-image: url(../images/hero-1.jpg);
-  padding-top: 130px;
-  padding-bottom: 100px;
-}
 
-.hero-1-txt p {
-  padding-right: 2%;
-}
+
 
 /*------------------------------------------*/
 /*  HERO-2
@@ -8047,7 +8040,7 @@ h2.statistic-number {
 .rbox-1-img img {
   width: auto;
   max-width: inherit;
-  max-height: 38px;
+  max-height: 36px;
 }
 
 .rbox-2-txt img {
