@@ -91,7 +91,7 @@ export default function Hero() {
                  
                     <p className="p-lg">
                      
-                      We offer a transparent,<b style={{ padding: 4 }}>tailor-made pricing</b>  structure that
+                      TaraTalent offers a transparent,<b style={{ padding: 4 }}>tailor-made pricing</b>  structure that
                       fits snugly into your budget, without compromising on
                       expertise. Discover the perfect balance between <b style={{ padding: 4 }}>quality</b> 
                       and <b style={{ padding: 4 }}>affordability</b> , and forecast your investment in
