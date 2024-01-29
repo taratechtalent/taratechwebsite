@@ -39,7 +39,7 @@ const Introduction = () => {
       <div className="container">
         <div className="row d-flex align-items-center">
           {/* TEXT BLOCK */}
-      
+
           <div className="col-md-6 order-first order-md-2">
             <div className="img-block j-img video-preview right-column wow fadeInLeft">
               {/* Play Icon */}
@@ -60,17 +60,19 @@ const Introduction = () => {
               {/* Text */}
               <p className="p-lg">
                 The idea for TaraTalent company emerged from a clear market
-                reality: a  <b style={{padding:4}}>  significant demand </b> for skilled tech professionals
-                alongside a need for  <b style={{padding:4}}>cost-effective </b> staffing solutions.{`We're`}{" "}
-                here to  <b style={{padding:4}}>bridge that gap</b>, creating connections that empower
-                businesses with the right talent to drive innovation and growth.
+                reality: a <b style={{ padding: 4 }}> significant demand </b>{" "}
+                for skilled tech professionals alongside a need for{" "}
+                <b style={{ padding: 4 }}>cost-effective </b> staffing
+                solutions.{`We're`} here to{" "}
+                <b style={{ padding: 4 }}>bridge that gap</b>, creating
+                connections that empower businesses with the right talent to
+                drive innovation and growth.
               </p>
             </div>
           </div>
-       
+
           {/* END TEXT BLOCK */}
           {/* IMAGE BLOCK */}
-         
         </div>
         {/* End row */}
       </div>
@@ -426,9 +428,7 @@ const Services = () => {
               {/* Section ID */}
               <span className="section-id">Expert Solutions</span>
               {/* Title */}
-              <h2 className="s-46 w-700">
-                 Your Gateway to Expert Talent
-              </h2>
+              <h2 className="s-46 w-700">Your Gateway to Expert Talent</h2>
               {/* Text */}
               <p>
                 Discover a world of premium services, expertly delivered by our
@@ -467,21 +467,20 @@ const Services = () => {
                   </Link>
                   {/* FEATURE BOX #2 */}
                   <Link href="/service/devops">
-              <div
-                id="fb-12-2"
-                className="fbox-12 bg--white-100 block-shadow r-12"
-              >
-                <div className="fbox-ico ico-50">
-                  <div className="shape-ico color--theme">
-                    <img src="images/services/devops.png" />
-                  </div>
-                </div>{" "}
-                <div className="fbox-txt">
-                  <h5 className="s-20 w-700">Devops</h5>
-                
-                </div>
-              </div>
-            </Link>
+                    <div
+                      id="fb-12-2"
+                      className="fbox-12 bg--white-100 block-shadow r-12"
+                    >
+                      <div className="fbox-ico ico-50">
+                        <div className="shape-ico color--theme">
+                          <img src="images/services/devops.png" />
+                        </div>
+                      </div>{" "}
+                      <div className="fbox-txt">
+                        <h5 className="s-20 w-700">Devops</h5>
+                      </div>
+                    </div>
+                  </Link>
                 </div>
                 <div className="col-md-6">
                   {/* FEATURE BOX #3 */}
@@ -509,28 +508,27 @@ const Services = () => {
                   </Link>
                   {/* FEATURE BOX #4 */}
                   <Link href="/service/art">
-              <div
-                id="fb-12-2"
-                className="fbox-12 bg--white-100 block-shadow r-12"
-              >
-                {/* Icon */}
-                <div className="fbox-ico ico-50">
-                  <div className="shape-ico color--theme">
-                    <img src="images/services/art.png" />
-                  </div>
-                </div>{" "}
-                {/* End Icon */}
-                {/* Text */}
-                <div className="fbox-txt">
-                  <h5 className="s-20 w-700">Digital Arts</h5>
-                  {/* <p>
+                    <div
+                      id="fb-12-2"
+                      className="fbox-12 bg--white-100 block-shadow r-12"
+                    >
+                      {/* Icon */}
+                      <div className="fbox-ico ico-50">
+                        <div className="shape-ico color--theme">
+                          <img src="images/services/art.png" />
+                        </div>
+                      </div>{" "}
+                      {/* End Icon */}
+                      {/* Text */}
+                      <div className="fbox-txt">
+                        <h5 className="s-20 w-700">Digital Arts</h5>
+                        {/* <p>
                     Bringing creativity to life with unique, captivating digital
                     arts and design
                   </p> */}
-                </div>
-              </div>
-            </Link>
-                
+                      </div>
+                    </div>
+                  </Link>
                 </div>
               </div>
             </div>{" "}
@@ -539,65 +537,62 @@ const Services = () => {
           {/* END FEATURES-12 WRAPPER */}
         </div>{" "}
         <div className="row" style={{ marginTop: "30px" }}>
-          <div className="col-md-4">
+          <div className="col-md-4 wow fadeInLeft">
             {/* FEATURE BOX #1 */}
 
             {/* FEATURE BOX #2 */}
-          
 
+            {/* Icon */}
+            <Link href="/service/mobile">
+              <div
+                id="fb-12-2"
+                className="fbox-12 bg--white-100 block-shadow r-12"
+              >
                 {/* Icon */}
-                <Link href="/service/mobile">
-                    <div
-                      id="fb-12-2"
-                      className="fbox-12 bg--white-100 block-shadow r-12"
-                    >
-                      {/* Icon */}
-                      <div className="fbox-ico ico-50">
-                        <div className="shape-ico color--theme">
-                          <img src="images/services/mobile.png" />
-                        </div>
-                      </div>{" "}
-                      {/* End Icon */}
-                      {/* Text */}
-                      <div className="fbox-txt">
-                        <h5 className="s-20 w-700">Mobile App Development</h5>
-                        {/* <p>
+                <div className="fbox-ico ico-50">
+                  <div className="shape-ico color--theme text-center">
+                    <img src="images/services/mobile.png" />
+                  </div>
+                </div>{" "}
+                {/* End Icon */}
+                {/* Text */}
+                <div className="fbox-txt">
+                  <h5 className="s-20 w-700">Mobile App Development</h5>
+                  {/* <p>
                           Crafting sleek, efficient mobile apps to connect and
                           engage with users on-the-go
                         </p> */}
-                      </div>
-                    </div>
-                  </Link>
-
+                </div>
+              </div>
+            </Link>
           </div>{" "}
-          <div className="col-md-4">
+          <div className="col-md-4 wow bounceInUp">
             {/* FEATURE BOX #1 */}
             <Link href="/service/ai">
-                    <div
-                      id="fb-12-4"
-                      className="fbox-12 bg--white-100 block-shadow r-12"
-                    >
-                      {/* Icon */}
-                      <div className="fbox-ico ico-50">
-                        <div className="shape-ico color--theme">
-                          <img src="images/services/ai.png" />
-                        </div>
-                      </div>{" "}
-                      {/* End Icon */}
-                      {/* Text */}
-                      <div className="fbox-txt">
-                        <h5 className="s-20 w-700">AI/Machine Learning</h5>
-                        {/* <p>
+              <div
+                id="fb-12-4"
+                className="fbox-12 bg--white-100 block-shadow r-12"
+              >
+                {/* Icon */}
+                <div className="fbox-ico ico-50">
+                  <div className="shape-ico color--theme">
+                    <img src="images/services/ai.png" />
+                  </div>
+                </div>{" "}
+                {/* End Icon */}
+                {/* Text */}
+                <div className="fbox-txt">
+                  <h5 className="s-20 w-700">AI/Machine Learning</h5>
+                  {/* <p>
                           Empowering innovation with cutting-edge AI and Machine
                           Learning solutions tailored for you
                         </p> */}
-                      </div>
-                    </div>
-                  </Link>
+                </div>
+              </div>
+            </Link>
             {/* FEATURE BOX #2 */}
-         
           </div>{" "}
-          <div className="col-md-4">
+          <div className="col-md-4  wow fadeInRight">
             {/* FEATURE BOX #1 */}
 
             {/* FEATURE BOX #2 */}
@@ -638,7 +633,6 @@ const UniqueApproach = () => {
       <div className="container">
         {/* SECTION CONTENT (ROW) */}
         <div className="row d-flex align-items-center">
-      
           <div className="col-md-6">
             <div className="txt-block right-column wow fadeInLeft">
               {/* Section ID */}
@@ -648,25 +642,30 @@ const UniqueApproach = () => {
               {/* Text */}
               <p>
                 At TaraTalent , we specialize in connecting top-tier,
-                
-                <b style={{padding:4}}>
-                 affordable
-                tech talent</b> with businesses worldwide, particularly
-                startups. Our  <b style={{padding:4}}> flexible   engagement model</b>, tailored for the
-                dynamic needs of modern companies, includes <b style={{padding:4}}> hassle-free contract</b>
-                management and   <b style={{padding:4}}>  full alignment with your time zones </b>, ensuring
-                seamless integration of <b style={{padding:4}}> remote workforce.</b>
+                <b style={{ padding: 4 }}>affordable tech talent</b> with
+                businesses worldwide, particularly startups. Our{" "}
+                <b style={{ padding: 4 }}> flexible engagement model</b>,
+                tailored for the dynamic needs of modern companies, includes{" "}
+                <b style={{ padding: 4 }}> hassle-free contract</b>
+                management and{" "}
+                <b style={{ padding: 4 }}>
+                  {" "}
+                  full alignment with your time zones{" "}
+                </b>
+                , ensuring seamless integration of{" "}
+                <b style={{ padding: 4 }}> remote workforce.</b>
               </p>
               {/* Text */}
               <ul className="ml-10">
                 <li>
                   {`We're`} committed to continuous growth and support for our
                   talents, ensuring they meet your evolving technical demands.
-                  With us, you gain not just a service provider, but a 
-                  <b style={{padding:4}}>
-                  strategic
-                  partner </b>dedicated to your {`company's`} growth, innovation,
-                  and    <b style={{padding:4}}>cost-effective staffing solutions.</b> 
+                  With us, you gain not just a service provider, but a
+                  <b style={{ padding: 4 }}>strategic partner </b>dedicated to
+                  your {`company's`} growth, innovation, and{" "}
+                  <b style={{ padding: 4 }}>
+                    cost-effective staffing solutions.
+                  </b>
                 </li>
               </ul>
             </div>
