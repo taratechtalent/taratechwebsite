@@ -48,18 +48,20 @@ export default function Hero() {
                     {/* Title */}
                     <h2 className="s-48 w-700 color--black">
                       {" "}
-                      <span className="main-text">Affordable</span><br></br> Remote<br></br>
-                      <span className="main-text">Senior Talents</span> <br></br>for
-                      Startups
+                      <span className="main-text">Affordable</span>
+                      <br></br> Remote<br></br>
+                      <span className="main-text">Senior Talents</span>{" "}
+                      <br></br>for Startups
                     </h2>
                     {/* Text */}
                     <p className="p-lg">
                       Elevate your business with experienced tech professionals
-                      who offer the perfect blend of <b style={{ padding: 4 }}>quality</b> and
+                      who offer the perfect blend of{" "}
+                      <b style={{ padding: 4 }}>quality</b> and
                       <b style={{ padding: 4 }}>cost-efficiency</b>. Partner
                       with us to harness{" "}
                       <b style={{ padding: 4 }}> global expertise</b> that fits
-                      your  <b style={{ padding: 4 }}>startup budget </b>and
+                      your <b style={{ padding: 4 }}>startup budget </b>and
                       fuels your growth.
                     </p>
                     <p className="text-right">
@@ -86,23 +88,30 @@ export default function Hero() {
 
                     {/* Title */}
                     <h2 className="s-48 w-700 color--black">
-                    Smart <br></br><span className="main-text">Hiring</span> <br></br> Smarter <span className="main-text">Budgeting</span> 
+                      Smart <br></br>
+                      <span className="main-text">Hiring</span> <br></br>{" "}
+                      Smarter <span className="main-text">Budgeting</span>
                     </h2>
-                 
+
                     <p className="p-lg">
-                     
-                      TaraTalent offers a transparent,<b style={{ padding: 4 }}>tailor-made pricing</b>  structure that
-                      fits snugly into your budget, without compromising on
-                      expertise. Discover the perfect balance between <b style={{ padding: 4 }}>quality</b> 
-                      and <b style={{ padding: 4 }}>affordability</b> , and forecast your investment in
-                      <b style={{ padding: 4 }}>top-tier tech talent</b> with confidence.
+                      TaraTalent offers a transparent,
+                      <b style={{ padding: 4 }}>tailor-made pricing</b>{" "}
+                      structure that fits snugly into your budget, without
+                      compromising on expertise. Discover the perfect balance
+                      between <b style={{ padding: 4 }}>quality</b>
+                      and <b style={{ padding: 4 }}>affordability</b> , and
+                      forecast your investment in
+                      <b style={{ padding: 4 }}>top-tier tech talent</b> with
+                      confidence.
                     </p>
-                    <Link
+                    <p className="text-right">
+                      <Link
                         href="/calculator"
                         className="btn r-04 btn--theme hover--theme last-link ml-20"
                       >
                         Estimate a price
                       </Link>
+                    </p>
                   </div>
                 </div>{" "}
                 <div className="col-md-6 order-last order-md-2">
