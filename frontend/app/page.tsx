@@ -643,7 +643,7 @@ const UniqueApproach = () => {
               <p>
                 At TaraTalent , we specialize in connecting top-tier,
                 <b style={{ padding: 4 }}>affordable tech talent</b> with
-                businesses worldwide, particularly startups. Our{" "}
+                businesses worldwide, particularly  <b style={{ padding: 4 }}> startups</b> . Our{" "}
                 <b style={{ padding: 4 }}> flexible engagement model</b>,
                 tailored for the dynamic needs of modern companies, includes{" "}
                 <b style={{ padding: 4 }}> hassle-free contract</b>
