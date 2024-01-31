@@ -3762,11 +3762,11 @@ p.video-txt-sm {
 .desktoplogo img {
   width: auto;
   max-width: inherit;
-  max-height: 35px;
+  max-height: 25px;
 }
 
 .blog-header .desktoplogo img {
-  max-height: 30px;
+  max-height: 25px;
 }
 
 /*------------------------------------------*/

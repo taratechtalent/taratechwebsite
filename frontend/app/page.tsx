@@ -643,7 +643,8 @@ const UniqueApproach = () => {
               <p>
                 At TaraTalent , we specialize in connecting top-tier,
                 <b style={{ padding: 4 }}>affordable tech talent</b> with
-                businesses worldwide, particularly  <b style={{ padding: 4 }}> startups</b> . Our{" "}
+                businesses worldwide, particularly{" "}
+                <b style={{ padding: 4 }}> startups</b> . Our{" "}
                 <b style={{ padding: 4 }}> flexible engagement model</b>,
                 tailored for the dynamic needs of modern companies, includes{" "}
                 <b style={{ padding: 4 }}> hassle-free contract</b>
@@ -795,7 +796,7 @@ const OurProcess = () => {
                     className="btn r-04 btn--theme hover--theme last-link ml-20"
                     style={{ marginLeft: "60px" }}
                   >
-                    Book a Call
+                    Schedual a Call
                   </Link>
                 </div>
               </div>

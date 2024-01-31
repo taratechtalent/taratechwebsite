@@ -74,7 +74,7 @@ export default function Menu() {
             href="/book"
             className="btn r-04 btn--theme hover--tra-white last-link ml-2"
           >
-            Book a Call
+            Schedual a Call
           </Link>
         </li>
         <li className="nl-simple ">
