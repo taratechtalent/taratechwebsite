@@ -46,20 +46,20 @@ export default function Hero() {
                 <div className="col-md-6 order-first order-md-2">
                   <div className="hero-2-txt wow fadeInLeft">
                     {/* Title */}
-                    <h2 className="s-56 w-700 color--black">
+                    <h2 className="s-48 w-700 color--black">
                       {" "}
-                      Affordable Remote{" "}
-                      <span className="main-text">Senior Talents</span> for
+                      <span className="main-text">Affordable</span><br></br> Remote<br></br>
+                      <span className="main-text">Senior Talents</span> <br></br>for
                       Startups
                     </h2>
                     {/* Text */}
                     <p className="p-lg">
-                      Elevates your business with experienced tech professionals
-                      who offer the perfect blend of quality and
+                      Elevate your business with experienced tech professionals
+                      who offer the perfect blend of <b style={{ padding: 4 }}>quality</b> and
                       <b style={{ padding: 4 }}>cost-efficiency</b>. Partner
                       with us to harness{" "}
                       <b style={{ padding: 4 }}> global expertise</b> that fits
-                      your startup <b style={{ padding: 4 }}> budget </b>and
+                      your  <b style={{ padding: 4 }}>startup budget </b>and
                       fuels your growth.
                     </p>
                     <p className="text-right">
@@ -85,8 +85,8 @@ export default function Hero() {
                     {/* Title */}
 
                     {/* Title */}
-                    <h2 className="s-56 w-700 color--black">
-                    Smart {" "}<span className="main-text">Hiring</span>  {" "} Smarter <span className="main-text">Budgeting</span> 
+                    <h2 className="s-48 w-700 color--black">
+                    Smart <br></br><span className="main-text">Hiring</span> <br></br> Smarter <span className="main-text">Budgeting</span> 
                     </h2>
                  
                     <p className="p-lg">
@@ -95,7 +95,7 @@ export default function Hero() {
                       fits snugly into your budget, without compromising on
                       expertise. Discover the perfect balance between <b style={{ padding: 4 }}>quality</b> 
                       and <b style={{ padding: 4 }}>affordability</b> , and forecast your investment in
-                      top-tier tech talent with confidence.
+                      <b style={{ padding: 4 }}>top-tier tech talent</b> with confidence.
                     </p>
                     <Link
                         href="/calculator"
