@@ -94,9 +94,9 @@ export default function Hero() {
                     </h2>
 
                     <p className="p-lg">
-                      TaraTalent offers a transparent,
+                      TaraTalent <b style={{ padding: 4 }}>bridges the tech talent gap</b> by offering a transparent,
                       <b style={{ padding: 4 }}>tailor-made pricing</b>{" "}
-                      structure that fits snugly into your budget, without
+                      structure that fits snugly into your<b style={{ padding: 4 }}>startup budget</b> , without
                       compromising on expertise. Discover the perfect balance
                       between <b style={{ padding: 4 }}>quality</b>
                       and <b style={{ padding: 4 }}>affordability</b> , and
@@ -109,7 +109,7 @@ export default function Hero() {
                         href="/calculator"
                         className="btn r-04 btn--theme hover--theme last-link ml-20"
                       >
-                        Estimate a price
+                        Estimate Price
                       </Link>
                     </p>
                   </div>

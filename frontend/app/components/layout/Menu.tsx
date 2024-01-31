@@ -37,20 +37,20 @@ export default function Menu() {
               </Link>
             </li>
             <li>
-              <Link href="/industries/marketing">Financial services</Link>
+              <Link href="/industries/marketing">Financial Services</Link>
             </li>{" "}
           </ul>
         </li>
         <li>
           <Link href="#" className="h-link">
-            About us <span className="wsarrow" />
+            About Us <span className="wsarrow" />
           </Link>
           <ul className="sub-menu">
             <li>
-              <Link href="/about">About us</Link>
+              <Link href="/about">About Us</Link>
             </li>
             <li>
-              <Link href="/team">Leadership team</Link>
+              <Link href="/team">Leadership Team</Link>
             </li>
           </ul>
         </li>
@@ -66,7 +66,7 @@ export default function Menu() {
               marginLeft: "60px",
             }}
           >
-            Estimate price
+            Estimate Price
           </Link>
         </li>
         <li className="nl-simple ">

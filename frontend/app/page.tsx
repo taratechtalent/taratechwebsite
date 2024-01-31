@@ -64,7 +64,7 @@ const Introduction = () => {
                 for skilled tech professionals alongside a need for{" "}
                 <b style={{ padding: 4 }}>cost-effective </b> staffing
                 solutions.{`We're`} here to{" "}
-                <b style={{ padding: 4 }}>bridge that gap</b>, creating
+                <b style={{ padding: 4 }}><span className="main-text">bridge that gap</span></b>, creating
                 connections that empower businesses with the right talent to
                 drive innovation and growth.
               </p>
