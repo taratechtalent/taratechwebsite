@@ -41,20 +41,20 @@ export default function TopTalent() {
                     {/* Text */}
                     <p>
                       At TaraTalent, {`we're`} committed to an unparalleled
-                      standard of excellence in every hire. Our Top 1% Talent
-                      Strategy is centered around a comprehensive and thorough
-                      selection process. We meticulously identify and
+                      standard of excellence in every hire. Our <b style={{ padding: 4 }}>Top 1% Talent
+                      Strategy </b> is centered around a comprehensive and thorough
+                      <b style={{ padding: 4 }}>selection process </b>. We meticulously identify and
                       collaborate with only the most skilled and passionate
                       professionals from around the world.
                     </p>
                     {/* Text */}
                     <ul className="ml-10">
                       <li>
-                        This rigorous approach ensures that our team consists of
-                        domain experts who bring both expertise and enthusiasm
+                        This rigorous approach ensures that our team consists of<b style={{ padding: 4 }}> domain experts </b>
+                         who bring both <b style={{ padding: 4 }}> expertise </b> and <b style={{ padding: 4 }}> enthusiasm </b>
                         to every project, aligning with our high standards of
                         quality and innovation which perfectly matches the needs
-                        of startups.
+                        of <b style={{ padding: 4 }}> startups </b>.
                       </li>
                     </ul>
                   </div>
