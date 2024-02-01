@@ -103,7 +103,7 @@ export default function Career() {
                   <h2 className="s-46 w-700">Unlock Global Opportunities</h2>
                   {/* Text */}
                   <p className="s-21 color--grey">
-                    Explore the top three reasons to join our talent network
+                    Explore the Top Three Reasons to Join Our Talent Network
                   </p>
                 </div>
               </div>
@@ -302,8 +302,8 @@ export default function Career() {
                     <h2 className="s-50 w-700">Why TaraTalent?</h2>
                     {/* Text */}
                     <p className="s-21 color--grey">
-                      Explore the compelling reasons to join our talent
-                      community and redefine your career journey.
+                      Explore the Compelling Reasons to Join our Talent
+                      Community and Redefine Your Career Journey.
                     </p>
                   </div>
                 </div>
@@ -654,9 +654,9 @@ export default function Career() {
                       {/* Text */}
 
                       <p className="s-21 color--grey">
-                        Explore Talent FAQs to find answers to common questions
-                        about joining our talent pool and leveraging exciting
-                        career opportunities.
+                        Explore Talent FAQs to Find Answers to Common Questions
+                        About Joining Our Talent Pool and Leveraging Exciting
+                        Career Opportunities.
                       </p>
                     </div>
                   </div>

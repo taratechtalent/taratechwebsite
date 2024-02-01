@@ -78,9 +78,9 @@ export default function TopTalent() {
 
                   {/* Text */}
                   <p className="s-21 color--grey">
-                    Experience peace of mind knowing that we meticulously
-                    evaluate and select top-tier talent, so you have access to
-                    the best experts in the field.
+                    Experience Peace of Mind Knowing that We Meticulously
+                    Evaluate and Select Top-Tier Talent, so You Have Access to
+                    the Best Experts in the Field.
                   </p>
                 </div>
               </div>

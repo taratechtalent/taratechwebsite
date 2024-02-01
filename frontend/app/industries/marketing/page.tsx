@@ -263,10 +263,10 @@ export default function Home() {
             <div className="container">
               <div className="row">
                 <div className="col text-center mb-32">
-                  <h2 className="s-52 w-700">How to work with Us</h2>
-                  <h4 className="font-bold pt-6">
-                    Achive your goal in the way you never experienced before
-                  </h4>
+                  <h2 className="s-52 w-700 mb-20">How to work with Us</h2>
+                  <p className="s-21 color--grey">
+                    Achive Your Goal in the Way You Never Experienced Before
+                  </p>
                 </div>
               </div>
               {/* SECTION CONTENT (ROW) */}
