@@ -42,7 +42,7 @@ export default function About() {
                     {/* IMAGE-1 */}
                     <div className="about-2-img a-2-1 r-12">
                       <img
-                        className="img-fluid"
+                        className="img-fluid"style={{width:"700px"}}
                         src="/images/a2-1.jpg"
                         alt="about-image"
                       />
@@ -50,7 +50,7 @@ export default function About() {
                     {/* IMAGE-2 */}
                     <div className="about-2-img a-2-2 r-12">
                       <img
-                        className="img-fluid"
+                        className="img-fluid "
                         src="/images/a2-2.jpg"
                         alt="about-image"
                       />
