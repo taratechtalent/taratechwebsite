@@ -36,8 +36,8 @@ export default function Career() {
                             options={{
                               strings: [
                                 "Exceptional Talents",
-                                "Notable Individuals",
-                                "Extraordinary Persons",
+                                "Innovative Minds",
+                                "Gifted Individuals",
                               ],
                               autoStart: true,
                               loop: true,
