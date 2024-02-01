@@ -739,7 +739,7 @@ export default function TopTalent() {
                         {/* Question */}
                         <h5 className="s-22 w-700">
                           <span>4.</span> How does TaraTalent ensure candidates
-                          meet our requirements?
+                          meet your requirements?
                         </h5>
                         {/* Answer */}
                         <p className="color--grey">
@@ -756,7 +756,7 @@ export default function TopTalent() {
                       <div className="question mb-35 wow fadeInUp">
                         {/* Question */}
                         <h5 className="s-22 w-700">
-                          <span>5.</span> Where are your talents based?
+                          <span>5.</span> Where are our talents based?
                         </h5>
                         {/* Answer */}
                         <p className="color--grey">

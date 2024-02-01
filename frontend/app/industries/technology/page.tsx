@@ -31,7 +31,7 @@ export default function Home() {
                       industry.
                     </p>
                     <Link href="/book" className="btn btn--theme hover--theme">
-                      Arrange a Call
+                      Schedual a Call
                     </Link>
                   </div>
                 </div>{" "}
