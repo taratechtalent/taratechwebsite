@@ -64,6 +64,8 @@ export default function Menu() {
               color: "black",
               border: "1px solid black",
               marginLeft: "60px",
+              padding: "4px 10px !important",
+              fontSize: "14px !important",
             }}
           >
             Estimate Price
@@ -72,7 +74,11 @@ export default function Menu() {
         <li className="nl-simple ">
           <Link
             href="/book"
-            className="btn r-04 btn--theme hover--tra-white last-link ml-2"
+            className="btn r-04 btn--theme hover--tra-white last-link ml-2 header-btn"
+            style={{
+              padding: "4px 10px !important",
+              fontSize: "14px !important",
+            }}
           >
             Schedual a Call
           </Link>
@@ -81,7 +87,12 @@ export default function Menu() {
           <Link
             href="/career/join"
             className="btn r-04  hover--tra-red last-link ml-20"
-            style={{ color: "black", border: "0" }}
+            style={{
+              color: "black",
+              border: "0",
+              padding: "4px 10px !important",
+              fontSize: "14px !important",
+            }}
           >
             Apply as a Talent
           </Link>

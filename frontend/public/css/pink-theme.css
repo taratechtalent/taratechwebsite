@@ -3762,7 +3762,7 @@ p.video-txt-sm {
 .desktoplogo img {
   width: auto;
   max-width: inherit;
-  max-height: 25px;
+  max-height: 35px;
 }
 
 .blog-header .desktoplogo img {
@@ -13772,4 +13772,9 @@ html {
 
 a {
   text-decoration: none;
+}
+
+.header-btn {
+  padding: "4px 10px !important";
+  font-size: "14px !important";
 }
