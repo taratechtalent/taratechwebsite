@@ -274,8 +274,8 @@ export default function Home() {
           <section className="py-100 ct-02 content-section division">
             <div className="container">
               <div className="row">
-                <div className="col text-center mb-32">
-                  <h2 className="s-52 w-700 mb-20 ">How to work with Us</h2>
+                <div className="col text-center mb-24">
+                  <h2 className="s-52 w-700 mb-20 ">How to Work With Us</h2>
                   <p className="s-21 color--grey">
                     Achive Your Goal in the Way You Never Experienced Before
                   </p>
