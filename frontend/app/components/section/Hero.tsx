@@ -33,18 +33,8 @@ export default function Hero() {
             <SplideSlide>
               <div className="row d-flex align-items-center">
                 {/* HERO IMAGE */}
-                <div className="col-md-6 order-last order-md-2">
-                  <div className="hero-2-img  wow fadeInRight">
-                    <img
-                      className="img-fluid"
-                      src="/images/hero-2-img.png"
-                      alt="hero-image"
-                    />
-                  </div>
-                </div>
-                {/* HERO TEXT */}
                 <div className="col-md-6 order-first order-md-2">
-                  <div className="hero-2-txt wow fadeInLeft">
+                  <div className="hero-2-txt wow fadeInLeft pl-20">
                     {/* Title */}
                     <h2 className="s-48 w-700 color--black">
                       {" "}
@@ -75,6 +65,16 @@ export default function Hero() {
                   </div>
                 </div>{" "}
                 {/* END HERO TEXT */}
+              </div>
+              {/* HERO TEXT */}
+              <div className="col-md-6 order-last order-md-2">
+                <div className="hero-2-img  wow fadeInRight">
+                  <img
+                    className="img-fluid"
+                    src="/images/hero-2-img.png"
+                    alt="hero-image"
+                  />
+                </div>
               </div>{" "}
               {/* End row */}
             </SplideSlide>
@@ -94,9 +94,12 @@ export default function Hero() {
                     </h2>
 
                     <p className="p-lg">
-                      TaraTalent <b style={{ padding: 4 }}>bridges the tech talent gap</b> by offering a transparent,
+                      TaraTalent{" "}
+                      <b style={{ padding: 4 }}>bridges the tech talent gap</b>{" "}
+                      by offering a transparent,
                       <b style={{ padding: 4 }}>tailor-made pricing</b>{" "}
-                      structure that fits snugly into your<b style={{ padding: 4 }}>startup budget</b> , without
+                      structure that fits snugly into your
+                      <b style={{ padding: 4 }}>startup budget</b> , without
                       compromising on expertise. Discover the perfect balance
                       between <b style={{ padding: 4 }}>quality</b>
                       and <b style={{ padding: 4 }}>affordability</b> , and
