@@ -7,15 +7,6 @@ import Link from "next/link";
 
 import { Splide, SplideSlide } from "@splidejs/react-splide";
 
-const items = services.map(
-  // (item) => item.name + ": €" + item.start + "k - €" + item.end + "k"
-  (item) =>
-    "<span class='item-style'>" +
-    item.dev +
-    "</span><br /> for just <span class='item-style2'> €" +
-    item.end +
-    "k </span>"
-);
 export default function Hero() {
   return (
     <>
@@ -66,17 +57,17 @@ export default function Hero() {
                 </div>{" "}
                 {/* END HERO TEXT */}
                 <div className="col-md-6 order-last order-md-2">
-                <div className="hero-2-img  wow fadeInRight">
-                  <img
-                    className="img-fluid"
-                    src="/images/hero-2-img.png"
-                    alt="hero-image"
-                  />
-                </div>
-              </div>{" "}
+                  <div className="hero-2-img  wow fadeInRight">
+                    <img
+                      className="img-fluid"
+                      src="/images/hero-2-img.png"
+                      alt="hero-image"
+                    />
+                  </div>
+                </div>{" "}
               </div>
               {/* HERO TEXT */}
-              
+
               {/* End row */}
             </SplideSlide>
             <SplideSlide>

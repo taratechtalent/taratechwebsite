@@ -24,7 +24,7 @@ export default function DigitalArtService() {
                   {/* PROJECT TITLE */}
                   <div className="project-title">
                     {/* Title */}
-                    <h2 className="s-52 w-700">Digital Art</h2>
+                    <h2 className="s-52 w-700">Building Architecture</h2>
                   </div>{" "}
                   {/* END PROJECT TITLE */}
                   {/* PROJECT PREVIEW IMAGE  */}
@@ -39,12 +39,9 @@ export default function DigitalArtService() {
                   <div className="project-txt">
                     {/* Text */}
                     <p>
-                      In a world where technology and creativity intersect,
-                      digital art has emerged as a revolutionary medium,
-                      reshaping our perception of art and its creation. This
-                      article delves into the vibrant world of digital art,
-                      exploring its history, current trends, and what the future
-                      holds for this dynamic form of expression.
+                      Building architecture has evolved through various styles
+                      and forms, each reflecting the cultural, technological,
+                      and environmental contexts of its tim
                     </p>
                     {/* Small Title */}
                     <section
@@ -59,14 +56,17 @@ export default function DigitalArtService() {
                               {/* Section ID */}
                               <span className="section-id">Forms of</span>
                               {/* Title */}
-                              <h2 className="s-46 w-700">Digital Art </h2>
+                              <h2 className="s-46 w-700">
+                                Building Architecture{" "}
+                              </h2>
                               {/* Text */}
                               <p>
-                                Expanding on the different forms of digital art,
-                                we find a rich and diverse landscape of creative
-                                expression. Here are additional digital art
-                                forms that showcase the breadth and depth of
-                                this evolving medium:
+                                Expanding on the different forms of building
+                                architecture, we find a rich and diverse
+                                landscape of creative expression. Here are
+                                additional building architecture forms that
+                                showcase the breadth and depth of this evolving
+                                medium:
                               </p>
                             </div>
                           </div>{" "}
@@ -109,6 +109,35 @@ export default function DigitalArtService() {
                                   {/* FEATURE BOX #2 */}
                                   <div
                                     id="fb-12-2"
+                                    className="fbox-12 bg--white-100 block-shadow r-12 !min-h-[150px] mb-30"
+                                  >
+                                    {/* Icon */}
+                                    <div className="fbox-ico ico-50">
+                                      <div className="shape-ico color--theme">
+                                        {/* Vector Icon */}
+                                        <span className="flaticon-click-1" />
+                                        {/* Shape */}
+                                        <svg
+                                          viewBox="0 0 200 200"
+                                          xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                          <path
+                                            d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
+                                            transform="translate(100 100)"
+                                          />
+                                        </svg>
+                                      </div>
+                                    </div>{" "}
+                                    {/* End Icon */}
+                                    {/* Text */}
+                                    <div className="fbox-txt">
+                                      <h5 className="s-20 w-700">
+                                        Architectural Designer
+                                      </h5>
+                                    </div>
+                                  </div>
+                                  <div
+                                    id="fb-12-2"
                                     className="fbox-12 bg--white-100 block-shadow r-12 !min-h-[150px]"
                                   >
                                     {/* Icon */}
@@ -132,7 +161,7 @@ export default function DigitalArtService() {
                                     {/* Text */}
                                     <div className="fbox-txt">
                                       <h5 className="s-20 w-700">
-                                        2D Digital Art
+                                        CAD Technician
                                       </h5>
                                     </div>
                                   </div>
@@ -164,11 +193,40 @@ export default function DigitalArtService() {
                                     {/* Text */}
                                     <div className="fbox-txt">
                                       <h5 className="s-20 w-700">
-                                        3D Digital Art
+                                        BIM Engineer
                                       </h5>
                                     </div>
                                   </div>
                                   {/* FEATURE BOX #4 */}
+                                  <div
+                                    id="fb-12-4"
+                                    className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
+                                  >
+                                    {/* Icon */}
+                                    <div className="fbox-ico ico-50">
+                                      <div className="shape-ico color--theme">
+                                        {/* Vector Icon */}
+                                        <span className="flaticon-analytics" />
+                                        {/* Shape */}
+                                        <svg
+                                          viewBox="0 0 200 200"
+                                          xmlns="http://www.w3.org/2000/svg"
+                                        >
+                                          <path
+                                            d="M69.8,-23C76.3,-2.7,57.6,25.4,32.9,42.8C8.1,60.3,-22.7,67,-39.1,54.8C-55.5,42.7,-57.5,11.7,-48.6,-11.9C-39.7,-35.5,-19.8,-51.7,5.9,-53.6C31.7,-55.6,63.3,-43.2,69.8,-23Z"
+                                            transform="translate(100 100)"
+                                          />
+                                        </svg>
+                                      </div>
+                                    </div>{" "}
+                                    {/* End Icon */}
+                                    {/* Text */}
+                                    <div className="fbox-txt">
+                                      <h5 className="s-20 w-700">
+                                        Architectural Visualizer
+                                      </h5>
+                                    </div>
+                                  </div>
                                   <div
                                     id="fb-12-4"
                                     className="fbox-12 bg--white-100 block-shadow r-12"
@@ -194,7 +252,7 @@ export default function DigitalArtService() {
                                     {/* Text */}
                                     <div className="fbox-txt">
                                       <h5 className="s-20 w-700">
-                                        Generative and Interactive Art
+                                        3D Modeling Specialist
                                       </h5>
                                     </div>
                                   </div>
@@ -236,10 +294,10 @@ export default function DigitalArtService() {
                       <div className="row">
                         <div className="col text-center mb-32">
                           <h2 className="s-46 w-700">
-                          Digital Art Revolution
+                            Building architecture Revolution
                           </h2>
                           <p className="s-21 color--grey mt-6">
-                          Exploring Boundaries, Tools, and Future Horizons
+                            Exploring Boundaries, Tools, and Future Horizons
                           </p>
                         </div>
                       </div>
@@ -247,23 +305,25 @@ export default function DigitalArtService() {
                         {/* SECTION TITLE */}
                         {/* TESTIMONIALS-2 WRAPPER */}
                         <div className="reviews-2-wrapper rel">
-                          <div className="row align-items-center row-cols-1 row-cols-md-2">
+                          <div className="row align-items-center row-cols-1 row-cols-md-2 mb-36">
                             {/* TESTIMONIAL #1 */}
                             <ServiceItemDetails
                               title="Impact on the Art World"
-                              description="Digital art has democratized art creation and distribution. It allows artists to share their work globally with the click of a button, breaking down traditional barriers to entry in the art world. Furthermore, it challenges our traditional notions of art, bringing a new digital aesthetic to the forefront of cultural discourse."
+                              description="Building architecture merges with the art world by transforming urban landscapes into canvases for public art, fostering collaborations that blur the lines between disciplines, and shaping the way art is experienced through the design of innovative exhibition spaces."
                             />
                             <ServiceItemDetails
                               title="Tools of the Trade"
-                              description="The digital artist’s toolbox is as varied as the art they create. Software like Adobe Photoshop, Illustrator, and Blender are staples in creating stunning pieces. Hardware, too, plays a crucial role – from graphics tablets allowing natural hand movements to VR headsets enabling artists to step inside their creations."
+                              description="
+                              In building architecture, essential tools include CAD software for precise drawings, BIM systems for project management, and digital fabrication technologies like 3D printing, alongside VR and AR for immersive design visualization. These tools revolutionize design processes, enhance collaboration, and enable innovative construction techniques."
                             />
                             <ServiceItemDetails
                               title="Challenges and Controversies"
-                              description="With the rise of digital art, questions of authenticity, originality, and value have sparked debates. The ease of reproduction and distribution of digital art raises important questions about copyright and ownership in the digital age."
+                              description="Building architecture navigates challenges and controversies involving sustainability, historical preservation, and the balance between innovation and practicality. Debates extend to the aesthetics of modern constructions and the ethical implications of technology in design. The field strives for a balanced approach that honors heritage, embraces new possibilities, and considers social and environmental impacts."
                             />{" "}
                             <ServiceItemDetails
-                              title="The Future of Digital Art"
-                              description="The future of digital art is as limitless as the technology that drives it. Emerging trends like AI-generated art and augmented reality experiences are pushing the boundaries of what we consider possible, blending the real and virtual worlds in unprecedented ways."
+                              title="The Future of building architecture"
+                              description="
+                              The future of building architecture integrates sustainability, technological advancements, and inclusivity, focusing on eco-friendly designs, the use of AI and digital fabrication for innovative constructions, and creating accessible spaces that cater to diverse community needs. This approach aims for resilience, adaptability, and a harmonious relationship with the environment, marking a progressive shift towards responsible and advanced architectural practices."
                             />{" "}
                           </div>{" "}
                           {/* End row */}

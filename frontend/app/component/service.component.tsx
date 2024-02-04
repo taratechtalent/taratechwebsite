@@ -195,12 +195,17 @@ const ServiceComponent = ({
               {/* Text */}
               <div className="fbox-txt">
                 <Link href="/service/art">
-                  <h6 className="s-22 w-700">Digital Art</h6>
+                  <h6 className="s-22 w-700">Building Architecture</h6>
                   <p>
-                    Digital art encompasses creating visual content using
-                    technology, ranging from illustrations to animations,
-                    utilizing software and devices to craft, manipulate, and
-                    produce innovative artistic expressions in a digital format.
+                    Digital architecture involves the process of designing and
+                    constructing buildings and structures through advanced
+                    technology, utilizing software and devices to plan,
+                    simulate, and execute architectural projects in a digital
+                    environment. This approach enables architects to create more
+                    precise and intricate designs, explore innovative
+                    construction techniques, and efficiently manage and execute
+                    building projects, from initial concept to final
+                    construction, in a virtual format.
                   </p>
                 </Link>
               </div>

@@ -521,7 +521,7 @@ const Services = () => {
                       {/* End Icon */}
                       {/* Text */}
                       <div className="fbox-txt">
-                        <h5 className="s-20 w-700">Digital Arts</h5>
+                        <h5 className="s-20 w-700">Building Architecture</h5>
                         {/* <p>
                     Bringing creativity to life with unique, captivating digital
                     arts and design

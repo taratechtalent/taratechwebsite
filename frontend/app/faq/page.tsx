@@ -134,7 +134,7 @@ export default function Home() {
                                   various domains such as web app development,
                                   DevOps, software testing, mobile app
                                   development, AI/machine learning, UI/UX
-                                  design, and digital art.
+                                  design, and building architecture.
                                 </p>
                               </li>
                             </ul>
