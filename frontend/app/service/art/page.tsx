@@ -321,7 +321,7 @@ export default function DigitalArtService() {
                               description="Building architecture navigates challenges and controversies involving sustainability, historical preservation, and the balance between innovation and practicality. Debates extend to the aesthetics of modern constructions and the ethical implications of technology in design. The field strives for a balanced approach that honors heritage, embraces new possibilities, and considers social and environmental impacts."
                             />{" "}
                             <ServiceItemDetails
-                              title="The Future of building architecture"
+                              title="The Future"
                               description="
                               The future of building architecture integrates sustainability, technological advancements, and inclusivity, focusing on eco-friendly designs, the use of AI and digital fabrication for innovative constructions, and creating accessible spaces that cater to diverse community needs. This approach aims for resilience, adaptability, and a harmonious relationship with the environment, marking a progressive shift towards responsible and advanced architectural practices."
                             />{" "}
