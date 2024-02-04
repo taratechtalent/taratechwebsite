@@ -34,7 +34,7 @@ export const services = [
       "Google Cloud",
     ],
     start: 20,
-    end: 50,
+    end: 49,
   },
   {
     name: ServiceEnum.Mobile,
@@ -76,7 +76,7 @@ export const services = [
       "AI Research Scientist",
     ],
     start: 20,
-    end: 50,
+    end: 49,
   },
   {
     name: ServiceEnum.UX,

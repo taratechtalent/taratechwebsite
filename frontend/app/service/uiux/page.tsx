@@ -61,6 +61,10 @@ export default function UIUXService() {
                   </div>{" "}
                   {/* End container */}
                 </section>{" "}
+                <hr
+                  className="divider"
+                  style={{ marginTop: "50px !important" }}
+                />
                 <div className="project-description">
                   {/* PROJECT TEXT */}
                   <div className="project-txt">
@@ -222,6 +226,10 @@ export default function UIUXService() {
                       </div>{" "}
                       {/* End container */}
                     </section>
+                    <hr
+                      className="divider"
+                      style={{ marginTop: "20px !important" }}
+                    />
                     {/* Text */}
                     {/* END PROJECT IMAGES */}
                     {/* WIDE IMAGE */}
