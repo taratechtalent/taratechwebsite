@@ -345,7 +345,7 @@ export default function About() {
                             {/* Text */}
                             <div className="fbox-txt">
                               <h5 className="s-20 w-700">Devops</h5>
-                              <p>Continus integration with CICD</p>
+                              <p>Continuous integration with CICD</p>
                             </div>
                           </div>
                         </Link>
