@@ -33,7 +33,7 @@ export const services = [
       "AWS",
       "Google Cloud",
     ],
-    start: 23,
+    start: 20,
     end: 50,
   },
   {
@@ -43,7 +43,7 @@ export const services = [
     selected: false,
     index: 1,
     technologies: ["IOS", "Android", "Kotlin", "swift", "Java"],
-    start: 25,
+    start: 20,
     end: 46,
   },
   {
@@ -59,7 +59,7 @@ export const services = [
       "Black Box Testing",
       "White Box Testing",
     ],
-    start: 21,
+    start: 20,
     end: 42,
   },
   {
@@ -75,7 +75,7 @@ export const services = [
       "Data Science and Analytics",
       "AI Research Scientist",
     ],
-    start: 22,
+    start: 20,
     end: 50,
   },
   {
@@ -91,7 +91,7 @@ export const services = [
       "Interaction Designer",
       "Visual Designer",
     ],
-    start: 24,
+    start: 20,
     end: 40,
   },
   {
@@ -109,7 +109,7 @@ export const services = [
       "CAD Technician",
       "3D Modeling Specialist",
     ],
-    start: 35,
+    start: 20,
     end: 45,
   },
 
@@ -127,7 +127,7 @@ export const services = [
       "System Admin",
       "Platform Engineer",
     ],
-    start: 27,
+    start: 20,
     end: 49,
   },
 ];
