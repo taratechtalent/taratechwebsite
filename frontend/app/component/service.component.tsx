@@ -197,15 +197,11 @@ const ServiceComponent = ({
                 <Link href="/service/art">
                   <h6 className="s-22 w-700">Building Architecture</h6>
                   <p>
-                    Digital architecture involves the process of designing and
-                    constructing buildings and structures through advanced
-                    technology, utilizing software and devices to plan,
-                    simulate, and execute architectural projects in a digital
-                    environment. This approach enables architects to create more
-                    precise and intricate designs, explore innovative
-                    construction techniques, and efficiently manage and execute
-                    building projects, from initial concept to final
-                    construction, in a virtual format.
+                    Digital architecture uses advanced technology and software
+                    to design and construct buildings, allowing architects to
+                    create detailed and complex designs, innovate construction
+                    methods, and efficiently manage projects from conception to
+                    completion in a virtual environment.
                   </p>
                 </Link>
               </div>
