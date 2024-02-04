@@ -25,7 +25,7 @@ export default function Hero() {
             aria-label="My Favorite Images"
             options={{
               type: "loop",
-              interval: 4000,
+              interval: 6000,
               autoplay: true,
               rewind: true,
             }}
@@ -65,9 +65,7 @@ export default function Hero() {
                   </div>
                 </div>{" "}
                 {/* END HERO TEXT */}
-              </div>
-              {/* HERO TEXT */}
-              <div className="col-md-6 order-last order-md-2">
+                <div className="col-md-6 order-last order-md-2">
                 <div className="hero-2-img  wow fadeInRight">
                   <img
                     className="img-fluid"
@@ -76,6 +74,9 @@ export default function Hero() {
                   />
                 </div>
               </div>{" "}
+              </div>
+              {/* HERO TEXT */}
+              
               {/* End row */}
             </SplideSlide>
             <SplideSlide>

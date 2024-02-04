@@ -41,19 +41,13 @@ export default function Menu() {
             </li>{" "}
           </ul>
         </li>
-        <li>
-          <Link href="#" className="h-link">
-            About Us <span className="wsarrow" />
+
+        <li className="nl-simple">
+          <Link href="/about" className="h-link">
+            About Us
           </Link>
-          <ul className="sub-menu">
-            <li>
-              <Link href="/about">About Us</Link>
-            </li>
-            <li>
-              <Link href="/team">Leadership Team</Link>
-            </li>
-          </ul>
         </li>
+
         {/* SIGN IN LINK */}
         {/* SIGN UP BUTTON */}
         <li className="nl-simple ">
