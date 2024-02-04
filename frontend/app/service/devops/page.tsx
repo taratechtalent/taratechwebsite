@@ -20,33 +20,52 @@ export default function DevopsService() {
             <div className="row justify-content-center">
               {/* PROJECT DISCRIPTION */}
               <div className="col-lg-11 col-xl-10">
-                <div className="project-description">
-                  {/* PROJECT TITLE */}
-                  <div className="project-title">
-                    {/* Title */}
-                    <h2 className="s-52 w-700">Devops</h2>
+                <section className="ct-01 inner-page-hero content-section division">
+                  <div className="container">
+                    {/* SECTION CONTENT (ROW) */}
+                    <div className="row d-flex align-items-center">
+                      {/* TEXT BLOCK */}
+                      <div className="col-md-6 order-last order-md-2">
+                        <div className="txt-block left-column wow fadeInRight">
+                          {/* Section ID */}
+                          {/* Title */}
+                          <h2 className="s-46 w-700">Devops</h2>
+                          {/* Text */}
+                          <p>
+                            DevOps is a set of practices that combines software
+                            development (Dev) and IT operations (Ops), aiming to
+                            shorten the system development life cycle and
+                            provide continuous delivery with high software
+                            quality. {`It's`} a cultural shift that fosters
+                            collaboration between development and operations
+                            teams, leading to more efficient and reliable
+                            systems.
+                          </p>
+                        </div>
+                      </div>{" "}
+                      {/* END TEXT BLOCK */}
+                      {/* IMAGE BLOCK */}
+                      <div className="col-md-6 order-first order-md-2">
+                        <div className="img-block right-column wow fadeInLeft">
+                          <img
+                            className="img-fluid"
+                            src="/images/services/internals/devops.png"
+                            alt="content-image"
+                            style={{
+                              borderRadius: "15px",
+                              boxShadow: "0 4px 12px 0 hsla(192,8%,47%,.43)",
+                            }}
+                          />
+                        </div>
+                      </div>
+                    </div>{" "}
+                    {/* END SECTION CONTENT (ROW) */}
                   </div>{" "}
-                  {/* END PROJECT TITLE */}
-                  {/* PROJECT PREVIEW IMAGE  */}
-                  <div className="project-priview-img mb-50 text-center">
-                    <img
-                      className="img-fluid r-16"
-                      src="/images/services/webDevelopment.png"
-                      alt="project-preview"
-                    />
-                  </div>
-                  {/* PROJECT TEXT */}
+                  {/* End container */}
+                </section>{" "}
+                <div className="project-description">
                   <div className="project-txt">
                     {/* Text */}
-                    <p>
-                      DevOps is a set of practices that combines software
-                      development (Dev) and IT operations (Ops), aiming to
-                      shorten the system development life cycle and provide
-                      continuous delivery with high software quality. {`It's`} a
-                      cultural shift that fosters collaboration between
-                      development and operations teams, leading to more
-                      efficient and reliable systems.
-                    </p>
                     {/* Small Title */}
                     <section
                       id="features-12"
