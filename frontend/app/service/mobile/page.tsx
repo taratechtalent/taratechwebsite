@@ -20,32 +20,51 @@ export default function MobileDevelopmentService() {
             <div className="row justify-content-center">
               {/* PROJECT DISCRIPTION */}
               <div className="col-lg-11 col-xl-10">
+                <section className="ct-01 inner-page-hero content-section division">
+                  <div className="container">
+                    {/* SECTION CONTENT (ROW) */}
+                    <div className="row d-flex align-items-center">
+                      {/* TEXT BLOCK */}
+                      <div className="col-md-6 order-last order-md-2">
+                        <div className="txt-block left-column wow fadeInRight">
+                          {/* Section ID */}
+                          {/* Title */}
+                          <h2 className="s-46 w-700">Mobile App Development</h2>
+                          {/* Text */}
+                          <p>
+                            devices and optimized to take advantage of those{" "}
+                            {`products'unique`} features and hardware. This
+                            section explores the significance of mobile apps in
+                            the modern digital ecosystem and their impact on
+                            businesses and consumers alike.
+                          </p>
+                        </div>
+                      </div>{" "}
+                      {/* END TEXT BLOCK */}
+                      {/* IMAGE BLOCK */}
+                      <div className="col-md-6 order-first order-md-2">
+                        <div className="img-block right-column wow fadeInLeft">
+                          <img
+                            className="img-fluid"
+                            src="/images/services/internals/mobile app development.png"
+                            alt="content-image"
+                            style={{
+                              borderRadius: "15px",
+                              boxShadow: "0 4px 12px 0 hsla(192,8%,47%,.43)",
+                            }}
+                          />
+                        </div>
+                      </div>
+                    </div>{" "}
+                    {/* END SECTION CONTENT (ROW) */}
+                  </div>{" "}
+                  {/* End container */}
+                </section>{" "}
                 <div className="project-description">
-                  {/* PROJECT TITLE */}
-                  <div className="project-title">
-                    {/* Title */}
-                    <h2 className="s-52 w-700">Mobile App Development</h2>
-                  </div>
-                  {/* END PROJECT TITLE */}
-                  {/* PROJECT PREVIEW IMAGE  */}
-                  <div className="project-priview-img mb-50 text-center">
-                    <img
-                      className="img-fluid r-16"
-                      src="/images/services/webDevelopment.png"
-                      alt="project-preview"
-                    />
-                  </div>
                   {/* PROJECT TEXT */}
                   <div className="project-txt">
                     {/* Text */}
-                    <p>
-                      devices and optimized to take advantage of those
-                      {`products'`}
-                      unique features and hardware. This section explores the
-                      significance of mobile apps in the modern digital
-                      ecosystem and their impact on businesses and consumers
-                      alike.
-                    </p>
+
                     {/* Small Title */}
                     <section
                       id="features-12"
@@ -207,7 +226,7 @@ export default function MobileDevelopmentService() {
                       <div className="row">
                         <div className="col text-center mb-32">
                           <h2 className="s-46 w-700">
-                          Efficient Collaboration Through DevOps
+                            Efficient Collaboration Through DevOps
                           </h2>
                           <p className="s-21 color--grey mt-6">
                             Crafting Flawless Software with Innovative Testing

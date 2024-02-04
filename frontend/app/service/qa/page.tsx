@@ -20,32 +20,51 @@ export default function QAService() {
             <div className="row justify-content-center">
               {/* PROJECT DISCRIPTION */}
               <div className="col-lg-11 col-xl-10">
-                <div className="project-description">
-                  {/* PROJECT TITLE */}
-                  <div className="project-title">
-                    {/* Title */}
-                    <h2 className="s-52 w-700">Software testing & QA</h2>
+                <section className="ct-01 inner-page-hero content-section division">
+                  <div className="container">
+                    {/* SECTION CONTENT (ROW) */}
+                    <div className="row d-flex align-items-center">
+                      {/* TEXT BLOCK */}
+                      <div className="col-md-6 order-last order-md-2">
+                        <div className="txt-block left-column wow fadeInRight">
+                          {/* Section ID */}
+                          {/* Title */}
+                          <h2 className="s-46 w-700">Software testing & QA</h2>
+                          {/* Text */}
+                          <p>
+                            Software testing and QA are critical components of
+                            the software development lifecycle, ensuring that
+                            applications meet the required standards and
+                            specifications. This section introduces the concepts
+                            and explains their significance in delivering
+                            reliable and high-quality software products.
+                          </p>
+                        </div>
+                      </div>{" "}
+                      {/* END TEXT BLOCK */}
+                      {/* IMAGE BLOCK */}
+                      <div className="col-md-6 order-first order-md-2">
+                        <div className="img-block right-column wow fadeInLeft">
+                          <img
+                            className="img-fluid"
+                            src="/images/services/internals/software testing.png"
+                            alt="content-image"
+                            style={{
+                              borderRadius: "15px",
+                              boxShadow: "0 4px 12px 0 hsla(192,8%,47%,.43)",
+                            }}
+                          />
+                        </div>
+                      </div>
+                    </div>{" "}
+                    {/* END SECTION CONTENT (ROW) */}
                   </div>{" "}
-                  {/* END PROJECT TITLE */}
-                  {/* PROJECT PREVIEW IMAGE  */}
-                  <div className="project-priview-img mb-50 text-center">
-                    <img
-                      className="img-fluid r-16"
-                      src="/images/services/qaService.webp"
-                      alt="project-preview"
-                    />
-                  </div>
+                  {/* End container */}
+                </section>{" "}
+                <div className="project-description">
                   {/* PROJECT TEXT */}
                   <div className="project-txt">
                     {/* Text */}
-                    <p>
-                      Software testing and QA are critical components of the
-                      software development lifecycle, ensuring that applications
-                      meet the required standards and specifications. This
-                      section introduces the concepts and explains their
-                      significance in delivering reliable and high-quality
-                      software products.
-                    </p>
                     {/* Small Title */}
                     <section
                       id="features-12"
