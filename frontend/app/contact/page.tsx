@@ -297,12 +297,14 @@ export default function Contact() {
                     {/* Title */}
                     <h2 className="s-34 w-700 ">Financial section</h2>
                     <span className="s-20 w-700">
-                      Sirtori, Lombardy , Italy
+                      Milan, 
+                      Italy
                     </span>
                     {/* Text */}
                     <p>
-                      No.42.3, Vittorio Veneto Quartiere Antica Strada Romana,
-                      Sirtori, Lombardy
+                    Holiday Group S.R.L.<br></br>
+                     Via Monte Rosa 74, Milan, 20149,
+                      Italy
                     </p>
                     {/* Text */}
                   </div>
@@ -311,9 +313,9 @@ export default function Contact() {
                 {/* END TEXT BLOCK */}
               </div>
 
-              <div className="row d-flex align-items-center mt-20">
+              {/* <div className="row d-flex align-items-center mt-20"> */}
                 {/* IMAGE BLOCK */}
-                <div className="col-md-6">
+                {/* <div className="col-md-6">
                   <div className="img-block left-column wow fadeInRight">
                     <img
                       className="img-fluid rounded-md"
@@ -321,25 +323,21 @@ export default function Contact() {
                       alt="content-image"
                     />
                   </div>
-                </div>
+                </div> */}
                 {/* TEXT BLOCK */}
-                <div className="col-md-6">
+                {/* <div className="col-md-6">
                   <div className="txt-block right-column wow fadeInLeft">
-                    {/* Section ID */}
 
-                    {/* Title */}
                     <h2 className="s-34 w-700 ">Main branch</h2>
                     <span className="s-20 w-700">Dubai, UAE</span>
-                    {/* Text */}
                     <p>No. 23, Al Safa Street, Al {`Bada'a`}, Dubai, UAE.</p>
-                    {/* Text */}
                   </div>
-                </div>
+                </div> */}
 
                 {/* END TEXT BLOCK */}
               </div>
               {/* END SECTION CONTENT (ROW) */}
-            </div>
+            {/* </div> */}
             {/* End container */}
           </section>
           <hr className="divider" />
