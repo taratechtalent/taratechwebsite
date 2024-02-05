@@ -284,7 +284,7 @@ export default function Contact() {
                   <div className="img-block left-column wow fadeInRight">
                     <img
                       className="img-fluid rounded-md"
-                      src="/images/italy.png"
+                      src="/images/milan.png"
                       alt="content-image"
                     />
                   </div>
