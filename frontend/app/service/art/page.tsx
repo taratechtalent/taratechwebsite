@@ -298,7 +298,7 @@ export default function DigitalArtService() {
                         {/* Project Preview */}
                         <div className="hover-overlay">
                           <img
-                            src="https://www.pngitem.com/pimgs/m/73-734675_digital-art-logo-png-transparent-png.png"
+                            src="/images/architecture.png"
                             alt="project-preview"
                             style={{ width: "100%" }}
                           />
