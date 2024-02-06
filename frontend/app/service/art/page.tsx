@@ -29,12 +29,18 @@ export default function DigitalArtService() {
                         <div className="txt-block left-column wow fadeInRight">
                           {/* Section ID */}
                           {/* Title */}
-                          <h2 className="s-46 w-700">Building Architecture</h2>
+                          <h2 className="s-46 w-700">
+                            Designing Dreams Building Realities
+                          </h2>
                           {/* Text */}
                           <p>
-                            Building architecture has evolved through various
-                            styles and forms, each reflecting the cultural,
-                            technological, and environmental contexts of its tim
+                            At TaraTalent, {`we're`} passionate about turning
+                            your architectural visions into tangible structures
+                            using Building Information Modeling (BIM). Our team
+                            of skilled architects, engineers, and designers
+                            collaborates to bring creativity, innovation, and
+                            sustainability to every project from concept to
+                            construction.
                           </p>
                         </div>
                       </div>{" "}
@@ -72,20 +78,18 @@ export default function DigitalArtService() {
                           {/* TEXT BLOCK */}
                           <div className="col-md-5">
                             <div className="txt-block left-column wow fadeInRight">
-                              {/* Section ID */}
-                              <span className="section-id">Forms of</span>
                               {/* Title */}
                               <h2 className="s-46 w-700">
-                                Building Architecture{" "}
+                                Building Architecture Experts{" "}
                               </h2>
                               {/* Text */}
                               <p>
-                                Expanding on the different forms of building
-                                architecture, we find a rich and diverse
-                                landscape of creative expression. Here are
-                                additional building architecture forms that
-                                showcase the breadth and depth of this evolving
-                                medium:
+                                Explore architectural innovation with{""}
+                                {`TaraTalent's`} expert team, from designers to
+                                engineers. We bring visions to life with
+                                precision, sustainability, and cutting-edge
+                                technology, crafting enduring architectural
+                                marvels.
                               </p>
                             </div>
                           </div>{" "}
@@ -121,7 +125,7 @@ export default function DigitalArtService() {
                                     {/* Text */}
                                     <div className="fbox-txt">
                                       <h5 className="s-20 w-700">
-                                        Motion Graphics and Animation
+                                        Energy and Sustainability Consultant
                                       </h5>
                                     </div>
                                   </div>
@@ -328,21 +332,21 @@ export default function DigitalArtService() {
                             {/* TESTIMONIAL #1 */}
                             <ServiceItemDetails
                               title="Impact on the Art World"
-                              description="Building architecture merges with the art world by transforming urban landscapes into canvases for public art, fostering collaborations that blur the lines between disciplines, and shaping the way art is experienced through the design of innovative exhibition spaces."
+                              description="TaraTalent's Building Architecture Experts have left an indelible mark on the world of architecture. Their innovative designs and sustainable approaches have reshaped the way we envision and construct buildings. From eco-friendly structures that reduce carbon footprints to breathtaking designs that captivate the eye, our experts have made a profound impact on the architectural landscape."
                             />
                             <ServiceItemDetails
                               title="Tools of the Trade"
                               description="
-                              In building architecture, essential tools include CAD software for precise drawings, BIM systems for project management, and digital fabrication technologies like 3D printing, alongside VR and AR for immersive design visualization. These tools revolutionize design processes, enhance collaboration, and enable innovative construction techniques."
+                              Our Building Architecture Experts wield a powerful arsenal of tools and technologies to bring their designs to life. They utilize state-of-the-art software for 3D modeling and building information modeling (BIM), ensuring precision in every detail. Sustainability is at the forefront, with advanced energy-efficient systems and materials that set new industry standards."
                             />
                             <ServiceItemDetails
                               title="Challenges and Controversies"
-                              description="Building architecture navigates challenges and controversies involving sustainability, historical preservation, and the balance between innovation and practicality. Debates extend to the aesthetics of modern constructions and the ethical implications of technology in design. The field strives for a balanced approach that honors heritage, embraces new possibilities, and considers social and environmental impacts."
+                              description="In the pursuit of architectural excellence, challenges and controversies are inevitable. Our experts face complex urban planning issues, environmental concerns, and debates surrounding architectural aesthetics. However, these challenges only fuel their creativity and commitment to finding innovative solutions that benefit both the environment and society."
                             />{" "}
                             <ServiceItemDetails
                               title="The Future"
                               description="
-                              The future of building architecture integrates sustainability, technological advancements, and inclusivity, focusing on eco-friendly designs, the use of AI and digital fabrication for innovative constructions, and creating accessible spaces that cater to diverse community needs. This approach aims for resilience, adaptability, and a harmonious relationship with the environment, marking a progressive shift towards responsible and advanced architectural practices."
+                              The future of building architecture holds exciting possibilities, and TaraTalent's experts are at the forefront of this evolution. They continue to push boundaries with designs that harmonize with nature, embrace sustainable practices, and incorporate cutting-edge technology. As the world evolves, our experts remain dedicated to shaping the future of architectural innovation."
                             />{" "}
                           </div>{" "}
                           {/* End row */}
