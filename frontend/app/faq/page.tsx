@@ -133,8 +133,8 @@ export default function Home() {
                                   opportunities in the tech industry, covering
                                   various domains such as web app development,
                                   DevOps, software testing, mobile app
-                                  development, AI/machine learning, UI/UX
-                                  design, and building architecture.
+                                  development, AI/machine learning, UI/UX design
+                                  and building architecture.
                                 </p>
                               </li>
                             </ul>
@@ -244,27 +244,7 @@ export default function Home() {
                           {/* Question */}
                           <div className="faqs-2-question">
                             <h5 className="s-22 w-700">
-                              <span>9.</span> Is TaraTalent committed to privacy
-                              and copyright protection?
-                            </h5>
-                          </div>
-                          {/* Answer */}
-                          <div className="faqs-2-answer color--grey">
-                            {/* Text */}
-                            <p>
-                              Yes, we prioritize the protection of intellectual
-                              property and personal information, maintaining a
-                              strict commitment to privacy and copyright.
-                            </p>
-                          </div>
-                        </div>{" "}
-                        {/* END QUESTION #9 */}
-                        {/* QUESTION #10 */}
-                        <div className="accordion-panel-item">
-                          {/* Question */}
-                          <div className="faqs-2-question">
-                            <h5 className="s-22 w-700">
-                              <span>10.</span> How are payments handled for
+                              <span>9.</span> How are payments handled for
                               talent?
                             </h5>
                           </div>
@@ -279,13 +259,13 @@ export default function Home() {
                             </p>
                           </div>
                         </div>{" "}
-                        {/* END QUESTION #10 */}
-                        {/* QUESTION #11 */}
+                        {/* END QUESTION #9 */}
+                        {/* QUESTION #10 */}
                         <div className="accordion-panel-item">
                           {/* Question */}
                           <div className="faqs-2-question">
                             <h5 className="s-22 w-700">
-                              <span>11.</span> What concerns do CEOs and company
+                              <span>10.</span> What concerns do CEOs and company
                               leaders typically have when hiring talent through
                               traditional methods?
                             </h5>
@@ -303,13 +283,13 @@ export default function Home() {
                             </p>
                           </div>
                         </div>{" "}
-                        {/* END QUESTION #11 */}
-                        {/* QUESTION #12 */}
+                        {/* END QUESTION #10 */}
+                        {/* QUESTION #11 */}
                         <div className="accordion-panel-item">
                           {/* Question */}
                           <div className="faqs-2-question">
                             <h5 className="s-22 w-700">
-                              <span>12.</span> How does TaraTalent alleviate
+                              <span>11.</span> How does TaraTalent alleviate
                               these concerns for CEOs and company leaders?
                             </h5>
                           </div>
@@ -317,22 +297,20 @@ export default function Home() {
                           <div className="faqs-2-answer color--grey">
                             {/* Text */}
                             <p>
-                              CEOs and company leaders often worry about the
-                              administrative hassles, employment-related
-                              obligations, and legal complexities that come with
-                              hiring talent directly. They may also have
-                              concerns about handling salary payments and
-                              ensuring compliance with local regulations.
+                              TaraTalent provides a solution that takes care of
+                              all these worries. When you partner with us, our
+                              talent becomes our employees, and we handle all
+                              administrative tasks.
                             </p>
                           </div>
                         </div>{" "}
-                        {/* END QUESTION #12 */}
-                        {/* QUESTION #13 */}
+                        {/* END QUESTION #11 */}
+                        {/* QUESTION #12 */}
                         <div className="accordion-panel-item">
                           {/* Question */}
                           <div className="faqs-2-question">
                             <h5 className="s-22 w-700">
-                              <span>13.</span> What specific administrative
+                              <span>12.</span> What specific administrative
                               tasks and obligations does TaraTalent manage on
                               behalf of CEOs and company leaders?
                             </h5>
@@ -350,13 +328,13 @@ export default function Home() {
                             </p>
                           </div>
                         </div>{" "}
-                        {/* END QUESTION #13 */}
-                        {/* QUESTION #14 */}
+                        {/* END QUESTION #12 */}
+                        {/* QUESTION #13 */}
                         <div className="accordion-panel-item">
                           {/* Question */}
                           <div className="faqs-2-question">
                             <h5 className="s-22 w-700">
-                              <span>14.</span> What is {`TaraTalent's`} trial
+                              <span>13.</span> What is {`TaraTalent's`} trial
                               period policy for new talent placements?
                             </h5>
                           </div>
@@ -371,13 +349,13 @@ export default function Home() {
                             </p>
                           </div>
                         </div>{" "}
-                        {/* END QUESTION #14 */}
-                        {/* QUESTION #15 */}
+                        {/* END QUESTION #13 */}
+                        {/* QUESTION #14 */}
                         <div className="accordion-panel-item">
                           {/* Question */}
                           <div className="faqs-2-question">
                             <h5 className="s-22 w-700">
-                              <span>15.</span> How does TaraTalent handle
+                              <span>14.</span> How does TaraTalent handle
                               contract cancellations?
                             </h5>
                           </div>
@@ -393,13 +371,13 @@ export default function Home() {
                             </p>
                           </div>
                         </div>{" "}
-                        {/* END QUESTION #15 */}
-                        {/* QUESTION #16 */}
+                        {/* END QUESTION #14 */}
+                        {/* QUESTION #15 */}
                         <div className="accordion-panel-item">
                           {/* Question */}
                           <div className="faqs-2-question">
                             <h5 className="s-22 w-700">
-                              <span>16.</span> Can we replace a talent if
+                              <span>15.</span> Can we replace a talent if{" "}
                               {`they're`} not a good fit?
                             </h5>
                           </div>
@@ -414,13 +392,13 @@ export default function Home() {
                             </p>
                           </div>
                         </div>{" "}
-                        {/* END QUESTION #16 */}
-                        {/* QUESTION #17 */}
+                        {/* END QUESTION #15 */}
+                        {/* QUESTION #16 */}
                         <div className="accordion-panel-item">
                           {/* Question */}
                           <div className="faqs-2-question">
                             <h5 className="s-22 w-700">
-                              <span>17.</span> How can I get started with
+                              <span>16.</span> How can I get started with
                               TaraTalent?
                             </h5>
                           </div>
@@ -433,12 +411,12 @@ export default function Home() {
                               will guide you through the process of finding the
                               right talent for your needs. {`We'll`} schedule a
                               consultation meeting to discuss your requirements
-                              and alleviate any concerns you may have about the
+                              and address any concerns you may have about the
                               hiring process.
                             </p>
                           </div>
                         </div>{" "}
-                        {/* END QUESTION #17 */}
+                        {/* END QUESTION #16 */}
                       </div>{" "}
                       {/* END CATEGORY ANSWERS */}
                     </li>{" "}
@@ -479,7 +457,7 @@ export default function Home() {
                               We value top-notch skills and experience. While
                               requirements may vary depending on the role, we
                               typically look for professionals with a strong
-                              track record in their field, extensive experience,
+                              track record in their field, extensive experience
                               and a commitment to excellence.
                             </p>
                           </div>
@@ -502,7 +480,7 @@ export default function Home() {
                               typically involves an English language proficiency
                               test, HR assessments, technical tests, and
                               practical assignments to evaluate your skills and
-                              suitability for opportunities.
+                              compatibility for opportunities.
                             </p>
                           </div>
                         </div>{" "}
