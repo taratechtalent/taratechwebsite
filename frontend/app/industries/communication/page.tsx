@@ -10,7 +10,7 @@ export default function Home() {
         headerCls="navbar-dark inner-page-header"
       >
         <div>
-          <section className="ct-01 inner-page-hero content-section division">
+          <section className="ct-01 inner-page-hero content-section division mt-24">
             <div className="container">
               {/* SECTION CONTENT (ROW) */}
               <div className="row d-flex align-items-center">

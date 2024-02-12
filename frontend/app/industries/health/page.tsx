@@ -10,7 +10,7 @@ export default function Home() {
         headerCls="navbar-dark inner-page-header"
       >
         <div>
-          <section className="ct-01 inner-page-hero content-section division">
+          <section className="ct-01 inner-page-hero content-section division mt-24">
             <div className="container">
               {/* SECTION CONTENT (ROW) */}
               <div className="row d-flex align-items-center">
@@ -43,7 +43,7 @@ export default function Home() {
                   <div className="img-block right-column wow fadeInLeft">
                     <img
                       className="img-fluid"
-                      src="https://ugc.futurelearn.com/uploads/images/7c/81/header_7c81af9e-e2ff-49c9-9f32-319622544232.jpg"
+                      src="/images/industries/header_7c81af9e-e2ff-49c9-9f32-319622544232.jpg"
                       alt="content-image"
                       style={{
                         borderRadius: "15px",
