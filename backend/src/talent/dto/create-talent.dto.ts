@@ -1,5 +1,5 @@
 import { ApiProperty } from '@nestjs/swagger';
-import { IsEmail, IsString } from 'class-validator';
+import { IsEmail, IsNumber, IsOptional, IsString } from 'class-validator';
 
 export class CreateTalentDTO {
   @ApiProperty({
@@ -18,11 +18,48 @@ export class CreateTalentDTO {
     type: 'string',
   })
   @IsString()
+  @IsOptional()
   description: string;
 
   @ApiProperty({
     type: 'string',
   })
+  @IsOptional()
   @IsString()
   linkedIn: string;
+
+  @ApiProperty({
+    type: 'string',
+  })
+  @IsOptional()
+  @IsString()
+  title: string;
+
+  @ApiProperty({
+    type: 'string',
+  })
+  @IsOptional()
+  @IsString()
+  skills: string;
+
+  @ApiProperty({
+    type: 'string',
+  })
+  @IsOptional()
+  @IsString()
+  phone: string;
+
+  @ApiProperty({
+    type: 'string',
+  })
+  @IsOptional()
+  @IsString()
+  jobInterest: string;
+
+  @ApiProperty({
+    type: 'string',
+  })
+  @IsOptional()
+  @IsNumber()
+  yearsOfExperience: number;
 }
