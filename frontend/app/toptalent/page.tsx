@@ -636,7 +636,7 @@ export default function TopTalent() {
                       </div>
                       {/* Text */}
                       <div className="in_tool-txt">
-                        <h6 className="s-20 w-700 pt-2">Digital Art</h6>
+                        <h6 className="s-20 w-700 pt-2">Building Architecture</h6>
                       </div>
                     </Link>
                   </div>{" "}
