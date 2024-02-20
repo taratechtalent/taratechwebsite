@@ -48,7 +48,7 @@ export default function TopTalent() {
                       professionals from around the world.
                     </p>
                     {/* Text */}
-                    <ul className="ml-10">
+                    <ul className="ml-10 ">
                       <li>
                         This rigorous approach ensures that our team consists of<b style={{ padding: 4 }}> domain experts </b>
                          who bring both <b style={{ padding: 4 }}> expertise </b> and <b style={{ padding: 4 }}> enthusiasm </b>
@@ -57,6 +57,12 @@ export default function TopTalent() {
                         of <b style={{ padding: 4 }}> startups </b>.
                       </li>
                     </ul>
+                    <Link
+                        href="/book"
+                        className="btn r-04 btn--theme hover--theme last-link ml-10"
+                      >
+                        Schedule a Call
+                      </Link>
                   </div>
                 </div>
                 {/* END TEXT BLOCK */}
