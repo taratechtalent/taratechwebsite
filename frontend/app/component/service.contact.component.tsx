@@ -4,7 +4,7 @@ import Link from "next/link";
 const ServiceContactComponent = ({
   title = "Join Us in Crafting a Partnership Where Success Knows No Bounds",
   desc = "Your unique perspective and talents are the missing pieces to our collective success story.",
-  btnLabel = "Team up for success",
+  btnLabel = "Team Up for Success",
 }: {
   title?: string;
   desc?: string;

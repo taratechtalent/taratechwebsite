@@ -256,7 +256,7 @@ export default function Home() {
                 href="/book"
                 className="btn r-04 btn--theme hover--theme mb-20  mt-20"
               >
-                Team up for success
+                Team Up for Success
               </Link>
             </div>
           </div>

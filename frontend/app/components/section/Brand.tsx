@@ -27,7 +27,7 @@ export default function Brands({ header, desc }: any) {
                 href="/technology"
                 className="btn r-04 btn--theme hover--theme last-link ml-20"
               >
-                View Most popular technologies
+                View Most Popular Technologies
               </Link>
             </div>
           </div>

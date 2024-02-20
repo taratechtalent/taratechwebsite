@@ -309,7 +309,7 @@ export default function Team() {
                           href="/book"
                           className="btn r-04 btn--theme hover--tra-white"
                         >
-                          Team up for success
+                          Team Up for Success
                         </Link>
                       </div>
                     </div>{" "}

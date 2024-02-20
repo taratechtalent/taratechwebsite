@@ -57,7 +57,7 @@ export default function Footer() {
                   </li>{" "}
                   <li>
                     <p>
-                      <Link href="/contact">Contact us</Link>
+                      <Link href="/contact">Contact Us</Link>
                     </p>
                   </li>
                 </ul>
@@ -76,7 +76,7 @@ export default function Footer() {
                   </li>{" "}
                   <li>
                     <p>
-                      <Link href="/calculator"> Get a quote</Link>
+                      <Link href="/calculator"> Get a Quote</Link>
                     </p>
                   </li>
                 </ul>
