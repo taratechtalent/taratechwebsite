@@ -83,22 +83,22 @@ export default function BrandSlider() {
             />
           </Link>
         </SwiperSlide>
-        <SwiperSlide className="brand-logo">
+        {/* <SwiperSlide className="brand-logo">
           <Link href="#">
             <img
               width={"50%"}
               className="img-fluid light-theme-img rounded-lg"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nestjs/nestjs-plain.svg"
+              src="/images/nestjs.svg"
               alt="brand-logo"
             />
           </Link>
-        </SwiperSlide>
+        </SwiperSlide> */}
         <SwiperSlide className="brand-logo">
           <Link href="#">
             <img
               width={"50%"}
               className="img-fluid light-theme-img rounded-lg"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg"
+              src="/images/nestjs.svg"
               alt="brand-logo"
             />
           </Link>
