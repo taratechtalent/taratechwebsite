@@ -41,28 +41,35 @@ export default function TopTalent() {
                     {/* Text */}
                     <p>
                       At TaraTalent, {`we're`} committed to an unparalleled
-                      standard of excellence in every hire. Our <b style={{ padding: 4 }}>Top 1% Talent
-                      Strategy </b> is centered around a comprehensive and thorough
-                      <b style={{ padding: 4 }}>selection process </b>. We meticulously identify and
-                      collaborate with only the most skilled and passionate
-                      professionals from around the world.
+                      standard of excellence in every hire. Our{" "}
+                      <b style={{ padding: 4 }}>Top 1% Talent Strategy </b> is
+                      centered around a comprehensive and thorough
+                      <b style={{ padding: 4 }}>selection process </b>. We
+                      meticulously identify and collaborate with only the most
+                      skilled and passionate professionals from around the
+                      world.
                     </p>
                     {/* Text */}
                     <ul className="ml-10 ">
                       <li>
-                        This rigorous approach ensures that our team consists of<b style={{ padding: 4 }}> domain experts </b>
-                         who bring both <b style={{ padding: 4 }}> expertise </b> and <b style={{ padding: 4 }}> enthusiasm </b>
+                        This rigorous approach ensures that our team consists of
+                        <b style={{ padding: 4 }}> domain experts </b>
+                        who bring both <b style={{ padding: 4 }}>
+                          {" "}
+                          expertise{" "}
+                        </b>{" "}
+                        and <b style={{ padding: 4 }}> enthusiasm </b>
                         to every project, aligning with our high standards of
                         quality and innovation which perfectly matches the needs
                         of <b style={{ padding: 4 }}> startups </b>.
                       </li>
                     </ul>
                     <Link
-                        href="/book"
-                        className="btn r-04 btn--theme hover--theme last-link ml-10"
-                      >
-                        Schedule a Call
-                      </Link>
+                      href="/book"
+                      className="btn r-04 btn--theme hover--theme last-link ml-10"
+                    >
+                      Schedule a Call
+                    </Link>
                   </div>
                 </div>
                 {/* END TEXT BLOCK */}
@@ -636,7 +643,9 @@ export default function TopTalent() {
                       </div>
                       {/* Text */}
                       <div className="in_tool-txt">
-                        <h6 className="s-20 w-700 pt-2">Building Architecture</h6>
+                        <h6 className="s-20 w-700 pt-2">
+                          Building Architecture
+                        </h6>
                       </div>
                     </Link>
                   </div>{" "}
@@ -718,21 +727,18 @@ export default function TopTalent() {
                           TaraTalent expert?
                         </h5>
                         {/* Answer */}
-                        <ul className="simple-list color--grey">
-                          <li className="list-item">
-                            <p>
-                              If, for any reason, you are not fully satisfied
-                              with the {`talent's`} performance or believe they
-                              are not the right fit for your project, you can
-                              choose not to continue with their services, and
-                              you will not incur any charges. We believe in the
-                              quality of our talent and are confident that{" "}
-                              {`you'll`} find the right fit, but we offer this
-                              trial period to provide peace of mind and ensure
-                              you are completely satisfied with your choice.
-                            </p>
-                          </li>
-                        </ul>
+
+                        <p>
+                          If, for any reason, you are not fully satisfied with
+                          the {`talent's`} performance or believe they are not
+                          the right fit for your project, you can choose not to
+                          continue with their services, and you will not incur
+                          any charges. We believe in the quality of our talent
+                          and are confident that {`you'll`} find the right fit,
+                          but we offer this trial period to provide peace of
+                          mind and ensure you are completely satisfied with your
+                          choice.
+                        </p>
                       </div>
                     </div>
                   </div>{" "}
