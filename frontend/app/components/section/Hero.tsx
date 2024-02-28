@@ -82,7 +82,7 @@ export default function Hero() {
                     <h2 className="s-48 w-700 color--black">
                       Smart <br></br>
                       <span className="main-text">Hiring</span> <br></br>{" "}
-                      Smarter <span className="main-text">Budgeting</span>
+                      Smarter <br></br><span className="main-text">Budgeting</span>
                     </h2>
 
                     <p className="p-lg">
