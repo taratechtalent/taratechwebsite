@@ -60,7 +60,7 @@ export default function Career() {
                         href="/career/join"
                         className="btn r-04 btn--theme hover--theme last-link ml-20"
                       >
-                        Join our Talent network
+                        Join our Talent Network
                       </Link>
                     </div>
                   </div>{" "}
