@@ -22,7 +22,7 @@ import "@splidejs/react-splide/css/sea-green";
 import "@splidejs/react-splide/css/core";
 
 export const metadata: Metadata = {
-  title: "Taratech talent",
+  title: "Tara Talent",
   description: "Affordable Senior Talents for startups",
 };
 
