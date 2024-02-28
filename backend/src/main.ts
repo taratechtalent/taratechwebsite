@@ -3,9 +3,13 @@ import { AppModule } from './app/app.module';
 import { configApp } from './config/configApp';
 import { getEnv } from './config/env';
 import AppDataSource from './typeorm.config';
-
+import * as fs from 'fs';
 async function bootstrap() {
-  const app = await NestFactory.create(AppModule);
+  const httpsOptions = {
+    key: fs.readFileSync('/secrets/private-key.pem'),
+    cert: fs.readFileSync('/secrets/public-certificate.pem'),
+  };
+  const app = await NestFactory.create(AppModule, { httpsOptions });
 
   await AppDataSource.initialize();
   configApp(app);
