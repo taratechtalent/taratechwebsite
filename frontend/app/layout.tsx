@@ -12,16 +12,14 @@ import "/public/css/pink-theme.css";
 import "/public/css/responsive.css";
 
 // Default theme
-import '@splidejs/react-splide/css';
-
+import "@splidejs/react-splide/css";
 
 // or other themes
-import '@splidejs/react-splide/css/skyblue';
-import '@splidejs/react-splide/css/sea-green';
-
+import "@splidejs/react-splide/css/skyblue";
+import "@splidejs/react-splide/css/sea-green";
 
 // or only core styles
-import '@splidejs/react-splide/css/core';
+import "@splidejs/react-splide/css/core";
 
 export const metadata: Metadata = {
   title: "Taratech talent",
@@ -39,7 +37,7 @@ export default function RootLayout({
         <meta name="robots" content="noindex, nofollow" />
         <link
           rel="shortcut icon"
-          href="/images/favicon.ico"
+          href="/images/fav/favicon.ico"
           type="image/x-icon"
         />
         <link
