@@ -11,11 +11,9 @@ import { ServiceEnum, ServiceLeveEnum, services } from "./util";
 export default function Book() {
   const [finalYearlyPriceStart, setFinalYearlyPriceStart] = useState("");
   const [finalYearlyPriceEnd, setFinalYearlyPriceEnd] = useState("");
-  
 
   const [finalMonthlyPriceStart, setFinalMonthlyPriceStart] = useState("");
   const [finalMonthlyPriceEnd, setFinalMonthlyPriceEnd] = useState("");
-  
 
   const [levels, setLevels] = useState(["Junior", "Mid-Level", "Senior"]);
   const [selectedLevel, setSelectedLevel] = useState("Junior");
@@ -30,8 +28,6 @@ export default function Book() {
     setSelectedTechnologies([]);
   };
 
-
-
   const selectTechnologies = (tech: string) => {
     let result = [...selectedTechnologies];
     if (selectedTechnologies.includes(tech)) {
@@ -41,7 +37,6 @@ export default function Book() {
     }
     setSelectedTechnologies(result);
   };
-
 
   useEffect(() => {
     let startPrice = 0,
@@ -68,25 +63,27 @@ export default function Book() {
         break;
     }
 
-
     // K€
 
-    setFinalYearlyPriceStart(startPrice.toFixed(1).toString().endsWith(".0") ? parseInt(startPrice.toFixed(1)).toString() : startPrice.toFixed(1))
-    setFinalYearlyPriceEnd(endPrice.toFixed(1).toString().endsWith(".0") ? parseInt(endPrice.toFixed(1)).toString() : endPrice.toFixed(1))
+    setFinalYearlyPriceStart(
+      startPrice.toFixed(1).toString().endsWith(".0")
+        ? parseInt(startPrice.toFixed(1)).toString()
+        : startPrice.toFixed(1)
+    );
+    setFinalYearlyPriceEnd(
+      endPrice.toFixed(1).toString().endsWith(".0")
+        ? parseInt(endPrice.toFixed(1)).toString()
+        : endPrice.toFixed(1)
+    );
 
-
-
-    let start: any = ((startPrice / 12)).toFixed(1).toString();
+    let start: any = (startPrice / 12).toFixed(1).toString();
     start = start.endsWith(".0") ? parseInt(start) : start;
 
-    let end: any = ((endPrice / 12)).toFixed(1).toString();
+    let end: any = (endPrice / 12).toFixed(1).toString();
     end = end.endsWith(".0") ? parseInt(end) : end;
 
-    setFinalMonthlyPriceStart(start.toString())
-    setFinalMonthlyPriceEnd(end.toString())
-
-    
- 
+    setFinalMonthlyPriceStart(start.toString());
+    setFinalMonthlyPriceEnd(end.toString());
   }, [selectedService, selectedLevel, selectedPeriod]);
 
   return (
@@ -101,7 +98,7 @@ export default function Book() {
 ============================================= */}
           <div
             id="login"
-            className="bg--fixed login-1 login-section division !mt-6"
+            className="bg--fixed login-1 login-section division !mt-1"
           >
             <div className="container">
               <div className="row">
@@ -231,13 +228,13 @@ export default function Book() {
                               })}
                             </ul>
                           </div>
-                         
                         </div>
                         <div className="col-sm-3">
                           <div
                             style={{
-                              marginTop: "200px",
-                              width:"420px",
+                              marginTop: "100px",
+                              backgroundColor: "#ddddee82",
+                              width: "420px",
                               border: "3px solid #37939b",
                               padding: "45px",
                               borderRadius: "15px",
@@ -367,7 +364,9 @@ export default function Book() {
                             <hr className="divider !mt-6 !mb-3" />
                             <div className="text-center">
                               <b className="s-16 w-300 ">
-                                <Link href={`/book?level=${selectedLevel}&service=${selectedService}`}>
+                                <Link
+                                  href={`/book?level=${selectedLevel}&service=${selectedService}`}
+                                >
                                   <b className="w-500 s-32">{`let's`} talk</b>
                                 </Link>
                               </b>
