@@ -44,11 +44,12 @@ export default function ServicePage() {
         <section className="py-100 ct-02 content-section division">
           <div className="container">
             <div className="row">
-              <div className="col text-center mb-32">
-                <h2 className="s-52 w-700">How to work with Us</h2>
-                <h4 className="font-bold pt-6">
+              <div className="col text-center mb-20">
+                <h2 className="s-52 w-700 mb-20">How to work with Us</h2>
+                <p className="s-21 color--grey mb-24">Achive your goal in the way you never experienced before</p>
+                {/* <h4 className="font-bold pt-6">
                   Achive your goal in the way you never experienced before
-                </h4>
+                </h4> */}
               </div>
             </div>
             {/* SECTION CONTENT (ROW) */}
