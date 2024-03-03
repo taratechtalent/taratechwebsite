@@ -227,7 +227,7 @@ export default function Book() {
                                         type="button"
                                         className="btn btn--theme hover--theme submit"
                                       >
-                                        Schedual a Call
+                                        Schedule a Call
                                       </button>
                                     </div>
                                   </form>{" "}

@@ -74,7 +74,7 @@ export default function Menu() {
               fontSize: "14px !important",
             }}
           >
-            Schedual a Call
+            Schedule a Call
           </Link>
         </li>
         <li className="nl-simple ">

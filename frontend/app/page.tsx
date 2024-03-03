@@ -60,7 +60,7 @@ const Introduction = () => {
               {/* Text */}
               <p className="p-lg">
                 {" "}
-                "{" "}The idea for TaraTalent company emerged from a clear market
+                " The idea for TaraTalent company emerged from a clear market
                 reality: a <b style={{ padding: 4 }}>
                   {" "}
                   significant demand{" "}
@@ -811,7 +811,7 @@ const OurProcess = () => {
                     className="btn r-04 btn--theme hover--theme last-link ml-20"
                     style={{ marginLeft: "60px" }}
                   >
-                    Schedual a Call
+                    Schedule a Call
                   </Link>
                 </div>
               </div>
