@@ -42,7 +42,8 @@ export default function About() {
                     {/* IMAGE-1 */}
                     <div className="about-2-img a-2-1 r-12">
                       <img
-                        className="img-fluid"style={{width:"700px"}}
+                        className="img-fluid"
+                        style={{ width: "700px" }}
                         src="/images/a2-1.jpg"
                         alt="about-image"
                       />
@@ -78,11 +79,11 @@ export default function About() {
                         </div>
                         {/* Text */}
                         <p>
-                          {""}
-                          "{" "}TaraTalent was founded with a vision to bridge the gap
+                          {" "}
+                          TaraTalent was founded with a vision to bridge the gap
                           between the demand for top-tier tech talent and the
                           need for cost-effective staffing solutions in the
-                          ever-evolving tech industry."
+                          ever-evolving tech industry.
                         </p>
                         {/* Author */}
                         <p className="a2-txt-author">
