@@ -142,7 +142,7 @@ const ServiceComponent = ({
                   <p>
                     UI/UX design merges visual design with user experience to
                     create intuitive and attractive interfaces, focusing on
-                    {`user's`} ease, engagement, and satisfaction with a
+                    {`user's`} ease, engagement, and satisfaction with a {" "}
                     {`product's`} look and feel.
                   </p>
                 </Link>

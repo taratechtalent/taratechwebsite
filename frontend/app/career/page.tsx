@@ -60,7 +60,7 @@ export default function Career() {
                         href="/career/join"
                         className="btn r-04 btn--theme hover--theme last-link ml-20"
                       >
-                        Join our Talent network
+                        Join our Talent Network
                       </Link>
                     </div>
                   </div>{" "}
@@ -708,16 +708,13 @@ export default function Career() {
                             joining TaraTalent as a talent?
                           </h5>
                           {/* Answer */}
-                          <ul className="simple-list color--grey">
-                            <li className="list-item">
-                              <p>
-                                No, there are no charges for talent to join
-                                TaraTalent. Our platform is designed to connect
-                                talents with opportunities, and we do not impose
-                                any fees on talents.
-                              </p>
-                            </li>
-                          </ul>
+
+                          <p>
+                            No, there are no charges for talent to join
+                            TaraTalent. Our platform is designed to connect
+                            talents with opportunities, and we do not impose any
+                            fees on talents.
+                          </p>
                         </div>
                       </div>
                     </div>{" "}

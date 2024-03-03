@@ -59,6 +59,21 @@ const Introduction = () => {
               <h2 className="s-50 w-700">Amin Derakhshan</h2>
               {/* Text */}
               <p className="p-lg">
+                {" "}
+                "{" "}The idea for TaraTalent company emerged from a clear market
+                reality: a <b style={{ padding: 4 }}>
+                  {" "}
+                  significant demand{" "}
+                </b>{" "}
+                for skilled tech professionals alongside a need for{" "}
+                <b style={{ padding: 4 }}>cost-effective </b> staffing
+                solutions. {"We're"} here to{" "}
+                <b style={{ padding: 4 }}>bridge that gap</b>, creating
+                connections that empower businesses with the right talent to
+                drive innovation and growth."
+              </p>
+
+              {/* <p className="p-lg">
                 The idea for TaraTalent company emerged from a clear market
                 reality: a <b style={{ padding: 4 }}> significant demand </b>{" "}
                 for skilled tech professionals alongside a need for{" "}
@@ -67,7 +82,7 @@ const Introduction = () => {
                 <b style={{ padding: 4 }}>bridge that gap</b>, creating
                 connections that empower businesses with the right talent to
                 drive innovation and growth.
-              </p>
+              </p> */}
             </div>
           </div>
 

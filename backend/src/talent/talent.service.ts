@@ -4,6 +4,7 @@ import { TalentEntity } from './entity/talent.entity';
 import { InjectRepository } from '@nestjs/typeorm';
 import { CreateTalentDTO } from './dto/create-talent.dto';
 import { UpdateTalentDTO } from './dto/update-talent.dto';
+import { FilterTalentDTO } from './dto/filter-talent.dto';
 
 @Injectable()
 export class TalentService {
@@ -11,14 +12,18 @@ export class TalentService {
     @InjectRepository(TalentEntity)
     private readonly talenReposity: Repository<TalentEntity>,
   ) {}
-  find(body: any) {
+  find(body: FilterTalentDTO) {
     const filter: any = {};
     if (body.name) filter.name = ILike('%' + body.name + '%');
     if (body.linkedIn) filter.linkedIn = ILike('%' + body.linkedIn + '%');
     if (body.phone) filter.phone = ILike('%' + body.phone + '%');
     if (body.email) filter.email = ILike('%' + body.email + '%');
     if (body.status) filter.status = body.status;
-    return this.talenReposity.find({ where: filter });
+    return this.talenReposity.find({
+      where: filter,
+      take: 10,
+      skip: (body.page - 1) * 10,
+    });
   }
 
   create(talent: CreateTalentDTO) {

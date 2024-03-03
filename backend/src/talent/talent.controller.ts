@@ -30,8 +30,16 @@ export class TalentController {
     @Query('phone') phone: string,
     @Query('linkedIn') linkedIn: string,
     @Query('status') status: TalentStatusEnum,
+    @Query('page') page = 1,
   ) {
-    return this.talentService.find({ name, email, phone, linkedIn, status });
+    return this.talentService.find({
+      name,
+      email,
+      phone,
+      linkedIn,
+      status,
+      page,
+    });
   }
 
   @ApiOperation({ summary: 'Create new talent' })
