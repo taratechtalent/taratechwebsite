@@ -60,7 +60,7 @@ const Introduction = () => {
               {/* Text */}
               <p className="p-lg">
                 {" "}
-                " The idea for TaraTalent company emerged from a clear market
+                The idea for TaraTalent company emerged from a clear market
                 reality: a <b style={{ padding: 4 }}>
                   {" "}
                   significant demand{" "}
@@ -70,7 +70,7 @@ const Introduction = () => {
                 solutions. {"We're"} here to{" "}
                 <b style={{ padding: 4 }}>bridge that gap</b>, creating
                 connections that empower businesses with the right talent to
-                drive innovation and growth."
+                drive innovation and growth.
               </p>
 
               {/* <p className="p-lg">
