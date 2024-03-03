@@ -6,6 +6,7 @@ import {
   Patch,
   Param,
   Delete,
+  Query,
 } from '@nestjs/common';
 import { ContactusService } from './contactus.service';
 import { CreateContactusDto } from './dto/create-contactus.dto';
@@ -28,8 +29,20 @@ export class ContactusAdminController {
   }
 
   @Get()
-  findAll() {
-    return this.contactusService.findAll();
+  findAll(
+    @Query('name') name: string,
+    @Query('email') email: string,
+    @Query('description') description: string,
+    @Query('status') status: string,
+    @Query('page') page = 1,
+  ) {
+    return this.contactusService.findAll({
+      name,
+      email,
+      description,
+      status,
+      page,
+    });
   }
 
   @Patch(':uuid')

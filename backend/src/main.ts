@@ -5,10 +5,18 @@ import { getEnv } from './config/env';
 import AppDataSource from './typeorm.config';
 import * as fs from 'fs';
 async function bootstrap() {
-  const httpsOptions = {
-    key: fs.readFileSync('/secrets/private-key.pem'),
-    cert: fs.readFileSync('/secrets/public-certificate.pem'),
-  };
+  let key, cert, httpsOptions;
+  try {
+    key = fs.readFileSync('/secrets/private-key.pem');
+    cert = fs.readFileSync('/secrets/public-certificate.pem');
+    httpsOptions = {
+      key: fs.readFileSync('/secrets/private-key.pem'),
+      cert: fs.readFileSync('/secrets/public-certificate.pem'),
+    };
+  } catch (error) {
+    httpsOptions = null;
+  }
+
   const app = await NestFactory.create(AppModule, { httpsOptions });
 
   await AppDataSource.initialize();
