@@ -158,7 +158,7 @@ export default function Book() {
                                     </div>{" "}
                                     <div className="col-md-12">
                                       <p className="p-sm input-header">
-                                        Company Name:
+                                        Company Name
                                       </p>
                                       <input
                                         className="form-control text"
@@ -173,7 +173,7 @@ export default function Book() {
                                     </div>
                                     <div className="col-md-12">
                                       <p className="p-sm input-header">
-                                        Position:
+                                        Position
                                       </p>
                                       <input
                                         className="form-control text"
@@ -205,7 +205,7 @@ export default function Book() {
                                       <p className="p-sm input-header">
                                         Feel free to share any thoughts or
                                         points {`you'd`} like to address ahead
-                                        of our meeting.(Optional):
+                                        of our meeting.(Optional)
                                       </p>
 
                                       <textarea

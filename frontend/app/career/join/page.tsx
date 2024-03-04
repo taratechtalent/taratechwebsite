@@ -130,7 +130,7 @@ export default function Contact() {
                     <form name="contactform" className="row contact-form">
                       {/* Contact Form Input */}
                       <div className="col-md-12">
-                        <p className="p-lg">Your Full Name: </p>
+                        <p className="p-lg">Your Full Name </p>
                         <input
                           type="text"
                           name="name"
@@ -141,7 +141,7 @@ export default function Contact() {
                         />
                       </div>
                       <div className="col-md-12">
-                        <p className="p-lg">LinkedIn address: </p>
+                        <p className="p-lg">LinkedIn address </p>
                         <input
                           type="text"
                           name="name"
@@ -152,7 +152,7 @@ export default function Contact() {
                         />
                       </div>
                       <div className="col-md-12">
-                        <p className="p-lg">Your Email Address: </p>
+                        <p className="p-lg">Your Email Address </p>
                         <span></span>
                         <input
                           type="text"
@@ -164,7 +164,7 @@ export default function Contact() {
                         />
                       </div>
                       <div className="col-md-12">
-                        <p className="p-lg">Your Resume: </p>
+                        <p className="p-lg">Your Resume </p>
 
                         <Resume
                           resumeFile={resumeFile}
@@ -172,7 +172,7 @@ export default function Contact() {
                         />
                       </div>
                       <div className="col-md-12">
-                        <p className="p-lg">Tell us more (Optional):</p>
+                        <p className="p-lg">Tell us more (Optional)</p>
 
                         <textarea
                           className="form-control message"
