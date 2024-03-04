@@ -42,6 +42,12 @@ export default function DigitalArtService() {
                             sustainability to every project from concept to
                             construction.
                           </p>
+                          <Link
+                            href="/book"
+                            className="btn btn--theme hover--theme"
+                          >
+                            Schedule a Call
+                          </Link>
                         </div>
                       </div>{" "}
                       {/* END TEXT BLOCK */}

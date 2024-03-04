@@ -39,6 +39,9 @@ export default function AIService() {
                             learning, highlighting their significance in driving
                             innovation across various industries.
                           </p>
+                          <Link href="/book" className="btn btn--theme hover--theme">
+                      Schedule a Call
+                    </Link>
                         </div>
                       </div>{" "}
                       {/* END TEXT BLOCK */}

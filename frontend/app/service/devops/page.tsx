@@ -41,6 +41,12 @@ export default function DevopsService() {
                             teams, leading to more efficient and reliable
                             systems.
                           </p>
+                          <Link
+                            href="/book"
+                            className="btn btn--theme hover--theme"
+                          >
+                            Schedule a Call
+                          </Link>
                         </div>
                       </div>{" "}
                       {/* END TEXT BLOCK */}
