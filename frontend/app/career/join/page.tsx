@@ -135,7 +135,7 @@ export default function Contact() {
                           type="text"
                           name="name"
                           className="form-control name"
-                          placeholder="Your full name as it appears on your official documents*"
+                          placeholder="Your full name as it appears on your official documents."
                           value={name}
                           onChange={(e) => setName(e.target.value)}
                         />
@@ -158,7 +158,7 @@ export default function Contact() {
                           type="text"
                           name="email"
                           className="form-control email"
-                          placeholder="The email address we can use to contact you*"
+                          placeholder="The email address we can use to contact you."
                           value={email}
                           onChange={(e) => setEmail(e.target.value)}
                         />
@@ -178,7 +178,7 @@ export default function Contact() {
                           className="form-control message"
                           name="message"
                           rows={6}
-                          placeholder="Feel free to share anything you think will help us understand you better "
+                          placeholder="Feel free to share anything you think will help us understand you better. "
                           value={description}
                           onChange={(e) => setMessage(e.target.value)}
                         />
