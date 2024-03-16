@@ -13781,9 +13781,14 @@ a {
   .estimateHeader {
     margin-left: 0 !important; /* No margin on mobile */
   }
- 
+
   .talentPic {
     width: 100%;
+  }
+
+  #mainHeroSection {
+    padding-top: 0px;
+    text-align: center;
   }
 }
 
@@ -13795,5 +13800,9 @@ a {
 
   .talentPic {
     width: 80%;
+  }
+  #mainHeroSection {
+    padding-top: 100px;
+    text-align: left;
   }
 }

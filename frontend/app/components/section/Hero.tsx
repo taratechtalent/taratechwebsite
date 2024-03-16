@@ -30,7 +30,7 @@ export default function Hero() {
   }, []);
   return (
     <>
-      <section id="hero-2" className="bg--scroll hero-section">
+      <section id="mainHeroSection" className="bg--scroll hero-section">
         <div className="container">
           <Splide
             aria-label="My Favorite Images"
