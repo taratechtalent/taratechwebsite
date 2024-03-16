@@ -16,7 +16,7 @@ const ServiceComponent = ({
     <div className="container">
       {/* SECTION TITLE */}
       <div className="row justify-content-center">
-        <div className="col-md-10 col-lg-9 ">
+        <div className="col-md-10 col-lg-9 col-sm-12">
           <div className="section-title mb-70 ">
             {/* Title */}
             <h2 className="s-50 w-700">{title}</h2>
@@ -39,7 +39,7 @@ const ServiceComponent = ({
       <div className="fbox-wrapper">
         <div className="row ">
           {/* FEATURE BOX #1 */}
-          <div className="col  shadow-box">
+          <div className="shadow-box col-sm-12 col-md-6">
             <div className="fbox-11 fb-1 wow fadeInUp">
               {/* Icon */}
               <div className="fbox-ico-wrap">
@@ -69,7 +69,7 @@ const ServiceComponent = ({
           </div>
           {/* END FEATURE BOX #1 */}
           {/* FEATURE BOX #2 */}
-          <div className="col shadow-box">
+          <div className="shadow-box col-sm-12 col-md-6">
             <div className="fbox-11 fb-2 wow fadeInUp">
               {/* Icon */}
               <div className="fbox-ico-wrap">
@@ -97,7 +97,7 @@ const ServiceComponent = ({
           <hr className="!mb-10 divider !mt-10" />
           {/* END FEATURE BOX #2 */}
           {/* FEATURE BOX #3 */}
-          <div className="col  shadow-box">
+          <div className="col-md-6 col-sm-12  shadow-box">
             <div className="fbox-11 fb-3 wow fadeInUp">
               {/* Icon */}
               <div className="fbox-ico-wrap">
@@ -124,7 +124,7 @@ const ServiceComponent = ({
           </div>
           {/* END FEATURE BOX #3 */}
           {/* FEATURE BOX #4 */}
-          <div className="col  shadow-box">
+          <div className="col-md-6 col-sm-12  shadow-box">
             <div className="fbox-11 fb-4 wow fadeInUp">
               {/* Icon */}
               <div className="fbox-ico-wrap">
@@ -142,7 +142,7 @@ const ServiceComponent = ({
                   <p>
                     UI/UX design merges visual design with user experience to
                     create intuitive and attractive interfaces, focusing on
-                    {`user's`} ease, engagement, and satisfaction with a {" "}
+                    {`user's`} ease, engagement, and satisfaction with a{" "}
                     {`product's`} look and feel.
                   </p>
                 </Link>
@@ -154,7 +154,7 @@ const ServiceComponent = ({
 
           {/* END FEATURE BOX #4 */}
           {/* FEATURE BOX #5 */}
-          <div className="col  shadow-box">
+          <div className="col-md-6 col-sm-12  shadow-box">
             <div className="fbox-11 fb-5 wow fadeInUp">
               {/* Icon */}
               <div className="fbox-ico-wrap">
@@ -181,7 +181,7 @@ const ServiceComponent = ({
           </div>
           {/* END FEATURE BOX #5 */}
           {/* FEATURE BOX #6 */}
-          <div className="col  shadow-box">
+          <div className="col-md-6 col-sm-12  shadow-box">
             <div className="fbox-11 fb-4 wow fadeInUp">
               {/* Icon */}
               <div className="fbox-ico-wrap">

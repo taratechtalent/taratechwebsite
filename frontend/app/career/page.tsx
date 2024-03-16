@@ -483,8 +483,7 @@ export default function Career() {
                     {/* IMAGE-3 */}
                     <div className="about-2-img a-2-3 r-12">
                       <img
-                        className="img-fluid"
-                        style={{ width: "80%" }}
+                        className="img-fluid talentPic"
                         src="/images/a2-3.jpg"
                         alt="about-image"
                       />
