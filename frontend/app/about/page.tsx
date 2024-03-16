@@ -417,7 +417,7 @@ export default function About() {
           {/* END BRANDS-1 */}
           {/* DIVIDER LINE */}
           <hr className="divider" />
-          <section id="banner-12" className="banner-section">
+          <section id="timelineBanner" className="banner-section">
             <div className="container-fluid">
               <div className="row">
                 <div className="col-sm-12">

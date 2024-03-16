@@ -13781,6 +13781,9 @@ a {
   .estimateHeader {
     margin-left: 0 !important; /* No margin on mobile */
   }
+  #timelineBanner{
+   display: none;
+  }
 }
 
 /* For larger screens like windows */
@@ -13788,4 +13791,7 @@ a {
   .estimateHeader {
     margin-left: 60px !important; /* Add margin for larger screens */
   }
+  #timelineBanner{
+    display: block;
+   }
 }
