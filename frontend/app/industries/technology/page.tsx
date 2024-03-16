@@ -265,9 +265,9 @@ export default function Home() {
               <div className="row d-flex align-items-center">
                 {/* IMAGE BLOCK */}
                 <div className="col-md-12">
-                  <div className="txt-block flex right-column wow fadeInLeft">
+                  <div className="txt-block flex right-column wow fadeInLeft row">
                     {/* CONTENT BOX #1 */}
-                    <div className="cbox-2 process-step col-md-4">
+                    <div className="cbox-2 process-step col-md-4 col-sm-12">
                       {/* Icon */}
                       <div className="ico-wrap">
                         <div className="cbox-2-ico bg--theme color--white">
@@ -289,7 +289,7 @@ export default function Home() {
                     </div>{" "}
                     {/* END CONTENT BOX #1 */}
                     {/* CONTENT BOX #2 */}
-                    <div className="cbox-2 process-step col-md-4">
+                    <div className="cbox-2 process-step col-md-4 col-sm-12">
                       {/* Icon */}
                       <div className="ico-wrap">
                         <div className="cbox-2-ico bg--theme color--white">
@@ -310,7 +310,7 @@ export default function Home() {
                     </div>{" "}
                     {/* END CONTENT BOX #2 */}
                     {/* CONTENT BOX #3 */}
-                    <div className="cbox-2 process-step col-md-4">
+                    <div className="cbox-2 process-step col-md-4 col-sm-12">
                       {/* Icon */}
                       <div className="ico-wrap">
                         <div className="cbox-2-ico bg--theme color--white">
