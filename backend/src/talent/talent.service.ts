@@ -5,6 +5,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { CreateTalentDTO } from './dto/create-talent.dto';
 import { UpdateTalentDTO } from './dto/update-talent.dto';
 import { FilterTalentDTO } from './dto/filter-talent.dto';
+import * as moment from 'moment';
 
 @Injectable()
 export class TalentService {
@@ -30,7 +31,33 @@ export class TalentService {
     return this.talenReposity.insert({ ...talent, status: 'new' });
   }
 
-  update(talentId: string, talent: UpdateTalentDTO) {
-    return this.talenReposity.update(talentId, talent);
+  update(talentId: string, updateTalentObject: UpdateTalentDTO) {
+    if (
+      !moment(
+        updateTalentObject.english_video_request_date,
+        'MM/DD/YYYY',
+        true,
+      ).isValid()
+    )
+      delete updateTalentObject.english_video_request_date;
+
+    if (
+      !moment(
+        updateTalentObject.english_video_request_deadline,
+        'MM/DD/YYYY',
+        true,
+      ).isValid()
+    )
+      delete updateTalentObject.english_video_request_deadline;
+    if (
+      !moment(
+        updateTalentObject.english_video_email,
+        'MM/DD/YYYY',
+        true,
+      ).isValid()
+    )
+      delete updateTalentObject.english_video_email;
+
+    return this.talenReposity.update(talentId, updateTalentObject);
   }
 }

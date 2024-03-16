@@ -25,7 +25,9 @@ export default function Header({
           {/* MOBILE HEADER */}
           <div className="wsmobileheader clearfix">
             <span className="smllogo">
-              <img src="/images/logo-pink.png" alt="mobile-logo" />
+              <Link href="/">
+                <img src="/images/logo/header.png" alt="mobile-logo" />
+              </Link>
             </span>
 
             <a
@@ -49,7 +51,6 @@ export default function Header({
                   />
                 </Link>
               </div>
-
               <div className="desktoplogo">
                 <Link href="/" className="logo-white">
                   <img
@@ -60,13 +61,16 @@ export default function Header({
                 </Link>
               </div>
               {/* HEADER WHITE LOGO */}
-          
               {/* MAIN MENU */}
               <nav
                 className="wsmenu clearfix"
                 style={{ height: `${isMobileMenu ? "100vh" : ""}` }}
               >
-                {isMobileMenu ? <MobileMenu /> : <Menu />}
+                {isMobileMenu ? (
+                  <MobileMenu />
+                ) : (
+                  <Menu isMobileMenu={isMobileMenu} />
+                )}
               </nav>{" "}
               {/* END MAIN MENU */}
             </div>

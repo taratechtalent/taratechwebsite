@@ -1,5 +1,6 @@
 import { ApiProperty } from '@nestjs/swagger';
 import {
+  IsBoolean,
   IsDate,
   IsEmail,
   IsEnum,
@@ -14,13 +15,22 @@ export class UpdateTalentDTO {
     type: 'string',
   })
   @IsString()
+  @IsOptional()
   name: string;
 
   @ApiProperty({
     type: 'string',
   })
   @IsEmail()
+  @IsOptional()
   email: string;
+
+  @ApiProperty({
+    type: 'string',
+  })
+  @IsString()
+  @IsOptional()
+  service: string;
 
   @ApiProperty({
     type: 'string',
@@ -34,7 +44,7 @@ export class UpdateTalentDTO {
   })
   @IsOptional()
   @IsString()
-  linkedIn: string;
+  linked_in: string;
 
   @ApiProperty({
     type: 'string',
@@ -62,14 +72,28 @@ export class UpdateTalentDTO {
   })
   @IsOptional()
   @IsString()
-  jobInterest: string;
+  primary_job_interest: string;
+
+  @ApiProperty({
+    type: 'string',
+  })
+  @IsOptional()
+  @IsString()
+  level: string;
 
   @ApiProperty({
     type: 'integer',
   })
   @IsOptional()
   @IsNumber()
-  yearsOfExperience: number;
+  years_of_experience: number;
+
+  @ApiProperty({
+    type: 'bool',
+  })
+  @IsOptional()
+  @IsBoolean()
+  remote_experience: boolean;
 
   @ApiProperty({
     type: 'string',
@@ -83,82 +107,40 @@ export class UpdateTalentDTO {
   })
   @IsOptional()
   @IsString()
-  englishSkillResult: string;
-
-  @ApiProperty({
-    type: 'integer',
-  })
-  @IsOptional()
-  @IsNumber()
-  englishSkillGrade: number;
+  english_video_request_date: string;
 
   @ApiProperty({
     type: 'string',
   })
   @IsOptional()
   @IsString()
-  englishSkillDate: Date;
+  english_video_request_deadline: string;
 
   @ApiProperty({
     type: 'string',
   })
   @IsOptional()
   @IsString()
-  englishSkillBy: string;
+  english_video_email: string;
 
   @ApiProperty({
     type: 'string',
   })
   @IsOptional()
   @IsString()
-  technicalTheoricalSkillResult: string;
-
-  @ApiProperty({
-    type: 'integer',
-  })
-  @IsOptional()
-  @IsNumber()
-  technicalTheoricalSkillGrade: number;
+  english_video_by: string;
 
   @ApiProperty({
     type: 'string',
   })
   @IsOptional()
   @IsString()
-  technicalTheoricalSkillDate: Date;
+  english_video_link: string;
 
   @ApiProperty({
     type: 'string',
   })
   @IsOptional()
   @IsString()
-  technicalTheoricalSkillBy: string;
-
-  @ApiProperty({
-    type: 'string',
-  })
-  @IsOptional()
-  @IsString()
-  technicalPracticalSkillResult: string;
-
-  @ApiProperty({
-    type: 'integer',
-  })
-  @IsOptional()
-  @IsNumber()
-  technicalPracticalSkillGrade: number;
-
-  @ApiProperty({
-    type: 'string',
-  })
-  @IsOptional()
-  @IsString()
-  technicalPracticalSkillDate: Date;
-
-  @ApiProperty({
-    type: 'string',
-  })
-  @IsOptional()
-  @IsString()
-  technicalPracticalSkillBy: string;
+  english_video_result: string;
 }

@@ -1,6 +1,6 @@
 import Link from "next/link";
 
-export default function Menu() {
+export default function Menu({ isMobileMenu }: any) {
   return (
     <>
       <ul className="wsmenu-list nav-theme">
@@ -38,7 +38,7 @@ export default function Menu() {
             </li>
             <li>
               <Link href="/industries/marketing">Financial Services</Link>
-            </li>{" "}
+            </li>
           </ul>
         </li>
 
@@ -50,47 +50,50 @@ export default function Menu() {
 
         {/* SIGN IN LINK */}
         {/* SIGN UP BUTTON */}
-        <li className="nl-simple ">
-          <Link
-            href="/calculator"
-            className="btn r-04  hover--tra-red last-link ml-20"
-            style={{
-              color: "black",
-              border: "1px solid black",
-              marginLeft: "60px",
-              padding: "4px 10px !important",
-              fontSize: "14px !important",
-            }}
-          >
-            Estimate Price
-          </Link>
-        </li>
-        <li className="nl-simple ">
-          <Link
-            href="/book"
-            className="btn r-04 btn--theme hover--tra-white last-link ml-2 header-btn"
-            style={{
-              padding: "4px 10px !important",
-              fontSize: "14px !important",
-            }}
-          >
-            Schedule a Call
-          </Link>
-        </li>
-        <li className="nl-simple ">
-          <Link
-            href="/career/join"
-            className="btn r-04  hover--tra-red last-link ml-20"
-            style={{
-              color: "black",
-              border: "0",
-              padding: "4px 10px !important",
-              fontSize: "14px !important",
-            }}
-          >
-            Apply as a Talent
-          </Link>
-        </li>
+        {!isMobileMenu && (
+          <>
+            <li className="nl-simple ">
+              <Link
+                href="/calculator"
+                className="btn r-04  hover--tra-red last-link ml-20 estimateBtn"
+                style={{
+                  color: "black",
+                  border: "1px solid black",
+                  padding: "4px 10px !important",
+                  fontSize: "14px !important",
+                }}
+              >
+                Estimate Price
+              </Link>
+            </li>
+            <li className="nl-simple ">
+              <Link
+                href="/book"
+                className="btn r-04 btn--theme hover--tra-white last-link ml-2 header-btn"
+                style={{
+                  padding: "4px 10px !important",
+                  fontSize: "14px !important",
+                }}
+              >
+                Schedule a Call
+              </Link>
+            </li>
+            <li className="nl-simple ">
+              <Link
+                href="/career/join"
+                className="btn r-04  hover--tra-red last-link ml-20"
+                style={{
+                  color: "black",
+                  border: "0",
+                  padding: "4px 10px !important",
+                  fontSize: "14px !important",
+                }}
+              >
+                Apply as a Talent
+              </Link>
+            </li>
+          </>
+        )}
       </ul>
     </>
   );

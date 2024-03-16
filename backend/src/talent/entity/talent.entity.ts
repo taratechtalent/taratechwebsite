@@ -12,36 +12,64 @@ export class TalentEntity {
   uuid: string;
 
   @Column({ type: 'varchar' })
+  status: string;
+
+  @Column({ type: 'varchar' })
   name: string;
 
   @Column({ type: 'varchar' })
   email: string;
 
   @Column({ type: 'varchar', nullable: true })
-  linkedIn: string;
+  service: string;
+
+  @Column({ type: 'varchar', nullable: true })
+  primary_job_interest: string;
+
+  @Column({ type: 'varchar', nullable: true })
+  title: string;
+
+  @Column({ type: 'varchar', nullable: true })
+  level: string;
+
+  @Column({ type: 'varchar', nullable: true })
+  linked_in: string;
 
   @Column({ type: 'varchar', nullable: true })
   description: string;
-
-  @Column({ type: 'varchar' })
-  status: string;
 
   @Column({ type: 'varchar', nullable: true })
   phone: string;
 
   @Column({ type: 'int', default: 0 })
-  yearsOfExperience: number;
-
-  @Column({ type: 'varchar', nullable: true })
-  jobInterest: string;
+  years_of_experience: number;
 
   @Column({ type: 'varchar', nullable: true })
   skills: string;
 
-  @Column({ type: 'varchar', nullable: true })
-  title: string;
+  @Column({ type: 'bool', nullable: true })
+  remote_experience: boolean;
+
+  // English Video
 
   // English Skill
+  @Column({ type: 'timestamptz', nullable: true })
+  english_video_request_date: Date;
+
+  @Column({ type: 'timestamptz', nullable: true })
+  english_video_request_deadline: Date;
+
+  @Column({ type: 'varchar', nullable: true })
+  english_video_by: string;
+
+  @Column({ type: 'varchar', nullable: true })
+  english_video_link: string;
+
+  @Column({ type: 'varchar', nullable: true })
+  english_video_result: string;
+
+  @Column({ type: 'varchar', nullable: true })
+  english_video_email: string;
 
   @Column({ type: 'varchar', nullable: true })
   englishSkillResult: string;
