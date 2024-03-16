@@ -13781,9 +13781,7 @@ a {
   .estimateHeader {
     margin-left: 0 !important; /* No margin on mobile */
   }
-  #timelineBanner {
-    display: none;
-  }
+ 
   .talentPic {
     width: 100%;
   }
@@ -13794,9 +13792,7 @@ a {
   .estimateHeader {
     margin-left: 60px !important; /* Add margin for larger screens */
   }
-  #timelineBanner {
-    display: block;
-  }
+
   .talentPic {
     width: 80%;
   }
