@@ -55,7 +55,7 @@ export default function Menu({ isMobileMenu }: any) {
             <li className="nl-simple ">
               <Link
                 href="/calculator"
-                className="btn r-04  hover--tra-red last-link ml-20 estimateBtn"
+                className="btn r-04  hover--tra-red last-link ml-20 estimateHeader"
                 style={{
                   color: "black",
                   border: "1px solid black",

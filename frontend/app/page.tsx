@@ -116,154 +116,159 @@ function Features() {
                 </p>
               </div>
             </div>
-          </div>
-          {/* FEATURES-2 WRAPPER */}
-          <div className="fbox-wrapper text-center">
-            <div className="row row-cols-1 row-cols-md-3">
-              {/* FEATURE BOX #1 */}
-              <div className="col">
-                <div className="fbox-2 fb-1 wow fadeInUp">
-                  {/* Image */}
-                  <div className="fbox-img gr--whitesmoke h-175">
-                    <img
-                      className="img-fluid light-theme-img"
-                      src="/images/services/icons/noun-expert-1.svg"
-                      alt="feature-image"
-                    />
+            {/* FEATURES-2 WRAPPER */}
+            <div className="fbox-wrapper text-center">
+              <div className="row row-cols-1 row-cols-md-3">
+                {/* FEATURE BOX #1 */}
+                <div className="col-sm-12">
+                  <div className="fbox-2 fb-1 wow fadeInUp">
+                    {/* Image */}
+                    <div className="fbox-img gr--whitesmoke h-175">
+                      <img
+                        className="img-fluid light-theme-img"
+                        src="/images/services/icons/noun-expert-1.svg"
+                        alt="feature-image"
+                      />
+                    </div>
+                    {/* Text */}
+                    <div className="fbox-txt">
+                      <h6 className="s-22 w-700">
+                        Access to Elite Tech Talent
+                      </h6>
+                      <p>
+                        TaraTalent offers exclusive access to the top 1% of tech
+                        professionals in the Middle East, significantly boosting
+                        your {`project's`} technical prowess.
+                      </p>
+                    </div>
                   </div>
-                  {/* Text */}
-                  <div className="fbox-txt">
-                    <h6 className="s-22 w-700">Access to Elite Tech Talent</h6>
-                    <p>
-                      TaraTalent offers exclusive access to the top 1% of tech
-                      professionals in the Middle East, significantly boosting
-                      your {`project's`} technical prowess.
-                    </p>
+                </div>{" "}
+                {/* END FEATURE BOX #1 */}
+                {/* FEATURE BOX #1 */}
+                <div className="col-sm-12">
+                  <div className="fbox-2 fb-1 wow fadeInUp">
+                    {/* Image */}
+                    <div className="fbox-img gr--whitesmoke h-175">
+                      <img
+                        className="img-fluid light-theme-img"
+                        src="/images/services/icons/noun-affordable-1.svg"
+                        alt="feature-image"
+                      />
+                    </div>
+                    {/* Text */}
+                    <div className="fbox-txt">
+                      <h6 className="s-22 w-700">Cost-Effective Expertise</h6>
+                      <p>
+                        TaraTalent offers top-tier talent at highly affordable
+                        rates, reducing staffing costs without sacrificing
+                        quality.
+                      </p>
+                    </div>
                   </div>
-                </div>
+                </div>{" "}
+                {/* END FEATURE BOX #1 */}
+                {/* FEATURE BOX #1 */}
+                <div className="col-sm-12">
+                  <div className="fbox-2 fb-1 wow fadeInUp">
+                    {/* Image */}
+                    <div className="fbox-img gr--whitesmoke h-175">
+                      <img
+                        className="img-fluid light-theme-img"
+                        src="/images/services/icons/signing-the-contract-svgrepo1.png"
+                        alt="feature-image"
+                      />
+                    </div>
+                    {/* Text */}
+                    <div className="fbox-txt">
+                      <h6 className="s-22 w-700">Tailored Contracts</h6>
+                      <p>
+                        Craft contracts that align with your unique project
+                        requirements, thanks to {`TaraTalent's`} flexible
+                        engagement options. Scale your team as needed for
+                        optimal resource utilization.
+                      </p>
+                    </div>
+                  </div>
+                </div>{" "}
+                {/* END FEATURE BOX #1 */}
+                {/* FEATURE BOX #2 */}
+                <div className="col-sm-12">
+                  <div className="fbox-2 fb-2 wow fadeInUp">
+                    {/* Image */}
+                    <div className="fbox-img gr--whitesmoke h-175">
+                      <img
+                        className="img-fluid light-theme-img"
+                        src="/images/services/icons/time-zone-1.svg"
+                        alt="feature-image"
+                      />
+                    </div>
+                    {/* Text */}
+                    <div className="fbox-txt">
+                      <h6 className="s-22 w-700">Seamless Timezone Match</h6>
+                      <p>
+                        TaraTalent aligns talent with your timezone for smooth
+                        remote collaboration, enhancing communication for remote
+                        work setups.
+                      </p>
+                    </div>
+                  </div>
+                </div>{" "}
+                {/* END FEATURE BOX #2 */}
+                {/* FEATURE BOX #3 */}
+                <div className="col-sm-12">
+                  <div className="fbox-2 fb-3 wow fadeInUp">
+                    {/* Image */}
+                    <div className="fbox-img gr--whitesmoke h-175">
+                      <img
+                        className="img-fluid light-theme-img"
+                        src="/images/services/icons/career-ladder-stairs-promotion-career-advance-svgrepo-1.svg"
+                        alt="feature-image"
+                      />
+                    </div>
+                    {/* Text */}
+                    <div className="fbox-txt">
+                      <h6 className="s-22 w-700">Skill Advancement</h6>
+                      <p>
+                        Our professionals stay updated with the latest industry
+                        advancements, ensuring your projects benefit from their
+                        continuous growth.
+                      </p>
+                    </div>
+                  </div>
+                </div>{" "}
+                {/* END FEATURE BOX #3 */}
+                {/* FEATURE BOX #3 */}
+                <div className="col-sm-12">
+                  <div className="fbox-2 fb-3 wow fadeInUp">
+                    {/* Image */}
+                    <div className="fbox-img gr--whitesmoke h-175">
+                      <img
+                        className="img-fluid light-theme-img"
+                        src="/images/services/icons/noun-easy-1.svg"
+                        alt="feature-image"
+                      />
+                    </div>
+                    {/* Text */}
+                    <div className="fbox-txt">
+                      <h6 className="s-22 w-700">
+                        Effortless Client Experience
+                      </h6>
+                      <p>
+                        TaraTalent handles administrative tasks, employment
+                        contracts, leaves, and compliance with local labor laws,
+                        allowing CEOs to focus worry-free on project success.
+                      </p>
+                    </div>
+                  </div>
+                </div>{" "}
+                {/* END FEATURE BOX #3 */}
               </div>{" "}
-              {/* END FEATURE BOX #1 */}
-              {/* FEATURE BOX #1 */}
-              <div className="col">
-                <div className="fbox-2 fb-1 wow fadeInUp">
-                  {/* Image */}
-                  <div className="fbox-img gr--whitesmoke h-175">
-                    <img
-                      className="img-fluid light-theme-img"
-                      src="/images/services/icons/noun-affordable-1.svg"
-                      alt="feature-image"
-                    />
-                  </div>
-                  {/* Text */}
-                  <div className="fbox-txt">
-                    <h6 className="s-22 w-700">Cost-Effective Expertise</h6>
-                    <p>
-                      TaraTalent offers top-tier talent at highly affordable
-                      rates, reducing staffing costs without sacrificing
-                      quality.
-                    </p>
-                  </div>
-                </div>
-              </div>{" "}
-              {/* END FEATURE BOX #1 */}
-              {/* FEATURE BOX #1 */}
-              <div className="col">
-                <div className="fbox-2 fb-1 wow fadeInUp">
-                  {/* Image */}
-                  <div className="fbox-img gr--whitesmoke h-175">
-                    <img
-                      className="img-fluid light-theme-img"
-                      src="/images/services/icons/signing-the-contract-svgrepo1.png"
-                      alt="feature-image"
-                    />
-                  </div>
-                  {/* Text */}
-                  <div className="fbox-txt">
-                    <h6 className="s-22 w-700">Tailored Contracts</h6>
-                    <p>
-                      Craft contracts that align with your unique project
-                      requirements, thanks to {`TaraTalent's`} flexible
-                      engagement options. Scale your team as needed for optimal
-                      resource utilization.
-                    </p>
-                  </div>
-                </div>
-              </div>{" "}
-              {/* END FEATURE BOX #1 */}
-              {/* FEATURE BOX #2 */}
-              <div className="col">
-                <div className="fbox-2 fb-2 wow fadeInUp">
-                  {/* Image */}
-                  <div className="fbox-img gr--whitesmoke h-175">
-                    <img
-                      className="img-fluid light-theme-img"
-                      src="/images/services/icons/time-zone-1.svg"
-                      alt="feature-image"
-                    />
-                  </div>
-                  {/* Text */}
-                  <div className="fbox-txt">
-                    <h6 className="s-22 w-700">Seamless Timezone Match</h6>
-                    <p>
-                      TaraTalent aligns talent with your timezone for smooth
-                      remote collaboration, enhancing communication for remote
-                      work setups.
-                    </p>
-                  </div>
-                </div>
-              </div>{" "}
-              {/* END FEATURE BOX #2 */}
-              {/* FEATURE BOX #3 */}
-              <div className="col">
-                <div className="fbox-2 fb-3 wow fadeInUp">
-                  {/* Image */}
-                  <div className="fbox-img gr--whitesmoke h-175">
-                    <img
-                      className="img-fluid light-theme-img"
-                      src="/images/services/icons/career-ladder-stairs-promotion-career-advance-svgrepo-1.svg"
-                      alt="feature-image"
-                    />
-                  </div>
-                  {/* Text */}
-                  <div className="fbox-txt">
-                    <h6 className="s-22 w-700">Skill Advancement</h6>
-                    <p>
-                      Our professionals stay updated with the latest industry
-                      advancements, ensuring your projects benefit from their
-                      continuous growth.
-                    </p>
-                  </div>
-                </div>
-              </div>{" "}
-              {/* END FEATURE BOX #3 */}
-              {/* FEATURE BOX #3 */}
-              <div className="col">
-                <div className="fbox-2 fb-3 wow fadeInUp">
-                  {/* Image */}
-                  <div className="fbox-img gr--whitesmoke h-175">
-                    <img
-                      className="img-fluid light-theme-img"
-                      src="/images/services/icons/noun-easy-1.svg"
-                      alt="feature-image"
-                    />
-                  </div>
-                  {/* Text */}
-                  <div className="fbox-txt">
-                    <h6 className="s-22 w-700">Effortless Client Experience</h6>
-                    <p>
-                      TaraTalent handles administrative tasks, employment
-                      contracts, leaves, and compliance with local labor laws,
-                      allowing CEOs to focus worry-free on project success.
-                    </p>
-                  </div>
-                </div>
-              </div>{" "}
-              {/* END FEATURE BOX #3 */}
+              {/* End row */}
             </div>{" "}
-            {/* End row */}
+            {/* END FEATURES-2 WRAPPER */}
           </div>{" "}
-          {/* END FEATURES-2 WRAPPER */}
-        </div>{" "}
+        </div>
+
         {/* End container */}
       </section>
     </>
@@ -461,7 +466,7 @@ const Services = () => {
                   <Link href="/service/web">
                     <div
                       id="fb-12-1"
-                      className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
+                      className="fbox-12 bg--white-100 block-shadow r-12 mb-30 text-center"
                     >
                       {/* Icon */}
                       <div className="fbox-ico ico-50">
@@ -484,7 +489,7 @@ const Services = () => {
                   <Link href="/service/devops">
                     <div
                       id="fb-12-2"
-                      className="fbox-12 bg--white-100 block-shadow r-12"
+                      className="fbox-12 bg--white-100 block-shadow r-12 text-center"
                     >
                       <div className="fbox-ico ico-50">
                         <div className="shape-ico color--theme">
@@ -502,7 +507,7 @@ const Services = () => {
                   <Link href="/service/uiux">
                     <div
                       id="fb-12-3"
-                      className="fbox-12 bg--white-100 block-shadow r-12 mb-30"
+                      className="fbox-12 bg--white-100 block-shadow r-12 mb-30 text-center"
                     >
                       {/* Icon */}
                       <div className="fbox-ico ico-50">
@@ -525,7 +530,7 @@ const Services = () => {
                   <Link href="/service/art">
                     <div
                       id="fb-12-2"
-                      className="fbox-12 bg--white-100 block-shadow r-12"
+                      className="fbox-12 bg--white-100 block-shadow r-12 text-center"
                     >
                       {/* Icon */}
                       <div className="fbox-ico ico-50">
@@ -561,7 +566,7 @@ const Services = () => {
             <Link href="/service/mobile">
               <div
                 id="fb-12-2"
-                className="fbox-12 bg--white-100 block-shadow r-12"
+                className="fbox-12 bg--white-100 block-shadow r-12 text-center"
               >
                 {/* Icon */}
                 <div className="fbox-ico ico-50">
@@ -586,7 +591,7 @@ const Services = () => {
             <Link href="/service/ai">
               <div
                 id="fb-12-4"
-                className="fbox-12 bg--white-100 block-shadow r-12"
+                className="fbox-12 bg--white-100 block-shadow r-12 text-center"
               >
                 {/* Icon */}
                 <div className="fbox-ico ico-50">
@@ -614,7 +619,7 @@ const Services = () => {
             <Link href="/service/qa">
               <div
                 id="fb-12-2"
-                className="fbox-12 bg--white-100 block-shadow r-12"
+                className="fbox-12 bg--white-100 block-shadow r-12 text-center"
               >
                 {/* Icon */}
                 <div className="fbox-ico ico-50">
@@ -710,27 +715,27 @@ const UniqueApproach = () => {
 
 const OurProcess = () => {
   return (
-    <section className="pt-100  pb-20 ct-04 content-section division mb-40">
+    <section className="shape--bg shape--white-500 pt-100 features-section division">
       {/* SECTION TITLE */}
-      <div className="row justify-content-center">
-        <div className="col-md-10 col-lg-9">
-          <div className="section-title mb-70">
-            {/* Title */}
-            <h2 className="s-50 w-700"> How to Initiate a Partnership</h2>
-            {/* Text */}
-            <p className="s-21 color--grey">
-              Three Steps to Harnessing {`TaraTalent's`} Experts for Your
-              Project
-            </p>
-          </div>
-        </div>
-      </div>
 
       <div className="container">
+        <div className="row justify-content-center">
+          <div className="col-md-10 col-lg-9">
+            <div className="section-title mb-70">
+              {/* Title */}
+              <h2 className="s-50 w-700"> How to Initiate a Partnership</h2>
+              {/* Text */}
+              <p className="s-21 color--grey">
+                Three Steps to Harnessing {`TaraTalent's`} Experts for Your
+                Project
+              </p>
+            </div>
+          </div>
+        </div>
         {/* SECTION CONTENT (ROW) */}
         <div className="row d-flex align-items-center">
           {/* TEXT BLOCK */}
-          <div className="col-md-6 order-last  order-md-2">
+          <div className="col-md-6 col-sm-12 order-last  order-md-2">
             <div className="row"></div>
             <div className="row">
               <div className="col-sm-12">
@@ -745,7 +750,7 @@ const OurProcess = () => {
               </div>
             </div>
           </div>
-          <div className="col-md-6 order-first order-md-2">
+          <div className="col-md-6 col-sm-12 order-first order-md-2">
             <div className="txt-block left-column wow fadeInRight">
               {/* CONTENT BOX #1 */}
               <div className="cbox-2 process-step">

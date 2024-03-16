@@ -6,8 +6,28 @@ import { services } from "@/app/calculator/util";
 import Link from "next/link";
 
 import { Splide, SplideSlide } from "@splidejs/react-splide";
+import { useEffect, useState } from "react";
 
 export default function Hero() {
+  const [isMobile, setIsMobile] = useState(false);
+
+  useEffect(() => {
+    const checkIfMobile = () => {
+      const screenWidth = window.innerWidth;
+      setIsMobile(screenWidth < 768); // Adjust the threshold as per your design
+    };
+
+    // Check initially
+    checkIfMobile();
+
+    // Listen for resize events to update isMobile state
+    window.addEventListener("resize", checkIfMobile);
+
+    // Clean up the event listener
+    return () => {
+      window.removeEventListener("resize", checkIfMobile);
+    };
+  }, []);
   return (
     <>
       <section id="hero-2" className="bg--scroll hero-section">
@@ -45,7 +65,7 @@ export default function Hero() {
                       your <b style={{ padding: 4 }}>startup budget </b>and
                       fuels your growth.
                     </p>
-                    <p className="text-right">
+                    <p className={isMobile ? "text-center" : "text-right"}>
                       <Link
                         href="/book"
                         className="btn r-04 btn--theme hover--theme last-link ml-20"
@@ -82,7 +102,8 @@ export default function Hero() {
                     <h2 className="s-48 w-700 color--black">
                       Smart <br></br>
                       <span className="main-text">Hiring</span> <br></br>{" "}
-                      Smarter <br></br><span className="main-text">Budgeting</span>
+                      Smarter <br></br>
+                      <span className="main-text">Budgeting</span>
                     </h2>
 
                     <p className="p-lg">
@@ -99,10 +120,10 @@ export default function Hero() {
                       <b style={{ padding: 4 }}>top-tier tech talent</b> with
                       confidence.
                     </p>
-                    <p className="text-right">
+                    <p className={isMobile ? "text-center" : "text-right"}>
                       <Link
                         href="/calculator"
-                        className="btn r-04 btn--theme hover--theme last-link ml-20"
+                        className="btn r-04 btn--theme hover--theme last-link ml-20 "
                       >
                         Estimate Price
                       </Link>
