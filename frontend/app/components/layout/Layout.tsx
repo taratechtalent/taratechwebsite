@@ -7,7 +7,6 @@ import Breadcrumb from "./Breadcrumb";
 import Footer from "./footer/Footer";
 import Header from "./header/Header";
 import PageHead from "./PageHead";
-const WOW = require("wowjs");
 
 declare global {
   interface Window {
@@ -44,40 +43,22 @@ export default function Layout({ breadcrumbTitle, children, headerCls }: any) {
     }
   }, []);
 
-  const [isMobile, setIsMobile] = useState(false);
-
   useEffect(() => {
-    const checkIfMobile = () => {
-      const screenWidth = window.innerWidth;
-      setIsMobile(screenWidth < 768); // Adjust the threshold as per your design
-      if (screenWidth > 768) {
-        const wow = new WOW.WOW({
-          live: false,
-        });
-        wow.init();
-      }
-    };
+    if (window.innerWidth > 768) {
+      const WOW = require("wowjs");
+      const wow = new WOW.WOW({
+        live: false,
+      });
+      wow.init();
+    }
 
-    // Check initially
-    checkIfMobile();
-
-    // Handle scroll events
-    const handleScroll = () => {
+    document.addEventListener("scroll", () => {
       const scrollCheck = window.scrollY > 100;
       if (scrollCheck !== scroll) {
         setScroll(scrollCheck);
       }
-    };
-
-    handleScroll(); // Check scroll position initially
-
-    // Attach scroll event listener
-    document.addEventListener("scroll", handleScroll);
-
-    // Listen for resize events to update isMobile state
-    window.addEventListener("resize", checkIfMobile);
-  }, [scroll, isMobile]);
-
+    });
+  }, []);
   return (
     <section>
       <PageHead headTitle={""} />

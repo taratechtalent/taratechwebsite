@@ -95,7 +95,7 @@ export default function Career() {
           {/* END PAGE HERO SECTION */}
           {/* ABOUT-3
 			============================================= */}
-          <div id="about-3" className="pt-100 about-section division">
+          <div id="about-3" className="pt-100 about-section division container">
             <div className="row justify-content-center">
               <div className="col-md-10 col-lg-9">
                 <div className="section-title mb-70">
@@ -108,60 +108,58 @@ export default function Career() {
                 </div>
               </div>
             </div>
-            <div className="container">
-              <div className="row">
-                {/* ABOUT-3 TEXT */}
-                <div className="col-md-4 wow fadeInLeft shadow">
-                  <div id="a3-1" className="txt-block">
-                    {/* Title */}
-                    <h5 className="s-24 w-700 mb-20">
-                      Insurance and Local Currency Payments
-                    </h5>
-                    {/* Text */}
-                    <p>
-                      Offering hassle-free insurance coverage and salary
-                      payments in your local currency, without the need for
-                      cryptocurrency or IBAN accounts.
-                    </p>
-                    {/* List */}
-                  </div>
-                </div>{" "}
-                {/* END ABOUT-3 TEXT */}
-                {/* ABOUT-3 TEXT */}
-                <div className="col-md-4 wow fadeInTop shadow">
-                  <div id="a3-2" className="txt-block">
-                    {/* Title */}
-                    <h5 className="s-24 w-700 mb-20">
-                      Optimal Working Environment
-                    </h5>
-                    {/* Text */}
-                    <p>
-                      Providing the ideal workspace equipped with high-speed
-                      internet for maximum efficiency essential for seamless
-                      remote work.
-                    </p>
-                    {/* Text */}
-                  </div>
-                </div>{" "}
-                <div className="col-md-4  wow fadeInRight shadow">
-                  <div id="a3-2" className="txt-block">
-                    {/* Title */}
-                    <h5 className="s-24 w-700 mb-20">
-                      Competitive Salary Structure
-                    </h5>
-                    {/* Text */}
-                    <p>
-                      Receive a salary that exceeds local standards by over 50%,
-                      ensuring a comfortable lifestyle with all your essential
-                      needs met.
-                    </p>
-                    {/* Text */}
-                  </div>
-                </div>{" "}
-                {/* END ABOUT-3 TEXT */}
+            <div className="row">
+              {/* ABOUT-3 TEXT */}
+              <div className="col-md-4 wow fadeInLeft shadow">
+                <div id="a3-1" className="txt-block">
+                  {/* Title */}
+                  <h5 className="s-24 w-700 mb-20">
+                    Insurance and Local Currency Payments
+                  </h5>
+                  {/* Text */}
+                  <p>
+                    Offering hassle-free insurance coverage and salary payments
+                    in your local currency, without the need for cryptocurrency
+                    or IBAN accounts.
+                  </p>
+                  {/* List */}
+                </div>
               </div>{" "}
-              {/* End row */}
+              {/* END ABOUT-3 TEXT */}
+              {/* ABOUT-3 TEXT */}
+              <div className="col-md-4 wow fadeInTop shadow">
+                <div id="a3-2" className="txt-block">
+                  {/* Title */}
+                  <h5 className="s-24 w-700 mb-20">
+                    Optimal Working Environment
+                  </h5>
+                  {/* Text */}
+                  <p>
+                    Providing the ideal workspace equipped with high-speed
+                    internet for maximum efficiency essential for seamless
+                    remote work.
+                  </p>
+                  {/* Text */}
+                </div>
+              </div>{" "}
+              <div className="col-md-4  wow fadeInRight shadow">
+                <div id="a3-2" className="txt-block">
+                  {/* Title */}
+                  <h5 className="s-24 w-700 mb-20">
+                    Competitive Salary Structure
+                  </h5>
+                  {/* Text */}
+                  <p>
+                    Receive a salary that exceeds local standards by over 50%,
+                    ensuring a comfortable lifestyle with all your essential
+                    needs met.
+                  </p>
+                  {/* Text */}
+                </div>
+              </div>{" "}
+              {/* END ABOUT-3 TEXT */}
             </div>{" "}
+            {/* End row */}
             {/* End container */}
           </div>{" "}
           {/* END ABOUT-3 */}
