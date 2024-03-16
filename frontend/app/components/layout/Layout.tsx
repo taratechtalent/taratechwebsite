@@ -50,17 +50,16 @@ export default function Layout({ breadcrumbTitle, children, headerCls }: any) {
     const checkIfMobile = () => {
       const screenWidth = window.innerWidth;
       setIsMobile(screenWidth < 768); // Adjust the threshold as per your design
+      if (screenWidth > 768) {
+        const wow = new WOW.WOW({
+          live: false,
+        });
+        wow.init();
+      }
     };
 
     // Check initially
     checkIfMobile();
-
-    if (!isMobile) {
-      const wow = new WOW.WOW({
-        live: false,
-      });
-      wow.init();
-    }
 
     // Handle scroll events
     const handleScroll = () => {
