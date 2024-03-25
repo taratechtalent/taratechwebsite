@@ -1,22 +1,25 @@
 import Link from "next/link";
 
 export default function Menu({ isMobileMenu }: any) {
+  const removeMenuPanel = () => {
+    document.body.classList.remove("wsactive");
+  };
   return (
     <>
       <ul className="wsmenu-list nav-theme">
         {/* DROPDOWN SUB MENU */}
         <li className="nl-simple">
-          <Link href="/toptalent" className="h-link">
+          <Link href="/toptalent" className="h-link" onClick={removeMenuPanel}>
             Top 1%
           </Link>
         </li>
         <li className="nl-simple">
-          <Link href="/service" className="h-link">
+          <Link href="/service" className="h-link" onClick={removeMenuPanel}>
             Services
           </Link>
         </li>
         <li className="nl-simple">
-          <Link href="/career" className="h-link">
+          <Link href="/career" className="h-link" onClick={removeMenuPanel}>
             Career
           </Link>
         </li>
@@ -26,24 +29,30 @@ export default function Menu({ isMobileMenu }: any) {
           </Link>
           <ul className="sub-menu">
             <li>
-              <Link href="/industries/health">Healthcare & Life Sciences</Link>
+              <Link href="/industries/health" onClick={removeMenuPanel}>
+                Healthcare & Life Sciences
+              </Link>
             </li>
             <li>
-              <Link href="/industries/technology">Technology</Link>
+              <Link href="/industries/technology" onClick={removeMenuPanel}>
+                Technology
+              </Link>
             </li>
             <li>
-              <Link href="/industries/communication">
+              <Link href="/industries/communication" onClick={removeMenuPanel}>
                 Communication,Media & Entertainment
               </Link>
             </li>
             <li>
-              <Link href="/industries/marketing">Financial Services</Link>
+              <Link href="/industries/marketing" onClick={removeMenuPanel}>
+                Financial Services
+              </Link>
             </li>
           </ul>
         </li>
 
         <li className="nl-simple">
-          <Link href="/about" className="h-link">
+          <Link href="/about" className="h-link" onClick={removeMenuPanel}>
             About Us
           </Link>
         </li>
@@ -54,6 +63,7 @@ export default function Menu({ isMobileMenu }: any) {
           <>
             <li className="nl-simple ">
               <Link
+                onClick={removeMenuPanel}
                 href="/calculator"
                 className="btn r-04  hover--tra-red last-link ml-20 estimateHeader"
                 style={{
@@ -68,6 +78,7 @@ export default function Menu({ isMobileMenu }: any) {
             </li>
             <li className="nl-simple ">
               <Link
+                onClick={removeMenuPanel}
                 href="/book"
                 className="btn r-04 btn--theme hover--tra-white last-link ml-2 header-btn"
                 style={{
@@ -80,6 +91,7 @@ export default function Menu({ isMobileMenu }: any) {
             </li>
             <li className="nl-simple ">
               <Link
+                onClick={removeMenuPanel}
                 href="/career/join"
                 className="btn r-04  hover--tra-red last-link ml-20"
                 style={{
