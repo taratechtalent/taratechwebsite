@@ -62,7 +62,10 @@ export default function Header({
               </div>
               {/* HEADER WHITE LOGO */}
               {/* MAIN MENU */}
-              <nav className="wsmenu clearfix" style={{ height: `100vh` }}>
+              <nav
+                className="wsmenu clearfix"
+                style={{ height: `${isMobileMenu ? "100vh" : ""}` }}
+              >
                 <Menu isMobileMenu={isMobileMenu} />
                 {/* {isMobileMenu ? (
                   <MobileMenu />

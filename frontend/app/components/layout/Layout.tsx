@@ -58,7 +58,7 @@ export default function Layout({ breadcrumbTitle, children, headerCls }: any) {
         setScroll(scrollCheck);
       }
     });
-  }, []);
+  }, [scroll]);
   return (
     <section>
       <PageHead headTitle={""} />
