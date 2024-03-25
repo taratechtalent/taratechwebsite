@@ -50,7 +50,7 @@ export default function Menu({ isMobileMenu }: any) {
 
         {/* SIGN IN LINK */}
         {/* SIGN UP BUTTON */}
-        {!isMobileMenu && (
+        {
           <>
             <li className="nl-simple ">
               <Link
@@ -93,7 +93,7 @@ export default function Menu({ isMobileMenu }: any) {
               </Link>
             </li>
           </>
-        )}
+        }
       </ul>
     </>
   );
