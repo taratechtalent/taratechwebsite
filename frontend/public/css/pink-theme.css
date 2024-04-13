@@ -13790,6 +13790,12 @@ a {
     padding-top: 0px;
     text-align: center;
   }
+
+  .serviceBoxStyle {
+    padding: 0px !important;
+    margin: 0px !important;
+    min-height: 180px !important;
+  }
 }
 
 /* For larger screens like windows */
@@ -13807,9 +13813,17 @@ a {
   }
 }
 
+.heroText {
+  text-align: left;
+}
+
 @media (min-width: 768px) {
   .test {
     max-width: 520px;
     width: 100%;
+  }
+
+  .heroText {
+    text-align: center;
   }
 }

@@ -466,7 +466,7 @@ const Services = () => {
                   <Link href="/service/web">
                     <div
                       id="fb-12-1"
-                      className="fbox-12 bg--white-100 block-shadow r-12 mb-30 text-center"
+                      className="fbox-12 bg--white-100 block-shadow r-12 mb-30 text-center serviceBoxStyle"
                     >
                       {/* Icon */}
                       <div className="fbox-ico ico-50">
@@ -489,7 +489,7 @@ const Services = () => {
                   <Link href="/service/devops">
                     <div
                       id="fb-12-2"
-                      className="fbox-12 bg--white-100 block-shadow r-12 text-center"
+                      className="fbox-12 bg--white-100 block-shadow r-12 text-center serviceBoxStyle"
                     >
                       <div className="fbox-ico ico-50">
                         <div className="shape-ico color--theme">
@@ -507,7 +507,7 @@ const Services = () => {
                   <Link href="/service/uiux">
                     <div
                       id="fb-12-3"
-                      className="fbox-12 bg--white-100 block-shadow r-12 mb-30 text-center"
+                      className="fbox-12 bg--white-100 block-shadow r-12 mb-30 text-center serviceBoxStyle "
                     >
                       {/* Icon */}
                       <div className="fbox-ico ico-50">
@@ -530,7 +530,7 @@ const Services = () => {
                   <Link href="/service/art">
                     <div
                       id="fb-12-2"
-                      className="fbox-12 bg--white-100 block-shadow r-12 text-center"
+                      className="fbox-12 bg--white-100 block-shadow r-12 text-center serviceBoxStyle"
                     >
                       {/* Icon */}
                       <div className="fbox-ico ico-50">
@@ -566,7 +566,7 @@ const Services = () => {
             <Link href="/service/mobile">
               <div
                 id="fb-12-2"
-                className="fbox-12 bg--white-100 block-shadow r-12 text-center"
+                className="fbox-12 bg--white-100 block-shadow r-12 text-center serviceBoxStyle"
               >
                 {/* Icon */}
                 <div className="fbox-ico ico-50">
@@ -591,7 +591,7 @@ const Services = () => {
             <Link href="/service/ai">
               <div
                 id="fb-12-4"
-                className="fbox-12 bg--white-100 block-shadow r-12 text-center"
+                className="fbox-12 bg--white-100 block-shadow r-12 text-center serviceBoxStyle"
               >
                 {/* Icon */}
                 <div className="fbox-ico ico-50">
@@ -619,7 +619,7 @@ const Services = () => {
             <Link href="/service/qa">
               <div
                 id="fb-12-2"
-                className="fbox-12 bg--white-100 block-shadow r-12 text-center"
+                className="fbox-12 bg--white-100 block-shadow r-12 text-center serviceBoxStyle"
               >
                 {/* Icon */}
                 <div className="fbox-ico ico-50">

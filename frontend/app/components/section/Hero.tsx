@@ -45,7 +45,7 @@ export default function Hero() {
               <div className="row d-flex align-items-center">
                 {/* HERO IMAGE */}
                 <div className="col-md-6 order-first order-md-2">
-                  <div className="hero-2-txt wow fadeInLeft pl-20">
+                  <div className="hero-2-txt wow fadeInLeft pl-20 heroText">
                     {/* Title */}
                     <h2 className="s-48 w-700 color--black">
                       {" "}
@@ -95,7 +95,7 @@ export default function Hero() {
                 {/* HERO IMAGE */}
                 {/* HERO TEXT */}
                 <div className="col-md-6 order-first order-md-2">
-                  <div className="hero-2-txt wow fadeInLeft pl-20">
+                  <div className="hero-2-txt wow fadeInLeft pl-20 heroText">
                     {/* Title */}
 
                     {/* Title */}
