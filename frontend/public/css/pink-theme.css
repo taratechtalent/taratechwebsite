@@ -13806,3 +13806,10 @@ a {
     text-align: left;
   }
 }
+
+@media (min-width: 768px) {
+  .test {
+    max-width: 520px;
+    width: 100%;
+  }
+}
