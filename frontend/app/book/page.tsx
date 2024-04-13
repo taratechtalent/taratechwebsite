@@ -223,7 +223,6 @@ export default function Book() {
                                     <div className="col-md-12 col-sm-12 text-center">
                                       <button
                                         onClick={arrangeCall}
-                                        style={{ width: "25%" }}
                                         type="button"
                                         className="btn btn--theme hover--theme submit"
                                       >
