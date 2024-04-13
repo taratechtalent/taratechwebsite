@@ -39,7 +39,7 @@ export default function MobileMenu() {
             Career
           </Link>
         </li>{" "}
-        <li>
+        {/* <li>
           <span
             className={
               isActive.key == "1"
@@ -72,7 +72,7 @@ export default function MobileMenu() {
               <Link href="/industries/marketing">Financial Services</Link>
             </li>
           </ul>
-        </li>
+        </li> */}
         <li className="nl-simple">
           <Link href="/about" className="h-link">
             About us
