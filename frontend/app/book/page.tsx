@@ -19,11 +19,15 @@ export default function Book() {
     key: 1,
   });
   const searchParams = useSearchParams();
-
+  const [showAlert, setShowAlert] = useState(false);
+  const [showError, setShowError] = useState(false);
+  const [loading, setLoading] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
   const [name, setName] = useState("");
+  const [company, setCompany] = useState("");
+  const [position, setPosition] = useState("");
   const [email, setEmail] = useState("");
-  const [phone, setPhone] = useState("");
-  const [description, setMessage] = useState(
+  const [request, setRequest] = useState(
     searchParams.get("service")
       ? `Regarding the results on the Quote page, you have selected a talent in ${searchParams.get(
           "service"
@@ -37,10 +41,76 @@ export default function Book() {
       : ""
   );
   const router = useRouter();
-
   const arrangeCall = () => {
-    // Redirect to 'www.google.com'
-    router.push("https://calendly.com/mohamedahmadian/30min");
+    setShowAlert(false);
+    setShowError(false);
+    const data = {
+      name,
+      position,
+      email,
+      request,
+      company,
+    };
+
+    if (!data.name?.trim()) {
+      setShowError(true);
+      setErrorMessage("Please enter your name");
+      return;
+    }
+
+    if (!data.company?.trim()) {
+      setShowError(true);
+      setErrorMessage("Please enter your company");
+      return;
+    }
+
+    if (!data.position?.trim()) {
+      setShowError(true);
+      setErrorMessage("Please enter your position in the company");
+      return;
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(data.email)) {
+      setShowError(true);
+      setErrorMessage("Please enter valid email");
+      return;
+    }
+
+    if (!data.request?.trim()) {
+      setShowError(true);
+      setErrorMessage("Please enter something about your request");
+      return;
+    }
+
+    setLoading(true);
+
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/client/request`, {
+      method: "post",
+      headers: {
+        "Content-Type": "application/json",
+      },
+      body: JSON.stringify(data),
+    })
+      .then((response) => {
+        if (!response.ok) {
+          throw new Error("Sorry, we could not save your request");
+        }
+        setShowAlert(true);
+        setEmail("");
+        setName("");
+        setCompany("");
+        setPosition("");
+        setRequest("");
+        router.push("https://calendly.com/mohamedahmadian/30min");
+      })
+      .catch((error) => {
+        setShowError(true);
+        setErrorMessage(error.message);
+      })
+      .finally(() => {
+        setLoading(false);
+      });
   };
 
   return (
@@ -165,9 +235,9 @@ export default function Book() {
                                         type="text"
                                         name="text"
                                         placeholder="Tell us the name of your company."
-                                        value={phone}
+                                        value={company}
                                         onChange={(e) =>
-                                          setPhone(e.target.value)
+                                          setCompany(e.target.value)
                                         }
                                       />
                                     </div>
@@ -180,9 +250,9 @@ export default function Book() {
                                         type="text"
                                         name="text"
                                         placeholder="What's your role at the company? (e.g., CEO, CTO, Project Manager)"
-                                        value={phone}
+                                        value={position}
                                         onChange={(e) =>
-                                          setPhone(e.target.value)
+                                          setPosition(e.target.value)
                                         }
                                       />
                                     </div>
@@ -213,9 +283,9 @@ export default function Book() {
                                         name="message"
                                         rows={5}
                                         placeholder="Let us know your preferences to tailor our meeting to your needs. "
-                                        value={description}
+                                        value={request}
                                         onChange={(e) =>
-                                          setMessage(e.target.value)
+                                          setRequest(e.target.value)
                                         }
                                       />
                                     </div>
@@ -233,6 +303,34 @@ export default function Book() {
                                   {/* END LOGIN FORM */}
                                 </div>
                               </div>
+                              {showAlert && (
+                                <div
+                                  className={`col-lg-12 contact-form-msg } `}
+                                >
+                                  <div
+                                    className={`alert alert-success text-center fadeDiv ${
+                                      showAlert ? "show" : ""
+                                    }  `}
+                                    role="alert"
+                                  >
+                                    Thank you for your comments, we wil call you
+                                    soon
+                                  </div>
+                                </div>
+                              )}
+
+                              {showError && (
+                                <div
+                                  className={`col-lg-12 contact-form-msg } `}
+                                >
+                                  <div
+                                    className={`alert alert-danger text-center`}
+                                    role="alert"
+                                  >
+                                    {errorMessage}
+                                  </div>
+                                </div>
+                              )}
                             </div>
                             {/* END TAB-1 CONTENT */}
                             {/* TAB-2 CONTENT */}

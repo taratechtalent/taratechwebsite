@@ -128,7 +128,7 @@ export default function Footer() {
               <div className="col">
                 <ul className="bottom-footer-socials ico-20 text-end">
                   <li>
-                    <Link href="https://www.linkedin.com/in/tara-talent">
+                    <Link href="https://www.linkedin.com/company/tara-talent/">
                       <span className="flaticon-linkedin-logo" />
                     </Link>
                   </li>

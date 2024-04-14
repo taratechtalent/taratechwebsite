@@ -10,19 +10,38 @@ export default function Contact() {
   const [showAlert, setShowAlert] = useState(false);
   const [showError, setShowError] = useState(false);
   const [loading, setLoading] = useState(false);
-  const [errorMessage, setErrorMessage] = useState(false);
+  const [errorMessage, setErrorMessage] = useState("");
   const sendRequest = () => {
     setShowAlert(false);
     setShowError(false);
-
     const data = {
       name,
       email,
       description,
     };
+
+    if (!data.name?.trim()) {
+      setShowError(true);
+      setErrorMessage("Please enter your name");
+      return;
+    }
+
+    const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
+    if (!emailRegex.test(data.email)) {
+      setShowError(true);
+      setErrorMessage("Please enter valid email");
+      return;
+    }
+
+    if (!data.description?.trim()) {
+      setShowError(true);
+      setErrorMessage("Please enter something about your request");
+      return;
+    }
+
     setLoading(true);
 
-    fetch(`${process.env.NEXT_PUBLIC_API_URL}contactus`, {
+    fetch(`${process.env.NEXT_PUBLIC_API_URL}/contactus`, {
       method: "post",
       headers: {
         "Content-Type": "application/json",
@@ -159,7 +178,7 @@ export default function Contact() {
                       <div className="col-md-12 mt-15 form-btn text-right">
                         <button
                           type="button"
-                          className="btn btn--theme hover--theme submit "
+                          className="btn btn--theme hover--theme submit hover--tra-white "
                           onClick={sendRequest}
                         >
                           <div className="flex items-center">

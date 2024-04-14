@@ -1,4 +1,4 @@
-import { Body, Controller, Get, Post, Query } from '@nestjs/common';
+import { Body, Controller, Post } from '@nestjs/common';
 import { ContactusService } from './contactus.service';
 import { ApiOperation, ApiResponse, ApiTags } from '@nestjs/swagger';
 import { CreateContactusDto } from './dto/create-contactus.dto';

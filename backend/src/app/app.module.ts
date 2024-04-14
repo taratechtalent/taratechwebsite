@@ -5,6 +5,7 @@ import { TalentModule } from '../talent/talent.module';
 import { TypeOrmModule } from '@nestjs/typeorm';
 import { datasourceConfig } from '../typeorm.config';
 import { ContactusModule } from 'src/contactus/contactus.module';
+import { ClientModule } from 'src/client/client.module';
 
 @Module({
   imports: [
@@ -16,6 +17,7 @@ import { ContactusModule } from 'src/contactus/contactus.module';
     }),
     TalentModule,
     ContactusModule,
+    ClientModule,
   ],
   controllers: [AppController],
   providers: [AppService],
