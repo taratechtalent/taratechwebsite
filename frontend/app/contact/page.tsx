@@ -211,37 +211,7 @@ export default function Contact() {
           <hr className="divider" />
           {/* NEWSLETTER-1
 			============================================= */}
-          <section id="newsletter-1" className="newsletter-section">
-            <div className="newsletter-overlay bg--02">
-              <div className="container">
-                <div className="row d-flex align-items-center">
-                  {/* NEWSLETTER TEXT */}
-                  <div className="col-md-8">
-                    <h4 className="s-34 w-700">
-                      Accelerate your roadmap with a global partner.
-                    </h4>
-                    <div className="w-56 text-center mt-8">
-                      <Link
-                        href="/book"
-                        className="btn  btn--theme hover--tra-white  w-28"
-                      >
-                        Book a Discovery Call
-                      </Link>
-                    </div>
-                  </div>
-                  <div className="col-md-4">
-                    <div className="banner-12-img text-center">
-                      <img
-                        className="img-fluid rounded-full h-1/4"
-                        src="/images/contact/join-girl-2.png"
-                        alt="banner-image"
-                      />
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </section>
+
           <hr className="divider" />
           <section className="pt-100 ct-02 content-section division mb-40">
             <div className="container">
@@ -257,6 +227,7 @@ export default function Contact() {
                   </div>
                   <div className="img-block left-column wow fadeInRight">
                     <img
+                      style={{ width: "100%" }}
                       className="img-fluid  rounded-md"
                       src="/images/stanbul.png"
                       alt="content-image"
@@ -283,6 +254,7 @@ export default function Contact() {
                 <div className="col-md-6">
                   <div className="img-block left-column wow fadeInRight">
                     <img
+                      style={{ width: "100%" }}
                       className="img-fluid rounded-md"
                       src="/images/milan.png"
                       alt="content-image"
@@ -296,15 +268,11 @@ export default function Contact() {
 
                     {/* Title */}
                     <h2 className="s-34 w-700 ">Financial section</h2>
-                    <span className="s-20 w-700">
-                      Milan, 
-                      Italy
-                    </span>
+                    <span className="s-20 w-700">Milan, Italy</span>
                     {/* Text */}
                     <p>
-                    Holiday Group S.R.L.<br></br>
-                     Via Monte Rosa 74, Milan, 20149,
-                      Italy
+                      Holiday Group S.R.L.<br></br>
+                      Via Monte Rosa 74, Milan, 20149, Italy
                     </p>
                     {/* Text */}
                   </div>
@@ -314,8 +282,8 @@ export default function Contact() {
               </div>
 
               {/* <div className="row d-flex align-items-center mt-20"> */}
-                {/* IMAGE BLOCK */}
-                {/* <div className="col-md-6">
+              {/* IMAGE BLOCK */}
+              {/* <div className="col-md-6">
                   <div className="img-block left-column wow fadeInRight">
                     <img
                       className="img-fluid rounded-md"
@@ -324,8 +292,8 @@ export default function Contact() {
                     />
                   </div>
                 </div> */}
-                {/* TEXT BLOCK */}
-                {/* <div className="col-md-6">
+              {/* TEXT BLOCK */}
+              {/* <div className="col-md-6">
                   <div className="txt-block right-column wow fadeInLeft">
 
                     <h2 className="s-34 w-700 ">Main branch</h2>
@@ -334,13 +302,48 @@ export default function Contact() {
                   </div>
                 </div> */}
 
-                {/* END TEXT BLOCK */}
-              </div>
-              {/* END SECTION CONTENT (ROW) */}
+              {/* END TEXT BLOCK */}
+            </div>
+            {/* END SECTION CONTENT (ROW) */}
             {/* </div> */}
             {/* End container */}
           </section>
           <hr className="divider" />
+          <section id="newsletter-1" className="newsletter-section">
+            <div className="newsletter-overlay bg--02">
+              <div className="container">
+                <div className="row d-flex align-items-center">
+                  {/* NEWSLETTER TEXT */}
+                  <div className="col-sm-12 col-md-8">
+                    <div className="col-sm-12">
+                      <h4 className="s-34 w-700">
+                        Accelerate your roadmap with a global partner.
+                      </h4>
+                    </div>
+                    <div className="col-sm-12 text-center mt-8">
+                      <div className="w-56 text-center bookCallInContact">
+                        <Link
+                          href="/book"
+                          className="btn  btn--theme hover--tra-white  w-28"
+                        >
+                          Book a Discovery Call
+                        </Link>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="col-md-4">
+                    <div className="banner-12-img text-center">
+                      <img
+                        className="img-fluid rounded-full h-1/4"
+                        src="/images/contact/join-girl-2.png"
+                        alt="banner-image"
+                      />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
       </Layout>
     </>
