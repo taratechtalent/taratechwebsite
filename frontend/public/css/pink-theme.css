@@ -13827,3 +13827,15 @@ a {
     text-align: center;
   }
 }
+
+[native-dark-active] .ceoSection h2 {
+  color: black !important;
+}
+
+[native-dark-active] .ceoSection p {
+  color: black !important;
+}
+
+[native-dark-active] .ceoSection b {
+  color: black !important;
+}

@@ -51,7 +51,7 @@ const Introduction = () => {
               />
             </div>
           </div>
-          <div className="col-md-6 order-last order-md-2">
+          <div className="col-md-6 order-last order-md-2 ceoSection">
             <div className="txt-block left-column wow fadeInRight">
               {/* Section ID */}
               <span className="section-id">Co-founder at Taratalent</span>
