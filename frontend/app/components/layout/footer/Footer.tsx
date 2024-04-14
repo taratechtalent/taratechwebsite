@@ -15,7 +15,6 @@ export default function Footer() {
                   src="/images/logo/footer.png"
                   alt="footer-logo"
                 />
-               
               </div>
             </div>
             {/* FOOTER LINKS */}
@@ -129,12 +128,12 @@ export default function Footer() {
               <div className="col">
                 <ul className="bottom-footer-socials ico-20 text-end">
                   <li>
-                    <Link href="https://www.linkedin.com/in/fhassani2005">
+                    <Link href="https://www.linkedin.com/in/tara-talent">
                       <span className="flaticon-linkedin-logo" />
                     </Link>
                   </li>
                   <li>
-                    <Link href="mailto:support@tara-talent.com">
+                    <Link href="mailto:info@tara-talent.com">
                       <span className="flaticon-email" />
                     </Link>
                   </li>

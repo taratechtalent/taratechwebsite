@@ -13832,10 +13832,6 @@ a {
     max-width: 520px;
     width: 100%;
   }
-
-  .heroText {
-    text-align: center;
-  }
 }
 
 [native-dark-active] .ceoSection h2 {
