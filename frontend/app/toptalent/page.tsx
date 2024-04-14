@@ -198,6 +198,7 @@ export default function TopTalent() {
             </div>
           </div>
           {/* END ABOUT-3 */}
+          <hr className="divider" />
           <section
             id="features-11"
             className="py-100 features-section division"
@@ -382,6 +383,7 @@ export default function TopTalent() {
             </div>{" "}
             {/* End container */}
           </section>
+          <hr className="divider" />
           <section id="features-2" className="pt-100 features-section division">
             <div className="container">
               {/* SECTION TITLE */}

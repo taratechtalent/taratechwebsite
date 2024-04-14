@@ -13803,6 +13803,9 @@ a {
     margin: 10px !important;
     min-height: 180px !important;
   }
+  .fbox-wrapper p {
+    min-height: 0px;
+  }
 }
 
 /* For larger screens like windows */

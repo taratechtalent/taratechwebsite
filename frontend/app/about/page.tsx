@@ -636,8 +636,8 @@ export default function About() {
                       <div className="banner-12-txt color--white">
                         {/* Title */}
                         <h2 className="s-35 w-700">
-                          Join us to create a partnership where success is
-                          limitless and possibilities are endless.
+                          Join Us to Create a Partnership Where Success is
+                          Limitless and Possibilities are Endless.
                         </h2>
                         {/* Text */}
                         <p className="p-lg">
