@@ -4,14 +4,14 @@ import { useState } from "react";
 export default function Menu({ isMobileMenu }: any) {
   const [isActive, setIsActive] = useState({
     status: false,
-    key: "",
+    key: "0",
   });
 
   const handleToggle = (key: any) => {
     if (isActive.key === key) {
       setIsActive({
         status: false,
-        key: "",
+        key: "0",
       });
     } else {
       setIsActive({
@@ -49,11 +49,11 @@ export default function Menu({ isMobileMenu }: any) {
                 ? "wsmenu-click ws-activearrow"
                 : "wsmenu-click"
             }
-            onClick={() => handleToggle(1)}
+            onClick={() => handleToggle("1")}
           >
             <i className="wsmenu-arrow" />
           </span>
-          <Link href="#" className="h-link">
+          <Link href="#" className="h-link" onClick={() => handleToggle("1")}>
             Industries <span className="wsarrow" />
           </Link>
           <ul
