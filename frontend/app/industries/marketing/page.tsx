@@ -1,4 +1,5 @@
 /* eslint-disable @next/next/no-img-element */
+import ServiceContactComponent from "@/app/component/service.contact.component";
 import Layout from "@/app/components/layout/Layout";
 import Link from "next/link";
 export default function Home() {
@@ -248,16 +249,6 @@ export default function Home() {
             </div>{" "}
             {/* End container */}
           </section>{" "}
-          <div className="row p-4 m-4" style={{ backgroundColor: "#37939b" }}>
-            <div className="col-sm-12 text-center">
-              <Link
-                href="/book"
-                className="btn r-04 btn--theme hover--theme mb-20  mt-20"
-              >
-                Team up for success
-              </Link>
-            </div>
-          </div>
           <hr className="divider" />
           <section className="py-100 ct-02 content-section division">
             <div className="container">
@@ -273,7 +264,7 @@ export default function Home() {
               <div className="row d-flex align-items-center">
                 {/* IMAGE BLOCK */}
                 <div className="col-md-12">
-                  <div className="txt-block flex right-column wow fadeInLeft row">
+                  <div className="txt-block flex right-column wow fadeInLeft row !mb-10">
                     {/* CONTENT BOX #1 */}
                     <div className="cbox-2 process-step col-md-4 col-sm-12">
                       {/* Icon */}
@@ -339,6 +330,11 @@ export default function Home() {
                     </div>{" "}
                     {/* END CONTENT BOX #3 */}
                   </div>
+
+                  <ServiceContactComponent
+                    title="Come Along and Let's Build a Team Where Achievements Are Limitless!"
+                    desc="Your distinct skills and viewpoints are the essential elements we need to complete our shared journey of achievement."
+                  />
                 </div>{" "}
                 {/* END TEXT BLOCK */}
               </div>{" "}
