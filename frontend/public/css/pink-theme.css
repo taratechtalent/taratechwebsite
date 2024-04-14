@@ -13792,8 +13792,8 @@ a {
   }
 
   .serviceBoxStyle {
-    padding: 0px !important;
-    margin: 0px !important;
+    padding: 10px !important;
+    margin: 10px !important;
     min-height: 180px !important;
   }
 }
