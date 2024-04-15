@@ -102,7 +102,7 @@ export default function Book() {
         setCompany("");
         setPosition("");
         setRequest("");
-        router.push("https://calendly.com/mohamedahmadian/30min");
+        router.push("https://calendly.com/d/cky3-tvt-37f/tara-talent");
       })
       .catch((error) => {
         setShowError(true);
