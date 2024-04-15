@@ -102,7 +102,7 @@ export default function Book() {
         setCompany("");
         setPosition("");
         setRequest("");
-        router.push("https://calendly.com/d/cky3-tvt-37f/tara-talent");
+        router.push("https://calendly.com/tara-talent/consulting_meeting");
       })
       .catch((error) => {
         setShowError(true);
