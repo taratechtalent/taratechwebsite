@@ -2,7 +2,7 @@ import { NestFactory } from '@nestjs/core';
 import { AppModule } from './app/app.module';
 import { configApp } from './config/configApp';
 import { getEnv } from './config/env';
-import AppDataSource from './typeorm.config';
+import DataSource from './typeorm.config';
 import * as fs from 'fs';
 async function bootstrap() {
   let key, cert, httpsOptions;
@@ -19,7 +19,7 @@ async function bootstrap() {
 
   const app = await NestFactory.create(AppModule, { httpsOptions });
 
-  await AppDataSource.initialize();
+  await DataSource.initialize();
   configApp(app);
   const PORT = getEnv('SERVER_PORT', '7000');
   await app.listen(PORT, async () => {

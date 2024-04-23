@@ -1,0 +1,24 @@
+version: '3'
+services:
+  app:
+    build: .
+    ports:
+      - '7000:7000'
+    depends_on:
+      - postgres
+    command: >
+      sh -c "npm run typeorm:migration-up && npm start"
+  postgres:
+    image: postgres:latest
+    restart: always
+    environment:
+      POSTGRES_USER: 'postgres'
+      POSTGRES_PASSWORD: '!Mohal6889'
+      POSTGRES_DB: 'taratalent'
+    ports:
+      - '5432:5432'
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+
+volumes:
+  postgres_data:
