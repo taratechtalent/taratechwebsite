@@ -12,7 +12,7 @@ RUN npm install -g pnpm
 
 # Install dependencies
 RUN pnpm install
-
+RUN pnpm install ts-node
 # Copy the rest of the application code
 COPY . .
 
