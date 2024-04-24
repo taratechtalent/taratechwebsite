@@ -7,7 +7,7 @@ WORKDIR /app
 # Copy package.json and package-lock.json to the working directory
 COPY package*.json ./
 
-# Install pnpm globally
+
 RUN npm install -g pnpm
 
 # Install dependencies
@@ -25,4 +25,7 @@ RUN npm run build
 EXPOSE 7000
 
 # Command to run your application
+
+
+
 CMD ["npm", "run", "start:prod"]
