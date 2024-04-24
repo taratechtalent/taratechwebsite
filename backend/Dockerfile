@@ -8,8 +8,6 @@ WORKDIR /app
 COPY package*.json ./
 
 
-RUN npm install -g pnpm
-
 # Install dependencies
 
 # Copy the rest of the application code
@@ -20,8 +18,6 @@ COPY .env ./
 
 
 RUN npm install
-RUN npm install -g ts-node
-RUN npm install -g typeorm
 
 RUN npm run build
 
