@@ -7,7 +7,7 @@ services:
     depends_on:
       - postgres
     command: >
-      sh -c "npm run typeorm:migration-up && npm start"
+      sh -c "npm start"
     volumes:
       - ./backend:/app # Mount the backend directory into the container
 
