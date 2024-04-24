@@ -19,9 +19,9 @@ COPY . .
 COPY .env ./
 
 
-RUN pnpm install
-RUN pnpm install -g ts-node
-RUN pnpm install -g typeorm
+RUN npm install
+RUN npm install -g ts-node
+RUN npm install -g typeorm
 
 RUN npm run build
 
