@@ -11,14 +11,17 @@ COPY package*.json ./
 RUN npm install -g pnpm
 
 # Install dependencies
-RUN pnpm install
-RUN pnpm install ts-node
-RUN pnpm install typeorm
+
 # Copy the rest of the application code
 COPY . .
 
 # Copy the .env and .env.development files
 COPY .env ./
+
+
+RUN pnpm install
+RUN pnpm install ts-node
+RUN pnpm install typeorm
 
 RUN npm run build
 
