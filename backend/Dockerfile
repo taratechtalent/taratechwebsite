@@ -1,5 +1,5 @@
 # Use Node.js base image
-FROM node:18-alpine
+FROM node:18.16-bullseye
 
 # Set working directory
 WORKDIR /app
@@ -7,8 +7,11 @@ WORKDIR /app
 # Copy package.json and package-lock.json to the working directory
 COPY package*.json ./
 
+
+RUN npm install -g pnpm
+
 # Install dependencies
-RUN npm install
+RUN pnpm install
 
 # Copy the rest of the application code
 COPY . .
@@ -23,6 +26,6 @@ EXPOSE 7000
 
 # Command to run your application
 
-RUN npm install -g pnpm
+
 
 CMD ["npm", "run", "start:prod"]
