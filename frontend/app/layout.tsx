@@ -20,6 +20,7 @@ import "@splidejs/react-splide/css/sea-green";
 
 // or only core styles
 import "@splidejs/react-splide/css/core";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   title: "Tara Talent",
@@ -34,6 +35,13 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
+        <Script id="gtm" strategy="afterInteractive">
+          {`(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+            new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+            j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+            'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+            })(window,document,'script','dataLayer','GTM-T8QMFX64');`}
+        </Script>
         <meta name="robots" content="noindex, nofollow" />
         <link
           rel="shortcut icon"
@@ -58,7 +66,17 @@ export default function RootLayout({
           href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
         />
       </head>
-      <body>{children}</body>
+      <body>
+        <noscript>
+          <iframe
+            src="https://www.googletagmanager.com/ns.html?id=GTM-T8QMFX64"
+            height="0"
+            width="0"
+            style={{ display: "none", visibility: "hidden" }}
+          ></iframe>
+        </noscript>
+        {children}
+      </body>
     </html>
   );
 }
